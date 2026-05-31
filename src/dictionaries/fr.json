@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Nyan Progress Bar — Scrubbers YouTube avec des Chats",
+      "description": "Remplacez la barre de progression YouTube par des chats animés. 12 scrubbers intégrés, personnalisateur en direct et support de GIF personnalisé."
+    },
+    "contact": { "title": "Contact & Centre de Support — Nyan Progress Bar" },
+    "extension": { "title": "Obtenir l'Extension — Nyan Progress Bar" },
+    "support": { "title": "Soutenir le Projet — Nyan Progress Bar" }
+  },
+  "nav": {
+    "home": "Accueil",
+    "extension": "Extension",
+    "support": "Soutenir",
+    "contact": "Contact"
+  },
+  "header": { "logoAlt": "Chat Nyan" },
+  "footer": { "madeWith": "Fait avec 🐱", "github": "GitHub", "support": "Soutenir" },
+  "home": {
+    "headingPart1": "Ta barre YouTube,",
+    "headingAccent": "avec des chats",
+    "description": "Remplace le scrubber ennuyeux de YouTube par des GIFs de chats animés. 12 chats inclus, support de GIF personnalisé et un personnalisateur en direct.",
+    "cta": "Ajouter à Chrome — c'est gratuit",
+    "galleryHeading": "Choisis ton chat",
+    "galleryDesc": "Clique sur un chat pour le prévisualiser sur la barre de progression ci-dessous.",
+    "feature1Title": "12 chats intégrés",
+    "feature1Desc": "Soigneusement dimensionnés et positionnés pour la barre YouTube.",
+    "feature2Title": "Télécharge ton propre GIF",
+    "feature2Desc": "Utilise n'importe quel GIF comme scrubber personnalisé.",
+    "feature3Title": "Fonctionne partout",
+    "feature3Desc": "YouTube et YouTube Music, lecteur standard et mini."
+  },
+  "extension": {
+    "heading": "Obtenir Nyan Progress Bar",
+    "description": "Extension Chrome gratuite. S'installe en quelques secondes et fonctionne immédiatement sur YouTube.",
+    "cta": "Installer sur Chrome",
+    "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
+    "featuresHeading": "Tout inclus",
+    "feature1Title": "Installation instantanée",
+    "feature1Desc": "Un clic depuis le Chrome Web Store, aucun compte requis.",
+    "feature2Title": "Aucune donnée collectée",
+    "feature2Desc": "Entièrement local. Ton activité YouTube reste privée.",
+    "feature3Title": "12 chats inclus",
+    "feature3Desc": "Change à tout moment depuis le popup, sans recharger la page.",
+    "feature4Title": "Upload de GIF personnalisé",
+    "feature4Desc": "Glisse n'importe quel GIF dans le popup pour l'utiliser comme scrubber.",
+    "feature5Title": "YouTube Music",
+    "feature5Desc": "Fonctionne aussi sur music.youtube.com.",
+    "feature6Title": "11 langues",
+    "feature6Desc": "Interface disponible en EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "questionHeading": "Une question ?",
+    "questionPre": "Consultez le",
+    "questionLinkText": "centre de support",
+    "questionPost": "ou ouvrez un rapport de bug."
+  },
+  "contact": {
+    "heading": "Centre de Support",
+    "description": "Trouvé un bug ? Une idée de fonctionnalité ? Envie de dire bonjour ? Remplis le formulaire et on te répondra.",
+    "githubPre": "Pour une aide plus rapide, tu peux aussi",
+    "githubLink": "ouvrir une issue GitHub",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Ton nom",
+      "email": "Email",
+      "emailPlaceholder": "toi@exemple.com",
+      "category": "Catégorie",
+      "categoryPlaceholder": "Sélectionne une catégorie",
+      "categoryBug": "Rapport de bug",
+      "categoryFeature": "Demande de fonctionnalité",
+      "categoryQuestion": "Question générale",
+      "message": "Message",
+      "messagePlaceholder": "Décris ton problème ou ta question...",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "errorEmpty": "Veuillez remplir tous les champs.",
+      "errorGeneric": "Une erreur s'est produite. Veuillez réessayer.",
+      "success": "Message envoyé ! Nous te répondrons bientôt."
+    }
+  },
+  "support": {
+    "heading": "Soutenir le projet",
+    "description": "Nyan Progress Bar est gratuit et open source. Si tu l'apprécies, pense à m'offrir un café — ça aide à nourrir les chats et à maintenir l'extension.",
+    "thankYou": "Merci à tous ceux qui ont soutenu le projet 🐱✨",
+    "kofiTitle": "Ko-Fi",
+    "kofiDesc": "Soutien ponctuel ou récurrent. Sans compte requis.",
+    "kofiBtn": "Soutenir sur Ko-Fi",
+    "patreonTitle": "Patreon",
+    "patreonDesc": "Abonnement mensuel avec des mises à jour exclusives.",
+    "patreonBtn": "Rejoindre sur Patreon",
+    "bmcTitle": "Buy Me a Coffee",
+    "bmcDesc": "Pourboire unique et simple. Chaque contribution compte !",
+    "bmcBtn": "Offrir un café"
+  },
+  "customizer": {
+    "adjustPosition": "Ajuster la position",
+    "height": "Hauteur",
+    "topOffset": "Décalage supérieur"
+  },
+  "preview": {
+    "label": "Aperçu en direct",
+    "player": "▶ Lecteur YouTube"
+  }
+}

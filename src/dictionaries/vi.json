@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Nyan Progress Bar — Mèo Hoạt Hình Trên Thanh YouTube",
+      "description": "Thay thế thanh tiến trình YouTube bằng mèo hoạt hình. 12 scrubber tích hợp, tùy chỉnh trực tiếp và hỗ trợ GIF tùy chỉnh."
+    },
+    "contact": { "title": "Liên Hệ & Hỗ Trợ — Nyan Progress Bar" },
+    "extension": { "title": "Tải Tiện Ích Mở Rộng — Nyan Progress Bar" },
+    "support": { "title": "Ủng Hộ Dự Án — Nyan Progress Bar" }
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "extension": "Tiện ích",
+    "support": "Ủng hộ",
+    "contact": "Liên hệ"
+  },
+  "header": { "logoAlt": "Mèo Nyan" },
+  "footer": { "madeWith": "Làm với 🐱", "github": "GitHub", "support": "Ủng hộ" },
+  "home": {
+    "headingPart1": "Thanh YouTube của bạn,",
+    "headingAccent": "với mèo",
+    "description": "Thay thế thanh tiến trình YouTube nhàm chán bằng GIF mèo hoạt hình. 12 mèo tích hợp, hỗ trợ GIF tùy chỉnh và công cụ tùy chỉnh trực tiếp.",
+    "cta": "Thêm vào Chrome — miễn phí",
+    "galleryHeading": "Chọn mèo của bạn",
+    "galleryDesc": "Nhấp vào một con mèo để xem trước trên thanh tiến trình bên dưới.",
+    "feature1Title": "12 mèo tích hợp",
+    "feature1Desc": "Được căn chỉnh kích thước và vị trí cẩn thận cho thanh YouTube.",
+    "feature2Title": "Tải lên GIF của bạn",
+    "feature2Desc": "Dùng bất kỳ GIF nào làm scrubber tùy chỉnh.",
+    "feature3Title": "Hoạt động mọi nơi",
+    "feature3Desc": "YouTube và YouTube Music, player tiêu chuẩn và thu nhỏ."
+  },
+  "extension": {
+    "heading": "Tải Nyan Progress Bar",
+    "description": "Tiện ích Chrome miễn phí. Cài đặt trong vài giây và hoạt động ngay trên YouTube.",
+    "cta": "Cài đặt trên Chrome",
+    "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
+    "featuresHeading": "Đầy đủ tính năng",
+    "feature1Title": "Cài đặt tức thì",
+    "feature1Desc": "Một cú nhấp từ Chrome Web Store, không cần tài khoản.",
+    "feature2Title": "Không thu thập dữ liệu",
+    "feature2Desc": "Hoàn toàn cục bộ. Hoạt động YouTube của bạn vẫn riêng tư.",
+    "feature3Title": "12 mèo tích hợp",
+    "feature3Desc": "Đổi bất cứ lúc nào từ popup, không cần tải lại trang.",
+    "feature4Title": "Tải lên GIF tùy chỉnh",
+    "feature4Desc": "Kéo bất kỳ GIF nào vào popup để dùng làm scrubber.",
+    "feature5Title": "YouTube Music",
+    "feature5Desc": "Cũng hoạt động trên music.youtube.com.",
+    "feature6Title": "11 ngôn ngữ",
+    "feature6Desc": "Giao diện có sẵn bằng EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "questionHeading": "Có câu hỏi không?",
+    "questionPre": "Xem",
+    "questionLinkText": "trung tâm hỗ trợ",
+    "questionPost": "hoặc mở báo cáo lỗi."
+  },
+  "contact": {
+    "heading": "Trung Tâm Hỗ Trợ",
+    "description": "Tìm thấy lỗi? Có ý tưởng? Chỉ muốn chào hỏi? Điền vào biểu mẫu và chúng tôi sẽ phản hồi sớm.",
+    "githubPre": "Để được hỗ trợ nhanh hơn, bạn cũng có thể",
+    "githubLink": "mở issue trên GitHub",
+    "form": {
+      "name": "Tên",
+      "namePlaceholder": "Tên của bạn",
+      "email": "Email",
+      "emailPlaceholder": "ban@example.com",
+      "category": "Danh mục",
+      "categoryPlaceholder": "Chọn danh mục",
+      "categoryBug": "Báo cáo lỗi",
+      "categoryFeature": "Yêu cầu tính năng",
+      "categoryQuestion": "Câu hỏi chung",
+      "message": "Tin nhắn",
+      "messagePlaceholder": "Mô tả vấn đề hoặc câu hỏi của bạn...",
+      "submit": "Gửi tin nhắn",
+      "submitting": "Đang gửi...",
+      "errorEmpty": "Vui lòng điền đầy đủ tất cả các trường.",
+      "errorGeneric": "Có lỗi xảy ra. Vui lòng thử lại.",
+      "success": "Đã gửi tin nhắn! Chúng tôi sẽ phản hồi sớm."
+    }
+  },
+  "support": {
+    "heading": "Ủng hộ dự án",
+    "description": "Nyan Progress Bar miễn phí và mã nguồn mở. Nếu bạn thích, hãy mua cho tôi một ly cà phê — điều đó giúp nuôi mèo và duy trì tiện ích.",
+    "thankYou": "Cảm ơn tất cả những ai đã ủng hộ dự án 🐱✨",
+    "kofiTitle": "Ko-Fi",
+    "kofiDesc": "Hỗ trợ một lần hoặc định kỳ. Không cần tài khoản.",
+    "kofiBtn": "Ủng hộ trên Ko-Fi",
+    "patreonTitle": "Patreon",
+    "patreonDesc": "Thành viên hàng tháng với cập nhật hậu trường.",
+    "patreonBtn": "Tham gia Patreon",
+    "bmcTitle": "Buy Me a Coffee",
+    "bmcDesc": "Tiền tip một lần đơn giản. Mỗi chút đều có ý nghĩa!",
+    "bmcBtn": "Mua cà phê"
+  },
+  "customizer": {
+    "adjustPosition": "Điều chỉnh vị trí",
+    "height": "Chiều cao",
+    "topOffset": "Độ lệch trên"
+  },
+  "preview": {
+    "label": "Xem trước trực tiếp",
+    "player": "▶ Trình phát YouTube"
+  }
+}

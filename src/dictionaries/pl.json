@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Nyan Progress Bar — Koty na Pasku YouTube",
+      "description": "Zastąp pasek postępu YouTube animowanymi kotami. 12 wbudowanych scrubberów, konfigurator na żywo i obsługa własnych GIF-ów."
+    },
+    "contact": { "title": "Kontakt i Centrum Wsparcia — Nyan Progress Bar" },
+    "extension": { "title": "Pobierz Rozszerzenie — Nyan Progress Bar" },
+    "support": { "title": "Wesprzyj Projekt — Nyan Progress Bar" }
+  },
+  "nav": {
+    "home": "Strona główna",
+    "extension": "Rozszerzenie",
+    "support": "Wesprzyj",
+    "contact": "Kontakt"
+  },
+  "header": { "logoAlt": "Kot Nyan" },
+  "footer": { "madeWith": "Zrobione z 🐱", "github": "GitHub", "support": "Wesprzyj" },
+  "home": {
+    "headingPart1": "Twój pasek YouTube,",
+    "headingAccent": "z kotami",
+    "description": "Zastąp nudny scrubber paska postępu YouTube animowanymi GIF-ami kotów. 12 wbudowanych kotów, obsługa własnych GIF-ów i konfigurator na żywo.",
+    "cta": "Dodaj do Chrome — to gratis",
+    "galleryHeading": "Wybierz swojego kota",
+    "galleryDesc": "Kliknij kota, aby zobaczyć podgląd na pasku postępu poniżej.",
+    "feature1Title": "12 wbudowanych kotów",
+    "feature1Desc": "Starannie dopasowane rozmiary i pozycje dla paska YouTube.",
+    "feature2Title": "Wgraj własny GIF",
+    "feature2Desc": "Użyj dowolnego GIF-a jako własnego scrubbera.",
+    "feature3Title": "Działa wszędzie",
+    "feature3Desc": "YouTube i YouTube Music, standardowy i mini odtwarzacz."
+  },
+  "extension": {
+    "heading": "Pobierz Nyan Progress Bar",
+    "description": "Darmowe rozszerzenie Chrome. Instaluje się w kilka sekund i działa natychmiast na YouTube.",
+    "cta": "Zainstaluj w Chrome",
+    "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
+    "featuresHeading": "Wszystko w zestawie",
+    "feature1Title": "Błyskawiczna instalacja",
+    "feature1Desc": "Jedno kliknięcie w Chrome Web Store, bez potrzeby konta.",
+    "feature2Title": "Żadnych zebranych danych",
+    "feature2Desc": "Całkowicie lokalnie. Twoja aktywność na YouTube pozostaje prywatna.",
+    "feature3Title": "12 kotów w zestawie",
+    "feature3Desc": "Zmieniaj w dowolnym momencie z popupu, bez przeładowania strony.",
+    "feature4Title": "Wgrywanie własnego GIF-a",
+    "feature4Desc": "Przeciągnij dowolny GIF do popupu, aby użyć go jako scrubbera.",
+    "feature5Title": "YouTube Music",
+    "feature5Desc": "Działa również na music.youtube.com.",
+    "feature6Title": "11 języków",
+    "feature6Desc": "Interfejs dostępny w EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "questionHeading": "Masz pytanie?",
+    "questionPre": "Sprawdź",
+    "questionLinkText": "centrum wsparcia",
+    "questionPost": "lub otwórz raport o błędzie."
+  },
+  "contact": {
+    "heading": "Centrum Wsparcia",
+    "description": "Znalazłeś błąd? Masz pomysł na funkcję? Chcesz po prostu przywitać? Wypełnij formularz, a odpowiemy.",
+    "githubPre": "Aby uzyskać szybszą pomoc, możesz też",
+    "githubLink": "otworzyć issue na GitHubie",
+    "form": {
+      "name": "Imię",
+      "namePlaceholder": "Twoje imię",
+      "email": "Email",
+      "emailPlaceholder": "ty@przyklad.pl",
+      "category": "Kategoria",
+      "categoryPlaceholder": "Wybierz kategorię",
+      "categoryBug": "Zgłoszenie błędu",
+      "categoryFeature": "Prośba o funkcję",
+      "categoryQuestion": "Ogólne pytanie",
+      "message": "Wiadomość",
+      "messagePlaceholder": "Opisz swój problem lub pytanie...",
+      "submit": "Wyślij wiadomość",
+      "submitting": "Wysyłanie...",
+      "errorEmpty": "Proszę wypełnić wszystkie pola.",
+      "errorGeneric": "Coś poszło nie tak. Proszę spróbować ponownie.",
+      "success": "Wiadomość wysłana! Odpowiemy wkrótce."
+    }
+  },
+  "support": {
+    "heading": "Wesprzyj projekt",
+    "description": "Nyan Progress Bar jest darmowy i open source. Jeśli go lubisz, rozważ postawienie mi kawy — pomaga to utrzymać koty i rozszerzenie w dobrej formie.",
+    "thankYou": "Dziękuję wszystkim, którzy wsparli projekt 🐱✨",
+    "kofiTitle": "Ko-Fi",
+    "kofiDesc": "Jednorazowe lub cykliczne wsparcie. Bez konta.",
+    "kofiBtn": "Wesprzyj na Ko-Fi",
+    "patreonTitle": "Patreon",
+    "patreonDesc": "Miesięczne członkostwo z ekskluzywnymi aktualizacjami.",
+    "patreonBtn": "Dołącz na Patreon",
+    "bmcTitle": "Buy Me a Coffee",
+    "bmcDesc": "Prosty jednorazowy datek. Każda pomoc się liczy!",
+    "bmcBtn": "Postaw kawę"
+  },
+  "customizer": {
+    "adjustPosition": "Dostosuj pozycję",
+    "height": "Wysokość",
+    "topOffset": "Przesunięcie górne"
+  },
+  "preview": {
+    "label": "Podgląd na żywo",
+    "player": "▶ Odtwarzacz YouTube"
+  }
+}
