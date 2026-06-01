@@ -19,14 +19,31 @@
     "reviews": {
       "title": "Mga pagsusuri ng gumagamit — Nyan Progress Bar",
       "description": "Tingnan kung ano ang sinasabi ng 58 na gumagamit tungkol sa Nyan Progress Bar Chrome extension. Rated 4.7 bituin."
+    },
+    "constructor": {
+      "title": "Cat Customizer — Nyan Progress Bar",
+      "description": "Pumili ng pusa at i-customize ang posisyon ng progress bar. I-install ang extension para makita sa YouTube."
     }
   },
   "nav": {
     "home": "Home",
     "extension": "Extension",
+    "customize": "I-customize",
     "support": "Suporta",
     "contact": "Makipag-ugnayan",
     "reviews": "Mga Pagsusuri"
+  },
+  "constructor": {
+    "heading": "Cat Customizer",
+    "description": "Pumili ng pusa at i-adjust ang posisyon — i-install ang extension para makita ito sa YouTube.",
+    "galleryHeading": "Piliin ang iyong pusa",
+    "galleryDesc": "I-click ang pusa para i-preview ito sa progress bar.",
+    "banner": {
+      "heading": "Hindi naka-install ang extension",
+      "description": "I-install ang Nyan Progress Bar Chrome extension para ilapat ang iyong customization sa YouTube.",
+      "cta": "Idagdag sa Chrome — libre",
+      "dismiss": "Isara"
+    }
   },
   "header": {
     "logoAlt": "Nyan na pusa"

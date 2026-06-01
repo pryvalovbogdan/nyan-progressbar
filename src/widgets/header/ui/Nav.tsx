@@ -10,6 +10,7 @@ export function Nav({ labels, lang }: NavProps) {
   const links = [
     { href: `/${lang}`, label: labels.home },
     { href: `/${lang}/extension`, label: labels.extension },
+    { href: `/${lang}/constructor`, label: labels.customize },
     { href: `/${lang}/reviews`, label: labels.reviews },
     { href: `/${lang}/support`, label: labels.support },
     { href: `/${lang}/contact`, label: labels.contact },

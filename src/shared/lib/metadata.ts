@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { Dictionary, Locale } from '@/i18n';
 import { locales } from '@/i18n';
 
-export type PageKey = 'home' | 'extension' | 'support' | 'contact' | 'reviews';
+export type PageKey = 'home' | 'extension' | 'support' | 'contact' | 'reviews' | 'constructor';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nyanprogressbar.com';
 
@@ -12,6 +12,7 @@ const ROUTE: Record<PageKey, string> = {
   support: '/support',
   contact: '/contact',
   reviews: '/reviews',
+  constructor: '/constructor',
 };
 
 const OG_LOCALE: Record<Locale, string> = {

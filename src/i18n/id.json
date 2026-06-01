@@ -19,14 +19,31 @@
     "reviews": {
       "title": "Ulasan pengguna — Nyan Progress Bar",
       "description": "Lihat apa yang 58 pengguna katakan tentang ekstensi Chrome Nyan Progress Bar. Dinilai 4.7 bintang."
+    },
+    "constructor": {
+      "title": "Kustomisasi Kucing — Nyan Progress Bar",
+      "description": "Pilih kucing dan sesuaikan posisi bilah kemajuan. Instal ekstensi untuk melihatnya langsung di YouTube."
     }
   },
   "nav": {
     "home": "Beranda",
     "extension": "Ekstensi",
+    "customize": "Sesuaikan",
     "support": "Dukung",
     "contact": "Kontak",
     "reviews": "Ulasan"
+  },
+  "constructor": {
+    "heading": "Kustomisasi Kucing",
+    "description": "Pilih kucing dan sesuaikan posisi — instal ekstensi untuk melihatnya langsung di YouTube.",
+    "galleryHeading": "Pilih kucingmu",
+    "galleryDesc": "Klik kucing untuk melihat pratinjau di bilah kemajuan.",
+    "banner": {
+      "heading": "Ekstensi belum dipasang",
+      "description": "Instal ekstensi Chrome Nyan Progress Bar untuk menerapkan kustomisasi di YouTube.",
+      "cta": "Tambah ke Chrome — gratis",
+      "dismiss": "Tutup"
+    }
   },
   "header": {
     "logoAlt": "Kucing Nyan"

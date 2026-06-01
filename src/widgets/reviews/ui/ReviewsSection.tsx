@@ -296,10 +296,8 @@ export function ReviewsSection({ labels }: Props) {
           href={STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white transition-all duration-200 hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] active:scale-[0.97] shrink-0"
-          style={{
-            background: 'linear-gradient(90deg, #ff0000, #ff7700, #ffff00, #00cc44, #0066ff, #8b00ff)',
-          }}
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-black transition-all duration-200 hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] active:scale-[0.97] shrink-0 [text-shadow:0_1px_2px_rgba(0,0,0,0.4)]"
+          style={{ backgroundImage: "url('/rainbow.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />

@@ -19,14 +19,31 @@
     "reviews": {
       "title": "Nutzerbewertungen — Nyan Progress Bar",
       "description": "Sieh, was 58 Nutzer über die Nyan Progress Bar Chrome-Erweiterung sagen. Bewertet mit 4,7 Sternen."
+    },
+    "constructor": {
+      "title": "Katzen-Konfigurator — Nyan Progress Bar",
+      "description": "Wähle deine Katze und passe die Position der Fortschrittsleiste an. Installiere die Erweiterung, um sie live auf YouTube zu sehen."
     }
   },
   "nav": {
     "home": "Startseite",
     "extension": "Erweiterung",
+    "customize": "Anpassen",
     "support": "Unterstützen",
     "contact": "Kontakt",
     "reviews": "Bewertungen"
+  },
+  "constructor": {
+    "heading": "Katzen-Konfigurator",
+    "description": "Wähle deine Katze und passe die Position an — installiere die Erweiterung, um sie live auf YouTube zu sehen.",
+    "galleryHeading": "Wähle deine Katze",
+    "galleryDesc": "Klicke auf eine Katze, um sie in der Fortschrittsleiste zu sehen.",
+    "banner": {
+      "heading": "Erweiterung nicht installiert",
+      "description": "Installiere die Chrome-Erweiterung Nyan Progress Bar, um deine Anpassung auf YouTube anzuwenden.",
+      "cta": "Zu Chrome hinzufügen — kostenlos",
+      "dismiss": "Schließen"
+    }
   },
   "header": {
     "logoAlt": "Nyan-Katze"

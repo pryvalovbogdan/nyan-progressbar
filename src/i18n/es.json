@@ -19,14 +19,31 @@
     "reviews": {
       "title": "Reseñas de usuarios — Nyan Progress Bar",
       "description": "Descubre lo que 58 usuarios dicen sobre la extensión de Chrome Nyan Progress Bar. Valorada con 4.7 estrellas."
+    },
+    "constructor": {
+      "title": "Personalizador de Gatos — Nyan Progress Bar",
+      "description": "Elige tu gato y ajusta la posición de la barra de progreso. Instala la extensión para verlo en vivo en YouTube."
     }
   },
   "nav": {
     "home": "Inicio",
     "extension": "Extensión",
+    "customize": "Personalizar",
     "support": "Apoyar",
     "contact": "Contacto",
     "reviews": "Reseñas"
+  },
+  "constructor": {
+    "heading": "Personalizador de Gatos",
+    "description": "Elige tu gato y ajusta la posición — instala la extensión para verlo en vivo en YouTube.",
+    "galleryHeading": "Elige tu gato",
+    "galleryDesc": "Haz clic en un gato para previsualizarlo en la barra de progreso.",
+    "banner": {
+      "heading": "Extensión no instalada",
+      "description": "Instala la extensión Nyan Progress Bar para Chrome para aplicar tu personalización en YouTube.",
+      "cta": "Añadir a Chrome — es gratis",
+      "dismiss": "Cerrar"
+    }
   },
   "header": {
     "logoAlt": "Gato Nyan"

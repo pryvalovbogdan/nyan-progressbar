@@ -19,14 +19,31 @@
     "reviews": {
       "title": "Avis des utilisateurs — Nyan Progress Bar",
       "description": "Découvrez ce que 58 utilisateurs disent de l'extension Chrome Nyan Progress Bar. Notée 4,7 étoiles."
+    },
+    "constructor": {
+      "title": "Personnalisateur de Chats — Nyan Progress Bar",
+      "description": "Choisissez votre chat et personnalisez la position de la barre de progression. Installez l'extension pour le voir en direct sur YouTube."
     }
   },
   "nav": {
     "home": "Accueil",
     "extension": "Extension",
+    "customize": "Personnaliser",
     "support": "Soutenir",
     "contact": "Contact",
     "reviews": "Avis"
+  },
+  "constructor": {
+    "heading": "Personnalisateur de Chats",
+    "description": "Choisissez votre chat et ajustez la position — installez l'extension pour le voir en direct sur YouTube.",
+    "galleryHeading": "Choisissez votre chat",
+    "galleryDesc": "Cliquez sur un chat pour le prévisualiser sur la barre de progression.",
+    "banner": {
+      "heading": "Extension non installée",
+      "description": "Installez l'extension Chrome Nyan Progress Bar pour appliquer votre personnalisation sur YouTube.",
+      "cta": "Ajouter à Chrome — c'est gratuit",
+      "dismiss": "Fermer"
+    }
   },
   "header": {
     "logoAlt": "Chat Nyan"

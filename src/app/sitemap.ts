@@ -3,11 +3,12 @@ import { locales } from '@/i18n';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nyanprogressbar.com';
 
-const ROUTES = ['', '/extension', '/support', '/contact', '/reviews'] as const;
+const ROUTES = ['', '/extension', '/constructor', '/reviews', '/support', '/contact'] as const;
 
 const PRIORITY: Record<string, number> = {
   '': 1.0,
   '/extension': 0.9,
+  '/constructor': 0.9,
   '/reviews': 0.8,
   '/support': 0.7,
   '/contact': 0.6,
@@ -16,6 +17,7 @@ const PRIORITY: Record<string, number> = {
 const CHANGE_FREQ: Record<string, MetadataRoute.Sitemap[number]['changeFrequency']> = {
   '': 'weekly',
   '/extension': 'monthly',
+  '/constructor': 'monthly',
   '/reviews': 'weekly',
   '/support': 'monthly',
   '/contact': 'monthly',
