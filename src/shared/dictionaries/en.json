@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Custom YouTube Cat Scrubbers",
       "description": "Replace your YouTube progress bar with animated cats. 12 built-in scrubbers, live customizer, and custom GIF support."
     },
-    "contact": { "title": "Contact & Support Center — Nyan Progress Bar" },
-    "extension": { "title": "Get the Extension — Nyan Progress Bar" },
-    "support": { "title": "Support the Project — Nyan Progress Bar" }
+    "contact": {
+      "title": "Contact & Support Center — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Get the Extension — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Support the Project — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "User Reviews — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Home",
     "extension": "Extension",
     "support": "Support",
-    "contact": "Contact"
+    "contact": "Contact",
+    "reviews": "Reviews"
   },
-  "header": { "logoAlt": "Nyan cat" },
-  "footer": { "madeWith": "Made with 🐱", "github": "GitHub", "support": "Support" },
+  "header": {
+    "logoAlt": "Nyan cat"
+  },
+  "footer": {
+    "madeWith": "Made with 🐱",
+    "github": "GitHub",
+    "support": "Support"
+  },
   "home": {
     "headingPart1": "Your YouTube bar,",
     "headingAccent": "with cats",
@@ -74,7 +90,18 @@
       "submitting": "Sending...",
       "errorEmpty": "Please fill in all fields.",
       "errorGeneric": "Something went wrong. Please try again.",
-      "success": "Message sent! We'll get back to you soon."
+      "success": "Message sent! We'll get back to you soon.",
+      "categoryBugDesc": "Something not working? Share the steps to reproduce it.",
+      "categoryFeatureDesc": "Have an idea? Share your use case and we'll consider it.",
+      "categoryQuestionDesc": "Need help with setup, install, or anything else?",
+      "screenshotLabel": "Screenshot",
+      "screenshotOptional": "(optional)",
+      "screenshotErrorType": "Only image files are supported.",
+      "screenshotErrorSize": "File is too large. Max size is 5 MB.",
+      "screenshotRemove": "Remove attachment",
+      "screenshotDrop": "Drop to attach",
+      "screenshotAttach": "Attach a screenshot",
+      "screenshotHint": "Drag & drop or click · PNG, JPG, GIF, WebP · max 5 MB"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Live Preview",
     "player": "▶ YouTube Player"
+  },
+  "stats": {
+    "heading": "By the numbers",
+    "totalInstalls": "Total Installs",
+    "countries": "Countries Reached",
+    "dailyUsers": "Daily Users",
+    "catThemes": "Cat Themes"
+  },
+  "reviews": {
+    "heading": "What users say",
+    "rateUs": "Rate us",
+    "reviews": "reviews"
   }
 }

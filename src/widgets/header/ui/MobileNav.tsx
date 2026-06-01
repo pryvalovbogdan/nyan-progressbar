@@ -3,28 +3,20 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
+import type { MobileNavProps } from './types';
 
-interface NavLabels {
-  home: string;
-  extension: string;
-  support: string;
-  contact: string;
-}
-
-interface Props {
-  labels: NavLabels;
-  lang: string;
-}
-
-export function MobileNav({ labels, lang }: Props) {
+export function MobileNav({ labels, lang }: MobileNavProps) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
-  useEffect(() => { setOpen(false); }, [pathname]);
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   const links = [
     { href: `/${lang}`, label: labels.home },
     { href: `/${lang}/extension`, label: labels.extension },
+    { href: `/${lang}/reviews`, label: labels.reviews },
     { href: `/${lang}/support`, label: labels.support },
     { href: `/${lang}/contact`, label: labels.contact },
   ];
@@ -32,7 +24,7 @@ export function MobileNav({ labels, lang }: Props) {
   return (
     <>
       <button
-        onClick={() => setOpen((o) => !o)}
+        onClick={() => setOpen(o => !o)}
         aria-label={open ? 'Close menu' : 'Open menu'}
         aria-expanded={open}
         className="w-8 h-8 flex items-center justify-center rounded-md text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
@@ -73,14 +65,10 @@ export function MobileNav({ labels, lang }: Props) {
                 key={href}
                 href={href}
                 className={`flex items-center gap-3 px-3 py-3 rounded-lg text-sm font-medium transition-colors ${
-                  pathname === href
-                    ? 'bg-[#80deea]/10 text-[#80deea]'
-                    : 'text-foreground hover:bg-accent'
+                  pathname === href ? 'bg-[#80deea]/10 text-[#80deea]' : 'text-foreground hover:bg-accent'
                 }`}
               >
-                {pathname === href && (
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#80deea] shrink-0" />
-                )}
+                {pathname === href && <span className="w-1.5 h-1.5 rounded-full bg-[#80deea] shrink-0" />}
                 <span className={pathname === href ? '' : 'ml-[18px]'}>{label}</span>
               </Link>
             ))}

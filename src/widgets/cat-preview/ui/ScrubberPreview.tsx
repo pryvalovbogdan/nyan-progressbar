@@ -2,15 +2,7 @@
 
 import Image from 'next/image';
 import { useCustomizerStore } from '@features/customizer';
-
-interface PreviewLabels {
-  label: string;
-  player: string;
-}
-
-interface Props {
-  labels: PreviewLabels;
-}
+import type { Props } from './types';
 
 export function ScrubberPreview({ labels }: Props) {
   const { selectedCat, height, top } = useCustomizerStore();

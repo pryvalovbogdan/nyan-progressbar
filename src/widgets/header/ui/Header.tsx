@@ -4,22 +4,9 @@ import { Nav } from './Nav';
 import { MobileNav } from './MobileNav';
 import { ThemeToggle } from './ThemeToggle';
 import { LanguageSelector } from './LanguageSelector';
-import type { Locale } from '@shared/dictionaries';
+import type { HeaderProps } from './types';
 
-interface NavLabels {
-  home: string;
-  extension: string;
-  support: string;
-  contact: string;
-}
-
-interface Props {
-  logoAlt: string;
-  navLabels: NavLabels;
-  lang: Locale;
-}
-
-export function Header({ logoAlt, navLabels, lang }: Props) {
+export function Header({ logoAlt, navLabels, lang }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-sm">
       <div className="mx-auto max-w-6xl px-4 h-14 flex items-center justify-between gap-2">

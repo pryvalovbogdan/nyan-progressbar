@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Katzen-Scrubber für YouTube",
       "description": "Ersetze die YouTube-Fortschrittsleiste durch animierte Katzen. 12 integrierte Scrubber, Live-Konfigurator und Unterstützung für eigene GIFs."
     },
-    "contact": { "title": "Kontakt & Support-Center — Nyan Progress Bar" },
-    "extension": { "title": "Erweiterung herunterladen — Nyan Progress Bar" },
-    "support": { "title": "Projekt unterstützen — Nyan Progress Bar" }
+    "contact": {
+      "title": "Kontakt & Support-Center — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Erweiterung herunterladen — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Projekt unterstützen — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "Nutzerbewertungen — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Startseite",
     "extension": "Erweiterung",
     "support": "Unterstützen",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "reviews": "Bewertungen"
   },
-  "header": { "logoAlt": "Nyan-Katze" },
-  "footer": { "madeWith": "Gemacht mit 🐱", "github": "GitHub", "support": "Unterstützen" },
+  "header": {
+    "logoAlt": "Nyan-Katze"
+  },
+  "footer": {
+    "madeWith": "Gemacht mit 🐱",
+    "github": "GitHub",
+    "support": "Unterstützen"
+  },
   "home": {
     "headingPart1": "Deine YouTube-Leiste,",
     "headingAccent": "mit Katzen",
@@ -74,7 +90,18 @@
       "submitting": "Wird gesendet...",
       "errorEmpty": "Bitte fülle alle Felder aus.",
       "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
-      "success": "Nachricht gesendet! Wir melden uns bald."
+      "success": "Nachricht gesendet! Wir melden uns bald.",
+      "categoryBugDesc": "Funktioniert etwas nicht? Teile die Schritte zur Reproduktion mit.",
+      "categoryFeatureDesc": "Hast du eine Idee? Beschreibe deinen Anwendungsfall und wir prüfen es.",
+      "categoryQuestionDesc": "Brauchst du Hilfe bei der Installation oder sonst etwas?",
+      "screenshotLabel": "Screenshot",
+      "screenshotOptional": "(optional)",
+      "screenshotErrorType": "Es werden nur Bilddateien unterstützt.",
+      "screenshotErrorSize": "Die Datei ist zu groß. Maximale Größe: 5 MB.",
+      "screenshotRemove": "Anhang entfernen",
+      "screenshotDrop": "Zum Anhängen ablegen",
+      "screenshotAttach": "Screenshot anhängen",
+      "screenshotHint": "Drag & Drop oder Klick · PNG, JPG, GIF, WebP · max. 5 MB"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Live-Vorschau",
     "player": "▶ YouTube-Player"
+  },
+  "stats": {
+    "heading": "In Zahlen",
+    "totalInstalls": "Installationen gesamt",
+    "countries": "Länder erreicht",
+    "dailyUsers": "Tägliche Nutzer",
+    "catThemes": "Katzen-Themen"
+  },
+  "reviews": {
+    "heading": "Was Nutzer sagen",
+    "rateUs": "Bewerten",
+    "reviews": "Bewertungen"
   }
 }

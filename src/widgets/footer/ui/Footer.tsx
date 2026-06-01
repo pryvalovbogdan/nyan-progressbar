@@ -1,12 +1,4 @@
-interface FooterLabels {
-  madeWith: string;
-  github: string;
-  support: string;
-}
-
-interface Props {
-  labels: FooterLabels;
-}
+import type { Props } from './types';
 
 export function Footer({ labels }: Props) {
   return (

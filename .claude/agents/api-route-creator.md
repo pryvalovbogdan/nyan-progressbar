@@ -12,7 +12,7 @@ Add a new API route to the Nyan Progress Bar website.
 **Method**: GET | POST | PUT | DELETE
 **Request body**: [TypeScript interface or 'none']
 **Response body**: [TypeScript interface]
-**Side effects**: [e.g. sends email via mailer.ts, reads from DB, etc.]
+**Side effects**: [e.g. sends email via @shared/lib/mailer, reads a file, etc.]
 **Auth required**: [yes/no]
 
 Rules to follow:
@@ -22,8 +22,10 @@ Rules to follow:
 - Return { ok: true } or the data object on success
 - Log errors with console.error('[route-name] description', err)
 - No any — use unknown for parsed JSON then narrow with a type guard
+- Import server utilities from @shared/lib/ (e.g. import { sendContactEmail } from '@shared/lib/mailer')
+- Never import from @features/*, @widgets/*, or @views/ inside API routes
 ```
 
 ## Example usage
 
-"Add a POST /api/subscribe route. Body: { email: string }. Saves the email to a text file on the server. Returns { ok: true } on success. Validate that email contains @."
+"Add a POST /api/subscribe route. Body: { email: string }. Saves the email to a text file on the server using Node fs. Returns { ok: true } on success. Validate that email contains @."

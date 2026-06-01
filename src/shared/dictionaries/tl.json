@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Mga Pusang YouTube Scrubber",
       "description": "Palitan ang progress bar ng YouTube ng mga animated na pusa. 12 built-in na scrubber, live na customizer, at suporta sa custom GIF."
     },
-    "contact": { "title": "Makipag-ugnayan & Support Center — Nyan Progress Bar" },
-    "extension": { "title": "Kunin ang Extension — Nyan Progress Bar" },
-    "support": { "title": "Suportahan ang Proyekto — Nyan Progress Bar" }
+    "contact": {
+      "title": "Makipag-ugnayan & Support Center — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Kunin ang Extension — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Suportahan ang Proyekto — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "Mga pagsusuri ng gumagamit — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Home",
     "extension": "Extension",
     "support": "Suporta",
-    "contact": "Makipag-ugnayan"
+    "contact": "Makipag-ugnayan",
+    "reviews": "Mga Pagsusuri"
   },
-  "header": { "logoAlt": "Nyan na pusa" },
-  "footer": { "madeWith": "Ginawa nang may 🐱", "github": "GitHub", "support": "Suporta" },
+  "header": {
+    "logoAlt": "Nyan na pusa"
+  },
+  "footer": {
+    "madeWith": "Ginawa nang may 🐱",
+    "github": "GitHub",
+    "support": "Suporta"
+  },
   "home": {
     "headingPart1": "Ang iyong YouTube bar,",
     "headingAccent": "na may mga pusa",
@@ -74,7 +90,18 @@
       "submitting": "Ipinapadala...",
       "errorEmpty": "Pakipunan ang lahat ng field.",
       "errorGeneric": "May naganap na error. Pakisubukang muli.",
-      "success": "Naipadala na ang mensahe! Makikipag-ugnayan kami sa inyo agad."
+      "success": "Naipadala na ang mensahe! Makikipag-ugnayan kami sa inyo agad.",
+      "categoryBugDesc": "May hindi gumagana? Ibahagi ang mga hakbang para maparami ito.",
+      "categoryFeatureDesc": "May ideya ka? Ibahagi ang iyong use case at isasaalang-alang namin ito.",
+      "categoryQuestionDesc": "Kailangan ng tulong sa pag-install o iba pa?",
+      "screenshotLabel": "Screenshot",
+      "screenshotOptional": "(opsyonal)",
+      "screenshotErrorType": "Mga image file lamang ang sinusuportahan.",
+      "screenshotErrorSize": "Masyadong malaki ang file. Maximum na laki ay 5 MB.",
+      "screenshotRemove": "Alisin ang attachment",
+      "screenshotDrop": "I-drop para i-attach",
+      "screenshotAttach": "Mag-attach ng screenshot",
+      "screenshotHint": "I-drag & drop o mag-click · PNG, JPG, GIF, WebP · max 5 MB"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Live Preview",
     "player": "▶ YouTube Player"
+  },
+  "stats": {
+    "heading": "Sa mga numero",
+    "totalInstalls": "Kabuuang pag-install",
+    "countries": "Mga bansang naaabot",
+    "dailyUsers": "Mga pang-araw-araw na gumagamit",
+    "catThemes": "Mga temang pusa"
+  },
+  "reviews": {
+    "heading": "Sinasabi ng mga gumagamit",
+    "rateUs": "I-rate kami",
+    "reviews": "mga pagsusuri"
   }
 }

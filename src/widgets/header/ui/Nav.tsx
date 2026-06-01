@@ -2,25 +2,15 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import type { NavProps } from './types';
 
-interface NavLabels {
-  home: string;
-  extension: string;
-  support: string;
-  contact: string;
-}
-
-interface Props {
-  labels: NavLabels;
-  lang: string;
-}
-
-export function Nav({ labels, lang }: Props) {
+export function Nav({ labels, lang }: NavProps) {
   const pathname = usePathname();
 
   const links = [
     { href: `/${lang}`, label: labels.home },
     { href: `/${lang}/extension`, label: labels.extension },
+    { href: `/${lang}/reviews`, label: labels.reviews },
     { href: `/${lang}/support`, label: labels.support },
     { href: `/${lang}/contact`, label: labels.contact },
   ];

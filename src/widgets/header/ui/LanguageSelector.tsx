@@ -28,6 +28,7 @@ export function LanguageSelector({ currentLang }: Props) {
 
   function switchLocale(locale: Locale) {
     const newPath = pathname.replace(`/${currentLang}`, `/${locale}`);
+
     router.push(newPath);
   }
 
@@ -38,13 +39,7 @@ export function LanguageSelector({ currentLang }: Props) {
       <Menu.Trigger className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent transition-colors select-none cursor-pointer outline-none">
         <span className="text-base leading-none">{current.flag}</span>
         <span className="uppercase tracking-widest text-[11px] font-bold">{currentLang}</span>
-        <svg
-          className="w-3 h-3 opacity-60"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2.5}
-        >
+        <svg className="w-3 h-3 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
         </svg>
       </Menu.Trigger>
@@ -62,9 +57,10 @@ export function LanguageSelector({ currentLang }: Props) {
               origin-top-right
             "
           >
-            {locales.map((locale) => {
+            {locales.map(locale => {
               const meta = LANG_META[locale];
               const isActive = locale === currentLang;
+
               return (
                 <Menu.Item
                   key={locale}
@@ -72,16 +68,23 @@ export function LanguageSelector({ currentLang }: Props) {
                   className={`
                     flex items-center gap-3 px-3.5 py-2.5 mx-1.5 rounded-lg text-sm cursor-pointer outline-none select-none
                     transition-colors duration-100
-                    ${isActive
-                      ? 'bg-[#80deea]/10 text-[#80deea] font-medium'
-                      : 'text-foreground hover:bg-accent data-[highlighted]:bg-accent'
+                    ${
+                      isActive
+                        ? 'bg-[#80deea]/10 text-[#80deea] font-medium'
+                        : 'text-foreground hover:bg-accent data-[highlighted]:bg-accent'
                     }
                   `}
                 >
                   <span className="text-base leading-none w-5 shrink-0">{meta.flag}</span>
                   <span className="flex-1">{meta.label}</span>
                   {isActive && (
-                    <svg className="w-3.5 h-3.5 text-[#80deea] shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <svg
+                      className="w-3.5 h-3.5 text-[#80deea] shrink-0"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2.5}
+                    >
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                     </svg>
                   )}

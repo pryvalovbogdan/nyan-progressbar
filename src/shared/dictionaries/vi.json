@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Mèo Hoạt Hình Trên Thanh YouTube",
       "description": "Thay thế thanh tiến trình YouTube bằng mèo hoạt hình. 12 scrubber tích hợp, tùy chỉnh trực tiếp và hỗ trợ GIF tùy chỉnh."
     },
-    "contact": { "title": "Liên Hệ & Hỗ Trợ — Nyan Progress Bar" },
-    "extension": { "title": "Tải Tiện Ích Mở Rộng — Nyan Progress Bar" },
-    "support": { "title": "Ủng Hộ Dự Án — Nyan Progress Bar" }
+    "contact": {
+      "title": "Liên Hệ & Hỗ Trợ — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Tải Tiện Ích Mở Rộng — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Ủng Hộ Dự Án — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "Đánh giá người dùng — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Trang chủ",
     "extension": "Tiện ích",
     "support": "Ủng hộ",
-    "contact": "Liên hệ"
+    "contact": "Liên hệ",
+    "reviews": "Đánh giá"
   },
-  "header": { "logoAlt": "Mèo Nyan" },
-  "footer": { "madeWith": "Làm với 🐱", "github": "GitHub", "support": "Ủng hộ" },
+  "header": {
+    "logoAlt": "Mèo Nyan"
+  },
+  "footer": {
+    "madeWith": "Làm với 🐱",
+    "github": "GitHub",
+    "support": "Ủng hộ"
+  },
   "home": {
     "headingPart1": "Thanh YouTube của bạn,",
     "headingAccent": "với mèo",
@@ -74,7 +90,18 @@
       "submitting": "Đang gửi...",
       "errorEmpty": "Vui lòng điền đầy đủ tất cả các trường.",
       "errorGeneric": "Có lỗi xảy ra. Vui lòng thử lại.",
-      "success": "Đã gửi tin nhắn! Chúng tôi sẽ phản hồi sớm."
+      "success": "Đã gửi tin nhắn! Chúng tôi sẽ phản hồi sớm.",
+      "categoryBugDesc": "Có gì đó không hoạt động? Chia sẻ các bước để tái hiện.",
+      "categoryFeatureDesc": "Có ý tưởng? Chia sẻ trường hợp sử dụng và chúng tôi sẽ xem xét.",
+      "categoryQuestionDesc": "Cần trợ giúp về cài đặt hay bất cứ điều gì khác?",
+      "screenshotLabel": "Ảnh chụp màn hình",
+      "screenshotOptional": "(tùy chọn)",
+      "screenshotErrorType": "Chỉ hỗ trợ tệp hình ảnh.",
+      "screenshotErrorSize": "Tệp quá lớn. Kích thước tối đa là 5 MB.",
+      "screenshotRemove": "Xóa tệp đính kèm",
+      "screenshotDrop": "Thả để đính kèm",
+      "screenshotAttach": "Đính kèm ảnh chụp màn hình",
+      "screenshotHint": "Kéo thả hoặc nhấp vào · PNG, JPG, GIF, WebP · tối đa 5 MB"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Xem trước trực tiếp",
     "player": "▶ Trình phát YouTube"
+  },
+  "stats": {
+    "heading": "Thống kê",
+    "totalInstalls": "Tổng cài đặt",
+    "countries": "Quốc gia tiếp cận",
+    "dailyUsers": "Người dùng hàng ngày",
+    "catThemes": "Chủ đề mèo"
+  },
+  "reviews": {
+    "heading": "Người dùng nói gì",
+    "rateUs": "Đánh giá",
+    "reviews": "đánh giá"
   }
 }

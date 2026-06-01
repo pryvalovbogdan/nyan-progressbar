@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"\nimport sys, json, subprocess, os\ntry:\n    data = json.loads(sys.stdin.read())\n    cmd = data.get('command', '')\nexcept Exception:\n    sys.exit(0)\n\nif 'git commit' not in cmd or '--no-verify' in cmd:\n    sys.exit(0)\n\nprint('=== Claude Code pre-commit review ===')\ncwd = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n\n# Lint check\nresult = subprocess.run(\n    ['npx', 'lint-staged', '--allow-empty'],\n    cwd=cwd, capture_output=True, text=True\n)\nif result.returncode != 0:\n    print('Lint issues found:')\n    print(result.stdout or result.stderr)\n    print('Fix lint errors before committing.')\n    sys.exit(2)\nprint('Lint: OK')\n\"\n"
+          }
+        ]
+      }
+    ]
+  }
+}

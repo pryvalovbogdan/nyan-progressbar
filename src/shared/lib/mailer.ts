@@ -15,10 +15,15 @@ export interface ContactPayload {
   email: string;
   category: string;
   message: string;
+  attachment?: {
+    name: string;
+    data: string;
+    mimeType: string;
+  };
 }
 
 export async function sendContactEmail(payload: ContactPayload) {
-  const { name, email, category, message } = payload;
+  const { name, email, category, message, attachment } = payload;
 
   await transporter.sendMail({
     from: `"Nyan Website" <${process.env.SMTP_USER}>`,
@@ -27,5 +32,14 @@ export async function sendContactEmail(payload: ContactPayload) {
     subject: `[${category}] New message from ${name}`,
     text: `Name: ${name}\nEmail: ${email}\nCategory: ${category}\n\n${message}`,
     html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Category:</strong> ${category}</p><hr/><p>${message.replace(/\n/g, '<br/>')}</p>`,
+    attachments: attachment
+      ? [
+          {
+            filename: attachment.name,
+            content: Buffer.from(attachment.data, 'base64'),
+            contentType: attachment.mimeType,
+          },
+        ]
+      : [],
   });
 }

@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Scrubbers YouTube avec des Chats",
       "description": "Remplacez la barre de progression YouTube par des chats animés. 12 scrubbers intégrés, personnalisateur en direct et support de GIF personnalisé."
     },
-    "contact": { "title": "Contact & Centre de Support — Nyan Progress Bar" },
-    "extension": { "title": "Obtenir l'Extension — Nyan Progress Bar" },
-    "support": { "title": "Soutenir le Projet — Nyan Progress Bar" }
+    "contact": {
+      "title": "Contact & Centre de Support — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Obtenir l'Extension — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Soutenir le Projet — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "Avis des utilisateurs — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Accueil",
     "extension": "Extension",
     "support": "Soutenir",
-    "contact": "Contact"
+    "contact": "Contact",
+    "reviews": "Avis"
   },
-  "header": { "logoAlt": "Chat Nyan" },
-  "footer": { "madeWith": "Fait avec 🐱", "github": "GitHub", "support": "Soutenir" },
+  "header": {
+    "logoAlt": "Chat Nyan"
+  },
+  "footer": {
+    "madeWith": "Fait avec 🐱",
+    "github": "GitHub",
+    "support": "Soutenir"
+  },
   "home": {
     "headingPart1": "Ta barre YouTube,",
     "headingAccent": "avec des chats",
@@ -74,7 +90,18 @@
       "submitting": "Envoi en cours...",
       "errorEmpty": "Veuillez remplir tous les champs.",
       "errorGeneric": "Une erreur s'est produite. Veuillez réessayer.",
-      "success": "Message envoyé ! Nous te répondrons bientôt."
+      "success": "Message envoyé ! Nous te répondrons bientôt.",
+      "categoryBugDesc": "Quelque chose ne fonctionne pas ? Partagez les étapes pour le reproduire.",
+      "categoryFeatureDesc": "Vous avez une idée ? Partagez votre cas d'usage et nous l'examinerons.",
+      "categoryQuestionDesc": "Besoin d'aide pour l'installation ou autre chose ?",
+      "screenshotLabel": "Capture d'écran",
+      "screenshotOptional": "(facultatif)",
+      "screenshotErrorType": "Seuls les fichiers image sont pris en charge.",
+      "screenshotErrorSize": "Fichier trop volumineux. Taille maximale : 5 Mo.",
+      "screenshotRemove": "Supprimer la pièce jointe",
+      "screenshotDrop": "Déposez pour joindre",
+      "screenshotAttach": "Joindre une capture d'écran",
+      "screenshotHint": "Glissez-déposez ou cliquez · PNG, JPG, GIF, WebP · max 5 Mo"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Aperçu en direct",
     "player": "▶ Lecteur YouTube"
+  },
+  "stats": {
+    "heading": "En chiffres",
+    "totalInstalls": "Installations totales",
+    "countries": "Pays atteints",
+    "dailyUsers": "Utilisateurs quotidiens",
+    "catThemes": "Thèmes chats"
+  },
+  "reviews": {
+    "heading": "Ce que disent les utilisateurs",
+    "rateUs": "Nous noter",
+    "reviews": "avis"
   }
 }

@@ -14,14 +14,17 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error('[contact] send failed', err);
+
     return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
   }
 }
 
 function isContactPayload(v: unknown): v is ContactPayload {
   if (!v || typeof v !== 'object') return false;
+
   const p = v as Record<string, unknown>;
-  return (
+
+  const coreValid =
     typeof p.name === 'string' &&
     typeof p.email === 'string' &&
     typeof p.category === 'string' &&
@@ -29,6 +32,19 @@ function isContactPayload(v: unknown): v is ContactPayload {
     p.name.length > 0 &&
     p.email.includes('@') &&
     p.category.length > 0 &&
-    p.message.length > 0
-  );
+    p.message.length > 0;
+
+  if (!coreValid) return false;
+
+  if (p.attachment !== undefined) {
+    if (!p.attachment || typeof p.attachment !== 'object') return false;
+
+    const a = p.attachment as Record<string, unknown>;
+
+    if (typeof a.name !== 'string' || typeof a.data !== 'string' || typeof a.mimeType !== 'string') return false;
+
+    if (!a.mimeType.startsWith('image/')) return false;
+  }
+
+  return true;
 }

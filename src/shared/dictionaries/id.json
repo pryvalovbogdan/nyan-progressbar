@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Scrubber YouTube dengan Kucing",
       "description": "Ganti bilah kemajuan YouTube dengan kucing animasi. 12 scrubber bawaan, penyesuai langsung, dan dukungan GIF kustom."
     },
-    "contact": { "title": "Kontak & Pusat Dukungan — Nyan Progress Bar" },
-    "extension": { "title": "Dapatkan Ekstensi — Nyan Progress Bar" },
-    "support": { "title": "Dukung Proyek — Nyan Progress Bar" }
+    "contact": {
+      "title": "Kontak & Pusat Dukungan — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Dapatkan Ekstensi — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Dukung Proyek — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "Ulasan pengguna — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Beranda",
     "extension": "Ekstensi",
     "support": "Dukung",
-    "contact": "Kontak"
+    "contact": "Kontak",
+    "reviews": "Ulasan"
   },
-  "header": { "logoAlt": "Kucing Nyan" },
-  "footer": { "madeWith": "Dibuat dengan 🐱", "github": "GitHub", "support": "Dukung" },
+  "header": {
+    "logoAlt": "Kucing Nyan"
+  },
+  "footer": {
+    "madeWith": "Dibuat dengan 🐱",
+    "github": "GitHub",
+    "support": "Dukung"
+  },
   "home": {
     "headingPart1": "Bilah YouTube Anda,",
     "headingAccent": "dengan kucing",
@@ -74,7 +90,18 @@
       "submitting": "Mengirim...",
       "errorEmpty": "Harap isi semua kolom.",
       "errorGeneric": "Terjadi kesalahan. Silakan coba lagi.",
-      "success": "Pesan terkirim! Kami akan segera merespons."
+      "success": "Pesan terkirim! Kami akan segera merespons.",
+      "categoryBugDesc": "Ada yang tidak berfungsi? Bagikan langkah-langkah untuk mereproduksinya.",
+      "categoryFeatureDesc": "Punya ide? Bagikan kasus penggunaan Anda dan kami akan mempertimbangkannya.",
+      "categoryQuestionDesc": "Butuh bantuan dengan instalasi atau hal lain?",
+      "screenshotLabel": "Tangkapan layar",
+      "screenshotOptional": "(opsional)",
+      "screenshotErrorType": "Hanya file gambar yang didukung.",
+      "screenshotErrorSize": "File terlalu besar. Ukuran maksimum 5 MB.",
+      "screenshotRemove": "Hapus lampiran",
+      "screenshotDrop": "Lepaskan untuk melampirkan",
+      "screenshotAttach": "Lampirkan tangkapan layar",
+      "screenshotHint": "Seret & lepas atau klik · PNG, JPG, GIF, WebP · maks. 5 MB"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Pratinjau langsung",
     "player": "▶ Pemutar YouTube"
+  },
+  "stats": {
+    "heading": "Dalam angka",
+    "totalInstalls": "Total instalasi",
+    "countries": "Negara terjangkau",
+    "dailyUsers": "Pengguna harian",
+    "catThemes": "Tema kucing"
+  },
+  "reviews": {
+    "heading": "Apa kata pengguna",
+    "rateUs": "Beri nilai",
+    "reviews": "ulasan"
   }
 }

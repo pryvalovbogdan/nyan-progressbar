@@ -1,12 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import { CatEntry } from '@entities/cat';
 import { useCustomizerStore } from '@features/customizer';
-
-interface ScrubberCardProps {
-  cat: CatEntry;
-}
+import type { ScrubberCardProps } from './types';
 
 export function ScrubberCard({ cat }: ScrubberCardProps) {
   const { selectedCat, setSelectedCat } = useCustomizerStore();

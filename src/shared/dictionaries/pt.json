@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Scrubbers de Gatos para o YouTube",
       "description": "Substitua a barra de progresso do YouTube por gatos animados. 12 scrubbers incluídos, personalizador ao vivo e suporte a GIF personalizado."
     },
-    "contact": { "title": "Contato e Suporte — Nyan Progress Bar" },
-    "extension": { "title": "Obtenha a Extensão — Nyan Progress Bar" },
-    "support": { "title": "Apoie o Projeto — Nyan Progress Bar" }
+    "contact": {
+      "title": "Contato e Suporte — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Obtenha a Extensão — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Apoie o Projeto — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "Avaliações dos usuários — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Início",
     "extension": "Extensão",
     "support": "Apoiar",
-    "contact": "Contato"
+    "contact": "Contato",
+    "reviews": "Avaliações"
   },
-  "header": { "logoAlt": "Gato Nyan" },
-  "footer": { "madeWith": "Feito com 🐱", "github": "GitHub", "support": "Apoiar" },
+  "header": {
+    "logoAlt": "Gato Nyan"
+  },
+  "footer": {
+    "madeWith": "Feito com 🐱",
+    "github": "GitHub",
+    "support": "Apoiar"
+  },
   "home": {
     "headingPart1": "Sua barra do YouTube,",
     "headingAccent": "com gatos",
@@ -74,7 +90,18 @@
       "submitting": "Enviando...",
       "errorEmpty": "Por favor preencha todos os campos.",
       "errorGeneric": "Algo deu errado. Por favor tente novamente.",
-      "success": "Mensagem enviada! Responderemos em breve."
+      "success": "Mensagem enviada! Responderemos em breve.",
+      "categoryBugDesc": "Algo não está funcionando? Compartilhe os passos para reproduzir.",
+      "categoryFeatureDesc": "Tem uma ideia? Compartilhe seu caso de uso e vamos considerar.",
+      "categoryQuestionDesc": "Precisa de ajuda com a instalação ou qualquer outra coisa?",
+      "screenshotLabel": "Captura de tela",
+      "screenshotOptional": "(opcional)",
+      "screenshotErrorType": "Apenas arquivos de imagem são suportados.",
+      "screenshotErrorSize": "Arquivo muito grande. Tamanho máximo: 5 MB.",
+      "screenshotRemove": "Remover anexo",
+      "screenshotDrop": "Solte para anexar",
+      "screenshotAttach": "Anexar uma captura de tela",
+      "screenshotHint": "Arraste e solte ou clique · PNG, JPG, GIF, WebP · máx. 5 MB"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Pré-visualização ao vivo",
     "player": "▶ Player do YouTube"
+  },
+  "stats": {
+    "heading": "Em números",
+    "totalInstalls": "Total de instalações",
+    "countries": "Países alcançados",
+    "dailyUsers": "Usuários diários",
+    "catThemes": "Temas de gatos"
+  },
+  "reviews": {
+    "heading": "O que os usuários dizem",
+    "rateUs": "Avaliar",
+    "reviews": "avaliações"
   }
 }

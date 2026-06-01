@@ -1,5 +1,7 @@
 import { ScrubberGallery } from '@features/cat-selector';
 import { CustomizerPanel } from '@features/customizer';
+import { StatsSection } from '@widgets/stats';
+import { ReviewsSection } from '@widgets/reviews';
 import { buttonVariants } from '@shared/ui/button';
 import { Separator } from '@shared/ui/separator';
 import type { Dictionary } from '@shared/dictionaries';
@@ -21,8 +23,7 @@ export function HomeView({ dict }: Props) {
     <div className="mx-auto max-w-6xl px-4 py-8 sm:py-16 space-y-12 sm:space-y-20">
       <section className="text-center space-y-5 sm:space-y-6">
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
-          {h.headingPart1}{' '}
-          <span className="text-[#80deea]">{h.headingAccent}</span>
+          {h.headingPart1} <span className="text-[#80deea]">{h.headingAccent}</span>
         </h1>
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">{h.description}</p>
         <a
@@ -37,6 +38,18 @@ export function HomeView({ dict }: Props) {
           {h.cta}
         </a>
       </section>
+
+      <Separator />
+
+      <StatsSection
+        labels={{
+          heading: dict.stats.heading,
+          totalInstalls: dict.stats.totalInstalls,
+          countries: dict.stats.countries,
+          dailyUsers: dict.stats.dailyUsers,
+          catThemes: dict.stats.catThemes,
+        }}
+      />
 
       <Separator />
 
@@ -75,6 +88,16 @@ export function HomeView({ dict }: Props) {
           </div>
         ))}
       </section>
+
+      <Separator />
+
+      <ReviewsSection
+        labels={{
+          heading: dict.reviews.heading,
+          rateUs: dict.reviews.rateUs,
+          reviews: dict.reviews.reviews,
+        }}
+      />
     </div>
   );
 }

@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Котики на Прогрес-барі YouTube",
       "description": "Замініть прогрес-бар YouTube анімованими котиками. 12 вбудованих скраберів, живий кастомайзер та підтримка власних GIF."
     },
-    "contact": { "title": "Контакт та Центр підтримки — Nyan Progress Bar" },
-    "extension": { "title": "Отримати розширення — Nyan Progress Bar" },
-    "support": { "title": "Підтримати проєкт — Nyan Progress Bar" }
+    "contact": {
+      "title": "Контакт та Центр підтримки — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Отримати розширення — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Підтримати проєкт — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "Відгуки користувачів — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Головна",
     "extension": "Розширення",
     "support": "Підтримати",
-    "contact": "Контакт"
+    "contact": "Контакт",
+    "reviews": "Відгуки"
   },
-  "header": { "logoAlt": "Котик Нян" },
-  "footer": { "madeWith": "Зроблено з 🐱", "github": "GitHub", "support": "Підтримати" },
+  "header": {
+    "logoAlt": "Котик Нян"
+  },
+  "footer": {
+    "madeWith": "Зроблено з 🐱",
+    "github": "GitHub",
+    "support": "Підтримати"
+  },
   "home": {
     "headingPart1": "Твій YouTube-бар,",
     "headingAccent": "з котиками",
@@ -74,7 +90,18 @@
       "submitting": "Надсилання...",
       "errorEmpty": "Будь ласка, заповни всі поля.",
       "errorGeneric": "Щось пішло не так. Будь ласка, спробуй ще раз.",
-      "success": "Повідомлення надіслано! Ми відповімо найближчим часом."
+      "success": "Повідомлення надіслано! Ми відповімо найближчим часом.",
+      "categoryBugDesc": "Щось не працює? Поділіться кроками для відтворення.",
+      "categoryFeatureDesc": "Є ідея? Опишіть свій сценарій використання, і ми розглянемо його.",
+      "categoryQuestionDesc": "Потрібна допомога з установкою або чимось іншим?",
+      "screenshotLabel": "Знімок екрана",
+      "screenshotOptional": "(необов'язково)",
+      "screenshotErrorType": "Підтримуються лише файли зображень.",
+      "screenshotErrorSize": "Файл занадто великий. Максимальний розмір: 5 МБ.",
+      "screenshotRemove": "Видалити вкладення",
+      "screenshotDrop": "Відпустіть для прикріплення",
+      "screenshotAttach": "Прикріпити знімок екрана",
+      "screenshotHint": "Перетягніть або натисніть · PNG, JPG, GIF, WebP · макс. 5 МБ"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Живий перегляд",
     "player": "▶ YouTube-плеєр"
+  },
+  "stats": {
+    "heading": "У цифрах",
+    "totalInstalls": "Загальна кількість встановлень",
+    "countries": "Охоплені країни",
+    "dailyUsers": "Щоденні користувачі",
+    "catThemes": "Теми котів"
+  },
+  "reviews": {
+    "heading": "Що кажуть користувачі",
+    "rateUs": "Оцінити",
+    "reviews": "відгуків"
   }
 }

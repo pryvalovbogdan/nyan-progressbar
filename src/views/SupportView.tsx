@@ -10,9 +10,30 @@ export function SupportView({ dict }: Props) {
   const s = dict.support;
 
   const tiles = [
-    { icon: '☕', title: s.kofiTitle, description: s.kofiDesc, href: 'https://ko-fi.com/nyancustombar', buttonLabel: s.kofiBtn, accentColor: '#ff5e5b' },
-    { icon: '🎗️', title: s.patreonTitle, description: s.patreonDesc, href: 'https://patreon.com', buttonLabel: s.patreonBtn, accentColor: '#ff424d' },
-    { icon: '☕', title: s.bmcTitle, description: s.bmcDesc, href: 'https://buymeacoffee.com', buttonLabel: s.bmcBtn, accentColor: '#ffdd00' },
+    {
+      icon: '☕',
+      title: s.kofiTitle,
+      description: s.kofiDesc,
+      href: 'https://ko-fi.com/nyancustombar',
+      buttonLabel: s.kofiBtn,
+      accentColor: '#ff5e5b',
+    },
+    {
+      icon: '🎗️',
+      title: s.patreonTitle,
+      description: s.patreonDesc,
+      href: 'https://patreon.com',
+      buttonLabel: s.patreonBtn,
+      accentColor: '#ff424d',
+    },
+    {
+      icon: '☕',
+      title: s.bmcTitle,
+      description: s.bmcDesc,
+      href: 'https://buymeacoffee.com',
+      buttonLabel: s.bmcBtn,
+      accentColor: '#ffdd00',
+    },
   ];
 
   return (
@@ -24,7 +45,10 @@ export function SupportView({ dict }: Props) {
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
         {tiles.map(({ icon, title, description, href, buttonLabel, accentColor }) => (
-          <Card key={title} className="flex flex-col border-border bg-card hover:border-[#80deea]/50 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(128,222,234,0.12)]">
+          <Card
+            key={title}
+            className="flex flex-col border-border bg-card hover:border-[#80deea]/50 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(128,222,234,0.12)]"
+          >
             <CardHeader className="pb-3">
               <div className="text-4xl mb-2">{icon}</div>
               <CardTitle className="text-lg">{title}</CardTitle>

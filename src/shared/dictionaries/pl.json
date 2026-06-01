@@ -4,18 +4,34 @@
       "title": "Nyan Progress Bar — Koty na Pasku YouTube",
       "description": "Zastąp pasek postępu YouTube animowanymi kotami. 12 wbudowanych scrubberów, konfigurator na żywo i obsługa własnych GIF-ów."
     },
-    "contact": { "title": "Kontakt i Centrum Wsparcia — Nyan Progress Bar" },
-    "extension": { "title": "Pobierz Rozszerzenie — Nyan Progress Bar" },
-    "support": { "title": "Wesprzyj Projekt — Nyan Progress Bar" }
+    "contact": {
+      "title": "Kontakt i Centrum Wsparcia — Nyan Progress Bar"
+    },
+    "extension": {
+      "title": "Pobierz Rozszerzenie — Nyan Progress Bar"
+    },
+    "support": {
+      "title": "Wesprzyj Projekt — Nyan Progress Bar"
+    },
+    "reviews": {
+      "title": "Recenzje użytkowników — Nyan Progress Bar"
+    }
   },
   "nav": {
     "home": "Strona główna",
     "extension": "Rozszerzenie",
     "support": "Wesprzyj",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "reviews": "Recenzje"
   },
-  "header": { "logoAlt": "Kot Nyan" },
-  "footer": { "madeWith": "Zrobione z 🐱", "github": "GitHub", "support": "Wesprzyj" },
+  "header": {
+    "logoAlt": "Kot Nyan"
+  },
+  "footer": {
+    "madeWith": "Zrobione z 🐱",
+    "github": "GitHub",
+    "support": "Wesprzyj"
+  },
   "home": {
     "headingPart1": "Twój pasek YouTube,",
     "headingAccent": "z kotami",
@@ -74,7 +90,18 @@
       "submitting": "Wysyłanie...",
       "errorEmpty": "Proszę wypełnić wszystkie pola.",
       "errorGeneric": "Coś poszło nie tak. Proszę spróbować ponownie.",
-      "success": "Wiadomość wysłana! Odpowiemy wkrótce."
+      "success": "Wiadomość wysłana! Odpowiemy wkrótce.",
+      "categoryBugDesc": "Coś nie działa? Opisz kroki, aby to odtworzyć.",
+      "categoryFeatureDesc": "Masz pomysł? Opisz swój przypadek użycia, a rozpatrzymy go.",
+      "categoryQuestionDesc": "Potrzebujesz pomocy z instalacją lub czymś innym?",
+      "screenshotLabel": "Zrzut ekranu",
+      "screenshotOptional": "(opcjonalnie)",
+      "screenshotErrorType": "Obsługiwane są tylko pliki graficzne.",
+      "screenshotErrorSize": "Plik jest za duży. Maksymalny rozmiar to 5 MB.",
+      "screenshotRemove": "Usuń załącznik",
+      "screenshotDrop": "Upuść, aby załączyć",
+      "screenshotAttach": "Dołącz zrzut ekranu",
+      "screenshotHint": "Przeciągnij i upuść lub kliknij · PNG, JPG, GIF, WebP · maks. 5 MB"
     }
   },
   "support": {
@@ -99,5 +126,17 @@
   "preview": {
     "label": "Podgląd na żywo",
     "player": "▶ Odtwarzacz YouTube"
+  },
+  "stats": {
+    "heading": "W liczbach",
+    "totalInstalls": "Łączna liczba instalacji",
+    "countries": "Kraje",
+    "dailyUsers": "Dzienni użytkownicy",
+    "catThemes": "Motywy kotów"
+  },
+  "reviews": {
+    "heading": "Co mówią użytkownicy",
+    "rateUs": "Oceń nas",
+    "reviews": "recenzji"
   }
 }

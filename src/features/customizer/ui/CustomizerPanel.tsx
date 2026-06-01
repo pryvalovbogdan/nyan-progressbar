@@ -4,22 +4,7 @@ import { useCustomizerStore } from '../model/customizerStore';
 import { Slider } from '@shared/ui/slider';
 import { Label } from '@shared/ui/label';
 import { ScrubberPreview } from '@widgets/cat-preview';
-
-interface CustomizerLabels {
-  adjustPosition: string;
-  height: string;
-  topOffset: string;
-}
-
-interface PreviewLabels {
-  label: string;
-  player: string;
-}
-
-interface Props {
-  labels: CustomizerLabels;
-  previewLabels: PreviewLabels;
-}
+import type { Props } from './types';
 
 export function CustomizerPanel({ labels, previewLabels }: Props) {
   const { height, top, setHeight, setTop } = useCustomizerStore();
@@ -41,7 +26,7 @@ export function CustomizerPanel({ labels, previewLabels }: Props) {
             max={80}
             step={1}
             value={[height]}
-            onValueChange={(v) => setHeight(Array.isArray(v) ? v[0] : v)}
+            onValueChange={v => setHeight(Array.isArray(v) ? v[0] : v)}
             className="accent-[#80deea]"
           />
         </div>
@@ -51,13 +36,7 @@ export function CustomizerPanel({ labels, previewLabels }: Props) {
             <Label className="text-sm">{labels.topOffset}</Label>
             <span className="text-sm text-[#80deea] font-mono">{top}px</span>
           </div>
-          <Slider
-            min={-60}
-            max={20}
-            step={1}
-            value={[top]}
-            onValueChange={(v) => setTop(Array.isArray(v) ? v[0] : v)}
-          />
+          <Slider min={-60} max={20} step={1} value={[top]} onValueChange={v => setTop(Array.isArray(v) ? v[0] : v)} />
         </div>
       </div>
     </div>
