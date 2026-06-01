@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="./public/catty.png" alt="Nyan Progress Bar" width="120" />
+</p>
 
-## Getting Started
+<h1 align="center">Nyan Progress Bar — Website</h1>
 
-First, run the development server:
+<p align="center">
+  Marketing and support site for the <strong>Nyan Progress Bar</strong> Chrome extension.<br/>
+  Replace the YouTube progress bar scrubber with animated cats.
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie">
+    <img src="https://img.shields.io/chrome-web-store/v/oadlabdleegopgjlkcmjjogeaceagbie?label=Chrome%20Web%20Store&logo=google-chrome&logoColor=white&color=4285F4" alt="Chrome Web Store" />
+  </a>
+  <a href="https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie">
+    <img src="https://img.shields.io/chrome-web-store/users/oadlabdleegopgjlkcmjjogeaceagbie?label=Users&color=80deea" alt="Users" />
+  </a>
+  <a href="https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie">
+    <img src="https://img.shields.io/chrome-web-store/rating/oadlabdleegopgjlkcmjjogeaceagbie?label=Rating&color=FBBC04" alt="Rating" />
+  </a>
+</p>
+
+---
+
+## About
+
+The **Nyan Progress Bar** Chrome extension replaces YouTube's boring scrubber with one of 12 animated cat GIFs, adds a rainbow trail, and lets you fine-tune the height and position via a live customizer in the popup. This repo is the companion website — built with Next.js 16, FSD architecture, Tailwind CSS v4, and 10 localised languages.
+
+| | |
+|---|---|
+| **Extension** | [Chrome Web Store](https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie) |
+| **Extension repo** | [`/nyan-plugin-youtube`](https://github.com/pryvalovbogdan/nyan-plugin-youtube) |
+| **70 K+** installs | **4.7 ★** rating · 58 reviews |
+
+### Cat themes
+
+<p>
+  <img src="./public/cats/catty.gif" width="48" title="catty" />
+  <img src="./public/cats/black.gif" width="48" title="black" />
+  <img src="./public/cats/cute-cat.gif" width="48" title="cute-cat" />
+  <img src="./public/cats/gatito.gif" width="48" title="gatito" />
+  <img src="./public/cats/glitch-cat.gif" width="48" title="glitch-cat" />
+  <img src="./public/cats/kitty-wigglez.gif" width="48" title="kitty-wigglez" />
+  <img src="./public/cats/orange-cat-dancing.gif" width="48" title="orange-cat-dancing" />
+  <img src="./public/cats/pixel-cat.gif" width="48" title="pixel-cat" />
+  <img src="./public/cats/white-cat.gif" width="48" title="white-cat" />
+  <img src="./public/cats/cute-kawaii.gif" width="48" title="cute-kawaii" />
+  <img src="./public/cats/cat-garfield.gif" width="48" title="cat-garfield" />
+  <img src="./public/cats/sleeping-fat-cat-zzzzzzzzz.gif" width="48" title="sleeping-fat-cat" />
+</p>
+
+---
+
+## Stack
+
+| | |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript (strict) |
+| Styling | Tailwind CSS v4 + Shadcn/UI |
+| Architecture | Feature-Sliced Design (FSD) |
+| State | Zustand |
+| Email | Nodemailer (Gmail SMTP) |
+| i18n | 10 locales — en, es, pt, fr, de, uk, pl, vi, id, tl |
+| Theme | next-themes (dark-first) |
+
+---
+
+## Project structure
+
+```
+src/
+├── app/           # Next.js routing — thin page files + locale segment [lang]
+├── views/         # Full-page compositions (HomeView, ExtensionView, …)
+├── widgets/       # Header, Footer, StatsSection, ReviewsSection, ScrubberPreview
+├── features/      # cat-selector, customizer, contact-form
+├── entities/      # CatEntry types + catsData registry
+└── shared/        # ui primitives, lib (mailer, rateLimit, metadata), dictionaries
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# 1. Install dependencies
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 2. Copy env template and fill in your SMTP credentials
+cp .env.local.example .env.local
 
-## Learn More
+# 3. Copy GIF assets from the extension repo
+npm run copy-assets
 
-To learn more about Next.js, take a look at the following resources:
+# 4. Start the dev server
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000/en](http://localhost:3000/en).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Environment variables
 
-## Deploy on Vercel
+| Variable | Description |
+|---|---|
+| `NEXT_PUBLIC_SITE_URL` | Public URL of the deployed site (used for sitemap + OG) |
+| `SMTP_HOST` | SMTP server hostname (default: `smtp.gmail.com`) |
+| `SMTP_PORT` | SMTP port (default: `587`) |
+| `SMTP_USER` | Gmail address used to send emails |
+| `SMTP_PASS` | Gmail app password |
+| `CONTACT_TO` | Email address that receives contact form submissions |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run dev           # copy assets + start dev server
+npm run build         # copy assets + production build
+npm run copy-assets   # copy GIFs from ../../assets/ → public/cats/
+```
+
+## Deploy
+
+Recommended: **Vercel** (zero-config for Next.js App Router).
+
+1. Push to GitHub
+2. Import the repo at [vercel.com](https://vercel.com)
+3. Add all env vars from the table above in the Vercel dashboard
+4. Deploy
+
+## License
+
+MIT
