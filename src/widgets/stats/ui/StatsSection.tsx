@@ -1,41 +1,8 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import type { Props } from './types';
-
-interface StatCardProps {
-  target: number;
-  unit: string;
-  label: string;
-  started: boolean;
-  duration?: number;
-}
-
-function useCountUp(target: number, started: boolean, duration = 1800) {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    if (!started) return;
-
-    const startTime = performance.now();
-
-    const tick = (now: number) => {
-      const elapsed = now - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-
-      setCount(Math.round(eased * target));
-
-      if (progress < 1) {
-        requestAnimationFrame(tick);
-      }
-    };
-
-    requestAnimationFrame(tick);
-  }, [started, target, duration]);
-
-  return count;
-}
+import type { Props, StatCardProps } from './types';
+import { useCountUp } from '../hooks';
 
 function StatCard({ target, unit, label, started, duration }: StatCardProps) {
   const count = useCountUp(target, started, duration);
@@ -77,6 +44,7 @@ export function StatsSection({ labels }: Props) {
 
   const stats = [
     { target: 70, unit: 'K+', label: labels.totalInstalls, duration: 1600 },
+    { target: 32, unit: 'K+', label: labels.activeUsers, duration: 1500 },
     { target: 177, unit: '+', label: labels.countries, duration: 1800 },
     { target: 84, unit: '+', label: labels.dailyUsers, duration: 1400 },
     { target: 12, unit: '', label: labels.catThemes, duration: 1000 },
@@ -84,11 +52,7 @@ export function StatsSection({ labels }: Props) {
 
   return (
     <section ref={sectionRef} className="space-y-6 sm:space-y-8">
-      <div className="text-center space-y-1">
-        <h2 className="text-2xl font-bold">{labels.heading}</h2>
-      </div>
-
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
         {stats.map(({ target, unit, label, duration }) => (
           <StatCard key={label} target={target} unit={unit} label={label} started={started} duration={duration} />
         ))}

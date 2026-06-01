@@ -4,7 +4,7 @@ import { StatsSection } from '@widgets/stats';
 import { ReviewsSection } from '@widgets/reviews';
 import { buttonVariants } from '@shared/ui/button';
 import { Separator } from '@shared/ui/separator';
-import type { Dictionary } from '@shared/dictionaries';
+import type { Dictionary } from '@/i18n';
 
 interface Props {
   dict: Dictionary;
@@ -27,7 +27,7 @@ export function HomeView({ dict }: Props) {
         </h1>
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">{h.description}</p>
         <a
-          href="https://chrome.google.com/webstore"
+          href="https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie"
           target="_blank"
           rel="noopener noreferrer"
           className={buttonVariants({
@@ -39,12 +39,11 @@ export function HomeView({ dict }: Props) {
         </a>
       </section>
 
-      <Separator />
-
       <StatsSection
         labels={{
           heading: dict.stats.heading,
           totalInstalls: dict.stats.totalInstalls,
+          activeUsers: dict.stats.activeUsers,
           countries: dict.stats.countries,
           dailyUsers: dict.stats.dailyUsers,
           catThemes: dict.stats.catThemes,
@@ -89,13 +88,13 @@ export function HomeView({ dict }: Props) {
         ))}
       </section>
 
-      <Separator />
-
       <ReviewsSection
         labels={{
           heading: dict.reviews.heading,
           rateUs: dict.reviews.rateUs,
           reviews: dict.reviews.reviews,
+          showMore: dict.reviews.showMore,
+          showLess: dict.reviews.showLess,
         }}
       />
     </div>

@@ -10,6 +10,8 @@ export interface ReviewsLabels {
   heading: string;
   rateUs: string;
   reviews: string;
+  showMore: string;
+  showLess: string;
 }
 
 export interface Props {

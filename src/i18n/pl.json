@@ -5,16 +5,20 @@
       "description": "Zastąp pasek postępu YouTube animowanymi kotami. 12 wbudowanych scrubberów, konfigurator na żywo i obsługa własnych GIF-ów."
     },
     "contact": {
-      "title": "Kontakt i Centrum Wsparcia — Nyan Progress Bar"
+      "title": "Kontakt i Centrum Wsparcia — Nyan Progress Bar",
+      "description": "Zgłoś błąd, zaproponuj funkcję lub zadaj pytanie. Czytamy każdą wiadomość."
     },
     "extension": {
-      "title": "Pobierz Rozszerzenie — Nyan Progress Bar"
+      "title": "Pobierz Rozszerzenie — Nyan Progress Bar",
+      "description": "Zainstaluj rozszerzenie Chrome Nyan Progress Bar i zastąp scrubber YouTube animowanymi kotami jednym kliknięciem."
     },
     "support": {
-      "title": "Wesprzyj Projekt — Nyan Progress Bar"
+      "title": "Wesprzyj Projekt — Nyan Progress Bar",
+      "description": "Lubisz Nyan Progress Bar? Wesprzyj projekt i pomóż utrzymać go za darmo."
     },
     "reviews": {
-      "title": "Recenzje użytkowników — Nyan Progress Bar"
+      "title": "Recenzje użytkowników — Nyan Progress Bar",
+      "description": "Zobacz, co 58 użytkowników mówi o rozszerzeniu Chrome Nyan Progress Bar. Ocenione na 4,7 gwiazdki."
     }
   },
   "nav": {
@@ -90,6 +94,7 @@
       "submitting": "Wysyłanie...",
       "errorEmpty": "Proszę wypełnić wszystkie pola.",
       "errorGeneric": "Coś poszło nie tak. Proszę spróbować ponownie.",
+      "errorRateLimit": "Już dziś wysłałeś wiadomość. Spróbuj ponownie jutro.",
       "success": "Wiadomość wysłana! Odpowiemy wkrótce.",
       "categoryBugDesc": "Coś nie działa? Opisz kroki, aby to odtworzyć.",
       "categoryFeatureDesc": "Masz pomysł? Opisz swój przypadek użycia, a rozpatrzymy go.",
@@ -132,11 +137,14 @@
     "totalInstalls": "Łączna liczba instalacji",
     "countries": "Kraje",
     "dailyUsers": "Dzienni użytkownicy",
+    "activeUsers": "Aktywni użytkownicy",
     "catThemes": "Motywy kotów"
   },
   "reviews": {
     "heading": "Co mówią użytkownicy",
     "rateUs": "Oceń nas",
-    "reviews": "recenzji"
+    "reviews": "recenzji",
+    "showMore": "Pokaż więcej",
+    "showLess": "Pokaż mniej"
   }
 }

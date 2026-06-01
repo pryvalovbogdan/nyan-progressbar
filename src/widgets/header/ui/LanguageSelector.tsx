@@ -2,8 +2,8 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 import { Menu } from '@base-ui/react/menu';
-import { locales } from '@shared/dictionaries';
-import type { Locale } from '@shared/dictionaries';
+import { locales } from '@/i18n';
+import type { Locale } from '@/i18n';
 
 const LANG_META: Record<Locale, { flag: string; label: string }> = {
   en: { flag: '🇺🇸', label: 'English' },

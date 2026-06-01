@@ -1,5 +1,5 @@
 import { ReviewsSection } from '@widgets/reviews';
-import type { Dictionary } from '@shared/dictionaries';
+import type { Dictionary } from '@/i18n';
 
 interface Props {
   dict: Dictionary;
@@ -13,6 +13,8 @@ export function ReviewsView({ dict }: Props) {
           heading: dict.reviews.heading,
           rateUs: dict.reviews.rateUs,
           reviews: dict.reviews.reviews,
+          showMore: dict.reviews.showMore,
+          showLess: dict.reviews.showLess,
         }}
       />
     </div>

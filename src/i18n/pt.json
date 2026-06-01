@@ -5,16 +5,20 @@
       "description": "Substitua a barra de progresso do YouTube por gatos animados. 12 scrubbers incluídos, personalizador ao vivo e suporte a GIF personalizado."
     },
     "contact": {
-      "title": "Contato e Suporte — Nyan Progress Bar"
+      "title": "Contato e Suporte — Nyan Progress Bar",
+      "description": "Reporte um bug, solicite um recurso ou faça uma pergunta. Lemos cada mensagem."
     },
     "extension": {
-      "title": "Obtenha a Extensão — Nyan Progress Bar"
+      "title": "Obtenha a Extensão — Nyan Progress Bar",
+      "description": "Instale a extensão do Chrome Nyan Progress Bar e substitua o scrubber do YouTube por gatos animados com um clique."
     },
     "support": {
-      "title": "Apoie o Projeto — Nyan Progress Bar"
+      "title": "Apoie o Projeto — Nyan Progress Bar",
+      "description": "Gosta do Nyan Progress Bar? Apoie o projeto e ajude a mantê-lo gratuito."
     },
     "reviews": {
-      "title": "Avaliações dos usuários — Nyan Progress Bar"
+      "title": "Avaliações dos usuários — Nyan Progress Bar",
+      "description": "Veja o que 58 usuários dizem sobre a extensão do Chrome Nyan Progress Bar. Avaliada com 4.7 estrelas."
     }
   },
   "nav": {
@@ -90,6 +94,7 @@
       "submitting": "Enviando...",
       "errorEmpty": "Por favor preencha todos os campos.",
       "errorGeneric": "Algo deu errado. Por favor tente novamente.",
+      "errorRateLimit": "Você já enviou uma mensagem hoje. Por favor tente amanhã.",
       "success": "Mensagem enviada! Responderemos em breve.",
       "categoryBugDesc": "Algo não está funcionando? Compartilhe os passos para reproduzir.",
       "categoryFeatureDesc": "Tem uma ideia? Compartilhe seu caso de uso e vamos considerar.",
@@ -132,11 +137,14 @@
     "totalInstalls": "Total de instalações",
     "countries": "Países alcançados",
     "dailyUsers": "Usuários diários",
+    "activeUsers": "Usuários Ativos",
     "catThemes": "Temas de gatos"
   },
   "reviews": {
     "heading": "O que os usuários dizem",
     "rateUs": "Avaliar",
-    "reviews": "avaliações"
+    "reviews": "avaliações",
+    "showMore": "Mostrar mais",
+    "showLess": "Mostrar menos"
   }
 }

@@ -1,26 +1,17 @@
 import nodemailer from 'nodemailer';
+import { ContactPayload } from './types';
+
+const port = Number(process.env.SMTP_PORT ?? 587);
 
 export const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
-  port: Number(process.env.SMTP_PORT ?? 587),
-  secure: false,
+  port,
+  secure: port === 465,
   auth: {
     user: process.env.SMTP_USER,
     pass: process.env.SMTP_PASS,
   },
 });
-
-export interface ContactPayload {
-  name: string;
-  email: string;
-  category: string;
-  message: string;
-  attachment?: {
-    name: string;
-    data: string;
-    mimeType: string;
-  };
-}
 
 export async function sendContactEmail(payload: ContactPayload) {
   const { name, email, category, message, attachment } = payload;

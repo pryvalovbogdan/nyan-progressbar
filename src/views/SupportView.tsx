@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
 import { buttonVariants } from '@shared/ui/button';
-import type { Dictionary } from '@shared/dictionaries';
+import type { Dictionary } from '@/i18n';
 
 interface Props {
   dict: Dictionary;

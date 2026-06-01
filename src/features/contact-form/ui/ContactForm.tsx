@@ -144,6 +144,12 @@ export function ContactForm({ t }: Props) {
         body: JSON.stringify(body),
       });
 
+      if (res.status === 429) {
+        toast.error(t.errorRateLimit, { duration: 6000 });
+
+        return;
+      }
+
       if (!res.ok) throw new Error('Failed to send');
 
       toast.success(t.success);
@@ -157,7 +163,6 @@ export function ContactForm({ t }: Props) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      {/* Category cards */}
       <div className="space-y-2.5">
         <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">{t.category}</p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -199,7 +204,6 @@ export function ContactForm({ t }: Props) {
         </div>
       </div>
 
-      {/* Name + Email */}
       <div className="grid sm:grid-cols-2 gap-4">
         <div className="space-y-1.5">
           <Label htmlFor="name">{t.name}</Label>
@@ -211,7 +215,6 @@ export function ContactForm({ t }: Props) {
         </div>
       </div>
 
-      {/* Message */}
       <div className="space-y-1.5">
         <Label htmlFor="message">{t.message}</Label>
         <Textarea
@@ -223,7 +226,6 @@ export function ContactForm({ t }: Props) {
         />
       </div>
 
-      {/* Screenshot attachment */}
       <div className="space-y-1.5">
         <Label>
           {t.screenshotLabel} <span className="text-muted-foreground font-normal">{t.screenshotOptional}</span>

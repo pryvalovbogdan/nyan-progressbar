@@ -11,7 +11,7 @@ export function Header({ logoAlt, navLabels, lang }: HeaderProps) {
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-sm">
       <div className="mx-auto max-w-6xl px-4 h-14 flex items-center justify-between gap-2">
         <Link href={`/${lang}`} className="flex items-center gap-2 font-bold shrink-0">
-          <Image src="/cats/black.gif" alt={logoAlt} width={24} height={24} unoptimized />
+          <Image src="/cats/catty.gif" alt={logoAlt} width={24} height={24} unoptimized />
           <span className="text-[#80deea] text-base sm:text-lg leading-none">Nyan Progress Bar</span>
         </Link>
 

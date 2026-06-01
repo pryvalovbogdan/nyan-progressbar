@@ -27,6 +27,7 @@ export interface FormTranslations {
   submitting: string;
   errorEmpty: string;
   errorGeneric: string;
+  errorRateLimit: string;
   success: string;
 }
 

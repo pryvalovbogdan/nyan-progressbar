@@ -5,16 +5,20 @@
       "description": "Thay thế thanh tiến trình YouTube bằng mèo hoạt hình. 12 scrubber tích hợp, tùy chỉnh trực tiếp và hỗ trợ GIF tùy chỉnh."
     },
     "contact": {
-      "title": "Liên Hệ & Hỗ Trợ — Nyan Progress Bar"
+      "title": "Liên Hệ & Hỗ Trợ — Nyan Progress Bar",
+      "description": "Báo cáo lỗi, yêu cầu tính năng hoặc đặt câu hỏi. Chúng tôi đọc mọi tin nhắn."
     },
     "extension": {
-      "title": "Tải Tiện Ích Mở Rộng — Nyan Progress Bar"
+      "title": "Tải Tiện Ích Mở Rộng — Nyan Progress Bar",
+      "description": "Cài đặt tiện ích mở rộng Chrome Nyan Progress Bar và thay thế scrubber YouTube bằng mèo hoạt hình chỉ một cú nhấp."
     },
     "support": {
-      "title": "Ủng Hộ Dự Án — Nyan Progress Bar"
+      "title": "Ủng Hộ Dự Án — Nyan Progress Bar",
+      "description": "Thích Nyan Progress Bar? Hãy ủng hộ dự án và giúp duy trì nó miễn phí."
     },
     "reviews": {
-      "title": "Đánh giá người dùng — Nyan Progress Bar"
+      "title": "Đánh giá người dùng — Nyan Progress Bar",
+      "description": "Xem 58 người dùng nói gì về tiện ích mở rộng Chrome Nyan Progress Bar. Được đánh giá 4.7 sao."
     }
   },
   "nav": {
@@ -90,6 +94,7 @@
       "submitting": "Đang gửi...",
       "errorEmpty": "Vui lòng điền đầy đủ tất cả các trường.",
       "errorGeneric": "Có lỗi xảy ra. Vui lòng thử lại.",
+      "errorRateLimit": "Bạn đã gửi tin nhắn hôm nay. Vui lòng thử lại vào ngày mai.",
       "success": "Đã gửi tin nhắn! Chúng tôi sẽ phản hồi sớm.",
       "categoryBugDesc": "Có gì đó không hoạt động? Chia sẻ các bước để tái hiện.",
       "categoryFeatureDesc": "Có ý tưởng? Chia sẻ trường hợp sử dụng và chúng tôi sẽ xem xét.",
@@ -132,11 +137,14 @@
     "totalInstalls": "Tổng cài đặt",
     "countries": "Quốc gia tiếp cận",
     "dailyUsers": "Người dùng hàng ngày",
+    "activeUsers": "Người dùng hoạt động",
     "catThemes": "Chủ đề mèo"
   },
   "reviews": {
     "heading": "Người dùng nói gì",
     "rateUs": "Đánh giá",
-    "reviews": "đánh giá"
+    "reviews": "đánh giá",
+    "showMore": "Xem thêm",
+    "showLess": "Ẩn bớt"
   }
 }

@@ -5,16 +5,20 @@
       "description": "Replace your YouTube progress bar with animated cats. 12 built-in scrubbers, live customizer, and custom GIF support."
     },
     "contact": {
-      "title": "Contact & Support Center — Nyan Progress Bar"
+      "title": "Contact & Support Center — Nyan Progress Bar",
+      "description": "Report a bug, request a feature, or ask a question. We read every message."
     },
     "extension": {
-      "title": "Get the Extension — Nyan Progress Bar"
+      "title": "Get the Extension — Nyan Progress Bar",
+      "description": "Install the Nyan Progress Bar Chrome extension and replace your YouTube scrubber with animated cats in one click."
     },
     "support": {
-      "title": "Support the Project — Nyan Progress Bar"
+      "title": "Support the Project — Nyan Progress Bar",
+      "description": "Love the Nyan Progress Bar? Support the project and help keep it free and maintained."
     },
     "reviews": {
-      "title": "User Reviews — Nyan Progress Bar"
+      "title": "User Reviews — Nyan Progress Bar",
+      "description": "See what 58 users say about the Nyan Progress Bar Chrome extension. Rated 4.7 stars."
     }
   },
   "nav": {
@@ -90,6 +94,7 @@
       "submitting": "Sending...",
       "errorEmpty": "Please fill in all fields.",
       "errorGeneric": "Something went wrong. Please try again.",
+      "errorRateLimit": "You've already sent a message today. Please try again tomorrow.",
       "success": "Message sent! We'll get back to you soon.",
       "categoryBugDesc": "Something not working? Share the steps to reproduce it.",
       "categoryFeatureDesc": "Have an idea? Share your use case and we'll consider it.",
@@ -132,11 +137,14 @@
     "totalInstalls": "Total Installs",
     "countries": "Countries Reached",
     "dailyUsers": "Daily Users",
+    "activeUsers": "Active Users",
     "catThemes": "Cat Themes"
   },
   "reviews": {
     "heading": "What users say",
     "rateUs": "Rate us",
-    "reviews": "reviews"
+    "reviews": "reviews",
+    "showMore": "Show more",
+    "showLess": "Show less"
   }
 }

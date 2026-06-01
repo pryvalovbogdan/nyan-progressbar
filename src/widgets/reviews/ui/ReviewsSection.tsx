@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 import type { Review, Props } from './types';
 
@@ -258,9 +261,11 @@ function Stars({ rating, size = 'md' }: { rating: number; size?: 'sm' | 'md' | '
   );
 }
 
-function ReviewCard({ review }: { review: Review }) {
+function ReviewCard({ review, className = '' }: { review: Review; className?: string }) {
   return (
-    <div className="flex flex-col gap-3 p-5 rounded-2xl border border-border bg-card hover:border-[#80deea]/30 hover:shadow-[0_4px_16px_rgba(128,222,234,0.08)] transition-all duration-300">
+    <div
+      className={`flex flex-col gap-3 p-5 rounded-2xl border border-border bg-card hover:border-[#80deea]/30 hover:shadow-[0_4px_16px_rgba(128,222,234,0.08)] transition-all duration-300 ${className}`}
+    >
       <div className="flex items-center gap-3">
         <div className="relative w-10 h-10 shrink-0">
           <Image src={review.avatar} alt={review.name} width={40} height={40} className="rounded-full object-cover" />
@@ -280,6 +285,8 @@ function ReviewCard({ review }: { review: Review }) {
 }
 
 export function ReviewsSection({ labels }: Props) {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <section className="space-y-8">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
@@ -330,9 +337,37 @@ export function ReviewsSection({ labels }: Props) {
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {REVIEWS.map(review => (
-          <ReviewCard key={`${review.name}-${review.date}`} review={review} />
-        ))}
+        {REVIEWS.map((review, index) => {
+          let cardClass = '';
+
+          if (!expanded) {
+            if (index >= 9) {
+              cardClass = 'hidden';
+            } else if (index >= 5) {
+              cardClass = 'hidden sm:flex';
+            }
+          }
+
+          return <ReviewCard key={`${review.name}-${review.date}`} review={review} className={cardClass} />;
+        })}
+      </div>
+
+      <div className="flex justify-center">
+        <button
+          onClick={() => setExpanded(prev => !prev)}
+          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full border border-[#80deea]/40 text-sm font-medium text-[#80deea] hover:bg-[#80deea]/10 hover:border-[#80deea]/70 transition-all duration-200 active:scale-[0.97]"
+        >
+          {expanded ? labels.showLess : labels.showMore}
+          <svg
+            viewBox="0 0 24 24"
+            className={`w-4 h-4 transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
       </div>
     </section>
   );

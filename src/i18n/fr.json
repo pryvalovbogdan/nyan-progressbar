@@ -5,16 +5,20 @@
       "description": "Remplacez la barre de progression YouTube par des chats animés. 12 scrubbers intégrés, personnalisateur en direct et support de GIF personnalisé."
     },
     "contact": {
-      "title": "Contact & Centre de Support — Nyan Progress Bar"
+      "title": "Contact & Centre de Support — Nyan Progress Bar",
+      "description": "Signalez un bug, demandez une fonctionnalité ou posez une question. Nous lisons chaque message."
     },
     "extension": {
-      "title": "Obtenir l'Extension — Nyan Progress Bar"
+      "title": "Obtenir l'Extension — Nyan Progress Bar",
+      "description": "Installez l'extension Chrome Nyan Progress Bar et remplacez votre scrubber YouTube par des chats animés en un clic."
     },
     "support": {
-      "title": "Soutenir le Projet — Nyan Progress Bar"
+      "title": "Soutenir le Projet — Nyan Progress Bar",
+      "description": "Vous aimez Nyan Progress Bar ? Soutenez le projet et aidez-nous à le maintenir gratuit."
     },
     "reviews": {
-      "title": "Avis des utilisateurs — Nyan Progress Bar"
+      "title": "Avis des utilisateurs — Nyan Progress Bar",
+      "description": "Découvrez ce que 58 utilisateurs disent de l'extension Chrome Nyan Progress Bar. Notée 4,7 étoiles."
     }
   },
   "nav": {
@@ -90,6 +94,7 @@
       "submitting": "Envoi en cours...",
       "errorEmpty": "Veuillez remplir tous les champs.",
       "errorGeneric": "Une erreur s'est produite. Veuillez réessayer.",
+      "errorRateLimit": "Vous avez déjà envoyé un message aujourd'hui. Réessayez demain.",
       "success": "Message envoyé ! Nous te répondrons bientôt.",
       "categoryBugDesc": "Quelque chose ne fonctionne pas ? Partagez les étapes pour le reproduire.",
       "categoryFeatureDesc": "Vous avez une idée ? Partagez votre cas d'usage et nous l'examinerons.",
@@ -132,11 +137,14 @@
     "totalInstalls": "Installations totales",
     "countries": "Pays atteints",
     "dailyUsers": "Utilisateurs quotidiens",
+    "activeUsers": "Utilisateurs Actifs",
     "catThemes": "Thèmes chats"
   },
   "reviews": {
     "heading": "Ce que disent les utilisateurs",
     "rateUs": "Nous noter",
-    "reviews": "avis"
+    "reviews": "avis",
+    "showMore": "Voir plus",
+    "showLess": "Voir moins"
   }
 }

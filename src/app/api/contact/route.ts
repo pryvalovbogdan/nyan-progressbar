@@ -1,7 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { sendContactEmail, ContactPayload } from '@shared/lib/mailer';
+import { sendContactEmail } from '@shared/lib/mailer';
+import { checkRateLimit } from '@shared/lib/rateLimit';
+import { ContactPayload } from '@shared/lib/types';
 
 export async function POST(req: NextRequest) {
+  const ip = req.headers.get('x-forwarded-for')?.split(',')[0].trim() ?? req.headers.get('x-real-ip') ?? 'unknown';
+  const { allowed, retryAfterSec } = checkRateLimit(ip);
+
+  if (!allowed) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again tomorrow.' },
+      { status: 429, headers: { 'Retry-After': String(retryAfterSec) } },
+    );
+  }
+
   try {
     const body: unknown = await req.json();
 

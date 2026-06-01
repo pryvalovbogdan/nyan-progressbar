@@ -1,6 +1,6 @@
 import { buttonVariants } from '@shared/ui/button';
 import { Separator } from '@shared/ui/separator';
-import type { Dictionary } from '@shared/dictionaries';
+import type { Dictionary } from '@/i18n';
 
 interface Props {
   dict: Dictionary;
@@ -25,7 +25,7 @@ export function ExtensionView({ dict, locale }: Props) {
         <h1 className="text-4xl font-bold">{e.heading}</h1>
         <p className="text-muted-foreground text-lg max-w-lg mx-auto">{e.description}</p>
         <a
-          href="https://chrome.google.com/webstore"
+          href="https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie"
           target="_blank"
           rel="noopener noreferrer"
           className={buttonVariants({

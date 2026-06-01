@@ -5,16 +5,20 @@
       "description": "Ganti bilah kemajuan YouTube dengan kucing animasi. 12 scrubber bawaan, penyesuai langsung, dan dukungan GIF kustom."
     },
     "contact": {
-      "title": "Kontak & Pusat Dukungan — Nyan Progress Bar"
+      "title": "Kontak & Pusat Dukungan — Nyan Progress Bar",
+      "description": "Laporkan bug, minta fitur, atau ajukan pertanyaan. Kami membaca setiap pesan."
     },
     "extension": {
-      "title": "Dapatkan Ekstensi — Nyan Progress Bar"
+      "title": "Dapatkan Ekstensi — Nyan Progress Bar",
+      "description": "Instal ekstensi Chrome Nyan Progress Bar dan ganti scrubber YouTube dengan kucing animasi dalam satu klik."
     },
     "support": {
-      "title": "Dukung Proyek — Nyan Progress Bar"
+      "title": "Dukung Proyek — Nyan Progress Bar",
+      "description": "Suka Nyan Progress Bar? Dukung proyek dan bantu menjaganya tetap gratis."
     },
     "reviews": {
-      "title": "Ulasan pengguna — Nyan Progress Bar"
+      "title": "Ulasan pengguna — Nyan Progress Bar",
+      "description": "Lihat apa yang 58 pengguna katakan tentang ekstensi Chrome Nyan Progress Bar. Dinilai 4.7 bintang."
     }
   },
   "nav": {
@@ -90,6 +94,7 @@
       "submitting": "Mengirim...",
       "errorEmpty": "Harap isi semua kolom.",
       "errorGeneric": "Terjadi kesalahan. Silakan coba lagi.",
+      "errorRateLimit": "Anda sudah mengirim pesan hari ini. Silakan coba lagi besok.",
       "success": "Pesan terkirim! Kami akan segera merespons.",
       "categoryBugDesc": "Ada yang tidak berfungsi? Bagikan langkah-langkah untuk mereproduksinya.",
       "categoryFeatureDesc": "Punya ide? Bagikan kasus penggunaan Anda dan kami akan mempertimbangkannya.",
@@ -132,11 +137,14 @@
     "totalInstalls": "Total instalasi",
     "countries": "Negara terjangkau",
     "dailyUsers": "Pengguna harian",
+    "activeUsers": "Pengguna Aktif",
     "catThemes": "Tema kucing"
   },
   "reviews": {
     "heading": "Apa kata pengguna",
     "rateUs": "Beri nilai",
-    "reviews": "ulasan"
+    "reviews": "ulasan",
+    "showMore": "Tampilkan lebih banyak",
+    "showLess": "Tampilkan lebih sedikit"
   }
 }

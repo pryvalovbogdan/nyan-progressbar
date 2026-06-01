@@ -70,6 +70,23 @@ npm run build        # copy assets + production build
 npm run copy-assets  # copy GIFs from ../../assets/ to public/cats/
 ```
 
+## Slash commands (`.claude/commands/`)
+
+These commands are available as `/command-name`. Suggest them proactively at the right moment:
+
+| Command | When to suggest it |
+|---|---|
+| `/interview` | User describes a feature vaguely or with open questions — suggest before writing any code |
+| `/scaffold` | User asks to add a new component, widget, or feature slice |
+| `/review` | Before committing, or when user asks for a code review |
+| `/css-first` | Component uses `useState`/`useEffect` purely for visual toggle, animation, or layout |
+| `/sync-state` | After a significant structural change (new page, new slice, new API route) |
+
+**Rules for using commands:**
+- Suggest `/interview` whenever a task has ambiguity — do not start implementing until requirements are clear
+- Always run `/review` mentally before reporting a task complete; flag any must-fix findings
+- Never skip `/scaffold` conventions (types.ts, barrel export, tsc+eslint check) when building new components
+
 ## Adding a new page
 See `.claude/agents/page-creator.md`
 

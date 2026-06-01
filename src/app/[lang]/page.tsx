@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
-import { getDictionary, hasLocale } from '@shared/dictionaries';
-import type { Locale } from '@shared/dictionaries';
+import { getDictionary, hasLocale } from '@/i18n';
+import type { Locale } from '@/i18n';
 import { HomeView } from '@views/HomeView';
 
 export default async function HomePage({ params }: { params: Promise<{ lang: string }> }) {

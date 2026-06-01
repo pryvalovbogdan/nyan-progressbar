@@ -5,16 +5,20 @@
       "description": "Palitan ang progress bar ng YouTube ng mga animated na pusa. 12 built-in na scrubber, live na customizer, at suporta sa custom GIF."
     },
     "contact": {
-      "title": "Makipag-ugnayan & Support Center — Nyan Progress Bar"
+      "title": "Makipag-ugnayan & Support Center — Nyan Progress Bar",
+      "description": "Mag-ulat ng bug, humiling ng feature, o magtanong. Binabasa namin ang bawat mensahe."
     },
     "extension": {
-      "title": "Kunin ang Extension — Nyan Progress Bar"
+      "title": "Kunin ang Extension — Nyan Progress Bar",
+      "description": "I-install ang Nyan Progress Bar Chrome extension at palitan ang iyong YouTube scrubber ng mga animated na pusa sa isang click."
     },
     "support": {
-      "title": "Suportahan ang Proyekto — Nyan Progress Bar"
+      "title": "Suportahan ang Proyekto — Nyan Progress Bar",
+      "description": "Gusto mo ang Nyan Progress Bar? Suportahan ang proyekto at tulungang manatiling libre ito."
     },
     "reviews": {
-      "title": "Mga pagsusuri ng gumagamit — Nyan Progress Bar"
+      "title": "Mga pagsusuri ng gumagamit — Nyan Progress Bar",
+      "description": "Tingnan kung ano ang sinasabi ng 58 na gumagamit tungkol sa Nyan Progress Bar Chrome extension. Rated 4.7 bituin."
     }
   },
   "nav": {
@@ -90,6 +94,7 @@
       "submitting": "Ipinapadala...",
       "errorEmpty": "Pakipunan ang lahat ng field.",
       "errorGeneric": "May naganap na error. Pakisubukang muli.",
+      "errorRateLimit": "Nagpadala ka na ng mensahe ngayon. Pakisubukang muli bukas.",
       "success": "Naipadala na ang mensahe! Makikipag-ugnayan kami sa inyo agad.",
       "categoryBugDesc": "May hindi gumagana? Ibahagi ang mga hakbang para maparami ito.",
       "categoryFeatureDesc": "May ideya ka? Ibahagi ang iyong use case at isasaalang-alang namin ito.",
@@ -132,11 +137,14 @@
     "totalInstalls": "Kabuuang pag-install",
     "countries": "Mga bansang naaabot",
     "dailyUsers": "Mga pang-araw-araw na gumagamit",
+    "activeUsers": "Mga Aktibong Gumagamit",
     "catThemes": "Mga temang pusa"
   },
   "reviews": {
     "heading": "Sinasabi ng mga gumagamit",
     "rateUs": "I-rate kami",
-    "reviews": "mga pagsusuri"
+    "reviews": "mga pagsusuri",
+    "showMore": "Magpakita ng higit pa",
+    "showLess": "Magpakita ng mas kaunti"
   }
 }
