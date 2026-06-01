@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(cp '/Users/bogdanpryvalov/projects/nyan-plugin-youtube/nyan-progressbar/nyan-progressbar/src/dictionaries/*.ts' /Users/bogdanpryvalov/projects/nyan-plugin-youtube/nyan-progressbar/nyan-progressbar/src/shared/dictionaries/)",
+      "Bash(cp '/Users/bogdanpryvalov/projects/nyan-plugin-youtube/nyan-progressbar/nyan-progressbar/src/dictionaries/*.json' /Users/bogdanpryvalov/projects/nyan-plugin-youtube/nyan-progressbar/nyan-progressbar/src/shared/dictionaries/)",
+      "Bash(npm run *)"
+    ]
+  }
+}

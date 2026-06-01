@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Geist } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
-import { Toaster } from '@/components/ui/sonner';
-import { Header } from '@/components/layout/Header';
-import { Footer } from '@/components/layout/Footer';
-import { getDictionary, hasLocale, locales } from '@/dictionaries';
-import type { Locale } from '@/dictionaries';
+import { Toaster } from '@shared/ui/sonner';
+import { Header } from '@widgets/header';
+import { Footer } from '@widgets/footer';
+import { getDictionary, hasLocale, locales } from '@shared/dictionaries';
+import type { Locale } from '@shared/dictionaries';
 import '../globals.css';
 
 const geist = Geist({ subsets: ['latin'] });
