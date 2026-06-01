@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Nyan Progress Bar — Котики на Прогрес-барі YouTube",
+      "description": "Замініть прогрес-бар YouTube анімованими котиками. 12 вбудованих скраберів, живий кастомайзер та підтримка власних GIF."
+    },
+    "contact": {
+      "title": "Контакт та Центр підтримки — Nyan Progress Bar",
+      "description": "Повідом про баг, запропонуй функцію або постав запитання. Ми читаємо кожне повідомлення."
+    },
+    "extension": {
+      "title": "Отримати розширення — Nyan Progress Bar",
+      "description": "Встанови розширення Nyan Progress Bar для Chrome і заміни скрабер YouTube анімованими котиками одним кліком."
+    },
+    "support": {
+      "title": "Підтримати проєкт — Nyan Progress Bar",
+      "description": "Подобається Nyan Progress Bar? Підтримай проєкт і допоможи тримати його безкоштовним."
+    },
+    "reviews": {
+      "title": "Відгуки користувачів — Nyan Progress Bar",
+      "description": "Дізнайся, що кажуть 58 користувачів про розширення Nyan Progress Bar для Chrome. Рейтинг 4.7 зірки."
+    }
+  },
+  "nav": {
+    "home": "Головна",
+    "extension": "Розширення",
+    "support": "Підтримати",
+    "contact": "Контакт",
+    "reviews": "Відгуки"
+  },
+  "header": {
+    "logoAlt": "Котик Нян"
+  },
+  "footer": {
+    "madeWith": "Зроблено з 🐱",
+    "github": "GitHub",
+    "support": "Підтримати"
+  },
+  "home": {
+    "headingPart1": "Твій YouTube-бар,",
+    "headingAccent": "з котиками",
+    "description": "Замін нудний скрабер прогрес-бару YouTube анімованими GIF-котиками. 12 вбудованих котиків, підтримка власних GIF та живий кастомайзер.",
+    "cta": "Додати до Chrome — безкоштовно",
+    "galleryHeading": "Обери свого котика",
+    "galleryDesc": "Клікни на котика, щоб переглянути його на прогрес-барі нижче.",
+    "feature1Title": "12 вбудованих котиків",
+    "feature1Desc": "Ретельно підібрані розміри та позиції для YouTube-бару.",
+    "feature2Title": "Завантаж власний GIF",
+    "feature2Desc": "Використовуй будь-який GIF як власний скрабер.",
+    "feature3Title": "Працює всюди",
+    "feature3Desc": "YouTube та YouTube Music, стандартний та міні-плеєр."
+  },
+  "extension": {
+    "heading": "Отримати Nyan Progress Bar",
+    "description": "Безкоштовне розширення для Chrome. Встановлюється за секунди й одразу працює на YouTube.",
+    "cta": "Встановити в Chrome",
+    "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
+    "featuresHeading": "Все включено",
+    "feature1Title": "Миттєве встановлення",
+    "feature1Desc": "Один клік у Chrome Web Store, обліковий запис не потрібен.",
+    "feature2Title": "Жодних даних не збирається",
+    "feature2Desc": "Повністю локально. Твоя активність на YouTube залишається приватною.",
+    "feature3Title": "12 котиків у комплекті",
+    "feature3Desc": "Міняй будь-коли з попапу без перезавантаження сторінки.",
+    "feature4Title": "Завантаження власного GIF",
+    "feature4Desc": "Перетягни будь-який GIF у попап, щоб використовувати його як скрабер.",
+    "feature5Title": "YouTube Music",
+    "feature5Desc": "Також працює на music.youtube.com.",
+    "feature6Title": "11 мов",
+    "feature6Desc": "Інтерфейс доступний мовами: EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "questionHeading": "Є питання?",
+    "questionPre": "Перегляньте",
+    "questionLinkText": "центр підтримки",
+    "questionPost": "або відкрийте звіт про помилку."
+  },
+  "contact": {
+    "heading": "Центр підтримки",
+    "description": "Знайшов баг? Є ідея? Просто хочеш привітатися? Заповни форму й ми відповімо.",
+    "githubPre": "Для швидшої допомоги можеш також",
+    "githubLink": "відкрити issue на GitHub",
+    "form": {
+      "name": "Ім'я",
+      "namePlaceholder": "Твоє ім'я",
+      "email": "Email",
+      "emailPlaceholder": "ти@приклад.ua",
+      "category": "Категорія",
+      "categoryPlaceholder": "Обери категорію",
+      "categoryBug": "Звіт про помилку",
+      "categoryFeature": "Запит на функцію",
+      "categoryQuestion": "Загальне питання",
+      "message": "Повідомлення",
+      "messagePlaceholder": "Опиши свою проблему або питання...",
+      "submit": "Надіслати повідомлення",
+      "submitting": "Надсилання...",
+      "errorEmpty": "Будь ласка, заповни всі поля.",
+      "errorGeneric": "Щось пішло не так. Будь ласка, спробуй ще раз.",
+      "errorRateLimit": "Ти вже надіслав повідомлення сьогодні. Будь ласка, спробуй завтра.",
+      "success": "Повідомлення надіслано! Ми відповімо найближчим часом.",
+      "categoryBugDesc": "Щось не працює? Поділіться кроками для відтворення.",
+      "categoryFeatureDesc": "Є ідея? Опишіть свій сценарій використання, і ми розглянемо його.",
+      "categoryQuestionDesc": "Потрібна допомога з установкою або чимось іншим?",
+      "screenshotLabel": "Знімок екрана",
+      "screenshotOptional": "(необов'язково)",
+      "screenshotErrorType": "Підтримуються лише файли зображень.",
+      "screenshotErrorSize": "Файл занадто великий. Максимальний розмір: 5 МБ.",
+      "screenshotRemove": "Видалити вкладення",
+      "screenshotDrop": "Відпустіть для прикріплення",
+      "screenshotAttach": "Прикріпити знімок екрана",
+      "screenshotHint": "Перетягніть або натисніть · PNG, JPG, GIF, WebP · макс. 5 МБ"
+    }
+  },
+  "support": {
+    "heading": "Підтримати проєкт",
+    "description": "Nyan Progress Bar — безкоштовний і відкритий. Якщо тобі подобається, розглянь можливість пригостити мене кавою — це допомагає годувати котиків і підтримувати розширення.",
+    "thankYou": "Дякую всім, хто підтримав проєкт 🐱✨",
+    "kofiTitle": "Ko-Fi",
+    "kofiDesc": "Одноразова або регулярна підтримка. Обліковий запис не потрібен.",
+    "kofiBtn": "Підтримати на Ko-Fi",
+    "patreonTitle": "Patreon",
+    "patreonDesc": "Щомісячне членство з ексклюзивними оновленнями.",
+    "patreonBtn": "Приєднатись на Patreon",
+    "bmcTitle": "Buy Me a Coffee",
+    "bmcDesc": "Простий одноразовий донат. Кожен внесок важливий!",
+    "bmcBtn": "Купити каву"
+  },
+  "customizer": {
+    "adjustPosition": "Налаштувати позицію",
+    "height": "Висота",
+    "topOffset": "Зміщення зверху"
+  },
+  "preview": {
+    "label": "Живий перегляд",
+    "player": "▶ YouTube-плеєр"
+  },
+  "stats": {
+    "heading": "У цифрах",
+    "totalInstalls": "Загальна кількість встановлень",
+    "countries": "Охоплені країни",
+    "dailyUsers": "Щоденні користувачі",
+    "activeUsers": "Активних користувачів",
+    "catThemes": "Теми котів"
+  },
+  "reviews": {
+    "heading": "Що кажуть користувачі",
+    "rateUs": "Оцінити",
+    "reviews": "відгуків",
+    "showMore": "Показати більше",
+    "showLess": "Показати менше"
+  }
+}
