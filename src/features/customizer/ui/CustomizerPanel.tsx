@@ -1,9 +1,10 @@
 'use client';
 
-import { useCustomizerStore } from '../model/customizerStore';
+import { useCustomizerStore } from '@features/customizer';
 import { Slider } from '@shared/ui/slider';
 import { Label } from '@shared/ui/label';
 import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
+import { sendToExtension } from '@shared/lib/extensionBridge';
 import { ScrubberPreview } from '@widgets/cat-preview';
 import type { Props } from './types';
 
@@ -11,6 +12,11 @@ export function CustomizerPanel({ labels, previewLabels }: Props) {
   const { height, top, setHeight, setTop } = useCustomizerStore();
   const detected = useExtensionDetected();
   const disabled = detected === false;
+  const extensionActive = detected === true;
+
+  function updateStyles(next: { height: number; top: number }) {
+    if (extensionActive) sendToExtension('UPDATE_CUSTOM_CAT_STYLES', { styles: next });
+  }
 
   return (
     <div className="space-y-6">
@@ -29,7 +35,12 @@ export function CustomizerPanel({ labels, previewLabels }: Props) {
             max={80}
             step={1}
             value={[height]}
-            onValueChange={v => setHeight(Array.isArray(v) ? v[0] : v)}
+            onValueChange={v => {
+              const h = Array.isArray(v) ? v[0] : v;
+
+              setHeight(h);
+              updateStyles({ height: h, top });
+            }}
             className="accent-[#80deea]"
             disabled={disabled}
           />
@@ -45,7 +56,12 @@ export function CustomizerPanel({ labels, previewLabels }: Props) {
             max={20}
             step={1}
             value={[top]}
-            onValueChange={v => setTop(Array.isArray(v) ? v[0] : v)}
+            onValueChange={v => {
+              const t = Array.isArray(v) ? v[0] : v;
+
+              setTop(t);
+              updateStyles({ height, top: t });
+            }}
             disabled={disabled}
           />
         </div>

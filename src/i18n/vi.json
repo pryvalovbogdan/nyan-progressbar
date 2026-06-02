@@ -144,7 +144,8 @@
   "customizer": {
     "adjustPosition": "Điều chỉnh vị trí",
     "height": "Chiều cao",
-    "topOffset": "Độ lệch trên"
+    "topOffset": "Độ lệch trên",
+    "uploadGif": "Tải lên GIF của bạn"
   },
   "preview": {
     "label": "Xem trước trực tiếp",

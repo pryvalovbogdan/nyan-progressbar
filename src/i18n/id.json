@@ -144,7 +144,8 @@
   "customizer": {
     "adjustPosition": "Sesuaikan posisi",
     "height": "Tinggi",
-    "topOffset": "Offset atas"
+    "topOffset": "Offset atas",
+    "uploadGif": "Unggah GIF kamu"
   },
   "preview": {
     "label": "Pratinjau langsung",

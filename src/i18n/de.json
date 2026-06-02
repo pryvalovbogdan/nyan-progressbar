@@ -144,7 +144,8 @@
   "customizer": {
     "adjustPosition": "Position anpassen",
     "height": "Höhe",
-    "topOffset": "Oberer Versatz"
+    "topOffset": "Oberer Versatz",
+    "uploadGif": "GIF hochladen"
   },
   "preview": {
     "label": "Live-Vorschau",

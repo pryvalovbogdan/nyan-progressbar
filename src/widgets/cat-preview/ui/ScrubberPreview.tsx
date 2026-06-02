@@ -5,7 +5,8 @@ import { useCustomizerStore } from '@features/customizer';
 import type { Props } from './types';
 
 export function ScrubberPreview({ labels, disabled = false }: Props) {
-  const { selectedCat, height, top } = useCustomizerStore();
+  const { selectedCat, customGif, height, top } = useCustomizerStore();
+  const imgSrc = selectedCat === '__custom__' && customGif ? customGif : `/cats/${selectedCat}`;
   const progress = 42;
 
   return (
@@ -38,7 +39,7 @@ export function ScrubberPreview({ labels, disabled = false }: Props) {
               }}
             >
               <Image
-                src={`/cats/${selectedCat}`}
+                src={imgSrc}
                 alt="cat scrubber"
                 width={60}
                 height={height}

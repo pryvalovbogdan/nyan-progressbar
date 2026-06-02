@@ -144,7 +144,8 @@
   "customizer": {
     "adjustPosition": "Налаштувати позицію",
     "height": "Висота",
-    "topOffset": "Зміщення зверху"
+    "topOffset": "Зміщення зверху",
+    "uploadGif": "Завантажити GIF"
   },
   "preview": {
     "label": "Живий перегляд",

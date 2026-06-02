@@ -144,7 +144,8 @@
   "customizer": {
     "adjustPosition": "Ayusin ang posisyon",
     "height": "Taas",
-    "topOffset": "Itaas na offset"
+    "topOffset": "Itaas na offset",
+    "uploadGif": "I-upload ang iyong GIF"
   },
   "preview": {
     "label": "Live Preview",

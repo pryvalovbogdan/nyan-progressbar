@@ -144,7 +144,8 @@
   "customizer": {
     "adjustPosition": "Dostosuj pozycję",
     "height": "Wysokość",
-    "topOffset": "Przesunięcie górne"
+    "topOffset": "Przesunięcie górne",
+    "uploadGif": "Prześlij swój GIF"
   },
   "preview": {
     "label": "Podgląd na żywo",

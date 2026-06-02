@@ -4,14 +4,22 @@ import Image from 'next/image';
 import { useCustomizerStore } from '@features/customizer';
 import type { ScrubberCardProps } from './types';
 
-export function ScrubberCard({ cat, disabled = false, tooltip }: ScrubberCardProps) {
+export function ScrubberCard({ cat, disabled = false, tooltip, onSelect }: ScrubberCardProps) {
   const { selectedCat, setSelectedCat } = useCustomizerStore();
   const isSelected = selectedCat === cat.src;
+
+  function handleClick() {
+    if (disabled) return;
+
+    setSelectedCat(cat.src);
+
+    onSelect?.(cat.src);
+  }
 
   return (
     <div className="relative group">
       <button
-        onClick={() => !disabled && setSelectedCat(cat.src)}
+        onClick={handleClick}
         disabled={disabled}
         className={`relative aspect-square w-full rounded-xl border bg-card p-3 flex items-center justify-center transition-all duration-200 ${
           disabled
