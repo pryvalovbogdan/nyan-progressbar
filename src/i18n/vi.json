@@ -20,7 +20,7 @@
       "title": "Đánh giá người dùng — Nyan Progress Bar",
       "description": "Xem 58 người dùng nói gì về tiện ích mở rộng Chrome Nyan Progress Bar. Được đánh giá 4.7 sao."
     },
-    "constructor": {
+    "customizer": {
       "title": "Tùy chỉnh mèo — Nyan Progress Bar",
       "description": "Chọn mèo và tùy chỉnh vị trí thanh tiến trình. Cài tiện ích để xem trực tiếp trên YouTube."
     }
@@ -33,7 +33,7 @@
     "contact": "Liên hệ",
     "reviews": "Đánh giá"
   },
-  "constructor": {
+  "customizerPage": {
     "heading": "Tùy chỉnh mèo",
     "description": "Chọn mèo và điều chỉnh vị trí — cài tiện ích để xem trực tiếp trên YouTube.",
     "galleryHeading": "Chọn mèo của bạn",
@@ -43,7 +43,8 @@
       "description": "Cài đặt tiện ích mở rộng Chrome Nyan Progress Bar để áp dụng tùy chỉnh của bạn trên YouTube.",
       "cta": "Thêm vào Chrome — miễn phí",
       "dismiss": "Đóng"
-    }
+    },
+    "installTooltip": "Hãy cài tiện ích trước"
   },
   "header": {
     "logoAlt": "Mèo Nyan"

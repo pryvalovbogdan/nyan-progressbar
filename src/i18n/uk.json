@@ -20,7 +20,7 @@
       "title": "Відгуки користувачів — Nyan Progress Bar",
       "description": "Дізнайся, що кажуть 58 користувачів про розширення Nyan Progress Bar для Chrome. Рейтинг 4.7 зірки."
     },
-    "constructor": {
+    "customizer": {
       "title": "Налаштування котика — Nyan Progress Bar",
       "description": "Вибери котика та налаштуй позицію прогрес-бару. Встанови розширення, щоб побачити його на YouTube."
     }
@@ -33,7 +33,7 @@
     "contact": "Контакт",
     "reviews": "Відгуки"
   },
-  "constructor": {
+  "customizerPage": {
     "heading": "Налаштування котика",
     "description": "Вибери котика та налаштуй позицію — встанови розширення, щоб побачити його на YouTube.",
     "galleryHeading": "Вибери котика",
@@ -43,7 +43,8 @@
       "description": "Встанови розширення Nyan Progress Bar для Chrome, щоб застосувати налаштування на YouTube.",
       "cta": "Додати до Chrome — безкоштовно",
       "dismiss": "Закрити"
-    }
+    },
+    "installTooltip": "Спочатку встановіть розширення"
   },
   "header": {
     "logoAlt": "Котик Нян"

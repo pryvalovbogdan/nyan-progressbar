@@ -20,7 +20,7 @@
       "title": "Recenzje użytkowników — Nyan Progress Bar",
       "description": "Zobacz, co 58 użytkowników mówi o rozszerzeniu Chrome Nyan Progress Bar. Ocenione na 4,7 gwiazdki."
     },
-    "constructor": {
+    "customizer": {
       "title": "Konfigurator Kotów — Nyan Progress Bar",
       "description": "Wybierz kota i dostosuj pozycję paska postępu. Zainstaluj rozszerzenie, aby zobaczyć go na YouTube."
     }
@@ -33,7 +33,7 @@
     "contact": "Kontakt",
     "reviews": "Recenzje"
   },
-  "constructor": {
+  "customizerPage": {
     "heading": "Konfigurator Kotów",
     "description": "Wybierz kota i dostosuj pozycję — zainstaluj rozszerzenie, aby zobaczyć go na YouTube.",
     "galleryHeading": "Wybierz kota",
@@ -43,7 +43,8 @@
       "description": "Zainstaluj rozszerzenie Chrome Nyan Progress Bar, aby zastosować swoje dostosowanie na YouTube.",
       "cta": "Dodaj do Chrome — to bezpłatne",
       "dismiss": "Zamknij"
-    }
+    },
+    "installTooltip": "Najpierw zainstaluj rozszerzenie"
   },
   "header": {
     "logoAlt": "Kot Nyan"

@@ -44,7 +44,7 @@ export default defineConfig([
 
       "prefer-const": "warn",
       "no-param-reassign": "warn",
-      "consistent-return": "warn",
+      "consistent-return": "off",
       "no-plusplus": "warn",
 
       "import/extensions": ["error", "ignorePackages", { ts: "never", tsx: "never" }],

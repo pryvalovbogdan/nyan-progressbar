@@ -7,8 +7,8 @@ interface Props {
   dict: Dictionary;
 }
 
-export function ConstructorView({ dict }: Props) {
-  const c = dict.constructor;
+export function CustomizerView({ dict }: Props) {
+  const c = dict.customizerPage;
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:py-16 space-y-8 sm:space-y-10">
@@ -33,7 +33,7 @@ export function ConstructorView({ dict }: Props) {
         </div>
 
         <div className="grid lg:grid-cols-[1fr_340px] gap-6 sm:gap-8 items-start">
-          <ScrubberGallery />
+          <ScrubberGallery installTooltip={c.installTooltip} />
           <div className="lg:sticky lg:top-20">
             <CustomizerPanel
               labels={{

@@ -16,7 +16,7 @@ export function MobileNav({ labels, lang }: MobileNavProps) {
   const links = [
     { href: `/${lang}`, label: labels.home },
     { href: `/${lang}/extension`, label: labels.extension },
-    { href: `/${lang}/constructor`, label: labels.customize },
+    { href: `/${lang}/customizer`, label: labels.customize },
     { href: `/${lang}/reviews`, label: labels.reviews },
     { href: `/${lang}/support`, label: labels.support },
     { href: `/${lang}/contact`, label: labels.contact },

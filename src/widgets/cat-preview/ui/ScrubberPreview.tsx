@@ -4,13 +4,15 @@ import Image from 'next/image';
 import { useCustomizerStore } from '@features/customizer';
 import type { Props } from './types';
 
-export function ScrubberPreview({ labels }: Props) {
+export function ScrubberPreview({ labels, disabled = false }: Props) {
   const { selectedCat, height, top } = useCustomizerStore();
   const progress = 42;
 
   return (
-    <div className="rounded-xl border border-border bg-card p-6 space-y-4">
+    <div className={`rounded-xl border border-border bg-card p-6 space-y-4 relative${disabled ? ' opacity-50' : ''}`}>
       <p className="text-xs text-muted-foreground font-medium uppercase tracking-wider">{labels.label}</p>
+
+      {disabled && <div className="absolute inset-0 z-10 rounded-xl cursor-not-allowed" />}
 
       <div className="rounded-lg overflow-hidden bg-black aspect-video relative flex items-end">
         <div className="absolute inset-0 flex items-center justify-center text-zinc-700 text-sm select-none">

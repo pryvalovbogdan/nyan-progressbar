@@ -56,13 +56,6 @@ const REVIEWS: Review[] = [
     comment: "It isn't working :(",
   },
   {
-    name: 'first',
-    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocLCI7GTzOZ6dK5rLajTybuIGo9QIVp1f_cGj-9iVIyEwfTTZw=s48-w48-h48',
-    rating: 1,
-    date: 'Dec 26, 2025',
-    comment: 'doesnt work',
-  },
-  {
     name: 'Chóng Trần',
     avatar:
       'https://lh3.googleusercontent.com/a-/ALV-UjWU-X76Dsfrun1WvdPNGI582DjCZ8a40qvybb5FjR-CSGQBzE0T9w=s48-w48-h48',
@@ -296,8 +289,10 @@ export function ReviewsSection({ labels }: Props) {
           href={STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-black transition-all duration-200 hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] active:scale-[0.97] shrink-0 [text-shadow:0_1px_2px_rgba(0,0,0,0.4)]"
-          style={{ backgroundImage: "url('/rainbow.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white transition-all duration-200 hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] active:scale-[0.97] shrink-0"
+          style={{
+            background: 'linear-gradient(90deg, #ff0000, #ff7700, #ffff00, #00cc44, #0066ff, #8b00ff)',
+          }}
         >
           <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -335,19 +330,31 @@ export function ReviewsSection({ labels }: Props) {
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {REVIEWS.map((review, index) => {
-          let cardClass = '';
+        {REVIEWS.slice(0, 9).map(review => (
+          <ReviewCard key={`${review.name}-${review.date}`} review={review} />
+        ))}
+      </div>
 
-          if (!expanded) {
-            if (index >= 9) {
-              cardClass = 'hidden';
-            } else if (index >= 5) {
-              cardClass = 'hidden sm:flex';
-            }
-          }
-
-          return <ReviewCard key={`${review.name}-${review.date}`} review={review} className={cardClass} />;
-        })}
+      <div
+        className="grid transition-[grid-template-rows] duration-700 ease-in-out !mt-0"
+        style={{ gridTemplateRows: expanded ? '1fr' : '0fr' }}
+      >
+        <div className="overflow-hidden min-h-0">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+            {REVIEWS.slice(9).map((review, index) => (
+              <div
+                key={`${review.name}-${review.date}`}
+                style={{
+                  opacity: expanded ? 1 : 0,
+                  transform: expanded ? 'translateY(0)' : 'translateY(12px)',
+                  transition: `opacity 500ms ${index * 40}ms ease, transform 500ms ${index * 40}ms ease`,
+                }}
+              >
+                <ReviewCard review={review} />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="flex justify-center">

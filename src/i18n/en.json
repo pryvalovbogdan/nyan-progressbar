@@ -20,7 +20,7 @@
       "title": "User Reviews — Nyan Progress Bar",
       "description": "See what 58 users say about the Nyan Progress Bar Chrome extension. Rated 4.7 stars."
     },
-    "constructor": {
+    "customizer": {
       "title": "Cat Customizer — Nyan Progress Bar",
       "description": "Pick your cat and fine-tune the progress bar position. Install the extension to see it live on YouTube."
     }
@@ -33,7 +33,7 @@
     "contact": "Contact",
     "reviews": "Reviews"
   },
-  "constructor": {
+  "customizerPage": {
     "heading": "Cat Customizer",
     "description": "Pick your cat and fine-tune the position — then install the extension to see it live on YouTube.",
     "galleryHeading": "Choose your cat",
@@ -43,7 +43,8 @@
       "description": "Install the Nyan Progress Bar Chrome extension to apply your customization on YouTube.",
       "cta": "Add to Chrome — it's free",
       "dismiss": "Dismiss"
-    }
+    },
+    "installTooltip": "Install the extension first"
   },
   "header": {
     "logoAlt": "Nyan cat"
