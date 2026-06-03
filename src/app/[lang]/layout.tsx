@@ -1,12 +1,14 @@
-import { notFound } from 'next/navigation';
-import { Geist } from 'next/font/google';
-import { ThemeProvider } from 'next-themes';
-import { Toaster } from '@shared/ui/sonner';
-import { Header } from '@widgets/header';
-import { Footer } from '@widgets/footer';
 import { getDictionary, hasLocale, locales } from '@/i18n';
 import type { Locale } from '@/i18n';
+import { ThemeProvider } from 'next-themes';
+import { Geist } from 'next/font/google';
+import { notFound } from 'next/navigation';
+
 import { generatePageMetadata } from '@shared/lib/metadata';
+import { Toaster } from '@shared/ui/sonner';
+import { Footer } from '@widgets/footer';
+import { Header } from '@widgets/header';
+
 import '../../shared/theme/globals.css';
 
 const geist = Geist({ subsets: ['latin'] });

@@ -1,9 +1,10 @@
-import Link from 'next/link';
 import Image from 'next/image';
-import { Nav } from './Nav';
-import { MobileNav } from './MobileNav';
-import { ThemeToggle } from './ThemeToggle';
+import Link from 'next/link';
+
 import { LanguageSelector } from './LanguageSelector';
+import { MobileNav } from './MobileNav';
+import { Nav } from './Nav';
+import { ThemeToggle } from './ThemeToggle';
 import type { HeaderProps } from './types';
 
 export function Header({ logoAlt, navLabels, lang }: HeaderProps) {

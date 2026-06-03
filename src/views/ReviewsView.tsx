@@ -1,5 +1,6 @@
-import { ReviewsSection } from '@widgets/reviews';
 import type { Dictionary } from '@/i18n';
+
+import { ReviewsSection } from '@widgets/reviews';
 
 interface Props {
   dict: Dictionary;

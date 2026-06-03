@@ -1,10 +1,11 @@
+import type { Dictionary } from '@/i18n';
+
 import { ScrubberGallery } from '@features/cat-selector';
 import { CustomizerPanel } from '@features/customizer';
-import { StatsSection } from '@widgets/stats';
-import { ReviewsSection } from '@widgets/reviews';
 import { buttonVariants } from '@shared/ui/button';
 import { Separator } from '@shared/ui/separator';
-import type { Dictionary } from '@/i18n';
+import { ReviewsSection } from '@widgets/reviews';
+import { StatsSection } from '@widgets/stats';
 
 interface Props {
   dict: Dictionary;
@@ -59,7 +60,7 @@ export function HomeView({ dict }: Props) {
         </div>
 
         <div className="grid lg:grid-cols-[1fr_340px] gap-6 sm:gap-8 items-start">
-          <ScrubberGallery uploadLabel={dict.customizer.uploadGif} />
+          <ScrubberGallery uploadLabel={dict.customizer.uploadGif} isMainPage />
           <div className="lg:sticky lg:top-20">
             <CustomizerPanel
               labels={{
@@ -71,6 +72,7 @@ export function HomeView({ dict }: Props) {
                 label: dict.preview.label,
                 player: dict.preview.player,
               }}
+              isMainPage
             />
           </div>
         </div>

@@ -1,6 +1,6 @@
+import { defaultLocale, locales } from '@/i18n';
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { locales, defaultLocale } from '@/i18n';
 
 function getLocale(request: NextRequest): string {
   const acceptLanguage = request.headers.get('accept-language') ?? '';
@@ -38,5 +38,7 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|.*\\.gif$|.*\\.svg$|.*\\.ico$|.*\\.png$).*)'],
+  matcher: [
+    '/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|.*\\.gif$|.*\\.svg$|.*\\.ico$|.*\\.png$).*)',
+  ],
 };

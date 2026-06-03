@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+
 import { ContactPayload } from './types';
 
 const port = Number(process.env.SMTP_PORT ?? 587);

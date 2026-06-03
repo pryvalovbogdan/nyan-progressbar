@@ -1,6 +1,6 @@
-import type { Metadata } from 'next';
 import type { Dictionary, Locale } from '@/i18n';
 import { locales } from '@/i18n';
+import type { Metadata } from 'next';
 
 export type PageKey = 'home' | 'extension' | 'support' | 'contact' | 'reviews' | 'customizer';
 

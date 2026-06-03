@@ -1,5 +1,6 @@
-import { ContactForm } from '@features/contact-form';
 import type { Dictionary } from '@/i18n';
+
+import { ContactForm } from '@features/contact-form';
 
 interface Props {
   dict: Dictionary;

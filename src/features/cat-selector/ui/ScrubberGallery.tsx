@@ -1,17 +1,19 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+
 import { catsList } from '@entities/cat';
-import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
+import { IScrubberGalleryProps } from '@features/cat-selector/ui/types';
 import { useCustomizerStore } from '@features/customizer';
 import { getExtensionState, sendToExtension } from '@shared/lib/extensionBridge';
-import { ScrubberCard } from './ScrubberCard';
-import { IScrubberGalleryProps } from '@features/cat-selector/ui/types';
+import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 
-export function ScrubberGallery({ installTooltip, uploadLabel }: IScrubberGalleryProps) {
+import { ScrubberCard } from './ScrubberCard';
+
+export function ScrubberGallery({ installTooltip, uploadLabel, isMainPage }: IScrubberGalleryProps) {
   const detected = useExtensionDetected();
-  const disabled = detected === false;
-  const extensionActive = detected === true;
+  const disabled = !detected;
+  const extensionActive = detected;
   const { customGif, setCustomGif, loadCustomGif, selectedCat, setSelectedCat, setHeight, setTop } =
     useCustomizerStore();
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -135,6 +137,7 @@ export function ScrubberGallery({ installTooltip, uploadLabel }: IScrubberGaller
           key={cat.src}
           cat={cat}
           disabled={disabled}
+          isMainPage={isMainPage}
           tooltip={disabled ? installTooltip : undefined}
           onSelect={extensionActive ? src => sendToExtension('SELECT_CAT', { src }) : undefined}
         />
