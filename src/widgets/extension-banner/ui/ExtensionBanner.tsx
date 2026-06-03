@@ -1,7 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 
 import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 
@@ -22,12 +23,18 @@ interface Props {
 export function ExtensionBanner({ labels }: Props) {
   const detected = useExtensionDetected();
   const [dismissed, setDismissed] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  if (detected !== false || dismissed) return null;
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-  return (
+  if (!mounted || detected !== false || dismissed) return null;
+
+  return createPortal(
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/55 backdrop-blur-sm"
+      style={{ height: '100dvh' }}
       onClick={() => setDismissed(true)}
     >
       <div
@@ -79,6 +86,7 @@ export function ExtensionBanner({ labels }: Props) {
           </a>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
