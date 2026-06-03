@@ -24,3 +24,18 @@ export interface HeaderProps {
   navLabels: NavLabels;
   lang: Locale;
 }
+export interface Heart {
+  id: number;
+  x: number;
+  color: string;
+  size: number;
+  delay: number;
+  duration: number;
+  rotate: number;
+}
+
+export interface IDonateButtonProps {
+  href: string;
+  label: string;
+  isActive: boolean;
+}

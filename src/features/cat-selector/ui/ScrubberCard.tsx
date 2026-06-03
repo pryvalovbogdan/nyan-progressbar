@@ -2,9 +2,9 @@
 
 import Image from 'next/image';
 import { useCustomizerStore } from '@features/customizer';
-import type { ScrubberCardProps } from './types';
+import type { IScrubberCardProps } from './types';
 
-export function ScrubberCard({ cat, disabled = false, tooltip, onSelect }: ScrubberCardProps) {
+export function ScrubberCard({ cat, disabled = false, tooltip, onSelect }: IScrubberCardProps) {
   const { selectedCat, setSelectedCat } = useCustomizerStore();
   const isSelected = selectedCat === cat.src;
 

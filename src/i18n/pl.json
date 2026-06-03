@@ -139,7 +139,18 @@
     "patreonBtn": "Dołącz na Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Prosty jednorazowy datek. Każda pomoc się liczy!",
-    "bmcBtn": "Postaw kawę"
+    "bmcBtn": "Postaw kawę",
+    "monoTitle": "Monobank",
+    "monoDesc": "Bezpośredni przelew bankowy przez Monobank.",
+    "monoBtn": "Wesprzyj przez Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Platforma darowizn streamingowych. Proste jednorazowe wpłaty.",
+    "donatelloBtn": "Wesprzyj na Donatello",
+    "cryptoTitle": "Krypto (USDT)",
+    "cryptoDesc": "Wyslij USDT przez siec TRON (TRC-20). Zeskanuj QR lub skopiuj adres.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Kopiuj adres",
+    "cryptoCopied": "Skopiowano!"
   },
   "customizer": {
     "adjustPosition": "Dostosuj pozycję",

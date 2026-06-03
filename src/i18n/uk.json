@@ -29,7 +29,7 @@
     "home": "Головна",
     "extension": "Розширення",
     "customize": "Налаштувати",
-    "support": "Підтримати",
+    "support": "Задонатити",
     "contact": "Контакт",
     "reviews": "Відгуки"
   },
@@ -139,7 +139,18 @@
     "patreonBtn": "Приєднатись на Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Простий одноразовий донат. Кожен внесок важливий!",
-    "bmcBtn": "Купити каву"
+    "bmcBtn": "Купити каву",
+    "monoTitle": "Monobank",
+    "monoDesc": "Прямий переказ через банку Monobank.",
+    "monoBtn": "Задонатити через Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Платформа для стрімерських донатів. Легкі разові пожертви.",
+    "donatelloBtn": "Задонатити на Donatello",
+    "cryptoTitle": "Крипто (USDT)",
+    "cryptoDesc": "Надішліть USDT через мережу TRON (TRC-20). Скануйте QR або скопіюйте адресу.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Скопіювати адресу",
+    "cryptoCopied": "Скопійовано!"
   },
   "customizer": {
     "adjustPosition": "Налаштувати позицію",

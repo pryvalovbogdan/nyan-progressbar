@@ -29,7 +29,7 @@
     "home": "Home",
     "extension": "Extension",
     "customize": "I-customize",
-    "support": "Suporta",
+    "support": "Mag-donate",
     "contact": "Makipag-ugnayan",
     "reviews": "Mga Pagsusuri"
   },
@@ -139,7 +139,18 @@
     "patreonBtn": "Sumali sa Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Simpleng isang beses na tip. Mahalaga ang bawat kontribusyon!",
-    "bmcBtn": "Bumili ng kape"
+    "bmcBtn": "Bumili ng kape",
+    "monoTitle": "Monobank",
+    "monoDesc": "Direktang bank transfer sa pamamagitan ng Monobank.",
+    "monoBtn": "Mag-donate via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Streaming donation platform. Madaling mag-tip.",
+    "donatelloBtn": "Mag-donate sa Donatello",
+    "cryptoTitle": "Crypto (USDT)",
+    "cryptoDesc": "Magpadala ng USDT sa TRON network (TRC-20). I-scan ang QR o kopyahin ang address.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Kopyahin ang Address",
+    "cryptoCopied": "Nakopya!"
   },
   "customizer": {
     "adjustPosition": "Ayusin ang posisyon",

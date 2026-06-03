@@ -139,7 +139,18 @@
     "patreonBtn": "Tham gia Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Tiền tip một lần đơn giản. Mỗi chút đều có ý nghĩa!",
-    "bmcBtn": "Mua cà phê"
+    "bmcBtn": "Mua cà phê",
+    "monoTitle": "Monobank",
+    "monoDesc": "Chuyển khoản trực tiếp qua Monobank.",
+    "monoBtn": "Ủng hộ qua Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Nền tảng quyên góp streaming. Tip dễ dàng.",
+    "donatelloBtn": "Ủng hộ trên Donatello",
+    "cryptoTitle": "Crypto (USDT)",
+    "cryptoDesc": "Gui USDT qua mang TRON (TRC-20). Quet QR hoac sao chep dia chi.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Sao chep dia chi",
+    "cryptoCopied": "Da sao chep!"
   },
   "customizer": {
     "adjustPosition": "Điều chỉnh vị trí",

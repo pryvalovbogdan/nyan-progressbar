@@ -6,13 +6,9 @@ import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 import { useCustomizerStore } from '@features/customizer';
 import { getExtensionState, sendToExtension } from '@shared/lib/extensionBridge';
 import { ScrubberCard } from './ScrubberCard';
+import { IScrubberGalleryProps } from '@features/cat-selector/ui/types';
 
-interface Props {
-  installTooltip?: string;
-  uploadLabel?: string;
-}
-
-export function ScrubberGallery({ installTooltip, uploadLabel }: Props) {
+export function ScrubberGallery({ installTooltip, uploadLabel }: IScrubberGalleryProps) {
   const detected = useExtensionDetected();
   const disabled = detected === false;
   const extensionActive = detected === true;
@@ -65,7 +61,9 @@ export function ScrubberGallery({ installTooltip, uploadLabel }: Props) {
   function handleFileChange(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
 
-    if (!file) return;
+    if (!file) {
+      return;
+    }
 
     const reader = new FileReader();
 
@@ -87,15 +85,17 @@ export function ScrubberGallery({ installTooltip, uploadLabel }: Props) {
         <button
           onClick={() => !disabled && fileInputRef.current?.click()}
           disabled={disabled}
-          className={`relative aspect-square w-full rounded-xl border bg-card p-3 flex flex-col items-center justify-center gap-1 transition-all duration-200 ${
+          className={`relative aspect-square w-full rounded-xl border-dashed border bg-card p-3 flex flex-col items-center justify-center gap-0.5 transition-all duration-200 ${
             disabled
               ? 'opacity-50 cursor-not-allowed border-border'
-              : 'cursor-pointer hover:-translate-y-1 hover:border-[#80deea] hover:shadow-[0_4px_16px_rgba(128,222,234,0.2)] border-dashed border-border'
+              : 'opacity-80 hover:opacity-100 cursor-pointer hover:border-[#80deea] hover:bg-accent border-border'
           }`}
         >
-          <span className="text-xl leading-none text-muted-foreground">+</span>
+          <span className="text-[22px] font-bold leading-none text-[#80deea]">+</span>
           {uploadLabel && (
-            <span className="text-[9px] text-muted-foreground leading-tight text-center px-1">{uploadLabel}</span>
+            <span className="text-[11px] tracking-[0.2px] text-foreground leading-tight text-center px-1 font-bold">
+              {uploadLabel}
+            </span>
           )}
         </button>
       </div>
@@ -104,11 +104,15 @@ export function ScrubberGallery({ installTooltip, uploadLabel }: Props) {
         <div className="relative">
           <button
             onClick={() => {
-              if (disabled) return;
+              if (disabled) {
+                return;
+              }
 
               setSelectedCat('__custom__');
 
-              if (extensionActive) sendToExtension('SELECT_CAT', { src: '__custom__' });
+              if (extensionActive) {
+                sendToExtension('SELECT_CAT', { src: '__custom__' });
+              }
             }}
             disabled={disabled}
             className={`relative aspect-square w-full rounded-xl border bg-card p-3 flex items-center justify-center transition-all duration-200 ${

@@ -29,7 +29,7 @@
     "home": "Beranda",
     "extension": "Ekstensi",
     "customize": "Sesuaikan",
-    "support": "Dukung",
+    "support": "Donasi",
     "contact": "Kontak",
     "reviews": "Ulasan"
   },
@@ -139,7 +139,18 @@
     "patreonBtn": "Bergabung di Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Tips sekali yang sederhana. Setiap kontribusi berarti!",
-    "bmcBtn": "Beli kopi"
+    "bmcBtn": "Beli kopi",
+    "monoTitle": "Monobank",
+    "monoDesc": "Transfer langsung via Monobank.",
+    "monoBtn": "Donasi via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Platform donasi streaming. Tip sekali klik.",
+    "donatelloBtn": "Donasi di Donatello",
+    "cryptoTitle": "Kripto (USDT)",
+    "cryptoDesc": "Kirim USDT via jaringan TRON (TRC-20). Scan QR atau salin alamat.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Salin Alamat",
+    "cryptoCopied": "Tersalin!"
   },
   "customizer": {
     "adjustPosition": "Sesuaikan posisi",

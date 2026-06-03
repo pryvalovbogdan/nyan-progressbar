@@ -29,7 +29,7 @@
     "home": "Accueil",
     "extension": "Extension",
     "customize": "Personnaliser",
-    "support": "Soutenir",
+    "support": "Faire un don",
     "contact": "Contact",
     "reviews": "Avis"
   },
@@ -139,7 +139,18 @@
     "patreonBtn": "Rejoindre sur Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Pourboire unique et simple. Chaque contribution compte !",
-    "bmcBtn": "Offrir un café"
+    "bmcBtn": "Offrir un café",
+    "monoTitle": "Monobank",
+    "monoDesc": "Virement bancaire direct via Monobank.",
+    "monoBtn": "Donner via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Plateforme de dons en streaming. Pourboires faciles.",
+    "donatelloBtn": "Donner sur Donatello",
+    "cryptoTitle": "Crypto (USDT)",
+    "cryptoDesc": "Envoie USDT via le reseau TRON (TRC-20). Scanne le QR ou copie ladresse.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Copier ladresse",
+    "cryptoCopied": "Copie !"
   },
   "customizer": {
     "adjustPosition": "Ajuster la position",
