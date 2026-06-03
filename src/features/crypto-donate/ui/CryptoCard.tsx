@@ -1,11 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
-import { ICryptoCard } from '@features/crypto-donate/ui/types';
-import { QR_PATH } from '@features/crypto-donate/ui/consts';
 
-const WALLET_ADDRESS = process.env.NEXT_PUBLIC_WALLET_ADDRESS as string;
+import { QR_PATH } from '@features/crypto-donate/ui/consts';
+import { ICryptoCard } from '@features/crypto-donate/ui/types';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
+
+const WALLET_ADDRESS = process.env.NEXT_PUBLIC_CRYPTO_WALLET_ADDRESS as string;
 
 export function CryptoCard({ title, description, networkLabel, copyLabel, copiedLabel }: ICryptoCard) {
   const [copied, setCopied] = useState(false);

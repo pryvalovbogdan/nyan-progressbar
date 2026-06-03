@@ -6,15 +6,6 @@ export function Footer({ labels }: Props) {
       <p>
         {labels.madeWith} ·{' '}
         <a
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-foreground transition-colors"
-        >
-          {labels.github}
-        </a>{' '}
-        ·{' '}
-        <a
           href="https://ko-fi.com/nyancustombar"
           target="_blank"
           rel="noopener noreferrer"

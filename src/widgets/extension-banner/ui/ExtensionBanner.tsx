@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
 import Image from 'next/image';
+import { useState } from 'react';
+
 import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 
 const EXTENSION_ID = 'oadlabdleegopgjlkcmjjogeaceagbie';

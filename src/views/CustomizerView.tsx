@@ -1,7 +1,8 @@
+import type { Dictionary } from '@/i18n';
+
 import { ScrubberGallery } from '@features/cat-selector';
 import { CustomizerPanel } from '@features/customizer';
 import { ExtensionBanner } from '@widgets/extension-banner';
-import type { Dictionary } from '@/i18n';
 
 interface Props {
   dict: Dictionary;
@@ -41,6 +42,7 @@ export function CustomizerView({ dict }: Props) {
                 height: dict.customizer.height,
                 topOffset: dict.customizer.topOffset,
               }}
+              isMainPage={false}
               previewLabels={{
                 label: dict.preview.label,
                 player: dict.preview.player,

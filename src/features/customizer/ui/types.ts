@@ -9,7 +9,8 @@ export interface PreviewLabels {
   player: string;
 }
 
-export interface Props {
+export interface ICustomizerPanelProps {
   labels: CustomizerLabels;
   previewLabels: PreviewLabels;
+  isMainPage: boolean;
 }

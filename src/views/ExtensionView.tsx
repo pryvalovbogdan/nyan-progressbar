@@ -1,6 +1,7 @@
+import type { Dictionary } from '@/i18n';
+
 import { buttonVariants } from '@shared/ui/button';
 import { Separator } from '@shared/ui/separator';
-import type { Dictionary } from '@/i18n';
 
 interface Props {
   dict: Dictionary;

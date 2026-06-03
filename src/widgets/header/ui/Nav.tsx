@@ -2,9 +2,10 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState, useCallback } from 'react';
-import type { Heart, IDonateButtonProps, NavProps } from './types';
+import { useCallback, useState } from 'react';
+
 import { HEART_COLORS } from './consts';
+import type { Heart, IDonateButtonProps, NavProps } from './types';
 
 function DonateButton({ href, label, isActive }: IDonateButtonProps) {
   const [hearts, setHearts] = useState<Heart[]>([]);

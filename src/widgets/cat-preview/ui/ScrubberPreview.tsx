@@ -1,8 +1,12 @@
 'use client';
 
 import Image from 'next/image';
+
 import { useCustomizerStore } from '@features/customizer';
+
 import type { Props } from './types';
+
+const VIDEO_ID = 'Ufzk5xf8Rho';
 
 export function ScrubberPreview({ labels, disabled = false }: Props) {
   const { selectedCat, customGif, height, top } = useCustomizerStore();
@@ -15,13 +19,20 @@ export function ScrubberPreview({ labels, disabled = false }: Props) {
 
       {disabled && <div className="absolute inset-0 z-10 rounded-xl cursor-not-allowed" />}
 
-      <div className="rounded-lg overflow-hidden bg-black aspect-video relative flex items-end">
-        <div className="absolute inset-0 flex items-center justify-center text-zinc-700 text-sm select-none">
-          {labels.player}
-        </div>
+      <div className="rounded-lg overflow-hidden bg-black aspect-video relative">
+        <iframe
+          src={`https://www.youtube.com/embed/${VIDEO_ID}?rel=0&modestbranding=1&autoplay=1&mute=1&controls=0`}
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="absolute inset-0 w-full h-full"
+        />
 
-        <div className="w-full px-3 pb-3 space-y-1">
-          <div className="relative h-[3px] w-full bg-zinc-700 rounded-full">
+        <div
+          className="absolute bottom-0 left-0 right-0 px-3 pb-3 space-y-1 pointer-events-none"
+          style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%)' }}
+        >
+          <div className="relative h-[3px] w-full bg-zinc-500/60 rounded-full">
             <div
               className="absolute top-0 left-0 h-full rounded-full"
               style={{
@@ -49,7 +60,7 @@ export function ScrubberPreview({ labels, disabled = false }: Props) {
             </div>
           </div>
 
-          <div className="flex items-center gap-2 text-zinc-400 text-[10px]">
+          <div className="flex items-center gap-2 text-zinc-300 text-[10px]">
             <span>▶</span>
             <span>0:42 / 1:40</span>
             <div className="ml-auto flex gap-1">

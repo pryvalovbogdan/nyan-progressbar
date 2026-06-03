@@ -1,8 +1,9 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import type { Props, StatCardProps } from './types';
+
 import { useCountUp } from '../hooks';
+import type { Props, StatCardProps } from './types';
 
 function StatCard({ target, unit, label, started, duration }: StatCardProps) {
   const count = useCountUp(target, started, duration);

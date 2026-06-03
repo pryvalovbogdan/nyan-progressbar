@@ -1,7 +1,8 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
-import { buttonVariants } from '@shared/ui/button';
-import { CryptoCard } from '@features/crypto-donate';
 import type { Dictionary } from '@/i18n';
+
+import { CryptoCard } from '@features/crypto-donate';
+import { buttonVariants } from '@shared/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
 
 interface Props {
   dict: Dictionary;

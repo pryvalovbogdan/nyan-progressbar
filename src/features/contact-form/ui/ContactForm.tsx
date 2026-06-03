@@ -1,19 +1,19 @@
 'use client';
 
-import { useState, useRef } from 'react';
-import { Bug, Lightbulb, MessageCircle, Check, ImagePlus, X } from 'lucide-react';
+import { Bug, Check, ImagePlus, Lightbulb, MessageCircle, X } from 'lucide-react';
 import Image from 'next/image';
+import { useRef, useState } from 'react';
+import { toast } from 'sonner';
+
 import { Button } from '@shared/ui/button';
 import { Input } from '@shared/ui/input';
-import { Textarea } from '@shared/ui/textarea';
 import { Label } from '@shared/ui/label';
-import { toast } from 'sonner';
-import type { Props, FormState, CategoryCard, Attachment } from './types';
+import { Textarea } from '@shared/ui/textarea';
+
+import { EMPTY, MAX_SIZE } from './consts';
+import type { Attachment, CategoryCard, FormState, Props } from './types';
 
 export type { FormTranslations } from './types';
-
-const EMPTY: FormState = { name: '', email: '', category: null, message: '', attachment: null };
-const MAX_SIZE = 5 * 1024 * 1024;
 
 function formatBytes(bytes: number): string {
   return bytes < 1024 * 1024 ? `${(bytes / 1024).toFixed(0)} KB` : `${(bytes / 1024 / 1024).toFixed(1)} MB`;
@@ -85,7 +85,13 @@ export function ContactForm({ t }: Props) {
 
       setForm(prev => ({
         ...prev,
-        attachment: { name: file.name, data, mimeType, size: file.size, preview: result } satisfies Attachment,
+        attachment: {
+          name: file.name,
+          data,
+          mimeType,
+          size: file.size,
+          preview: result,
+        } satisfies Attachment,
       }));
     };
 

@@ -1,8 +1,9 @@
-import { notFound } from 'next/navigation';
 import { getDictionary, hasLocale } from '@/i18n';
 import type { Locale } from '@/i18n';
-import { ReviewsView } from '@views/ReviewsView';
+import { notFound } from 'next/navigation';
+
 import { generatePageMetadata } from '@shared/lib/metadata';
+import { ReviewsView } from '@views/ReviewsView';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

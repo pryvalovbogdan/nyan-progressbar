@@ -1,5 +1,5 @@
-import type { MetadataRoute } from 'next';
 import { locales } from '@/i18n';
+import type { MetadataRoute } from 'next';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nyanprogressbar.com';
 

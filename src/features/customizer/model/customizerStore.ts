@@ -1,6 +1,7 @@
 'use client';
 
 import { create } from 'zustand';
+
 import { catsData, catsList } from '@entities/cat';
 
 const DEFAULT_CAT = catsList[0];

@@ -2,12 +2,33 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react';
-import type { MobileNavProps } from './types';
+import { useCallback, useEffect, useState } from 'react';
+
+import { HEART_COLORS } from './consts';
+import type { Heart, MobileNavProps } from './types';
 
 export function MobileNav({ labels, lang }: MobileNavProps) {
   const [open, setOpen] = useState(false);
+  const [hearts, setHearts] = useState<Heart[]>([]);
   const pathname = usePathname();
+
+  const spawnHearts = useCallback(() => {
+    const newHearts: Heart[] = Array.from({ length: 10 }, (_, i) => ({
+      id: Date.now() + i,
+      x: Math.random() * 200 - 100,
+      color: HEART_COLORS[Math.floor(Math.random() * HEART_COLORS.length)],
+      size: 9 + Math.random() * 9,
+      delay: i * 55,
+      duration: 1300 + Math.random() * 400,
+      rotate: Math.random() * 30 - 15,
+    }));
+
+    setHearts(prev => [...prev, ...newHearts]);
+  }, []);
+
+  const removeHeart = useCallback((id: number) => {
+    setHearts(prev => prev.filter(h => h.id !== id));
+  }, []);
 
   useEffect(() => {
     setOpen(false);
@@ -69,7 +90,9 @@ export function MobileNav({ labels, lang }: MobileNavProps) {
                   <Link
                     key={href}
                     href={href}
-                    className="flex items-center gap-3 px-3 py-3 rounded-lg text-sm font-semibold text-white transition-colors"
+                    onMouseEnter={spawnHearts}
+                    onTouchStart={spawnHearts}
+                    className="relative flex items-center gap-3 px-3 py-3 rounded-lg text-sm font-semibold text-white transition-colors overflow-visible"
                     style={{
                       background: 'linear-gradient(135deg, #ff6b8a99, #ff8c4299)',
                     }}
@@ -78,6 +101,28 @@ export function MobileNav({ labels, lang }: MobileNavProps) {
                       <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                     </svg>
                     {label}
+                    {hearts.map(heart => (
+                      <svg
+                        key={heart.id}
+                        viewBox="0 0 24 24"
+                        fill={heart.color}
+                        className="donate-heart absolute"
+                        onAnimationEnd={() => removeHeart(heart.id)}
+                        style={
+                          {
+                            left: `calc(50% + ${heart.x}px)`,
+                            width: heart.size,
+                            height: heart.size,
+                            color: heart.color,
+                            '--heart-delay': `${heart.delay}ms`,
+                            '--heart-duration': `${heart.duration}ms`,
+                            '--heart-rotate': `${heart.rotate}deg`,
+                          } as React.CSSProperties
+                        }
+                      >
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                      </svg>
+                    ))}
                   </Link>
                 );
               }
