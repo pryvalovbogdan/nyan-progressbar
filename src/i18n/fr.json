@@ -19,14 +19,32 @@
     "reviews": {
       "title": "Avis des utilisateurs — Nyan Progress Bar",
       "description": "Découvrez ce que 58 utilisateurs disent de l'extension Chrome Nyan Progress Bar. Notée 4,7 étoiles."
+    },
+    "customizer": {
+      "title": "Personnalisateur de Chats — Nyan Progress Bar",
+      "description": "Choisissez votre chat et personnalisez la position de la barre de progression. Installez l'extension pour le voir en direct sur YouTube."
     }
   },
   "nav": {
     "home": "Accueil",
     "extension": "Extension",
-    "support": "Soutenir",
+    "customize": "Personnaliser",
+    "support": "Faire un don",
     "contact": "Contact",
     "reviews": "Avis"
+  },
+  "customizerPage": {
+    "heading": "Personnalisateur de Chats",
+    "description": "Choisissez votre chat et ajustez la position — installez l'extension pour le voir en direct sur YouTube.",
+    "galleryHeading": "Choisissez votre chat",
+    "galleryDesc": "Cliquez sur un chat pour le prévisualiser sur la barre de progression.",
+    "banner": {
+      "heading": "Extension non installée",
+      "description": "Installez l'extension Chrome Nyan Progress Bar pour appliquer votre personnalisation sur YouTube.",
+      "cta": "Ajouter à Chrome — c'est gratuit",
+      "dismiss": "Fermer"
+    },
+    "installTooltip": "Installez d'abord l'extension"
   },
   "header": {
     "logoAlt": "Chat Nyan"
@@ -121,12 +139,24 @@
     "patreonBtn": "Rejoindre sur Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Pourboire unique et simple. Chaque contribution compte !",
-    "bmcBtn": "Offrir un café"
+    "bmcBtn": "Offrir un café",
+    "monoTitle": "Monobank",
+    "monoDesc": "Virement bancaire direct via Monobank.",
+    "monoBtn": "Donner via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Plateforme de dons en streaming. Pourboires faciles.",
+    "donatelloBtn": "Donner sur Donatello",
+    "cryptoTitle": "Crypto (USDT)",
+    "cryptoDesc": "Envoie USDT via le reseau TRON (TRC-20). Scanne le QR ou copie ladresse.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Copier ladresse",
+    "cryptoCopied": "Copie !"
   },
   "customizer": {
     "adjustPosition": "Ajuster la position",
     "height": "Hauteur",
-    "topOffset": "Décalage supérieur"
+    "topOffset": "Décalage supérieur",
+    "uploadGif": "Télécharger votre GIF"
   },
   "preview": {
     "label": "Aperçu en direct",

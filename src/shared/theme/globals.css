@@ -134,3 +134,26 @@
     @apply font-sans;
   }
 }
+
+@keyframes heart-float {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.4) rotate(var(--heart-rotate));
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(-12px) scale(1) rotate(var(--heart-rotate));
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-90px) scale(0.7) rotate(var(--heart-rotate));
+  }
+}
+
+.donate-heart {
+  position: absolute;
+  bottom: 0;
+  pointer-events: none;
+  animation: heart-float var(--heart-duration, 1.4s) ease-out var(--heart-delay, 0ms) forwards;
+  filter: drop-shadow(0 0 4px currentColor);
+}

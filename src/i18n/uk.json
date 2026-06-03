@@ -19,14 +19,32 @@
     "reviews": {
       "title": "Відгуки користувачів — Nyan Progress Bar",
       "description": "Дізнайся, що кажуть 58 користувачів про розширення Nyan Progress Bar для Chrome. Рейтинг 4.7 зірки."
+    },
+    "customizer": {
+      "title": "Налаштування котика — Nyan Progress Bar",
+      "description": "Вибери котика та налаштуй позицію прогрес-бару. Встанови розширення, щоб побачити його на YouTube."
     }
   },
   "nav": {
     "home": "Головна",
     "extension": "Розширення",
-    "support": "Підтримати",
+    "customize": "Налаштувати",
+    "support": "Задонатити",
     "contact": "Контакт",
     "reviews": "Відгуки"
+  },
+  "customizerPage": {
+    "heading": "Налаштування котика",
+    "description": "Вибери котика та налаштуй позицію — встанови розширення, щоб побачити його на YouTube.",
+    "galleryHeading": "Вибери котика",
+    "galleryDesc": "Натисни на котика, щоб переглянути його на прогрес-барі.",
+    "banner": {
+      "heading": "Розширення не встановлено",
+      "description": "Встанови розширення Nyan Progress Bar для Chrome, щоб застосувати налаштування на YouTube.",
+      "cta": "Додати до Chrome — безкоштовно",
+      "dismiss": "Закрити"
+    },
+    "installTooltip": "Спочатку встановіть розширення"
   },
   "header": {
     "logoAlt": "Котик Нян"
@@ -121,12 +139,24 @@
     "patreonBtn": "Приєднатись на Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Простий одноразовий донат. Кожен внесок важливий!",
-    "bmcBtn": "Купити каву"
+    "bmcBtn": "Купити каву",
+    "monoTitle": "Monobank",
+    "monoDesc": "Прямий переказ через банку Monobank.",
+    "monoBtn": "Задонатити через Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Платформа для стрімерських донатів. Легкі разові пожертви.",
+    "donatelloBtn": "Задонатити на Donatello",
+    "cryptoTitle": "Крипто (USDT)",
+    "cryptoDesc": "Надішліть USDT через мережу TRON (TRC-20). Скануйте QR або скопіюйте адресу.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Скопіювати адресу",
+    "cryptoCopied": "Скопійовано!"
   },
   "customizer": {
     "adjustPosition": "Налаштувати позицію",
     "height": "Висота",
-    "topOffset": "Зміщення зверху"
+    "topOffset": "Зміщення зверху",
+    "uploadGif": "Завантажити GIF"
   },
   "preview": {
     "label": "Живий перегляд",

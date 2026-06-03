@@ -19,14 +19,32 @@
     "reviews": {
       "title": "Nutzerbewertungen — Nyan Progress Bar",
       "description": "Sieh, was 58 Nutzer über die Nyan Progress Bar Chrome-Erweiterung sagen. Bewertet mit 4,7 Sternen."
+    },
+    "customizer": {
+      "title": "Katzen-Konfigurator — Nyan Progress Bar",
+      "description": "Wähle deine Katze und passe die Position der Fortschrittsleiste an. Installiere die Erweiterung, um sie live auf YouTube zu sehen."
     }
   },
   "nav": {
     "home": "Startseite",
     "extension": "Erweiterung",
-    "support": "Unterstützen",
+    "customize": "Anpassen",
+    "support": "Spenden",
     "contact": "Kontakt",
     "reviews": "Bewertungen"
+  },
+  "customizerPage": {
+    "heading": "Katzen-Konfigurator",
+    "description": "Wähle deine Katze und passe die Position an — installiere die Erweiterung, um sie live auf YouTube zu sehen.",
+    "galleryHeading": "Wähle deine Katze",
+    "galleryDesc": "Klicke auf eine Katze, um sie in der Fortschrittsleiste zu sehen.",
+    "banner": {
+      "heading": "Erweiterung nicht installiert",
+      "description": "Installiere die Chrome-Erweiterung Nyan Progress Bar, um deine Anpassung auf YouTube anzuwenden.",
+      "cta": "Zu Chrome hinzufügen — kostenlos",
+      "dismiss": "Schließen"
+    },
+    "installTooltip": "Zuerst die Erweiterung installieren"
   },
   "header": {
     "logoAlt": "Nyan-Katze"
@@ -121,12 +139,24 @@
     "patreonBtn": "Auf Patreon beitreten",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Einmaliges Trinkgeld. Jeder Beitrag zählt!",
-    "bmcBtn": "Einen Kaffee ausgeben"
+    "bmcBtn": "Einen Kaffee ausgeben",
+    "monoTitle": "Monobank",
+    "monoDesc": "Direkter Bankübertrag über Monobank.",
+    "monoBtn": "Spenden via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Streaming-Spendenplattform. Einfache Einmalspenden.",
+    "donatelloBtn": "Spenden auf Donatello",
+    "cryptoTitle": "Krypto (USDT)",
+    "cryptoDesc": "USDT via TRON-Netzwerk senden (TRC-20). QR scannen oder Adresse kopieren.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Adresse kopieren",
+    "cryptoCopied": "Kopiert!"
   },
   "customizer": {
     "adjustPosition": "Position anpassen",
     "height": "Höhe",
-    "topOffset": "Oberer Versatz"
+    "topOffset": "Oberer Versatz",
+    "uploadGif": "GIF hochladen"
   },
   "preview": {
     "label": "Live-Vorschau",

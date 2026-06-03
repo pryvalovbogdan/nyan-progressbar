@@ -19,14 +19,32 @@
     "reviews": {
       "title": "Đánh giá người dùng — Nyan Progress Bar",
       "description": "Xem 58 người dùng nói gì về tiện ích mở rộng Chrome Nyan Progress Bar. Được đánh giá 4.7 sao."
+    },
+    "customizer": {
+      "title": "Tùy chỉnh mèo — Nyan Progress Bar",
+      "description": "Chọn mèo và tùy chỉnh vị trí thanh tiến trình. Cài tiện ích để xem trực tiếp trên YouTube."
     }
   },
   "nav": {
     "home": "Trang chủ",
     "extension": "Tiện ích",
+    "customize": "Tùy chỉnh",
     "support": "Ủng hộ",
     "contact": "Liên hệ",
     "reviews": "Đánh giá"
+  },
+  "customizerPage": {
+    "heading": "Tùy chỉnh mèo",
+    "description": "Chọn mèo và điều chỉnh vị trí — cài tiện ích để xem trực tiếp trên YouTube.",
+    "galleryHeading": "Chọn mèo của bạn",
+    "galleryDesc": "Nhấp vào mèo để xem trước trên thanh tiến trình.",
+    "banner": {
+      "heading": "Chưa cài tiện ích",
+      "description": "Cài đặt tiện ích mở rộng Chrome Nyan Progress Bar để áp dụng tùy chỉnh của bạn trên YouTube.",
+      "cta": "Thêm vào Chrome — miễn phí",
+      "dismiss": "Đóng"
+    },
+    "installTooltip": "Hãy cài tiện ích trước"
   },
   "header": {
     "logoAlt": "Mèo Nyan"
@@ -121,12 +139,24 @@
     "patreonBtn": "Tham gia Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Tiền tip một lần đơn giản. Mỗi chút đều có ý nghĩa!",
-    "bmcBtn": "Mua cà phê"
+    "bmcBtn": "Mua cà phê",
+    "monoTitle": "Monobank",
+    "monoDesc": "Chuyển khoản trực tiếp qua Monobank.",
+    "monoBtn": "Ủng hộ qua Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Nền tảng quyên góp streaming. Tip dễ dàng.",
+    "donatelloBtn": "Ủng hộ trên Donatello",
+    "cryptoTitle": "Crypto (USDT)",
+    "cryptoDesc": "Gui USDT qua mang TRON (TRC-20). Quet QR hoac sao chep dia chi.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Sao chep dia chi",
+    "cryptoCopied": "Da sao chep!"
   },
   "customizer": {
     "adjustPosition": "Điều chỉnh vị trí",
     "height": "Chiều cao",
-    "topOffset": "Độ lệch trên"
+    "topOffset": "Độ lệch trên",
+    "uploadGif": "Tải lên GIF của bạn"
   },
   "preview": {
     "label": "Xem trước trực tiếp",

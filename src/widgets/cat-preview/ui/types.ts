@@ -5,4 +5,5 @@ export interface PreviewLabels {
 
 export interface Props {
   labels: PreviewLabels;
+  disabled?: boolean;
 }

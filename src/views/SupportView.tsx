@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
 import { buttonVariants } from '@shared/ui/button';
+import { CryptoCard } from '@features/crypto-donate';
 import type { Dictionary } from '@/i18n';
 
 interface Props {
@@ -22,17 +23,17 @@ export function SupportView({ dict }: Props) {
       icon: '🎗️',
       title: s.patreonTitle,
       description: s.patreonDesc,
-      href: 'https://patreon.com',
+      href: 'https://www.patreon.com/cw/nyancustombar?vanity=nyancustombar',
       buttonLabel: s.patreonBtn,
-      accentColor: '#ff424d',
+      accentColor: '#ffdd00',
     },
     {
-      icon: '☕',
-      title: s.bmcTitle,
-      description: s.bmcDesc,
-      href: 'https://buymeacoffee.com',
-      buttonLabel: s.bmcBtn,
-      accentColor: '#ffdd00',
+      icon: '🐱',
+      title: s.donatelloTitle,
+      description: s.donatelloDesc,
+      href: 'https://donatello.to/nyan-progressbar',
+      buttonLabel: s.donatelloBtn,
+      accentColor: '#8a53b6',
     },
   ];
 
@@ -43,7 +44,7 @@ export function SupportView({ dict }: Props) {
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">{s.description}</p>
       </section>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {tiles.map(({ icon, title, description, href, buttonLabel, accentColor }) => (
           <Card
             key={title}
@@ -67,6 +68,13 @@ export function SupportView({ dict }: Props) {
             </CardContent>
           </Card>
         ))}
+        <CryptoCard
+          title={s.cryptoTitle}
+          description={s.cryptoDesc}
+          networkLabel={s.cryptoNetwork}
+          copyLabel={s.cryptoCopy}
+          copiedLabel={s.cryptoCopied}
+        />
       </div>
 
       <p className="text-center text-sm text-muted-foreground">{s.thankYou}</p>

@@ -19,14 +19,32 @@
     "reviews": {
       "title": "User Reviews — Nyan Progress Bar",
       "description": "See what 58 users say about the Nyan Progress Bar Chrome extension. Rated 4.7 stars."
+    },
+    "customizer": {
+      "title": "Cat Customizer — Nyan Progress Bar",
+      "description": "Pick your cat and fine-tune the progress bar position. Install the extension to see it live on YouTube."
     }
   },
   "nav": {
     "home": "Home",
     "extension": "Extension",
-    "support": "Support",
+    "customize": "Customize",
+    "support": "Donate",
     "contact": "Contact",
     "reviews": "Reviews"
+  },
+  "customizerPage": {
+    "heading": "Cat Customizer",
+    "description": "Pick your cat and fine-tune the position — then install the extension to see it live on YouTube.",
+    "galleryHeading": "Choose your cat",
+    "galleryDesc": "Click a cat to preview it on the progress bar below.",
+    "banner": {
+      "heading": "Extension not installed",
+      "description": "Install the Nyan Progress Bar Chrome extension to apply your customization on YouTube.",
+      "cta": "Add to Chrome — it's free",
+      "dismiss": "Dismiss"
+    },
+    "installTooltip": "Install the extension first"
   },
   "header": {
     "logoAlt": "Nyan cat"
@@ -121,12 +139,24 @@
     "patreonBtn": "Join on Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Simple one-time tip. Every bit helps!",
-    "bmcBtn": "Buy a Coffee"
+    "bmcBtn": "Buy a Coffee",
+    "monoTitle": "Monobank",
+    "monoDesc": "Direct bank transfer via Monobank jar.",
+    "monoBtn": "Donate via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Streaming donation platform. Easy one-time tips.",
+    "donatelloBtn": "Donate on Donatello",
+    "cryptoTitle": "Crypto (USDT)",
+    "cryptoDesc": "Send USDT via TRON network (TRC-20). Scan QR or copy address.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Copy Address",
+    "cryptoCopied": "Copied!"
   },
   "customizer": {
     "adjustPosition": "Adjust Position",
     "height": "Height",
-    "topOffset": "Top offset"
+    "topOffset": "Top offset",
+    "uploadGif": "Upload GIF"
   },
   "preview": {
     "label": "Live Preview",

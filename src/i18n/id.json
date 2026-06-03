@@ -19,14 +19,32 @@
     "reviews": {
       "title": "Ulasan pengguna — Nyan Progress Bar",
       "description": "Lihat apa yang 58 pengguna katakan tentang ekstensi Chrome Nyan Progress Bar. Dinilai 4.7 bintang."
+    },
+    "customizer": {
+      "title": "Kustomisasi Kucing — Nyan Progress Bar",
+      "description": "Pilih kucing dan sesuaikan posisi bilah kemajuan. Instal ekstensi untuk melihatnya langsung di YouTube."
     }
   },
   "nav": {
     "home": "Beranda",
     "extension": "Ekstensi",
-    "support": "Dukung",
+    "customize": "Sesuaikan",
+    "support": "Donasi",
     "contact": "Kontak",
     "reviews": "Ulasan"
+  },
+  "customizerPage": {
+    "heading": "Kustomisasi Kucing",
+    "description": "Pilih kucing dan sesuaikan posisi — instal ekstensi untuk melihatnya langsung di YouTube.",
+    "galleryHeading": "Pilih kucingmu",
+    "galleryDesc": "Klik kucing untuk melihat pratinjau di bilah kemajuan.",
+    "banner": {
+      "heading": "Ekstensi belum dipasang",
+      "description": "Instal ekstensi Chrome Nyan Progress Bar untuk menerapkan kustomisasi di YouTube.",
+      "cta": "Tambah ke Chrome — gratis",
+      "dismiss": "Tutup"
+    },
+    "installTooltip": "Pasang ekstensi terlebih dahulu"
   },
   "header": {
     "logoAlt": "Kucing Nyan"
@@ -121,12 +139,24 @@
     "patreonBtn": "Bergabung di Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Tips sekali yang sederhana. Setiap kontribusi berarti!",
-    "bmcBtn": "Beli kopi"
+    "bmcBtn": "Beli kopi",
+    "monoTitle": "Monobank",
+    "monoDesc": "Transfer langsung via Monobank.",
+    "monoBtn": "Donasi via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Platform donasi streaming. Tip sekali klik.",
+    "donatelloBtn": "Donasi di Donatello",
+    "cryptoTitle": "Kripto (USDT)",
+    "cryptoDesc": "Kirim USDT via jaringan TRON (TRC-20). Scan QR atau salin alamat.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Salin Alamat",
+    "cryptoCopied": "Tersalin!"
   },
   "customizer": {
     "adjustPosition": "Sesuaikan posisi",
     "height": "Tinggi",
-    "topOffset": "Offset atas"
+    "topOffset": "Offset atas",
+    "uploadGif": "Unggah GIF kamu"
   },
   "preview": {
     "label": "Pratinjau langsung",

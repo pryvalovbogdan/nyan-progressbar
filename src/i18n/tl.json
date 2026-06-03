@@ -19,14 +19,32 @@
     "reviews": {
       "title": "Mga pagsusuri ng gumagamit — Nyan Progress Bar",
       "description": "Tingnan kung ano ang sinasabi ng 58 na gumagamit tungkol sa Nyan Progress Bar Chrome extension. Rated 4.7 bituin."
+    },
+    "customizer": {
+      "title": "Cat Customizer — Nyan Progress Bar",
+      "description": "Pumili ng pusa at i-customize ang posisyon ng progress bar. I-install ang extension para makita sa YouTube."
     }
   },
   "nav": {
     "home": "Home",
     "extension": "Extension",
-    "support": "Suporta",
+    "customize": "I-customize",
+    "support": "Mag-donate",
     "contact": "Makipag-ugnayan",
     "reviews": "Mga Pagsusuri"
+  },
+  "customizerPage": {
+    "heading": "Cat Customizer",
+    "description": "Pumili ng pusa at i-adjust ang posisyon — i-install ang extension para makita ito sa YouTube.",
+    "galleryHeading": "Piliin ang iyong pusa",
+    "galleryDesc": "I-click ang pusa para i-preview ito sa progress bar.",
+    "banner": {
+      "heading": "Hindi naka-install ang extension",
+      "description": "I-install ang Nyan Progress Bar Chrome extension para ilapat ang iyong customization sa YouTube.",
+      "cta": "Idagdag sa Chrome — libre",
+      "dismiss": "Isara"
+    },
+    "installTooltip": "I-install muna ang extension"
   },
   "header": {
     "logoAlt": "Nyan na pusa"
@@ -121,12 +139,24 @@
     "patreonBtn": "Sumali sa Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Simpleng isang beses na tip. Mahalaga ang bawat kontribusyon!",
-    "bmcBtn": "Bumili ng kape"
+    "bmcBtn": "Bumili ng kape",
+    "monoTitle": "Monobank",
+    "monoDesc": "Direktang bank transfer sa pamamagitan ng Monobank.",
+    "monoBtn": "Mag-donate via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Streaming donation platform. Madaling mag-tip.",
+    "donatelloBtn": "Mag-donate sa Donatello",
+    "cryptoTitle": "Crypto (USDT)",
+    "cryptoDesc": "Magpadala ng USDT sa TRON network (TRC-20). I-scan ang QR o kopyahin ang address.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Kopyahin ang Address",
+    "cryptoCopied": "Nakopya!"
   },
   "customizer": {
     "adjustPosition": "Ayusin ang posisyon",
     "height": "Taas",
-    "topOffset": "Itaas na offset"
+    "topOffset": "Itaas na offset",
+    "uploadGif": "I-upload ang iyong GIF"
   },
   "preview": {
     "label": "Live Preview",

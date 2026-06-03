@@ -19,14 +19,32 @@
     "reviews": {
       "title": "Avaliações dos usuários — Nyan Progress Bar",
       "description": "Veja o que 58 usuários dizem sobre a extensão do Chrome Nyan Progress Bar. Avaliada com 4.7 estrelas."
+    },
+    "customizer": {
+      "title": "Personalizador de Gatos — Nyan Progress Bar",
+      "description": "Escolha seu gato e ajuste a posição da barra de progresso. Instale a extensão para vê-lo ao vivo no YouTube."
     }
   },
   "nav": {
     "home": "Início",
     "extension": "Extensão",
-    "support": "Apoiar",
+    "customize": "Personalizar",
+    "support": "Doar",
     "contact": "Contato",
     "reviews": "Avaliações"
+  },
+  "customizerPage": {
+    "heading": "Personalizador de Gatos",
+    "description": "Escolha seu gato e ajuste a posição — instale a extensão para vê-lo ao vivo no YouTube.",
+    "galleryHeading": "Escolha seu gato",
+    "galleryDesc": "Clique em um gato para pré-visualizá-lo na barra de progresso.",
+    "banner": {
+      "heading": "Extensão não instalada",
+      "description": "Instale a extensão Chrome Nyan Progress Bar para aplicar sua personalização no YouTube.",
+      "cta": "Adicionar ao Chrome — é grátis",
+      "dismiss": "Fechar"
+    },
+    "installTooltip": "Instale a extensão primeiro"
   },
   "header": {
     "logoAlt": "Gato Nyan"
@@ -121,12 +139,24 @@
     "patreonBtn": "Entrar no Patreon",
     "bmcTitle": "Buy Me a Coffee",
     "bmcDesc": "Gorjeta simples e única. Cada contribuição ajuda!",
-    "bmcBtn": "Pagar um café"
+    "bmcBtn": "Pagar um café",
+    "monoTitle": "Monobank",
+    "monoDesc": "Transferência bancária direta via Monobank.",
+    "monoBtn": "Doar via Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Plataforma de doações para streams. Gorjetas fáceis.",
+    "donatelloBtn": "Doar no Donatello",
+    "cryptoTitle": "Cripto (USDT)",
+    "cryptoDesc": "Envie USDT via rede TRON (TRC-20). Escaneie o QR ou copie o endereco.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Copiar endereco",
+    "cryptoCopied": "Copiado!"
   },
   "customizer": {
     "adjustPosition": "Ajustar posição",
     "height": "Altura",
-    "topOffset": "Deslocamento superior"
+    "topOffset": "Deslocamento superior",
+    "uploadGif": "Enviar seu GIF"
   },
   "preview": {
     "label": "Pré-visualização ao vivo",
