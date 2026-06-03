@@ -9,9 +9,10 @@ import type { IScrubberCardProps } from './types';
 export function ScrubberCard({ cat, disabled = false, tooltip, onSelect, isMainPage }: IScrubberCardProps) {
   const { selectedCat, setSelectedCat } = useCustomizerStore();
   const isSelected = selectedCat === cat.src;
+  const isDisabled = disabled && !isMainPage;
 
   function handleClick() {
-    if (disabled && !isMainPage) return;
+    if (isDisabled) return;
 
     setSelectedCat(cat.src);
 
@@ -22,9 +23,9 @@ export function ScrubberCard({ cat, disabled = false, tooltip, onSelect, isMainP
     <div className="relative group">
       <button
         onClick={handleClick}
-        disabled={disabled && !isMainPage}
+        disabled={isDisabled}
         className={`relative aspect-square w-full rounded-xl border bg-card p-3 flex items-center justify-center transition-all duration-200 ${
-          disabled && !isMainPage
+          isDisabled
             ? 'opacity-50 cursor-not-allowed'
             : `cursor-pointer hover:-translate-y-1 hover:border-[#80deea] hover:shadow-[0_4px_16px_rgba(128,222,234,0.2)] ${
                 isSelected
