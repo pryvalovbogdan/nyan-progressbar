@@ -6,21 +6,14 @@ import { createPortal } from 'react-dom';
 
 import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 
+import type { IExtensionBannerProps } from './types';
+
+export type { BannerLabels } from './types';
+
 const EXTENSION_ID = 'oadlabdleegopgjlkcmjjogeaceagbie';
 const CWS_URL = `https://chromewebstore.google.com/detail/nyan-cat-extension/${EXTENSION_ID}`;
 
-export interface BannerLabels {
-  heading: string;
-  description: string;
-  cta: string;
-  dismiss: string;
-}
-
-interface Props {
-  labels: BannerLabels;
-}
-
-export function ExtensionBanner({ labels }: Props) {
+export function ExtensionBanner({ labels }: IExtensionBannerProps) {
   const detected = useExtensionDetected();
   const [dismissed, setDismissed] = useState(false);
   const [mounted, setMounted] = useState(false);

@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useCallback, useState } from 'react';
 
 import { HEART_COLORS } from './consts';
-import type { Heart, IDonateButtonProps, NavProps } from './types';
+import type { Heart, IDonateButtonProps, INavProps } from './types';
 
 function DonateButton({ href, label, isActive }: IDonateButtonProps) {
   const [hearts, setHearts] = useState<Heart[]>([]);
@@ -71,7 +71,7 @@ function DonateButton({ href, label, isActive }: IDonateButtonProps) {
   );
 }
 
-export function Nav({ labels, lang }: NavProps) {
+export function Nav({ labels, lang }: INavProps) {
   const pathname = usePathname();
 
   const links = [

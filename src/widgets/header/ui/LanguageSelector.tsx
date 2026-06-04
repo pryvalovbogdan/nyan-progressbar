@@ -1,28 +1,14 @@
 'use client';
 
-import { locales } from '@/i18n';
 import type { Locale } from '@/i18n';
+import { locales } from '@/i18n';
 import { Menu } from '@base-ui/react/menu';
 import { usePathname, useRouter } from 'next/navigation';
 
-const LANG_META: Record<Locale, { flag: string; label: string }> = {
-  en: { flag: '🇺🇸', label: 'English' },
-  es: { flag: '🇪🇸', label: 'Español' },
-  pt: { flag: '🇧🇷', label: 'Português' },
-  vi: { flag: '🇻🇳', label: 'Tiếng Việt' },
-  id: { flag: '🇮🇩', label: 'Bahasa Indonesia' },
-  fr: { flag: '🇫🇷', label: 'Français' },
-  tl: { flag: '🇵🇭', label: 'Filipino' },
-  pl: { flag: '🇵🇱', label: 'Polski' },
-  de: { flag: '🇩🇪', label: 'Deutsch' },
-  uk: { flag: '🇺🇦', label: 'Українська' },
-};
+import { LANG_META } from './consts';
+import type { ILanguageSelectorProps } from './types';
 
-interface Props {
-  currentLang: Locale;
-}
-
-export function LanguageSelector({ currentLang }: Props) {
+export function LanguageSelector({ currentLang }: ILanguageSelectorProps) {
   const pathname = usePathname();
   const router = useRouter();
 

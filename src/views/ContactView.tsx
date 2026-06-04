@@ -2,11 +2,11 @@ import type { Dictionary } from '@/i18n';
 
 import { ContactForm } from '@features/contact-form';
 
-interface Props {
+interface IContactViewProps {
   dict: Dictionary;
 }
 
-export function ContactView({ dict }: Props) {
+export function ContactView({ dict }: IContactViewProps) {
   const c = dict.contact;
 
   return (

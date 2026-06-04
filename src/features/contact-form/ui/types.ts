@@ -58,6 +58,6 @@ export interface CategoryCard {
   selectedShadow: string;
 }
 
-export interface Props {
+export interface IContactFormProps {
   t: FormTranslations;
 }

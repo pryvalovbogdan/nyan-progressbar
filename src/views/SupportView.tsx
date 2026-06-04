@@ -4,11 +4,11 @@ import { CryptoCard } from '@features/crypto-donate';
 import { buttonVariants } from '@shared/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
 
-interface Props {
+interface ISupportViewProps {
   dict: Dictionary;
 }
 
-export function SupportView({ dict }: Props) {
+export function SupportView({ dict }: ISupportViewProps) {
   const s = dict.support;
 
   const tiles = [

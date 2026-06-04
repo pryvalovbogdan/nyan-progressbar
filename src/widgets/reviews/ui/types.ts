@@ -14,6 +14,6 @@ export interface ReviewsLabels {
   showLess: string;
 }
 
-export interface Props {
+export interface IReviewsSectionProps {
   labels: ReviewsLabels;
 }

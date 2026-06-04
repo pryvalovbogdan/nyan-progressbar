@@ -11,7 +11,7 @@ import { Label } from '@shared/ui/label';
 import { Textarea } from '@shared/ui/textarea';
 
 import { EMPTY, MAX_SIZE } from './consts';
-import type { Attachment, CategoryCard, FormState, Props } from './types';
+import type { Attachment, CategoryCard, FormState, IContactFormProps } from './types';
 
 export type { FormTranslations } from './types';
 
@@ -19,7 +19,7 @@ function formatBytes(bytes: number): string {
   return bytes < 1024 * 1024 ? `${(bytes / 1024).toFixed(0)} KB` : `${(bytes / 1024 / 1024).toFixed(1)} MB`;
 }
 
-export function ContactForm({ t }: Props) {
+export function ContactForm({ t }: IContactFormProps) {
   const [form, setForm] = useState<FormState>(EMPTY);
   const [loading, setLoading] = useState(false);
   const [isDragging, setIsDragging] = useState(false);

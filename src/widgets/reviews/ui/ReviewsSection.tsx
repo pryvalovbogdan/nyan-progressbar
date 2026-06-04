@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 import { AVERAGE, DISTRIBUTION, REVIEWS, STORE_URL, TOTAL } from './consts';
-import type { Props, Review } from './types';
+import type { IReviewsSectionProps, Review } from './types';
 
 function Stars({ rating, size = 'md' }: { rating: number; size?: 'sm' | 'md' | 'lg' }) {
   const sizes = { sm: 'w-3 h-3', md: 'w-4 h-4', lg: 'w-6 h-6' };
@@ -51,7 +51,7 @@ function ReviewCard({ review, className = '' }: { review: Review; className?: st
   );
 }
 
-export function ReviewsSection({ labels }: Props) {
+export function ReviewsSection({ labels }: IReviewsSectionProps) {
   const [expanded, setExpanded] = useState(false);
 
   const openReviews = () => window.open(STORE_URL, '_blank');
