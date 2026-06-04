@@ -4,6 +4,6 @@ export interface FooterLabels {
   support: string;
 }
 
-export interface Props {
+export interface IFooterProps {
   labels: FooterLabels;
 }

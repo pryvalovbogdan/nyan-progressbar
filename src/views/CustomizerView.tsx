@@ -4,11 +4,11 @@ import { ScrubberGallery } from '@features/cat-selector';
 import { CustomizerPanel } from '@features/customizer';
 import { ExtensionBanner } from '@widgets/extension-banner';
 
-interface Props {
+interface ICustomizerViewProps {
   dict: Dictionary;
 }
 
-export function CustomizerView({ dict }: Props) {
+export function CustomizerView({ dict }: ICustomizerViewProps) {
   const c = dict.customizerPage;
 
   return (

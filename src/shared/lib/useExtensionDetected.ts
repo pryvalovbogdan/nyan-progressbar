@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 const isDev = process.env.NODE_ENV === 'development';
 
-const EXTENSION_ID = !isDev ? process.env.NEXT_PUBLIC_LOCAL_EXTENSION_ID : process.env.NEXT_PUBLIC_PROD_EXTENSION_ID;
+const EXTENSION_ID = isDev ? process.env.NEXT_PUBLIC_LOCAL_EXTENSION_ID : process.env.NEXT_PUBLIC_PROD_EXTENSION_ID;
 
 export function useExtensionDetected(): boolean | null {
   const [detected, setDetected] = useState<boolean | null>(null);

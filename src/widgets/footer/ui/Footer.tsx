@@ -1,6 +1,6 @@
-import type { Props } from './types';
+import type { IFooterProps } from './types';
 
-export function Footer({ labels }: Props) {
+export function Footer({ labels }: IFooterProps) {
   return (
     <footer className="border-t border-border mt-12 sm:mt-24 py-6 sm:py-8 text-center text-sm text-muted-foreground">
       <p>

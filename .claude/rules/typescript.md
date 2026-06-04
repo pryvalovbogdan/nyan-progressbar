@@ -24,15 +24,29 @@
 - Named exports only — no `export default` for components or utilities
 - Exception: Next.js pages and layouts must use `export default`
 
-## Props
-- Always define a `Props` interface directly above the component:
+## Props and component types
+
+### Naming
+- Props interface must be named `I{ComponentName}Props` (not generic `Props`):
   ```ts
-  interface Props {
+  interface IMyComponentProps {
     title: string;
     onClick: () => void;
   }
-  export function MyComponent({ title, onClick }: Props) { ... }
+  export function MyComponent({ title, onClick }: IMyComponentProps) { ... }
   ```
+- All other interfaces follow the same `I` prefix convention: `IStatCardProps`, `INavProps`, etc.
+
+### File organisation
+- **Features and widgets** — put all types (including Props) in `types.ts` next to the component; put module-level constants in `consts.ts` next to the component:
+  ```
+  features/my-feature/ui/
+    MyComponent.tsx   ← imports from ./types and ./consts
+    types.ts          ← IMyComponentProps + all other interfaces
+    consts.ts         ← constants used by the component(s)
+  ```
+- **Views** (`src/views/`) — Props may stay inline since views are thin compositions with a single `dict: Dictionary` prop; rename to `I{Name}ViewProps` regardless.
+- Never define a component Props interface outside `types.ts` (for features/widgets) or directly above the component (for views).
 
 ## Async/await
 - Always `await` promises — never fire-and-forget unless inside an event handler where you handle errors yourself

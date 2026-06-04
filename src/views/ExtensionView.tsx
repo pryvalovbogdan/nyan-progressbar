@@ -3,12 +3,12 @@ import type { Dictionary } from '@/i18n';
 import { buttonVariants } from '@shared/ui/button';
 import { Separator } from '@shared/ui/separator';
 
-interface Props {
+interface IExtensionViewProps {
   dict: Dictionary;
   locale: string;
 }
 
-export function ExtensionView({ dict, locale }: Props) {
+export function ExtensionView({ dict, locale }: IExtensionViewProps) {
   const e = dict.extension;
 
   const features = [

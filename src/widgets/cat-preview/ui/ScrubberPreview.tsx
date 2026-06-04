@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 import { useCustomizerStore } from '@features/customizer';
 
-import type { Props } from './types';
+import type { IScrubberPreviewProps } from './types';
 
 const VIDEO_ID = 'Ufzk5xf8Rho';
 
-export function ScrubberPreview({ labels, disabled = false }: Props) {
+export function ScrubberPreview({ labels, disabled = false }: IScrubberPreviewProps) {
   const { selectedCat, customGif, height, top } = useCustomizerStore();
   const imgSrc = selectedCat === '__custom__' && customGif ? customGif : `/cats/${selectedCat}`;
   const progress = 42;

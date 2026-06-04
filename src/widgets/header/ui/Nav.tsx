@@ -4,8 +4,10 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useCallback, useState } from 'react';
 
+import { trackEvent } from '@shared/lib/analytics';
+
 import { HEART_COLORS } from './consts';
-import type { Heart, IDonateButtonProps, NavProps } from './types';
+import type { Heart, IDonateButtonProps, INavProps } from './types';
 
 function DonateButton({ href, label, isActive }: IDonateButtonProps) {
   const [hearts, setHearts] = useState<Heart[]>([]);
@@ -71,7 +73,7 @@ function DonateButton({ href, label, isActive }: IDonateButtonProps) {
   );
 }
 
-export function Nav({ labels, lang }: NavProps) {
+export function Nav({ labels, lang }: INavProps) {
   const pathname = usePathname();
 
   const links = [
@@ -90,10 +92,13 @@ export function Nav({ labels, lang }: NavProps) {
           return <DonateButton key={href} href={href} label={label} isActive={pathname === href} />;
         }
 
+        const isCustomize = href === `/${lang}/customizer`;
+
         return (
           <Link
             key={href}
             href={href}
+            onClick={isCustomize ? () => trackEvent('customize_click') : undefined}
             className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
               pathname === href
                 ? 'bg-[#80deea]/20 text-[#80deea]'

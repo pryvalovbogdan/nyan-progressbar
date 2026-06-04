@@ -9,20 +9,24 @@ export interface NavLabels {
   reviews: string;
 }
 
-export interface NavProps {
+export interface INavProps {
   labels: NavLabels;
   lang: string;
 }
 
-export interface MobileNavProps {
+export interface IMobileNavProps {
   labels: NavLabels;
   lang: string;
 }
 
-export interface HeaderProps {
+export interface IHeaderProps {
   logoAlt: string;
   navLabels: NavLabels;
   lang: Locale;
+}
+
+export interface ILanguageSelectorProps {
+  currentLang: Locale;
 }
 export interface Heart {
   id: number;

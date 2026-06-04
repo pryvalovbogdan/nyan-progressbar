@@ -5,9 +5,9 @@ import { usePathname } from 'next/navigation';
 import { useCallback, useEffect, useState } from 'react';
 
 import { HEART_COLORS } from './consts';
-import type { Heart, MobileNavProps } from './types';
+import type { Heart, IMobileNavProps } from './types';
 
-export function MobileNav({ labels, lang }: MobileNavProps) {
+export function MobileNav({ labels, lang }: IMobileNavProps) {
   const [open, setOpen] = useState(false);
   const [hearts, setHearts] = useState<Heart[]>([]);
   const pathname = usePathname();

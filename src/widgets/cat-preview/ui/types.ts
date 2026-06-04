@@ -3,7 +3,7 @@ export interface PreviewLabels {
   player: string;
 }
 
-export interface Props {
+export interface IScrubberPreviewProps {
   labels: PreviewLabels;
   disabled?: boolean;
 }

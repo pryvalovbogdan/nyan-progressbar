@@ -5,9 +5,9 @@ import { LanguageSelector } from './LanguageSelector';
 import { MobileNav } from './MobileNav';
 import { Nav } from './Nav';
 import { ThemeToggle } from './ThemeToggle';
-import type { HeaderProps } from './types';
+import type { IHeaderProps } from './types';
 
-export function Header({ logoAlt, navLabels, lang }: HeaderProps) {
+export function Header({ logoAlt, navLabels, lang }: IHeaderProps) {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-sm">
       <div className="mx-auto max-w-6xl px-4 h-14 flex items-center justify-between gap-2">

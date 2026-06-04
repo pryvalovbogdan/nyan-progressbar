@@ -7,11 +7,11 @@ import { Separator } from '@shared/ui/separator';
 import { ReviewsSection } from '@widgets/reviews';
 import { StatsSection } from '@widgets/stats';
 
-interface Props {
+interface IHomeViewProps {
   dict: Dictionary;
 }
 
-export function HomeView({ dict }: Props) {
+export function HomeView({ dict }: IHomeViewProps) {
   const h = dict.home;
 
   const features = [

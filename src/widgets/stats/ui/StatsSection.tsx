@@ -3,9 +3,9 @@
 import { useEffect, useRef, useState } from 'react';
 
 import { useCountUp } from '../hooks';
-import type { Props, StatCardProps } from './types';
+import type { IStatCardProps, IStatsSectionProps } from './types';
 
-function StatCard({ target, unit, label, started, duration }: StatCardProps) {
+function StatCard({ target, unit, label, started, duration }: IStatCardProps) {
   const count = useCountUp(target, started, duration);
 
   return (
@@ -19,7 +19,7 @@ function StatCard({ target, unit, label, started, duration }: StatCardProps) {
   );
 }
 
-export function StatsSection({ labels }: Props) {
+export function StatsSection({ labels }: IStatsSectionProps) {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [started, setStarted] = useState(false);
 

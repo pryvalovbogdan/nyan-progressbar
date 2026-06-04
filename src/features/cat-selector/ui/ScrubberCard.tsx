@@ -3,6 +3,7 @@
 import Image from 'next/image';
 
 import { useCustomizerStore } from '@features/customizer';
+import { trackEvent } from '@shared/lib/analytics';
 
 import type { IScrubberCardProps } from './types';
 
@@ -15,6 +16,7 @@ export function ScrubberCard({ cat, disabled = false, tooltip, onSelect, isMainP
     if (isDisabled) return;
 
     setSelectedCat(cat.src);
+    trackEvent('cat_select', { cat_name: cat.src.replace('.gif', '') });
 
     onSelect?.(cat.src);
   }

@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import { QR_PATH } from '@features/crypto-donate/ui/consts';
 import { ICryptoCard } from '@features/crypto-donate/ui/types';
+import { trackEvent } from '@shared/lib/analytics';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
 
 const WALLET_ADDRESS = process.env.NEXT_PUBLIC_CRYPTO_WALLET_ADDRESS as string;
@@ -14,6 +15,7 @@ export function CryptoCard({ title, description, networkLabel, copyLabel, copied
   const handleCopy = async () => {
     await navigator.clipboard.writeText(WALLET_ADDRESS);
     setCopied(true);
+    trackEvent('donate_click', { platform: 'crypto' });
     setTimeout(() => setCopied(false), 2000);
   };
 

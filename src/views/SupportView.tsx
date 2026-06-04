@@ -1,14 +1,17 @@
+'use client';
+
 import type { Dictionary } from '@/i18n';
 
 import { CryptoCard } from '@features/crypto-donate';
+import { trackEvent } from '@shared/lib/analytics';
 import { buttonVariants } from '@shared/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
 
-interface Props {
+interface ISupportViewProps {
   dict: Dictionary;
 }
 
-export function SupportView({ dict }: Props) {
+export function SupportView({ dict }: ISupportViewProps) {
   const s = dict.support;
 
   const tiles = [
@@ -19,6 +22,7 @@ export function SupportView({ dict }: Props) {
       href: 'https://ko-fi.com/nyancustombar',
       buttonLabel: s.kofiBtn,
       accentColor: '#ff5e5b',
+      platform: 'kofi',
     },
     {
       icon: '🎗️',
@@ -27,6 +31,7 @@ export function SupportView({ dict }: Props) {
       href: 'https://www.patreon.com/cw/nyancustombar?vanity=nyancustombar',
       buttonLabel: s.patreonBtn,
       accentColor: '#ffdd00',
+      platform: 'patreon',
     },
     {
       icon: '🐱',
@@ -35,6 +40,7 @@ export function SupportView({ dict }: Props) {
       href: 'https://donatello.to/nyan-progressbar',
       buttonLabel: s.donatelloBtn,
       accentColor: '#8a53b6',
+      platform: 'donatello',
     },
   ];
 
@@ -46,7 +52,7 @@ export function SupportView({ dict }: Props) {
       </section>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-        {tiles.map(({ icon, title, description, href, buttonLabel, accentColor }) => (
+        {tiles.map(({ icon, title, description, href, buttonLabel, accentColor, platform }) => (
           <Card
             key={title}
             className="flex flex-col border-border bg-card hover:border-[#80deea]/50 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(128,222,234,0.12)]"
@@ -63,6 +69,7 @@ export function SupportView({ dict }: Props) {
                 rel="noopener noreferrer"
                 className={buttonVariants({ className: 'w-full text-background font-semibold' })}
                 style={{ backgroundColor: accentColor }}
+                onClick={() => trackEvent('donate_click', { platform })}
               >
                 {buttonLabel}
               </a>

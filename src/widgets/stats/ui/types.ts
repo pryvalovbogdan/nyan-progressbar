@@ -7,11 +7,11 @@ export interface StatsLabels {
   catThemes: string;
 }
 
-export interface Props {
+export interface IStatsSectionProps {
   labels: StatsLabels;
 }
 
-export interface StatCardProps {
+export interface IStatCardProps {
   target: number;
   unit: string;
   label: string;

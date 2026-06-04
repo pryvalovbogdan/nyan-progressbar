@@ -2,11 +2,11 @@ import type { Dictionary } from '@/i18n';
 
 import { ReviewsSection } from '@widgets/reviews';
 
-interface Props {
+interface IReviewsViewProps {
   dict: Dictionary;
 }
 
-export function ReviewsView({ dict }: Props) {
+export function ReviewsView({ dict }: IReviewsViewProps) {
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:py-16">
       <ReviewsSection
