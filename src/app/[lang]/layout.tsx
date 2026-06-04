@@ -1,5 +1,6 @@
 import { getDictionary, hasLocale, locales } from '@/i18n';
 import type { Locale } from '@/i18n';
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 import { ThemeProvider } from 'next-themes';
 import { Geist } from 'next/font/google';
 import { notFound } from 'next/navigation';
@@ -43,6 +44,8 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning className={geist.className}>
+      {process.env.NEXT_PUBLIC_GTM_ID && <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />}
+      {process.env.NEXT_PUBLIC_GA_ID && <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />}
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <div className="min-h-screen flex flex-col">

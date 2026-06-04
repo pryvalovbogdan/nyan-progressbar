@@ -5,6 +5,7 @@ import { useEffect, useRef } from 'react';
 import { catsList } from '@entities/cat';
 import { IScrubberGalleryProps } from '@features/cat-selector/ui/types';
 import { useCustomizerStore } from '@features/customizer';
+import { trackEvent } from '@shared/lib/analytics';
 import { getExtensionState, sendToExtension } from '@shared/lib/extensionBridge';
 import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 
@@ -73,6 +74,7 @@ export function ScrubberGallery({ installTooltip, uploadLabel, isMainPage }: ISc
       const base64 = ev.target?.result as string;
 
       setCustomGif(base64);
+      trackEvent('custom_gif_upload');
       sendToExtension('UPLOAD_CUSTOM_CAT', { base64 });
     };
 
@@ -111,6 +113,7 @@ export function ScrubberGallery({ installTooltip, uploadLabel, isMainPage }: ISc
               }
 
               setSelectedCat('__custom__');
+              trackEvent('cat_select', { cat_name: 'custom' });
 
               if (extensionActive) {
                 sendToExtension('SELECT_CAT', { src: '__custom__' });
