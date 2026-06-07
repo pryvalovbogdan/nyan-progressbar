@@ -8,3 +8,4 @@ export * from './separator';
 export * from './slider';
 export * from './sonner';
 export * from './textarea';
+export * from './google-add';
