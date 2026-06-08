@@ -44,7 +44,19 @@
       "cta": "Adicionar ao Chrome — é grátis",
       "dismiss": "Fechar"
     },
-    "installTooltip": "Instale a extensão primeiro"
+    "installTooltip": "Instale a extensão primeiro",
+    "gifSources": {
+      "heading": "Onde encontrar GIFs personalizados para carregar",
+      "description": "Navegue por estas populares bibliotecas de GIFs e carregue o seu favorito no personalizador acima.",
+      "browseCta": "Ver GIFs",
+      "giphyDesc": "A maior biblioteca de GIFs do mundo — milhões de gatos animados para escolher.",
+      "tenorDesc": "O buscador de GIFs do Google — rápido, pesquisável e constantemente atualizado.",
+      "imgurDesc": "GIFs enviados pela comunidade — ótimos para pixel art e animações clássicas de gatos."
+    },
+    "popularCats": {
+      "heading": "O kitty mais popular",
+      "description": "Os gatos que os usuários mais escolhem."
+    }
   },
   "header": {
     "logoAlt": "Gato Nyan"

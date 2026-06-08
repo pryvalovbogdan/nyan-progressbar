@@ -44,7 +44,19 @@
       "cta": "Tambah ke Chrome — gratis",
       "dismiss": "Tutup"
     },
-    "installTooltip": "Pasang ekstensi terlebih dahulu"
+    "installTooltip": "Pasang ekstensi terlebih dahulu",
+    "gifSources": {
+      "heading": "Tempat menemukan GIF kustom untuk diunggah",
+      "description": "Jelajahi perpustakaan GIF populer ini, lalu unggah favorit Anda ke kustomisasi di atas.",
+      "browseCta": "Lihat GIF",
+      "giphyDesc": "Perpustakaan GIF terbesar di dunia — jutaan kucing animasi untuk dipilih.",
+      "tenorDesc": "Pencarian GIF dari Google — cepat, mudah dicari, dan selalu diperbarui.",
+      "imgurDesc": "GIF yang diunggah komunitas — bagus untuk pixel art dan animasi kucing klasik."
+    },
+    "popularCats": {
+      "heading": "Kitty paling populer",
+      "description": "Kucing yang paling sering dipilih pengguna."
+    }
   },
   "header": {
     "logoAlt": "Kucing Nyan"

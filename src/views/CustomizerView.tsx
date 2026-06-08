@@ -3,6 +3,8 @@ import type { Dictionary } from '@/i18n';
 import { ScrubberGallery } from '@features/cat-selector';
 import { CustomizerPanel } from '@features/customizer';
 import { ExtensionBanner } from '@widgets/extension-banner';
+import { GifSourcesBlock } from '@widgets/gif-sources';
+import { PopularCatsBlock } from '@widgets/popular-cats';
 
 interface ICustomizerViewProps {
   dict: Dictionary;
@@ -26,6 +28,7 @@ export function CustomizerView({ dict }: ICustomizerViewProps) {
           dismiss: c.banner.dismiss,
         }}
       />
+      <PopularCatsBlock heading={c.popularCats.heading} description={c.popularCats.description} />
 
       <section className="space-y-4 sm:space-y-6">
         <div className="space-y-1">
@@ -51,6 +54,17 @@ export function CustomizerView({ dict }: ICustomizerViewProps) {
           </div>
         </div>
       </section>
+
+      <GifSourcesBlock
+        heading={c.gifSources.heading}
+        description={c.gifSources.description}
+        browseCta={c.gifSources.browseCta}
+        sourceDescriptions={{
+          GIPHY: c.gifSources.giphyDesc,
+          Tenor: c.gifSources.tenorDesc,
+          Imgur: c.gifSources.imgurDesc,
+        }}
+      />
     </div>
   );
 }

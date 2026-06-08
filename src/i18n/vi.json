@@ -44,7 +44,19 @@
       "cta": "Thêm vào Chrome — miễn phí",
       "dismiss": "Đóng"
     },
-    "installTooltip": "Hãy cài tiện ích trước"
+    "installTooltip": "Hãy cài tiện ích trước",
+    "gifSources": {
+      "heading": "Nơi tìm GIF tùy chỉnh để tải lên",
+      "description": "Duyệt qua các thư viện GIF phổ biến này, sau đó tải lên ảnh yêu thích vào công cụ tùy chỉnh ở trên.",
+      "browseCta": "Xem GIF",
+      "giphyDesc": "Thư viện GIF lớn nhất thế giới — hàng triệu mèo hoạt hình để lựa chọn.",
+      "tenorDesc": "Công cụ tìm kiếm GIF của Google — nhanh, dễ tìm và liên tục cập nhật.",
+      "imgurDesc": "GIF do cộng đồng tải lên — tuyệt vời cho pixel art và hoạt hình mèo cổ điển."
+    },
+    "popularCats": {
+      "heading": "Kitty phổ biến nhất",
+      "description": "Những chú mèo được người dùng chọn nhiều nhất."
+    }
   },
   "header": {
     "logoAlt": "Mèo Nyan"

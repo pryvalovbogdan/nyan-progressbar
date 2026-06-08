@@ -44,7 +44,19 @@
       "cta": "Zu Chrome hinzufügen — kostenlos",
       "dismiss": "Schließen"
     },
-    "installTooltip": "Zuerst die Erweiterung installieren"
+    "installTooltip": "Zuerst die Erweiterung installieren",
+    "gifSources": {
+      "heading": "Wo du eigene GIFs zum Hochladen findest",
+      "description": "Stöbere in diesen beliebten GIF-Bibliotheken und lade deinen Favoriten in den Customizer oben hoch.",
+      "browseCta": "GIFs durchsuchen",
+      "giphyDesc": "Die größte GIF-Bibliothek der Welt — Millionen animierter Katzen zur Auswahl.",
+      "tenorDesc": "Googles GIF-Suche — schnell, durchsuchbar und ständig aktualisiert.",
+      "imgurDesc": "Von der Community hochgeladene GIFs — toll für Pixel-Art und klassische Katzen-Animationen."
+    },
+    "popularCats": {
+      "heading": "Beliebtestes Kitty",
+      "description": "Die am häufigsten gewählten Katzen der Nutzer."
+    }
   },
   "header": {
     "logoAlt": "Nyan-Katze"
