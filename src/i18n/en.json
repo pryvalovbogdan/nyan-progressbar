@@ -44,7 +44,19 @@
       "cta": "Add to Chrome — it's free",
       "dismiss": "Dismiss"
     },
-    "installTooltip": "Install the extension first"
+    "installTooltip": "Install the extension first",
+    "gifSources": {
+      "heading": "Where to find custom GIFs to upload",
+      "description": "Browse these popular GIF libraries, then upload your favourite to the customizer above.",
+      "browseCta": "Browse GIFs",
+      "giphyDesc": "The world's largest GIF library — millions of animated cats to choose from.",
+      "tenorDesc": "Google's GIF search — fast, searchable, and constantly updated.",
+      "imgurDesc": "Community-uploaded GIFs — great for pixel art and classic cat animations."
+    },
+    "popularCats": {
+      "heading": "Most popular kitty",
+      "description": "The cats users pick most often."
+    }
   },
   "header": {
     "logoAlt": "Nyan cat"

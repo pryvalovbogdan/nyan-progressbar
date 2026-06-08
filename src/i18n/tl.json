@@ -44,7 +44,19 @@
       "cta": "Idagdag sa Chrome — libre",
       "dismiss": "Isara"
     },
-    "installTooltip": "I-install muna ang extension"
+    "installTooltip": "I-install muna ang extension",
+    "gifSources": {
+      "heading": "Saan makakakita ng custom na GIF para i-upload",
+      "description": "I-browse ang mga sikat na GIF library na ito, pagkatapos ay i-upload ang iyong paboritong sa customizer sa itaas.",
+      "browseCta": "Mag-browse ng GIFs",
+      "giphyDesc": "Ang pinakamalaking GIF library sa mundo — milyun-milyong animated na pusa para pumili.",
+      "tenorDesc": "GIF search ng Google — mabilis, madaling hanapin, at palaging ina-update.",
+      "imgurDesc": "GIF na na-upload ng komunidad — mahusay para sa pixel art at classic na cat animations."
+    },
+    "popularCats": {
+      "heading": "Pinakasikat na kitty",
+      "description": "Ang mga pusang madalas na pinipili ng mga gumagamit."
+    }
   },
   "header": {
     "logoAlt": "Nyan na pusa"

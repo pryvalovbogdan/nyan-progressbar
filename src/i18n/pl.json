@@ -44,7 +44,19 @@
       "cta": "Dodaj do Chrome — to bezpłatne",
       "dismiss": "Zamknij"
     },
-    "installTooltip": "Najpierw zainstaluj rozszerzenie"
+    "installTooltip": "Najpierw zainstaluj rozszerzenie",
+    "gifSources": {
+      "heading": "Gdzie znaleźć własne GIF-y do przesłania",
+      "description": "Przeglądaj te popularne biblioteki GIF-ów, a następnie prześlij ulubiony do konfiguratora powyżej.",
+      "browseCta": "Przeglądaj GIF-y",
+      "giphyDesc": "Największa biblioteka GIF-ów na świecie — miliony animowanych kotów do wyboru.",
+      "tenorDesc": "Wyszukiwarka GIF-ów Google — szybka, przeszukiwalna i na bieżąco aktualizowana.",
+      "imgurDesc": "GIF-y przesłane przez społeczność — świetne do pixel artu i klasycznych animacji kotów."
+    },
+    "popularCats": {
+      "heading": "Najpopularniejszy kitty",
+      "description": "Koty najczęściej wybierane przez użytkowników."
+    }
   },
   "header": {
     "logoAlt": "Kot Nyan"
