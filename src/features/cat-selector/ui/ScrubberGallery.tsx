@@ -5,9 +5,9 @@ import { useEffect, useRef } from 'react';
 import { catsList } from '@entities/cat';
 import { IScrubberGalleryProps } from '@features/cat-selector/ui/types';
 import { useCustomizerStore } from '@features/customizer';
+import { useExtensionDetected } from '@shared/hooks/useExtensionDetected';
 import { trackEvent } from '@shared/lib/analytics';
 import { getExtensionState, sendToExtension } from '@shared/lib/extensionBridge';
-import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 
 import { ScrubberCard } from './ScrubberCard';
 

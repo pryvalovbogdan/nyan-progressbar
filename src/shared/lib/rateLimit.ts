@@ -1,5 +1,3 @@
-// In-memory store — survives across requests within the same server process.
-// Resets on cold start (acceptable for a contact form).
 import { Entry } from './types';
 
 const store = new Map<string, Entry>();

@@ -1,9 +1,7 @@
 import Image from 'next/image';
 
-import { GIF_SOURCES } from './consts';
+import { GIF_SOURCES, PREVIEW_BG } from './consts';
 import type { IGifSourcesBlockProps } from './types';
-
-const PREVIEW_BG = ['bg-[#1e3a5f]', 'bg-[#80deea99]/20', 'bg-[#FFDAB9]'];
 
 export function GifSourcesBlock({ heading, description, browseCta, sourceDescriptions }: IGifSourcesBlockProps) {
   return (
@@ -20,7 +18,7 @@ export function GifSourcesBlock({ heading, description, browseCta, sourceDescrip
             href={source.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex flex-col sm:flex-row rounded-xl border border-border bg-card overflow-hidden hover:border-[#80deea]/40 hover:shadow-[0_4px_16px_rgba(128,222,234,0.12)] transition-all duration-200"
+            className="card group flex flex-col sm:flex-row overflow-hidden hover:border-[#80deea]/40 hover:shadow-[0_4px_16px_rgba(128,222,234,0.12)] transition-all duration-200"
           >
             <div className="flex flex-row sm:w-[420px] shrink-0">
               {source.previews.map((preview, i) => (

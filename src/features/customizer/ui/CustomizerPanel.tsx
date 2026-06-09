@@ -1,8 +1,8 @@
 'use client';
 
 import { useCustomizerStore } from '@features/customizer';
+import { useExtensionDetected } from '@shared/hooks/useExtensionDetected';
 import { sendToExtension } from '@shared/lib/extensionBridge';
-import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 import { Label } from '@shared/ui/label';
 import { Slider } from '@shared/ui/slider';
 import { ScrubberPreview } from '@widgets/cat-preview';
@@ -24,7 +24,7 @@ export function CustomizerPanel({ labels, previewLabels, isMainPage }: ICustomiz
     <div className="space-y-6">
       <ScrubberPreview labels={previewLabels} disabled={isDisabled} />
 
-      <div className="rounded-xl border border-border bg-card p-5 space-y-5">
+      <div className="card p-5 space-y-5">
         <p className="text-xs text-muted-foreground font-medium uppercase tracking-wider">{labels.adjustPosition}</p>
 
         <div className="space-y-2">

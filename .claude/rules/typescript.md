@@ -48,5 +48,17 @@
 - **Views** (`src/views/`) — Props may stay inline since views are thin compositions with a single `dict: Dictionary` prop; rename to `I{Name}ViewProps` regardless.
 - Never define a component Props interface outside `types.ts` (for features/widgets) or directly above the component (for views).
 
+### Sub-components always go in separate files
+- Never define a named sub-component inside the same file as its parent. Every component that has its own props gets its own file.
+  ```
+  widgets/reviews/ui/
+    ReviewsSection.tsx  ← composes ReviewCard and Stars
+    ReviewCard.tsx      ← own file
+    Stars.tsx           ← own file
+    types.ts            ← IReviewsSectionProps, IReviewCardProps, IStarsProps, …
+  ```
+- Add the sub-component's props interface to the shared `types.ts` alongside the parent's.
+- This applies at every layer: features, widgets, shared/ui.
+
 ## Async/await
 - Always `await` promises — never fire-and-forget unless inside an event handler where you handle errors yourself

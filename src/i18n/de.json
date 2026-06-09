@@ -188,5 +188,9 @@
     "reviews": "Bewertungen",
     "showMore": "Mehr anzeigen",
     "showLess": "Weniger anzeigen"
+  },
+  "changelog": {
+    "heading": "What's new",
+    "viewAll": "View full history on GitHub"
   }
 }

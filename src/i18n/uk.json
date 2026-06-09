@@ -188,5 +188,9 @@
     "reviews": "відгуків",
     "showMore": "Показати більше",
     "showLess": "Показати менше"
+  },
+  "changelog": {
+    "heading": "What's new",
+    "viewAll": "View full history on GitHub"
   }
 }

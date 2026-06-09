@@ -238,7 +238,7 @@ export function ContactForm({ t }: IContactFormProps) {
         </Label>
 
         {form.attachment ? (
-          <div className="flex items-center gap-3 rounded-xl border border-border bg-card p-3">
+          <div className="flex items-center gap-3 card p-3">
             <div className="relative w-16 h-16 rounded-lg overflow-hidden shrink-0 bg-muted">
               <Image
                 src={form.attachment.preview}

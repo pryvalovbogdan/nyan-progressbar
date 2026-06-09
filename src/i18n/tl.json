@@ -188,5 +188,9 @@
     "reviews": "mga pagsusuri",
     "showMore": "Magpakita ng higit pa",
     "showLess": "Magpakita ng mas kaunti"
+  },
+  "changelog": {
+    "heading": "What's new",
+    "viewAll": "View full history on GitHub"
   }
 }

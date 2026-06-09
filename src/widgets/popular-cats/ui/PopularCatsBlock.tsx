@@ -1,9 +1,9 @@
 'use client';
 
 import { useCustomizerStore } from '@features/customizer';
+import { useExtensionDetected } from '@shared/hooks/useExtensionDetected';
 import { trackEvent } from '@shared/lib/analytics';
 import { sendToExtension } from '@shared/lib/extensionBridge';
-import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 
 import { CatCard } from './CatCard';
 import { POPULAR_CATS } from './consts';

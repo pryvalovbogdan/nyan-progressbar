@@ -2,6 +2,7 @@ import type { Dictionary } from '@/i18n';
 
 import { buttonVariants } from '@shared/ui/button';
 import { Separator } from '@shared/ui/separator';
+import { ChangelogSection } from '@widgets/changelog';
 
 interface IExtensionViewProps {
   dict: Dictionary;
@@ -26,7 +27,7 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
         <h1 className="text-4xl font-bold">{e.heading}</h1>
         <p className="text-muted-foreground text-lg max-w-lg mx-auto">{e.description}</p>
         <a
-          href="https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie"
+          href={`https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}`}
           target="_blank"
           rel="noopener noreferrer"
           className={buttonVariants({
@@ -41,11 +42,15 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
 
       <Separator />
 
+      <ChangelogSection heading={dict.changelog.heading} viewAllLabel={dict.changelog.viewAll} />
+
+      <Separator />
+
       <section className="space-y-6">
         <h2 className="text-2xl font-bold text-center">{e.featuresHeading}</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {features.map(({ icon, title, desc }) => (
-            <div key={title} className="flex gap-3 p-4 rounded-xl border border-border bg-card">
+            <div key={title} className="flex gap-3 p-4 card">
               <span className="text-2xl shrink-0">{icon}</span>
               <div>
                 <h3 className="font-semibold text-sm">{title}</h3>
@@ -62,7 +67,7 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
         <h2 className="text-xl font-bold">{e.questionHeading}</h2>
         <p className="text-muted-foreground text-sm">
           {e.questionPre}{' '}
-          <a href={`/${locale}/contact`} className="text-[#80deea] hover:underline">
+          <a href={`/${locale}/contact`} className="link-accent">
             {e.questionLinkText}
           </a>{' '}
           {e.questionPost}

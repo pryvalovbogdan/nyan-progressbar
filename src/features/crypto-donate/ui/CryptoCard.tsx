@@ -46,7 +46,7 @@ export function CryptoCard({ title, description, networkLabel, copyLabel, copied
 
         <button
           onClick={handleCopy}
-          className="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-semibold text-black transition-all duration-200 hover:brightness-90 active:scale-[0.97]"
+          className="btn-press w-full flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-semibold text-black hover:brightness-90"
           style={{ backgroundColor: copied ? '#22c55e' : '#f3ba2f' }}
         >
           {copied ? (

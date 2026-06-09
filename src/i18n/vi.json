@@ -188,5 +188,9 @@
     "reviews": "đánh giá",
     "showMore": "Xem thêm",
     "showLess": "Ẩn bớt"
+  },
+  "changelog": {
+    "heading": "What's new",
+    "viewAll": "View full history on GitHub"
   }
 }

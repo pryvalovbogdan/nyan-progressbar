@@ -4,13 +4,13 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 
-import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
+import { useExtensionDetected } from '@shared/hooks/useExtensionDetected';
 
 import type { IExtensionBannerProps } from './types';
 
 export type { BannerLabels } from './types';
 
-const EXTENSION_ID = 'oadlabdleegopgjlkcmjjogeaceagbie';
+const EXTENSION_ID = process.env.NEXT_PUBLIC_PROD_EXTENSION_ID ?? '';
 const CWS_URL = `https://chromewebstore.google.com/detail/nyan-cat-extension/${EXTENSION_ID}`;
 
 export function ExtensionBanner({ labels }: IExtensionBannerProps) {

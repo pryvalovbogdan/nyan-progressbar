@@ -1,55 +1,11 @@
 'use client';
 
-import Image from 'next/image';
 import { useState } from 'react';
 
+import { ReviewCard } from './ReviewCard';
+import { Stars } from './Stars';
 import { AVERAGE, DISTRIBUTION, REVIEWS, STORE_URL, TOTAL } from './consts';
-import type { IReviewsSectionProps, Review } from './types';
-
-function Stars({ rating, size = 'md' }: { rating: number; size?: 'sm' | 'md' | 'lg' }) {
-  const sizes = { sm: 'w-3 h-3', md: 'w-4 h-4', lg: 'w-6 h-6' };
-  const cls = sizes[size];
-
-  return (
-    <div className="flex gap-0.5">
-      {[1, 2, 3, 4, 5].map(i => (
-        <svg
-          key={i}
-          viewBox="0 0 24 24"
-          className={cls}
-          fill={i <= rating ? '#FBBC04' : 'none'}
-          stroke="#FBBC04"
-          strokeWidth="1.5"
-        >
-          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-        </svg>
-      ))}
-    </div>
-  );
-}
-
-function ReviewCard({ review, className = '' }: { review: Review; className?: string }) {
-  return (
-    <div
-      className={`flex flex-col gap-3 p-5 rounded-2xl border border-border bg-card hover:border-[#80deea]/30 hover:shadow-[0_4px_16px_rgba(128,222,234,0.08)] hover:scale-[1.02] transition-all duration-300 ${className}`}
-    >
-      <div className="flex items-center gap-3">
-        <div className="relative w-10 h-10 shrink-0">
-          <Image src={review.avatar} alt={review.name} width={40} height={40} className="rounded-full object-cover" />
-        </div>
-
-        <div className="flex-1 min-w-0">
-          <p className="text-sm font-semibold text-foreground truncate">{review.name}</p>
-          <p className="text-xs text-muted-foreground">{review.date}</p>
-        </div>
-      </div>
-
-      <Stars rating={review.rating} size="sm" />
-
-      <p className="text-sm text-muted-foreground leading-relaxed">&ldquo;{review.comment}&rdquo;</p>
-    </div>
-  );
-}
+import type { IReviewsSectionProps } from './types';
 
 export function ReviewsSection({ labels }: IReviewsSectionProps) {
   const [expanded, setExpanded] = useState(false);
@@ -65,7 +21,7 @@ export function ReviewsSection({ labels }: IReviewsSectionProps) {
           href={STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex text-black items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] active:scale-[0.97] shrink-0 min-w-[200px]"
+          className="btn-press inline-flex text-black items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] shrink-0 min-w-[200px]"
           style={{
             background: 'linear-gradient(90deg, #ff0000, #ff7700, #ffff00, #00cc44, #0066ff, #8b00ff)',
           }}
@@ -140,7 +96,7 @@ export function ReviewsSection({ labels }: IReviewsSectionProps) {
       <div className="flex justify-center">
         <button
           onClick={() => setExpanded(prev => !prev)}
-          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full border border-[#80deea]/40 text-sm font-medium text-[#80deea] hover:bg-[#80deea]/10 hover:border-[#80deea]/70 transition-all duration-200 active:scale-[0.97]"
+          className="btn-press inline-flex items-center gap-2 px-6 py-2.5 rounded-full border border-[#80deea]/40 text-sm font-medium text-[#80deea] hover:bg-[#80deea]/10 hover:border-[#80deea]/70"
         >
           {expanded ? labels.showLess : labels.showMore}
           <svg
