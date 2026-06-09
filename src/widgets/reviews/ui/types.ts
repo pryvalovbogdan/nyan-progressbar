@@ -17,3 +17,13 @@ export interface ReviewsLabels {
 export interface IReviewsSectionProps {
   labels: ReviewsLabels;
 }
+
+export interface IStarsProps {
+  rating: number;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+export interface IReviewCardProps {
+  review: Review;
+  className?: string;
+}

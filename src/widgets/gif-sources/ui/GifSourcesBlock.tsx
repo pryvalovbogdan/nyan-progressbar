@@ -1,9 +1,7 @@
 import Image from 'next/image';
 
-import { GIF_SOURCES } from './consts';
+import { GIF_SOURCES, PREVIEW_BG } from './consts';
 import type { IGifSourcesBlockProps } from './types';
-
-const PREVIEW_BG = ['bg-[#1e3a5f]', 'bg-[#80deea99]/20', 'bg-[#FFDAB9]'];
 
 export function GifSourcesBlock({ heading, description, browseCta, sourceDescriptions }: IGifSourcesBlockProps) {
   return (

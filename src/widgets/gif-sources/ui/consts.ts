@@ -32,3 +32,4 @@ export const GIF_SOURCES: IGifSource[] = [
     ],
   },
 ];
+export const PREVIEW_BG = ['bg-[#1e3a5f]', 'bg-[#80deea99]/20', 'bg-[#FFDAB9]'];
