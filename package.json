@@ -8,6 +8,7 @@
     "copy-assets": "mkdir -p public/cats && cp -r ../../assets/*.gif public/cats/ 2>/dev/null || true",
     "start": "next start",
     "lint": "eslint --fix",
+    "lint:css": "stylelint \"src/**/*.css\"",
     "prepare": "husky"
   },
   "dependencies": {
@@ -30,7 +31,8 @@
     "zustand": "^5.0.14"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint"
+    "*.{ts,tsx}": "eslint",
+    "*.css": "stylelint"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -45,6 +47,11 @@
     "eslint-plugin-unused-imports": "^4.4.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
+    "prettier": "^3.8.3",
+    "stylelint": "^17.13.0",
+    "stylelint-config-css-modules": "^4.6.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-prettier": "^5.0.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

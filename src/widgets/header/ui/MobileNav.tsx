@@ -2,33 +2,16 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
-import { HEART_COLORS } from './consts';
-import type { Heart, IMobileNavProps } from './types';
+import { useHeartAnimation } from '@shared/lib/useHeartAnimation';
+
+import type { IMobileNavProps } from './types';
 
 export function MobileNav({ labels, lang }: IMobileNavProps) {
   const [open, setOpen] = useState(false);
-  const [hearts, setHearts] = useState<Heart[]>([]);
+  const { hearts, spawnHearts, removeHeart } = useHeartAnimation();
   const pathname = usePathname();
-
-  const spawnHearts = useCallback(() => {
-    const newHearts: Heart[] = Array.from({ length: 10 }, (_, i) => ({
-      id: Date.now() + i,
-      x: Math.random() * 200 - 100,
-      color: HEART_COLORS[Math.floor(Math.random() * HEART_COLORS.length)],
-      size: 9 + Math.random() * 9,
-      delay: i * 55,
-      duration: 1300 + Math.random() * 400,
-      rotate: Math.random() * 30 - 15,
-    }));
-
-    setHearts(prev => [...prev, ...newHearts]);
-  }, []);
-
-  const removeHeart = useCallback((id: number) => {
-    setHearts(prev => prev.filter(h => h.id !== id));
-  }, []);
 
   useEffect(() => {
     setOpen(false);

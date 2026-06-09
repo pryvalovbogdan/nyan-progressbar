@@ -10,7 +10,7 @@ export function ChangelogSection({ heading, viewAllLabel }: IChangelogSectionPro
           href="https://github.com/pryvalovbogdan/nyan-plugin-youtube/commits/main"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm text-[#80deea] hover:underline shrink-0"
+          className="link-accent text-sm shrink-0"
         >
           {viewAllLabel} →
         </a>

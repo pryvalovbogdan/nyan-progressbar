@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 
 export type PageKey = 'home' | 'extension' | 'support' | 'contact' | 'reviews' | 'customizer';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nyanprogressbar.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? '';
 
 const ROUTE: Record<PageKey, string> = {
   home: '',

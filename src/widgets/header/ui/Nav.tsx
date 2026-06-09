@@ -2,39 +2,20 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useCallback, useState } from 'react';
 
 import { trackEvent } from '@shared/lib/analytics';
+import { useHeartAnimation } from '@shared/lib/useHeartAnimation';
 
-import { HEART_COLORS } from './consts';
-import type { Heart, IDonateButtonProps, INavProps } from './types';
+import type { IDonateButtonProps, INavProps } from './types';
 
 function DonateButton({ href, label, isActive }: IDonateButtonProps) {
-  const [hearts, setHearts] = useState<Heart[]>([]);
-
-  const spawnHearts = useCallback(() => {
-    const newHearts: Heart[] = Array.from({ length: 8 }, (_, i) => ({
-      id: Date.now() + i,
-      x: Math.random() * 70 - 35,
-      color: HEART_COLORS[Math.floor(Math.random() * HEART_COLORS.length)],
-      size: 9 + Math.random() * 9,
-      delay: i * 55,
-      duration: 1300 + Math.random() * 400,
-      rotate: Math.random() * 30 - 15,
-    }));
-
-    setHearts(prev => [...prev, ...newHearts]);
-  }, []);
-
-  const removeHeart = useCallback((id: number) => {
-    setHearts(prev => prev.filter(h => h.id !== id));
-  }, []);
+  const { hearts, spawnHearts, removeHeart } = useHeartAnimation();
 
   return (
     <Link
       href={href}
       onMouseEnter={spawnHearts}
-      className="relative ml-1 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold transition-all duration-200 hover:scale-[1.05] hover:shadow-[0_0_16px_rgba(255,100,130,0.4)] active:scale-[0.97] overflow-visible"
+      className="btn-press relative ml-1 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-semibold hover:scale-[1.05] hover:shadow-[0_0_16px_rgba(255,100,130,0.4)] overflow-visible"
       style={{
         background: isActive
           ? 'linear-gradient(135deg, #ff6b8a, #ff8c42)'

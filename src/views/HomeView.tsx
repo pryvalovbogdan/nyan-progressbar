@@ -28,7 +28,7 @@ export function HomeView({ dict }: IHomeViewProps) {
         </h1>
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">{h.description}</p>
         <a
-          href="https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie"
+          href={`https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}`}
           target="_blank"
           rel="noopener noreferrer"
           className={buttonVariants({
@@ -82,7 +82,7 @@ export function HomeView({ dict }: IHomeViewProps) {
 
       <section className="grid sm:grid-cols-3 gap-4 sm:gap-6 text-center">
         {features.map(({ icon, title, desc }) => (
-          <div key={title} className="space-y-2 p-4 sm:p-6 rounded-xl border border-border bg-card">
+          <div key={title} className="space-y-2 p-4 sm:p-6 card">
             <div className="text-3xl">{icon}</div>
             <h3 className="font-semibold">{title}</h3>
             <p className="text-sm text-muted-foreground">{desc}</p>

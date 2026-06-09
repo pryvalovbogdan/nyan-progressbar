@@ -1,6 +1,6 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -127,11 +127,27 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-border bg-card;
+  }
+
+  .btn-press {
+    @apply transition-all duration-200 active:scale-[0.97];
+  }
+
+  .link-accent {
+    @apply text-[#80deea] hover:underline;
   }
 }
 
@@ -140,10 +156,12 @@
     opacity: 0;
     transform: translateY(0) scale(0.4) rotate(var(--heart-rotate));
   }
+
   15% {
     opacity: 1;
     transform: translateY(-12px) scale(1) rotate(var(--heart-rotate));
   }
+
   100% {
     opacity: 0;
     transform: translateY(-90px) scale(0.7) rotate(var(--heart-rotate));
@@ -155,5 +173,5 @@
   bottom: 0;
   pointer-events: none;
   animation: heart-float var(--heart-duration, 1.4s) ease-out var(--heart-delay, 0ms) forwards;
-  filter: drop-shadow(0 0 4px currentColor);
+  filter: drop-shadow(0 0 4px currentcolor);
 }

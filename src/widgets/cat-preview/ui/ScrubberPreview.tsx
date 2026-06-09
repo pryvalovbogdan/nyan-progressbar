@@ -14,7 +14,7 @@ export function ScrubberPreview({ labels, disabled = false }: IScrubberPreviewPr
   const progress = 42;
 
   return (
-    <div className={`rounded-xl border border-border bg-card p-6 space-y-4 relative${disabled ? ' opacity-50' : ''}`}>
+    <div className={`card p-6 space-y-4 relative${disabled ? ' opacity-50' : ''}`}>
       <p className="text-xs text-muted-foreground font-medium uppercase tracking-wider">{labels.label}</p>
 
       {disabled && <div className="absolute inset-0 z-10 rounded-xl cursor-not-allowed" />}

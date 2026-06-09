@@ -65,7 +65,7 @@ export function ReviewsSection({ labels }: IReviewsSectionProps) {
           href={STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex text-black items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] active:scale-[0.97] shrink-0 min-w-[200px]"
+          className="btn-press inline-flex text-black items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] shrink-0 min-w-[200px]"
           style={{
             background: 'linear-gradient(90deg, #ff0000, #ff7700, #ffff00, #00cc44, #0066ff, #8b00ff)',
           }}
@@ -140,7 +140,7 @@ export function ReviewsSection({ labels }: IReviewsSectionProps) {
       <div className="flex justify-center">
         <button
           onClick={() => setExpanded(prev => !prev)}
-          className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full border border-[#80deea]/40 text-sm font-medium text-[#80deea] hover:bg-[#80deea]/10 hover:border-[#80deea]/70 transition-all duration-200 active:scale-[0.97]"
+          className="btn-press inline-flex items-center gap-2 px-6 py-2.5 rounded-full border border-[#80deea]/40 text-sm font-medium text-[#80deea] hover:bg-[#80deea]/10 hover:border-[#80deea]/70"
         >
           {expanded ? labels.showLess : labels.showMore}
           <svg

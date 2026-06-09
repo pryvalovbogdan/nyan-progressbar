@@ -16,18 +16,13 @@ export function ContactView({ dict }: IContactViewProps) {
         <p className="text-muted-foreground">{c.description}</p>
       </section>
 
-      <div className="rounded-xl border border-border bg-card p-6 sm:p-8">
+      <div className="card p-6 sm:p-8">
         <ContactForm t={c.form} />
       </div>
 
       <p className="text-xs text-muted-foreground text-center">
         {c.githubPre}{' '}
-        <a
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-[#80deea] hover:underline"
-        >
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="link-accent">
           {c.githubLink}
         </a>
         .

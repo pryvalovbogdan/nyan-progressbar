@@ -213,8 +213,7 @@ export const REVIEWS: Review[] = [
   },
 ];
 
-export const STORE_URL =
-  'https://chromewebstore.google.com/detail/nyan-cat-extension/oadlabdleegopgjlkcmjjogeaceagbie/reviews';
+export const STORE_URL = `https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}/reviews`;
 
 export const TOTAL = 58;
 export const AVERAGE = 4.7;
