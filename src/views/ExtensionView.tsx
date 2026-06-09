@@ -2,6 +2,7 @@ import type { Dictionary } from '@/i18n';
 
 import { buttonVariants } from '@shared/ui/button';
 import { Separator } from '@shared/ui/separator';
+import { ChangelogSection } from '@widgets/changelog';
 
 interface IExtensionViewProps {
   dict: Dictionary;
@@ -38,6 +39,10 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
         </a>
         <p className="text-xs text-muted-foreground">{e.specs}</p>
       </section>
+
+      <Separator />
+
+      <ChangelogSection heading={dict.changelog.heading} viewAllLabel={dict.changelog.viewAll} />
 
       <Separator />
 

@@ -80,6 +80,10 @@
     "feature3Title": "Works everywhere",
     "feature3Desc": "YouTube and YouTube Music, standard and mini player."
   },
+  "changelog": {
+    "heading": "What's new",
+    "viewAll": "View full history on GitHub"
+  },
   "extension": {
     "heading": "Get Nyan Progress Bar",
     "description": "Free Chrome extension. Installs in seconds and works immediately on YouTube.",
