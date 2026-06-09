@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
-import { useHeartAnimation } from '@shared/lib/useHeartAnimation';
+import { useHeartAnimation } from '@shared/hooks/useHeartAnimation';
 
 import type { IMobileNavProps } from './types';
 

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 
-import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
+import { useExtensionDetected } from '@shared/hooks/useExtensionDetected';
 
 import type { IExtensionBannerProps } from './types';
 

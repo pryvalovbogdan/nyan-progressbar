@@ -2,6 +2,8 @@
 
 import { useCallback, useState } from 'react';
 
+import { HEART_COLORS } from './consts';
+
 export interface Heart {
   id: number;
   x: number;
@@ -11,8 +13,6 @@ export interface Heart {
   duration: number;
   rotate: number;
 }
-
-export const HEART_COLORS = ['#ff6b8a', '#ff4d4d', '#ff8c42', '#c084fc', '#80deea', '#fbbf24', '#f472b6', '#a78bfa'];
 
 export function useHeartAnimation() {
   const [hearts, setHearts] = useState<Heart[]>([]);

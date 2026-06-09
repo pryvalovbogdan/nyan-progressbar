@@ -1,8 +1,8 @@
 'use client';
 
 import { useCustomizerStore } from '@features/customizer';
+import { useExtensionDetected } from '@shared/hooks/useExtensionDetected';
 import { sendToExtension } from '@shared/lib/extensionBridge';
-import { useExtensionDetected } from '@shared/lib/useExtensionDetected';
 import { Label } from '@shared/ui/label';
 import { Slider } from '@shared/ui/slider';
 import { ScrubberPreview } from '@widgets/cat-preview';

@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-import { useHeartAnimation } from '@shared/lib/useHeartAnimation';
+import { useHeartAnimation } from '@shared/hooks/useHeartAnimation';
 
 import { DEFAULT_RANK_STYLE, HEART_PATH, RANK_STYLES } from './consts';
 import type { ICatCardProps } from './types';

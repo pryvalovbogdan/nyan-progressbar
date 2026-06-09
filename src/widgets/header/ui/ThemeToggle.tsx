@@ -3,6 +3,8 @@
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 
+import { THEME_DARK, THEME_LIGHT } from './consts';
+
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme();
 
@@ -12,11 +14,11 @@ export function ThemeToggle() {
 
   if (!mounted) return <div className="w-8 h-8" />;
 
-  const isDark = theme === 'dark';
+  const isDark = theme === THEME_DARK;
 
   return (
     <button
-      onClick={() => setTheme(isDark ? 'light' : 'dark')}
+      onClick={() => setTheme(isDark ? THEME_LIGHT : THEME_DARK)}
       aria-label="Toggle theme"
       className="w-8 h-8 flex items-center justify-center rounded-md text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
     >

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-import { useHeartAnimation } from '@shared/lib/useHeartAnimation';
+import { useHeartAnimation } from '@shared/hooks/useHeartAnimation';
 
 import type { IDonateButtonProps } from './types';
 

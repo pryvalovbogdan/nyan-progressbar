@@ -1,5 +1,8 @@
 import type { Locale } from '@/i18n';
 
+export const THEME_DARK = 'dark';
+export const THEME_LIGHT = 'light';
+
 export const LANG_META: Record<Locale, { flag: string; label: string }> = {
   en: { flag: '🇺🇸', label: 'English' },
   es: { flag: '🇪🇸', label: 'Español' },
