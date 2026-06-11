@@ -1,6 +1,7 @@
 export interface IPopularCatsBlockProps {
   heading: string;
   description: string;
+  initialCats?: IPopularCat[];
 }
 
 export interface IPopularCat {

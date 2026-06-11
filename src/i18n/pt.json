@@ -23,6 +23,10 @@
     "customizer": {
       "title": "Personalizador de Gatos — Nyan Progress Bar",
       "description": "Escolha seu gato e ajuste a posição da barra de progresso. Instale a extensão para vê-lo ao vivo no YouTube."
+    },
+    "privacy": {
+      "title": "Política de Privacidade — Nyan Progress Bar",
+      "description": "Saiba como o Nyan Progress Bar trata os dados no site e na extensão do Chrome."
     }
   },
   "nav": {
@@ -64,7 +68,8 @@
   "footer": {
     "madeWith": "Feito com 🐱",
     "github": "GitHub",
-    "support": "Apoiar"
+    "support": "Apoiar",
+    "privacy": "Privacidade"
   },
   "home": {
     "headingPart1": "Sua barra do YouTube,",
@@ -190,7 +195,40 @@
     "showLess": "Mostrar menos"
   },
   "changelog": {
-    "heading": "What's new",
-    "viewAll": "View full history on GitHub"
+    "heading": "Novidades",
+    "viewAll": "Ver histórico completo no GitHub",
+    "latest": "mais recente",
+    "typeNew": "Novo",
+    "typeFix": "Correção",
+    "typeImprovement": "Melhoria",
+    "typePerf": "Desempenho"
+  },
+  "privacy": {
+    "heading": "Política de Privacidade",
+    "lastUpdated": "Última atualização: junho de 2025",
+    "intro": "O Nyan Progress Bar («nós», «nosso» ou «nossa») opera tanto um site quanto uma extensão do Chrome. Esta Política de Privacidade explica quais informações são coletadas, como são usadas e quais são seus direitos.",
+    "s1Heading": "1. Análise do site",
+    "s1Body": "O site usa o Google Analytics e o Google Tag Manager para coletar estatísticas de uso anonimizadas (páginas visitadas, duração da sessão, localização em nível de país). Nenhuma informação de identificação pessoal é coletada via análise. Os dados são processados pela Google LLC de acordo com sua política de privacidade.",
+    "s1OptOutPre": "Você pode optar por não participar instalando o",
+    "s1OptOutLink": "complemento de desativação do Google Analytics",
+    "s2Heading": "2. Extensão do Chrome",
+    "s2Body1": "A extensão funciona inteiramente no seu navegador e não coleta, transmite ou armazena nenhum dado pessoal em servidores remotos. Os únicos dados salvos são o tema de gato selecionado e qualquer GIF personalizado que você enviou — ambos armazenados localmente via Chrome Storage API no seu dispositivo.",
+    "s2Body2": "A extensão requer acesso ao youtube.com e music.youtube.com para injetar o scrubber de gato no player de vídeo. Ela não lê nem registra seu histórico de visualização, consultas de pesquisa ou qualquer outra atividade do YouTube.",
+    "s3Heading": "3. Formulário de contato",
+    "s3Body": "Quando você envia o formulário de contato, seu nome, endereço de e-mail e mensagem são enviados para nossa caixa de entrada de suporte por e-mail. Esses dados são usados exclusivamente para responder à sua solicitação e não são compartilhados com terceiros.",
+    "s3Rights": "Você pode solicitar a exclusão do seu envio a qualquer momento enviando-nos um e-mail.",
+    "s4Heading": "4. Cookies",
+    "s4Body": "O site armazena sua preferência de tema (escuro/claro) localmente no navegador. Não definimos cookies de rastreamento. O Google Analytics pode definir seus próprios cookies de acordo com os termos do Google.",
+    "s5Heading": "5. Serviços de terceiros",
+    "s5Intro": "O site integra os seguintes serviços de terceiros:",
+    "s5Item1": "Google Analytics / Google Tag Manager — análise de uso anonimizada",
+    "s5Item2": "Ko-fi, Patreon, Donatello — plataformas de doação (os próprios termos se aplicam)",
+    "s5Body": "A extensão do Chrome não se comunica com nenhum serviço externo.",
+    "s6Heading": "6. Retenção de dados",
+    "s6Body": "Os dados do Google Analytics são retidos por 14 meses. Os envios do formulário de contato são mantidos pelo tempo necessário para resolver sua solicitação. Os dados da extensão (tema de gato, GIF personalizado) são armazenados localmente e excluídos quando você desinstala a extensão.",
+    "s7Heading": "7. Alterações",
+    "s7Body": "Esta política pode ser atualizada de tempos em tempos. A data de «última atualização» no topo desta página reflete a revisão mais recente.",
+    "s8Heading": "8. Contato",
+    "s8Pre": "Dúvidas sobre esta política? Envie-nos um e-mail para"
   }
 }

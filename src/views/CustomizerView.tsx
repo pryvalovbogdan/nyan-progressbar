@@ -10,7 +10,7 @@ interface ICustomizerViewProps {
   dict: Dictionary;
 }
 
-export function CustomizerView({ dict }: ICustomizerViewProps) {
+export async function CustomizerView({ dict }: ICustomizerViewProps) {
   const c = dict.customizerPage;
 
   return (

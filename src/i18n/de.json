@@ -23,6 +23,10 @@
     "customizer": {
       "title": "Katzen-Konfigurator — Nyan Progress Bar",
       "description": "Wähle deine Katze und passe die Position der Fortschrittsleiste an. Installiere die Erweiterung, um sie live auf YouTube zu sehen."
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie — Nyan Progress Bar",
+      "description": "Erfahre, wie Nyan Progress Bar Daten auf der Website und in der Chrome-Erweiterung verarbeitet."
     }
   },
   "nav": {
@@ -64,7 +68,8 @@
   "footer": {
     "madeWith": "Gemacht mit 🐱",
     "github": "GitHub",
-    "support": "Unterstützen"
+    "support": "Unterstützen",
+    "privacy": "Datenschutz"
   },
   "home": {
     "headingPart1": "Deine YouTube-Leiste,",
@@ -190,7 +195,40 @@
     "showLess": "Weniger anzeigen"
   },
   "changelog": {
-    "heading": "What's new",
-    "viewAll": "View full history on GitHub"
+    "heading": "Was ist neu",
+    "viewAll": "Vollständige Historie auf GitHub ansehen",
+    "latest": "aktuell",
+    "typeNew": "Neu",
+    "typeFix": "Korrektur",
+    "typeImprovement": "Verbesserung",
+    "typePerf": "Leistung"
+  },
+  "privacy": {
+    "heading": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: Juni 2025",
+    "intro": "Nyan Progress Bar (\"wir\", \"uns\" oder \"unser\") betreibt sowohl eine Website als auch eine Chrome-Erweiterung. Diese Datenschutzrichtlinie erklärt, welche Informationen gesammelt werden, wie sie verwendet werden und welche Rechte du hast.",
+    "s1Heading": "1. Website-Analyse",
+    "s1Body": "Die Website verwendet Google Analytics und Google Tag Manager, um anonymisierte Nutzungsstatistiken zu erfassen (besuchte Seiten, Sitzungsdauer, Standort auf Länderebene). Es werden keine personenbezogenen Daten über die Analyse erfasst. Die Daten werden von Google LLC gemäß deren Datenschutzrichtlinie verarbeitet.",
+    "s1OptOutPre": "Du kannst dich abmelden, indem du das installierst",
+    "s1OptOutLink": "Google Analytics Opt-out-Browser-Add-on",
+    "s2Heading": "2. Chrome-Erweiterung",
+    "s2Body1": "Die Erweiterung läuft vollständig in deinem Browser und sammelt, überträgt oder speichert keine persönlichen Daten auf externen Servern. Die einzigen gespeicherten Daten sind dein ausgewähltes Katzenthema und ein benutzerdefiniertes GIF, das du hochgeladen hast — beide lokal über die Chrome Storage API auf deinem Gerät gespeichert.",
+    "s2Body2": "Die Erweiterung benötigt Zugriff auf youtube.com und music.youtube.com, um den Katzen-Scrubber in den Videoplayer einzufügen. Sie liest oder zeichnet deinen Wiedergabeverlauf, Suchanfragen oder andere YouTube-Aktivitäten nicht auf.",
+    "s3Heading": "3. Kontaktformular",
+    "s3Body": "Wenn du das Kontaktformular absendest, werden dein Name, deine E-Mail-Adresse und deine Nachricht per E-Mail an unseren Support-Posteingang gesendet. Diese Daten werden ausschließlich zur Beantwortung deiner Anfrage verwendet und nicht an Dritte weitergegeben.",
+    "s3Rights": "Du kannst die Löschung deiner Anfrage jederzeit per E-Mail bei uns beantragen.",
+    "s4Heading": "4. Cookies",
+    "s4Body": "Die Website speichert deine Themapräferenz (dunkel/hell) lokal im Browser. Wir setzen keine Tracking-Cookies. Google Analytics kann eigene Cookies gemäß den Google-Bedingungen setzen.",
+    "s5Heading": "5. Drittanbieter-Dienste",
+    "s5Intro": "Die Website integriert folgende Drittanbieter-Dienste:",
+    "s5Item1": "Google Analytics / Google Tag Manager — anonymisierte Nutzungsanalyse",
+    "s5Item2": "Ko-fi, Patreon, Donatello — Spendenplattformen (eigene Bedingungen gelten)",
+    "s5Body": "Die Chrome-Erweiterung kommuniziert nicht mit externen Diensten.",
+    "s6Heading": "6. Datenspeicherung",
+    "s6Body": "Google Analytics-Daten werden 14 Monate lang aufbewahrt. Kontaktformular-Anfragen werden so lange aufbewahrt, bis deine Anfrage gelöst ist. Erweiterungsdaten (Katzenthema, benutzerdefiniertes GIF) werden lokal gespeichert und beim Deinstallieren der Erweiterung gelöscht.",
+    "s7Heading": "7. Änderungen",
+    "s7Body": "Diese Richtlinie kann von Zeit zu Zeit aktualisiert werden. Das Datum der \"letzten Aktualisierung\" oben auf dieser Seite zeigt die neueste Überarbeitung.",
+    "s8Heading": "8. Kontakt",
+    "s8Pre": "Fragen zu dieser Richtlinie? Schreib uns an"
   }
 }

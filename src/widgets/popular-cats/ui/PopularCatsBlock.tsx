@@ -9,9 +9,10 @@ import { CatCard } from './CatCard';
 import { POPULAR_CATS } from './consts';
 import type { IPopularCatsBlockProps } from './types';
 
-export function PopularCatsBlock({ heading, description }: IPopularCatsBlockProps) {
+export function PopularCatsBlock({ heading, description, initialCats }: IPopularCatsBlockProps) {
   const detected = useExtensionDetected();
   const { selectedCat, setSelectedCat } = useCustomizerStore();
+  const cats = initialCats?.length ? initialCats : POPULAR_CATS;
 
   function handleSelect(src: string) {
     setSelectedCat(src);
@@ -30,7 +31,7 @@ export function PopularCatsBlock({ heading, description }: IPopularCatsBlockProp
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
-        {POPULAR_CATS.map((cat, index) => (
+        {cats.map((cat, index) => (
           <CatCard
             key={cat.src}
             cat={cat}
