@@ -23,6 +23,10 @@
     "customizer": {
       "title": "Cat Customizer — Nyan Progress Bar",
       "description": "Pick your cat and fine-tune the progress bar position. Install the extension to see it live on YouTube."
+    },
+    "privacy": {
+      "title": "Privacy Policy — Nyan Progress Bar",
+      "description": "Learn how Nyan Progress Bar handles data on the website and in the Chrome extension."
     }
   },
   "nav": {
@@ -64,7 +68,8 @@
   "footer": {
     "madeWith": "Made with 🐱",
     "github": "GitHub",
-    "support": "Support"
+    "support": "Support",
+    "privacy": "Privacy"
   },
   "home": {
     "headingPart1": "Your YouTube bar,",
@@ -82,7 +87,12 @@
   },
   "changelog": {
     "heading": "What's new",
-    "viewAll": "View full history on GitHub"
+    "viewAll": "View full history on GitHub",
+    "latest": "latest",
+    "typeNew": "New",
+    "typeFix": "Fix",
+    "typeImprovement": "Improvement",
+    "typePerf": "Performance"
   },
   "extension": {
     "heading": "Get Nyan Progress Bar",
@@ -192,5 +202,33 @@
     "reviews": "reviews",
     "showMore": "Show more",
     "showLess": "Show less"
+  },
+  "privacy": {
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2025",
+    "intro": "Nyan Progress Bar (\"we\", \"our\", or \"us\") operates both a website and a Chrome extension. This Privacy Policy explains what information is collected, how it is used, and your rights.",
+    "s1Heading": "1. Website Analytics",
+    "s1Body": "The website uses Google Analytics and Google Tag Manager to collect anonymised usage statistics (pages visited, session duration, country-level location). No personally identifiable information is collected via analytics. Data is processed by Google LLC under their privacy policy.",
+    "s1OptOutPre": "You can opt out by installing the",
+    "s1OptOutLink": "Google Analytics Opt-out Add-on",
+    "s2Heading": "2. Chrome Extension",
+    "s2Body1": "The extension runs entirely in your browser and does not collect, transmit, or store any personal data on remote servers. The only data saved is your selected cat theme and any custom GIF you upload — both stored locally via the Chrome Storage API on your own device.",
+    "s2Body2": "The extension requires access to youtube.com and music.youtube.com to inject the cat scrubber into the video player. It does not read or record your watch history, search queries, or any other YouTube activity.",
+    "s3Heading": "3. Contact Form",
+    "s3Body": "When you submit the contact form, your name, email address, and message are sent to our support inbox via email. This data is used solely to respond to your request and is not shared with third parties.",
+    "s3Rights": "You may request deletion of your submission at any time by emailing us.",
+    "s4Heading": "4. Cookies",
+    "s4Body": "The website stores your theme preference (dark/light mode) locally in the browser. No tracking cookies are set by us. Google Analytics may set its own cookies governed by Google's terms.",
+    "s5Heading": "5. Third-party Services",
+    "s5Intro": "The website integrates the following third-party services:",
+    "s5Item1": "Google Analytics / Google Tag Manager — anonymised usage analytics",
+    "s5Item2": "Ko-fi, Patreon, Donatello — donation platforms (their own terms apply)",
+    "s5Body": "The Chrome extension does not communicate with any external service.",
+    "s6Heading": "6. Data Retention",
+    "s6Body": "Google Analytics data is retained for 14 months. Contact form submissions are kept for as long as needed to resolve your request. Extension data (cat preference, custom GIF) is stored locally and deleted when you uninstall the extension.",
+    "s7Heading": "7. Changes",
+    "s7Body": "This policy may be updated from time to time. The \"last updated\" date at the top of this page reflects the most recent revision.",
+    "s8Heading": "8. Contact",
+    "s8Pre": "Questions about this policy? Email us at"
   }
 }

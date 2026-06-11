@@ -102,3 +102,4 @@ See `.claude/agents/api-route-creator.md`
 - `.claude/rules/tailwind-shadcn.md` — Tailwind/Shadcn patterns
 - `.claude/rules/nextjs.md` — App Router conventions
 - `.claude/rules/state-management.md` — Zustand patterns
+- `.claude/rules/i18n.md` — i18n rules: all visible text must come from translations

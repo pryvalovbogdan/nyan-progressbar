@@ -23,6 +23,10 @@
     "customizer": {
       "title": "Tùy chỉnh mèo — Nyan Progress Bar",
       "description": "Chọn mèo và tùy chỉnh vị trí thanh tiến trình. Cài tiện ích để xem trực tiếp trên YouTube."
+    },
+    "privacy": {
+      "title": "Chính sách quyền riêng tư — Nyan Progress Bar",
+      "description": "Tìm hiểu cách Nyan Progress Bar xử lý dữ liệu trên trang web và trong tiện ích Chrome."
     }
   },
   "nav": {
@@ -64,7 +68,8 @@
   "footer": {
     "madeWith": "Làm với 🐱",
     "github": "GitHub",
-    "support": "Ủng hộ"
+    "support": "Ủng hộ",
+    "privacy": "Quyền riêng tư"
   },
   "home": {
     "headingPart1": "Thanh YouTube của bạn,",
@@ -190,7 +195,40 @@
     "showLess": "Ẩn bớt"
   },
   "changelog": {
-    "heading": "What's new",
-    "viewAll": "View full history on GitHub"
+    "heading": "Có gì mới",
+    "viewAll": "Xem toàn bộ lịch sử trên GitHub",
+    "latest": "mới nhất",
+    "typeNew": "Mới",
+    "typeFix": "Sửa lỗi",
+    "typeImprovement": "Cải tiến",
+    "typePerf": "Hiệu năng"
+  },
+  "privacy": {
+    "heading": "Chính sách quyền riêng tư",
+    "lastUpdated": "Cập nhật lần cuối: Tháng 6 năm 2025",
+    "intro": "Nyan Progress Bar (\"chúng tôi\") vận hành cả một trang web lẫn tiện ích mở rộng Chrome. Chính sách quyền riêng tư này giải thích thông tin nào được thu thập, cách sử dụng và quyền của bạn.",
+    "s1Heading": "1. Phân tích trang web",
+    "s1Body": "Trang web sử dụng Google Analytics và Google Tag Manager để thu thập số liệu thống kê sử dụng ẩn danh (các trang đã truy cập, thời lượng phiên, vị trí theo quốc gia). Không có thông tin nhận dạng cá nhân nào được thu thập qua phân tích. Dữ liệu được Google LLC xử lý theo chính sách quyền riêng tư của họ.",
+    "s1OptOutPre": "Bạn có thể từ chối bằng cách cài đặt",
+    "s1OptOutLink": "Tiện ích bổ sung từ chối Google Analytics",
+    "s2Heading": "2. Tiện ích mở rộng Chrome",
+    "s2Body1": "Tiện ích mở rộng chạy hoàn toàn trong trình duyệt của bạn và không thu thập, truyền hoặc lưu trữ bất kỳ dữ liệu cá nhân nào trên các máy chủ từ xa. Dữ liệu duy nhất được lưu là chủ đề mèo đã chọn và GIF tùy chỉnh bạn đã tải lên — cả hai đều được lưu trữ cục bộ qua Chrome Storage API trên thiết bị của bạn.",
+    "s2Body2": "Tiện ích mở rộng cần quyền truy cập vào youtube.com và music.youtube.com để chèn thanh trượt hình mèo vào trình phát video. Nó không đọc hoặc ghi lại lịch sử xem, truy vấn tìm kiếm hay bất kỳ hoạt động YouTube nào khác của bạn.",
+    "s3Heading": "3. Biểu mẫu liên hệ",
+    "s3Body": "Khi bạn gửi biểu mẫu liên hệ, tên, địa chỉ email và tin nhắn của bạn sẽ được gửi đến hộp thư hỗ trợ của chúng tôi qua email. Dữ liệu này chỉ được sử dụng để phản hồi yêu cầu của bạn và không được chia sẻ với bên thứ ba.",
+    "s3Rights": "Bạn có thể yêu cầu xóa nội dung gửi của mình bất kỳ lúc nào bằng cách gửi email cho chúng tôi.",
+    "s4Heading": "4. Cookie",
+    "s4Body": "Trang web lưu trữ cục bộ trong trình duyệt tùy chọn chủ đề của bạn (tối/sáng). Chúng tôi không đặt cookie theo dõi. Google Analytics có thể đặt cookie của riêng mình theo điều khoản của Google.",
+    "s5Heading": "5. Dịch vụ bên thứ ba",
+    "s5Intro": "Trang web tích hợp các dịch vụ bên thứ ba sau:",
+    "s5Item1": "Google Analytics / Google Tag Manager — phân tích sử dụng ẩn danh",
+    "s5Item2": "Ko-fi, Patreon, Donatello — nền tảng quyên góp (điều khoản riêng của họ áp dụng)",
+    "s5Body": "Tiện ích mở rộng Chrome không liên lạc với bất kỳ dịch vụ bên ngoài nào.",
+    "s6Heading": "6. Lưu giữ dữ liệu",
+    "s6Body": "Dữ liệu Google Analytics được lưu giữ trong 14 tháng. Các lần gửi biểu mẫu liên hệ được lưu giữ miễn là cần thiết để giải quyết yêu cầu của bạn. Dữ liệu tiện ích mở rộng (chủ đề mèo, GIF tùy chỉnh) được lưu trữ cục bộ và bị xóa khi bạn gỡ cài đặt tiện ích mở rộng.",
+    "s7Heading": "7. Thay đổi",
+    "s7Body": "Chính sách này có thể được cập nhật theo thời gian. Ngày \"cập nhật lần cuối\" ở đầu trang này phản ánh bản sửa đổi gần nhất.",
+    "s8Heading": "8. Liên hệ",
+    "s8Pre": "Có câu hỏi về chính sách này? Hãy gửi email cho chúng tôi tại"
   }
 }

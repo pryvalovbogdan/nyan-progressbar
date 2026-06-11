@@ -23,6 +23,10 @@
     "customizer": {
       "title": "Personnalisateur de Chats — Nyan Progress Bar",
       "description": "Choisissez votre chat et personnalisez la position de la barre de progression. Installez l'extension pour le voir en direct sur YouTube."
+    },
+    "privacy": {
+      "title": "Politique de Confidentialité — Nyan Progress Bar",
+      "description": "Découvrez comment Nyan Progress Bar traite les données sur le site et dans l'extension Chrome."
     }
   },
   "nav": {
@@ -64,7 +68,8 @@
   "footer": {
     "madeWith": "Fait avec 🐱",
     "github": "GitHub",
-    "support": "Soutenir"
+    "support": "Soutenir",
+    "privacy": "Confidentialité"
   },
   "home": {
     "headingPart1": "Ta barre YouTube,",
@@ -190,7 +195,40 @@
     "showLess": "Voir moins"
   },
   "changelog": {
-    "heading": "What's new",
-    "viewAll": "View full history on GitHub"
+    "heading": "Nouveautés",
+    "viewAll": "Voir l'historique complet sur GitHub",
+    "latest": "dernière",
+    "typeNew": "Nouveau",
+    "typeFix": "Correction",
+    "typeImprovement": "Amélioration",
+    "typePerf": "Performance"
+  },
+  "privacy": {
+    "heading": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : juin 2025",
+    "intro": "Nyan Progress Bar (« nous », « notre » ou « nos ») exploite à la fois un site web et une extension Chrome. Cette Politique de confidentialité explique quelles informations sont collectées, comment elles sont utilisées et quels sont vos droits.",
+    "s1Heading": "1. Analyse du site web",
+    "s1Body": "Le site web utilise Google Analytics et Google Tag Manager pour collecter des statistiques d'utilisation anonymisées (pages visitées, durée de session, emplacement au niveau du pays). Aucune information personnellement identifiable n'est collectée via l'analyse. Les données sont traitées par Google LLC conformément à leur politique de confidentialité.",
+    "s1OptOutPre": "Vous pouvez vous désabonner en installant le",
+    "s1OptOutLink": "module complémentaire de désactivation de Google Analytics",
+    "s2Heading": "2. Extension Chrome",
+    "s2Body1": "L'extension fonctionne entièrement dans votre navigateur et ne collecte, ne transmet ni ne stocke aucune donnée personnelle sur des serveurs distants. Les seules données enregistrées sont votre thème de chat sélectionné et tout GIF personnalisé que vous avez téléchargé — tous deux stockés localement via l'API Chrome Storage sur votre appareil.",
+    "s2Body2": "L'extension nécessite l'accès à youtube.com et music.youtube.com pour injecter le scrubber chat dans le lecteur vidéo. Elle ne lit ni n'enregistre votre historique de visionnage, vos requêtes de recherche ni aucune autre activité YouTube.",
+    "s3Heading": "3. Formulaire de contact",
+    "s3Body": "Lorsque vous soumettez le formulaire de contact, votre nom, adresse e-mail et message sont envoyés à notre boîte de réception d'assistance par e-mail. Ces données sont utilisées uniquement pour répondre à votre demande et ne sont pas partagées avec des tiers.",
+    "s3Rights": "Vous pouvez demander la suppression de votre envoi à tout moment en nous envoyant un e-mail.",
+    "s4Heading": "4. Cookies",
+    "s4Body": "Le site web stocke localement dans le navigateur votre préférence de thème (sombre/clair). Nous ne définissons aucun cookie de suivi. Google Analytics peut définir ses propres cookies conformément aux conditions de Google.",
+    "s5Heading": "5. Services tiers",
+    "s5Intro": "Le site web intègre les services tiers suivants :",
+    "s5Item1": "Google Analytics / Google Tag Manager — analyse d'utilisation anonymisée",
+    "s5Item2": "Ko-fi, Patreon, Donatello — plateformes de dons (leurs propres conditions s'appliquent)",
+    "s5Body": "L'extension Chrome ne communique avec aucun service externe.",
+    "s6Heading": "6. Conservation des données",
+    "s6Body": "Les données Google Analytics sont conservées pendant 14 mois. Les envois du formulaire de contact sont conservés aussi longtemps que nécessaire pour résoudre votre demande. Les données de l'extension (thème de chat, GIF personnalisé) sont stockées localement et supprimées lors de la désinstallation.",
+    "s7Heading": "7. Modifications",
+    "s7Body": "Cette politique peut être mise à jour de temps en temps. La date de « dernière mise à jour » en haut de cette page reflète la révision la plus récente.",
+    "s8Heading": "8. Contact",
+    "s8Pre": "Des questions sur cette politique ? Écrivez-nous à"
   }
 }

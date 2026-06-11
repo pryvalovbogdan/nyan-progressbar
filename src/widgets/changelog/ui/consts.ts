@@ -82,13 +82,6 @@ export const VERSIONS: IVersionEntry[] = [
   },
 ];
 
-export const CHANGE_TYPE_LABELS: Record<string, string> = {
-  new: 'New',
-  fix: 'Fix',
-  improvement: 'Improvement',
-  perf: 'Performance',
-};
-
 export const CHANGE_TYPE_COLORS: Record<string, string> = {
   new: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
   fix: 'bg-rose-500/15 text-rose-400 border-rose-500/30',

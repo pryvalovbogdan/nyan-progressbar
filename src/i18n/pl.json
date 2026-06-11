@@ -23,6 +23,10 @@
     "customizer": {
       "title": "Konfigurator Kotów — Nyan Progress Bar",
       "description": "Wybierz kota i dostosuj pozycję paska postępu. Zainstaluj rozszerzenie, aby zobaczyć go na YouTube."
+    },
+    "privacy": {
+      "title": "Polityka Prywatności — Nyan Progress Bar",
+      "description": "Dowiedz się, jak Nyan Progress Bar przetwarza dane na stronie i w rozszerzeniu Chrome."
     }
   },
   "nav": {
@@ -64,7 +68,8 @@
   "footer": {
     "madeWith": "Zrobione z 🐱",
     "github": "GitHub",
-    "support": "Wesprzyj"
+    "support": "Wesprzyj",
+    "privacy": "Prywatność"
   },
   "home": {
     "headingPart1": "Twój pasek YouTube,",
@@ -190,7 +195,40 @@
     "showLess": "Pokaż mniej"
   },
   "changelog": {
-    "heading": "What's new",
-    "viewAll": "View full history on GitHub"
+    "heading": "Co nowego",
+    "viewAll": "Zobacz pełną historię na GitHub",
+    "latest": "najnowsza",
+    "typeNew": "Nowe",
+    "typeFix": "Poprawka",
+    "typeImprovement": "Ulepszenie",
+    "typePerf": "Wydajność"
+  },
+  "privacy": {
+    "heading": "Polityka prywatności",
+    "lastUpdated": "Ostatnia aktualizacja: czerwiec 2025",
+    "intro": "Nyan Progress Bar (\"my\", \"nas\" lub \"nasz\") prowadzi zarówno stronę internetową, jak i rozszerzenie Chrome. Niniejsza Polityka prywatności wyjaśnia, jakie informacje są zbierane, w jaki sposób są wykorzystywane i jakie masz prawa.",
+    "s1Heading": "1. Analityka strony internetowej",
+    "s1Body": "Strona używa Google Analytics i Google Tag Manager do zbierania zanonimizowanych statystyk użytkowania (odwiedzone strony, czas trwania sesji, lokalizacja na poziomie kraju). Żadne dane umożliwiające identyfikację osoby nie są zbierane za pośrednictwem analityki. Dane są przetwarzane przez Google LLC zgodnie z ich polityką prywatności.",
+    "s1OptOutPre": "Możesz zrezygnować, instalując",
+    "s1OptOutLink": "dodatek do rezygnacji z Google Analytics",
+    "s2Heading": "2. Rozszerzenie Chrome",
+    "s2Body1": "Rozszerzenie działa całkowicie w Twojej przeglądarce i nie zbiera, nie przesyła ani nie przechowuje żadnych danych osobowych na zdalnych serwerach. Jedyne zapisane dane to wybrany przez Ciebie motyw kota i własny GIF, który przesłałeś — oba przechowywane lokalnie za pomocą Chrome Storage API na Twoim urządzeniu.",
+    "s2Body2": "Rozszerzenie wymaga dostępu do youtube.com i music.youtube.com, aby wstrzyknąć skrubber kota do odtwarzacza wideo. Nie odczytuje ani nie rejestruje Twojej historii oglądania, wyszukiwania ani żadnej innej aktywności na YouTube.",
+    "s3Heading": "3. Formularz kontaktowy",
+    "s3Body": "Gdy wysyłasz formularz kontaktowy, Twoje imię, adres e-mail i wiadomość są wysyłane e-mailem do naszej skrzynki wsparcia. Dane te są wykorzystywane wyłącznie do odpowiedzi na Twoje zapytanie i nie są udostępniane stronom trzecim.",
+    "s3Rights": "Możesz zażądać usunięcia swojego zgłoszenia w dowolnym momencie, pisząc do nas e-mailem.",
+    "s4Heading": "4. Pliki cookie",
+    "s4Body": "Strona internetowa przechowuje Twoje preferencje motywu (ciemny/jasny) lokalnie w przeglądarce. Nie ustawiamy żadnych plików cookie śledzenia. Google Analytics może ustawiać własne pliki cookie zgodnie z warunkami Google.",
+    "s5Heading": "5. Usługi stron trzecich",
+    "s5Intro": "Strona internetowa integruje następujące usługi stron trzecich:",
+    "s5Item1": "Google Analytics / Google Tag Manager — zanonimizowana analityka użytkowania",
+    "s5Item2": "Ko-fi, Patreon, Donatello — platformy donacyjne (obowiązują własne warunki)",
+    "s5Body": "Rozszerzenie Chrome nie komunikuje się z żadną zewnętrzną usługą.",
+    "s6Heading": "6. Przechowywanie danych",
+    "s6Body": "Dane Google Analytics są przechowywane przez 14 miesięcy. Zgłoszenia z formularza kontaktowego są przechowywane tak długo, jak jest to konieczne do rozpatrzenia Twojego zapytania. Dane rozszerzenia (motyw kota, własny GIF) są przechowywane lokalnie i usuwane po odinstalowaniu rozszerzenia.",
+    "s7Heading": "7. Zmiany",
+    "s7Body": "Niniejsza polityka może być od czasu do czasu aktualizowana. Data \"ostatniej aktualizacji\" na górze tej strony odzwierciedla najnowszą wersję.",
+    "s8Heading": "8. Kontakt",
+    "s8Pre": "Pytania dotyczące tej polityki? Napisz do nas na"
   }
 }

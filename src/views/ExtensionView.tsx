@@ -42,7 +42,17 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
 
       <Separator />
 
-      <ChangelogSection heading={dict.changelog.heading} viewAllLabel={dict.changelog.viewAll} />
+      <ChangelogSection
+        heading={dict.changelog.heading}
+        viewAllLabel={dict.changelog.viewAll}
+        latestLabel={dict.changelog.latest}
+        typeLabels={{
+          new: dict.changelog.typeNew,
+          fix: dict.changelog.typeFix,
+          improvement: dict.changelog.typeImprovement,
+          perf: dict.changelog.typePerf,
+        }}
+      />
 
       <Separator />
 

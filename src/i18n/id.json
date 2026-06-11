@@ -23,6 +23,10 @@
     "customizer": {
       "title": "Kustomisasi Kucing — Nyan Progress Bar",
       "description": "Pilih kucing dan sesuaikan posisi bilah kemajuan. Instal ekstensi untuk melihatnya langsung di YouTube."
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi — Nyan Progress Bar",
+      "description": "Pelajari cara Nyan Progress Bar menangani data di situs web dan ekstensi Chrome."
     }
   },
   "nav": {
@@ -64,7 +68,8 @@
   "footer": {
     "madeWith": "Dibuat dengan 🐱",
     "github": "GitHub",
-    "support": "Dukung"
+    "support": "Dukung",
+    "privacy": "Privasi"
   },
   "home": {
     "headingPart1": "Bilah YouTube Anda,",
@@ -190,7 +195,40 @@
     "showLess": "Tampilkan lebih sedikit"
   },
   "changelog": {
-    "heading": "What's new",
-    "viewAll": "View full history on GitHub"
+    "heading": "Yang baru",
+    "viewAll": "Lihat riwayat lengkap di GitHub",
+    "latest": "terbaru",
+    "typeNew": "Baru",
+    "typeFix": "Perbaikan",
+    "typeImprovement": "Peningkatan",
+    "typePerf": "Kinerja"
+  },
+  "privacy": {
+    "heading": "Kebijakan Privasi",
+    "lastUpdated": "Terakhir diperbarui: Juni 2025",
+    "intro": "Nyan Progress Bar (\"kami\") mengoperasikan baik situs web maupun ekstensi Chrome. Kebijakan Privasi ini menjelaskan informasi apa yang dikumpulkan, bagaimana penggunaannya, dan hak-hak Anda.",
+    "s1Heading": "1. Analitik Situs Web",
+    "s1Body": "Situs web menggunakan Google Analytics dan Google Tag Manager untuk mengumpulkan statistik penggunaan yang dianonimkan (halaman yang dikunjungi, durasi sesi, lokasi tingkat negara). Tidak ada informasi yang dapat mengidentifikasi pribadi yang dikumpulkan melalui analitik. Data diproses oleh Google LLC sesuai dengan kebijakan privasi mereka.",
+    "s1OptOutPre": "Anda dapat memilih keluar dengan menginstal",
+    "s1OptOutLink": "Add-on Penonaktifan Google Analytics",
+    "s2Heading": "2. Ekstensi Chrome",
+    "s2Body1": "Ekstensi berjalan sepenuhnya di browser Anda dan tidak mengumpulkan, mengirimkan, atau menyimpan data pribadi apa pun di server jarak jauh. Satu-satunya data yang disimpan adalah tema kucing yang Anda pilih dan GIF khusus yang Anda unggah — keduanya disimpan secara lokal melalui Chrome Storage API di perangkat Anda.",
+    "s2Body2": "Ekstensi memerlukan akses ke youtube.com dan music.youtube.com untuk menyisipkan scrubber kucing ke dalam pemutar video. Ekstensi tidak membaca atau merekam riwayat tontonan, kueri penelusuran, atau aktivitas YouTube lainnya.",
+    "s3Heading": "3. Formulir Kontak",
+    "s3Body": "Saat Anda mengirimkan formulir kontak, nama, alamat email, dan pesan Anda dikirim ke kotak masuk dukungan kami melalui email. Data ini digunakan semata-mata untuk merespons permintaan Anda dan tidak dibagikan kepada pihak ketiga.",
+    "s3Rights": "Anda dapat meminta penghapusan kiriman Anda kapan saja dengan mengirimkan email kepada kami.",
+    "s4Heading": "4. Cookie",
+    "s4Body": "Situs web menyimpan preferensi tema Anda (gelap/terang) secara lokal di browser. Kami tidak menetapkan cookie pelacakan. Google Analytics dapat menetapkan cookie-nya sendiri sesuai dengan ketentuan Google.",
+    "s5Heading": "5. Layanan Pihak Ketiga",
+    "s5Intro": "Situs web mengintegrasikan layanan pihak ketiga berikut:",
+    "s5Item1": "Google Analytics / Google Tag Manager — analitik penggunaan yang dianonimkan",
+    "s5Item2": "Ko-fi, Patreon, Donatello — platform donasi (ketentuan mereka sendiri berlaku)",
+    "s5Body": "Ekstensi Chrome tidak berkomunikasi dengan layanan eksternal mana pun.",
+    "s6Heading": "6. Penyimpanan Data",
+    "s6Body": "Data Google Analytics disimpan selama 14 bulan. Pengiriman formulir kontak disimpan selama diperlukan untuk menyelesaikan permintaan Anda. Data ekstensi (tema kucing, GIF khusus) disimpan secara lokal dan dihapus saat Anda mencopot pemasangan ekstensi.",
+    "s7Heading": "7. Perubahan",
+    "s7Body": "Kebijakan ini dapat diperbarui dari waktu ke waktu. Tanggal \"terakhir diperbarui\" di bagian atas halaman ini mencerminkan revisi terbaru.",
+    "s8Heading": "8. Kontak",
+    "s8Pre": "Ada pertanyaan tentang kebijakan ini? Kirim email kepada kami di"
   }
 }

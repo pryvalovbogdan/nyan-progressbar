@@ -23,6 +23,10 @@
     "customizer": {
       "title": "Cat Customizer — Nyan Progress Bar",
       "description": "Pumili ng pusa at i-customize ang posisyon ng progress bar. I-install ang extension para makita sa YouTube."
+    },
+    "privacy": {
+      "title": "Patakaran sa Pribasidad — Nyan Progress Bar",
+      "description": "Alamin kung paano nangangasiwa ang Nyan Progress Bar ng data sa website at sa Chrome extension."
     }
   },
   "nav": {
@@ -64,7 +68,8 @@
   "footer": {
     "madeWith": "Ginawa nang may 🐱",
     "github": "GitHub",
-    "support": "Suporta"
+    "support": "Suporta",
+    "privacy": "Pribasidad"
   },
   "home": {
     "headingPart1": "Ang iyong YouTube bar,",
@@ -190,7 +195,40 @@
     "showLess": "Magpakita ng mas kaunti"
   },
   "changelog": {
-    "heading": "What's new",
-    "viewAll": "View full history on GitHub"
+    "heading": "Mga bagong feature",
+    "viewAll": "Tingnan ang buong kasaysayan sa GitHub",
+    "latest": "pinakabago",
+    "typeNew": "Bago",
+    "typeFix": "Ayos",
+    "typeImprovement": "Pagpapabuti",
+    "typePerf": "Pagganap"
+  },
+  "privacy": {
+    "heading": "Patakaran sa Pribasidad",
+    "lastUpdated": "Huling na-update: Hunyo 2025",
+    "intro": "Ang Nyan Progress Bar (\"kami\") ay nagpapatakbo ng parehong website at Chrome extension. Ipinapaliwanag ng Patakarang ito sa Pribasidad kung anong impormasyon ang kinokolekta, kung paano ito ginagamit, at ang iyong mga karapatan.",
+    "s1Heading": "1. Analytics ng Website",
+    "s1Body": "Gumagamit ang website ng Google Analytics at Google Tag Manager para mangolekta ng anonymous na mga istatistika ng paggamit (mga binisitang pahina, tagal ng session, lokasyon sa antas ng bansa). Walang personal na nakakakilalang impormasyon ang kinokolekta sa pamamagitan ng analytics. Ang data ay pinoproseso ng Google LLC ayon sa kanilang patakaran sa pribasidad.",
+    "s1OptOutPre": "Maaari kang mag-opt out sa pamamagitan ng pag-install ng",
+    "s1OptOutLink": "Google Analytics Opt-out Browser Add-on",
+    "s2Heading": "2. Chrome Extension",
+    "s2Body1": "Ang extension ay gumagana nang ganap sa iyong browser at hindi nagkokolekta, nagpapadala, o nag-iimbak ng anumang personal na data sa mga remote na server. Ang tanging data na nai-save ay ang iyong napiling tema ng pusa at anumang custom GIF na na-upload mo — parehong nakaimbak nang lokal sa pamamagitan ng Chrome Storage API sa iyong device.",
+    "s2Body2": "Ang extension ay nangangailangan ng access sa youtube.com at music.youtube.com upang ma-inject ang cat scrubber sa video player. Hindi nito binabasa o itinatala ang iyong kasaysayan ng panonood, mga query sa paghahanap, o anumang iba pang aktibidad sa YouTube.",
+    "s3Heading": "3. Form ng Pakikipag-ugnayan",
+    "s3Body": "Kapag isinumite mo ang form ng pakikipag-ugnayan, ang iyong pangalan, email address, at mensahe ay ipinapadala sa aming support inbox sa pamamagitan ng email. Ang data na ito ay ginagamit lamang upang tumugon sa iyong kahilingan at hindi ibinabahagi sa mga third party.",
+    "s3Rights": "Maaari kang humiling ng pagtanggal ng iyong pagsusumite anumang oras sa pamamagitan ng pagpapadala sa amin ng email.",
+    "s4Heading": "4. Mga Cookie",
+    "s4Body": "Iniimbak ng website ang iyong kagustuhan sa tema (madilim/maliwanag) nang lokal sa browser. Hindi kami nagtatakda ng mga tracking cookie. Maaaring magtatakda ang Google Analytics ng sarili nitong mga cookie ayon sa mga tuntunin ng Google.",
+    "s5Heading": "5. Mga Serbisyo ng Third-party",
+    "s5Intro": "Isinasama ng website ang mga sumusunod na serbisyo ng third-party:",
+    "s5Item1": "Google Analytics / Google Tag Manager — anonymous na analytics ng paggamit",
+    "s5Item2": "Ko-fi, Patreon, Donatello — mga platform ng donasyon (nalalapat ang sarili nilang mga tuntunin)",
+    "s5Body": "Ang Chrome extension ay hindi nakikipag-ugnayan sa anumang external na serbisyo.",
+    "s6Heading": "6. Pagpapanatili ng Data",
+    "s6Body": "Ang data ng Google Analytics ay pinananatili sa loob ng 14 na buwan. Ang mga pagsusumite ng form ng pakikipag-ugnayan ay pinapanatili hangga't kailangan upang malutas ang iyong kahilingan. Ang data ng extension (tema ng pusa, custom GIF) ay naka-imbak nang lokal at tinatanggal kapag na-uninstall mo ang extension.",
+    "s7Heading": "7. Mga Pagbabago",
+    "s7Body": "Ang patakarang ito ay maaaring ma-update paminsan-minsan. Ang petsa ng \"huling na-update\" sa itaas ng pahinang ito ay sumasalamin sa pinakabagong rebisyon.",
+    "s8Heading": "8. Pakikipag-ugnayan",
+    "s8Pre": "May mga tanong tungkol sa patakarang ito? Mag-email sa amin sa"
   }
 }

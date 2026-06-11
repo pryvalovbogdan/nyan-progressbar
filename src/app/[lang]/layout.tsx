@@ -51,7 +51,7 @@ export default async function LocaleLayout({
           <div className="min-h-screen flex flex-col">
             <Header logoAlt={dict.header.logoAlt} navLabels={dict.nav} lang={locale} />
             <main className="flex-1">{children}</main>
-            <Footer labels={dict.footer} />
+            <Footer labels={dict.footer} lang={locale} />
           </div>
           <Toaster />
         </ThemeProvider>

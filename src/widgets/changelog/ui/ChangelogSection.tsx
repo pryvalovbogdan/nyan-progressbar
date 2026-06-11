@@ -1,7 +1,7 @@
-import { CHANGE_TYPE_COLORS, CHANGE_TYPE_LABELS, VERSIONS } from './consts';
+import { CHANGE_TYPE_COLORS, VERSIONS } from './consts';
 import type { IChangelogSectionProps } from './types';
 
-export function ChangelogSection({ heading, viewAllLabel }: IChangelogSectionProps) {
+export function ChangelogSection({ heading, viewAllLabel, latestLabel, typeLabels }: IChangelogSectionProps) {
   return (
     <section className="space-y-6">
       <div className="flex items-center justify-between">
@@ -42,7 +42,7 @@ export function ChangelogSection({ heading, viewAllLabel }: IChangelogSectionPro
 
                   {entry.latest && (
                     <span className="text-xs px-2 py-0.5 rounded-full bg-[#80deea] text-background font-semibold">
-                      latest
+                      {latestLabel}
                     </span>
                   )}
 
@@ -55,7 +55,7 @@ export function ChangelogSection({ heading, viewAllLabel }: IChangelogSectionPro
                       <span
                         className={`shrink-0 mt-0.5 text-[11px] font-medium px-1.5 py-0.5 rounded border ${CHANGE_TYPE_COLORS[change.type]}`}
                       >
-                        {CHANGE_TYPE_LABELS[change.type]}
+                        {typeLabels[change.type]}
                       </span>
                       <span className="text-muted-foreground leading-snug">{change.text}</span>
                     </li>
