@@ -2,7 +2,7 @@ import type { Dictionary, Locale } from '@/i18n';
 import { locales } from '@/i18n';
 import type { Metadata } from 'next';
 
-export type PageKey = 'home' | 'extension' | 'support' | 'contact' | 'reviews' | 'customizer' | 'privacy';
+export type PageKey = 'home' | 'extension' | 'support' | 'contact' | 'reviews' | 'customizer' | 'privacy' | 'howToUse';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? '';
 
@@ -14,6 +14,7 @@ const ROUTE: Record<PageKey, string> = {
   reviews: '/reviews',
   customizer: '/customizer',
   privacy: '/privacy',
+  howToUse: '/how-to-use',
 };
 
 const OG_LOCALE: Record<Locale, string> = {

@@ -5,3 +5,5 @@ export { ContactView } from './ContactView';
 export { ReviewsView } from './ReviewsView';
 export { CustomizerView } from './CustomizerView';
 export { PrivacyView } from './PrivacyView';
+export { HowToUseIndexView } from './HowToUseIndexView';
+export { HowToUseArticleView } from './HowToUseArticleView';

@@ -3,6 +3,7 @@ import type { Locale } from '@/i18n';
 export interface NavLabels {
   home: string;
   extension: string;
+  howToUse: string;
   customize: string;
   support: string;
   contact: string;

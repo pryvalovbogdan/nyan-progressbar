@@ -27,6 +27,10 @@
     "privacy": {
       "title": "Politique de Confidentialité — Nyan Progress Bar",
       "description": "Découvrez comment Nyan Progress Bar traite les données sur le site et dans l'extension Chrome."
+    },
+    "howToUse": {
+      "title": "How to use Nyan Progress Bar — Guides",
+      "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
     }
   },
   "nav": {
@@ -35,7 +39,8 @@
     "customize": "Personnaliser",
     "support": "Faire un don",
     "contact": "Contact",
-    "reviews": "Avis"
+    "reviews": "Avis",
+    "howToUse": "Guides"
   },
   "customizerPage": {
     "heading": "Personnalisateur de Chats",
@@ -69,7 +74,8 @@
     "madeWith": "Fait avec 🐱",
     "github": "GitHub",
     "support": "Soutenir",
-    "privacy": "Confidentialité"
+    "privacy": "Confidentialité",
+    "howToUse": "Guides"
   },
   "home": {
     "headingPart1": "Ta barre YouTube,",
@@ -230,5 +236,123 @@
     "s7Body": "Cette politique peut être mise à jour de temps en temps. La date de « dernière mise à jour » en haut de cette page reflète la révision la plus récente.",
     "s8Heading": "8. Contact",
     "s8Pre": "Des questions sur cette politique ? Écrivez-nous à"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "Comment utiliser Nyan Progress Bar",
+      "description": "Guides étape par étape couvrant tout, de l'installation de l'extension au réglage fin de la position de votre chat sur la barre de progression YouTube.",
+      "readMore": "Lire le guide"
+    },
+    "sidebarHeading": "Tous les guides",
+    "moreGuides": "Plus de guides",
+    "nextStep": "Étape suivante",
+    "articles": {
+      "install": {
+        "title": "Comment installer Nyan Progress Bar",
+        "summary": "Ajoutez l'extension à Chrome en trois clics et voyez le chat sur YouTube immédiatement.",
+        "intro": "Nyan Progress Bar est une extension Chrome gratuite disponible sur le Chrome Web Store. L'installation prend moins d'une minute et fonctionne sur tout navigateur Chromium.",
+        "steps": [
+          {
+            "heading": "Ouvrir la fiche Chrome Web Store",
+            "body": "Rendez-vous sur la page Nyan Progress Bar dans le Chrome Web Store. Vous pouvez aussi y accéder en cliquant sur \"Installer sur Chrome\" depuis ce site."
+          },
+          {
+            "heading": "Cliquer sur \"Ajouter à Chrome\"",
+            "body": "Le bouton bleu est en haut à droite. Chrome affiche une demande d'autorisations — l'extension accède uniquement à youtube.com et music.youtube.com."
+          },
+          {
+            "heading": "Confirmer l'installation",
+            "body": "Cliquez sur \"Ajouter l'extension\". L'extension se télécharge (environ 15 Ko) et s'installe automatiquement. L'icône Nyan apparaît dans votre barre d'outils."
+          },
+          {
+            "heading": "Ouvrir YouTube et profiter",
+            "body": "Rendez-vous sur youtube.com et lancez une vidéo. Le chat apparaît immédiatement sur la barre de progression, sans rechargement ni connexion."
+          }
+        ],
+        "outroPre": "Prêt à le personnaliser ?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Choisissez votre thème de chat"
+      },
+      "choose-cat": {
+        "title": "Comment choisir un thème de chat",
+        "summary": "Ouvrez le popup, parcourez la grille de chats et choisissez parmi 12 thèmes intégrés.",
+        "intro": "L'extension est livrée avec 12 thèmes de chats soigneusement réglés — du Nyan Cat classique à un chat gros endormi, un chat pixel et plusieurs variantes dansantes.",
+        "steps": [
+          {
+            "heading": "Ouvrir le popup de l'extension",
+            "body": "Cliquez sur l'icône Nyan dans la barre d'outils. Si vous ne la voyez pas, cliquez sur l'icône puzzle et épinglez Nyan Progress Bar."
+          },
+          {
+            "heading": "Parcourir la grille de chats",
+            "body": "La grille affiche les 12 chats intégrés et une vignette d'import pour votre propre GIF. Faites défiler pour voir toutes les options."
+          },
+          {
+            "heading": "Cliquer sur le chat souhaité",
+            "body": "Appuyez sur une vignette pour la sélectionner. La vignette sélectionnée obtient une bordure et halo cyan. Le changement s'applique immédiatement à tous les onglets YouTube ouverts."
+          },
+          {
+            "heading": "Vérifier sur YouTube",
+            "body": "Passez à un onglet YouTube et déplacez la barre de progression. Votre nouveau chat est déjà là. YouTube Music est également mis à jour si ouvert."
+          }
+        ],
+        "outroPre": "Vous voulez utiliser un GIF qui n'est pas dans la grille ?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Importez votre propre GIF"
+      },
+      "upload-gif": {
+        "title": "Comment importer un GIF personnalisé",
+        "summary": "Utilisez n'importe quel GIF animé trouvé en ligne comme barre de progression YouTube.",
+        "intro": "Au-delà des 12 chats intégrés, vous pouvez importer n'importe quel GIF comme scrubber. Le fichier est stocké localement dans votre navigateur.",
+        "steps": [
+          {
+            "heading": "Trouver un GIF qui vous plaît",
+            "body": "Parcourez GIPHY, Tenor ou Imgur. Les GIF plus petits sont plus réactifs. Assurez-vous que le fichier a l'extension .gif."
+          },
+          {
+            "heading": "Ouvrir le popup de l'extension",
+            "body": "Cliquez sur l'icône Nyan. La grille apparaît avec une vignette d'import en haut à gauche — bordure en pointillés avec icône + et texte \"Importer un GIF\"."
+          },
+          {
+            "heading": "Cliquer sur la vignette d'import",
+            "body": "Un sélecteur de fichiers s'ouvre, filtré aux .gif. Choisissez votre GIF et confirmez. L'extension le stocke localement et l'ajoute comme nouvelle vignette."
+          },
+          {
+            "heading": "Votre GIF est maintenant votre scrubber",
+            "body": "Le GIF est sélectionné automatiquement et envoyé à tous les onglets YouTube ouverts. Pour le changer, cliquez à nouveau sur la vignette d'import."
+          }
+        ],
+        "outroPre": "Le GIF semble décentré sur le scrubber ?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "Ajustez la hauteur et la position"
+      },
+      "adjust-position": {
+        "title": "Comment ajuster la hauteur et la position du chat",
+        "summary": "Utilisez les curseurs du popup pour affiner la position du chat sur le scrubber.",
+        "intro": "Chaque chat a une taille et une forme différentes, l'extension vous permet donc de régler la hauteur et la position verticale.",
+        "steps": [
+          {
+            "heading": "Sélectionner d'abord un chat",
+            "body": "Ouvrez le popup et choisissez le chat à régler. Les contrôles « Ajuster la position » n'apparaissent qu'une fois un chat sélectionné."
+          },
+          {
+            "heading": "Utiliser le curseur de hauteur",
+            "body": "De 8 px à 80 px. Faites-le glisser et regardez le chat se redimensionner en temps réel."
+          },
+          {
+            "heading": "Utiliser le curseur de décalage supérieur",
+            "body": "De -50 px à +20 px. Les valeurs négatives poussent le chat vers le haut ; les positives vers le bas."
+          },
+          {
+            "heading": "Réinitialiser si nécessaire",
+            "body": "Cliquez sur « Définir la position par défaut » pour réinitialiser les deux curseurs. Les GIF personnalisés reviennent à 28 px de hauteur et -13 px de décalage."
+          }
+        ],
+        "outroPre": "Vous souhaitez prévisualiser les chats avant d'installer ?",
+        "outroHref": "/customizer",
+        "outroLink": "Essayez le personnalisateur en direct"
+      }
+    },
+    "videoLabel": "Regarder le tutoriel",
+    "screenshotAlt": "Capture d'écran illustrant"
   }
 }
