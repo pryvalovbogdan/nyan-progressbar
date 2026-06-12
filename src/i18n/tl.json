@@ -27,6 +27,10 @@
     "privacy": {
       "title": "Patakaran sa Pribasidad — Nyan Progress Bar",
       "description": "Alamin kung paano nangangasiwa ang Nyan Progress Bar ng data sa website at sa Chrome extension."
+    },
+    "howToUse": {
+      "title": "How to use Nyan Progress Bar — Mga Gabay",
+      "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
     }
   },
   "nav": {
@@ -35,7 +39,8 @@
     "customize": "I-customize",
     "support": "Mag-donate",
     "contact": "Makipag-ugnayan",
-    "reviews": "Mga Pagsusuri"
+    "reviews": "Mga Pagsusuri",
+    "howToUse": "Mga Gabay"
   },
   "customizerPage": {
     "heading": "Cat Customizer",
@@ -69,7 +74,8 @@
     "madeWith": "Ginawa nang may 🐱",
     "github": "GitHub",
     "support": "Suporta",
-    "privacy": "Pribasidad"
+    "privacy": "Pribasidad",
+    "howToUse": "Mga Gabay"
   },
   "home": {
     "headingPart1": "Ang iyong YouTube bar,",
@@ -194,6 +200,10 @@
     "showMore": "Magpakita ng higit pa",
     "showLess": "Magpakita ng mas kaunti"
   },
+  "releaseReviews": {
+    "heading": "Mga bagong review",
+    "subheading": "Mula sa mga user ng pinakabagong release"
+  },
   "changelog": {
     "heading": "Mga bagong feature",
     "viewAll": "Tingnan ang buong kasaysayan sa GitHub",
@@ -230,5 +240,123 @@
     "s7Body": "Ang patakarang ito ay maaaring ma-update paminsan-minsan. Ang petsa ng \"huling na-update\" sa itaas ng pahinang ito ay sumasalamin sa pinakabagong rebisyon.",
     "s8Heading": "8. Pakikipag-ugnayan",
     "s8Pre": "May mga tanong tungkol sa patakarang ito? Mag-email sa amin sa"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "Paano gamitin ang Nyan Progress Bar",
+      "description": "Mga gabay na hakbang-hakbang mula sa pag-install ng extension hanggang sa pag-aayos ng posisyon ng pusa sa YouTube progress bar.",
+      "readMore": "Basahin ang gabay"
+    },
+    "sidebarHeading": "Lahat ng gabay",
+    "moreGuides": "Iba pang mga gabay",
+    "nextStep": "Susunod na hakbang",
+    "articles": {
+      "install": {
+        "title": "Paano i-install ang Nyan Progress Bar",
+        "summary": "Idagdag ang extension sa Chrome sa tatlong click at makita ang pusa sa YouTube agad.",
+        "intro": "Ang Nyan Progress Bar ay isang libreng extension ng Chrome na available sa Chrome Web Store. Ang pag-install ay tumatagal ng wala pang isang minuto.",
+        "steps": [
+          {
+            "heading": "Buksan ang pahina sa Chrome Web Store",
+            "body": "Bisitahin ang pahina ng Nyan Progress Bar sa Chrome Web Store. Maaari mo ring i-access ito sa pamamagitan ng pag-click sa \"I-install sa Chrome\" mula sa site na ito."
+          },
+          {
+            "heading": "I-click ang \"Idagdag sa Chrome\"",
+            "body": "Ang asul na button ay nasa kanang itaas. Magpapakita ang Chrome ng prompt ng mga pahintulot — ang extension ay humihingi lamang ng access sa youtube.com at music.youtube.com."
+          },
+          {
+            "heading": "Kumpirmahin ang pag-install",
+            "body": "I-click ang \"Idagdag ang extension\" sa dialog. Ang extension ay na-download (mga 15 KB) at awtomatikong na-install. Makikita ang icon ng Nyan sa iyong toolbar."
+          },
+          {
+            "heading": "Buksan ang YouTube at mag-enjoy",
+            "body": "Pumunta sa youtube.com at simulan ang isang video. Ang scrubber ng pusa ay agad na lilitaw. Palitan ito anumang oras mula sa popup."
+          }
+        ],
+        "outroPre": "Handa nang gawing sarili?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Piliin ang iyong tema ng pusa"
+      },
+      "choose-cat": {
+        "title": "Paano pumili ng tema ng pusa",
+        "summary": "Buksan ang popup, i-browse ang grid ng mga pusa, at pumili mula sa 12 built-in na tema.",
+        "intro": "Ang extension ay may kasamang 12 hand-tuned na tema ng pusa — mula sa klasikong Nyan Cat hanggang sa isang natutulog na mataba na pusa, pixel cat, at mga variant na sumasayaw.",
+        "steps": [
+          {
+            "heading": "Buksan ang popup ng extension",
+            "body": "I-click ang icon ng Nyan sa toolbar ng browser. Kung hindi makita, i-click ang puzzle icon at i-pin ang Nyan Progress Bar."
+          },
+          {
+            "heading": "I-browse ang grid ng mga pusa",
+            "body": "Ipinapakita ng grid ang lahat ng 12 built-in na pusa kasama ang upload tile para sa iyong GIF. Mag-scroll para makita ang lahat ng opsyon."
+          },
+          {
+            "heading": "I-click ang pusang gusto mo",
+            "body": "I-tap ang anumang tile para piliin ito. Ang napiling tile ay makakakuha ng cyan na border at glow. Ang pagbabago ay agad na inilalapat sa bawat bukas na tab ng YouTube."
+          },
+          {
+            "heading": "Suriin sa YouTube",
+            "body": "Lumipat sa isang tab ng YouTube at ilipat ang progress bar. Nandoon na ang iyong bagong pusa. Naa-update rin ang pusa sa YouTube Music kung ito ay bukas."
+          }
+        ],
+        "outroPre": "Gusto mong gumamit ng GIF na wala sa grid?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Mag-upload ng sariling GIF"
+      },
+      "upload-gif": {
+        "title": "Paano mag-upload ng custom GIF",
+        "summary": "Gumamit ng anumang animated GIF na makita mo online bilang iyong YouTube scrubber.",
+        "intro": "Bukod sa 12 built-in na pusa, maaari kang mag-upload ng anumang GIF bilang scrubber. Ang file ay naka-store nang lokal sa iyong browser.",
+        "steps": [
+          {
+            "heading": "Humanap ng GIF na gusto mo",
+            "body": "I-browse ang GIPHY, Tenor, o Imgur. Ang mas maliliit na GIF ay mas matulin sa scrubber. Tiyaking ang file ay may .gif na extension."
+          },
+          {
+            "heading": "Buksan ang popup ng extension",
+            "body": "I-click ang icon ng Nyan. Lalabas ang grid ng mga pusa na may upload tile sa kaliwang itaas — dashed border na may + icon at \"Upload GIF\" na teksto."
+          },
+          {
+            "heading": "I-click ang upload tile",
+            "body": "Magbubukas ang file picker na na-filter sa .gif. Piliin ang na-download na GIF at kumpirmahin. Ini-store ito ng extension nang lokal at idinadagdag bilang bagong tile sa grid."
+          },
+          {
+            "heading": "Ang iyong GIF ay ang iyong scrubber na ngayon",
+            "body": "Ang na-upload na GIF ay awtomatikong napipili at ipinapasa sa bawat bukas na tab ng YouTube. I-click muli ang upload tile para palitan ng ibang GIF."
+          }
+        ],
+        "outroPre": "Mukhang off-center ang GIF sa scrubber?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "I-adjust ang taas at posisyon"
+      },
+      "adjust-position": {
+        "title": "Paano i-adjust ang taas at posisyon ng pusa",
+        "summary": "Gamitin ang mga slider sa popup para i-fine-tune kung paano nakaupo ang pusa sa scrubber.",
+        "intro": "Ang bawat pusa ay may iba-ibang likas na laki at hugis, kaya pinapayagan ng extension na i-adjust ang taas at vertical na posisyon.",
+        "steps": [
+          {
+            "heading": "Pumili muna ng pusa",
+            "body": "Buksan ang popup at piliin ang pusang gusto mong i-tune. Ang mga kontrol na \"I-adjust ang Posisyon\" ay lalabas lamang pagkatapos mapili ang isang pusa."
+          },
+          {
+            "heading": "Gamitin ang Height slider",
+            "body": "Mula 8 px hanggang 80 px. I-drag ito at panoorin ang pusa na mag-resize sa real time."
+          },
+          {
+            "heading": "Gamitin ang Top offset slider",
+            "body": "Mula -50 px hanggang +20 px. Ang mga negatibong halaga ay nagtutulak ng pusa pataas; positibo ay pababa."
+          },
+          {
+            "heading": "I-reset kung kinakailangan",
+            "body": "I-click ang \"Itakda ang default na posisyon\" para i-reset ang parehong slider. Ang mga custom GIF ay nire-reset sa 28 px na taas at -13 px na itaas."
+          }
+        ],
+        "outroPre": "Gusto mong i-preview ang mga pusa bago mag-install?",
+        "outroHref": "/customizer",
+        "outroLink": "Subukan ang live customizer"
+      }
+    },
+    "videoLabel": "Panoorin ang walkthrough",
+    "screenshotAlt": "Screenshot na nagpapakita"
   }
 }

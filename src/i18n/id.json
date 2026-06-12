@@ -27,6 +27,10 @@
     "privacy": {
       "title": "Kebijakan Privasi — Nyan Progress Bar",
       "description": "Pelajari cara Nyan Progress Bar menangani data di situs web dan ekstensi Chrome."
+    },
+    "howToUse": {
+      "title": "How to use Nyan Progress Bar — Panduan",
+      "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
     }
   },
   "nav": {
@@ -35,7 +39,8 @@
     "customize": "Sesuaikan",
     "support": "Donasi",
     "contact": "Kontak",
-    "reviews": "Ulasan"
+    "reviews": "Ulasan",
+    "howToUse": "Panduan"
   },
   "customizerPage": {
     "heading": "Kustomisasi Kucing",
@@ -69,7 +74,8 @@
     "madeWith": "Dibuat dengan 🐱",
     "github": "GitHub",
     "support": "Dukung",
-    "privacy": "Privasi"
+    "privacy": "Privasi",
+    "howToUse": "Panduan"
   },
   "home": {
     "headingPart1": "Bilah YouTube Anda,",
@@ -194,6 +200,10 @@
     "showMore": "Tampilkan lebih banyak",
     "showLess": "Tampilkan lebih sedikit"
   },
+  "releaseReviews": {
+    "heading": "Ulasan terbaru",
+    "subheading": "Dari pengguna versi terbaru"
+  },
   "changelog": {
     "heading": "Yang baru",
     "viewAll": "Lihat riwayat lengkap di GitHub",
@@ -230,5 +240,123 @@
     "s7Body": "Kebijakan ini dapat diperbarui dari waktu ke waktu. Tanggal \"terakhir diperbarui\" di bagian atas halaman ini mencerminkan revisi terbaru.",
     "s8Heading": "8. Kontak",
     "s8Pre": "Ada pertanyaan tentang kebijakan ini? Kirim email kepada kami di"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "Cara menggunakan Nyan Progress Bar",
+      "description": "Panduan langkah demi langkah mulai dari menginstal ekstensi hingga menyetel posisi kucing di bilah kemajuan YouTube.",
+      "readMore": "Baca panduan"
+    },
+    "sidebarHeading": "Semua panduan",
+    "moreGuides": "Panduan lainnya",
+    "nextStep": "Langkah berikutnya",
+    "articles": {
+      "install": {
+        "title": "Cara menginstal Nyan Progress Bar",
+        "summary": "Tambahkan ekstensi ke Chrome dalam tiga klik dan lihat kucing di YouTube segera.",
+        "intro": "Nyan Progress Bar adalah ekstensi Chrome gratis yang tersedia di Chrome Web Store. Penginstalan kurang dari satu menit dan berfungsi di browser berbasis Chromium.",
+        "steps": [
+          {
+            "heading": "Buka halaman Chrome Web Store",
+            "body": "Kunjungi halaman Nyan Progress Bar di Chrome Web Store. Anda juga dapat mengaksesnya dengan mengklik \"Instal di Chrome\" dari situs ini."
+          },
+          {
+            "heading": "Klik \"Tambahkan ke Chrome\"",
+            "body": "Tombol biru ada di kanan atas. Chrome akan menampilkan permintaan izin — ekstensi hanya membutuhkan akses ke youtube.com dan music.youtube.com."
+          },
+          {
+            "heading": "Konfirmasi penginstalan",
+            "body": "Klik \"Tambahkan ekstensi\" di dialog. Ekstensi diunduh (sekitar 15 KB) dan diinstal otomatis. Ikon Nyan muncul di bilah alat Anda."
+          },
+          {
+            "heading": "Buka YouTube dan nikmati",
+            "body": "Pergi ke youtube.com dan putar video. Scrubber kucing muncul di bilah kemajuan segera. Anda bisa menggantinya kapan saja dari popup."
+          }
+        ],
+        "outroPre": "Siap membuatnya milik Anda?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Pilih tema kucing Anda"
+      },
+      "choose-cat": {
+        "title": "Cara memilih tema kucing",
+        "summary": "Buka popup, jelajahi kisi kucing, dan pilih dari 12 tema bawaan.",
+        "intro": "Ekstensi hadir dengan 12 tema kucing yang disetel tangan — dari Nyan Cat klasik hingga kucing gemuk tidur, kucing piksel, dan beberapa varian menari.",
+        "steps": [
+          {
+            "heading": "Buka popup ekstensi",
+            "body": "Klik ikon Nyan di bilah alat browser. Jika tidak terlihat, klik ikon puzzle dan sematkan Nyan Progress Bar."
+          },
+          {
+            "heading": "Jelajahi kisi kucing",
+            "body": "Kisi menampilkan 12 kucing bawaan plus kotak unggah untuk GIF Anda. Gulir untuk melihat semua pilihan."
+          },
+          {
+            "heading": "Klik kucing yang Anda inginkan",
+            "body": "Ketuk kotak mana pun untuk memilihnya. Kotak terpilih mendapat garis tepi biru kehijauan. Perubahan diterapkan segera ke semua tab YouTube terbuka."
+          },
+          {
+            "heading": "Periksa di YouTube",
+            "body": "Beralih ke tab YouTube dan gerakkan bilah kemajuan. Kucing baru Anda sudah ada. YouTube Music juga diperbarui jika terbuka."
+          }
+        ],
+        "outroPre": "Ingin menggunakan GIF yang tidak ada di kisi?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Unggah GIF Anda sendiri"
+      },
+      "upload-gif": {
+        "title": "Cara mengunggah GIF kustom",
+        "summary": "Gunakan GIF animasi apa pun yang ditemukan online sebagai scrubber YouTube Anda.",
+        "intro": "Selain 12 kucing bawaan, Anda bisa mengunggah GIF apa pun sebagai scrubber. File disimpan secara lokal di browser — tidak ada yang dikirim ke server.",
+        "steps": [
+          {
+            "heading": "Cari GIF yang Anda suka",
+            "body": "Jelajahi GIPHY, Tenor, atau Imgur. GIF lebih kecil lebih responsif di scrubber. Pastikan file berekstensi .gif."
+          },
+          {
+            "heading": "Buka popup ekstensi",
+            "body": "Klik ikon Nyan. Kisi kucing muncul dengan kotak unggah di kiri atas — batas putus-putus dengan ikon + dan teks \"Unggah GIF\"."
+          },
+          {
+            "heading": "Klik kotak unggah",
+            "body": "Pemilih file terbuka, difilter ke .gif. Pilih GIF yang baru diunduh dan konfirmasi. Ekstensi menyimpannya lokal dan menambahkannya ke kisi."
+          },
+          {
+            "heading": "GIF Anda kini menjadi scrubber",
+            "body": "GIF dipilih otomatis dan dikirim ke semua tab YouTube terbuka. Klik kotak unggah lagi untuk menggantinya."
+          }
+        ],
+        "outroPre": "GIF terlihat tidak terpusat di scrubber?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "Sesuaikan tinggi dan posisi"
+      },
+      "adjust-position": {
+        "title": "Cara menyesuaikan tinggi dan posisi kucing",
+        "summary": "Gunakan slider di popup untuk menyetel cara kucing duduk di scrubber.",
+        "intro": "Setiap kucing memiliki ukuran dan bentuk berbeda, sehingga ekstensi memungkinkan Anda menyesuaikan tinggi dan posisi vertikal.",
+        "steps": [
+          {
+            "heading": "Pilih kucing terlebih dahulu",
+            "body": "Buka popup dan pilih kucing yang ingin disetel. Kontrol \"Sesuaikan Posisi\" hanya muncul setelah kucing dipilih."
+          },
+          {
+            "heading": "Gunakan slider Tinggi",
+            "body": "Dari 8 px hingga 80 px. Seret dan perhatikan kucing berubah ukuran secara real time."
+          },
+          {
+            "heading": "Gunakan slider Offset Atas",
+            "body": "Dari -50 px hingga +20 px. Nilai negatif mendorong kucing ke atas; positif ke bawah."
+          },
+          {
+            "heading": "Reset jika diperlukan",
+            "body": "Klik \"Atur posisi default\" untuk mereset kedua slider ke nilai yang direkomendasikan. GIF kustom direset ke 28 px tinggi dan -13 px atas."
+          }
+        ],
+        "outroPre": "Ingin pratinjau kucing sebelum menginstal?",
+        "outroHref": "/customizer",
+        "outroLink": "Coba penyesuai langsung"
+      }
+    },
+    "videoLabel": "Tonton panduan video",
+    "screenshotAlt": "Tangkapan layar yang mengilustrasikan"
   }
 }

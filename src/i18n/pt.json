@@ -27,6 +27,10 @@
     "privacy": {
       "title": "Política de Privacidade — Nyan Progress Bar",
       "description": "Saiba como o Nyan Progress Bar trata os dados no site e na extensão do Chrome."
+    },
+    "howToUse": {
+      "title": "How to use Nyan Progress Bar — Guias",
+      "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
     }
   },
   "nav": {
@@ -35,7 +39,8 @@
     "customize": "Personalizar",
     "support": "Doar",
     "contact": "Contato",
-    "reviews": "Avaliações"
+    "reviews": "Avaliações",
+    "howToUse": "Guias"
   },
   "customizerPage": {
     "heading": "Personalizador de Gatos",
@@ -69,7 +74,8 @@
     "madeWith": "Feito com 🐱",
     "github": "GitHub",
     "support": "Apoiar",
-    "privacy": "Privacidade"
+    "privacy": "Privacidade",
+    "howToUse": "Guias"
   },
   "home": {
     "headingPart1": "Sua barra do YouTube,",
@@ -194,6 +200,10 @@
     "showMore": "Mostrar mais",
     "showLess": "Mostrar menos"
   },
+  "releaseReviews": {
+    "heading": "Avaliações recentes",
+    "subheading": "De usuários da versão mais recente"
+  },
   "changelog": {
     "heading": "Novidades",
     "viewAll": "Ver histórico completo no GitHub",
@@ -230,5 +240,123 @@
     "s7Body": "Esta política pode ser atualizada de tempos em tempos. A data de «última atualização» no topo desta página reflete a revisão mais recente.",
     "s8Heading": "8. Contato",
     "s8Pre": "Dúvidas sobre esta política? Envie-nos um e-mail para"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "Como usar o Nyan Progress Bar",
+      "description": "Guias passo a passo cobrindo tudo, desde a instalação da extensão até o ajuste fino da posição do gato na barra de progresso do YouTube.",
+      "readMore": "Ler guia"
+    },
+    "sidebarHeading": "Todos os guias",
+    "moreGuides": "Mais guias",
+    "nextStep": "Próximo passo",
+    "articles": {
+      "install": {
+        "title": "Como instalar o Nyan Progress Bar",
+        "summary": "Adicione a extensão ao Chrome em três cliques e veja o gato no YouTube imediatamente.",
+        "intro": "O Nyan Progress Bar é uma extensão gratuita do Chrome disponível na Chrome Web Store. A instalação leva menos de um minuto.",
+        "steps": [
+          {
+            "heading": "Abra a página na Chrome Web Store",
+            "body": "Visite a página do Nyan Progress Bar na Chrome Web Store. Você também pode acessá-la clicando em \"Instalar no Chrome\" neste site."
+          },
+          {
+            "heading": "Clique em \"Adicionar ao Chrome\"",
+            "body": "O botão azul fica no canto superior direito. O Chrome exibirá um aviso de permissões — a extensão solicita apenas acesso ao youtube.com e music.youtube.com."
+          },
+          {
+            "heading": "Confirme a instalação",
+            "body": "Clique em \"Adicionar extensão\" no diálogo. A extensão é baixada (cerca de 15 KB) e instalada automaticamente. O ícone do Nyan aparece na sua barra de ferramentas."
+          },
+          {
+            "heading": "Abra o YouTube e aproveite",
+            "body": "Acesse youtube.com e inicie qualquer vídeo. O gato aparece na barra de progresso imediatamente. Altere-o a qualquer momento no popup."
+          }
+        ],
+        "outroPre": "Pronto para personalizá-lo?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Escolha o tema do seu gato"
+      },
+      "choose-cat": {
+        "title": "Como escolher um tema de gato",
+        "summary": "Abra o popup, navegue na grade de gatos e escolha entre 12 temas integrados.",
+        "intro": "A extensão vem com 12 temas de gatos ajustados à mão — do Nyan Cat clássico a um gato gordo dormindo, um gato pixel e variantes dançando.",
+        "steps": [
+          {
+            "heading": "Abra o popup da extensão",
+            "body": "Clique no ícone do Nyan na barra de ferramentas. Se não o ver, clique no ícone de quebra-cabeça e fixe o Nyan Progress Bar."
+          },
+          {
+            "heading": "Navegue na grade de gatos",
+            "body": "A grade exibe os 12 gatos integrados e um bloco de upload para o seu GIF. Role para ver todas as opções."
+          },
+          {
+            "heading": "Clique no gato desejado",
+            "body": "Toque em qualquer bloco para selecioná-lo. O bloco selecionado recebe uma borda e brilho ciano. A alteração é aplicada a cada aba do YouTube aberta."
+          },
+          {
+            "heading": "Verifique no YouTube",
+            "body": "Alterne para uma aba do YouTube e mova a barra de progresso. Seu novo gato já está lá. O YouTube Music também é atualizado se estiver aberto."
+          }
+        ],
+        "outroPre": "Quer usar um GIF que não está na grade?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Faça upload do seu próprio GIF"
+      },
+      "upload-gif": {
+        "title": "Como fazer upload de um GIF personalizado",
+        "summary": "Use qualquer GIF animado que encontrar online como scrubber do YouTube.",
+        "intro": "Além dos 12 gatos integrados, você pode fazer upload de qualquer GIF como scrubber. O arquivo é armazenado localmente no navegador.",
+        "steps": [
+          {
+            "heading": "Encontre um GIF de que goste",
+            "body": "Navegue no GIPHY, Tenor ou Imgur. GIFs menores são mais ágeis no scrubber. Certifique-se de que o arquivo tenha extensão .gif."
+          },
+          {
+            "heading": "Abra o popup da extensão",
+            "body": "Clique no ícone do Nyan. A grade aparece com um bloco de upload no canto superior esquerdo — borda tracejada com ícone + e texto \"Fazer upload de GIF\"."
+          },
+          {
+            "heading": "Clique no bloco de upload",
+            "body": "Um seletor de arquivo nativo abre, filtrado para .gif. Escolha o GIF baixado e confirme. A extensão armazena localmente e adiciona como novo bloco."
+          },
+          {
+            "heading": "Seu GIF agora é o seu scrubber",
+            "body": "O GIF é selecionado automaticamente e enviado a todas as abas abertas do YouTube. Para trocar, clique no bloco de upload novamente."
+          }
+        ],
+        "outroPre": "O GIF parece descentrado no scrubber?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "Ajuste a altura e a posição"
+      },
+      "adjust-position": {
+        "title": "Como ajustar a altura e a posição do gato",
+        "summary": "Use os controles deslizantes no popup para ajustar como o gato se senta no scrubber.",
+        "intro": "Cada gato tem tamanho e forma diferentes, por isso a extensão permite ajustar a altura e a posição vertical.",
+        "steps": [
+          {
+            "heading": "Selecione um gato primeiro",
+            "body": "Abra o popup e escolha o gato a ajustar. Os controles \"Ajustar posição\" só aparecem após a seleção."
+          },
+          {
+            "heading": "Use o controle de Altura",
+            "body": "De 8 px a 80 px. Arraste e veja o gato redimensionar em tempo real."
+          },
+          {
+            "heading": "Use o controle de Deslocamento superior",
+            "body": "De -50 px a +20 px. Negativos empurram o gato para cima; positivos para baixo."
+          },
+          {
+            "heading": "Redefinir se necessário",
+            "body": "Clique em \"Definir posição padrão\" para redefinir ambos os controles. GIFs personalizados voltam a 28 px de altura e -13 px de topo."
+          }
+        ],
+        "outroPre": "Quer visualizar os gatos antes de instalar?",
+        "outroHref": "/customizer",
+        "outroLink": "Experimente o personalizador ao vivo"
+      }
+    },
+    "videoLabel": "Assistir ao tutorial",
+    "screenshotAlt": "Captura de tela ilustrando"
   }
 }

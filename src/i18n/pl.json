@@ -27,6 +27,10 @@
     "privacy": {
       "title": "Polityka Prywatności — Nyan Progress Bar",
       "description": "Dowiedz się, jak Nyan Progress Bar przetwarza dane na stronie i w rozszerzeniu Chrome."
+    },
+    "howToUse": {
+      "title": "How to use Nyan Progress Bar — Przewodniki",
+      "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
     }
   },
   "nav": {
@@ -35,7 +39,8 @@
     "customize": "Dostosuj",
     "support": "Wesprzyj",
     "contact": "Kontakt",
-    "reviews": "Recenzje"
+    "reviews": "Recenzje",
+    "howToUse": "Przewodniki"
   },
   "customizerPage": {
     "heading": "Konfigurator Kotów",
@@ -69,7 +74,8 @@
     "madeWith": "Zrobione z 🐱",
     "github": "GitHub",
     "support": "Wesprzyj",
-    "privacy": "Prywatność"
+    "privacy": "Prywatność",
+    "howToUse": "Przewodniki"
   },
   "home": {
     "headingPart1": "Twój pasek YouTube,",
@@ -194,6 +200,10 @@
     "showMore": "Pokaż więcej",
     "showLess": "Pokaż mniej"
   },
+  "releaseReviews": {
+    "heading": "Najnowsze opinie",
+    "subheading": "Od użytkowników najnowszej wersji"
+  },
   "changelog": {
     "heading": "Co nowego",
     "viewAll": "Zobacz pełną historię na GitHub",
@@ -230,5 +240,123 @@
     "s7Body": "Niniejsza polityka może być od czasu do czasu aktualizowana. Data \"ostatniej aktualizacji\" na górze tej strony odzwierciedla najnowszą wersję.",
     "s8Heading": "8. Kontakt",
     "s8Pre": "Pytania dotyczące tej polityki? Napisz do nas na"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "Jak używać Nyan Progress Bar",
+      "description": "Przewodniki krok po kroku — od instalacji rozszerzenia po precyzyjne ustawienie pozycji kota na pasku postępu YouTube.",
+      "readMore": "Czytaj przewodnik"
+    },
+    "sidebarHeading": "Wszystkie przewodniki",
+    "moreGuides": "Więcej przewodników",
+    "nextStep": "Następny krok",
+    "articles": {
+      "install": {
+        "title": "Jak zainstalować Nyan Progress Bar",
+        "summary": "Dodaj rozszerzenie do Chrome w trzech kliknięciach i natychmiast zobacz kota na YouTube.",
+        "intro": "Nyan Progress Bar to bezpłatne rozszerzenie Chrome dostępne w Chrome Web Store. Instalacja zajmuje mniej niż minutę i działa w każdej przeglądarce opartej na Chromium.",
+        "steps": [
+          {
+            "heading": "Otwórz stronę w Chrome Web Store",
+            "body": "Odwiedź stronę Nyan Progress Bar w Chrome Web Store. Możesz też kliknąć \"Zainstaluj w Chrome\" na tej stronie."
+          },
+          {
+            "heading": "Kliknij \"Dodaj do Chrome\"",
+            "body": "Niebieski przycisk jest w prawym górnym rogu. Chrome wyświetli monit o uprawnienia — rozszerzenie potrzebuje dostępu tylko do youtube.com i music.youtube.com."
+          },
+          {
+            "heading": "Potwierdź instalację",
+            "body": "Kliknij \"Dodaj rozszerzenie\" w oknie potwierdzenia. Rozszerzenie pobiera się (ok. 15 KB) i instaluje automatycznie. W pasku narzędzi pojawi się ikona Nyan."
+          },
+          {
+            "heading": "Otwórz YouTube i ciesz się",
+            "body": "Przejdź na youtube.com i uruchom dowolny film. Kot pojawia się na pasku postępu natychmiast. Możesz go zmienić w każdej chwili z popup."
+          }
+        ],
+        "outroPre": "Gotowy, żeby go spersonalizować?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Wybierz motyw kota"
+      },
+      "choose-cat": {
+        "title": "Jak wybrać motyw kota",
+        "summary": "Otwórz popup, przeglądaj siatkę kotów i wybierz spośród 12 wbudowanych motywów.",
+        "intro": "Rozszerzenie ma 12 starannie dostrojonych motywów kotów — od klasycznego Nyan Cata po śpiącego grubego kota, pikselowego kota i kilka wariantów tanecznych.",
+        "steps": [
+          {
+            "heading": "Otwórz popup rozszerzenia",
+            "body": "Kliknij ikonę Nyan w pasku narzędzi. Jeśli jej nie widzisz, kliknij ikonę puzzla i przypnij Nyan Progress Bar."
+          },
+          {
+            "heading": "Przeglądaj siatkę kotów",
+            "body": "Siatka pokazuje 12 wbudowanych kotów i kafelek przesyłania dla własnego GIF-a. Przewijaj, aby zobaczyć wszystkie opcje."
+          },
+          {
+            "heading": "Kliknij wybranego kota",
+            "body": "Dotknij kafelka, aby go wybrać. Wybrany kafelek dostaje cyjanową ramkę i poświatę. Zmiana jest natychmiast stosowana do każdej otwartej karty YouTube."
+          },
+          {
+            "heading": "Sprawdź na YouTube",
+            "body": "Przejdź do karty YouTube i przesuń pasek postępu. Twój nowy kot już tam jest. YouTube Music jest też aktualizowany, jeśli jest otwarty."
+          }
+        ],
+        "outroPre": "Chcesz użyć GIF-a, którego nie ma w siatce?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Prześlij własny GIF"
+      },
+      "upload-gif": {
+        "title": "Jak przesłać własny GIF",
+        "summary": "Użyj dowolnego animowanego GIF-a znalezionego w sieci jako paska postępu YouTube.",
+        "intro": "Poza 12 wbudowanymi kotami możesz przesłać dowolny GIF jako scrubber. Plik jest przechowywany lokalnie w przeglądarce.",
+        "steps": [
+          {
+            "heading": "Znajdź GIF, który ci się podoba",
+            "body": "Przeglądaj GIPHY, Tenor lub Imgur. Mniejsze GIF-y działają płynniej. Upewnij się, że plik ma rozszerzenie .gif."
+          },
+          {
+            "heading": "Otwórz popup rozszerzenia",
+            "body": "Kliknij ikonę Nyan. Siatka pojawi się z kafelkiem przesyłania w lewym górnym rogu — przerywana ramka z ikoną + i napisem \"Prześlij GIF\"."
+          },
+          {
+            "heading": "Kliknij kafelek przesyłania",
+            "body": "Otworzy się selektor plików odfiltrowany do .gif. Wybierz GIF i potwierdź. Rozszerzenie zapisuje go lokalnie i dodaje jako nowy kafelek w siatce."
+          },
+          {
+            "heading": "Twój GIF jest teraz scrubberem",
+            "body": "GIF jest automatycznie wybierany i wysyłany do wszystkich otwartych kart YouTube. Kliknij kafelek przesyłania ponownie, aby go zmienić."
+          }
+        ],
+        "outroPre": "GIF wygląda na niewyśrodkowany na scrubberze?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "Dostosuj wysokość i pozycję"
+      },
+      "adjust-position": {
+        "title": "Jak dostosować wysokość i pozycję kota",
+        "summary": "Użyj suwaków w popup, aby precyzyjnie ustawić, jak kot siedzi na scrubberze.",
+        "intro": "Każdy kot ma inny rozmiar i kształt, dlatego możesz dostosować wysokość i pozycję pionową.",
+        "steps": [
+          {
+            "heading": "Najpierw wybierz kota",
+            "body": "Otwórz popup i wybierz kota do dostosowania. Elementy \"Dostosuj pozycję\" pojawiają się tylko po wybraniu kota."
+          },
+          {
+            "heading": "Użyj suwaka Wysokość",
+            "body": "Od 8 px do 80 px. Przeciągnij i obserwuj zmianę w czasie rzeczywistym. Wyższe koty wyglądają świetnie w głównym odtwarzaczu."
+          },
+          {
+            "heading": "Użyj suwaka Przesunięcie górne",
+            "body": "Od -50 px do +20 px. Wartości ujemne przesuwają kota w górę; dodatnie w dół."
+          },
+          {
+            "heading": "Zresetuj w razie potrzeby",
+            "body": "Kliknij \"Ustaw domyślną pozycję\", aby zresetować oba suwaki. Własne GIF-y wracają do 28 px wysokości i -13 px przesunięcia."
+          }
+        ],
+        "outroPre": "Chcesz podejrzeć koty przed instalacją?",
+        "outroHref": "/customizer",
+        "outroLink": "Wypróbuj konfigurator na żywo"
+      }
+    },
+    "videoLabel": "Obejrzyj samouczek",
+    "screenshotAlt": "Zrzut ekranu ilustrujący"
   }
 }

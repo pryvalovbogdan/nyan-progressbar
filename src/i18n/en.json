@@ -27,11 +27,16 @@
     "privacy": {
       "title": "Privacy Policy — Nyan Progress Bar",
       "description": "Learn how Nyan Progress Bar handles data on the website and in the Chrome extension."
+    },
+    "howToUse": {
+      "title": "How to use Nyan Progress Bar — Guides",
+      "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
     }
   },
   "nav": {
     "home": "Home",
     "extension": "Extension",
+    "howToUse": "Guides",
     "customize": "Customize",
     "support": "Donate",
     "contact": "Contact",
@@ -69,6 +74,7 @@
     "madeWith": "Made with 🐱",
     "github": "GitHub",
     "support": "Support",
+    "howToUse": "Guides",
     "privacy": "Privacy"
   },
   "home": {
@@ -203,6 +209,10 @@
     "showMore": "Show more",
     "showLess": "Show less"
   },
+  "releaseReviews": {
+    "heading": "Fresh reviews",
+    "subheading": "From users running the latest release"
+  },
   "privacy": {
     "heading": "Privacy Policy",
     "lastUpdated": "Last updated: June 2025",
@@ -230,5 +240,123 @@
     "s7Body": "This policy may be updated from time to time. The \"last updated\" date at the top of this page reflects the most recent revision.",
     "s8Heading": "8. Contact",
     "s8Pre": "Questions about this policy? Email us at"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "How to use Nyan Progress Bar",
+      "description": "Step-by-step guides covering everything from installing the extension to fine-tuning your cat's position on the YouTube scrubber.",
+      "readMore": "Read guide"
+    },
+    "sidebarHeading": "All guides",
+    "moreGuides": "More guides",
+    "nextStep": "Next step",
+    "videoLabel": "Watch the walkthrough",
+    "screenshotAlt": "Screenshot illustrating",
+    "articles": {
+      "install": {
+        "title": "How to install Nyan Progress Bar",
+        "summary": "Add the extension to Chrome in three clicks and see the cat on YouTube right away.",
+        "intro": "Nyan Progress Bar is a free Chrome extension distributed through the Chrome Web Store. Installation takes less than a minute and works on any Chromium-based browser (Chrome, Edge, Brave, Opera).",
+        "steps": [
+          {
+            "heading": "Open the Chrome Web Store listing",
+            "body": "Visit the Nyan Progress Bar page on the Chrome Web Store. You can also reach it by clicking \"Install on Chrome\" from this site."
+          },
+          {
+            "heading": "Click \"Add to Chrome\"",
+            "body": "The blue \"Add to Chrome\" button is in the top-right of the listing. Chrome will show a permissions prompt — the extension only asks for access to youtube.com and music.youtube.com so it can draw the cat on the scrubber."
+          },
+          {
+            "heading": "Confirm the install",
+            "body": "Click \"Add extension\" in the confirmation dialog. The extension downloads (about 15 KB) and installs automatically. You'll see the Nyan icon appear in your toolbar."
+          },
+          {
+            "heading": "Open YouTube and enjoy",
+            "body": "Head to youtube.com and start any video. The cat scrubber appears on the progress bar immediately — no reload, no sign-in, no setup. The default Nyan Cat is selected; you can change it any time from the popup."
+          }
+        ],
+        "outroPre": "Ready to make it yours?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Pick your cat theme"
+      },
+      "choose-cat": {
+        "title": "How to choose a cat theme",
+        "summary": "Open the popup, browse the cat grid, and pick from 12 built-in themes.",
+        "intro": "The extension ships with 12 hand-tuned cat themes — from the classic Nyan Cat to a sleeping fat cat, a pixel cat, and several dancing variants. Switching is instant and persists across browser restarts.",
+        "steps": [
+          {
+            "heading": "Open the extension popup",
+            "body": "Click the Nyan icon in your browser toolbar. If you don't see it, click the puzzle-piece icon and pin Nyan Progress Bar for quick access. The popup opens at 280 px wide with the cat grid front and centre."
+          },
+          {
+            "heading": "Browse the cat grid",
+            "body": "The grid shows all 12 built-in cats plus an upload tile for your own GIF. Scroll inside the grid to see every option. Each tile is a live preview of the actual GIF that will appear on the scrubber."
+          },
+          {
+            "heading": "Click the cat you want",
+            "body": "Tap any cat tile to select it. The selected tile gets a cyan border and glow so you know which is active. The change is applied immediately to every open YouTube tab — no reload needed."
+          },
+          {
+            "heading": "Check it on YouTube",
+            "body": "Switch to a YouTube tab and move the scrubber. Your new cat is already there. If you have YouTube Music open, the cat is updated there too."
+          }
+        ],
+        "outroPre": "Want to use a GIF that's not in the grid?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Upload your own GIF"
+      },
+      "upload-gif": {
+        "title": "How to upload a custom GIF",
+        "summary": "Use any animated GIF you find online as your YouTube scrubber.",
+        "intro": "Beyond the 12 built-in cats, you can upload any GIF and the extension will use it as your scrubber. The file is stored locally in your browser — nothing is uploaded to a server.",
+        "steps": [
+          {
+            "heading": "Find a GIF you like",
+            "body": "Browse GIPHY, Tenor, or Imgur for an animation. Smaller GIFs (under a few hundred kilobytes) feel snappier on the scrubber, but there's no hard size limit. Make sure the file you download has a .gif extension."
+          },
+          {
+            "heading": "Open the extension popup",
+            "body": "Click the Nyan icon in your toolbar. The cat grid appears with an upload tile in the top-left — a dashed border with a + icon and \"Upload GIF\" text."
+          },
+          {
+            "heading": "Click the upload tile",
+            "body": "A native file picker opens, filtered to .gif files. Pick the GIF you just downloaded and confirm. The extension reads it in the browser, stores it locally, and adds it as a new tile in the grid."
+          },
+          {
+            "heading": "Your GIF is now your scrubber",
+            "body": "The uploaded GIF is selected automatically and pushed to every open YouTube tab. Open YouTube and move the scrubber to see it in action. To swap to a different GIF, click the upload tile again — the new file replaces the old one."
+          }
+        ],
+        "outroPre": "GIF looking off-center on the scrubber?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "Adjust the height and position"
+      },
+      "adjust-position": {
+        "title": "How to adjust the cat's height and position",
+        "summary": "Use the sliders in the popup to fine-tune how the cat sits on the scrubber.",
+        "intro": "Every cat (and every uploaded GIF) has a different intrinsic size and shape, so the extension lets you nudge the height and vertical position to get it sitting perfectly on the YouTube progress bar.",
+        "steps": [
+          {
+            "heading": "Select a cat first",
+            "body": "Open the popup and pick the cat you want to tune. The \"Adjust Position\" controls only appear once a cat is selected — they apply per-cat, so each theme remembers its own settings."
+          },
+          {
+            "heading": "Use the Height slider",
+            "body": "The Height slider ranges from 8 px to 80 px. Drag it and watch the cat resize on any open YouTube tab in real time. Taller cats look great on the main video player; smaller heights work better on hover thumbnails."
+          },
+          {
+            "heading": "Use the Top offset slider",
+            "body": "The Top offset slider ranges from -50 px to +20 px. Negative values push the cat up; positive values push it down. Use this to centre the cat vertically on the scrubber line — different GIFs need different offsets depending on where the cat's feet are drawn."
+          },
+          {
+            "heading": "Reset if needed",
+            "body": "Each cat has a pre-tuned default. If you over-adjust, click \"Set default position\" in the controls header to reset both sliders to the recommended values for that cat. Custom uploaded GIFs reset to a sensible fallback (28 px height, -13 px top)."
+          }
+        ],
+        "outroPre": "Want to preview cats before installing?",
+        "outroHref": "/customizer",
+        "outroLink": "Try the live customizer"
+      }
+    }
   }
 }

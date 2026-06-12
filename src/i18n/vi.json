@@ -27,6 +27,10 @@
     "privacy": {
       "title": "Chính sách quyền riêng tư — Nyan Progress Bar",
       "description": "Tìm hiểu cách Nyan Progress Bar xử lý dữ liệu trên trang web và trong tiện ích Chrome."
+    },
+    "howToUse": {
+      "title": "How to use Nyan Progress Bar — Hướng dẫn",
+      "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
     }
   },
   "nav": {
@@ -35,7 +39,8 @@
     "customize": "Tùy chỉnh",
     "support": "Ủng hộ",
     "contact": "Liên hệ",
-    "reviews": "Đánh giá"
+    "reviews": "Đánh giá",
+    "howToUse": "Hướng dẫn"
   },
   "customizerPage": {
     "heading": "Tùy chỉnh mèo",
@@ -69,7 +74,8 @@
     "madeWith": "Làm với 🐱",
     "github": "GitHub",
     "support": "Ủng hộ",
-    "privacy": "Quyền riêng tư"
+    "privacy": "Quyền riêng tư",
+    "howToUse": "Hướng dẫn"
   },
   "home": {
     "headingPart1": "Thanh YouTube của bạn,",
@@ -194,6 +200,10 @@
     "showMore": "Xem thêm",
     "showLess": "Ẩn bớt"
   },
+  "releaseReviews": {
+    "heading": "Đánh giá mới",
+    "subheading": "Từ người dùng phiên bản mới nhất"
+  },
   "changelog": {
     "heading": "Có gì mới",
     "viewAll": "Xem toàn bộ lịch sử trên GitHub",
@@ -230,5 +240,123 @@
     "s7Body": "Chính sách này có thể được cập nhật theo thời gian. Ngày \"cập nhật lần cuối\" ở đầu trang này phản ánh bản sửa đổi gần nhất.",
     "s8Heading": "8. Liên hệ",
     "s8Pre": "Có câu hỏi về chính sách này? Hãy gửi email cho chúng tôi tại"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "Cách sử dụng Nyan Progress Bar",
+      "description": "Hướng dẫn từng bước từ cài đặt tiện ích đến tinh chỉnh vị trí chú mèo trên thanh tiến trình YouTube.",
+      "readMore": "Đọc hướng dẫn"
+    },
+    "sidebarHeading": "Tất cả hướng dẫn",
+    "moreGuides": "Thêm hướng dẫn",
+    "nextStep": "Bước tiếp theo",
+    "articles": {
+      "install": {
+        "title": "Cách cài đặt Nyan Progress Bar",
+        "summary": "Thêm tiện ích vào Chrome trong ba lần nhấp và xem mèo trên YouTube ngay lập tức.",
+        "intro": "Nyan Progress Bar là tiện ích mở rộng Chrome miễn phí trên Chrome Web Store. Cài đặt mất chưa đầy một phút và hoạt động trên mọi trình duyệt Chromium.",
+        "steps": [
+          {
+            "heading": "Mở trang Chrome Web Store",
+            "body": "Truy cập trang Nyan Progress Bar trên Chrome Web Store. Bạn cũng có thể vào bằng cách nhấp \"Cài đặt trên Chrome\" từ trang web này."
+          },
+          {
+            "heading": "Nhấp vào \"Thêm vào Chrome\"",
+            "body": "Nút màu xanh ở góc trên bên phải. Chrome hiển thị lời nhắc quyền — tiện ích chỉ yêu cầu quyền truy cập youtube.com và music.youtube.com."
+          },
+          {
+            "heading": "Xác nhận cài đặt",
+            "body": "Nhấp \"Thêm tiện ích\" trong hộp thoại. Tiện ích tải xuống (~15 KB) và tự động cài đặt. Biểu tượng Nyan xuất hiện trong thanh công cụ."
+          },
+          {
+            "heading": "Mở YouTube và tận hưởng",
+            "body": "Truy cập youtube.com và phát bất kỳ video nào. Thanh trượt mèo xuất hiện ngay trên thanh tiến trình. Thay đổi bất cứ lúc nào từ popup."
+          }
+        ],
+        "outroPre": "Sẵn sàng cá nhân hóa nó?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Chọn chủ đề mèo của bạn"
+      },
+      "choose-cat": {
+        "title": "Cách chọn chủ đề mèo",
+        "summary": "Mở popup, duyệt lưới mèo và chọn từ 12 chủ đề tích hợp sẵn.",
+        "intro": "Tiện ích có 12 chủ đề mèo được tinh chỉnh thủ công — từ Nyan Cat cổ điển đến mèo béo đang ngủ, mèo pixel và nhiều biến thể nhảy múa.",
+        "steps": [
+          {
+            "heading": "Mở popup tiện ích mở rộng",
+            "body": "Nhấp vào biểu tượng Nyan trong thanh công cụ. Nếu không thấy, nhấp vào biểu tượng mảnh ghép và ghim Nyan Progress Bar."
+          },
+          {
+            "heading": "Duyệt lưới mèo",
+            "body": "Lưới hiển thị 12 chú mèo tích hợp cộng với ô tải lên cho GIF của bạn. Cuộn để xem tất cả tùy chọn."
+          },
+          {
+            "heading": "Nhấp vào chú mèo bạn muốn",
+            "body": "Nhấn vào bất kỳ ô nào để chọn. Ô được chọn có viền và ánh sáng màu xanh lam. Thay đổi áp dụng ngay cho mọi tab YouTube đang mở."
+          },
+          {
+            "heading": "Kiểm tra trên YouTube",
+            "body": "Chuyển sang tab YouTube và di chuyển thanh tiến trình. Chú mèo mới của bạn đã ở đó. YouTube Music cũng được cập nhật nếu đang mở."
+          }
+        ],
+        "outroPre": "Muốn dùng GIF không có trong lưới?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Tải lên GIF của riêng bạn"
+      },
+      "upload-gif": {
+        "title": "Cách tải lên GIF tùy chỉnh",
+        "summary": "Dùng bất kỳ GIF động nào tìm thấy trực tuyến làm thanh trượt YouTube của bạn.",
+        "intro": "Ngoài 12 chú mèo tích hợp, bạn có thể tải lên bất kỳ GIF nào làm thanh trượt. Tệp được lưu trữ cục bộ trong trình duyệt.",
+        "steps": [
+          {
+            "heading": "Tìm GIF bạn thích",
+            "body": "Duyệt GIPHY, Tenor hoặc Imgur. GIF nhỏ hơn cảm giác nhanh hơn trên thanh trượt. Đảm bảo tệp có phần mở rộng .gif."
+          },
+          {
+            "heading": "Mở popup tiện ích mở rộng",
+            "body": "Nhấp vào biểu tượng Nyan. Lưới mèo xuất hiện với ô tải lên ở góc trên trái — viền nét đứt với biểu tượng + và văn bản \"Tải GIF lên\"."
+          },
+          {
+            "heading": "Nhấp vào ô tải lên",
+            "body": "Bộ chọn tệp mở ra, lọc theo .gif. Chọn GIF vừa tải xuống và xác nhận. Tiện ích lưu cục bộ và thêm làm ô mới trong lưới."
+          },
+          {
+            "heading": "GIF của bạn giờ là thanh trượt của bạn",
+            "body": "GIF được chọn tự động và đẩy sang mọi tab YouTube đang mở. Nhấp lại vào ô tải lên để đổi GIF khác."
+          }
+        ],
+        "outroPre": "GIF trông lệch tâm trên thanh trượt?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "Điều chỉnh chiều cao và vị trí"
+      },
+      "adjust-position": {
+        "title": "Cách điều chỉnh chiều cao và vị trí mèo",
+        "summary": "Dùng các thanh trượt trong popup để tinh chỉnh cách mèo ngồi trên thanh trượt.",
+        "intro": "Mỗi chú mèo có kích thước và hình dạng khác nhau, vì vậy tiện ích cho phép điều chỉnh chiều cao và vị trí dọc.",
+        "steps": [
+          {
+            "heading": "Chọn mèo trước",
+            "body": "Mở popup và chọn chú mèo muốn tinh chỉnh. Các điều khiển \"Điều chỉnh vị trí\" chỉ xuất hiện sau khi chọn mèo."
+          },
+          {
+            "heading": "Dùng thanh trượt Chiều cao",
+            "body": "Từ 8 px đến 80 px. Kéo và xem mèo thay đổi kích thước theo thời gian thực."
+          },
+          {
+            "heading": "Dùng thanh trượt Độ lệch trên",
+            "body": "Từ -50 px đến +20 px. Giá trị âm đẩy mèo lên; dương đẩy xuống."
+          },
+          {
+            "heading": "Đặt lại nếu cần",
+            "body": "Nhấp \"Đặt vị trí mặc định\" để đặt lại cả hai thanh trượt. GIF tùy chỉnh đặt lại về 28 px chiều cao và -13 px đỉnh."
+          }
+        ],
+        "outroPre": "Muốn xem trước mèo trước khi cài đặt?",
+        "outroHref": "/customizer",
+        "outroLink": "Thử bộ tùy chỉnh trực tiếp"
+      }
+    },
+    "videoLabel": "Xem hướng dẫn video",
+    "screenshotAlt": "Ảnh chụp màn hình minh họa"
   }
 }

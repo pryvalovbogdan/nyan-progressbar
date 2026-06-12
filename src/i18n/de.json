@@ -27,6 +27,10 @@
     "privacy": {
       "title": "Datenschutzrichtlinie — Nyan Progress Bar",
       "description": "Erfahre, wie Nyan Progress Bar Daten auf der Website und in der Chrome-Erweiterung verarbeitet."
+    },
+    "howToUse": {
+      "title": "How to use Nyan Progress Bar — Anleitungen",
+      "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
     }
   },
   "nav": {
@@ -35,7 +39,8 @@
     "customize": "Anpassen",
     "support": "Spenden",
     "contact": "Kontakt",
-    "reviews": "Bewertungen"
+    "reviews": "Bewertungen",
+    "howToUse": "Anleitungen"
   },
   "customizerPage": {
     "heading": "Katzen-Konfigurator",
@@ -69,7 +74,8 @@
     "madeWith": "Gemacht mit 🐱",
     "github": "GitHub",
     "support": "Unterstützen",
-    "privacy": "Datenschutz"
+    "privacy": "Datenschutz",
+    "howToUse": "Anleitungen"
   },
   "home": {
     "headingPart1": "Deine YouTube-Leiste,",
@@ -194,6 +200,10 @@
     "showMore": "Mehr anzeigen",
     "showLess": "Weniger anzeigen"
   },
+  "releaseReviews": {
+    "heading": "Neue Bewertungen",
+    "subheading": "Von Nutzern der neuesten Version"
+  },
   "changelog": {
     "heading": "Was ist neu",
     "viewAll": "Vollständige Historie auf GitHub ansehen",
@@ -230,5 +240,123 @@
     "s7Body": "Diese Richtlinie kann von Zeit zu Zeit aktualisiert werden. Das Datum der \"letzten Aktualisierung\" oben auf dieser Seite zeigt die neueste Überarbeitung.",
     "s8Heading": "8. Kontakt",
     "s8Pre": "Fragen zu dieser Richtlinie? Schreib uns an"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "So verwendest du Nyan Progress Bar",
+      "description": "Schritt-fur-Schritt-Anleitungen - von der Installation der Erweiterung bis zur Feinabstimmung der Katzenposition auf dem YouTube-Scrubber.",
+      "readMore": "Anleitung lesen"
+    },
+    "sidebarHeading": "Alle Anleitungen",
+    "moreGuides": "Weitere Anleitungen",
+    "nextStep": "Nachster Schritt",
+    "articles": {
+      "install": {
+        "title": "So installierst du Nyan Progress Bar",
+        "summary": "Fuge die Erweiterung in drei Klicks zu Chrome hinzu und sieh die Katze sofort auf YouTube.",
+        "intro": "Nyan Progress Bar ist eine kostenlose Chrome-Erweiterung aus dem Chrome Web Store. Die Installation dauert weniger als eine Minute und funktioniert in jedem Chromium-Browser (Chrome, Edge, Brave, Opera).",
+        "steps": [
+          {
+            "heading": "Chrome Web Store offnen",
+            "body": "Besuche die Nyan Progress Bar Seite im Chrome Web Store. Du kannst sie auch uber den Button \"In Chrome installieren\" auf dieser Website erreichen."
+          },
+          {
+            "heading": "\"Zu Chrome hinzufugen\" klicken",
+            "body": "Der blaue Button befindet sich oben rechts. Chrome zeigt einen Berechtigungsdialog - die Erweiterung benotigt nur Zugriff auf youtube.com und music.youtube.com."
+          },
+          {
+            "heading": "Installation bestatigen",
+            "body": "Klicke im Bestatigungsdialog auf \"Erweiterung hinzufugen\". Die Erweiterung wird automatisch heruntergeladen (ca. 15 KB). Das Nyan-Symbol erscheint in deiner Symbolleiste."
+          },
+          {
+            "heading": "YouTube offnen und geniessen",
+            "body": "Gehe zu youtube.com und starte ein Video. Die Katze erscheint sofort auf der Fortschrittsleiste - kein Neuladen, kein Login. Wechsle sie jederzeit uber das Popup."
+          }
+        ],
+        "outroPre": "Bereit, es zu deinem zu machen?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Wahle dein Katzenthema"
+      },
+      "choose-cat": {
+        "title": "So wahlst du ein Katzenthema",
+        "summary": "Offne das Popup, stobere im Katzengitter und wahle aus 12 eingebauten Themen.",
+        "intro": "Die Erweiterung kommt mit 12 handabgestimmten Katzenthemen - vom klassischen Nyan Cat bis zur schlafenden Katze, einem Pixelkater und Tanzvarianten. Der Wechsel ist sofort und bleibt nach Browser-Neustarts erhalten.",
+        "steps": [
+          {
+            "heading": "Erweiterungs-Popup offnen",
+            "body": "Klicke auf das Nyan-Symbol in deiner Browser-Symbolleiste. Falls nicht sichtbar, klicke auf das Puzzleteil und hefte Nyan Progress Bar an. Das Popup offnet sich 280 px breit."
+          },
+          {
+            "heading": "Im Katzengitter stobern",
+            "body": "Das Gitter zeigt alle 12 eingebauten Katzen plus eine Upload-Kachel fur deinen eigenen GIF. Scrolle, um alle Optionen zu sehen."
+          },
+          {
+            "heading": "Auf die gewunschte Katze klicken",
+            "body": "Tippe auf eine Kachel, um sie auszuwahlen. Die gewahlte Kachel erhalt einen Cyan-Rand und Leuchten. Die Anderung wird sofort auf alle offenen YouTube-Tabs angewendet."
+          },
+          {
+            "heading": "Auf YouTube prufen",
+            "body": "Wechsle zu einem YouTube-Tab und bewege den Scrubber. Deine neue Katze ist bereits da. Wenn YouTube Music offen ist, wird sie dort ebenfalls aktualisiert."
+          }
+        ],
+        "outroPre": "Mochtest du einen GIF verwenden, der nicht im Gitter ist?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Lade deinen eigenen GIF hoch"
+      },
+      "upload-gif": {
+        "title": "So ladst du einen eigenen GIF hoch",
+        "summary": "Verwende jeden animierten GIF aus dem Internet als YouTube-Scrubber.",
+        "intro": "Neben den 12 eingebauten Katzen kannst du jeden GIF hochladen und als Scrubber verwenden. Die Datei wird lokal in deinem Browser gespeichert.",
+        "steps": [
+          {
+            "heading": "Einen GIF finden",
+            "body": "Stobere auf GIPHY, Tenor oder Imgur. Kleinere GIFs laufen flussiger. Die Datei muss die Endung .gif haben."
+          },
+          {
+            "heading": "Erweiterungs-Popup offnen",
+            "body": "Klicke auf das Nyan-Symbol. Das Katzengitter erscheint mit einer Upload-Kachel oben links - ein gestrichelter Rahmen mit einem +-Symbol und dem Text \"GIF hochladen\"."
+          },
+          {
+            "heading": "Auf die Upload-Kachel klicken",
+            "body": "Ein Dateiauswahldialog offnet sich, gefiltert auf .gif-Dateien. Wahle deinen GIF und bestatige. Die Erweiterung speichert ihn lokal und fugt ihn als neue Kachel im Gitter hinzu."
+          },
+          {
+            "heading": "Dein GIF ist jetzt dein Scrubber",
+            "body": "Der GIF wird automatisch ausgewahlt und an alle offenen YouTube-Tabs gesendet. Klicke die Upload-Kachel erneut, um ihn zu wechseln."
+          }
+        ],
+        "outroPre": "GIF sieht auf dem Scrubber nicht zentriert aus?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "Hohe und Position anpassen"
+      },
+      "adjust-position": {
+        "title": "So passt du Hohe und Position der Katze an",
+        "summary": "Nutze die Schieberegler im Popup, um die Katze perfekt auf dem Scrubber zu positionieren.",
+        "intro": "Jede Katze hat eine andere Grosse und Form, daher kannst du Hohe und vertikale Position anpassen, damit sie perfekt auf der YouTube-Fortschrittsleiste sitzt.",
+        "steps": [
+          {
+            "heading": "Zuerst eine Katze auswahlen",
+            "body": "Offne das Popup und wahle die Katze. Die Steuerelemente \"Position anpassen\" erscheinen erst nach der Auswahl - sie gelten pro Katze."
+          },
+          {
+            "heading": "Hohen-Schieberegler nutzen",
+            "body": "Von 8 px bis 80 px. Ziehe ihn und beobachte die Anderung in Echtzeit. Grossere Katzen wirken gut im Hauptplayer; kleinere Hohen funktionieren besser in Hover-Vorschauen."
+          },
+          {
+            "heading": "Oberkanten-Versatz-Schieberegler nutzen",
+            "body": "Von -50 px bis +20 px. Negative Werte schieben die Katze hoch, positive nach unten. Damit zentrierst du die Katze vertikal auf dem Scrubber."
+          },
+          {
+            "heading": "Bei Bedarf zurucksetzen",
+            "body": "Klicke auf \"Standardposition festlegen\", um beide Schieberegler auf die empfohlenen Werte zuruckzusetzen. Eigene GIFs werden auf 28 px Hohe und -13 px Oberkante zuruckgesetzt."
+          }
+        ],
+        "outroPre": "Mochtest du Katzen vor der Installation in der Vorschau sehen?",
+        "outroHref": "/customizer",
+        "outroLink": "Live-Konfigurator ausprobieren"
+      }
+    },
+    "videoLabel": "Tutorial ansehen",
+    "screenshotAlt": "Screenshot zur Veranschaulichung"
   }
 }

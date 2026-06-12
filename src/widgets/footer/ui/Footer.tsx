@@ -16,6 +16,10 @@ export function Footer({ labels, lang }: IFooterProps) {
           {labels.support}
         </a>{' '}
         ·{' '}
+        <Link href={`/${lang}/how-to-use`} className="hover:text-[#80deea] transition-colors">
+          {labels.howToUse}
+        </Link>{' '}
+        ·{' '}
         <Link href={`/${lang}/privacy`} className="hover:text-[#80deea] transition-colors">
           {labels.privacy}
         </Link>
