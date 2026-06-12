@@ -200,6 +200,10 @@
     "showMore": "Mehr anzeigen",
     "showLess": "Weniger anzeigen"
   },
+  "releaseReviews": {
+    "heading": "Neue Bewertungen",
+    "subheading": "Von Nutzern der neuesten Version"
+  },
   "changelog": {
     "heading": "Was ist neu",
     "viewAll": "Vollständige Historie auf GitHub ansehen",

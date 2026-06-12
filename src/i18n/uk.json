@@ -200,6 +200,10 @@
     "showMore": "Показати більше",
     "showLess": "Показати менше"
   },
+  "releaseReviews": {
+    "heading": "Свіжі відгуки",
+    "subheading": "Від користувачів останньої версії"
+  },
   "changelog": {
     "heading": "Що нового",
     "viewAll": "Переглянути повну історію на GitHub",

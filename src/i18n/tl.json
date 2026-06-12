@@ -200,6 +200,10 @@
     "showMore": "Magpakita ng higit pa",
     "showLess": "Magpakita ng mas kaunti"
   },
+  "releaseReviews": {
+    "heading": "Mga bagong review",
+    "subheading": "Mula sa mga user ng pinakabagong release"
+  },
   "changelog": {
     "heading": "Mga bagong feature",
     "viewAll": "Tingnan ang buong kasaysayan sa GitHub",

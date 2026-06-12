@@ -200,6 +200,10 @@
     "showMore": "Tampilkan lebih banyak",
     "showLess": "Tampilkan lebih sedikit"
   },
+  "releaseReviews": {
+    "heading": "Ulasan terbaru",
+    "subheading": "Dari pengguna versi terbaru"
+  },
   "changelog": {
     "heading": "Yang baru",
     "viewAll": "Lihat riwayat lengkap di GitHub",

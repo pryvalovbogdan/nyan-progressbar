@@ -12,7 +12,7 @@ export function isHowToArticleSlug(v: unknown): v is HowToArticleSlug {
 }
 
 export const HOW_TO_ARTICLE_VIDEO_IDS: Record<HowToArticleSlug, string | null> = {
-  install: 'Ufzk5xf8Rho',
+  install: 'zsZ1h6_vTVg',
   'choose-cat': null,
   'upload-gif': 'zsZ1h6_vTVg',
   'adjust-position': null,

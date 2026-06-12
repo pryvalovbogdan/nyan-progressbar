@@ -215,14 +215,14 @@ export const REVIEWS: Review[] = [
 
 export const STORE_URL = `https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}/reviews`;
 
-export const TOTAL = 58;
-export const AVERAGE = 4.7;
+export const TOTAL = 78;
+export const AVERAGE = 4.8;
 
 // Distribution computed from Chrome Web Store aggregate (4.7 avg × 58 ratings)
 export const DISTRIBUTION = [
-  { star: 5, count: 50 },
+  { star: 5, count: 69 },
   { star: 4, count: 3 },
-  { star: 3, count: 2 },
-  { star: 2, count: 2 },
-  { star: 1, count: 1 },
+  { star: 3, count: 4 },
+  { star: 2, count: 0 },
+  { star: 1, count: 2 },
 ];

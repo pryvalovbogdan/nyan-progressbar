@@ -200,6 +200,10 @@
     "showMore": "Xem thêm",
     "showLess": "Ẩn bớt"
   },
+  "releaseReviews": {
+    "heading": "Đánh giá mới",
+    "subheading": "Từ người dùng phiên bản mới nhất"
+  },
   "changelog": {
     "heading": "Có gì mới",
     "viewAll": "Xem toàn bộ lịch sử trên GitHub",
