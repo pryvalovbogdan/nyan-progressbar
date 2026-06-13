@@ -25,6 +25,8 @@ export function TrendingCard({ dict, lang, style }: ITrendingCardProps) {
   const eventName = style.id;
 
   function handleClick(event: React.MouseEvent<HTMLAnchorElement>) {
+    trackEvent('trending_card_try', { trending_gif_name: eventName });
+
     if (builtInSrc) {
       setSelectedCat(builtInSrc);
       trackEvent('cat_select', { cat_name: eventName, source: 'trending_card' });
