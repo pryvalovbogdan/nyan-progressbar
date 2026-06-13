@@ -31,11 +31,16 @@
     "howToUse": {
       "title": "How to use Nyan Progress Bar — Anleitungen",
       "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
+    },
+    "trending": {
+      "title": "Angesagte Katzen-Fortschrittsbalken — Nyan Progress Bar",
+      "description": "Entdecke die beliebtesten, frischesten und meistgeliebten Katzen-Fortschrittsbalken-Stile für YouTube."
     }
   },
   "nav": {
     "home": "Startseite",
     "extension": "Erweiterung",
+    "trending": "Im Trend",
     "customize": "Anpassen",
     "support": "Spenden",
     "contact": "Kontakt",
@@ -358,5 +363,167 @@
     },
     "videoLabel": "Tutorial ansehen",
     "screenshotAlt": "Screenshot zur Veranschaulichung"
+  },
+  "trending": {
+    "heading": "Angesagte Katzen-Fortschrittsbalken",
+    "description": "Entdecke die Katzen-Scrubber, die alle gerade auf YouTube installieren — sortiert nach Beliebtheit, Aktualität und Thema.",
+    "cta": "Ausprobieren",
+    "seeMore": "Mehr anzeigen",
+    "itemCount": "{count} Einträge",
+    "installHeading": "Starte heute mit Nyan Progress Bar",
+    "installDescription": "Kostenlose Chrome-Erweiterung. Such dir eine Katze aus, klick auf Installieren, und dein YouTube-Fortschrittsbalken bekommt ein neues Maskottchen.",
+    "installCta": "Zu Chrome hinzufügen — kostenlos",
+    "sections": {
+      "popular": {
+        "title": "Beliebte Fortschrittsbalken",
+        "description": "Die zeitlosen Favoriten unserer Nutzer."
+      },
+      "trending": {
+        "title": "Gerade im Trend",
+        "description": "Was diese Woche auf YouTube an Fahrt gewinnt."
+      },
+      "new": {
+        "title": "Neue Fortschrittsbalken",
+        "description": "Die neuesten Scrubber im Katalog."
+      },
+      "collections": {
+        "title": "Top-Kollektionen",
+        "description": "Kuratierte Katzen-Sets, nach Stimmung gruppiert."
+      }
+    },
+    "badges": {
+      "new": "Neu",
+      "hot": "Beliebt",
+      "custom": "Eigen"
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Klassisch",
+      "rainbow": "Regenbogen",
+      "cute": "Süß",
+      "pink": "Pink",
+      "glitch": "Glitch",
+      "pixel": "Pixel",
+      "kawaii": "Kawaii",
+      "dance": "Tanz",
+      "orange": "Orange",
+      "minimal": "Minimal",
+      "retro": "Retro",
+      "bunny": "Hase",
+      "dog": "Hund",
+      "bat": "Fledermaus",
+      "creature": "Kreatur",
+      "bird": "Vogel",
+      "tiger": "Tiger",
+      "deer": "Reh",
+      "bear": "Bär",
+      "cartoon": "Cartoon"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Klassisch",
+        "description": "Die originale Pop-Tart-Katze mit Regenbogenschweif — eine sofortige Ikone auf jedem Fortschrittsbalken."
+      },
+      "cute-cat": {
+        "title": "Süße Katze",
+        "description": "Ein weiches, rosiges Kätzchen in zarten Pinktönen — niedlich, aber nicht zu viel."
+      },
+      "glitch-cat": {
+        "title": "Glitch-Katze",
+        "description": "Eine pixelige Katze mit chromatischer Aberration für einen Cyberpunk-Look."
+      },
+      "pixel-cat": {
+        "title": "Pixel-Katze",
+        "description": "Ein klarer 8-Bit-Sprite, der wie ein Retro-Side-Scroller über deinen Scrubber läuft."
+      },
+      "cute-kawaii": {
+        "title": "Süßes Kawaii",
+        "description": "Große Augen, weiche Pastelltöne, volle Kawaii-Energie auf der YouTube-Leiste."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "Ein kleines orange Gatito tappst mit Cartoon-Charme über den Scrubber."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "Eine orange Tabby mit Attitüde — der Lasagne-Fan übernimmt deinen Player."
+      },
+      "orange-dance": {
+        "title": "Tanzende Orange Katze",
+        "description": "Eine rote Katze mit Tanzmoves — perfekt für Musikvideos und YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "Ein wackelndes Kätzchen, das sich mit der Leiste bewegt — verspielt und seltsam hypnotisch."
+      },
+      "black-cat": {
+        "title": "Schwarze Katze",
+        "description": "Eine schlanke Silhouette für einen minimalen Scrubber — passt perfekt zum Dark Mode."
+      },
+      "white-cat": {
+        "title": "Weiße Katze",
+        "description": "Ein klares weißes Kätzchen für einen sanften Look in hellen und dunklen Themes."
+      },
+      "orange": {
+        "title": "Orange Tabby",
+        "description": "Eine freundliche rote Katze, die voranschreitet — warme Töne, die auf YouTube-Rot strahlen."
+      },
+      "cute-bunny": {
+        "title": "Süßer Hase",
+        "description": "Ein weicher hüpfender Hase — wird mit einem Klick zu deinem eigenen Scrubber."
+      },
+      "japan-creature": {
+        "title": "Mochi-Kreatur",
+        "description": "Ein runder Maskottchen-Charakter im Japan-Stil — pure Kawaii-Vibes auf der YouTube-Leiste."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "Eine kleine hüpfende Kreatur mit Attitüde — verspielt und unübersehbar."
+      },
+      "pixel-dogs": {
+        "title": "Pixel-Hunde",
+        "description": "Zwei Pixel-Hunde laufen Seite an Seite — Chiptune-Stimmung für deine Videos."
+      },
+      "purple-bat": {
+        "title": "Lila Fledermaus",
+        "description": "Eine kleine lila Fledermaus flattert über die Leiste — gothic-süß und perfekt im Dark Mode."
+      },
+      "cute-dog": {
+        "title": "Süßer Hund",
+        "description": "Ein freundlicher kleiner Hund, der mittrabt — warm, ausdrucksstark, dein Scrubber-Begleiter."
+      },
+      "parrot-pixel": {
+        "title": "Pixel-Papagei",
+        "description": "Ein quirliger 8-Bit-Papagei — tropische Farben und Retro-Pixel-Charme auf jeder Leiste."
+      },
+      "cartoon-cat": {
+        "title": "Cartoon-Katze",
+        "description": "Eine klare, gezeichnete Cartoon-Katze — Samstagmorgen-Stimmung auf deinem Player."
+      },
+      "pixel-tiger": {
+        "title": "Pixel-Tiger",
+        "description": "Ein kleiner, wilder 8-Bit-Tiger, der den Scrubber beschleicht — markante Streifen, Arcade-Energie."
+      },
+      "fawn": {
+        "title": "Waldreh",
+        "description": "Ein zartes Rehkitz hüpft über die Leiste — ruhig, minimal, transparenter Hintergrund."
+      },
+      "osito": {
+        "title": "Bärchen",
+        "description": "Ein weicher animierter Bär — kugelrund und gemütlich, perfekter Begleiter für lange Sessions."
+      }
+    },
+    "collections": {
+      "classic": "Klassische Katzen",
+      "pixel": "Pixel & Retro",
+      "kawaii": "Kawaii-Pastelle",
+      "dance": "Tanzende Katzen",
+      "monochrome": "Monochrom",
+      "orange": "Orange-Truppe"
+    }
   }
 }

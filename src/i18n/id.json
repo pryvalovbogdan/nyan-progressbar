@@ -31,11 +31,16 @@
     "howToUse": {
       "title": "How to use Nyan Progress Bar — Panduan",
       "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
+    },
+    "trending": {
+      "title": "Bilah Kemajuan Kucing yang Sedang Tren — Nyan Progress Bar",
+      "description": "Temukan gaya bilah kemajuan kucing yang paling populer, terbaru, dan paling disukai untuk YouTube."
     }
   },
   "nav": {
     "home": "Beranda",
     "extension": "Ekstensi",
+    "trending": "Tren",
     "customize": "Sesuaikan",
     "support": "Donasi",
     "contact": "Kontak",
@@ -358,5 +363,167 @@
     },
     "videoLabel": "Tonton panduan video",
     "screenshotAlt": "Tangkapan layar yang mengilustrasikan"
+  },
+  "trending": {
+    "heading": "Bilah Kemajuan Kucing yang Sedang Tren",
+    "description": "Temukan scrubber kucing yang sedang dipasang semua orang di YouTube — diurutkan berdasarkan popularitas, kebaruan, dan tema.",
+    "cta": "Coba",
+    "seeMore": "Lihat lebih banyak",
+    "itemCount": "{count} item",
+    "installHeading": "Mulai gunakan Nyan Progress Bar hari ini",
+    "installDescription": "Ekstensi Chrome gratis. Pilih kucing, klik instal, dan bilah kemajuan YouTube Anda mendapatkan maskot baru.",
+    "installCta": "Tambahkan ke Chrome — gratis",
+    "sections": {
+      "popular": {
+        "title": "Bilah kemajuan populer",
+        "description": "Favorit sepanjang masa yang dipilih pengguna kami."
+      },
+      "trending": {
+        "title": "Sedang tren",
+        "description": "Yang sedang naik daun minggu ini di YouTube."
+      },
+      "new": {
+        "title": "Bilah kemajuan baru",
+        "description": "Scrubber terbaru yang ditambahkan ke katalog."
+      },
+      "collections": {
+        "title": "Koleksi unggulan",
+        "description": "Paket kucing pilihan yang dikelompokkan berdasarkan suasana."
+      }
+    },
+    "badges": {
+      "new": "Baru",
+      "hot": "Populer",
+      "custom": "Kustom"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Berikutnya"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Klasik",
+      "rainbow": "Pelangi",
+      "cute": "Imut",
+      "pink": "Merah Muda",
+      "glitch": "Glitch",
+      "pixel": "Piksel",
+      "kawaii": "Kawaii",
+      "dance": "Tari",
+      "orange": "Oranye",
+      "minimal": "Minimalis",
+      "retro": "Retro",
+      "bunny": "Kelinci",
+      "dog": "Anjing",
+      "bat": "Kelelawar",
+      "creature": "Makhluk",
+      "bird": "Burung",
+      "tiger": "Harimau",
+      "deer": "Rusa",
+      "bear": "Beruang",
+      "cartoon": "Kartun"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Klasik",
+        "description": "Kucing pop-tart asli dengan jejak pelangi — ikon instan di bilah kemajuan mana pun."
+      },
+      "cute-cat": {
+        "title": "Kucing Imut",
+        "description": "Anak kucing lembut bersemu merah muda — manis tanpa berlebihan."
+      },
+      "glitch-cat": {
+        "title": "Kucing Glitch",
+        "description": "Kucing berpiksel dengan aberasi kromatik untuk tampilan cyberpunk."
+      },
+      "pixel-cat": {
+        "title": "Kucing Piksel",
+        "description": "Sprite 8-bit rapi berjalan di scrubber Anda seperti game retro side-scroller."
+      },
+      "cute-kawaii": {
+        "title": "Kawaii Imut",
+        "description": "Mata besar, pastel lembut, energi kawaii penuh di bilah YouTube."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "Anak kucing oranye mungil berjalan di scrubber dengan pesona kartun."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "Kucing belang oranye dengan sikap — pecinta lasagna mengambil alih pemutar Anda."
+      },
+      "orange-dance": {
+        "title": "Kucing Oranye Menari",
+        "description": "Kucing oranye dengan gerakan tari — sempurna untuk klip dan YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "Anak kucing yang bergoyang seiring bilah berjalan — lucu dan anehnya menghipnotis."
+      },
+      "black-cat": {
+        "title": "Kucing Hitam",
+        "description": "Siluet ramping untuk scrubber minimalis yang cocok dengan mode gelap."
+      },
+      "white-cat": {
+        "title": "Kucing Putih",
+        "description": "Anak kucing putih bersih untuk tampilan lembut di tema terang dan gelap."
+      },
+      "orange": {
+        "title": "Belang Oranye",
+        "description": "Kucing oranye ramah berlari — nada hangat menonjol di merah YouTube."
+      },
+      "cute-bunny": {
+        "title": "Kelinci Imut",
+        "description": "Kelinci kecil yang melompat-lompat — diunggah sebagai scrubber kustom hanya dengan satu klik."
+      },
+      "japan-creature": {
+        "title": "Makhluk Mochi Mini",
+        "description": "Maskot bulat bergaya Jepang — pesona kawaii murni di bilah YouTube."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "Makhluk kecil yang melenting penuh sikap — lucu dan mustahil diabaikan."
+      },
+      "pixel-dogs": {
+        "title": "Dua Anjing Piksel",
+        "description": "Sepasang anjing piksel berlari bersama — vibe chiptune untuk videomu."
+      },
+      "purple-bat": {
+        "title": "Kelelawar Ungu",
+        "description": "Kelelawar ungu kecil yang melayang — gothic-imut dan sangat terlihat di mode gelap."
+      },
+      "cute-dog": {
+        "title": "Anjing Imut",
+        "description": "Anjing kecil yang ramah — hangat dan ekspresif, siap mengikuti scrubber-mu."
+      },
+      "parrot-pixel": {
+        "title": "Burung Beo Piksel",
+        "description": "Burung beo 8-bit yang cerewet — warna tropis dan pesona piksel retro di tiap bilah."
+      },
+      "cartoon-cat": {
+        "title": "Kucing Kartun",
+        "description": "Kucing kartun bersih dan ekspresif — nuansa Sabtu pagi di pemutarmu."
+      },
+      "pixel-tiger": {
+        "title": "Harimau Piksel",
+        "description": "Harimau 8-bit kecil yang garang mengintai scrubber — corak tegas, energi arkade."
+      },
+      "fawn": {
+        "title": "Anak Rusa Hutan",
+        "description": "Anak rusa lembut melompat di bilah — tenang, minimalis, latar transparan."
+      },
+      "osito": {
+        "title": "Beruang Kecil",
+        "description": "Beruang animasi lembut — bulat dan hangat, teman ideal untuk sesi nonton panjang."
+      }
+    },
+    "collections": {
+      "classic": "Kucing klasik",
+      "pixel": "Piksel & Retro",
+      "kawaii": "Pastel Kawaii",
+      "dance": "Kucing menari",
+      "monochrome": "Monokrom",
+      "orange": "Skuad Oranye"
+    }
   }
 }

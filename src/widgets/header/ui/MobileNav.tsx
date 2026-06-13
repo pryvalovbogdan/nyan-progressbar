@@ -20,6 +20,7 @@ export function MobileNav({ labels, lang }: IMobileNavProps) {
   const links = [
     { href: `/${lang}`, label: labels.home },
     { href: `/${lang}/extension`, label: labels.extension },
+    { href: `/${lang}/trending`, label: labels.trending },
     { href: `/${lang}/how-to-use`, label: labels.howToUse },
     { href: `/${lang}/customizer`, label: labels.customize },
     { href: `/${lang}/reviews`, label: labels.reviews },

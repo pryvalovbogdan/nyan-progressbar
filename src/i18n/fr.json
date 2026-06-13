@@ -31,11 +31,16 @@
     "howToUse": {
       "title": "How to use Nyan Progress Bar — Guides",
       "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
+    },
+    "trending": {
+      "title": "Barres de progression chat tendances — Nyan Progress Bar",
+      "description": "Découvrez les styles de barre de progression chat les plus populaires, les plus récents et les plus appréciés pour YouTube."
     }
   },
   "nav": {
     "home": "Accueil",
     "extension": "Extension",
+    "trending": "Tendances",
     "customize": "Personnaliser",
     "support": "Faire un don",
     "contact": "Contact",
@@ -358,5 +363,167 @@
     },
     "videoLabel": "Regarder le tutoriel",
     "screenshotAlt": "Capture d'écran illustrant"
+  },
+  "trending": {
+    "heading": "Barres de progression chat tendances",
+    "description": "Découvrez les scrubbers chats que tout le monde installe sur YouTube — triés par popularité, fraîcheur et thème.",
+    "cta": "Essayer",
+    "seeMore": "Voir plus",
+    "itemCount": "{count} éléments",
+    "installHeading": "Commencez à utiliser Nyan Progress Bar dès aujourd'hui",
+    "installDescription": "Extension Chrome gratuite. Choisissez un chat, cliquez sur installer, et votre barre de progression YouTube gagne une nouvelle mascotte.",
+    "installCta": "Ajouter à Chrome — c'est gratuit",
+    "sections": {
+      "popular": {
+        "title": "Barres de progression populaires",
+        "description": "Les favoris de toujours choisis par nos utilisateurs."
+      },
+      "trending": {
+        "title": "Tendances actuelles",
+        "description": "Ce qui gagne du terrain cette semaine sur YouTube."
+      },
+      "new": {
+        "title": "Nouvelles barres de progression",
+        "description": "Les derniers scrubbers ajoutés au catalogue."
+      },
+      "collections": {
+        "title": "Collections phares",
+        "description": "Sélections de chats regroupés par ambiance."
+      }
+    },
+    "badges": {
+      "new": "Nouveau",
+      "hot": "Populaire",
+      "custom": "Personnalisé"
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Classique",
+      "rainbow": "Arc-en-ciel",
+      "cute": "Mignon",
+      "pink": "Rose",
+      "glitch": "Glitch",
+      "pixel": "Pixel",
+      "kawaii": "Kawaii",
+      "dance": "Danse",
+      "orange": "Orange",
+      "minimal": "Minimaliste",
+      "retro": "Rétro",
+      "bunny": "Lapin",
+      "dog": "Chien",
+      "bat": "Chauve-souris",
+      "creature": "Créature",
+      "bird": "Oiseau",
+      "tiger": "Tigre",
+      "deer": "Cerf",
+      "bear": "Ours",
+      "cartoon": "Cartoon"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Classique",
+        "description": "Le chat pop-tart original avec sa traînée arc-en-ciel — une icône instantanée sur toute barre de progression."
+      },
+      "cute-cat": {
+        "title": "Chat mignon",
+        "description": "Un chaton doux et rougissant dans des tons rose — sucré sans en faire trop."
+      },
+      "glitch-cat": {
+        "title": "Chat Glitch",
+        "description": "Un chat pixelisé avec des vibes d'aberration chromatique pour un look cyberpunk."
+      },
+      "pixel-cat": {
+        "title": "Chat Pixel",
+        "description": "Un sprite 8-bit net qui marche sur votre scrubber comme un side-scroller rétro."
+      },
+      "cute-kawaii": {
+        "title": "Kawaii mignon",
+        "description": "Grands yeux, pastels doux, énergie kawaii à fond sur la barre YouTube."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "Un petit gatito roux qui trottine sur le scrubber avec un charme cartoon."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "Un tigré orange plein d'attitude — l'amateur de lasagnes prend votre lecteur."
+      },
+      "orange-dance": {
+        "title": "Chat Orange Danseur",
+        "description": "Un chat roux avec des pas de danse — parfait pour les clips et YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "Un chaton qui se trémousse au rythme de la barre — joueur et étrangement hypnotique."
+      },
+      "black-cat": {
+        "title": "Chat Noir",
+        "description": "Une silhouette élégante pour un scrubber minimaliste, parfait pour le mode sombre."
+      },
+      "white-cat": {
+        "title": "Chat Blanc",
+        "description": "Un chat blanc épuré pour un look doux sur les thèmes clair et sombre."
+      },
+      "orange": {
+        "title": "Tigré Orange",
+        "description": "Un chat roux amical qui trotte — des tons chauds qui ressortent sur le rouge YouTube."
+      },
+      "cute-bunny": {
+        "title": "Lapin Mignon",
+        "description": "Un petit lapin doux qui sautille — s'installe comme votre scrubber personnalisé en un clic."
+      },
+      "japan-creature": {
+        "title": "Petite Créature Mochi",
+        "description": "Une mascotte ronde style japonais — charme kawaii pur sur la barre YouTube."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "Une petite créature bondissante au caractère bien trempé — joueuse et impossible à ignorer."
+      },
+      "pixel-dogs": {
+        "title": "Toutous Pixel",
+        "description": "Deux petits chiens pixel courant côte à côte — ambiance chiptune pour vos vidéos."
+      },
+      "purple-bat": {
+        "title": "Chauve-souris Violette",
+        "description": "Une petite chauve-souris violette qui volète — gothique-mignon, parfait pour le mode sombre."
+      },
+      "cute-dog": {
+        "title": "Petit Chien Mignon",
+        "description": "Un petit chien amical qui trottine — chaleureux, expressif, prêt à suivre votre scrubber."
+      },
+      "parrot-pixel": {
+        "title": "Perroquet Pixel",
+        "description": "Un perroquet 8-bit bavard — couleurs tropicales et charme rétro sur chaque barre."
+      },
+      "cartoon-cat": {
+        "title": "Chat Cartoon",
+        "description": "Un chat dessiné aux traits nets et expressifs — ambiance samedi matin sur votre lecteur."
+      },
+      "pixel-tiger": {
+        "title": "Tigre Pixel",
+        "description": "Un petit tigre 8-bit féroce qui rôde sur le scrubber — rayures marquées, énergie arcade."
+      },
+      "fawn": {
+        "title": "Faon de Forêt",
+        "description": "Un faon délicat qui bondit sur la barre — discret, minimaliste, fond transparent."
+      },
+      "osito": {
+        "title": "Petit Ourson",
+        "description": "Un petit ourson animé tout doux — rond et cosy, compagnon parfait pour les longues sessions."
+      }
+    },
+    "collections": {
+      "classic": "Chats classiques",
+      "pixel": "Pixel et rétro",
+      "kawaii": "Pastels kawaii",
+      "dance": "Chats danseurs",
+      "monochrome": "Monochromes",
+      "orange": "Équipe Orange"
+    }
   }
 }

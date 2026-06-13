@@ -31,11 +31,16 @@
     "howToUse": {
       "title": "How to use Nyan Progress Bar — Przewodniki",
       "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
+    },
+    "trending": {
+      "title": "Popularne paski postępu z kotem — Nyan Progress Bar",
+      "description": "Odkryj najpopularniejsze, najświeższe i najbardziej lubiane style paska postępu z kotem dla YouTube."
     }
   },
   "nav": {
     "home": "Strona główna",
     "extension": "Rozszerzenie",
+    "trending": "Popularne",
     "customize": "Dostosuj",
     "support": "Wesprzyj",
     "contact": "Kontakt",
@@ -358,5 +363,167 @@
     },
     "videoLabel": "Obejrzyj samouczek",
     "screenshotAlt": "Zrzut ekranu ilustrujący"
+  },
+  "trending": {
+    "heading": "Popularne paski postępu z kotem",
+    "description": "Odkryj kotki, które wszyscy instalują teraz na YouTube — uporządkowane według popularności, świeżości i motywu.",
+    "cta": "Wypróbuj",
+    "seeMore": "Zobacz więcej",
+    "itemCount": "{count} pozycji",
+    "installHeading": "Zacznij używać Nyan Progress Bar już dziś",
+    "installDescription": "Darmowe rozszerzenie do Chrome. Wybierz kota, kliknij instaluj, a Twój pasek postępu YouTube zyska nowego maskotkę.",
+    "installCta": "Dodaj do Chrome — za darmo",
+    "sections": {
+      "popular": {
+        "title": "Popularne paski postępu",
+        "description": "Ulubione wszech czasów wybrane przez naszych użytkowników."
+      },
+      "trending": {
+        "title": "Popularne teraz",
+        "description": "To, co zyskuje na popularności w tym tygodniu na YouTube."
+      },
+      "new": {
+        "title": "Nowe paski postępu",
+        "description": "Najświeższe kotki dodane do katalogu."
+      },
+      "collections": {
+        "title": "Najlepsze kolekcje",
+        "description": "Wybrane zestawy kotów pogrupowane według klimatu."
+      }
+    },
+    "badges": {
+      "new": "Nowość",
+      "hot": "Popularne",
+      "custom": "Własny"
+    },
+    "pagination": {
+      "previous": "Poprzednia",
+      "next": "Następna"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Klasyczny",
+      "rainbow": "Tęcza",
+      "cute": "Słodki",
+      "pink": "Różowy",
+      "glitch": "Glitch",
+      "pixel": "Piksel",
+      "kawaii": "Kawaii",
+      "dance": "Taniec",
+      "orange": "Pomarańczowy",
+      "minimal": "Minimalistyczny",
+      "retro": "Retro",
+      "bunny": "Króliczek",
+      "dog": "Pies",
+      "bat": "Nietoperz",
+      "creature": "Stworek",
+      "bird": "Ptak",
+      "tiger": "Tygrys",
+      "deer": "Jelonek",
+      "bear": "Miś",
+      "cartoon": "Kreskówka"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Klasyczny",
+        "description": "Oryginalny kot pop-tart z tęczowym ogonem — natychmiastowa ikona każdego paska postępu."
+      },
+      "cute-cat": {
+        "title": "Słodki kotek",
+        "description": "Delikatny, rumiany kotek w różowych tonach — słodki w sam raz."
+      },
+      "glitch-cat": {
+        "title": "Glitch Cat",
+        "description": "Pikselowy kot z aberracją chromatyczną w stylu cyberpunk."
+      },
+      "pixel-cat": {
+        "title": "Piksel Cat",
+        "description": "Czysty 8-bitowy sprite kroczący po pasku jak retro side-scroller."
+      },
+      "cute-kawaii": {
+        "title": "Słodkie Kawaii",
+        "description": "Duże oczy, miękkie pastele i pełna energia kawaii na pasku YouTube."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "Maleńki rudy gatito drepczący po pasku z kreskówkowym wdziękiem."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "Pomarańczowy pręgowany z charakterem — miłośnik lazanii przejmuje Twój odtwarzacz."
+      },
+      "orange-dance": {
+        "title": "Tańczący Rudy Kot",
+        "description": "Rudy kot z układem tanecznym — idealny do klipów i YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "Wijący się kotek poruszający się wraz z paskiem — figlarny i dziwnie hipnotyzujący."
+      },
+      "black-cat": {
+        "title": "Czarny Kot",
+        "description": "Smukła sylwetka dla minimalistycznego paska — idealnie pasuje do trybu ciemnego."
+      },
+      "white-cat": {
+        "title": "Biały Kot",
+        "description": "Czysty biały kotek dla łagodnego wyglądu w jasnym i ciemnym motywie."
+      },
+      "orange": {
+        "title": "Rudy Pręgowany",
+        "description": "Przyjazny rudy kot kłusujący po pasku — ciepłe tony, które ożywiają czerwień YouTube."
+      },
+      "cute-bunny": {
+        "title": "Słodki Króliczek",
+        "description": "Miękki kicający króliczek — wgrywa się jako Twój własny scrubber jednym kliknięciem."
+      },
+      "japan-creature": {
+        "title": "Mały Stworek Mochi",
+        "description": "Pulchna maskotka w stylu japońskim — czysty kawaii na pasku YouTube."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "Mały skaczący stworek z charakterem — figlarny i nie do przeoczenia."
+      },
+      "pixel-dogs": {
+        "title": "Pikselowe Pieski",
+        "description": "Dwa pikselowe pieski biegną obok siebie — chiptune'owa atmosfera dla Twoich filmów."
+      },
+      "purple-bat": {
+        "title": "Fioletowy Nietoperz",
+        "description": "Maleńki fioletowy nietoperz fruwa po pasku — gotycki, słodki i świetnie widoczny w trybie ciemnym."
+      },
+      "cute-dog": {
+        "title": "Słodki Piesek",
+        "description": "Przyjazny piesek kłusujący po pasku — ciepły, ekspresyjny i gotowy podążać za scrubberem."
+      },
+      "parrot-pixel": {
+        "title": "Pikselowa Papuga",
+        "description": "Gadatliwa 8-bitowa papuga — tropikalne kolory i retro pikselowy urok na każdym pasku."
+      },
+      "cartoon-cat": {
+        "title": "Kreskówkowy Kot",
+        "description": "Czysty, wyraźny kot z kreskówki — sobotni poranek na Twoim odtwarzaczu."
+      },
+      "pixel-tiger": {
+        "title": "Pikselowy Tygrys",
+        "description": "Mały, groźny 8-bitowy tygrys skradający się po pasku — wyraziste pasy, arkadowa energia."
+      },
+      "fawn": {
+        "title": "Leśny Jelonek",
+        "description": "Delikatny jelonek przebiegający po pasku — cichy, minimalistyczny, przezroczyste tło."
+      },
+      "osito": {
+        "title": "Miś",
+        "description": "Miękki animowany miś — okrągły i przytulny, idealny towarzysz długich sesji."
+      }
+    },
+    "collections": {
+      "classic": "Klasyczne koty",
+      "pixel": "Piksel i retro",
+      "kawaii": "Pastele kawaii",
+      "dance": "Tańczące koty",
+      "monochrome": "Monochromatyczne",
+      "orange": "Drużyna Rudych"
+    }
   }
 }

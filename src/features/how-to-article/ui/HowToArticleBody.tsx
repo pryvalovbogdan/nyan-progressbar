@@ -53,9 +53,10 @@ export function HowToArticleBody({ dict, lang, slug }: IHowToArticleBodyProps) {
               <Image
                 src={getHowToArticleStepImage(slug, i)}
                 alt={`${h.screenshotAlt} ${step.heading}`}
-                width={1280}
-                height={720}
-                unoptimized
+                width={2000}
+                height={1293}
+                sizes="(min-width: 1024px) 720px, (min-width: 640px) 80vw, 100vw"
+                priority={i === 0}
                 className="w-full h-auto"
               />
             </figure>
