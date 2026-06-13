@@ -40,16 +40,29 @@ const OG_LOCALE: Record<Locale, string> = {
   tl: 'tl_PH',
 };
 
-export function generatePageMetadata(lang: Locale, dict: Dictionary, page: PageKey): Metadata {
+interface IGeneratePageMetadataOverrides {
+  title?: string;
+  description?: string;
+  route?: string;
+  ogType?: 'website' | 'article';
+}
+
+export function generatePageMetadata(
+  lang: Locale,
+  dict: Dictionary,
+  page: PageKey,
+  overrides?: IGeneratePageMetadataOverrides,
+): Metadata {
   const pageMeta = dict.metadata[page];
-  const title = pageMeta.title;
-  const description = 'description' in pageMeta ? pageMeta.description : dict.metadata.home.description;
+  const title = overrides?.title ?? pageMeta.title;
+  const description =
+    overrides?.description ?? ('description' in pageMeta ? pageMeta.description : dict.metadata.home.description);
+  const route = overrides?.route ?? ROUTE[page];
+  const ogType = overrides?.ogType ?? 'website';
 
-  const pageUrl = `${SITE_URL}/${lang}${ROUTE[page]}`;
+  const pageUrl = `${SITE_URL}/${lang}${route}`;
 
-  const alternateLanguages = Object.fromEntries(
-    locales.map(locale => [`${locale}`, `${SITE_URL}/${locale}${ROUTE[page]}`]),
-  );
+  const alternateLanguages = Object.fromEntries(locales.map(locale => [`${locale}`, `${SITE_URL}/${locale}${route}`]));
 
   const alternateLocales = locales.filter(l => l !== lang).map(l => OG_LOCALE[l]);
 
@@ -68,7 +81,7 @@ export function generatePageMetadata(lang: Locale, dict: Dictionary, page: PageK
       siteName: 'Nyan Progress Bar',
       locale: OG_LOCALE[lang],
       alternateLocale: alternateLocales,
-      type: 'website',
+      type: ogType,
       images: [{ url: '/catty.png', width: 264, height: 160, alt: 'Nyan Progress Bar' }],
     },
     twitter: {
