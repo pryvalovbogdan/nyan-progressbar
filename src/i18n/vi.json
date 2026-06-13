@@ -31,11 +31,16 @@
     "howToUse": {
       "title": "How to use Nyan Progress Bar — Hướng dẫn",
       "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
+    },
+    "trending": {
+      "title": "Thanh tiến trình mèo thịnh hành — Nyan Progress Bar",
+      "description": "Khám phá các kiểu thanh tiến trình mèo phổ biến, mới mẻ và được yêu thích nhất cho YouTube."
     }
   },
   "nav": {
     "home": "Trang chủ",
     "extension": "Tiện ích",
+    "trending": "Thịnh hành",
     "customize": "Tùy chỉnh",
     "support": "Ủng hộ",
     "contact": "Liên hệ",
@@ -358,5 +363,167 @@
     },
     "videoLabel": "Xem hướng dẫn video",
     "screenshotAlt": "Ảnh chụp màn hình minh họa"
+  },
+  "trending": {
+    "heading": "Thanh tiến trình mèo thịnh hành",
+    "description": "Khám phá các scrubber mèo mà mọi người đang cài cho YouTube — sắp xếp theo độ phổ biến, độ mới và chủ đề.",
+    "cta": "Dùng thử",
+    "seeMore": "Xem thêm",
+    "itemCount": "{count} mục",
+    "installHeading": "Bắt đầu dùng Nyan Progress Bar hôm nay",
+    "installDescription": "Tiện ích Chrome miễn phí. Chọn một con mèo, nhấn cài đặt và thanh tiến trình YouTube của bạn có ngay linh vật mới.",
+    "installCta": "Thêm vào Chrome — miễn phí",
+    "sections": {
+      "popular": {
+        "title": "Thanh tiến trình phổ biến",
+        "description": "Những lựa chọn yêu thích mọi thời đại của người dùng."
+      },
+      "trending": {
+        "title": "Đang thịnh hành",
+        "description": "Những kiểu đang được chú ý trong tuần này trên YouTube."
+      },
+      "new": {
+        "title": "Thanh tiến trình mới",
+        "description": "Các scrubber mới nhất được thêm vào danh mục."
+      },
+      "collections": {
+        "title": "Bộ sưu tập nổi bật",
+        "description": "Các gói mèo được chọn lọc theo phong cách."
+      }
+    },
+    "badges": {
+      "new": "Mới",
+      "hot": "Hot",
+      "custom": "Tùy chỉnh"
+    },
+    "pagination": {
+      "previous": "Trước",
+      "next": "Tiếp"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Cổ điển",
+      "rainbow": "Cầu vồng",
+      "cute": "Dễ thương",
+      "pink": "Hồng",
+      "glitch": "Glitch",
+      "pixel": "Pixel",
+      "kawaii": "Kawaii",
+      "dance": "Nhảy",
+      "orange": "Cam",
+      "minimal": "Tối giản",
+      "retro": "Hoài cổ",
+      "bunny": "Thỏ",
+      "dog": "Chó",
+      "bat": "Dơi",
+      "creature": "Sinh vật",
+      "bird": "Chim",
+      "tiger": "Hổ",
+      "deer": "Hươu",
+      "bear": "Gấu",
+      "cartoon": "Hoạt hình"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Cổ điển",
+        "description": "Mèo pop-tart gốc với đuôi cầu vồng — biểu tượng tức thì trên mọi thanh tiến trình."
+      },
+      "cute-cat": {
+        "title": "Mèo dễ thương",
+        "description": "Một chú mèo con má hồng tông pastel — ngọt ngào vừa đủ."
+      },
+      "glitch-cat": {
+        "title": "Mèo Glitch",
+        "description": "Mèo pixel với hiệu ứng quang sai cho phong cách cyberpunk."
+      },
+      "pixel-cat": {
+        "title": "Mèo Pixel",
+        "description": "Sprite 8-bit gọn gàng đi dọc scrubber như game retro."
+      },
+      "cute-kawaii": {
+        "title": "Kawaii dễ thương",
+        "description": "Mắt to, pastel mềm mại, năng lượng kawaii đầy đủ trên thanh YouTube."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "Một gatito gừng nhỏ bước trên scrubber với nét duyên hoạt hình."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "Mèo vằn cam có thái độ — kẻ mê lasagna chiếm trình phát của bạn."
+      },
+      "orange-dance": {
+        "title": "Mèo Cam Nhảy",
+        "description": "Mèo gừng với điệu nhảy — hoàn hảo cho video nhạc và YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "Mèo con uốn éo theo tiến trình — vui tươi và lạ lùng cuốn hút."
+      },
+      "black-cat": {
+        "title": "Mèo Đen",
+        "description": "Bóng dáng thanh thoát cho scrubber tối giản, hợp hoàn hảo với chế độ tối."
+      },
+      "white-cat": {
+        "title": "Mèo Trắng",
+        "description": "Mèo trắng sạch sẽ cho phong cách nhẹ nhàng ở cả chủ đề sáng và tối."
+      },
+      "orange": {
+        "title": "Mèo Vằn Cam",
+        "description": "Mèo gừng thân thiện chạy dọc — tông ấm nổi bật trên màu đỏ của YouTube."
+      },
+      "cute-bunny": {
+        "title": "Thỏ Đáng Yêu",
+        "description": "Một chú thỏ mềm mại nhảy nhót — tải lên thành scrubber tùy chỉnh chỉ với một cú nhấp."
+      },
+      "japan-creature": {
+        "title": "Sinh vật Mochi",
+        "description": "Một linh vật tròn xinh kiểu Nhật — đầy chất kawaii trên thanh YouTube."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "Một sinh vật bé nhỏ nhún nhảy đầy cá tính — vui tươi và khó bỏ qua."
+      },
+      "pixel-dogs": {
+        "title": "Cặp Chó Pixel",
+        "description": "Hai chú chó pixel chạy song song — vibe chiptune cho video của bạn."
+      },
+      "purple-bat": {
+        "title": "Dơi Tím",
+        "description": "Một chú dơi tím nhỏ chao lượn — gothic dễ thương, nổi bật trong chế độ tối."
+      },
+      "cute-dog": {
+        "title": "Chó Con Đáng Yêu",
+        "description": "Một chú chó nhỏ thân thiện rảo bước — ấm áp, biểu cảm, sẵn sàng theo scrubber của bạn."
+      },
+      "parrot-pixel": {
+        "title": "Vẹt Pixel",
+        "description": "Một chú vẹt 8-bit hay nói — màu sắc nhiệt đới và duyên dáng pixel trên từng thanh tiến trình."
+      },
+      "cartoon-cat": {
+        "title": "Mèo Hoạt Hình",
+        "description": "Một chú mèo hoạt hình nét sạch, biểu cảm tươi — cảm giác sáng thứ Bảy trên trình phát."
+      },
+      "pixel-tiger": {
+        "title": "Hổ Pixel",
+        "description": "Một chú hổ 8-bit dữ dằn rình rập scrubber — vằn nổi bật, năng lượng arcade."
+      },
+      "fawn": {
+        "title": "Nai Con Rừng",
+        "description": "Chú nai con thanh thoát nhảy ngang thanh — nhẹ nhàng, tối giản, nền trong suốt."
+      },
+      "osito": {
+        "title": "Gấu Nhỏ",
+        "description": "Một chú gấu hoạt hình mềm mại — tròn xoe, ấm cúng, bạn đồng hành hoàn hảo cho buổi xem dài."
+      }
+    },
+    "collections": {
+      "classic": "Mèo cổ điển",
+      "pixel": "Pixel & Hoài cổ",
+      "kawaii": "Kawaii Pastel",
+      "dance": "Mèo nhảy",
+      "monochrome": "Đơn sắc",
+      "orange": "Đội Cam"
+    }
   }
 }

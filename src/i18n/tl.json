@@ -31,11 +31,16 @@
     "howToUse": {
       "title": "How to use Nyan Progress Bar — Mga Gabay",
       "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
+    },
+    "trending": {
+      "title": "Trending na Cat Progress Bars — Nyan Progress Bar",
+      "description": "Tuklasin ang pinaka-sikat, pinaka-bago, at pinakamamahal na mga estilo ng cat progress bar para sa YouTube."
     }
   },
   "nav": {
     "home": "Home",
     "extension": "Extension",
+    "trending": "Trending",
     "customize": "I-customize",
     "support": "Mag-donate",
     "contact": "Makipag-ugnayan",
@@ -358,5 +363,167 @@
     },
     "videoLabel": "Panoorin ang walkthrough",
     "screenshotAlt": "Screenshot na nagpapakita"
+  },
+  "trending": {
+    "heading": "Trending na Cat Progress Bars",
+    "description": "Tuklasin ang mga cat scrubber na ini-install ng lahat sa YouTube ngayon — pinagbukod ayon sa kasikatan, kabaguhan, at tema.",
+    "cta": "Subukan",
+    "seeMore": "Tingnan pa",
+    "itemCount": "{count} na item",
+    "installHeading": "Simulang gamitin ang Nyan Progress Bar ngayon",
+    "installDescription": "Libreng Chrome extension. Pumili ng pusa, i-click ang install, at makakakuha ang YouTube progress bar mo ng bagong maskot.",
+    "installCta": "Idagdag sa Chrome — libre ito",
+    "sections": {
+      "popular": {
+        "title": "Mga sikat na progress bar",
+        "description": "Ang mga all-time favorite na pinili ng aming mga user."
+      },
+      "trending": {
+        "title": "Trending ngayon",
+        "description": "Ang sumisikat na estilo ngayong linggo sa YouTube."
+      },
+      "new": {
+        "title": "Mga bagong progress bar",
+        "description": "Ang pinakabago sa katalogo."
+      },
+      "collections": {
+        "title": "Mga nangungunang koleksyon",
+        "description": "Mga piling bundle ng pusa na nakagrupo ayon sa vibe."
+      }
+    },
+    "badges": {
+      "new": "Bago",
+      "hot": "Sikat",
+      "custom": "Custom"
+    },
+    "pagination": {
+      "previous": "Nakaraan",
+      "next": "Susunod"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Klasiko",
+      "rainbow": "Bahaghari",
+      "cute": "Cute",
+      "pink": "Rosas",
+      "glitch": "Glitch",
+      "pixel": "Pixel",
+      "kawaii": "Kawaii",
+      "dance": "Sayaw",
+      "orange": "Orange",
+      "minimal": "Minimalist",
+      "retro": "Retro",
+      "bunny": "Kuneho",
+      "dog": "Aso",
+      "bat": "Paniki",
+      "creature": "Nilalang",
+      "bird": "Ibon",
+      "tiger": "Tigre",
+      "deer": "Usa",
+      "bear": "Oso",
+      "cartoon": "Cartoon"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Classic",
+        "description": "Ang orihinal na pop-tart cat na may bahaghari — instant na icon sa kahit anong progress bar."
+      },
+      "cute-cat": {
+        "title": "Cute Cat",
+        "description": "Isang malambot at namumulang kuting sa kulay rosas — matamis na walang sobra."
+      },
+      "glitch-cat": {
+        "title": "Glitch Cat",
+        "description": "Pixelated na pusa na may chromatic aberration para sa cyberpunk look."
+      },
+      "pixel-cat": {
+        "title": "Pixel Cat",
+        "description": "Malinis na 8-bit sprite na naglalakad sa iyong scrubber tulad ng isang retro side-scroller."
+      },
+      "cute-kawaii": {
+        "title": "Cute Kawaii",
+        "description": "Malalaking mata, malambot na pastel, full kawaii energy sa YouTube bar."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "Maliit na orange na gatito na naglalakad sa scrubber na may cartoon charm."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "Orange tabby na may attitude — ang mahilig sa lasagna ang nasa player mo."
+      },
+      "orange-dance": {
+        "title": "Orange Cat Dance",
+        "description": "Orange na pusa na may sayaw — perpekto para sa music videos at YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "Pumapaling-pailing na kuting habang nag-uusad ang bar — masaya at kakaibang nakaka-mesmerize."
+      },
+      "black-cat": {
+        "title": "Black Cat",
+        "description": "Eleganteng silweta para sa minimal na scrubber na bagay sa dark mode."
+      },
+      "white-cat": {
+        "title": "White Cat",
+        "description": "Malinis na puting kuting para sa malambot na hitsura sa light at dark themes."
+      },
+      "orange": {
+        "title": "Orange Tabby",
+        "description": "Magiliw na orange na pusa na tumatakbo — mainit na tono na umaangat sa pulang YouTube."
+      },
+      "cute-bunny": {
+        "title": "Cute na Kuneho",
+        "description": "Malambot na kuneho na lumulukso — nai-upload bilang custom mong scrubber sa isang click."
+      },
+      "japan-creature": {
+        "title": "Maliit na Mochi Creature",
+        "description": "Bilog na maskot na Japanese-style — purong kawaii charm sa YouTube bar."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "Maliit na lumulundag na nilalang na may attitude — masaya at imposibleng i-ignore."
+      },
+      "pixel-dogs": {
+        "title": "Pixel na Mga Aso",
+        "description": "Magkasamang tumatakbo ang dalawang pixel doggo — chiptune vibe para sa mga video mo."
+      },
+      "purple-bat": {
+        "title": "Lilang Paniki",
+        "description": "Maliit na lilang paniki na lumilipad — gothic-cute at nakikita agad sa dark mode."
+      },
+      "cute-dog": {
+        "title": "Cute na Aso",
+        "description": "Maliit at magiliw na asong tumatakbo — mainit at expressive, handa sumunod sa scrubber mo."
+      },
+      "parrot-pixel": {
+        "title": "Pixel na Loro",
+        "description": "Madaldal na 8-bit na loro — tropical na kulay at retro pixel charm sa bawat bar."
+      },
+      "cartoon-cat": {
+        "title": "Cartoon Cat",
+        "description": "Malinis at expressive na cartoon cat — Saturday-morning feel sa player mo."
+      },
+      "pixel-tiger": {
+        "title": "Pixel na Tigre",
+        "description": "Mabangis na maliit na 8-bit na tigre na nakaabang sa scrubber — matingkad na guhit, arcade energy."
+      },
+      "fawn": {
+        "title": "Munting Usa sa Gubat",
+        "description": "Malumanay na batang usa na lumulundag sa bar — tahimik, minimal, transparent ang background."
+      },
+      "osito": {
+        "title": "Munting Oso",
+        "description": "Malambot na animated na oso — bilog at cozy, perpektong kasama sa mahabang panonood."
+      }
+    },
+    "collections": {
+      "classic": "Mga Classic na Pusa",
+      "pixel": "Pixel at Retro",
+      "kawaii": "Mga Kawaii Pastel",
+      "dance": "Mga Sumasayaw na Pusa",
+      "monochrome": "Monochrome",
+      "orange": "Orange Squad"
+    }
   }
 }

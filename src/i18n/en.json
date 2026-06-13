@@ -31,11 +31,16 @@
     "howToUse": {
       "title": "How to use Nyan Progress Bar — Guides",
       "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
+    },
+    "trending": {
+      "title": "Trending Cat Progress Bars — Nyan Progress Bar",
+      "description": "Discover the most popular, freshest, and most-loved cat progress bar styles for YouTube."
     }
   },
   "nav": {
     "home": "Home",
     "extension": "Extension",
+    "trending": "Trending",
     "howToUse": "Guides",
     "customize": "Customize",
     "support": "Donate",
@@ -357,6 +362,168 @@
         "outroHref": "/customizer",
         "outroLink": "Try the live customizer"
       }
+    }
+  },
+  "trending": {
+    "heading": "Trending Cat Progress Bars",
+    "description": "Discover the cat scrubbers everyone is installing on YouTube right now — sorted by popularity, freshness, and theme.",
+    "cta": "Try it",
+    "seeMore": "See more",
+    "itemCount": "{count} items",
+    "installHeading": "Start using Nyan Progress Bar today",
+    "installDescription": "Free Chrome extension. Pick a cat, hit install, and your YouTube progress bar gets a brand new mascot.",
+    "installCta": "Add to Chrome — it's free",
+    "sections": {
+      "popular": {
+        "title": "Popular Cat Progress Bars",
+        "description": "The all-time favourites picked by our users."
+      },
+      "trending": {
+        "title": "Trending Now",
+        "description": "What's gaining traction this week on YouTube."
+      },
+      "new": {
+        "title": "New Cat Progress Bars",
+        "description": "The freshest scrubbers added to the catalogue."
+      },
+      "collections": {
+        "title": "Top Collections",
+        "description": "Curated bundles of cats grouped by vibe."
+      }
+    },
+    "badges": {
+      "new": "New",
+      "hot": "Hot",
+      "custom": "Custom"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Classic",
+      "rainbow": "Rainbow",
+      "cute": "Cute",
+      "pink": "Pink",
+      "glitch": "Glitch",
+      "pixel": "Pixel",
+      "kawaii": "Kawaii",
+      "dance": "Dance",
+      "orange": "Orange",
+      "minimal": "Minimal",
+      "retro": "Retro",
+      "bunny": "Bunny",
+      "dog": "Dog",
+      "bat": "Bat",
+      "creature": "Creature",
+      "bird": "Bird",
+      "tiger": "Tiger",
+      "deer": "Deer",
+      "bear": "Bear",
+      "cartoon": "Cartoon"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Classic",
+        "description": "The original rainbow-trailing pop-tart cat — an instant icon on any progress bar."
+      },
+      "cute-cat": {
+        "title": "Cute Cat",
+        "description": "A soft, blushy kitten in pink tones — sweet without overdoing it."
+      },
+      "glitch-cat": {
+        "title": "Glitch Cat",
+        "description": "A pixelated cat with chromatic-aberration vibes for a cyberpunk look."
+      },
+      "pixel-cat": {
+        "title": "Pixel Cat",
+        "description": "A clean 8-bit sprite walking your scrubber like a retro side-scroller."
+      },
+      "cute-kawaii": {
+        "title": "Cute Kawaii",
+        "description": "Big eyes, soft pastels, full kawaii energy on the YouTube bar."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "A tiny ginger gatito padding along the scrubber with cartoon charm."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "An orange tabby with attitude — the lasagna lover takes over your video player."
+      },
+      "orange-dance": {
+        "title": "Orange Cat Dance",
+        "description": "A ginger cat with dance moves — perfect for music videos and YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "A wiggling kitty that animates as the progress bar moves — playful and weirdly hypnotic."
+      },
+      "black-cat": {
+        "title": "Black Cat",
+        "description": "A sleek silhouette for a minimal, moody scrubber that fits dark mode perfectly."
+      },
+      "white-cat": {
+        "title": "White Cat",
+        "description": "A clean white kitty for a soft, minimal look on both light and dark themes."
+      },
+      "orange": {
+        "title": "Orange Tabby",
+        "description": "A friendly ginger cat trotting along — warm tones that pop on the YouTube red."
+      },
+      "cute-bunny": {
+        "title": "Cute Bunny",
+        "description": "A soft hopping bunny — uploads as your custom scrubber in one click."
+      },
+      "japan-creature": {
+        "title": "Tiny Mochi Creature",
+        "description": "A round little Japan-style mascot — pure kawaii charm on the YouTube bar."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "A bouncy little creature with attitude — playful and impossible to ignore."
+      },
+      "pixel-dogs": {
+        "title": "Pixel Dogs",
+        "description": "A pair of pixel doggos running side by side — chiptune vibes for your videos."
+      },
+      "purple-bat": {
+        "title": "Purple Bat",
+        "description": "A tiny purple bat fluttering across the bar — gothic-cute and unmissable on dark mode."
+      },
+      "cute-dog": {
+        "title": "Cute Dog",
+        "description": "A friendly little dog trotting along — warm, expressive, and ready to follow your scrubber."
+      },
+      "parrot-pixel": {
+        "title": "Pixel Parrot",
+        "description": "A chatty 8-bit parrot — tropical colours and retro pixel charm on every progress bar."
+      },
+      "cartoon-cat": {
+        "title": "Cartoon Cat",
+        "description": "A clean, hand-drawn cartoon cat — soft outlines and big expressions for a Saturday-morning feel."
+      },
+      "pixel-tiger": {
+        "title": "Pixel Tiger",
+        "description": "A fierce little 8-bit tiger stalking the scrubber — bold stripes, arcade energy."
+      },
+      "fawn": {
+        "title": "Forest Fawn",
+        "description": "A delicate fawn springing across the bar — quiet, minimal, transparent background."
+      },
+      "osito": {
+        "title": "Little Bear",
+        "description": "A soft animated bear — cozy and round, perfect company for long video sessions."
+      }
+    },
+    "collections": {
+      "classic": "Classic Cats",
+      "pixel": "Pixel & Retro",
+      "kawaii": "Kawaii Pastels",
+      "dance": "Dancing Cats",
+      "monochrome": "Monochrome",
+      "orange": "Orange Squad"
     }
   }
 }

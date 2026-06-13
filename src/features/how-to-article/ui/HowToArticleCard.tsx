@@ -1,4 +1,8 @@
+'use client';
+
 import Link from 'next/link';
+
+import { trackEvent } from '@shared/lib/analytics';
 
 import type { IHowToArticleCardProps } from './types';
 
@@ -8,6 +12,7 @@ export function HowToArticleCard({ dict, lang, slug }: IHowToArticleCardProps) {
   return (
     <Link
       href={`/${lang}/how-to-use/${slug}`}
+      onClick={() => trackEvent('guide_click', { how_to_guide: slug })}
       className="group block rounded-lg border border-border bg-card p-6 transition-all duration-200 hover:-translate-y-1 hover:border-[#80deea]/40 hover:shadow-[0_8px_24px_rgba(128,222,234,0.12)]"
     >
       <h3 className="text-lg font-semibold mb-2 group-hover:text-[#80deea] transition-colors">{article.title}</h3>

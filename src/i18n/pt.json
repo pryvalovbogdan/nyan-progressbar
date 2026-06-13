@@ -31,11 +31,16 @@
     "howToUse": {
       "title": "How to use Nyan Progress Bar — Guias",
       "description": "Step-by-step guides: install the extension, pick a cat, upload your own GIF, and fine-tune the position."
+    },
+    "trending": {
+      "title": "Barras de progresso de gatos em alta — Nyan Progress Bar",
+      "description": "Descubra os estilos de barra de progresso com gatos mais populares, recentes e queridos para o YouTube."
     }
   },
   "nav": {
     "home": "Início",
     "extension": "Extensão",
+    "trending": "Em alta",
     "customize": "Personalizar",
     "support": "Doar",
     "contact": "Contato",
@@ -358,5 +363,167 @@
     },
     "videoLabel": "Assistir ao tutorial",
     "screenshotAlt": "Captura de tela ilustrando"
+  },
+  "trending": {
+    "heading": "Barras de progresso de gatos em alta",
+    "description": "Descubra os scrubbers de gato que todos estão instalando no YouTube — ordenados por popularidade, novidade e tema.",
+    "cta": "Experimentar",
+    "seeMore": "Ver mais",
+    "itemCount": "{count} itens",
+    "installHeading": "Comece a usar o Nyan Progress Bar hoje",
+    "installDescription": "Extensão gratuita do Chrome. Escolha um gato, clique em instalar e sua barra de progresso do YouTube ganha um novo mascote.",
+    "installCta": "Adicionar ao Chrome — é grátis",
+    "sections": {
+      "popular": {
+        "title": "Barras de progresso populares",
+        "description": "Os favoritos de todos os tempos escolhidos pelos nossos usuários."
+      },
+      "trending": {
+        "title": "Em alta agora",
+        "description": "O que está ganhando força esta semana no YouTube."
+      },
+      "new": {
+        "title": "Novas barras de progresso",
+        "description": "Os scrubbers mais recentes adicionados ao catálogo."
+      },
+      "collections": {
+        "title": "Coleções em destaque",
+        "description": "Pacotes selecionados de gatos agrupados por vibe."
+      }
+    },
+    "badges": {
+      "new": "Novo",
+      "hot": "Popular",
+      "custom": "Personalizado"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Próximo"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Clássico",
+      "rainbow": "Arco-íris",
+      "cute": "Fofo",
+      "pink": "Rosa",
+      "glitch": "Glitch",
+      "pixel": "Pixel",
+      "kawaii": "Kawaii",
+      "dance": "Dança",
+      "orange": "Laranja",
+      "minimal": "Minimalista",
+      "retro": "Retrô",
+      "bunny": "Coelho",
+      "dog": "Cachorro",
+      "bat": "Morcego",
+      "creature": "Criatura",
+      "bird": "Pássaro",
+      "tiger": "Tigre",
+      "deer": "Cervo",
+      "bear": "Urso",
+      "cartoon": "Desenho"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Clássico",
+        "description": "O gato pop-tart original com rastro de arco-íris — um ícone instantâneo em qualquer barra de progresso."
+      },
+      "cute-cat": {
+        "title": "Gato fofo",
+        "description": "Um gatinho suave e corado em tons rosados — doce sem exagerar."
+      },
+      "glitch-cat": {
+        "title": "Gato Glitch",
+        "description": "Um gato pixelado com aberração cromática para um visual cyberpunk."
+      },
+      "pixel-cat": {
+        "title": "Gato Pixel",
+        "description": "Um sprite 8-bit caminhando pelo seu scrubber como um side-scroller retrô."
+      },
+      "cute-kawaii": {
+        "title": "Kawaii Fofo",
+        "description": "Olhos grandes, pastéis suaves e toda a energia kawaii na barra do YouTube."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "Um pequeno gato laranja andando pelo scrubber com charme de desenho animado."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "Um malhado laranja com atitude — o amante de lasanha toma seu player."
+      },
+      "orange-dance": {
+        "title": "Gato Laranja Dançante",
+        "description": "Um gato ruivo com passos de dança — perfeito para clipes e YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "Um gatinho que se mexe conforme a barra avança — brincalhão e estranhamente hipnótico."
+      },
+      "black-cat": {
+        "title": "Gato Preto",
+        "description": "Uma silhueta elegante para um scrubber minimalista que combina com o modo escuro."
+      },
+      "white-cat": {
+        "title": "Gato Branco",
+        "description": "Um gatinho branco limpo para um visual suave nos temas claro e escuro."
+      },
+      "orange": {
+        "title": "Malhado Laranja",
+        "description": "Um gato ruivo amigável trotando — tons quentes que destacam no vermelho do YouTube."
+      },
+      "cute-bunny": {
+        "title": "Coelhinho Fofo",
+        "description": "Um coelhinho macio pulando — sobe como seu scrubber personalizado em um clique."
+      },
+      "japan-creature": {
+        "title": "Pequena Criatura Mochi",
+        "description": "Um mascote redondo estilo japonês — pura fofura kawaii na barra do YouTube."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "Uma pequena criatura saltitante com atitude — brincalhona e impossível de ignorar."
+      },
+      "pixel-dogs": {
+        "title": "Cachorrinhos Pixel",
+        "description": "Dois cachorrinhos pixel correndo juntos — vibe chiptune para seus vídeos."
+      },
+      "purple-bat": {
+        "title": "Morcego Roxo",
+        "description": "Um morceguinho roxo voando pela barra — gótico-fofo e bem visível no modo escuro."
+      },
+      "cute-dog": {
+        "title": "Cachorrinho Fofo",
+        "description": "Um cachorrinho amigável trotando — caloroso e expressivo, pronto para acompanhar seu scrubber."
+      },
+      "parrot-pixel": {
+        "title": "Papagaio Pixel",
+        "description": "Um papagaio 8-bit tagarela — cores tropicais e charme retrô em cada barra."
+      },
+      "cartoon-cat": {
+        "title": "Gato Cartoon",
+        "description": "Um gato de desenho animado, traços limpos e expressivos — clima de sábado de manhã."
+      },
+      "pixel-tiger": {
+        "title": "Tigre Pixel",
+        "description": "Um tigre 8-bit feroz à espreita no scrubber — listras marcantes e energia arcade."
+      },
+      "fawn": {
+        "title": "Filhote de Cervo",
+        "description": "Um filhote de cervo delicado saltando pela barra — discreto, minimalista, fundo transparente."
+      },
+      "osito": {
+        "title": "Ursinho",
+        "description": "Um ursinho animado fofinho — redondo e aconchegante, companhia perfeita para sessões longas."
+      }
+    },
+    "collections": {
+      "classic": "Gatos clássicos",
+      "pixel": "Pixel e retrô",
+      "kawaii": "Pastéis kawaii",
+      "dance": "Gatos dançantes",
+      "monochrome": "Monocromáticos",
+      "orange": "Esquadrão Laranja"
+    }
   }
 }
