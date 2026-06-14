@@ -4,6 +4,7 @@ export interface FooterLabels {
   support: string;
   howToUse: string;
   privacy: string;
+  cookies: string;
 }
 
 export interface IFooterProps {

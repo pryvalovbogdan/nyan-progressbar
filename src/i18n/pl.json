@@ -80,7 +80,34 @@
     "github": "GitHub",
     "support": "Wesprzyj",
     "privacy": "Prywatność",
-    "howToUse": "Przewodniki"
+    "howToUse": "Przewodniki",
+    "cookies": "Pliki cookie"
+  },
+  "cookieConsent": {
+    "title": "Pliki cookie",
+    "description": "Używamy plików cookie do analizy ruchu i ulepszania strony. Wybierz, które pliki cookie akceptujesz — możesz to zmienić w dowolnej chwili.",
+    "policyLink": "Przeczytaj naszą politykę prywatności",
+    "acceptAll": "Zaakceptuj wszystkie",
+    "rejectAll": "Odrzuć wszystkie",
+    "managePreferences": "Zarządzaj preferencjami",
+    "savePreferences": "Zapisz preferencje",
+    "back": "Wstecz",
+    "close": "Zamknij",
+    "categories": {
+      "necessary": {
+        "title": "Niezbędne",
+        "description": "Wymagane do działania strony — zapisują motyw i Twój wybór dotyczący zgody. Nie można ich wyłączyć.",
+        "alwaysOn": "Zawsze aktywne"
+      },
+      "analytics": {
+        "title": "Analityka",
+        "description": "Pomaga zrozumieć, jak odwiedzający korzystają ze strony (wyświetlone strony, czas na stronie) za pomocą Google Analytics. Nie udostępniamy danych osobowych."
+      },
+      "marketing": {
+        "title": "Marketing i personalizacja",
+        "description": "Pozwala na spersonalizowane treści i pomiar kampanii dzięki tagom marketingowym Google. Domyślnie wyłączone."
+      }
+    }
   },
   "home": {
     "headingPart1": "Twój pasek YouTube,",

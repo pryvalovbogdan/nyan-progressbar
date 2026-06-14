@@ -80,7 +80,34 @@
     "github": "GitHub",
     "support": "Apoyar",
     "privacy": "Privacidad",
-    "howToUse": "Guías"
+    "howToUse": "Guías",
+    "cookies": "Cookies"
+  },
+  "cookieConsent": {
+    "title": "Cookies",
+    "description": "Usamos cookies para analizar el tráfico y mejorar el sitio. Elige qué cookies permites — puedes cambiarlo en cualquier momento.",
+    "policyLink": "Lee nuestra política de privacidad",
+    "acceptAll": "Aceptar todo",
+    "rejectAll": "Rechazar todo",
+    "managePreferences": "Gestionar preferencias",
+    "savePreferences": "Guardar preferencias",
+    "back": "Atrás",
+    "close": "Cerrar",
+    "categories": {
+      "necessary": {
+        "title": "Estrictamente necesarias",
+        "description": "Necesarias para que el sitio funcione — guardan tu preferencia de tema y tu elección de consentimiento. No se pueden desactivar.",
+        "alwaysOn": "Siempre activas"
+      },
+      "analytics": {
+        "title": "Analítica",
+        "description": "Nos ayuda a entender cómo se usa el sitio (páginas vistas, tiempo en página) mediante Google Analytics. No se comparten datos personales."
+      },
+      "marketing": {
+        "title": "Marketing y personalización",
+        "description": "Permite contenido personalizado y la medición de campañas mediante etiquetas de marketing de Google. Desactivado por defecto."
+      }
+    }
   },
   "home": {
     "headingPart1": "Tu barra de YouTube,",

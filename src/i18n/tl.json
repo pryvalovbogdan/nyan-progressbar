@@ -80,7 +80,34 @@
     "github": "GitHub",
     "support": "Suporta",
     "privacy": "Pribasidad",
-    "howToUse": "Mga Gabay"
+    "howToUse": "Mga Gabay",
+    "cookies": "Cookies"
+  },
+  "cookieConsent": {
+    "title": "Cookies",
+    "description": "Gumagamit kami ng cookies upang suriin ang trapiko at pagbutihin ang site. Piliin kung aling cookies ang papayagan mo — maaari mo itong baguhin anumang oras.",
+    "policyLink": "Basahin ang aming patakaran sa privacy",
+    "acceptAll": "Tanggapin lahat",
+    "rejectAll": "Tanggihan lahat",
+    "managePreferences": "Pamahalaan ang mga kagustuhan",
+    "savePreferences": "I-save ang mga kagustuhan",
+    "back": "Bumalik",
+    "close": "Isara",
+    "categories": {
+      "necessary": {
+        "title": "Mahigpit na kinakailangan",
+        "description": "Kailangan para gumana ang site — sino-save ang iyong piniling tema at desisyon sa pahintulot. Hindi maaaring i-disable.",
+        "alwaysOn": "Laging naka-on"
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Tumutulong sa amin na maunawaan kung paano ginagamit ng mga bisita ang site (mga pahinang binisita, oras sa pahina) gamit ang Google Analytics. Walang personal na datos na ibinabahagi."
+      },
+      "marketing": {
+        "title": "Marketing at personalisasyon",
+        "description": "Nagpapahintulot ng naka-customize na nilalaman at pagsukat ng kampanya gamit ang mga Google marketing tag. Naka-off bilang default."
+      }
+    }
   },
   "home": {
     "headingPart1": "Ang iyong YouTube bar,",

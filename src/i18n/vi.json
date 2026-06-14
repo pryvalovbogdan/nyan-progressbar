@@ -80,7 +80,34 @@
     "github": "GitHub",
     "support": "Ủng hộ",
     "privacy": "Quyền riêng tư",
-    "howToUse": "Hướng dẫn"
+    "howToUse": "Hướng dẫn",
+    "cookies": "Cookie"
+  },
+  "cookieConsent": {
+    "title": "Cookie",
+    "description": "Chúng tôi dùng cookie để phân tích lưu lượng và cải thiện trang web. Chọn loại cookie bạn cho phép — bạn có thể thay đổi bất cứ lúc nào.",
+    "policyLink": "Đọc chính sách quyền riêng tư",
+    "acceptAll": "Chấp nhận tất cả",
+    "rejectAll": "Từ chối tất cả",
+    "managePreferences": "Quản lý tùy chọn",
+    "savePreferences": "Lưu tùy chọn",
+    "back": "Quay lại",
+    "close": "Đóng",
+    "categories": {
+      "necessary": {
+        "title": "Hoàn toàn cần thiết",
+        "description": "Cần thiết để trang web hoạt động — lưu giao diện và lựa chọn đồng ý của bạn. Không thể tắt.",
+        "alwaysOn": "Luôn bật"
+      },
+      "analytics": {
+        "title": "Phân tích",
+        "description": "Giúp chúng tôi hiểu cách khách truy cập sử dụng trang web (số trang xem, thời gian) qua Google Analytics. Không chia sẻ dữ liệu cá nhân."
+      },
+      "marketing": {
+        "title": "Tiếp thị và cá nhân hóa",
+        "description": "Cho phép nội dung cá nhân hóa và đo lường chiến dịch qua thẻ tiếp thị của Google. Tắt theo mặc định."
+      }
+    }
   },
   "home": {
     "headingPart1": "Thanh YouTube của bạn,",

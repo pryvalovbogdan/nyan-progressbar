@@ -80,7 +80,34 @@
     "github": "GitHub",
     "support": "Unterstützen",
     "privacy": "Datenschutz",
-    "howToUse": "Anleitungen"
+    "howToUse": "Anleitungen",
+    "cookies": "Cookies"
+  },
+  "cookieConsent": {
+    "title": "Cookies",
+    "description": "Wir verwenden Cookies, um den Datenverkehr zu analysieren und die Website zu verbessern. Wähle, welche Cookies du erlaubst — du kannst das jederzeit ändern.",
+    "policyLink": "Datenschutzerklärung lesen",
+    "acceptAll": "Alle akzeptieren",
+    "rejectAll": "Alle ablehnen",
+    "managePreferences": "Einstellungen verwalten",
+    "savePreferences": "Einstellungen speichern",
+    "back": "Zurück",
+    "close": "Schließen",
+    "categories": {
+      "necessary": {
+        "title": "Notwendig",
+        "description": "Erforderlich für den Betrieb der Website — speichert deine Designeinstellung und deine Einwilligung. Kann nicht deaktiviert werden.",
+        "alwaysOn": "Immer aktiv"
+      },
+      "analytics": {
+        "title": "Analyse",
+        "description": "Hilft uns zu verstehen, wie Besucher die Website nutzen (aufgerufene Seiten, Verweildauer), über Google Analytics. Es werden keine personenbezogenen Daten geteilt."
+      },
+      "marketing": {
+        "title": "Marketing & Personalisierung",
+        "description": "Ermöglicht personalisierte Inhalte und Kampagnenmessung über Google-Marketing-Tags. Standardmäßig deaktiviert."
+      }
+    }
   },
   "home": {
     "headingPart1": "Deine YouTube-Leiste,",
