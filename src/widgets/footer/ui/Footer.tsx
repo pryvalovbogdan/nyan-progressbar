@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { OpenCookieSettings } from '@features/cookie-consent';
+
 import type { IFooterProps } from './types';
 
 export function Footer({ labels, lang }: IFooterProps) {
@@ -22,7 +24,8 @@ export function Footer({ labels, lang }: IFooterProps) {
         ·{' '}
         <Link href={`/${lang}/privacy`} className="hover:text-[#80deea] transition-colors">
           {labels.privacy}
-        </Link>
+        </Link>{' '}
+        · <OpenCookieSettings label={labels.cookies} />
       </p>
     </footer>
   );

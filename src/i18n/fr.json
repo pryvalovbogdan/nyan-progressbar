@@ -80,7 +80,34 @@
     "github": "GitHub",
     "support": "Soutenir",
     "privacy": "Confidentialité",
-    "howToUse": "Guides"
+    "howToUse": "Guides",
+    "cookies": "Cookies"
+  },
+  "cookieConsent": {
+    "title": "Cookies",
+    "description": "Nous utilisons des cookies pour analyser le trafic et améliorer le site. Choisissez ceux que vous acceptez — vous pouvez modifier ce choix à tout moment.",
+    "policyLink": "Lire notre politique de confidentialité",
+    "acceptAll": "Tout accepter",
+    "rejectAll": "Tout refuser",
+    "managePreferences": "Gérer les préférences",
+    "savePreferences": "Enregistrer les préférences",
+    "back": "Retour",
+    "close": "Fermer",
+    "categories": {
+      "necessary": {
+        "title": "Strictement nécessaires",
+        "description": "Indispensables au fonctionnement du site — mémorisent votre thème et votre choix de consentement. Non désactivables.",
+        "alwaysOn": "Toujours actifs"
+      },
+      "analytics": {
+        "title": "Analyse",
+        "description": "Nous aide à comprendre comment les visiteurs utilisent le site (pages vues, temps passé) via Google Analytics. Aucune donnée personnelle n'est partagée."
+      },
+      "marketing": {
+        "title": "Marketing et personnalisation",
+        "description": "Autorise du contenu personnalisé et la mesure des campagnes via les balises marketing de Google. Désactivé par défaut."
+      }
+    }
   },
   "home": {
     "headingPart1": "Ta barre YouTube,",

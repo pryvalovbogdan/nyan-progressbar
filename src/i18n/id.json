@@ -80,7 +80,34 @@
     "github": "GitHub",
     "support": "Dukung",
     "privacy": "Privasi",
-    "howToUse": "Panduan"
+    "howToUse": "Panduan",
+    "cookies": "Cookie"
+  },
+  "cookieConsent": {
+    "title": "Cookie",
+    "description": "Kami menggunakan cookie untuk menganalisis lalu lintas dan meningkatkan situs. Pilih cookie mana yang Anda izinkan — Anda bisa mengubahnya kapan saja.",
+    "policyLink": "Baca kebijakan privasi kami",
+    "acceptAll": "Terima semua",
+    "rejectAll": "Tolak semua",
+    "managePreferences": "Kelola preferensi",
+    "savePreferences": "Simpan preferensi",
+    "back": "Kembali",
+    "close": "Tutup",
+    "categories": {
+      "necessary": {
+        "title": "Sangat diperlukan",
+        "description": "Diperlukan agar situs berfungsi — menyimpan preferensi tema dan pilihan persetujuan Anda. Tidak dapat dinonaktifkan.",
+        "alwaysOn": "Selalu aktif"
+      },
+      "analytics": {
+        "title": "Analitik",
+        "description": "Membantu kami memahami cara pengunjung menggunakan situs (halaman dilihat, waktu di halaman) melalui Google Analytics. Tidak ada data pribadi yang dibagikan."
+      },
+      "marketing": {
+        "title": "Pemasaran & personalisasi",
+        "description": "Memungkinkan konten yang dipersonalisasi dan pengukuran kampanye melalui tag pemasaran Google. Nonaktif secara default."
+      }
+    }
   },
   "home": {
     "headingPart1": "Bilah YouTube Anda,",

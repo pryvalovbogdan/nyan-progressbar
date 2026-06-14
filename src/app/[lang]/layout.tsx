@@ -5,6 +5,7 @@ import { ThemeProvider } from 'next-themes';
 import { Geist } from 'next/font/google';
 import { notFound } from 'next/navigation';
 
+import { CONSENT_STORAGE_KEY, ConsentDefaultScript, CookieBanner } from '@features/cookie-consent';
 import { generatePageMetadata } from '@shared/lib/metadata';
 import { Toaster } from '@shared/ui/sonner';
 import { Footer } from '@widgets/footer';
@@ -45,6 +46,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning className={geist.className}>
       <body>
+        <ConsentDefaultScript storageKey={CONSENT_STORAGE_KEY} />
         {process.env.NEXT_PUBLIC_GTM_ID && <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />}
         {process.env.NEXT_PUBLIC_GA_ID && <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />}
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
@@ -53,6 +55,7 @@ export default async function LocaleLayout({
             <main className="flex-1">{children}</main>
             <Footer labels={dict.footer} lang={locale} />
           </div>
+          <CookieBanner labels={dict.cookieConsent} privacyHref={`/${locale}/privacy`} />
           <Toaster />
         </ThemeProvider>
       </body>
