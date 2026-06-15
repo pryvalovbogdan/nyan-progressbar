@@ -2,6 +2,7 @@ export { HomeView } from './HomeView';
 export { ExtensionView } from './ExtensionView';
 export { SupportView } from './SupportView';
 export { ContactView } from './ContactView';
+export { UninstallFeedbackView } from './UninstallFeedbackView';
 export { ReviewsView } from './ReviewsView';
 export { CustomizerView } from './CustomizerView';
 export { PrivacyView } from './PrivacyView';

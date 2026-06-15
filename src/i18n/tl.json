@@ -35,6 +35,10 @@
     "trending": {
       "title": "Trending na Cat Progress Bars — Nyan Progress Bar",
       "description": "Tuklasin ang pinaka-sikat, pinaka-bago, at pinakamamahal na mga estilo ng cat progress bar para sa YouTube."
+    },
+    "uninstall": {
+      "title": "Tulungan kaming gumanda — Nyan Progress Bar",
+      "description": "Sabihin sa amin kung ano ang nangyari sa extension. Anonymous o may email — hinuhubog ng feedback mo ang susunod na release."
     }
   },
   "nav": {
@@ -180,6 +184,39 @@
       "screenshotDrop": "I-drop para i-attach",
       "screenshotAttach": "Mag-attach ng screenshot",
       "screenshotHint": "I-drag & drop o mag-click · PNG, JPG, GIF, WebP · max 5 MB"
+    },
+    "uninstall": {
+      "heading": "Sayang at aalis ka na",
+      "description": "Bago ka umalis — sabihin kung ano ang hindi gumana. Dalawang minuto ng feedback ang humuhubog sa susunod na bersyon.",
+      "form": {
+        "modeAnonymous": "Anonymous",
+        "modeAnonymousDesc": "Magpadala ng feedback nang hindi ibinabahagi ang email mo.",
+        "modeEmail": "May email",
+        "modeEmailDesc": "Hayaan kaming sumagot kung may tanong kami.",
+        "email": "Email",
+        "emailPlaceholder": "ikaw@halimbawa.com",
+        "ratingLabel": "Pangkalahatang rating",
+        "ratingHint": "Paano mo ire-rate ang karanasan mo sa extension?",
+        "reasonsLabel": "Bakit mo ito tinanggal?",
+        "reasons": {
+          "tooBuggy": "Sobrang daming bug",
+          "missingFeatures": "Kulang sa features",
+          "performance": "Problema sa performance",
+          "betterAlternative": "Nakahanap ng mas magandang alternatibo",
+          "noLongerNeeded": "Hindi na kailangan",
+          "other": "Iba pa"
+        },
+        "whatWentWrong": "Ano ang naging mali?",
+        "whatWentWrongPlaceholder": "Sabihin sa amin kung ano ang hindi gumana para sa iyo...",
+        "howToImprove": "Paano kami gagaling?",
+        "howToImprovePlaceholder": "Ano ang gusto mong makita sa susunod na bersyon?",
+        "submit": "Ipadala ang feedback",
+        "submitting": "Ipinapadala...",
+        "success": "Salamat sa feedback — talagang nakakatulong ito.",
+        "errorEmpty": "Pumili ng rating at hindi bababa sa isang dahilan.",
+        "errorGeneric": "May nangyaring mali. Subukan ulit.",
+        "errorRateLimit": "Nagpadala ka na ng feedback ngayong araw. Subukan ulit bukas."
+      }
     }
   },
   "support": {

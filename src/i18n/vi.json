@@ -35,6 +35,10 @@
     "trending": {
       "title": "Thanh tiến trình mèo thịnh hành — Nyan Progress Bar",
       "description": "Khám phá các kiểu thanh tiến trình mèo phổ biến, mới mẻ và được yêu thích nhất cho YouTube."
+    },
+    "uninstall": {
+      "title": "Giúp chúng tôi cải thiện — Nyan Progress Bar",
+      "description": "Cho chúng tôi biết điều gì sai với tiện ích. Ẩn danh hoặc kèm email — phản hồi của bạn định hình bản phát hành tiếp theo."
     }
   },
   "nav": {
@@ -180,6 +184,39 @@
       "screenshotDrop": "Thả để đính kèm",
       "screenshotAttach": "Đính kèm ảnh chụp màn hình",
       "screenshotHint": "Kéo thả hoặc nhấp vào · PNG, JPG, GIF, WebP · tối đa 5 MB"
+    },
+    "uninstall": {
+      "heading": "Tiếc khi bạn rời đi",
+      "description": "Trước khi đi — hãy cho chúng tôi biết điều gì không ổn. Hai phút phản hồi sẽ định hình bản tiếp theo.",
+      "form": {
+        "modeAnonymous": "Ẩn danh",
+        "modeAnonymousDesc": "Gửi phản hồi mà không chia sẻ email của bạn.",
+        "modeEmail": "Kèm email",
+        "modeEmailDesc": "Cho phép chúng tôi liên hệ nếu có thắc mắc.",
+        "email": "Email",
+        "emailPlaceholder": "ban@vidu.com",
+        "ratingLabel": "Đánh giá tổng thể",
+        "ratingHint": "Bạn đánh giá trải nghiệm với tiện ích này thế nào?",
+        "reasonsLabel": "Điều gì khiến bạn gỡ cài đặt?",
+        "reasons": {
+          "tooBuggy": "Quá nhiều lỗi",
+          "missingFeatures": "Thiếu tính năng",
+          "performance": "Vấn đề hiệu năng",
+          "betterAlternative": "Đã tìm thấy lựa chọn tốt hơn",
+          "noLongerNeeded": "Không còn cần nữa",
+          "other": "Khác"
+        },
+        "whatWentWrong": "Điều gì đã không ổn?",
+        "whatWentWrongPlaceholder": "Hãy cho chúng tôi biết điều gì không hoạt động...",
+        "howToImprove": "Chúng tôi có thể cải thiện như thế nào?",
+        "howToImprovePlaceholder": "Bạn muốn thấy gì trong phiên bản tiếp theo?",
+        "submit": "Gửi phản hồi",
+        "submitting": "Đang gửi...",
+        "success": "Cảm ơn bạn đã phản hồi — nó thực sự giúp ích.",
+        "errorEmpty": "Vui lòng chọn đánh giá và ít nhất một lý do.",
+        "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
+        "errorRateLimit": "Hôm nay bạn đã gửi phản hồi rồi. Vui lòng thử lại vào ngày mai."
+      }
     }
   },
   "support": {

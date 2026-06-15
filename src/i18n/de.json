@@ -35,6 +35,10 @@
     "trending": {
       "title": "Angesagte Katzen-Fortschrittsbalken — Nyan Progress Bar",
       "description": "Entdecke die beliebtesten, frischesten und meistgeliebten Katzen-Fortschrittsbalken-Stile für YouTube."
+    },
+    "uninstall": {
+      "title": "Hilf uns, besser zu werden — Nyan Progress Bar",
+      "description": "Sag uns, was mit der Erweiterung nicht stimmte. Anonym oder mit E-Mail — dein Feedback prägt das nächste Release."
     }
   },
   "nav": {
@@ -180,6 +184,39 @@
       "screenshotDrop": "Zum Anhängen ablegen",
       "screenshotAttach": "Screenshot anhängen",
       "screenshotHint": "Drag & Drop oder Klick · PNG, JPG, GIF, WebP · max. 5 MB"
+    },
+    "uninstall": {
+      "heading": "Schade, dass du gehst",
+      "description": "Bevor du gehst — verrate uns, was nicht funktioniert hat. Zwei Minuten Feedback formen das nächste Release.",
+      "form": {
+        "modeAnonymous": "Anonym",
+        "modeAnonymousDesc": "Feedback senden, ohne deine E-Mail zu teilen.",
+        "modeEmail": "Mit E-Mail",
+        "modeEmailDesc": "Wir können nachfragen, falls etwas unklar ist.",
+        "email": "E-Mail",
+        "emailPlaceholder": "du@beispiel.com",
+        "ratingLabel": "Gesamtbewertung",
+        "ratingHint": "Wie bewertest du deine Erfahrung mit der Erweiterung?",
+        "reasonsLabel": "Warum hast du deinstalliert?",
+        "reasons": {
+          "tooBuggy": "Zu fehlerhaft",
+          "missingFeatures": "Fehlende Funktionen",
+          "performance": "Performance-Probleme",
+          "betterAlternative": "Bessere Alternative gefunden",
+          "noLongerNeeded": "Nicht mehr benötigt",
+          "other": "Sonstiges"
+        },
+        "whatWentWrong": "Was lief schief?",
+        "whatWentWrongPlaceholder": "Sag uns, was bei dir nicht funktioniert hat...",
+        "howToImprove": "Wie können wir uns verbessern?",
+        "howToImprovePlaceholder": "Was würdest du dir in der nächsten Version wünschen?",
+        "submit": "Feedback senden",
+        "submitting": "Wird gesendet...",
+        "success": "Danke für dein Feedback — das hilft uns sehr.",
+        "errorEmpty": "Bitte wähle eine Bewertung und mindestens einen Grund.",
+        "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+        "errorRateLimit": "Du hast heute bereits Feedback gesendet. Bitte versuche es morgen erneut."
+      }
     }
   },
   "support": {

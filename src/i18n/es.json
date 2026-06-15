@@ -35,6 +35,10 @@
     "trending": {
       "title": "Barras de progreso de gatos en tendencia — Nyan Progress Bar",
       "description": "Descubre los estilos de barra de progreso con gatos más populares, recientes y queridos para YouTube."
+    },
+    "uninstall": {
+      "title": "Ayúdanos a mejorar — Nyan Progress Bar",
+      "description": "Cuéntanos qué salió mal con la extensión. Anónimo o con correo — tu feedback moldea la próxima versión."
     }
   },
   "nav": {
@@ -180,6 +184,39 @@
       "screenshotDrop": "Suelta para adjuntar",
       "screenshotAttach": "Adjuntar una captura de pantalla",
       "screenshotHint": "Arrastra y suelta o haz clic · PNG, JPG, GIF, WebP · máx. 5 MB"
+    },
+    "uninstall": {
+      "heading": "Lamentamos verte ir",
+      "description": "Antes de irte, cuéntanos qué no funcionó. Dos minutos de feedback dan forma a la próxima versión.",
+      "form": {
+        "modeAnonymous": "Anónimo",
+        "modeAnonymousDesc": "Envía feedback sin compartir tu correo.",
+        "modeEmail": "Con correo",
+        "modeEmailDesc": "Permítenos contactarte si tenemos preguntas.",
+        "email": "Correo",
+        "emailPlaceholder": "tu@ejemplo.com",
+        "ratingLabel": "Valoración general",
+        "ratingHint": "¿Cómo calificarías tu experiencia con la extensión?",
+        "reasonsLabel": "¿Qué te llevó a desinstalar?",
+        "reasons": {
+          "tooBuggy": "Demasiados errores",
+          "missingFeatures": "Faltan funciones",
+          "performance": "Problemas de rendimiento",
+          "betterAlternative": "Encontré una alternativa mejor",
+          "noLongerNeeded": "Ya no la necesito",
+          "other": "Otro"
+        },
+        "whatWentWrong": "¿Qué salió mal?",
+        "whatWentWrongPlaceholder": "Cuéntanos qué no funcionó para ti...",
+        "howToImprove": "¿Cómo podemos mejorar?",
+        "howToImprovePlaceholder": "¿Qué te gustaría ver en la próxima versión?",
+        "submit": "Enviar feedback",
+        "submitting": "Enviando...",
+        "success": "Gracias por el feedback — nos ayuda mucho.",
+        "errorEmpty": "Por favor elige una valoración y al menos un motivo.",
+        "errorGeneric": "Algo salió mal. Por favor inténtalo de nuevo.",
+        "errorRateLimit": "Ya enviaste feedback hoy. Por favor inténtalo mañana."
+      }
     }
   },
   "support": {

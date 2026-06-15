@@ -35,6 +35,10 @@
     "trending": {
       "title": "Trending Cat Progress Bars — Nyan Progress Bar",
       "description": "Discover the most popular, freshest, and most-loved cat progress bar styles for YouTube."
+    },
+    "uninstall": {
+      "title": "Help us improve — Nyan Progress Bar",
+      "description": "Tell us what went wrong with the extension. Anonymous or with email — your feedback shapes the next release."
     }
   },
   "nav": {
@@ -189,6 +193,39 @@
       "screenshotDrop": "Drop to attach",
       "screenshotAttach": "Attach a screenshot",
       "screenshotHint": "Drag & drop or click · PNG, JPG, GIF, WebP · max 5 MB"
+    },
+    "uninstall": {
+      "heading": "Sorry to see you go",
+      "description": "Before you leave — tell us what didn't work. Two minutes of feedback helps shape the next release.",
+      "form": {
+        "modeAnonymous": "Anonymous",
+        "modeAnonymousDesc": "Submit feedback without sharing your email.",
+        "modeEmail": "With email",
+        "modeEmailDesc": "Let us follow up if we have questions.",
+        "email": "Email",
+        "emailPlaceholder": "you@example.com",
+        "ratingLabel": "Overall rating",
+        "ratingHint": "How would you rate your experience with the extension?",
+        "reasonsLabel": "What pushed you to uninstall?",
+        "reasons": {
+          "tooBuggy": "Too buggy",
+          "missingFeatures": "Missing features",
+          "performance": "Performance issues",
+          "betterAlternative": "Found a better alternative",
+          "noLongerNeeded": "No longer needed",
+          "other": "Other"
+        },
+        "whatWentWrong": "What went wrong?",
+        "whatWentWrongPlaceholder": "Tell us what didn't work for you...",
+        "howToImprove": "How can we improve?",
+        "howToImprovePlaceholder": "Anything you'd love to see in the next version?",
+        "submit": "Send Feedback",
+        "submitting": "Sending...",
+        "success": "Thanks for the feedback — it really helps.",
+        "errorEmpty": "Please pick a rating and at least one reason.",
+        "errorGeneric": "Something went wrong. Please try again.",
+        "errorRateLimit": "You've already sent feedback today. Please try again tomorrow."
+      }
     }
   },
   "support": {
