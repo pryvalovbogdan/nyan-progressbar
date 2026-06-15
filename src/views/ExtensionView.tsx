@@ -21,6 +21,12 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
     { icon: '🌍', title: e.feature6Title, desc: e.feature6Desc },
   ];
 
+  const steps = [
+    { title: e.howStep1Title, desc: e.howStep1Desc },
+    { title: e.howStep2Title, desc: e.howStep2Desc },
+    { title: e.howStep3Title, desc: e.howStep3Desc },
+  ];
+
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:py-16 space-y-10 sm:space-y-16">
       <section className="text-center space-y-4 sm:space-y-6">
@@ -38,6 +44,15 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
           {e.cta}
         </a>
         <p className="text-xs text-muted-foreground">{e.specs}</p>
+      </section>
+
+      <Separator />
+
+      <section className="space-y-4 max-w-2xl mx-auto">
+        <h2 className="text-2xl font-bold text-center">{e.whyHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{e.whyBody1}</p>
+        <p className="text-muted-foreground leading-relaxed">{e.whyBody2}</p>
+        <p className="text-muted-foreground leading-relaxed">{e.whyBody3}</p>
       </section>
 
       <Separator />
@@ -69,6 +84,27 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
             </div>
           ))}
         </div>
+      </section>
+
+      <Separator />
+
+      <section className="space-y-6">
+        <h2 className="text-2xl font-bold text-center">{e.howHeading}</h2>
+        <div className="grid sm:grid-cols-3 gap-4">
+          {steps.map(({ title, desc }) => (
+            <div key={title} className="card p-5 space-y-2">
+              <h3 className="font-semibold">{title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <Separator />
+
+      <section className="space-y-3 max-w-2xl mx-auto">
+        <h2 className="text-2xl font-bold text-center">{e.comparisonHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{e.comparisonBody}</p>
       </section>
 
       <Separator />

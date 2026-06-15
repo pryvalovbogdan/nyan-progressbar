@@ -3,7 +3,7 @@ import type { Locale } from '@/i18n';
 import { notFound } from 'next/navigation';
 
 import { generatePageMetadata } from '@shared/lib/metadata';
-import { CustomizerView } from '@views/CustomizerView';
+import { FaqView } from '@views/FaqView';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -12,15 +12,15 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
   const dict = await getDictionary(lang as Locale);
 
-  return generatePageMetadata(lang as Locale, dict, 'customizer');
+  return generatePageMetadata(lang as Locale, dict, 'faq');
 }
 
-export default async function CustomizerPage({ params }: { params: Promise<{ lang: string }> }) {
+export default async function FaqPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
 
   if (!hasLocale(lang)) notFound();
 
   const dict = await getDictionary(lang as Locale);
 
-  return <CustomizerView dict={dict} lang={lang} />;
+  return <FaqView dict={dict} lang={lang} />;
 }

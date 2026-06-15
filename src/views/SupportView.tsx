@@ -6,6 +6,7 @@ import { CryptoCard } from '@features/crypto-donate';
 import { trackEvent } from '@shared/lib/analytics';
 import { buttonVariants } from '@shared/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
+import { Separator } from '@shared/ui/separator';
 
 interface ISupportViewProps {
   dict: Dictionary;
@@ -86,6 +87,52 @@ export function SupportView({ dict }: ISupportViewProps) {
       </div>
 
       <p className="text-center text-sm text-muted-foreground">{s.thankYou}</p>
+
+      <Separator />
+
+      <section className="space-y-4 max-w-2xl mx-auto">
+        <h2 className="text-2xl font-bold">{s.whereHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{s.whereIntro}</p>
+        <div className="space-y-4">
+          {[
+            { title: s.whereItem1Title, desc: s.whereItem1Desc },
+            { title: s.whereItem2Title, desc: s.whereItem2Desc },
+            { title: s.whereItem3Title, desc: s.whereItem3Desc },
+          ].map(({ title, desc }) => (
+            <div key={title} className="card p-4 space-y-1">
+              <h3 className="font-semibold">{title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <Separator />
+
+      <section className="space-y-4 max-w-2xl mx-auto">
+        <h2 className="text-2xl font-bold">{s.otherWaysHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{s.otherWaysIntro}</p>
+        <div className="grid sm:grid-cols-2 gap-4">
+          {[
+            { title: s.otherWay1Title, desc: s.otherWay1Desc },
+            { title: s.otherWay2Title, desc: s.otherWay2Desc },
+            { title: s.otherWay3Title, desc: s.otherWay3Desc },
+            { title: s.otherWay4Title, desc: s.otherWay4Desc },
+          ].map(({ title, desc }) => (
+            <div key={title} className="card p-4 space-y-1">
+              <h3 className="font-semibold text-sm">{title}</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">{desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <Separator />
+
+      <section className="space-y-3 max-w-2xl mx-auto text-center">
+        <h2 className="text-xl font-bold">{s.transparencyHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{s.transparencyBody}</p>
+      </section>
     </div>
   );
 }

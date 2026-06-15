@@ -9,3 +9,6 @@ export { PrivacyView } from './PrivacyView';
 export { HowToUseIndexView } from './HowToUseIndexView';
 export { HowToUseArticleView } from './HowToUseArticleView';
 export { TrendingView } from './TrendingView';
+export { AboutView } from './AboutView';
+export { TermsView } from './TermsView';
+export { FaqView } from './FaqView';

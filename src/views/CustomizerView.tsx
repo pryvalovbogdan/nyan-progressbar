@@ -1,16 +1,19 @@
 import type { Dictionary } from '@/i18n';
+import Link from 'next/link';
 
 import { ScrubberGallery } from '@features/cat-selector';
 import { CustomizerPanel } from '@features/customizer';
+import { Separator } from '@shared/ui/separator';
 import { ExtensionBanner } from '@widgets/extension-banner';
 import { GifSourcesBlock } from '@widgets/gif-sources';
 import { PopularCatsBlock } from '@widgets/popular-cats';
 
 interface ICustomizerViewProps {
   dict: Dictionary;
+  lang: string;
 }
 
-export async function CustomizerView({ dict }: ICustomizerViewProps) {
+export async function CustomizerView({ dict, lang }: ICustomizerViewProps) {
   const c = dict.customizerPage;
 
   return (
@@ -65,6 +68,58 @@ export async function CustomizerView({ dict }: ICustomizerViewProps) {
           Imgur: c.gifSources.imgurDesc,
         }}
       />
+
+      <Separator />
+
+      <section className="space-y-4 max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold">{c.tipsHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{c.tipsIntro}</p>
+        <div className="grid sm:grid-cols-2 gap-4">
+          {[
+            { title: c.tip1Title, desc: c.tip1Desc },
+            { title: c.tip2Title, desc: c.tip2Desc },
+            { title: c.tip3Title, desc: c.tip3Desc },
+            { title: c.tip4Title, desc: c.tip4Desc },
+          ].map(({ title, desc }) => (
+            <div key={title} className="card p-4 space-y-1">
+              <h3 className="font-semibold text-sm">{title}</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">{desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <Separator />
+
+      <section className="space-y-4 max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold">{c.useCasesHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{c.useCasesIntro}</p>
+        <div className="grid sm:grid-cols-3 gap-4">
+          {[
+            { title: c.useCase1Title, desc: c.useCase1Desc },
+            { title: c.useCase2Title, desc: c.useCase2Desc },
+            { title: c.useCase3Title, desc: c.useCase3Desc },
+          ].map(({ title, desc }) => (
+            <div key={title} className="card p-4 space-y-1">
+              <h3 className="font-semibold text-sm">{title}</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">{desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <Separator />
+
+      <section className="text-center space-y-2 max-w-2xl mx-auto">
+        <h2 className="text-xl font-bold">{c.faqHintHeading}</h2>
+        <p className="text-muted-foreground">
+          {c.faqHintPre}{' '}
+          <Link href={`/${lang}/faq`} className="text-[#80deea] hover:underline">
+            {c.faqHintLinkText}
+          </Link>{' '}
+          {c.faqHintPost}
+        </p>
+      </section>
     </div>
   );
 }

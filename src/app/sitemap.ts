@@ -16,6 +16,9 @@ const ROUTES = [
   '/support',
   '/contact',
   '/how-to-use',
+  '/about',
+  '/faq',
+  '/terms',
   ...HOW_TO_ROUTES,
 ] as const;
 
@@ -28,6 +31,9 @@ const PRIORITY: Record<string, number> = {
   '/support': 0.7,
   '/contact': 0.6,
   '/how-to-use': 0.8,
+  '/about': 0.7,
+  '/faq': 0.8,
+  '/terms': 0.5,
 };
 
 const CHANGE_FREQ: Record<string, MetadataRoute.Sitemap[number]['changeFrequency']> = {
@@ -39,6 +45,9 @@ const CHANGE_FREQ: Record<string, MetadataRoute.Sitemap[number]['changeFrequency
   '/support': 'monthly',
   '/contact': 'monthly',
   '/how-to-use': 'monthly',
+  '/about': 'monthly',
+  '/faq': 'monthly',
+  '/terms': 'monthly',
 };
 
 const HOW_TO_DEFAULT_PRIORITY = 0.7;
