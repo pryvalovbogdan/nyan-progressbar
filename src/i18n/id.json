@@ -35,6 +35,10 @@
     "trending": {
       "title": "Bilah Kemajuan Kucing yang Sedang Tren — Nyan Progress Bar",
       "description": "Temukan gaya bilah kemajuan kucing yang paling populer, terbaru, dan paling disukai untuk YouTube."
+    },
+    "uninstall": {
+      "title": "Bantu kami berkembang — Nyan Progress Bar",
+      "description": "Ceritakan apa yang salah dengan ekstensi. Anonim atau dengan email — masukanmu membentuk rilis berikutnya."
     }
   },
   "nav": {
@@ -180,6 +184,39 @@
       "screenshotDrop": "Lepaskan untuk melampirkan",
       "screenshotAttach": "Lampirkan tangkapan layar",
       "screenshotHint": "Seret & lepas atau klik · PNG, JPG, GIF, WebP · maks. 5 MB"
+    },
+    "uninstall": {
+      "heading": "Sayang kamu pergi",
+      "description": "Sebelum pergi — ceritakan apa yang tidak berhasil. Dua menit masukan membentuk rilis berikutnya.",
+      "form": {
+        "modeAnonymous": "Anonim",
+        "modeAnonymousDesc": "Kirim masukan tanpa membagikan emailmu.",
+        "modeEmail": "Dengan email",
+        "modeEmailDesc": "Biarkan kami menghubungi jika ada pertanyaan.",
+        "email": "Email",
+        "emailPlaceholder": "kamu@contoh.com",
+        "ratingLabel": "Penilaian keseluruhan",
+        "ratingHint": "Bagaimana penilaianmu terhadap ekstensi ini?",
+        "reasonsLabel": "Apa yang membuatmu menghapus?",
+        "reasons": {
+          "tooBuggy": "Terlalu banyak bug",
+          "missingFeatures": "Fitur kurang",
+          "performance": "Masalah performa",
+          "betterAlternative": "Menemukan alternatif yang lebih baik",
+          "noLongerNeeded": "Tidak diperlukan lagi",
+          "other": "Lainnya"
+        },
+        "whatWentWrong": "Apa yang salah?",
+        "whatWentWrongPlaceholder": "Ceritakan apa yang tidak berhasil untukmu...",
+        "howToImprove": "Bagaimana kami bisa berkembang?",
+        "howToImprovePlaceholder": "Apa yang ingin kamu lihat di versi berikutnya?",
+        "submit": "Kirim Masukan",
+        "submitting": "Mengirim...",
+        "success": "Terima kasih atas masukannya — ini sangat membantu.",
+        "errorEmpty": "Mohon pilih penilaian dan setidaknya satu alasan.",
+        "errorGeneric": "Terjadi kesalahan. Silakan coba lagi.",
+        "errorRateLimit": "Kamu sudah mengirim masukan hari ini. Coba lagi besok."
+      }
     }
   },
   "support": {

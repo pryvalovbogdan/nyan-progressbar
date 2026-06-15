@@ -35,6 +35,10 @@
     "trending": {
       "title": "Popularne paski postępu z kotem — Nyan Progress Bar",
       "description": "Odkryj najpopularniejsze, najświeższe i najbardziej lubiane style paska postępu z kotem dla YouTube."
+    },
+    "uninstall": {
+      "title": "Pomóż nam się rozwijać — Nyan Progress Bar",
+      "description": "Powiedz nam, co poszło nie tak z rozszerzeniem. Anonimowo lub z e-mailem — Twoja opinia kształtuje kolejne wydanie."
     }
   },
   "nav": {
@@ -180,6 +184,39 @@
       "screenshotDrop": "Upuść, aby załączyć",
       "screenshotAttach": "Dołącz zrzut ekranu",
       "screenshotHint": "Przeciągnij i upuść lub kliknij · PNG, JPG, GIF, WebP · maks. 5 MB"
+    },
+    "uninstall": {
+      "heading": "Szkoda, że odchodzisz",
+      "description": "Zanim odejdziesz — powiedz, co nie zadziałało. Dwie minuty opinii kształtują kolejne wydanie.",
+      "form": {
+        "modeAnonymous": "Anonimowo",
+        "modeAnonymousDesc": "Wyślij opinię bez podawania e-maila.",
+        "modeEmail": "Z e-mailem",
+        "modeEmailDesc": "Pozwól nam się odezwać, jeśli będziemy mieć pytania.",
+        "email": "E-mail",
+        "emailPlaceholder": "ty@przyklad.com",
+        "ratingLabel": "Ogólna ocena",
+        "ratingHint": "Jak oceniasz swoje doświadczenie z rozszerzeniem?",
+        "reasonsLabel": "Co skłoniło Cię do usunięcia?",
+        "reasons": {
+          "tooBuggy": "Zbyt wiele błędów",
+          "missingFeatures": "Brakujące funkcje",
+          "performance": "Problemy z wydajnością",
+          "betterAlternative": "Znalazłem lepszą alternatywę",
+          "noLongerNeeded": "Już niepotrzebne",
+          "other": "Inne"
+        },
+        "whatWentWrong": "Co poszło nie tak?",
+        "whatWentWrongPlaceholder": "Powiedz nam, co u Ciebie nie zadziałało...",
+        "howToImprove": "Jak możemy się poprawić?",
+        "howToImprovePlaceholder": "Co chciałbyś zobaczyć w następnej wersji?",
+        "submit": "Wyślij opinię",
+        "submitting": "Wysyłanie...",
+        "success": "Dziękujemy za opinię — to naprawdę pomaga.",
+        "errorEmpty": "Wybierz ocenę i co najmniej jeden powód.",
+        "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie.",
+        "errorRateLimit": "Już wysłałeś dziś opinię. Spróbuj jutro."
+      }
     }
   },
   "support": {

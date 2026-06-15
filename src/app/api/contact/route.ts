@@ -37,17 +37,26 @@ function isContactPayload(v: unknown): v is ContactPayload {
 
   const p = v as Record<string, unknown>;
 
-  const coreValid =
-    typeof p.name === 'string' &&
-    typeof p.email === 'string' &&
-    typeof p.category === 'string' &&
-    typeof p.message === 'string' &&
-    p.name.length > 0 &&
-    p.email.includes('@') &&
-    p.category.length > 0 &&
-    p.message.length > 0;
+  if (
+    typeof p.name !== 'string' ||
+    typeof p.email !== 'string' ||
+    typeof p.category !== 'string' ||
+    typeof p.message !== 'string'
+  ) {
+    return false;
+  }
 
-  if (!coreValid) return false;
+  const isUninstall = p.category === 'uninstall';
+
+  if (isUninstall) {
+    if (!isUninstallBlock(p.uninstall)) return false;
+
+    if (p.email.length > 0 && !p.email.includes('@')) return false;
+  } else {
+    if (p.name.length === 0 || !p.email.includes('@') || p.category.length === 0 || p.message.length === 0) {
+      return false;
+    }
+  }
 
   if (p.attachment !== undefined) {
     if (!p.attachment || typeof p.attachment !== 'object') return false;
@@ -58,6 +67,22 @@ function isContactPayload(v: unknown): v is ContactPayload {
 
     if (!a.mimeType.startsWith('image/')) return false;
   }
+
+  return true;
+}
+
+function isUninstallBlock(v: unknown): boolean {
+  if (!v || typeof v !== 'object') return false;
+
+  const u = v as Record<string, unknown>;
+
+  if (typeof u.rating !== 'number' || u.rating < 1 || u.rating > 5) return false;
+
+  if (!Array.isArray(u.reasons) || !u.reasons.every(r => typeof r === 'string')) return false;
+
+  if (typeof u.whatWentWrong !== 'string' || typeof u.howToImprove !== 'string') return false;
+
+  if (typeof u.anonymous !== 'boolean') return false;
 
   return true;
 }

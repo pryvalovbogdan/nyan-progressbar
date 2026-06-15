@@ -35,6 +35,10 @@
     "trending": {
       "title": "Barres de progression chat tendances — Nyan Progress Bar",
       "description": "Découvrez les styles de barre de progression chat les plus populaires, les plus récents et les plus appréciés pour YouTube."
+    },
+    "uninstall": {
+      "title": "Aide-nous à nous améliorer — Nyan Progress Bar",
+      "description": "Dis-nous ce qui n'a pas marché avec l'extension. Anonyme ou avec e-mail — ton retour façonne la prochaine version."
     }
   },
   "nav": {
@@ -180,6 +184,39 @@
       "screenshotDrop": "Déposez pour joindre",
       "screenshotAttach": "Joindre une capture d'écran",
       "screenshotHint": "Glissez-déposez ou cliquez · PNG, JPG, GIF, WebP · max 5 Mo"
+    },
+    "uninstall": {
+      "heading": "Désolés de te voir partir",
+      "description": "Avant de partir — dis-nous ce qui n'a pas marché. Deux minutes de retour façonnent la prochaine version.",
+      "form": {
+        "modeAnonymous": "Anonyme",
+        "modeAnonymousDesc": "Envoie ton retour sans partager ton e-mail.",
+        "modeEmail": "Avec e-mail",
+        "modeEmailDesc": "Permets-nous de te recontacter si besoin.",
+        "email": "E-mail",
+        "emailPlaceholder": "toi@exemple.com",
+        "ratingLabel": "Note globale",
+        "ratingHint": "Comment évaluerais-tu ton expérience avec l’extension ?",
+        "reasonsLabel": "Qu'est-ce qui t'a poussé à désinstaller ?",
+        "reasons": {
+          "tooBuggy": "Trop de bugs",
+          "missingFeatures": "Fonctionnalités manquantes",
+          "performance": "Problèmes de performance",
+          "betterAlternative": "J'ai trouvé une meilleure alternative",
+          "noLongerNeeded": "Plus besoin",
+          "other": "Autre"
+        },
+        "whatWentWrong": "Qu'est-ce qui n'a pas marché ?",
+        "whatWentWrongPlaceholder": "Dis-nous ce qui n'a pas fonctionné pour toi...",
+        "howToImprove": "Comment pouvons-nous nous améliorer ?",
+        "howToImprovePlaceholder": "Qu'aimerais-tu voir dans la prochaine version ?",
+        "submit": "Envoyer le retour",
+        "submitting": "Envoi...",
+        "success": "Merci pour ton retour — ça nous aide vraiment.",
+        "errorEmpty": "Choisis une note et au moins une raison.",
+        "errorGeneric": "Une erreur est survenue. Réessaie.",
+        "errorRateLimit": "Tu as déjà envoyé un retour aujourd'hui. Réessaie demain."
+      }
     }
   },
   "support": {

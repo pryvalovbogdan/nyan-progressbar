@@ -8,6 +8,13 @@ export interface ContactPayload {
     data: string;
     mimeType: string;
   };
+  uninstall?: {
+    rating: number;
+    reasons: string[];
+    whatWentWrong: string;
+    howToImprove: string;
+    anonymous: boolean;
+  };
 }
 
 export interface Entry {

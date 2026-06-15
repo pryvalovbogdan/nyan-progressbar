@@ -7,6 +7,7 @@ export type PageKey =
   | 'extension'
   | 'support'
   | 'contact'
+  | 'uninstall'
   | 'reviews'
   | 'customizer'
   | 'privacy'
@@ -20,6 +21,7 @@ const ROUTE: Record<PageKey, string> = {
   extension: '/extension',
   support: '/support',
   contact: '/contact',
+  uninstall: '/contact/uninstall',
   reviews: '/reviews',
   customizer: '/customizer',
   privacy: '/privacy',
