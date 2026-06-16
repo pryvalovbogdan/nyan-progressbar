@@ -39,6 +39,18 @@
     "uninstall": {
       "title": "Tulungan kaming gumanda — Nyan Progress Bar",
       "description": "Sabihin sa amin kung ano ang nangyari sa extension. Anonymous o may email — hinuhubog ng feedback mo ang susunod na release."
+    },
+    "about": {
+      "title": "Tungkol sa Nyan Progress Bar — Proyekto at Team",
+      "description": "Alamin ang tungkol sa mga taong nasa likod ng Nyan Progress Bar, kung bakit namin ito ginawa, at paano gumagana ang libreng Chrome extension."
+    },
+    "terms": {
+      "title": "Mga Tuntunin ng Serbisyo — Nyan Progress Bar",
+      "description": "Ang mga tuntuning namamahala sa paggamit mo ng Nyan Progress Bar website at Chrome extension."
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong — Nyan Progress Bar",
+      "description": "Mga sagot sa pinakakaraniwang tanong tungkol sa pag-install, pag-customize, at pag-troubleshoot ng Nyan Progress Bar Chrome extension."
     }
   },
   "nav": {
@@ -74,7 +86,29 @@
     "popularCats": {
       "heading": "Pinakasikat na kitty",
       "description": "Ang mga pusang madalas na pinipili ng mga gumagamit."
-    }
+    },
+    "tipsHeading": "Mga tip sa pag-customize",
+    "tipsIntro": "Ilang maliit na pagsasaayos ay maaaring magkaroon ng malaking epekto sa kung paano umuupo ang pusa mo sa YouTube progress bar. Narito ang mga tweak na may pinakamalaking bunga.",
+    "tip1Title": "Itugma ang pusa sa videos mo",
+    "tip1Desc": "Ang pixel cats at GIFs na chiptune-style ay perfect sa retro gaming videos at lo-fi music streams. Ang classic Nyan Cat ay bagay sa kahit ano; ang kawaii cats ay mas masayahin at cute. Subukan ang ilan — agad ang paglipat.",
+    "tip2Title": "Ang taas ay nagpapabago ng buong vibe",
+    "tip2Desc": "Ang 16–24 px na taas ay parang subtle at nawawala sa player. Itaas sa 40–60 px at ang pusa ay magiging centerpiece. Walang maling sagot — pumili ng nakakapagpangiti sa iyo kapag nag-scrub.",
+    "tip3Title": "Gamitin ang top offset para i-center ang pusa",
+    "tip3Desc": "Magkaiba-iba ang padding ng GIFs sa paligid ng animation, kaya maaaring masyadong mataas o mababa ang pusa sa default. Galawin ang top offset ng ilang pixel hanggang pumantay ang paa ng pusa sa linya ng YouTube scrubber.",
+    "tip4Title": "Pumili ng GIFs na may transparent background",
+    "tip4Desc": "Ang GIFs na may solid kulay na background ay magpapakita ng kulay na iyon sa scrubber. Ang transparent background ay malinis na sumasanib sa YouTube UI. Karamihan ng search tools ay may filter para sa transparent results.",
+    "useCasesHeading": "Mga sikat na paggamit",
+    "useCasesIntro": "Magkaiba ang paraan ng paghanap ng kanilang pusa ng iba't ibang tao. Narito ang tatlong pattern na pinaka-madalas naming naririnig sa mga users.",
+    "useCase1Title": "Mahahabang panonood",
+    "useCase1Desc": "Lectures, podcast, tutorial, at documentary: ang pusa na gumagalaw sa 40-minutong progress bar ay maliit na galaw na nagpapababa ng pakiramdam na static ng mahahabang video. Karamihan sa users ay pumipili ng kalmadong naglalakad na pusa para dito.",
+    "useCase2Title": "Musika at lo-fi",
+    "useCase2Desc": "Ang mga YouTube Music users ay madalas pumili ng tumatalon o sumasayaw na pusa — Orange Dance, Kitty Wigglez, at ang classic Nyan ay mga paboritong patuloy. Natural na nakaka-sync ang galaw sa musika.",
+    "useCase3Title": "Streaming at shared screen",
+    "useCase3Desc": "Ang mga streamer at mga taong nag-share ng browser sa Zoom ay madalas pumili ng iisang bold na pusa (Garfield, Pixel Tiger) para ang scrubber ay maging kitang piraso ng personal branding. Ang ilan ay nag-upload pa ng custom GIF na tumutugma sa channel nila.",
+    "faqHintHeading": "Naipit pa rin?",
+    "faqHintPre": "Karamihan ng mga tanong sa pag-install at pag-customize ay sagot sa",
+    "faqHintLinkText": "FAQ page",
+    "faqHintPost": "— tingnan muna doon."
   },
   "header": {
     "logoAlt": "Nyan na pusa"
@@ -85,7 +119,10 @@
     "support": "Suporta",
     "privacy": "Pribasidad",
     "howToUse": "Mga Gabay",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "about": "Tungkol Sa",
+    "terms": "Mga Tuntunin",
+    "faq": "FAQ"
   },
   "cookieConsent": {
     "title": "Cookies",
@@ -125,7 +162,26 @@
     "feature2Title": "Mag-upload ng sariling GIF",
     "feature2Desc": "Gamitin ang anumang GIF bilang custom na scrubber.",
     "feature3Title": "Gumagana sa lahat ng dako",
-    "feature3Desc": "YouTube at YouTube Music, standard at mini player."
+    "feature3Desc": "YouTube at YouTube Music, standard at mini player.",
+    "introHeading": "Maliit na upgrade para sa bawat video na pinapanood mo",
+    "introBody1": "Ang Nyan Progress Bar ay isang libreng Chrome extension na pinapalitan ang flat na pulang progress bar ng YouTube ng isang hand-picked na animated na pusa. Tumatakbo ito nang buo sa iyong browser, hindi humihiling ng kahit ano, at nagdadagdag ng konting personalidad sa bar na tinitingnan mo buong araw. May labindalawang pusa na kasama agad — ang original na Nyan Cat na may rainbow, isang pixel parrot, isang glitch cat, isang sumasayaw na Garfield, at ilang malambot at minimalist na silhouette — at maaari kang mag-upload ng kahit anong GIF bilang sarili mong custom scrubber.",
+    "introBody2": "Ang buong produkto ay isang maliit na upgrade. I-install mo ang extension, pumili ng pusa, at mula sa sandaling iyon ang bawat YouTube video at bawat YouTube Music track ay may maliit na mascot na sumusunod sa playhead. Walang account na gagawin, walang settings menu na pag-aaralan, walang premium tier. Gumagana lang ito, at kapag nandiyan na, hindi mo na napapansing may ginagawa ito — hanggang sa mapangiti ka nito sa gitna ng video.",
+    "howHeading": "Paano ito gumagana",
+    "howIntro": "Tatlong hakbang mula sa pag-install hanggang sa pusa sa iyong YouTube bar.",
+    "howStep1Title": "I-install sa isang click",
+    "howStep1Desc": "Idagdag ang Nyan Progress Bar mula sa Chrome Web Store. Mga 15 KB lang ang extension, naka-build sa Manifest V3, at humihiling lang ng access sa youtube.com at music.youtube.com.",
+    "howStep2Title": "Pumili ng pusa",
+    "howStep2Desc": "Buksan ang popup at i-tap ang kahit alin sa labindalawang built-in na pusa — o mag-upload ng sarili mong GIF. Ang piniling pusa ay nase-save nang lokal at agad na nailalapat sa lahat ng bukas na YouTube tab, walang kailangan i-reload.",
+    "howStep3Title": "I-fine-tune ang posisyon",
+    "howStep3Desc": "Gamitin ang Height at Top offset sliders sa popup para perpektong umupo ang pusa sa scrubber. Bawat pusa ay tinatandaan ang sariling mga setting nito, kaya pwede kang lumipat ng theme nang hindi kailangang ayusin muli.",
+    "useCasesHeading": "Ginawa para sa mga taong nabubuhay sa YouTube",
+    "useCasesBody1": "Sa mahahabang panonood lalo na sumisikat ang Nyan Progress Bar. Apatnapung-minutong lecture, siyamnapung-minutong documentary, tatlong-oras na podcast — ang isang maliit na animated na pusa na gumagalaw sa scrubber ay nagbibigay ng konting buhay sa istatikong playhead. Karamihan sa users ay pumipili ng kalmadong naglalakad na pusa para dito at nakakalimutan na ang bar ay dating flat na linya lang.",
+    "useCasesBody2": "Sa YouTube Music, ang mas masisigasig na pusa ang sumisikat. Ang Orange Cat Dance, Kitty Wigglez, at ang orihinal na Nyan Cat ay natural na nakaka-sync sa ritmo ng kanta at ginagawang mas masaya ang music player, mas parang maliit na palaruan kaysa basta gamit. Maraming music users ang nag-iingat ng isang sumasayaw na pusa bilang permanenteng kasama ng kanilang daily playlist.",
+    "useCasesBody3": "Ang mga streamer at mga nagba-share ng screen sa calls ay pumipili ng matapang at iisang pusa lang — Garfield o Pixel Tiger — para ang pusa ay kitang-kita bilang piraso ng personal branding. Ang Custom GIF upload tile ay sikat din dito: i-upload ang mascot ng iyong channel o community emote at ang scrubber ay nagiging sarili mo.",
+    "trustHeading": "Open source, walang ad, at tahimik na pinopondohan ng users",
+    "trustBody": "Ang Nyan Progress Bar ay nai-publish bilang open-source project. Walang ad sa loob ng extension, walang premium tier, walang upsells, at walang analytics na sumusunod sa iyo. Ang hosting at patuloy na development ay buong pinopondohan ng mga optional na donasyon mula sa users na mahilig sa produkto.",
+    "trustLinkGithubLabel": "Tingnan ang source sa GitHub",
+    "trustLinkSupportLabel": "Suportahan ang proyekto"
   },
   "extension": {
     "heading": "Kunin ang Nyan Progress Bar",
@@ -148,7 +204,20 @@
     "questionHeading": "May tanong ka ba?",
     "questionPre": "Bisitahin ang",
     "questionLinkText": "support center",
-    "questionPost": "o mag-file ng bug report."
+    "questionPost": "o mag-file ng bug report.",
+    "whyHeading": "Bakit gamitin ang Nyan Progress Bar?",
+    "whyBody1": "Ang default na progress bar ng YouTube ay isang flat na pulang linya — kapaki-pakinabang ngunit madaling balewalain. Pinapalitan ito ng Nyan Progress Bar ng hand-picked na animated na pusa (o anumang GIF na gusto mo) para maging isang maliit na piraso ng personalidad ang scrubber na talagang napapansin mo. Maliit na saya sa araw mo, sa bawat video na pinapanood mo.",
+    "whyBody2": "Ginawa para sa mga taong nabubuhay sa YouTube: mahahabang video at lecture, music at lo-fi playlist sa YouTube Music, araw-araw na balita, gaming stream, at creative work. Sumusunod ang pusa sa playhead, hindi nakakaharang sa video, at nawawala sa sandaling i-uninstall mo.",
+    "whyBody3": "At dahil tumatakbo ang extension nang buo sa sarili mong browser — walang account, walang server, walang analytics — walang dapat i-sign up at walang dapat ipag-alala. I-install mo, makakalimutan mong nandiyan ito, at ang mga video mo ay nararamdaman mong mas iyo.",
+    "howHeading": "Paano ito gumagana",
+    "howStep1Title": "1. I-install sa isang click",
+    "howStep1Desc": "Idagdag ang Nyan Progress Bar mula sa Chrome Web Store. Halos ~15 KB lang ang extension, naka-build sa Manifest V3, at humihiling lang ng access sa YouTube at YouTube Music.",
+    "howStep2Title": "2. Pumili ng pusa",
+    "howStep2Desc": "Buksan ang popup at i-tap ang kahit alin sa 12 built-in na pusa — o mag-drop ng sarili mong GIF. Nase-save ang pagpipilian nang lokal at na-sync sa lahat ng bukas na YouTube tab.",
+    "howStep3Title": "3. Ayusin ang posisyon",
+    "howStep3Desc": "Gamitin ang height at top-offset sliders para perpektong umupo ang pusa sa scrubber. Per-pusa ang mga setting, kaya bawat tema ay tinatandaan ang sariling itsura.",
+    "comparisonHeading": "Ano ang kakaiba dito",
+    "comparisonBody": "Ang ibang browser extension para sa YouTube ay nakatuon sa pag-block ng ad, pag-skip ng sponsor, o pag-tweak ng tema. Tanging ang Nyan Progress Bar ang ginawang partikular para sa progress bar — bawat pusa ay hand-tuned para sa taas at galaw ng YouTube scrubber, na may sensible na default kaya hindi mo kailangang galawin ang sliders maliban kung gusto mo. Ang resulta ay isang maliit at pulidong detalye na hindi nakikipag-away sa iba pang bahagi ng YouTube UI."
   },
   "contact": {
     "heading": "Support Center",
@@ -242,7 +311,27 @@
     "cryptoDesc": "Magpadala ng USDT sa TRON network (TRC-20). I-scan ang QR o kopyahin ang address.",
     "cryptoNetwork": "TRC-20",
     "cryptoCopy": "Kopyahin ang Address",
-    "cryptoCopied": "Nakopya!"
+    "cryptoCopied": "Nakopya!",
+    "whereHeading": "Saan napupunta ang suporta mo",
+    "whereIntro": "Ang Nyan Progress Bar ay libreng side project, ngunit hindi libreng patakbuhin. Bawat kontribusyon — anuman ang laki — ay direktang bumabalik para panatilihing buhay at lumalago ang extension.",
+    "whereItem1Title": "Hosting at infrastructure",
+    "whereItem1Desc": "Ang website, ang mga assets ng Chrome Web Store listing, at ang email pipeline ng contact form ay nagkakahalaga ng maliit ngunit tuloy-tuloy na halaga buwan-buwan. Ang suporta mo ang nagpapatuloy ng ilaw.",
+    "whereItem2Title": "Mga bagong pusa at feature",
+    "whereItem2Desc": "Ang pagdidisenyo at pag-aanimate ng bagong cat theme — o pagbuo ng bagong customization control — ay tumatagal ng mga oras ng maingat na trabaho. Bumabayad ang donasyon sa oras na iyon para patuloy na lumago ang catalogue.",
+    "whereItem3Title": "Mga pag-aayos at Chrome update",
+    "whereItem3Desc": "Patuloy na nagbabago ang extension APIs ng Chrome, at paminsan-minsan ay nagpapadala ang YouTube ng mga update na nasisira ang scrubber overlay. Pinopondohan ng suporta ang maintenance na nagpapanatili ng lahat na gumagana.",
+    "otherWaysHeading": "Iba pang paraan para tumulong",
+    "otherWaysIntro": "Hindi pa kayang mag-donate? Walang problema — maraming libreng paraan para tulungan ang proyekto.",
+    "otherWay1Title": "Mag-iwan ng Chrome Web Store review",
+    "otherWay1Desc": "Ang reviews ang pinakamalaking senyales na tumutulong sa ibang tao na matuklasan ang extension. Kahit isang-linyang rating ay may totoong epekto.",
+    "otherWay2Title": "I-share sa kaibigan",
+    "otherWay2Desc": "May kakilala kang nabubuhay sa YouTube? Ipadala ang link. Ang word of mouth ang pinakamalaking pinagmumulan ng bagong users.",
+    "otherWay3Title": "Mag-report ng bugs at ideya",
+    "otherWay3Desc": "Bawat bug report at feature request ay hinuhubog ang susunod na release. Gamitin ang contact form o magbukas ng GitHub issue — pareho silang diretso sa maintainer.",
+    "otherWay4Title": "Mag-contribute sa GitHub",
+    "otherWay4Desc": "Open source ang proyekto. Tinatanggap nang lubos ang pull requests para sa bug fixes, translations, o bagong cat designs.",
+    "transparencyHeading": "Bukas at transparent",
+    "transparencyBody": "Walang bayad na tier, walang premium na pusa, at walang ad sa loob ng extension. Pareho ang produkto para sa lahat — ang donasyon ay paraan lang ng pasasalamat at panatilihing tumatakbo ang mga pusa."
   },
   "customizer": {
     "adjustPosition": "Ayusin ang posisyon",
@@ -267,7 +356,22 @@
     "rateUs": "I-rate kami",
     "reviews": "mga pagsusuri",
     "showMore": "Magpakita ng higit pa",
-    "showLess": "Magpakita ng mas kaunti"
+    "showLess": "Magpakita ng mas kaunti",
+    "pageHeading": "Mga review mula sa totoong users",
+    "pageIntro1": "May average na 4.7 stars ang Nyan Progress Bar sa 58 reviews sa Chrome Web Store. Ang mga review sa ibaba ay halu-halo — ang pinakabagong feedback sa pinakahuling release ay nasa itaas, sinusundan ng lahat ng review na nakuha namin mula sa kauna-unahang bersyon. Walang kinukuratahan o sinasala. Nakikita pa rin ang negatibong reviews dahil mas marami kaming natututunan sa kanila kaysa sa kahit ano pa.",
+    "pageIntro2": "Kung iniisip mong i-install ang extension, ang page na ito ang pinaka-honest na larawan ng produkto na maibibigay namin sa iyo. Kung gumagamit ka na nito at gusto mong mag-iwan ng public review, ang Chrome Web Store ang pinaka-useful na lugar — ang search results at ranking doon ay malaki ang impluwensya ng mga recent rating, at ang isang-linyang rating mula sa iyo ang pinakamabuting paraan para tulungan ang proyekto na maabot ang ibang YouTube users.",
+    "themesHeading": "Ang madalas binabanggit ng users",
+    "themesIntro": "Sa daan-daang reviews at bug reports, paulit-ulit na lumalabas ang parehong tatlong tema.",
+    "theme1Title": "Privacy at \"walang tracking\"",
+    "theme1Body": "Ang pinakamadalas positibong komento ay parang \"may iisa lang itong ginagawa at hindi sinusubukang i-track ako.\" Napapansin ng users na hindi humihingi ng hindi kailangang permission ang extension, walang ipinapadala sa server, at walang account o login. Para sa marami, ito ang nagiging desisyon kumpara sa ibang YouTube extensions.",
+    "theme2Title": "Pino sa YouTube player",
+    "theme2Body": "Madalas binabanggit ng users kung gaano kakaayos ang mga pusa sa YouTube scrubber. Bawat built-in na pusa ay may hand-set na default height at top offset, kaya umuupo nang malinis ang overlay sa player nang hindi kailangang galawin ang sliders. Ito ang uri ng detalye na nangangailangan ng matagal na pag-aayos, at ang bahagi ng extension na pinaka-ipinagmamalaki namin.",
+    "theme3Title": "Pag-upload ng custom GIF",
+    "theme3Body": "Ang upload tile ang feature na pinakamadalas binabanggit sa five-star reviews. Nag-uupload ang users ng mga mascot ng channel nila, emotes ng community, sarili nilang alaga, pixel art na ginawa nila, o random GIFs sa internet — at ang makita ang mga animation na iyon bilang YouTube scrubber ay nagiging mas malaking gantimpala kaysa sa sinasabi ng deskripsyon.",
+    "ctaHeading": "Mag-iwan ng review o magpadala ng private feedback",
+    "ctaBody": "Ang public reviews sa Chrome Web Store ang pinaka-useful na lugar para magbahagi ng honest opinion — hinuhubog nila kung paano lumalabas ang extension sa ibang users sa searches. Para sa bug reports, ideas para sa features, o anumang ayaw mong isulat sa publiko, isang click lang ang contact form at bawat message ay diretso napupunta sa maintainer.",
+    "ctaWebStoreLabel": "Mag-iwan ng review sa Chrome Web Store",
+    "ctaContactLabel": "Magpadala ng private feedback"
   },
   "releaseReviews": {
     "heading": "Mga bagong review",
@@ -588,6 +692,144 @@
       "dance": "Mga Sumasayaw na Pusa",
       "monochrome": "Monochrome",
       "orange": "Orange Squad"
+    },
+    "introHeading": "Anong mainit ngayon sa YouTube scrubber",
+    "introBody1": "Ang pahinang ito ay isang buhay na catalogue ng cat progress bar styles na pinakamadalas i-install ng users. Umiral ito dahil mas madali ang pumili ng pusa kapag nakikita mo kung ano ang gusto ng iba — ang mga classic na nananatili sa tuktok ng mga taon, ang mga bagong tema na bagong dating, at ang curated collections na naka-grupo ayon sa vibe (kawaii, pixel, monochrome, dance, at iba pa).",
+    "introBody2": "Bawat istilo dito ay isang click lang papuntang sarili mo. I-tap ang kahit aling pusa para ma-preview sa live customizer, o pindutin ang install para ilagay ang extension sa Chrome at makita ang pinili mo sa totoong YouTube video. Walang sign-up, walang premium tier, at bawat pusa ay kasama sa libreng extension.",
+    "rankingsHeading": "Paano gumagana ang rankings",
+    "rankingsBody1": "Ang Popular section ay nakaayos ayon sa kabuuang install count sa buong buhay ng extension — ito ang mga pusang pinakamadalas piliin ng lahat ng users mula nang ilunsad. Ang Nyan Classic, Cute Cat, at Garfield ay nagpapalit-palit ng tatlong top spot karamihan ng linggo, ngunit ang long tail ay gumagalaw habang umaangat ang bagong tema.",
+    "rankingsBody2": "Ang Trending Now ay rolling seven-day view: mga pusang pinakamadalas pinili o linipatan sa nakaraang linggo. Ang mga bagong tema ay madalas tumaas dito sa mga araw matapos ang release, kaya ito ang pinakamagaling na section para maramdaman kung ano ang fresh. Ang New section ay nag-list ng bawat pusang idinagdag sa catalogue sa nakaraang 60 araw, sa pagkakasunud-sunod ng release.",
+    "rankingsBody3": "Ang Top Collections ay nag-grupo ng mga pusa ayon sa aesthetic kaysa sa popularity. Ang Classic Cats collection ay naglalaman ng mga orihinal; Pixel & Retro ay naghuhugot ng bawat pixel-art na tema; Kawaii Pastels ay nagtitipon ng malalambot at malalaking-mata na estilo; Dancing Cats ang mga animated na maayos na sync sa YouTube Music; Monochrome ang minimalist set; Orange Squad ay ganoon nga ang ibig sabihin.",
+    "customizeHeading": "Gawing sarili mo ang anumang trending na istilo",
+    "customizeBody": "May nakita ka bang gusto mo? Buksan ito sa live customizer at i-tune ang taas at vertical position hanggang sa perpektong umupo ito sa YouTube scrubber. Bawat pusa ay tinatandaan ang sariling settings, kaya pwede kang lumipat sa pagitan ng trending styles nang hindi inuulit ang trabaho.",
+    "customizeCta": "Buksan ang customizer"
+  },
+  "about": {
+    "heading": "Tungkol sa Nyan Progress Bar",
+    "intro": "Ang Nyan Progress Bar ay isang libre at open-source na Chrome extension na nagpapalit sa flat na pulang linya ng YouTube progress bar ng hand-picked na animated na pusa. Ang pahinang ito ay maikling kuwento ng kung ano ito, sino ang gumagawa, at bakit ito umiiral.",
+    "s1Heading": "Ano ito",
+    "s1Body": "Ang Nyan Progress Bar ay maliit at fokus na browser extension para sa YouTube at YouTube Music. Iisang bagay lang ang ginagawa nito: nagpipinta ng animated na pusa (o anumang GIF na pipiliin mo) sa ibabaw ng video scrubber. Walang settings menu na pag-aaralan, walang account na gagawin, at walang subscriptions. I-install, pumili ng pusa, at iyon ang buong produkto.",
+    "s1Body2": "Labindalawang cat themes ang nakapaloob, mula sa orihinal na rainbow Nyan Cat hanggang sa pixel parrot, glitch cat na may chromatic aberration, sumasayaw na Garfield, at ilang malalambot at minimalist na silhouettes. Pwede ka ring mag-upload ng anumang GIF mula sa computer mo para gamitin bilang sarili mong custom scrubber — ang file ay nananatili sa device mo at hindi kailanman ipinapadala kahit saan.",
+    "s2Heading": "Bakit namin ginawa",
+    "s2Body": "Nagsimula ang proyekto sa personal na frustration: paggugol ng oras sa YouTube araw-araw, pagtingin sa parehong flat na progress bar, at pag-iisip na maaari itong maging maliit na sandali ng saya sa halip. Ang klasikong Nyan Cat ay tila obvious na unang pusa na susubukan, at nang tumakbo ito sa totoong YouTube video, malinaw na may maliit ngunit makabuluhang kasiyahan dito.",
+    "s2Body2": "Lahat ng simula noon ay hinihimok ng simpleng ideya: ang browser extension ay maaaring maging mahinahon, fokus, at masaya. Karamihan ng extensions ay humihiling ng masyadong maraming pahintulot, nagpapakita ng masyadong maraming UI, o sumusubok mag-monetize ng atensyon. Sinasadyang hindi ginagawa ang Nyan Progress Bar ng mga iyon — ito ay maliit na utility na nagdadagdag ng isang maliit na ngiti sa araw mo, at pagkatapos ay umaalis ng landas.",
+    "s3Heading": "Paano ito gumagana",
+    "s3Body": "Sa ilalim ng hood, ang extension ay isang Manifest V3 Chrome extension na tumatakbo lang sa youtube.com at music.youtube.com. Kapag nag-load ang isang YouTube page, hinahanap ng extension ang progress bar element at inilalagay ang piniling GIF mo sa ibabaw nito. Sumusunod ang GIF sa posisyon ng scrubber dahil naka-anchor ito sa parehong element na ginagamit ng YouTube para sa playhead.",
+    "s3Body2": "Ang piniling pusa, taas, at top-offset values mo ay nasi-save nang lokal gamit ang Chrome Storage API sa device mo. Walang ina-upload sa server. Hindi gumagawa ng network requests ang extension; hindi nito binabasa ang watch history mo, search queries, o anumang ibang impormasyon tungkol sa paggamit mo sa YouTube. Kapag in-uninstall mo, lahat ng bakas ay nawawala kasama nito.",
+    "s4Heading": "Sino ang gumagawa",
+    "s4Body": "Ang Nyan Progress Bar ay ginagawa at pinapanatili ng independent na developer na nagtatrabaho dito sa sariling oras. Open source ang proyekto — tinatanggap ang pull requests para sa bagong cat designs, translations, at bug fixes, at ang contact form sa site na ito ay direktang papunta sa maintainer.",
+    "s4Body2": "Naisalin ang site sa sampung wika (English, Spanish, Portuguese, French, German, Polish, Ukrainian, Indonesian, Vietnamese, at Filipino) para makapagbasa ang mga users sa buong mundo tungkol sa extension sa sariling wika.",
+    "s5Heading": "Ang mga pinahahalagahan namin",
+    "s5Intro": "Ilang prinsipyo ang gumagabay kung paano namin ginagawa at pinapatakbo ang proyekto:",
+    "s5Item1": "Privacy una. Hindi nangongolekta o nagpapadala ng data ang extension — period.",
+    "s5Item2": "Walang ad sa loob ng extension. Walang upsells, walang premium cats, walang subscriptions.",
+    "s5Item3": "Bukas at transparent. Ang codebase, donations, at roadmap ay lahat nasa labas.",
+    "s5Item4": "Isang maliit na bagay na ginawang maayos. Hindi kami lalago papunta sa ad-blocking, sponsor skipping, o pangkalahatang YouTube tweaks. Ang progress bar ang produkto.",
+    "s6Heading": "Makipag-ugnayan",
+    "s6Pre": "May tanong, ideya, o bug na ire-report? Pinakamabilis ka makakahabol sa amin sa pamamagitan ng",
+    "s6ContactLink": "contact form",
+    "s6Mid": ", o pwede mo kaming direktang i-email sa"
+  },
+  "terms": {
+    "heading": "Mga Tuntunin ng Serbisyo",
+    "lastUpdated": "Huling na-update: Hunyo 2025",
+    "intro": "Ang Mga Tuntuning ito ng Serbisyo (\"Mga Tuntunin\") ay namamahala sa paggamit mo ng Nyan Progress Bar website (ang \"Site\") at ng Nyan Progress Bar Chrome extension (ang \"Extension\"). Sa paggamit ng Site o Extension, sumasang-ayon ka sa Mga Tuntuning ito.",
+    "s1Heading": "1. Pagtanggap sa Mga Tuntunin",
+    "s1Body": "Sa pag-install ng Extension o paggamit ng Site, kinukumpirma mong nabasa, naunawaan, at sumasang-ayon kang masaklaw ng Mga Tuntuning ito. Kung hindi ka sumasang-ayon, mangyaring i-uninstall ang Extension at huminto sa paggamit ng Site. Maaari naming i-update ang Mga Tuntunin paminsan-minsan; ang \"huling na-update\" na petsa sa itaas ay sumasalamin sa pinakahuling rebisyon. Ang patuloy na paggamit pagkatapos ng pagbabago ay nangangahulugang tinatanggap mo ang mga bagong Tuntunin.",
+    "s2Heading": "2. Paglalarawan ng Serbisyo",
+    "s2Body": "Ang Extension ay libreng browser add-on na naglalagay ng animated GIF (isang \"pusa\") sa ibabaw ng progress bar ng YouTube at YouTube Music. Ang Site ay nagbibigay ng impormasyon tungkol sa Extension, live customizer, catalog ng cat themes, mga link sa suporta at donasyon, at mga channel ng pakikipag-ugnayan. Pareho ang Site at Extension ay ibinibigay nang walang bayad.",
+    "s3Heading": "3. Mga responsibilidad ng user at katanggap-tanggap na paggamit",
+    "s3Body": "Sumasang-ayon kang gamitin ang Site at Extension lamang para sa legal at personal na layunin. Hindi mo susubukang i-reverse engineer, baguhin, ipamahagi muli, o repackage ang Extension o Site lampas sa pinapayagan ng open-source license ng proyekto. Hindi mo gagamitin ang Site o Extension para mang-harass, manakit, o magpanggap bilang iba.",
+    "s3Body2": "Responsable ka sa mga GIF na ina-upload mo sa Extension. Sumasang-ayon ka na mayroon kang legal na karapatan na gamitin ang anumang GIF na ina-upload mo at ang GIF ay hindi naglalaman ng ilegal, nakakaapekto, o nakakapinsalang content.",
+    "s4Heading": "4. Intellectual Property",
+    "s4Body": "Ang pangalang Nyan Progress Bar, logo, design assets, at orihinal na cat themes ay pag-aari ng mga maintainer ng proyekto. Ang cat GIFs na kasama sa Extension ay mga orihinal na gawa, public-domain content, o ginagamit sa ilalim ng licenses na nagpapahintulot sa pamamahagi. Ang mga third-party brands na binanggit sa Site (hal. YouTube, Chrome) ay trademarks ng mga may-ari at ginagamit dito para sa deskriptibong layunin lamang.",
+    "s4Body2": "Ang source code ng Extension ay nai-publish sa ilalim ng open-source license — tingnan ang GitHub repository para sa eksaktong tuntunin.",
+    "s5Heading": "5. User-Generated Content",
+    "s5Body": "Kapag nag-upload ka ng GIF sa Extension, nase-store ang file nang lokal sa sarili mong browser sa pamamagitan ng Chrome Storage API. Hindi ito ina-upload sa server namin at hindi namin ina-access, tinitingnan, o pino-process sa anumang paraan. Pinananatili mo ang lahat ng karapatan sa mga GIF na ina-upload mo.",
+    "s5Body2": "Kung mag-submit ka ng content sa contact form (mensahe, screenshot, o feedback), binibigyan mo kami ng non-exclusive at royalty-free na lisensya para gamitin ang content na iyon para sa pagsagot sa kahilingan mo at pagpapabuti ng Extension. Hindi namin ibabahagi sa publiko nang walang pahintulot mo.",
+    "s6Heading": "6. Mga Disclaimer",
+    "s6Body": "Ang Site at Extension ay ibinibigay \"as is\" at \"as available\" nang walang anumang warranty, ipinahayag man o ipinahihiwatig. Hindi namin ginagarantiya na ang Site o Extension ay magiging walang-tigil, walang-error, o tugma sa lahat ng bersyon ng lahat ng browser. Maaaring baguhin ng YouTube anumang oras ang implementasyon ng player nito sa paraang masisira ang cat overlay; gagawin namin ang aming pinakamahusay para ayusin agad ang mga isyu na ganito ngunit hindi kami makakapag-garantiya ng tuloy-tuloy na operasyon.",
+    "s7Heading": "7. Limitasyon ng pananagutan",
+    "s7Body": "Hanggang sa pinakamalaking lawak na pinahihintulutan ng batas, ang proyekto, mga maintainer, at mga contributor ng Nyan Progress Bar ay hindi mananagot para sa anumang hindi direktang, accidental, espesyal, consequential, o punitive na pinsala na nagmumula sa paggamit (o kawalan ng kakayahang magamit) ang Site o Extension. Ang tanging remedyo mo kung hindi ka kontento ay huminto sa paggamit ng Site at i-uninstall ang Extension.",
+    "s8Heading": "8. Mga Third-Party Service",
+    "s8Body": "Ang Site ay may mga link sa third-party services (hal. Chrome Web Store, GitHub, Ko-fi, Patreon, Donatello). Hindi kami responsable para sa nilalaman, mga patakaran, o mga gawi ng mga serbisyong iyon. Ang paggamit mo ng mga serbisyong iyon ay pinangungunahan ng kanilang sariling mga tuntunin.",
+    "s9Heading": "9. Naaangkop na batas at mga pagbabago",
+    "s9Body": "Ang Mga Tuntuning ito ay pinangungunahan ng pangkalahatang prinsipyo ng consumer law sa bansang tinitirhan ng maintainer; ang mga hindi pagkakasundo ay malulutas sa good-faith at best-effort na paraan. Inilalaan namin ang karapatang baguhin ang Mga Tuntuning ito anumang oras. Ang mga material na pagbabago ay makikita sa pamamagitan ng pag-update sa \"huling na-update\" na petsa.",
+    "s10Heading": "10. Pakikipag-ugnayan",
+    "s10Pre": "Mga tanong tungkol sa Mga Tuntuning ito? I-email kami sa"
+  },
+  "faq": {
+    "heading": "Mga Madalas Itanong",
+    "intro": "Mabilisang sagot sa mga tanong na pinakamadalas naming natatanggap. Hindi mo nahanap ang hinahanap mo? Isang click lang ang contact form.",
+    "categoryGettingStartedHeading": "Pagsisimula",
+    "categoryCustomizationHeading": "Pag-customize",
+    "categoryPrivacyHeading": "Privacy at data",
+    "categoryTroubleshootingHeading": "Troubleshooting",
+    "stillStuckHeading": "May tanong ka pa rin?",
+    "stillStuckPre": "Mag-reach out sa pamamagitan ng",
+    "stillStuckLinkText": "contact form",
+    "stillStuckPost": "— bawat mensahe ay diretso sa maintainer at nakakakuha ng personal na sagot.",
+    "questions": {
+      "isFree": {
+        "q": "Libre ba ang Nyan Progress Bar?",
+        "a": "Oo. Ang Extension ay ganap na libre nang walang bayad na tier, walang premium na pusa, at walang in-extension ad. Ang proyekto ay sinusuportahan nang buo ng opsyonal na donasyon sa pamamagitan ng Ko-fi, Patreon, Donatello, at iba pa — tingnan ang pahina ng Suporta para sa detalye."
+      },
+      "browsers": {
+        "q": "Anong browser ang suportado nito?",
+        "a": "Pinapansin ng Extension ang Chrome 88 at mas bago. Gumagana rin ito sa Chromium-based browsers kabilang ang Microsoft Edge, Brave, Opera, Arc, at Vivaldi. Nasa roadmap ang Safari port. Hindi pa suportado ang Firefox."
+      },
+      "howToInstall": {
+        "q": "Paano ito i-install?",
+        "a": "Bisitahin ang Chrome Web Store listing para sa Nyan Progress Bar at i-click ang \"Add to Chrome\". Kumpirmahin ang pag-install sa dialog at agad na lalabas ang pusa sa YouTube — walang reload, walang sign-in. Para sa kumpletong gabay, tingnan ang installation guide sa Guides section."
+      },
+      "worksOnYouTube": {
+        "q": "Gumagana ba ito sa YouTube at YouTube Music?",
+        "a": "Oo — pareho. Ang Extension ay nagsisimula sa youtube.com at music.youtube.com. Gumagana ito sa standard player, mini player, at theatre mode. Hindi ito tumatakbo sa anumang ibang website."
+      },
+      "uploadGif": {
+        "q": "Pwede ko bang i-upload ang sarili kong GIF?",
+        "a": "Sigurado. Buksan ang popup ng Extension, i-click ang upload tile sa cat grid, at pumili ng anumang GIF mula sa computer mo. Binabasa ng Extension ang file nang lokal at ginagamit bilang scrubber mo. Hindi kailanman ina-upload ang GIF sa server."
+      },
+      "gifFormats": {
+        "q": "Anong file format ang suportado?",
+        "a": "Sumusuporta ang Extension sa animated .gif files. Hindi sinusuportahan ang static images at iba pang animated formats (APNG, WebP, MP4). Walang mahigpit na limitasyon sa laki, ngunit ang mas maliliit na GIFs (sa ilalim ng ilang daang kilobytes) ay madalas na nararamdamang mas snappy sa progress bar."
+      },
+      "changePosition": {
+        "q": "Paano ko mababago ang laki o posisyon ng pusa?",
+        "a": "Buksan ang popup, pumili ng pusa, at gamitin ang Height at Top offset sliders na lumalabas. Ang taas ay mula 8 px hanggang 80 px; ang top offset ay mula -50 px hanggang +20 px. Per-pusa ang nase-save na settings, kaya bawat tema ay tinatandaan ang sariling itsura."
+      },
+      "catOffScreen": {
+        "q": "Bakit ang pusa ko ay off-center o off-screen?",
+        "a": "Magkaiba ang padding ng GIFs sa paligid ng animation, kaya maaaring hindi tumugma ang default offset sa custom GIF mo. Buksan ang popup at galawin ang Top offset slider ng ilang pixel hanggang sa pumantay ang pusa sa scrubber. Kung lampas-lampas mo, i-click ang \"Set default position\" para i-reset."
+      },
+      "doesItTrack": {
+        "q": "Sinusubaybayan ba ako ng Extension?",
+        "a": "Hindi. Hindi nangongolekta, nagpapadala, o nag-iimbak ng personal na data ang Extension. Hindi nito binabasa ang watch history, search queries, o anumang ibang aktibidad sa YouTube. Tanging data na nase-save ay ang piniling pusa at slider positions — pareho silang nase-store nang lokal sa device mo."
+      },
+      "sendsDataAnywhere": {
+        "q": "Nagpapadala ba ito ng anuman sa internet?",
+        "a": "Hindi. Walang network requests ang Extension. Ang GIF uploads at settings mo ay nananatili sa device mo. Ang website mismo ay gumagamit ng Google Analytics para sa anonymous traffic statistics — tingnan ang Privacy Policy para sa detalye — ngunit ang Extension ay ganap na offline."
+      },
+      "worksOffline": {
+        "q": "Gumagana ba ito offline?",
+        "a": "Ang Extension mismo ay tumatakbo offline. Kailangan ng YouTube videos ng internet connection para ma-play, ngunit ang cat overlay ay hindi nangangailangan ng sariling external connection."
+      },
+      "catNotShowing": {
+        "q": "Hindi lumalabas ang pusa sa YouTube. Ano ang gagawin ko?",
+        "a": "Una, i-refresh ang YouTube tab — kailangan ng Extension na mag-inject ng overlay sa pag-load ng pahina. Kung hindi nakatulong, siguraduhing naka-enable ang Extension sa pamamagitan ng pag-bisita sa chrome://extensions at pag-check ng toggle. Kung nakasira ng overlay ang kamakailang YouTube player update, paki-report sa contact form para makapag-ship kami ng fix."
+      },
+      "extensionDisappeared": {
+        "q": "Nawala ang Extension icon sa toolbar ko.",
+        "a": "Maaaring na-unpin ng Chrome. I-click ang puzzle-piece icon sa tabi ng address bar para makita ang lahat ng extensions, pagkatapos ay i-click ang pin icon sa tabi ng Nyan Progress Bar para ibalik ito sa toolbar."
+      },
+      "uploadFails": {
+        "q": "Hindi nag-u-upload ang GIF ko.",
+        "a": "Siguraduhing may .gif extension ang file at ito ay totoong animated GIF (ang ilang \"GIFs\" sa social media ay actually MP4 videos na may maling label). Kung napakalaki ng file, subukan ang mas maliit na bersyon — may limitasyon ang local storage ng Chrome. Kung hindi, magpadala ng kopya sa contact form at titingnan namin."
+      },
+      "howToUninstall": {
+        "q": "Paano ko i-uninstall ang Extension?",
+        "a": "Bisitahin ang chrome://extensions, hanapin ang Nyan Progress Bar, at i-click ang \"Remove\". Lahat ng lokal na nase-save na settings at na-upload na GIFs ay awtomatikong tinatanggal. Kung may sandali ka, ang maikling uninstall feedback form ay nakakatulong sa amin na mapabuti ang susunod na release."
+      }
     }
   }
 }

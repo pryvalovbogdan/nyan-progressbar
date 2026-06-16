@@ -39,6 +39,18 @@
     "uninstall": {
       "title": "Giúp chúng tôi cải thiện — Nyan Progress Bar",
       "description": "Cho chúng tôi biết điều gì sai với tiện ích. Ẩn danh hoặc kèm email — phản hồi của bạn định hình bản phát hành tiếp theo."
+    },
+    "about": {
+      "title": "Giới thiệu về Nyan Progress Bar — Dự án & Đội ngũ",
+      "description": "Tìm hiểu về những người đứng sau Nyan Progress Bar, lý do chúng tôi tạo ra nó và cách tiện ích Chrome miễn phí này hoạt động."
+    },
+    "terms": {
+      "title": "Điều khoản dịch vụ — Nyan Progress Bar",
+      "description": "Các điều khoản quy định việc bạn sử dụng trang web Nyan Progress Bar và tiện ích Chrome."
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp — Nyan Progress Bar",
+      "description": "Trả lời cho các câu hỏi phổ biến nhất về cài đặt, tùy chỉnh và khắc phục sự cố của tiện ích Nyan Progress Bar cho Chrome."
     }
   },
   "nav": {
@@ -74,7 +86,29 @@
     "popularCats": {
       "heading": "Kitty phổ biến nhất",
       "description": "Những chú mèo được người dùng chọn nhiều nhất."
-    }
+    },
+    "tipsHeading": "Mẹo tùy chỉnh",
+    "tipsIntro": "Một vài điều chỉnh nhỏ có thể tạo ra khác biệt lớn về cách chú mèo của bạn ngồi trên thanh tiến trình YouTube. Đây là những điều chỉnh có tác động lớn nhất.",
+    "tip1Title": "Khớp chú mèo với video của bạn",
+    "tip1Desc": "Mèo pixel và GIF kiểu chiptune cực kỳ hợp với video gaming retro và stream nhạc lo-fi. Nyan Cat cổ điển hợp với mọi thứ; mèo kawaii thiên về vui tươi và dễ thương. Thử vài con — chuyển đổi tức thì.",
+    "tip2Title": "Chiều cao thay đổi toàn bộ vibe",
+    "tip2Desc": "Chiều cao 16–24 px cho cảm giác tinh tế và biến mất vào trình phát. Đẩy lên 40–60 px và chú mèo trở thành điểm nhấn. Không có câu trả lời sai — chọn cái khiến bạn mỉm cười khi tua.",
+    "tip3Title": "Dùng độ lệch trên để canh giữa chú mèo",
+    "tip3Desc": "Các GIF khác nhau có padding khác nhau quanh hoạt họa, nên chú mèo có thể ngồi quá cao hoặc quá thấp theo mặc định. Đẩy độ lệch trên vài pixel cho đến khi chân mèo khớp với đường thanh trượt YouTube.",
+    "tip4Title": "Chọn GIF có nền trong suốt",
+    "tip4Desc": "GIF có nền màu đặc sẽ hiện màu đó trên thanh trượt. GIF nền trong suốt hòa quyện sạch sẽ với giao diện YouTube. Hầu hết công cụ tìm kiếm cho phép lọc kết quả trong suốt.",
+    "useCasesHeading": "Trường hợp sử dụng phổ biến",
+    "useCasesIntro": "Mỗi người tìm thấy chú mèo của mình theo cách khác nhau. Đây là ba mô hình chúng tôi nghe người dùng kể nhiều nhất.",
+    "useCase1Title": "Xem nội dung dài",
+    "useCase1Desc": "Bài giảng, podcast, hướng dẫn và phim tài liệu: một chú mèo di chuyển ngang qua thanh 40 phút là một chút chuyển động làm video dài bớt tĩnh. Nhiều người dùng chọn chú mèo đi bộ điềm tĩnh cho việc này.",
+    "useCase2Title": "Âm nhạc và lo-fi",
+    "useCase2Desc": "Người dùng YouTube Music thường chọn mèo nhảy hoặc tưng tưng — Orange Dance, Kitty Wigglez và Nyan cổ điển luôn là yêu thích. Chuyển động đồng bộ tự nhiên với âm nhạc.",
+    "useCase3Title": "Streaming và chia sẻ màn hình",
+    "useCase3Desc": "Streamer và những người chia sẻ trình duyệt trên Zoom thường chọn một chú mèo nổi bật duy nhất (Garfield, Pixel Tiger) để thanh trượt trở thành một mảnh thương hiệu cá nhân nhìn thấy được. Một số thậm chí tải lên GIF tùy chỉnh khớp với kênh của họ.",
+    "faqHintHeading": "Vẫn bị mắc?",
+    "faqHintPre": "Hầu hết câu hỏi về cài đặt và tùy chỉnh đã được trả lời trên",
+    "faqHintLinkText": "trang FAQ",
+    "faqHintPost": "— hãy ghé qua đó trước."
   },
   "header": {
     "logoAlt": "Mèo Nyan"
@@ -85,7 +119,10 @@
     "support": "Ủng hộ",
     "privacy": "Quyền riêng tư",
     "howToUse": "Hướng dẫn",
-    "cookies": "Cookie"
+    "cookies": "Cookie",
+    "about": "Giới thiệu",
+    "terms": "Điều khoản",
+    "faq": "FAQ"
   },
   "cookieConsent": {
     "title": "Cookie",
@@ -125,7 +162,26 @@
     "feature2Title": "Tải lên GIF của bạn",
     "feature2Desc": "Dùng bất kỳ GIF nào làm scrubber tùy chỉnh.",
     "feature3Title": "Hoạt động mọi nơi",
-    "feature3Desc": "YouTube và YouTube Music, player tiêu chuẩn và thu nhỏ."
+    "feature3Desc": "YouTube và YouTube Music, player tiêu chuẩn và thu nhỏ.",
+    "introHeading": "Một nâng cấp nhỏ cho mọi video bạn xem",
+    "introBody1": "Nyan Progress Bar là một tiện ích Chrome miễn phí thay thanh tiến trình màu đỏ phẳng của YouTube bằng một chú mèo hoạt hình được chọn lựa kỹ. Nó chạy hoàn toàn trong trình duyệt của bạn, không yêu cầu gì cả và thêm một chút cá tính cho thanh mà bạn nhìn cả ngày. Mười hai chú mèo có sẵn ngay từ đầu — Nyan Cat cầu vồng nguyên bản, một con vẹt pixel, một chú mèo glitch, một Garfield đang nhảy múa và vài hình bóng tối giản nhẹ nhàng — và bạn có thể tải lên bất kỳ GIF nào làm thanh trượt riêng của mình.",
+    "introBody2": "Toàn bộ sản phẩm chỉ là một nâng cấp nhỏ. Bạn cài tiện ích, chọn một chú mèo, và từ giây phút đó, mọi video YouTube và mọi bản nhạc YouTube Music đều có một linh vật nhỏ đi theo đầu phát. Không cần tạo tài khoản, không có menu cài đặt cần học, không có gói cao cấp. Nó cứ thế hoạt động, và một khi đã ở đó, bạn không còn để ý nó đang làm gì — cho đến khi nó làm bạn mỉm cười giữa một video.",
+    "howHeading": "Cách nó hoạt động",
+    "howIntro": "Ba bước từ khi cài đặt đến khi có một chú mèo trên thanh YouTube của bạn.",
+    "howStep1Title": "Cài bằng một cú nhấp chuột",
+    "howStep1Desc": "Thêm Nyan Progress Bar từ Chrome Web Store. Tiện ích nặng khoảng 15 KB, được xây trên Manifest V3 và chỉ yêu cầu quyền truy cập youtube.com và music.youtube.com.",
+    "howStep2Title": "Chọn một chú mèo",
+    "howStep2Desc": "Mở popup và chạm vào bất kỳ chú mèo nào trong số mười hai chú mèo có sẵn — hoặc tải lên GIF của riêng bạn. Lựa chọn của bạn được lưu cục bộ và áp dụng ngay vào mọi tab YouTube đang mở, không cần tải lại.",
+    "howStep3Title": "Tinh chỉnh vị trí",
+    "howStep3Desc": "Dùng thanh trượt Chiều cao và Khoảng cách trên trong popup để chú mèo ngồi hoàn hảo trên thanh trượt. Mỗi chú mèo nhớ cài đặt riêng, nên bạn có thể đổi theme mà không cần chỉnh lại.",
+    "useCasesHeading": "Dành cho những người sống trên YouTube",
+    "useCasesBody1": "Xem nội dung dài là nơi Nyan Progress Bar tỏa sáng. Các bài giảng bốn mươi phút, phim tài liệu chín mươi phút, podcast ba tiếng — một chú mèo hoạt hình nhỏ di chuyển trên thanh trượt làm đầu phát tĩnh có thêm chút sức sống. Đa số người dùng chọn một chú mèo đi bộ điềm tĩnh cho mục đích này và quên rằng thanh đó từng là một đường thẳng phẳng.",
+    "useCasesBody2": "Trên YouTube Music, các chú mèo sôi động hơn mới thật sự tỏa sáng. Orange Cat Dance, Kitty Wigglez và Nyan Cat nguyên bản đồng bộ tự nhiên với nhịp bài hát và làm trình phát nhạc cảm giác bớt khô khan, giống một sân chơi nhỏ hơn. Nhiều người nghe nhạc giữ một chú mèo nhảy như bạn đồng hành thường trực của playlist hằng ngày.",
+    "useCasesBody3": "Streamer và những người chia sẻ màn hình trong cuộc gọi chọn vẻ ngoài đậm chất với một chú mèo duy nhất — Garfield hoặc Pixel Tiger — để chú mèo đóng vai trò là một mảnh thương hiệu cá nhân dễ thấy. Ô tải lên GIF tùy chỉnh cũng được ưa chuộng ở đây: đưa linh vật kênh hoặc emote cộng đồng của bạn lên và thanh trượt trở thành của bạn.",
+    "trustHeading": "Mã nguồn mở, không quảng cáo và lặng lẽ được người dùng tài trợ",
+    "trustBody": "Nyan Progress Bar được phát hành dưới dạng dự án mã nguồn mở. Không có quảng cáo bên trong tiện ích, không có gói cao cấp, không có upsell và không có phân tích đeo bám bạn. Hosting và phát triển liên tục hoàn toàn được tài trợ bởi các khoản đóng góp tùy chọn từ người dùng yêu thích sản phẩm.",
+    "trustLinkGithubLabel": "Xem mã nguồn trên GitHub",
+    "trustLinkSupportLabel": "Ủng hộ dự án"
   },
   "extension": {
     "heading": "Tải Nyan Progress Bar",
@@ -148,7 +204,20 @@
     "questionHeading": "Có câu hỏi không?",
     "questionPre": "Xem",
     "questionLinkText": "trung tâm hỗ trợ",
-    "questionPost": "hoặc mở báo cáo lỗi."
+    "questionPost": "hoặc mở báo cáo lỗi.",
+    "whyHeading": "Tại sao dùng Nyan Progress Bar?",
+    "whyBody1": "Thanh tiến trình mặc định của YouTube là một đường đỏ phẳng — hữu ích, nhưng dễ bị bỏ qua. Nyan Progress Bar thay đường đó bằng một chú mèo hoạt hình được chọn lựa kỹ (hoặc bất kỳ GIF nào bạn muốn) để thanh trượt trở thành một mảnh nhỏ cá tính mà bạn thực sự để ý. Một niềm vui nhỏ mỗi ngày, ở mỗi video bạn xem.",
+    "whyBody2": "Được tạo cho những người sống trên YouTube: video dài và bài giảng, playlist nhạc và lo-fi trên YouTube Music, tin tức hằng ngày, stream game và công việc sáng tạo. Chú mèo đi theo đầu phát, không bao giờ cản trở video và biến mất ngay khi bạn gỡ tiện ích.",
+    "whyBody3": "Và vì tiện ích chạy hoàn toàn trong trình duyệt của bạn — không tài khoản, không máy chủ, không phân tích — không có gì để đăng ký và không gì phải lo lắng. Bạn cài đặt, bạn quên rằng nó ở đó, và các video chỉ đơn giản trở nên hơi \"của bạn\" hơn một chút.",
+    "howHeading": "Cách nó hoạt động",
+    "howStep1Title": "1. Cài đặt một cú nhấp",
+    "howStep1Desc": "Thêm Nyan Progress Bar từ Chrome Web Store. Tiện ích chỉ ~15 KB, được xây bằng Manifest V3 và chỉ xin quyền truy cập YouTube và YouTube Music.",
+    "howStep2Title": "2. Chọn chú mèo của bạn",
+    "howStep2Desc": "Mở popup và chạm bất kỳ chú mèo nào trong 12 con có sẵn — hoặc thả GIF của riêng bạn. Lựa chọn được lưu cục bộ và đồng bộ trên mọi tab YouTube đang mở.",
+    "howStep3Title": "3. Tinh chỉnh vị trí",
+    "howStep3Desc": "Dùng thanh trượt chiều cao và độ lệch trên để chú mèo ngồi hoàn hảo trên thanh tiến trình. Cài đặt được lưu theo từng chú mèo, nên mỗi theme nhớ vẻ ngoài riêng.",
+    "comparisonHeading": "Điều gì làm nên sự khác biệt",
+    "comparisonBody": "Các tiện ích Chrome khác cho YouTube tập trung vào chặn quảng cáo, bỏ qua nhà tài trợ hoặc tinh chỉnh theme. Nyan Progress Bar là tiện ích duy nhất được thiết kế riêng cho thanh tiến trình — mỗi chú mèo được tinh chỉnh thủ công cho chiều cao và chuyển động của thanh trượt YouTube, với giá trị mặc định hợp lý nên bạn không phải đụng vào thanh trượt nếu không muốn. Kết quả là một chi tiết nhỏ tinh tế, không xung đột với phần còn lại của giao diện YouTube."
   },
   "contact": {
     "heading": "Trung Tâm Hỗ Trợ",
@@ -242,7 +311,27 @@
     "cryptoDesc": "Gui USDT qua mang TRON (TRC-20). Quet QR hoac sao chep dia chi.",
     "cryptoNetwork": "TRC-20",
     "cryptoCopy": "Sao chep dia chi",
-    "cryptoCopied": "Da sao chep!"
+    "cryptoCopied": "Da sao chep!",
+    "whereHeading": "Sự ủng hộ của bạn đi về đâu",
+    "whereIntro": "Nyan Progress Bar là một dự án phụ miễn phí, nhưng nó không miễn phí để vận hành. Mỗi khoản đóng góp — dù lớn hay nhỏ — đều quay trở lại trực tiếp để giữ tiện ích hoạt động và phát triển.",
+    "whereItem1Title": "Hosting và hạ tầng",
+    "whereItem1Desc": "Trang web, tài sản hiển thị trên Chrome Web Store và pipeline email của biểu mẫu liên hệ tốn một khoản nhỏ nhưng đều đặn mỗi tháng. Sự ủng hộ của bạn giữ đèn sáng.",
+    "whereItem2Title": "Mèo và tính năng mới",
+    "whereItem2Desc": "Thiết kế và hoạt họa một chú mèo mới — hoặc xây dựng một điều khiển tùy chỉnh mới — đòi hỏi nhiều giờ làm việc tỉ mỉ. Quyên góp trả cho thời gian đó để danh mục tiếp tục lớn lên.",
+    "whereItem3Title": "Sửa lỗi và cập nhật Chrome",
+    "whereItem3Desc": "API tiện ích của Chrome luôn thay đổi, và trình phát YouTube thỉnh thoảng ra bản cập nhật làm hỏng lớp phủ thanh trượt. Sự ủng hộ tài trợ công việc bảo trì để giữ mọi thứ vận hành.",
+    "otherWaysHeading": "Cách khác để giúp đỡ",
+    "otherWaysIntro": "Chưa thể quyên góp? Không sao — có nhiều cách miễn phí để tiếp sức cho dự án.",
+    "otherWay1Title": "Để lại đánh giá trên Chrome Web Store",
+    "otherWay1Desc": "Đánh giá là tín hiệu lớn nhất giúp người khác phát hiện ra tiện ích. Ngay cả một đánh giá ngắn một dòng cũng tạo ra sự khác biệt thực sự.",
+    "otherWay2Title": "Chia sẻ với bạn bè",
+    "otherWay2Desc": "Bạn biết ai đó sống trên YouTube? Gửi liên kết cho họ. Truyền miệng là nguồn người dùng mới lớn nhất của chúng tôi.",
+    "otherWay3Title": "Báo lỗi và đề xuất ý tưởng",
+    "otherWay3Desc": "Mỗi báo cáo lỗi và yêu cầu tính năng đều định hình bản phát hành tiếp theo. Hãy dùng biểu mẫu liên hệ hoặc mở một issue trên GitHub — cả hai đều đến thẳng người duy trì.",
+    "otherWay4Title": "Đóng góp trên GitHub",
+    "otherWay4Desc": "Dự án là mã nguồn mở. Pull request cho việc sửa lỗi, dịch thuật hoặc thiết kế mèo mới luôn được chào đón.",
+    "transparencyHeading": "Cởi mở và minh bạch",
+    "transparencyBody": "Không có bậc trả phí, không có mèo cao cấp và không có quảng cáo bên trong tiện ích. Sản phẩm là như nhau cho tất cả mọi người — quyên góp hoàn toàn là cách để nói cảm ơn và giữ cho lũ mèo tiếp tục chạy."
   },
   "customizer": {
     "adjustPosition": "Điều chỉnh vị trí",
@@ -267,7 +356,22 @@
     "rateUs": "Đánh giá",
     "reviews": "đánh giá",
     "showMore": "Xem thêm",
-    "showLess": "Ẩn bớt"
+    "showLess": "Ẩn bớt",
+    "pageHeading": "Đánh giá từ người dùng thật",
+    "pageIntro1": "Nyan Progress Bar đang giữ mức trung bình 4,7 sao qua 58 đánh giá trên Chrome Web Store. Các đánh giá bên dưới là sự pha trộn — phản hồi mới nhất về phiên bản phát hành gần nhất ở trên cùng, theo sau là mọi đánh giá chúng tôi đã thu thập từ phiên bản đầu tiên. Không có gì được kiểm duyệt hay lọc. Đánh giá tiêu cực vẫn được giữ hiển thị vì chúng tôi học được nhiều từ chúng hơn bất cứ điều gì khác.",
+    "pageIntro2": "Nếu bạn đang cân nhắc cài đặt tiện ích, trang này là bức tranh trung thực nhất về sản phẩm mà chúng tôi có thể cho bạn xem. Nếu bạn đã dùng và muốn để lại đánh giá công khai, Chrome Web Store là nơi hữu ích nhất — kết quả tìm kiếm và xếp hạng ở đó chịu ảnh hưởng lớn từ các đánh giá gần đây, và một đánh giá ngắn một dòng từ bạn là cách tốt nhất giúp dự án tiếp cận thêm những người dùng YouTube khác.",
+    "themesHeading": "Điều người dùng đề cập nhiều nhất",
+    "themesIntro": "Trong hàng trăm đánh giá và báo cáo lỗi, cùng ba chủ đề lặp đi lặp lại.",
+    "theme1Title": "Quyền riêng tư và \"không theo dõi\"",
+    "theme1Body": "Bình luận tích cực phổ biến nhất là một biến thể của \"nó chỉ làm một việc và không cố gắng theo dõi tôi.\" Người dùng nhận thấy tiện ích không yêu cầu quyền không cần thiết, không gửi gì lên máy chủ và không có tài khoản hay đăng nhập. Với nhiều người, đây là yếu tố quyết định so với các tiện ích YouTube khác.",
+    "theme2Title": "Sự chau chuốt trên trình phát YouTube",
+    "theme2Body": "Người dùng thường đề cập đến việc các chú mèo được căn chỉnh tốt như thế nào trên thanh trượt YouTube. Mỗi chú mèo tích hợp đều có chiều cao và độ lệch trên mặc định được tinh chỉnh thủ công, để lớp phủ ngồi gọn gàng trên trình phát mà không cần ai đó chạm vào thanh trượt. Đây là loại chi tiết tốn rất nhiều thời gian để hoàn thiện và là phần tiện ích mà chúng tôi tự hào nhất.",
+    "theme3Title": "Tải lên GIF tùy chỉnh",
+    "theme3Body": "Ô tải lên là tính năng được nhắc đến nhiều nhất trong các đánh giá năm sao. Người dùng tải lên linh vật kênh của họ, emote cộng đồng, thú cưng của riêng mình, pixel art họ tự làm, hoặc các GIF ngẫu nhiên trên internet — và việc nhìn thấy những hoạt hình đó dưới dạng thanh trượt YouTube hóa ra là phần thưởng lớn hơn nhiều so với mô tả gợi ý.",
+    "ctaHeading": "Để lại đánh giá hoặc gửi phản hồi riêng",
+    "ctaBody": "Các đánh giá công khai trên Chrome Web Store là nơi hữu ích nhất để chia sẻ ý kiến trung thực — chúng định hình cách tiện ích xuất hiện với người dùng khác trong tìm kiếm. Đối với báo cáo lỗi, ý tưởng tính năng hoặc bất kỳ điều gì bạn không muốn viết công khai, biểu mẫu liên hệ chỉ cách một cú nhấp chuột và mọi tin nhắn đều được gửi thẳng đến người duy trì dự án.",
+    "ctaWebStoreLabel": "Để lại đánh giá trên Chrome Web Store",
+    "ctaContactLabel": "Gửi phản hồi riêng"
   },
   "releaseReviews": {
     "heading": "Đánh giá mới",
@@ -588,6 +692,144 @@
       "dance": "Mèo nhảy",
       "monochrome": "Đơn sắc",
       "orange": "Đội Cam"
+    },
+    "introHeading": "Điều đang hot trên thanh trượt YouTube ngay lúc này",
+    "introBody1": "Trang này là một danh mục sống của các phong cách cat progress bar mà người dùng đang cài đặt nhiều nhất. Nó tồn tại vì việc chọn một chú mèo dễ dàng hơn nhiều khi bạn nhìn thấy những gì người khác đang yêu thích — các kinh điển ở đỉnh nhiều năm, các theme mới vừa ra mắt và các bộ sưu tập được tuyển chọn theo vibe (kawaii, pixel, đơn sắc, nhảy múa và nhiều hơn nữa).",
+    "introBody2": "Mỗi phong cách ở đây chỉ cách một cú nhấp là thành của bạn. Chạm vào bất kỳ chú mèo nào để xem trước trong customizer trực tiếp, hoặc nhấn cài đặt để thêm tiện ích vào Chrome và xem lựa chọn của bạn trên một video YouTube thực sự. Không đăng ký, không bậc cao cấp, và mọi chú mèo đều có sẵn trong tiện ích miễn phí.",
+    "rankingsHeading": "Bảng xếp hạng hoạt động ra sao",
+    "rankingsBody1": "Mục Phổ biến được sắp xếp theo tổng số lượt cài đặt trong suốt vòng đời của tiện ích — đây là những chú mèo được người dùng chọn nhiều nhất kể từ khi ra mắt. Nyan Classic, Cute Cat và Garfield thường thay nhau ở top ba mỗi tuần, nhưng phần đuôi dài dịch chuyển khi các theme mới nổi lên.",
+    "rankingsBody2": "Đang Thịnh Hành là khung nhìn cuộn bảy ngày: các chú mèo được chọn hoặc chuyển sang nhiều nhất trong tuần qua. Các theme mới thường tăng vọt ở đây trong những ngày sau khi phát hành, nên đây là mục tốt nhất để cảm nhận điều gì đang mới. Mục Mới liệt kê mọi chú mèo được thêm vào danh mục trong 60 ngày qua, theo thứ tự phát hành.",
+    "rankingsBody3": "Bộ Sưu Tập Hàng Đầu nhóm các chú mèo theo thẩm mỹ thay vì độ phổ biến. Bộ Classic Cats giữ các bản gốc; Pixel & Retro gom mọi theme pixel art; Kawaii Pastels tập hợp những phong cách mềm mại, mắt to; Dancing Cats là các hoạt hình đồng bộ ăn ý với YouTube Music; Đơn sắc là tập tối giản; Orange Squad đúng như tên gọi.",
+    "customizeHeading": "Biến mọi phong cách thịnh hành thành của bạn",
+    "customizeBody": "Tìm thấy một phong cách bạn thích? Mở trong customizer trực tiếp và tinh chỉnh chiều cao và vị trí dọc cho đến khi nó ngồi hoàn hảo trên thanh trượt YouTube. Mỗi chú mèo nhớ cài đặt riêng, nên bạn có thể chuyển đổi giữa các phong cách thịnh hành mà không phải làm lại từ đầu.",
+    "customizeCta": "Mở customizer"
+  },
+  "about": {
+    "heading": "Về Nyan Progress Bar",
+    "intro": "Nyan Progress Bar là một tiện ích Chrome miễn phí và mã nguồn mở thay đường đỏ phẳng của thanh tiến trình YouTube bằng một chú mèo hoạt hình được chọn lựa kỹ. Trang này là câu chuyện ngắn về nó là gì, ai xây dựng và tại sao tồn tại.",
+    "s1Heading": "Nó là gì",
+    "s1Body": "Nyan Progress Bar là một tiện ích trình duyệt nhỏ, tập trung dành cho YouTube và YouTube Music. Nó làm chính xác một việc: vẽ một chú mèo hoạt hình (hoặc bất kỳ GIF nào bạn chọn) lên trên thanh trượt video. Không có menu cài đặt để học, không có tài khoản để tạo, không có gói đăng ký. Bạn cài đặt, chọn một chú mèo, và đó là toàn bộ sản phẩm.",
+    "s1Body2": "Mười hai theme mèo có sẵn ngay từ đầu, từ Nyan Cat cầu vồng nguyên bản đến vẹt pixel, mèo glitch với chromatic aberration, Garfield nhảy múa và nhiều silhouette tối giản mềm mại. Bạn cũng có thể tải lên bất kỳ GIF nào từ máy tính để dùng làm thanh trượt riêng — tệp ở lại trên thiết bị của bạn và không bao giờ được gửi đi đâu.",
+    "s2Heading": "Tại sao chúng tôi xây dựng",
+    "s2Body": "Dự án bắt đầu từ một sự khó chịu cá nhân: dành hàng giờ mỗi ngày trên YouTube, nhìn cùng một thanh tiến trình phẳng và nghĩ rằng nó có thể là một khoảnh khắc vui nhỏ thay thế. Nyan Cat cổ điển là chú mèo đầu tiên hiển nhiên để thử, và ngay khi chạy trên một video YouTube thật, rõ ràng là có một niềm vui nhỏ nhưng ý nghĩa trong đó.",
+    "s2Body2": "Mọi thứ kể từ đó được dẫn dắt bởi một ý tưởng đơn giản: một tiện ích trình duyệt có thể yên tĩnh, tập trung và đáng yêu. Hầu hết các tiện ích đòi quá nhiều quyền, hiển thị quá nhiều giao diện hoặc cố gắng kiếm tiền từ sự chú ý. Nyan Progress Bar cố ý không làm tất cả những điều đó — đây là một tiện ích nhỏ thêm một nụ cười nhỏ vào ngày của bạn, rồi tránh đường.",
+    "s3Heading": "Cách nó hoạt động",
+    "s3Body": "Bên dưới, tiện ích là một tiện ích Chrome Manifest V3 chỉ chạy trên youtube.com và music.youtube.com. Khi một trang YouTube tải, tiện ích tìm phần tử thanh tiến trình và phủ GIF bạn chọn lên trên. GIF di chuyển theo vị trí của thanh trượt vì được neo vào cùng phần tử mà YouTube dùng cho đầu phát.",
+    "s3Body2": "Lựa chọn mèo, chiều cao và giá trị độ lệch trên của bạn được lưu cục bộ bằng Chrome Storage API trên thiết bị của chính bạn. Không gì được tải lên máy chủ. Tiện ích không thực hiện yêu cầu mạng nào; nó không đọc lịch sử xem, truy vấn tìm kiếm hay bất kỳ thông tin nào khác về cách bạn dùng YouTube. Khi bạn gỡ tiện ích, mọi dấu vết biến mất cùng nó.",
+    "s4Heading": "Ai xây dựng",
+    "s4Body": "Nyan Progress Bar được xây dựng và duy trì bởi một nhà phát triển độc lập làm việc trên nó trong thời gian rảnh. Dự án là mã nguồn mở — pull request cho thiết kế mèo mới, bản dịch và sửa lỗi rất được hoan nghênh, và biểu mẫu liên hệ trên trang này đi thẳng tới người duy trì.",
+    "s4Body2": "Trang web được dịch sang mười ngôn ngữ (Anh, Tây Ban Nha, Bồ Đào Nha, Pháp, Đức, Ba Lan, Ukraina, Indonesia, Việt Nam và Philippines) để người dùng khắp thế giới có thể đọc về tiện ích bằng ngôn ngữ của mình.",
+    "s5Heading": "Giá trị của chúng tôi",
+    "s5Intro": "Một vài nguyên tắc dẫn dắt cách chúng tôi xây dựng và vận hành dự án:",
+    "s5Item1": "Quyền riêng tư trước. Tiện ích không thu thập hay truyền dữ liệu — chấm hết.",
+    "s5Item2": "Không quảng cáo bên trong tiện ích. Không upsell, không mèo cao cấp, không đăng ký.",
+    "s5Item3": "Cởi mở và minh bạch. Mã nguồn, quyên góp và lộ trình đều công khai.",
+    "s5Item4": "Một việc nhỏ làm tốt. Chúng tôi sẽ không bao giờ mở rộng sang chặn quảng cáo, bỏ qua nhà tài trợ hay các điều chỉnh YouTube chung. Thanh tiến trình là sản phẩm.",
+    "s6Heading": "Liên hệ",
+    "s6Pre": "Có câu hỏi, ý tưởng hoặc lỗi muốn báo? Cách nhanh nhất để liên hệ là qua",
+    "s6ContactLink": "biểu mẫu liên hệ",
+    "s6Mid": ", hoặc bạn có thể gửi email trực tiếp đến"
+  },
+  "terms": {
+    "heading": "Điều khoản dịch vụ",
+    "lastUpdated": "Cập nhật lần cuối: Tháng 6 năm 2025",
+    "intro": "Điều khoản Dịch vụ này (\"Điều khoản\") quy định việc bạn sử dụng trang web Nyan Progress Bar (\"Trang\") và tiện ích Chrome Nyan Progress Bar (\"Tiện ích\"). Bằng việc sử dụng Trang hoặc Tiện ích, bạn đồng ý với các Điều khoản này.",
+    "s1Heading": "1. Chấp nhận Điều khoản",
+    "s1Body": "Khi cài đặt Tiện ích hoặc sử dụng Trang, bạn xác nhận đã đọc, hiểu và đồng ý bị ràng buộc bởi các Điều khoản này. Nếu không đồng ý, vui lòng gỡ Tiện ích và ngừng sử dụng Trang. Chúng tôi có thể cập nhật các Điều khoản này theo thời gian; ngày \"cập nhật lần cuối\" ở trên phản ánh bản sửa đổi gần nhất. Tiếp tục sử dụng sau khi có thay đổi nghĩa là bạn chấp nhận các Điều khoản mới.",
+    "s2Heading": "2. Mô tả dịch vụ",
+    "s2Body": "Tiện ích là một add-on trình duyệt miễn phí phủ một GIF hoạt họa (\"chú mèo\") lên trên thanh tiến trình của YouTube và YouTube Music. Trang cung cấp thông tin về Tiện ích, một bộ tùy chỉnh trực tiếp, một danh mục theme mèo, liên kết hỗ trợ và quyên góp, cũng như các kênh liên hệ. Cả Trang và Tiện ích đều được cung cấp miễn phí.",
+    "s3Heading": "3. Trách nhiệm của người dùng và việc sử dụng được chấp nhận",
+    "s3Body": "Bạn đồng ý sử dụng Trang và Tiện ích chỉ cho mục đích hợp pháp, cá nhân. Bạn sẽ không cố gắng đảo ngược kỹ thuật, sửa đổi, phân phối lại hoặc đóng gói lại Tiện ích hoặc Trang ngoài phạm vi được cấp phép mã nguồn mở của dự án cho phép. Bạn sẽ không dùng Trang hay Tiện ích để quấy rối, gây hại hoặc giả mạo người khác.",
+    "s3Body2": "Bạn chịu trách nhiệm về các GIF bạn tải lên Tiện ích. Bạn đồng ý rằng bạn có quyền hợp pháp sử dụng bất kỳ GIF nào bạn tải lên và GIF đó không chứa nội dung bất hợp pháp, vi phạm hoặc có hại theo cách khác.",
+    "s4Heading": "4. Sở hữu trí tuệ",
+    "s4Body": "Tên Nyan Progress Bar, logo, tài sản thiết kế và các theme mèo nguyên bản thuộc về những người duy trì dự án. Các GIF mèo có sẵn trong Tiện ích là tác phẩm gốc, nội dung thuộc phạm vi công cộng, hoặc được dùng theo giấy phép cho phép phân phối lại. Các thương hiệu bên thứ ba được nhắc đến trên Trang (ví dụ YouTube, Chrome) là thương hiệu của các chủ sở hữu tương ứng và được dùng ở đây chỉ vì mục đích mô tả.",
+    "s4Body2": "Mã nguồn của Tiện ích được công bố theo giấy phép mã nguồn mở — xem kho lưu trữ GitHub để biết các điều khoản chính xác.",
+    "s5Heading": "5. Nội dung do người dùng tạo",
+    "s5Body": "Khi bạn tải lên một GIF vào Tiện ích, tệp được lưu cục bộ trong trình duyệt của chính bạn qua Chrome Storage API. Nó không được tải lên máy chủ của chúng tôi, và chúng tôi không truy cập, xem hay xử lý nó dưới bất kỳ hình thức nào. Bạn giữ tất cả các quyền đối với các GIF bạn tải lên.",
+    "s5Body2": "Nếu bạn gửi nội dung qua biểu mẫu liên hệ (tin nhắn, ảnh chụp màn hình hoặc phản hồi), bạn cấp cho chúng tôi giấy phép không độc quyền, miễn phí bản quyền để sử dụng nội dung đó nhằm phản hồi yêu cầu của bạn và cải thiện Tiện ích. Chúng tôi sẽ không chia sẻ công khai mà không có sự cho phép của bạn.",
+    "s6Heading": "6. Miễn trừ",
+    "s6Body": "Trang và Tiện ích được cung cấp \"nguyên trạng\" và \"tùy mức khả dụng\" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý. Chúng tôi không đảm bảo rằng Trang hoặc Tiện ích sẽ hoạt động không gián đoạn, không có lỗi hay tương thích với mọi phiên bản của mọi trình duyệt. YouTube bất cứ lúc nào cũng có thể thay đổi cách triển khai trình phát theo cách làm hỏng lớp phủ mèo; chúng tôi sẽ cố gắng hết sức để khắc phục những vấn đề như vậy nhanh chóng nhưng không thể đảm bảo hoạt động liên tục.",
+    "s7Heading": "7. Giới hạn trách nhiệm",
+    "s7Body": "Trong phạm vi tối đa pháp luật cho phép, dự án Nyan Progress Bar, những người duy trì và đóng góp không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hệ quả hoặc trừng phạt nào phát sinh từ việc bạn sử dụng (hoặc không thể sử dụng) Trang hoặc Tiện ích. Biện pháp khắc phục duy nhất nếu bạn không hài lòng là ngừng sử dụng Trang và gỡ Tiện ích.",
+    "s8Heading": "8. Dịch vụ bên thứ ba",
+    "s8Body": "Trang liên kết tới các dịch vụ bên thứ ba (ví dụ Chrome Web Store, GitHub, Ko-fi, Patreon, Donatello). Chúng tôi không chịu trách nhiệm về nội dung, chính sách hoặc thực hành của các dịch vụ đó. Việc bạn sử dụng các dịch vụ đó được điều chỉnh bởi các điều khoản riêng của họ.",
+    "s9Heading": "9. Luật áp dụng và thay đổi",
+    "s9Body": "Điều khoản này được điều chỉnh bởi các nguyên tắc chung của luật người tiêu dùng ở quốc gia cư trú của người duy trì; các tranh chấp sẽ được giải quyết theo tinh thần thiện chí và nỗ lực tốt nhất. Chúng tôi giữ quyền thay đổi Điều khoản này bất cứ lúc nào. Các thay đổi quan trọng sẽ được phản ánh bằng việc cập nhật ngày \"cập nhật lần cuối\".",
+    "s10Heading": "10. Liên hệ",
+    "s10Pre": "Có câu hỏi về Điều khoản này? Hãy gửi email cho chúng tôi tại"
+  },
+  "faq": {
+    "heading": "Câu hỏi thường gặp",
+    "intro": "Trả lời nhanh cho các câu hỏi chúng tôi nhận được nhiều nhất. Không tìm thấy điều bạn cần? Biểu mẫu liên hệ chỉ cách một cú nhấp.",
+    "categoryGettingStartedHeading": "Bắt đầu",
+    "categoryCustomizationHeading": "Tùy chỉnh",
+    "categoryPrivacyHeading": "Quyền riêng tư và dữ liệu",
+    "categoryTroubleshootingHeading": "Khắc phục sự cố",
+    "stillStuckHeading": "Vẫn còn câu hỏi?",
+    "stillStuckPre": "Hãy liên hệ qua",
+    "stillStuckLinkText": "biểu mẫu liên hệ",
+    "stillStuckPost": "— mọi tin nhắn đều đến thẳng người duy trì và nhận được phản hồi cá nhân.",
+    "questions": {
+      "isFree": {
+        "q": "Nyan Progress Bar có miễn phí không?",
+        "a": "Có. Tiện ích hoàn toàn miễn phí, không có bậc trả phí, mèo cao cấp hay quảng cáo trong tiện ích. Dự án được duy trì hoàn toàn bằng các khoản đóng góp tùy chọn qua Ko-fi, Patreon, Donatello và các nền tảng khác — xem trang Hỗ trợ để biết chi tiết."
+      },
+      "browsers": {
+        "q": "Hỗ trợ những trình duyệt nào?",
+        "a": "Tiện ích hỗ trợ chính thức Chrome 88 trở lên. Nó cũng hoạt động trên các trình duyệt nền Chromium gồm Microsoft Edge, Brave, Opera, Arc và Vivaldi. Bản Safari đang trong lộ trình. Firefox hiện chưa được hỗ trợ."
+      },
+      "howToInstall": {
+        "q": "Cài đặt thế nào?",
+        "a": "Truy cập trang của Nyan Progress Bar trên Chrome Web Store và nhấn \"Add to Chrome\". Xác nhận cài đặt trong hộp thoại và chú mèo sẽ xuất hiện ngay trên YouTube — không cần tải lại, không cần đăng nhập. Để xem hướng dẫn đầy đủ, hãy xem hướng dẫn cài đặt trong mục Hướng dẫn."
+      },
+      "worksOnYouTube": {
+        "q": "Có hoạt động trên YouTube và YouTube Music không?",
+        "a": "Có — cả hai. Tiện ích kích hoạt trên youtube.com và music.youtube.com. Hoạt động trong trình phát chuẩn, mini player và chế độ rạp hát. Không chạy trên bất kỳ trang web nào khác."
+      },
+      "uploadGif": {
+        "q": "Tôi có thể tải lên GIF của mình không?",
+        "a": "Hoàn toàn được. Mở popup tiện ích, nhấn ô tải lên trong lưới mèo và chọn bất kỳ GIF nào từ máy tính. Tiện ích đọc tệp cục bộ và dùng làm thanh trượt. GIF không bao giờ được tải lên máy chủ."
+      },
+      "gifFormats": {
+        "q": "Hỗ trợ những định dạng tệp nào?",
+        "a": "Tiện ích hỗ trợ tệp .gif động. Ảnh tĩnh và các định dạng động khác (APNG, WebP, MP4) không được hỗ trợ. Không có giới hạn kích thước nghiêm ngặt, nhưng các GIF nhỏ hơn (dưới vài trăm kilobyte) thường cảm giác mượt hơn trên thanh tiến trình."
+      },
+      "changePosition": {
+        "q": "Làm sao thay đổi kích thước hoặc vị trí của chú mèo?",
+        "a": "Mở popup, chọn một chú mèo và dùng thanh trượt Chiều cao và Độ lệch trên xuất hiện. Chiều cao từ 8 px đến 80 px; độ lệch trên từ -50 px đến +20 px. Cài đặt được lưu theo từng chú mèo, nên mỗi theme nhớ vẻ ngoài riêng."
+      },
+      "catOffScreen": {
+        "q": "Tại sao chú mèo của tôi lệch tâm hoặc ngoài màn hình?",
+        "a": "Các GIF khác nhau có padding khác nhau quanh hoạt họa, nên độ lệch mặc định có thể không khớp hoàn hảo với GIF tùy chỉnh của bạn. Mở popup và đẩy Độ lệch trên vài pixel cho đến khi chú mèo khớp với thanh trượt. Nếu chỉnh quá tay, nhấn \"Set default position\" để đặt lại."
+      },
+      "doesItTrack": {
+        "q": "Tiện ích có theo dõi tôi không?",
+        "a": "Không. Tiện ích không thu thập, truyền hay lưu trữ dữ liệu cá nhân. Nó không đọc lịch sử xem, truy vấn tìm kiếm hay bất kỳ hoạt động nào khác trên YouTube. Dữ liệu duy nhất được lưu là lựa chọn mèo và vị trí thanh trượt — cả hai đều lưu cục bộ trên thiết bị của bạn."
+      },
+      "sendsDataAnywhere": {
+        "q": "Nó có gửi bất cứ thứ gì qua internet không?",
+        "a": "Không. Tiện ích không thực hiện yêu cầu mạng nào. GIF bạn tải lên và cài đặt vẫn ở thiết bị của bạn. Bản thân trang web có dùng Google Analytics cho thống kê truy cập ẩn danh — xem Chính sách Bảo mật để biết chi tiết — nhưng Tiện ích hoàn toàn ngoại tuyến."
+      },
+      "worksOffline": {
+        "q": "Có hoạt động ngoại tuyến không?",
+        "a": "Bản thân Tiện ích chạy ngoại tuyến. Video YouTube tất nhiên cần kết nối internet để phát, nhưng lớp phủ mèo không yêu cầu kết nối ngoài nào của riêng nó."
+      },
+      "catNotShowing": {
+        "q": "Chú mèo không xuất hiện trên YouTube. Tôi phải làm gì?",
+        "a": "Trước hết, làm mới tab YouTube — Tiện ích cần chèn lớp phủ khi trang tải. Nếu không hiệu quả, hãy chắc chắn Tiện ích được bật bằng cách truy cập chrome://extensions và kiểm tra công tắc. Nếu cập nhật trình phát YouTube gần đây làm hỏng lớp phủ, hãy báo qua biểu mẫu liên hệ để chúng tôi phát hành bản vá."
+      },
+      "extensionDisappeared": {
+        "q": "Biểu tượng Tiện ích biến mất khỏi thanh công cụ.",
+        "a": "Có thể Chrome đã bỏ ghim. Nhấn biểu tượng mảnh ghép cạnh thanh địa chỉ để xem tất cả tiện ích, rồi nhấn biểu tượng ghim bên cạnh Nyan Progress Bar để đưa nó trở lại thanh công cụ."
+      },
+      "uploadFails": {
+        "q": "GIF của tôi không tải lên được.",
+        "a": "Hãy chắc tệp có đuôi .gif và là GIF động thực sự (một số \"GIF\" trên mạng xã hội thực ra là video MP4 với nhãn gây hiểu nhầm). Nếu tệp quá lớn, hãy thử bản nhỏ hơn — bộ nhớ cục bộ của Chrome có giới hạn. Nếu vẫn không được, gửi bản sao qua biểu mẫu liên hệ và chúng tôi sẽ xem xét."
+      },
+      "howToUninstall": {
+        "q": "Làm sao gỡ Tiện ích?",
+        "a": "Truy cập chrome://extensions, tìm Nyan Progress Bar và nhấn \"Remove\". Mọi cài đặt được lưu cục bộ và GIF đã tải lên đều bị xóa tự động. Nếu có vài phút, biểu mẫu phản hồi gỡ ngắn sẽ giúp chúng tôi cải thiện bản phát hành tiếp theo."
+      }
     }
   }
 }

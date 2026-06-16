@@ -22,5 +22,5 @@ export default async function CustomizerPage({ params }: { params: Promise<{ lan
 
   const dict = await getDictionary(lang as Locale);
 
-  return <CustomizerView dict={dict} />;
+  return <CustomizerView dict={dict} lang={lang} />;
 }

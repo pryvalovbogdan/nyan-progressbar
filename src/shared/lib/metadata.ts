@@ -12,7 +12,10 @@ export type PageKey =
   | 'customizer'
   | 'privacy'
   | 'howToUse'
-  | 'trending';
+  | 'trending'
+  | 'about'
+  | 'terms'
+  | 'faq';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? '';
 
@@ -27,6 +30,9 @@ const ROUTE: Record<PageKey, string> = {
   privacy: '/privacy',
   howToUse: '/how-to-use',
   trending: '/trending',
+  about: '/about',
+  terms: '/terms',
+  faq: '/faq',
 };
 
 const OG_LOCALE: Record<Locale, string> = {

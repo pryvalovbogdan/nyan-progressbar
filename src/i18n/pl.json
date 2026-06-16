@@ -39,6 +39,18 @@
     "uninstall": {
       "title": "Pomóż nam się rozwijać — Nyan Progress Bar",
       "description": "Powiedz nam, co poszło nie tak z rozszerzeniem. Anonimowo lub z e-mailem — Twoja opinia kształtuje kolejne wydanie."
+    },
+    "about": {
+      "title": "O Nyan Progress Bar — Projekt i Zespół",
+      "description": "Poznaj ludzi stojących za Nyan Progress Bar, dlaczego stworzyliśmy rozszerzenie i jak działa nasza darmowa wtyczka do Chrome."
+    },
+    "terms": {
+      "title": "Warunki użytkowania — Nyan Progress Bar",
+      "description": "Warunki regulujące korzystanie ze strony Nyan Progress Bar i rozszerzenia Chrome."
+    },
+    "faq": {
+      "title": "Najczęstsze pytania — Nyan Progress Bar",
+      "description": "Odpowiedzi na najczęściej zadawane pytania dotyczące instalacji, dostosowania i rozwiązywania problemów z rozszerzeniem Nyan Progress Bar dla Chrome."
     }
   },
   "nav": {
@@ -74,7 +86,29 @@
     "popularCats": {
       "heading": "Najpopularniejszy kitty",
       "description": "Koty najczęściej wybierane przez użytkowników."
-    }
+    },
+    "tipsHeading": "Wskazówki do dostosowania",
+    "tipsIntro": "Kilka drobnych zmian może gigantycznie zmienić to, jak Twój kot siedzi na pasku YouTube. Oto poprawki, które dają największy efekt.",
+    "tip1Title": "Dopasuj kota do swoich filmów",
+    "tip1Desc": "Pikselowe koty i GIF-y w stylu chiptune świetnie pasują do retro gamingu i lo-fi muzycznych streamów. Klasyczny Nyan Cat pasuje do wszystkiego; koty kawaii są zabawne i słodkie. Wypróbuj kilka — zmiana jest natychmiastowa.",
+    "tip2Title": "Wysokość zmienia cały klimat",
+    "tip2Desc": "Wysokość 16–24 px wydaje się subtelna i znika w odtwarzaczu. Podnieś ją do 40–60 px, a kot staje się głównym elementem. Nie ma złej odpowiedzi — wybierz to, co cię cieszy podczas przewijania.",
+    "tip3Title": "Użyj przesunięcia, aby wyśrodkować kota",
+    "tip3Desc": "Różne GIF-y mają różne odstępy wokół animacji, więc kot może domyślnie siedzieć za wysoko albo za nisko. Przesuń wartość kilka pikseli, aż łapki kota wyrównają się z linią paska YouTube.",
+    "tip4Title": "Wybieraj GIF-y z przezroczystym tłem",
+    "tip4Desc": "GIF-y z jednolitym kolorowym tłem pokażą ten kolor na pasku. GIF-y z przezroczystym tłem czysto wtapiają się w interfejs YouTube. Większość wyszukiwarek pozwala filtrować wyniki z przezroczystością.",
+    "useCasesHeading": "Popularne zastosowania",
+    "useCasesIntro": "Różni ludzie znajdują swojego kota na różne sposoby. Oto trzy schematy, o których najczęściej słyszymy.",
+    "useCase1Title": "Długie oglądanie",
+    "useCase1Desc": "Wykłady, podcasty, tutoriale i dokumenty: kot wędrujący po 40-minutowym pasku to drobna porcja ruchu, która sprawia, że długie filmy wydają się mniej statyczne. Wielu użytkowników wybiera spokojnego, chodzącego kota.",
+    "useCase2Title": "Muzyka i lo-fi",
+    "useCase2Desc": "Użytkownicy YouTube Music lubią tańczące lub skaczące koty — Orange Dance, Kitty Wigglez i klasyczny Nyan to wieczne faworyty. Ruch synchronizuje się z muzyką w sposób naturalny.",
+    "useCase3Title": "Streaming i udostępnianie ekranu",
+    "useCase3Desc": "Streamerzy i osoby udostępniające przeglądarkę na Zoomie często wybierają jednego wyrazistego kota (Garfielda, Pixel Tigera), aby pasek był widocznym elementem brandingu. Niektórzy wgrywają nawet własny GIF dopasowany do swojego kanału.",
+    "faqHintHeading": "Nadal masz problem?",
+    "faqHintPre": "Większość pytań o instalację i dostosowanie znajdziesz na",
+    "faqHintLinkText": "stronie FAQ",
+    "faqHintPost": "— zerknij tam najpierw."
   },
   "header": {
     "logoAlt": "Kot Nyan"
@@ -85,7 +119,10 @@
     "support": "Wesprzyj",
     "privacy": "Prywatność",
     "howToUse": "Przewodniki",
-    "cookies": "Pliki cookie"
+    "cookies": "Pliki cookie",
+    "about": "O nas",
+    "terms": "Regulamin",
+    "faq": "FAQ"
   },
   "cookieConsent": {
     "title": "Pliki cookie",
@@ -125,7 +162,26 @@
     "feature2Title": "Wgraj własny GIF",
     "feature2Desc": "Użyj dowolnego GIF-a jako własnego scrubbera.",
     "feature3Title": "Działa wszędzie",
-    "feature3Desc": "YouTube i YouTube Music, standardowy i mini odtwarzacz."
+    "feature3Desc": "YouTube i YouTube Music, standardowy i mini odtwarzacz.",
+    "introHeading": "Drobne ulepszenie każdego filmu, który oglądasz",
+    "introBody1": "Nyan Progress Bar to bezpłatne rozszerzenie Chrome, które zastępuje płaski czerwony pasek postępu YouTube ręcznie wybranym animowanym kotem. Działa w całości w Twojej przeglądarce, niczego nie wymaga i dodaje odrobinę osobowości paskowi, na który patrzysz cały dzień. Dwanaście kotów jest dostępnych od razu po instalacji — oryginalny tęczowy Nyan Cat, pikselowa papuga, kot glitch, tańczący Garfield i kilka miękkich, minimalistycznych sylwetek — a Ty możesz wgrać dowolny GIF jako własny niestandardowy wskaźnik.",
+    "introBody2": "Cały produkt to drobne ulepszenie. Instalujesz rozszerzenie, wybierasz kota i od tego momentu każdy film na YouTube i każdy utwór w YouTube Music ma maleńką maskotkę podążającą za wskaźnikiem odtwarzania. Nie trzeba zakładać konta, nie ma menu ustawień do nauczenia się, nie ma poziomu premium. Po prostu działa, a gdy już jest, przestajesz zauważać, że coś robi — dopóki w środku filmu nie sprawi Ci uśmiechu.",
+    "howHeading": "Jak to działa",
+    "howIntro": "Trzy kroki od instalacji do kota na pasku YouTube.",
+    "howStep1Title": "Zainstaluj jednym kliknięciem",
+    "howStep1Desc": "Dodaj Nyan Progress Bar z Chrome Web Store. Rozszerzenie waży około 15 KB, zbudowane jest na Manifest V3 i prosi jedynie o dostęp do youtube.com i music.youtube.com.",
+    "howStep2Title": "Wybierz kota",
+    "howStep2Desc": "Otwórz popup i dotknij dowolnego z dwunastu wbudowanych kotów — lub wgraj własny GIF. Twój wybór zapisuje się lokalnie i natychmiast trafia na każdą otwartą kartę YouTube, bez ponownego ładowania.",
+    "howStep3Title": "Dopasuj pozycję",
+    "howStep3Desc": "Użyj suwaków Wysokość i Przesunięcie w górę w popupie, aby kot idealnie usiadł na pasku. Każdy kot pamięta własne ustawienia, więc możesz zmieniać motywy bez ponownej regulacji.",
+    "useCasesHeading": "Stworzone dla tych, którzy żyją na YouTube",
+    "useCasesBody1": "Oglądanie długich materiałów to miejsce, w którym Nyan Progress Bar błyszczy. Czterdziestominutowe wykłady, dziewięćdziesięciominutowe dokumenty, trzygodzinne podcasty — mały animowany kot przesuwający się po pasku dodaje statycznemu wskaźnikowi trochę życia. Większość użytkowników wybiera spokojnego chodzącego kota i zapomina, że pasek kiedykolwiek był płaską linią.",
+    "useCasesBody2": "W YouTube Music to bardziej energiczne koty przejmują pałeczkę. Orange Cat Dance, Kitty Wigglez i oryginalny Nyan Cat synchronizują się naturalnie z rytmem utworu i sprawiają, że odtwarzacz muzyki wydaje się mniej użytkowy, a bardziej jak mały plac zabaw. Wielu użytkowników muzyki trzyma jednego tańczącego kota jako stałego towarzysza codziennej playlisty.",
+    "useCasesBody3": "Streamerzy i osoby udostępniające ekran na rozmowach wybierają wyrazisty wygląd jednego kota — Garfielda lub Pixel Tigera — aby kot stał się widocznym elementem osobistego brandingu. Kafelek do wgrywania własnego GIF-a jest tutaj również popularny: wrzuć maskotkę swojego kanału lub emote społeczności, a pasek stanie się Twój.",
+    "trustHeading": "Open source, bez reklam, cicho finansowane przez użytkowników",
+    "trustBody": "Nyan Progress Bar jest publikowany jako projekt open source. W rozszerzeniu nie ma reklam, nie ma poziomu premium, nie ma sprzedaży dodatkowej i nie ma analityki, która Cię śledzi. Hosting i bieżący rozwój są w całości finansowane z dobrowolnych dotacji od użytkowników, którzy kochają ten produkt.",
+    "trustLinkGithubLabel": "Zobacz kod źródłowy na GitHubie",
+    "trustLinkSupportLabel": "Wesprzyj projekt"
   },
   "extension": {
     "heading": "Pobierz Nyan Progress Bar",
@@ -148,7 +204,20 @@
     "questionHeading": "Masz pytanie?",
     "questionPre": "Sprawdź",
     "questionLinkText": "centrum wsparcia",
-    "questionPost": "lub otwórz raport o błędzie."
+    "questionPost": "lub otwórz raport o błędzie.",
+    "whyHeading": "Dlaczego warto używać Nyan Progress Bar?",
+    "whyBody1": "Domyślny pasek postępu YouTube to płaska czerwona linia — przydatna, ale łatwa do zignorowania. Nyan Progress Bar zastępuje tę linię ręcznie wybranym animowanym kotem (lub dowolnym GIF-em), tak że wskaźnik staje się drobnym kawałkiem osobowości, który naprawdę zauważasz. Mała codzienna radość przy każdym filmie.",
+    "whyBody2": "Stworzone dla osób, które żyją na YouTube: długie filmy i wykłady, playlisty muzyki i lo-fi na YouTube Music, codzienne wiadomości, streamy gamingowe i praca kreatywna. Kot porusza się z wskaźnikiem, nigdy nie przeszkadza w oglądaniu i znika w chwili odinstalowania.",
+    "whyBody3": "Ponieważ rozszerzenie działa w całości w Twojej przeglądarce — bez kont, bez serwerów, bez analityki — nie ma się czego rejestrować ani niczego się obawiać. Instalujesz je, zapominasz, że istnieje, a filmy po prostu wydają się bardziej Twoje.",
+    "howHeading": "Jak to działa",
+    "howStep1Title": "1. Zainstaluj jednym kliknięciem",
+    "howStep1Desc": "Dodaj Nyan Progress Bar z Chrome Web Store. Rozszerzenie waży ~15 KB, jest oparte na Manifest V3 i prosi tylko o dostęp do YouTube i YouTube Music.",
+    "howStep2Title": "2. Wybierz swojego kota",
+    "howStep2Desc": "Otwórz popup i dotknij dowolnego z 12 wbudowanych kotów — albo wrzuć własny GIF. Wybór zapisuje się lokalnie i synchronizuje na wszystkich otwartych kartach YouTube.",
+    "howStep3Title": "3. Dopracuj pozycję",
+    "howStep3Desc": "Użyj suwaków wysokości i przesunięcia, aby Twój kot idealnie usiadł na pasku. Ustawienia są zapamiętywane osobno dla każdego kota, więc każdy motyw pamięta własny wygląd.",
+    "comparisonHeading": "Co je wyróżnia",
+    "comparisonBody": "Inne rozszerzenia do YouTube skupiają się na blokowaniu reklam, pomijaniu sponsorów lub zmianach motywu. Nyan Progress Bar to jedyne rozszerzenie dedykowane paskowi postępu — każdy kot jest ręcznie dostrojony pod wysokość i ruch paska YouTube, z rozsądnymi wartościami domyślnymi, więc nie musisz dotykać suwaków, jeśli nie chcesz. Efekt to jeden mały, dopracowany detal, który nie kłóci się z resztą interfejsu YouTube."
   },
   "contact": {
     "heading": "Centrum Wsparcia",
@@ -242,7 +311,27 @@
     "cryptoDesc": "Wyslij USDT przez siec TRON (TRC-20). Zeskanuj QR lub skopiuj adres.",
     "cryptoNetwork": "TRC-20",
     "cryptoCopy": "Kopiuj adres",
-    "cryptoCopied": "Skopiowano!"
+    "cryptoCopied": "Skopiowano!",
+    "whereHeading": "Na co idzie Twoje wsparcie",
+    "whereIntro": "Nyan Progress Bar to darmowy projekt poboczny, ale jego prowadzenie nie jest darmowe. Każda wpłata — niezależnie od wysokości — wraca prosto do utrzymania i rozwijania rozszerzenia.",
+    "whereItem1Title": "Hosting i infrastruktura",
+    "whereItem1Desc": "Strona, materiały w Chrome Web Store i obsługa formularza kontaktowego kosztują niewielką, ale stałą kwotę co miesiąc. Twoje wsparcie utrzymuje światło.",
+    "whereItem2Title": "Nowe koty i funkcje",
+    "whereItem2Desc": "Zaprojektowanie i zanimowanie nowego kota — albo zbudowanie nowej kontrolki — wymaga godzin precyzyjnej pracy. Dotacje opłacają ten czas, żeby katalog dalej rósł.",
+    "whereItem3Title": "Naprawy błędów i aktualizacje Chrome",
+    "whereItem3Desc": "API rozszerzeń Chrome stale się zmienia, a YouTube czasami wprowadza zmiany w odtwarzaczu, które psują nakładkę kota. Wsparcie finansuje pracę utrzymaniową, która sprawia, że wszystko nadal działa.",
+    "otherWaysHeading": "Inne sposoby, aby pomóc",
+    "otherWaysIntro": "Nie masz możliwości wpłaty? Bez obaw — jest wiele bezpłatnych sposobów, aby wesprzeć projekt.",
+    "otherWay1Title": "Zostaw recenzję w Chrome Web Store",
+    "otherWay1Desc": "Recenzje to największy sygnał, który pomaga innym odkryć rozszerzenie. Nawet jednoliniowa ocena robi realną różnicę.",
+    "otherWay2Title": "Podziel się ze znajomym",
+    "otherWay2Desc": "Znasz kogoś, kto żyje na YouTube? Wyślij mu link. Poczta pantoflowa to nasze największe źródło nowych użytkowników.",
+    "otherWay3Title": "Zgłaszaj błędy i pomysły",
+    "otherWay3Desc": "Każde zgłoszenie błędu i każda prośba o funkcję kształtuje kolejne wydanie. Skorzystaj z formularza kontaktowego lub otwórz zgłoszenie na GitHubie — oba trafiają prosto do opiekuna.",
+    "otherWay4Title": "Wspomóż na GitHubie",
+    "otherWay4Desc": "Projekt jest open source. Pull requesty z poprawkami, tłumaczeniami lub nowymi projektami kotów są bardzo mile widziane.",
+    "transparencyHeading": "Otwarcie i transparentnie",
+    "transparencyBody": "Nie ma płatnych poziomów, premium kotów ani reklam wewnątrz rozszerzenia. Produkt jest taki sam dla wszystkich — wpłaty to wyłącznie sposób, by powiedzieć dziękuję i utrzymać koty w ruchu."
   },
   "customizer": {
     "adjustPosition": "Dostosuj pozycję",
@@ -267,7 +356,22 @@
     "rateUs": "Oceń nas",
     "reviews": "recenzji",
     "showMore": "Pokaż więcej",
-    "showLess": "Pokaż mniej"
+    "showLess": "Pokaż mniej",
+    "pageHeading": "Opinie od prawdziwych użytkowników",
+    "pageIntro1": "Nyan Progress Bar utrzymuje średnią 4,7 gwiazdki w 58 opiniach w Chrome Web Store. Opinie poniżej to mieszanka — najświeższe komentarze do ostatniego wydania na górze, a pod nimi wszystkie opinie, które zebraliśmy od pierwszej wersji. Nic nie jest selekcjonowane ani filtrowane. Negatywne opinie pozostają widoczne, bo uczymy się z nich więcej niż z czegokolwiek innego.",
+    "pageIntro2": "Jeśli zastanawiasz się nad instalacją rozszerzenia, ta strona to najbardziej szczery obraz produktu, jaki możemy Ci dać. Jeśli już go używasz i chcesz zostawić publiczną opinię, Chrome Web Store jest najbardziej przydatnym miejscem — wyniki wyszukiwania i ranking są tam silnie zależne od ostatnich ocen, a Twoja jednoliniowa opinia to najlepszy sposób, by pomóc projektowi dotrzeć do innych użytkowników YouTube.",
+    "themesHeading": "O czym użytkownicy wspominają najczęściej",
+    "themesIntro": "W setkach opinii i zgłoszeń błędów te same trzy wątki przewijają się raz po raz.",
+    "theme1Title": "Prywatność i „brak śledzenia\"",
+    "theme1Body": "Zdecydowanie najczęstszy pozytywny komentarz to jakaś wersja „robi jedną rzecz i nie próbuje mnie śledzić\". Użytkownicy zauważają, że rozszerzenie nie prosi o zbędne uprawnienia, nie wysyła nic na serwer i nie ma konta ani logowania. Dla wielu osób to czynnik decydujący w porównaniu z innymi rozszerzeniami do YouTube.",
+    "theme2Title": "Dopracowanie odtwarzacza YouTube",
+    "theme2Body": "Użytkownicy często wspominają, jak dobrze koty są dopasowane do paska YouTube. Każdy wbudowany kot ma ręcznie ustawioną domyślną wysokość i przesunięcie, więc nakładka siedzi czysto na odtwarzaczu bez dotykania suwaków. To rodzaj detalu, który zajmuje dużo czasu, i część rozszerzenia, z której jesteśmy najbardziej dumni.",
+    "theme3Title": "Wgrywanie własnych GIF-ów",
+    "theme3Body": "Kafelek do wgrywania to funkcja najczęściej wymieniana w pięciogwiazdkowych opiniach. Użytkownicy wgrywają maskotki swoich kanałów, emote swoich społeczności, własne zwierzaki, samodzielnie zrobione pixel arty lub przypadkowe GIF-y z internetu — a widok tych animacji jako paska YouTube okazuje się znacznie większą nagrodą, niż sugeruje opis.",
+    "ctaHeading": "Zostaw opinię lub wyślij prywatną informację zwrotną",
+    "ctaBody": "Publiczne opinie w Chrome Web Store to najbardziej pomocne miejsce, by podzielić się szczerą oceną — kształtują sposób, w jaki rozszerzenie pokazuje się innym użytkownikom w wyszukiwarce. Do zgłoszeń błędów, pomysłów na funkcje lub czegokolwiek, czego wolisz nie pisać publicznie, formularz kontaktowy jest jeden klik dalej, a każda wiadomość trafia bezpośrednio do osoby opiekującej się projektem.",
+    "ctaWebStoreLabel": "Zostaw opinię w Chrome Web Store",
+    "ctaContactLabel": "Wyślij prywatną informację zwrotną"
   },
   "releaseReviews": {
     "heading": "Najnowsze opinie",
@@ -588,6 +692,144 @@
       "dance": "Tańczące koty",
       "monochrome": "Monochromatyczne",
       "orange": "Drużyna Rudych"
+    },
+    "introHeading": "Co teraz rządzi na pasku YouTube",
+    "introBody1": "Ta strona to żywy katalog stylów cat progress bar, które użytkownicy instalują obecnie najczęściej. Powstała dlatego, że wybór kota jest dużo łatwiejszy, kiedy można zobaczyć, co lubią inni — klasyki, które od lat pozostają na szczycie, nowe motywy, które właśnie się pojawiły, oraz kuratorskie kolekcje pogrupowane według klimatu (kawaii, piksel, monochromatyczne, taneczne i więcej).",
+    "introBody2": "Każdy styl tutaj jest o jeden klik od tego, by stać się Twoim. Stuknij dowolnego kota, aby zobaczyć go w podglądzie w edytorze na żywo, albo kliknij Zainstaluj, aby dodać rozszerzenie do Chrome i zobaczyć swój wybór na prawdziwym filmie YouTube. Bez rejestracji, bez wersji premium, a każdy kot jest dostępny w darmowym rozszerzeniu.",
+    "rankingsHeading": "Jak działają rankingi",
+    "rankingsBody1": "Sekcja Popularne jest posortowana według łącznej liczby instalacji w całym okresie życia rozszerzenia — to koty, które od premiery były wybierane najczęściej przez wszystkich użytkowników. Nyan Classic, Cute Cat i Garfield wymieniają się trzema pierwszymi miejscami przez większość tygodni, ale długi ogon przesuwa się, gdy nowe motywy zyskują popularność.",
+    "rankingsBody2": "Trendy teraz to widok kroczący z ostatnich siedmiu dni: koty, które w ciągu minionego tygodnia były najczęściej wybierane lub na które najczęściej się przełączano. Nowe motywy często mocno wybijają się tutaj w dniach po premierze, więc to najlepsza sekcja, by wyczuć, co jest świeże. Sekcja Nowe wymienia wszystkie koty dodane do katalogu w ostatnich 60 dniach, w kolejności wydania.",
+    "rankingsBody3": "Najlepsze Kolekcje grupują koty według estetyki, a nie popularności. Kolekcja Classic Cats zawiera oryginały; Pixel & Retro zbiera wszystkie pikselowe motywy; Kawaii Pastels łączy delikatne, wielkookie style; Dancing Cats to animacje, które dobrze synchronizują się z YouTube Music; Monochromatyczne to zestaw minimalistyczny; Orange Squad to dokładnie to, na co brzmi.",
+    "customizeHeading": "Uczyń każdy trendujący styl własnym",
+    "customizeBody": "Znalazłeś jeden, który Ci pasuje? Otwórz go w edytorze na żywo i dopasuj wysokość i pozycję pionową, aż idealnie usiądzie na pasku YouTube. Każdy kot pamięta własne ustawienia, więc możesz przełączać się między trendującymi stylami bez powtarzania pracy.",
+    "customizeCta": "Otwórz edytor"
+  },
+  "about": {
+    "heading": "O Nyan Progress Bar",
+    "intro": "Nyan Progress Bar to darmowe, otwartoźródłowe rozszerzenie Chrome, które zamienia płaską czerwoną linię paska postępu YouTube na ręcznie dobranego animowanego kota. Ta strona to krótka historia o tym, czym jest projekt, kto go tworzy i dlaczego istnieje.",
+    "s1Heading": "Czym jest",
+    "s1Body": "Nyan Progress Bar to małe, skupione rozszerzenie przeglądarki dla YouTube i YouTube Music. Robi dokładnie jedną rzecz: rysuje animowanego kota (lub dowolny wybrany GIF) na pasku odtwarzania. Brak menu ustawień do nauki, brak konta do założenia, brak subskrypcji. Instalujesz, wybierasz kota i to cały produkt.",
+    "s1Body2": "Dwanaście motywów kotów dostępnych jest od razu — od oryginalnego tęczowego Nyan Cata po pikselową papugę, glitchowego kota z chromatic aberration, tańczącego Garfielda i kilka minimalistycznych sylwetek. Możesz też wgrać dowolny GIF z dysku i użyć go jako własnego paska — plik zostaje na Twoim urządzeniu i nigdy nigdzie nie jest wysyłany.",
+    "s2Heading": "Dlaczego to zbudowaliśmy",
+    "s2Body": "Projekt zaczął się od osobistej frustracji: spędzania godzin dziennie na YouTube, patrzenia codziennie na ten sam płaski pasek postępu i myślenia, że mógłby to być mały moment radości. Klasyczny Nyan Cat wydawał się oczywistym pierwszym kotem, a kiedy zaczął działać na prawdziwym filmie YouTube, było jasne, że jest w tym mała, ale prawdziwa przyjemność.",
+    "s2Body2": "Wszystko od tamtej pory napędza prosta myśl: rozszerzenie przeglądarki może być spokojne, skupione i przyjemne. Większość rozszerzeń prosi o zbyt wiele uprawnień, pokazuje za dużo interfejsu albo próbuje monetyzować uwagę. Nyan Progress Bar świadomie nie robi nic z tych rzeczy — to drobne narzędzie, które dodaje uśmiech do dnia, a potem usuwa się z drogi.",
+    "s3Heading": "Jak działa",
+    "s3Body": "Pod maską to rozszerzenie Chrome Manifest V3, które uruchamia się tylko na youtube.com i music.youtube.com. Kiedy strona YouTube się ładuje, rozszerzenie znajduje element paska postępu i nakłada na niego wybrany GIF. GIF porusza się wraz z pozycją paska, ponieważ jest zakotwiczony w tym samym elemencie, który YouTube wykorzystuje do wskaźnika.",
+    "s3Body2": "Twój wybór kota, wysokość i przesunięcie są zapisywane lokalnie za pomocą Chrome Storage API na Twoim urządzeniu. Nic nie jest wysyłane na serwer. Rozszerzenie nie wykonuje żadnych zapytań sieciowych; nie czyta historii oglądania, zapytań wyszukiwania ani niczego o Twojej aktywności na YouTube. Po odinstalowaniu wszelki ślad znika razem z nim.",
+    "s4Heading": "Kto je tworzy",
+    "s4Body": "Nyan Progress Bar tworzy i utrzymuje niezależny programista, który pracuje nad nim w wolnym czasie. Projekt jest open source — pull requesty z nowymi projektami kotów, tłumaczeniami i poprawkami są bardzo mile widziane, a formularz kontaktowy na tej stronie trafia bezpośrednio do opiekuna.",
+    "s4Body2": "Strona jest przetłumaczona na dziesięć języków (angielski, hiszpański, portugalski, francuski, niemiecki, polski, ukraiński, indonezyjski, wietnamski i filipiński), aby użytkownicy z całego świata mogli czytać o rozszerzeniu we własnym języku.",
+    "s5Heading": "Nasze wartości",
+    "s5Intro": "Kilka zasad kieruje sposobem, w jaki rozwijamy i prowadzimy projekt:",
+    "s5Item1": "Prywatność na pierwszym miejscu. Rozszerzenie nie zbiera ani nie wysyła danych — kropka.",
+    "s5Item2": "Brak reklam wewnątrz rozszerzenia. Bez upsellów, premium kotów ani subskrypcji.",
+    "s5Item3": "Otwartość i transparentność. Kod, wpłaty i plan rozwoju są jawne.",
+    "s5Item4": "Jedna drobna rzecz zrobiona dobrze. Nigdy nie rozszerzymy projektu o blokowanie reklam, pomijanie sponsorów czy ogólne modyfikacje YouTube. Pasek postępu to produkt.",
+    "s6Heading": "Skontaktuj się",
+    "s6Pre": "Masz pytanie, pomysł albo zgłoszenie błędu? Najszybciej dotrzesz do nas przez",
+    "s6ContactLink": "formularz kontaktowy",
+    "s6Mid": ", możesz też napisać bezpośrednio na"
+  },
+  "terms": {
+    "heading": "Warunki użytkowania",
+    "lastUpdated": "Ostatnia aktualizacja: czerwiec 2025",
+    "intro": "Niniejsze Warunki Użytkowania („Warunki\") regulują korzystanie ze strony Nyan Progress Bar („Strona\") oraz rozszerzenia Chrome Nyan Progress Bar („Rozszerzenie\"). Korzystając ze Strony lub Rozszerzenia, akceptujesz niniejsze Warunki.",
+    "s1Heading": "1. Akceptacja Warunków",
+    "s1Body": "Instalując Rozszerzenie lub korzystając ze Strony, potwierdzasz, że przeczytałeś, zrozumiałeś i zgadzasz się być związany niniejszymi Warunkami. Jeśli się nie zgadzasz, prosimy o odinstalowanie Rozszerzenia i zaprzestanie korzystania ze Strony. Możemy aktualizować niniejsze Warunki od czasu do czasu; data „ostatniej aktualizacji\" powyżej odzwierciedla ostatnią poprawkę. Dalsze korzystanie po zmianie oznacza akceptację nowych Warunków.",
+    "s2Heading": "2. Opis usługi",
+    "s2Body": "Rozszerzenie to darmowy dodatek do przeglądarki, który nakłada animowany GIF („kota\") na pasek postępu YouTube i YouTube Music. Strona dostarcza informacje o Rozszerzeniu, interaktywny edytor, katalog motywów kotów, linki wsparcia i darowizn oraz kanały kontaktu. Zarówno Strona, jak i Rozszerzenie są dostępne nieodpłatnie.",
+    "s3Heading": "3. Obowiązki użytkownika i dopuszczalne użycie",
+    "s3Body": "Zgadzasz się korzystać ze Strony i Rozszerzenia wyłącznie w celach zgodnych z prawem i osobistych. Nie będziesz podejmować prób inżynierii wstecznej, modyfikacji, redystrybucji ani ponownego pakowania Rozszerzenia lub Strony poza zakresem dozwolonym przez licencję open source projektu. Nie będziesz wykorzystywać Strony ani Rozszerzenia do nękania, krzywdzenia lub podszywania się pod innych.",
+    "s3Body2": "Jesteś odpowiedzialny za wgrywane do Rozszerzenia GIF-y. Potwierdzasz, że masz prawo do korzystania z każdego wgranego GIF-a i że nie zawiera on treści nielegalnych, naruszających prawa ani w inny sposób szkodliwych.",
+    "s4Heading": "4. Własność intelektualna",
+    "s4Body": "Nazwa Nyan Progress Bar, logo, zasoby projektowe i oryginalne motywy kotów należą do opiekunów projektu. GIF-y kotów zawarte w Rozszerzeniu są oryginalnymi pracami, treściami domeny publicznej lub używanymi na podstawie licencji zezwalających na redystrybucję. Marki trzecie wymienione na Stronie (np. YouTube, Chrome) są znakami towarowymi ich właścicieli i są tu używane wyłącznie w celach opisowych.",
+    "s4Body2": "Kod źródłowy Rozszerzenia jest publikowany na licencji open source — dokładne warunki znajdziesz w repozytorium GitHub.",
+    "s5Heading": "5. Treści użytkownika",
+    "s5Body": "Kiedy wgrywasz GIF do Rozszerzenia, plik jest przechowywany lokalnie w Twojej przeglądarce za pomocą Chrome Storage API. Nie jest przesyłany na nasze serwery i w żaden sposób nie mamy do niego dostępu, nie podglądamy go ani nie przetwarzamy. Zachowujesz wszystkie prawa do wgranych GIF-ów.",
+    "s5Body2": "Jeśli prześlesz treść przez formularz kontaktowy (wiadomość, zrzut ekranu lub opinię), udzielasz nam niewyłącznej, bezpłatnej licencji na wykorzystanie tej treści w celu odpowiedzi na Twoje zgłoszenie i ulepszania Rozszerzenia. Nie udostępnimy jej publicznie bez Twojej zgody.",
+    "s6Heading": "6. Zastrzeżenia",
+    "s6Body": "Strona i Rozszerzenie są udostępniane „tak jak są\" i „w miarę dostępności\", bez gwarancji jakiegokolwiek rodzaju, wyraźnych lub dorozumianych. Nie gwarantujemy, że Strona lub Rozszerzenie będą działać nieprzerwanie, bezbłędnie lub kompatybilnie z każdą wersją każdej przeglądarki. YouTube może w dowolnym momencie zmienić implementację odtwarzacza w sposób, który zepsuje nakładkę kota; postaramy się jak najszybciej naprawić takie problemy, ale nie możemy zagwarantować ciągłości działania.",
+    "s7Heading": "7. Ograniczenie odpowiedzialności",
+    "s7Body": "W maksymalnym zakresie dozwolonym przez prawo projekt Nyan Progress Bar, jego opiekunowie i współtwórcy nie odpowiadają za szkody pośrednie, przypadkowe, szczególne, wynikowe ani karne wynikające z korzystania (lub niemożności korzystania) ze Strony lub Rozszerzenia. Twoim jedynym środkiem w przypadku niezadowolenia jest zaprzestanie korzystania ze Strony i odinstalowanie Rozszerzenia.",
+    "s8Heading": "8. Usługi stron trzecich",
+    "s8Body": "Strona zawiera linki do usług stron trzecich (np. Chrome Web Store, GitHub, Ko-fi, Patreon, Donatello). Nie odpowiadamy za treść, polityki ani praktyki tych usług. Korzystanie z nich podlega ich własnym warunkom.",
+    "s9Heading": "9. Prawo właściwe i zmiany",
+    "s9Body": "Niniejsze Warunki podlegają ogólnym zasadom prawa konsumenckiego kraju zamieszkania opiekuna; spory będą rozwiązywane w dobrej wierze, z najlepszymi staraniami. Zastrzegamy sobie prawo do zmiany niniejszych Warunków w dowolnym czasie. Istotne zmiany zostaną odzwierciedlone aktualizacją daty „ostatniej aktualizacji\".",
+    "s10Heading": "10. Kontakt",
+    "s10Pre": "Pytania dotyczące Warunków? Napisz do nas na"
+  },
+  "faq": {
+    "heading": "Najczęstsze pytania",
+    "intro": "Szybkie odpowiedzi na najczęściej zadawane pytania. Nie znajdujesz tego, czego szukasz? Formularz kontaktowy jest o jedno kliknięcie.",
+    "categoryGettingStartedHeading": "Pierwsze kroki",
+    "categoryCustomizationHeading": "Personalizacja",
+    "categoryPrivacyHeading": "Prywatność i dane",
+    "categoryTroubleshootingHeading": "Rozwiązywanie problemów",
+    "stillStuckHeading": "Nadal masz pytanie?",
+    "stillStuckPre": "Skontaktuj się przez",
+    "stillStuckLinkText": "formularz kontaktowy",
+    "stillStuckPost": "— każda wiadomość trafia bezpośrednio do opiekuna i otrzymuje osobistą odpowiedź.",
+    "questions": {
+      "isFree": {
+        "q": "Czy Nyan Progress Bar jest darmowe?",
+        "a": "Tak. Rozszerzenie jest w całości darmowe, bez płatnych poziomów, premium kotów ani reklam wewnątrz rozszerzenia. Projekt jest utrzymywany wyłącznie z dobrowolnych wpłat przez Ko-fi, Patreon, Donatello i inne — szczegóły na stronie Wsparcie."
+      },
+      "browsers": {
+        "q": "Jakie przeglądarki są wspierane?",
+        "a": "Rozszerzenie oficjalnie wspiera Chrome 88 i nowsze. Działa też na przeglądarkach opartych na Chromium, w tym Microsoft Edge, Brave, Opera, Arc i Vivaldi. Port na Safari jest w planach. Firefox nie jest obecnie wspierany."
+      },
+      "howToInstall": {
+        "q": "Jak je zainstalować?",
+        "a": "Odwiedź stronę Nyan Progress Bar w Chrome Web Store i kliknij „Dodaj do Chrome\". Potwierdź instalację w oknie dialogowym, a kot pojawia się natychmiast na YouTube — bez przeładowania, bez logowania. Pełny opis znajdziesz w przewodniku instalacji w sekcji Poradniki."
+      },
+      "worksOnYouTube": {
+        "q": "Czy działa na YouTube i YouTube Music?",
+        "a": "Tak — na obu. Rozszerzenie aktywuje się na youtube.com i music.youtube.com. Działa w standardowym odtwarzaczu, mini-odtwarzaczu i trybie kinowym. Nie uruchamia się na żadnej innej stronie."
+      },
+      "uploadGif": {
+        "q": "Czy mogę wgrać własny GIF?",
+        "a": "Absolutnie. Otwórz popup rozszerzenia, kliknij kafelek wgrywania w siatce kotów i wybierz dowolny GIF z komputera. Rozszerzenie czyta plik lokalnie i używa go jako paska. GIF nigdy nie trafia na serwer."
+      },
+      "gifFormats": {
+        "q": "Jakie formaty są obsługiwane?",
+        "a": "Rozszerzenie obsługuje animowane pliki .gif. Statyczne obrazy oraz inne animowane formaty (APNG, WebP, MP4) nie są wspierane. Nie ma sztywnego limitu rozmiaru, ale mniejsze GIF-y (poniżej kilkuset kilobajtów) działają na pasku płynniej."
+      },
+      "changePosition": {
+        "q": "Jak zmienić rozmiar lub pozycję kota?",
+        "a": "Otwórz popup, wybierz kota i użyj suwaków Wysokość i Przesunięcie, które się pojawią. Wysokość zakresu od 8 px do 80 px; przesunięcie od -50 px do +20 px. Ustawienia są zapisywane osobno dla każdego kota."
+      },
+      "catOffScreen": {
+        "q": "Dlaczego mój kot jest poza środkiem lub poza ekranem?",
+        "a": "Różne GIF-y mają różne odstępy wokół animacji, więc domyślne przesunięcie może nie pasować idealnie. Otwórz popup i przesuń wartość o kilka pikseli, aż kot znajdzie się na pasku. Jeśli przesadzisz, kliknij „Ustaw pozycję domyślną\", aby zresetować."
+      },
+      "doesItTrack": {
+        "q": "Czy rozszerzenie mnie śledzi?",
+        "a": "Nie. Rozszerzenie nie zbiera, nie wysyła ani nie przechowuje danych osobowych. Nie czyta historii oglądania, zapytań wyszukiwania ani innej aktywności na YouTube. Jedyne zapisywane dane to wybór kota i pozycje suwaków — oba lokalnie na Twoim urządzeniu."
+      },
+      "sendsDataAnywhere": {
+        "q": "Czy wysyła cokolwiek przez internet?",
+        "a": "Nie. Rozszerzenie nie wykonuje żadnych zapytań sieciowych. Wgrane GIF-y i ustawienia pozostają na Twoim urządzeniu. Sama strona używa Google Analytics do anonimowych statystyk ruchu — szczegóły w polityce prywatności — ale Rozszerzenie jest w pełni offline."
+      },
+      "worksOffline": {
+        "q": "Czy działa offline?",
+        "a": "Samo rozszerzenie działa offline. Filmy YouTube oczywiście wymagają internetu do odtwarzania, ale nakładka kota nie wymaga żadnego dodatkowego połączenia zewnętrznego."
+      },
+      "catNotShowing": {
+        "q": "Kot nie pojawia się na YouTube. Co zrobić?",
+        "a": "Najpierw odśwież kartę YouTube — rozszerzenie musi wstrzyknąć nakładkę przy ładowaniu strony. Jeśli to nie pomoże, sprawdź, czy rozszerzenie jest włączone, wchodząc na chrome://extensions i upewniając się, że przełącznik jest aktywny. Jeśli ostatnia aktualizacja YouTube zepsuła nakładkę, zgłoś to przez formularz kontaktowy, abyśmy mogli wydać poprawkę."
+      },
+      "extensionDisappeared": {
+        "q": "Ikona rozszerzenia zniknęła z paska narzędzi.",
+        "a": "Chrome mógł ją odpiąć. Kliknij ikonę puzzla obok paska adresu, aby zobaczyć wszystkie rozszerzenia, a następnie kliknij ikonę pinezki obok Nyan Progress Bar, aby przywrócić ją na pasek."
+      },
+      "uploadFails": {
+        "q": "Mój GIF się nie wgrywa.",
+        "a": "Upewnij się, że plik ma rozszerzenie .gif i jest prawdziwym animowanym GIF-em (niektóre „GIF-y\" w mediach społecznościowych to w rzeczywistości filmy MP4 z mylącym oznaczeniem). Jeśli plik jest bardzo duży, spróbuj mniejszej wersji — lokalna pamięć Chrome ma limity. W innym wypadku wyślij kopię przez formularz kontaktowy, a sprawdzimy to."
+      },
+      "howToUninstall": {
+        "q": "Jak odinstalować rozszerzenie?",
+        "a": "Wejdź na chrome://extensions, znajdź Nyan Progress Bar i kliknij „Usuń\". Wszystkie lokalne ustawienia i wgrane GIF-y są usuwane automatycznie. Jeśli masz chwilę, krótki formularz opinii pomaga ulepszyć kolejne wydanie."
+      }
     }
   }
 }

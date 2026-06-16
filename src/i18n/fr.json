@@ -39,6 +39,18 @@
     "uninstall": {
       "title": "Aide-nous à nous améliorer — Nyan Progress Bar",
       "description": "Dis-nous ce qui n'a pas marché avec l'extension. Anonyme ou avec e-mail — ton retour façonne la prochaine version."
+    },
+    "about": {
+      "title": "À propos de Nyan Progress Bar — Projet et équipe",
+      "description": "Découvrez les personnes derrière Nyan Progress Bar, pourquoi nous l'avons créée et comment l'extension Chrome gratuite fonctionne."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation — Nyan Progress Bar",
+      "description": "Les conditions qui régissent votre utilisation du site web Nyan Progress Bar et de l'extension Chrome."
+    },
+    "faq": {
+      "title": "Foire aux questions — Nyan Progress Bar",
+      "description": "Réponses aux questions les plus courantes sur l'installation, la personnalisation et le dépannage de l'extension Chrome Nyan Progress Bar."
     }
   },
   "nav": {
@@ -74,7 +86,29 @@
     "popularCats": {
       "heading": "Le kitty le plus populaire",
       "description": "Les chats les plus souvent choisis par les utilisateurs."
-    }
+    },
+    "tipsHeading": "Conseils de personnalisation",
+    "tipsIntro": "Quelques petits ajustements peuvent faire une énorme différence dans la façon dont votre chat se pose sur la barre de progression YouTube. Voici les réglages qui ont le plus d'impact.",
+    "tip1Title": "Accordez le chat à vos vidéos",
+    "tip1Desc": "Les chats pixel et les GIFs façon chiptune vont à merveille avec les vidéos de gaming rétro et les flux de musique lo-fi. Le Nyan Cat classique fonctionne sur tout ; les chats kawaii sont joueurs et mignons. Essayez-en quelques-uns — le changement est instantané.",
+    "tip2Title": "La hauteur change toute l'ambiance",
+    "tip2Desc": "Une hauteur de 16–24 px paraît discrète et se fond dans le lecteur. Poussez-la à 40–60 px et le chat devient la pièce centrale. Il n'y a pas de mauvaise réponse — choisissez ce qui vous fait sourire en scrubbant.",
+    "tip3Title": "Utilisez le décalage haut pour centrer le chat",
+    "tip3Desc": "Différents GIFs ont différentes marges autour de l'animation, donc le chat peut être trop haut ou trop bas par défaut. Ajustez le décalage haut de quelques pixels jusqu'à ce que les pattes du chat s'alignent avec la ligne du scrubber YouTube.",
+    "tip4Title": "Choisissez des GIFs à fond transparent",
+    "tip4Desc": "Les GIFs avec un fond de couleur uni afficheront cette couleur sur le scrubber. Les fonds transparents se fondent proprement dans l'UI de YouTube. La plupart des outils de recherche permettent de filtrer les résultats transparents.",
+    "useCasesHeading": "Cas d'usage populaires",
+    "useCasesIntro": "Différentes personnes trouvent leur chat de différentes façons. Voici les trois motifs qui reviennent le plus souvent.",
+    "useCase1Title": "Visionnage long",
+    "useCase1Desc": "Cours, podcasts, tutos et documentaires : un chat qui traverse une barre de 40 minutes est un petit mouvement qui rend les vidéos longues moins statiques. Beaucoup d'utilisateurs choisissent un chat marchant calmement pour cela.",
+    "useCase2Title": "Musique et lo-fi",
+    "useCase2Desc": "Les utilisateurs de YouTube Music optent souvent pour des chats dansants ou sautillants — Orange Dance, Kitty Wigglez et le Nyan classique sont des favoris éternels. Le mouvement se synchronise naturellement avec la musique.",
+    "useCase3Title": "Streaming et écrans partagés",
+    "useCase3Desc": "Les streamers et les personnes qui partagent leur navigateur sur Zoom choisissent souvent un seul chat marqué (Garfield, Pixel Tiger) pour que le scrubber soit un élément visible de branding. Certains téléversent même un GIF personnalisé qui correspond à leur chaîne.",
+    "faqHintHeading": "Toujours bloqué ?",
+    "faqHintPre": "La plupart des questions d'installation et de personnalisation trouvent leur réponse sur la",
+    "faqHintLinkText": "page FAQ",
+    "faqHintPost": "— jetez-y un œil en premier."
   },
   "header": {
     "logoAlt": "Chat Nyan"
@@ -85,7 +119,10 @@
     "support": "Soutenir",
     "privacy": "Confidentialité",
     "howToUse": "Guides",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "about": "À propos",
+    "terms": "Conditions",
+    "faq": "FAQ"
   },
   "cookieConsent": {
     "title": "Cookies",
@@ -125,7 +162,26 @@
     "feature2Title": "Télécharge ton propre GIF",
     "feature2Desc": "Utilise n'importe quel GIF comme scrubber personnalisé.",
     "feature3Title": "Fonctionne partout",
-    "feature3Desc": "YouTube et YouTube Music, lecteur standard et mini."
+    "feature3Desc": "YouTube et YouTube Music, lecteur standard et mini.",
+    "introHeading": "Un petit plus pour chaque vidéo que vous regardez",
+    "introBody1": "Nyan Progress Bar est une extension Chrome gratuite qui remplace la barre de progression rouge et plate de YouTube par un chat animé sélectionné à la main. Elle fonctionne entièrement dans votre navigateur, ne demande rien et ajoute une petite touche de personnalité à la barre que vous regardez toute la journée. Douze chats sont inclus dès le départ — l'original arc-en-ciel Nyan Cat, un perroquet pixelisé, un chat glitch, un Garfield dansant et plusieurs silhouettes douces et minimalistes — et vous pouvez télécharger n'importe quel GIF comme votre propre scrubber personnalisé.",
+    "introBody2": "Le produit entier est une toute petite amélioration. Vous installez l'extension, vous choisissez un chat et, à partir de ce moment, chaque vidéo YouTube et chaque morceau YouTube Music a une petite mascotte qui suit la tête de lecture. Pas de compte à créer, pas de menu de réglages à apprendre, pas de niveau premium. Ça fonctionne, tout simplement, et une fois en place, vous oubliez qu'elle fait quoi que ce soit — jusqu'à ce qu'elle vous fasse sourire au milieu d'une vidéo.",
+    "howHeading": "Comment ça marche",
+    "howIntro": "Trois étapes entre l'installation et l'arrivée d'un chat sur votre barre YouTube.",
+    "howStep1Title": "Installer en un clic",
+    "howStep1Desc": "Ajoutez Nyan Progress Bar depuis le Chrome Web Store. L'extension pèse environ 15 Ko, repose sur Manifest V3 et ne demande l'accès qu'à youtube.com et music.youtube.com.",
+    "howStep2Title": "Choisir un chat",
+    "howStep2Desc": "Ouvrez la popup et touchez l'un des douze chats inclus — ou déposez votre propre GIF. Votre choix est enregistré localement et appliqué instantanément à tous les onglets YouTube ouverts, sans recharger.",
+    "howStep3Title": "Ajuster la position",
+    "howStep3Desc": "Utilisez les curseurs Hauteur et Décalage haut dans la popup pour que le chat soit parfaitement posé sur le scrubber. Chaque chat retient ses propres réglages, vous pouvez donc changer de thème sans recommencer.",
+    "useCasesHeading": "Pensé pour ceux qui vivent sur YouTube",
+    "useCasesBody1": "Les longues vidéos sont là où Nyan Progress Bar brille. Cours de quarante minutes, documentaires de quatre-vingt-dix minutes, podcasts de trois heures — un petit chat animé qui se déplace sur le scrubber donne un peu de vie à une tête de lecture statique. La plupart des utilisateurs adoptent un chat qui marche calmement et oublient que la barre était autrefois une ligne plate.",
+    "useCasesBody2": "Sur YouTube Music, les chats les plus dynamiques prennent tout leur sens. Orange Cat Dance, Kitty Wigglez et le Nyan Cat original se synchronisent naturellement au rythme du morceau et rendent le lecteur de musique moins utilitaire, plus proche d'un petit terrain de jeu. Beaucoup d'utilisateurs gardent un chat dansant comme compagnon permanent de leur playlist quotidienne.",
+    "useCasesBody3": "Les streamers et celles et ceux qui partagent leur écran en appel adoptent un look à un seul chat marqué — Garfield ou Pixel Tiger — pour que le chat fasse office de signature visuelle. La tuile d'envoi de GIF personnalisé est populaire ici aussi : déposez la mascotte de votre chaîne ou un emote de votre communauté et le scrubber devient le vôtre.",
+    "trustHeading": "Open source, sans publicité et discrètement financée par les utilisateurs",
+    "trustBody": "Nyan Progress Bar est publiée en tant que projet open source. Pas de publicité dans l'extension, pas de niveau premium, pas d'incitations à l'achat et pas d'analytics qui vous suivent. L'hébergement et le développement continu sont entièrement financés par les dons facultatifs des utilisateurs qui aiment le produit.",
+    "trustLinkGithubLabel": "Voir le code source sur GitHub",
+    "trustLinkSupportLabel": "Soutenir le projet"
   },
   "extension": {
     "heading": "Obtenir Nyan Progress Bar",
@@ -148,7 +204,20 @@
     "questionHeading": "Une question ?",
     "questionPre": "Consultez le",
     "questionLinkText": "centre de support",
-    "questionPost": "ou ouvrez un rapport de bug."
+    "questionPost": "ou ouvrez un rapport de bug.",
+    "whyHeading": "Pourquoi utiliser Nyan Progress Bar ?",
+    "whyBody1": "La barre de progression par défaut de YouTube est une ligne rouge plate — utile, mais facile à ignorer. Nyan Progress Bar remplace cette ligne par un chat animé choisi à la main (ou n'importe quel GIF que vous souhaitez) pour que le scrubber devienne un petit morceau de personnalité que vous remarquez vraiment. Une petite joie dans votre journée, à chaque vidéo que vous regardez.",
+    "whyBody2": "C'est conçu pour celles et ceux qui vivent sur YouTube : vidéos longues et cours, playlists de musique et lo-fi sur YouTube Music, actualités quotidiennes, streams de gaming et travail créatif. Le chat suit la tête de lecture, ne gêne jamais la vidéo et disparaît dès que vous désinstallez.",
+    "whyBody3": "Et comme l'extension fonctionne entièrement dans votre propre navigateur — pas de compte, pas de serveur, pas d'analytics — il n'y a rien à créer ni rien à craindre. Vous l'installez, vous oubliez qu'elle est là, et vos vidéos prennent un petit air plus personnel.",
+    "howHeading": "Comment ça marche",
+    "howStep1Title": "1. Installer en un clic",
+    "howStep1Desc": "Ajoutez Nyan Progress Bar depuis le Chrome Web Store. L'extension fait ~15 Ko, s'appuie sur Manifest V3 et ne demande qu'un accès à YouTube et YouTube Music.",
+    "howStep2Title": "2. Choisir votre chat",
+    "howStep2Desc": "Ouvrez la popup et touchez l'un des 12 chats inclus — ou déposez votre propre GIF. La sélection est enregistrée localement et synchronisée sur chaque onglet YouTube ouvert.",
+    "howStep3Title": "3. Ajuster la position",
+    "howStep3Desc": "Utilisez les curseurs de hauteur et de décalage haut pour faire reposer parfaitement votre chat sur le scrubber. Les réglages sont par chat, chaque thème retient donc son propre look.",
+    "comparisonHeading": "Ce qui la rend différente",
+    "comparisonBody": "Les autres extensions de navigateur pour YouTube se concentrent sur le blocage de pub, le saut de sponsors ou les ajustements de thème. Nyan Progress Bar est la seule conçue spécifiquement pour la barre de progression — chaque chat est calibré à la main pour la hauteur et le mouvement du scrubber YouTube, avec des valeurs par défaut sensées pour que vous ne touchiez pas aux curseurs si vous n'en avez pas envie. Le résultat est un unique petit détail soigné qui ne se bat pas avec le reste de l'interface de YouTube."
   },
   "contact": {
     "heading": "Centre de Support",
@@ -242,7 +311,27 @@
     "cryptoDesc": "Envoie USDT via le reseau TRON (TRC-20). Scanne le QR ou copie ladresse.",
     "cryptoNetwork": "TRC-20",
     "cryptoCopy": "Copier ladresse",
-    "cryptoCopied": "Copie !"
+    "cryptoCopied": "Copie !",
+    "whereHeading": "Où va votre soutien",
+    "whereIntro": "Nyan Progress Bar est un projet annexe gratuit, mais son fonctionnement ne l'est pas. Chaque contribution — quelle que soit sa taille — sert directement à garder l'extension en vie et à la faire évoluer.",
+    "whereItem1Title": "Hébergement et infrastructure",
+    "whereItem1Desc": "Le site web, les ressources de la fiche Chrome Web Store et le pipeline e-mail du formulaire de contact coûtent un petit montant mais régulier chaque mois. Votre soutien garde la lumière allumée.",
+    "whereItem2Title": "Nouveaux chats et fonctionnalités",
+    "whereItem2Desc": "Concevoir et animer un nouveau chat — ou construire un nouveau contrôle de personnalisation — prend des heures de travail minutieux. Les dons paient ce temps pour que le catalogue continue de grandir.",
+    "whereItem3Title": "Corrections de bugs et mises à jour Chrome",
+    "whereItem3Desc": "Les API d'extensions de Chrome évoluent constamment, et le lecteur YouTube publie parfois des changements qui cassent l'overlay du scrubber. Le soutien finance le travail de maintenance qui garde tout en marche.",
+    "otherWaysHeading": "Autres façons d'aider",
+    "otherWaysIntro": "Pas en mesure de faire un don ? Pas de souci — il y a beaucoup de façons gratuites de donner un coup de pouce au projet.",
+    "otherWay1Title": "Laissez un avis sur le Chrome Web Store",
+    "otherWay1Desc": "Les avis sont le plus gros signal qui aide d'autres personnes à découvrir l'extension. Même une note d'une ligne fait une réelle différence.",
+    "otherWay2Title": "Partagez avec un·e ami·e",
+    "otherWay2Desc": "Vous connaissez quelqu'un qui vit sur YouTube ? Envoyez-lui le lien. Le bouche-à-oreille a été notre plus grande source de nouveaux utilisateurs.",
+    "otherWay3Title": "Signalez bugs et idées",
+    "otherWay3Desc": "Chaque rapport de bug et demande de fonctionnalité façonne la prochaine version. Utilisez le formulaire de contact ou ouvrez une issue GitHub — les deux arrivent directement chez le mainteneur.",
+    "otherWay4Title": "Contribuez sur GitHub",
+    "otherWay4Desc": "Le projet est open source. Les pull requests pour des corrections, des traductions ou de nouveaux designs de chats sont les bienvenues.",
+    "transparencyHeading": "Ouvert et transparent",
+    "transparencyBody": "Il n'y a pas de paliers payants, pas de chats premium et pas de publicités dans l'extension. Le produit est le même pour tout le monde — les dons sont uniquement une façon de dire merci et de garder les chats en marche."
   },
   "customizer": {
     "adjustPosition": "Ajuster la position",
@@ -267,7 +356,22 @@
     "rateUs": "Nous noter",
     "reviews": "avis",
     "showMore": "Voir plus",
-    "showLess": "Voir moins"
+    "showLess": "Voir moins",
+    "pageHeading": "Avis de vrais utilisateurs",
+    "pageIntro1": "Nyan Progress Bar affiche une moyenne de 4,7 étoiles sur 58 avis dans le Chrome Web Store. Les avis ci-dessous sont un mélange — les retours les plus récents sur la dernière version publiée apparaissent en premier, suivis de tous les avis collectés depuis la toute première version. Rien n'est trié ni filtré. Les avis négatifs restent visibles parce qu'on en apprend plus d'eux que de n'importe quoi d'autre.",
+    "pageIntro2": "Si vous envisagez d'installer l'extension, cette page est l'image la plus honnête du produit que l'on puisse vous donner. Si vous l'utilisez déjà et souhaitez laisser un avis public, le Chrome Web Store est l'endroit le plus utile — les résultats de recherche et le classement y sont fortement influencés par les notes récentes, et un simple avis d'une ligne de votre part est le meilleur moyen d'aider le projet à toucher d'autres utilisateurs de YouTube.",
+    "themesHeading": "Ce que les utilisateurs mentionnent le plus",
+    "themesIntro": "À travers des centaines d'avis et de signalements de bugs, les trois mêmes fils reviennent encore et encore.",
+    "theme1Title": "Vie privée et « pas de tracking »",
+    "theme1Body": "De loin le commentaire positif le plus fréquent est une variante de « ça fait une seule chose et ça n'essaie pas de me pister ». Les utilisateurs remarquent que l'extension ne demande pas de permissions inutiles, n'envoie rien à un serveur et n'a ni compte ni connexion. Pour beaucoup, c'est le facteur décisif face aux autres extensions YouTube.",
+    "theme2Title": "Soin apporté au lecteur YouTube",
+    "theme2Body": "Les utilisateurs mentionnent souvent à quel point les chats sont bien réglés pour le scrubber YouTube. Chaque chat inclus a une hauteur et un décalage haut réglés à la main, pour que la superposition se pose proprement sur le lecteur sans toucher aux curseurs. C'est le genre de détail qui prend beaucoup de temps à mettre au point, et la partie de l'extension dont nous sommes le plus fiers.",
+    "theme3Title": "Téléchargement de GIF personnalisés",
+    "theme3Body": "La tuile d'envoi est la fonctionnalité la plus citée dans les avis cinq étoiles. Les utilisateurs envoient les mascottes de leurs chaînes, des emotes de leurs communautés, leurs propres animaux de compagnie, du pixel art qu'ils ont fait eux-mêmes ou des GIF trouvés au hasard sur internet — et voir ces animations en guise de scrubber YouTube s'avère bien plus gratifiant que la description ne le laisse supposer.",
+    "ctaHeading": "Laissez un avis ou envoyez un retour privé",
+    "ctaBody": "Les avis publics sur le Chrome Web Store sont l'endroit le plus utile pour partager une opinion honnête — ils façonnent la façon dont l'extension apparaît aux autres utilisateurs dans les recherches. Pour les signalements de bugs, les idées de fonctionnalités ou ce que vous préférez ne pas écrire en public, le formulaire de contact est à un clic et chaque message arrive directement au responsable du projet.",
+    "ctaWebStoreLabel": "Laisser un avis sur le Chrome Web Store",
+    "ctaContactLabel": "Envoyer un retour privé"
   },
   "releaseReviews": {
     "heading": "Avis récents",
@@ -588,6 +692,144 @@
       "dance": "Chats danseurs",
       "monochrome": "Monochromes",
       "orange": "Équipe Orange"
+    },
+    "introHeading": "Ce qui cartonne en ce moment sur le scrubber YouTube",
+    "introBody1": "Cette page est un catalogue vivant des styles de cat progress bar que les utilisateurs installent le plus en ce moment. Elle existe parce que choisir un chat est bien plus simple quand on voit ce que les autres adorent — les classiques restés au sommet pendant des années, les nouveaux thèmes qui viennent de débarquer et les collections curées par ambiance (kawaii, pixel, monochrome, danse et plus encore).",
+    "introBody2": "Chaque style ici est à un clic de devenir le vôtre. Touchez n'importe quel chat pour l'afficher dans le customizer en direct, ou cliquez sur installer pour ajouter l'extension à Chrome et voir votre choix sur une vraie vidéo YouTube. Pas d'inscription, pas de palier premium, et chaque chat est inclus dans l'extension gratuite.",
+    "rankingsHeading": "Comment fonctionne le classement",
+    "rankingsBody1": "La section Populaire est triée par nombre total d'installations sur toute la durée de vie de l'extension — ce sont les chats les plus choisis par tous les utilisateurs depuis le lancement. Nyan Classic, Cute Cat et Garfield se partagent le top trois la plupart des semaines, mais la longue traîne bouge au fil des thèmes qui prennent.",
+    "rankingsBody2": "Tendance maintenant est une vue glissante sur sept jours : les chats les plus choisis ou vers lesquels on a basculé la semaine passée. Les nouveaux thèmes y bondissent souvent les jours suivant leur sortie, c'est donc la meilleure section pour sentir ce qui est frais. La section Nouveaux liste tous les chats ajoutés au catalogue ces 60 derniers jours, par ordre de sortie.",
+    "rankingsBody3": "Les Meilleures Collections regroupent les chats par esthétique plutôt que par popularité. La collection Classic Cats rassemble les originaux ; Pixel & Retro réunit tous les thèmes en pixel art ; Kawaii Pastels regroupe les styles tout doux aux grands yeux ; Dancing Cats sont les animations qui se calent bien sur YouTube Music ; Monochrome est l'ensemble minimaliste ; Orange Squad est exactement ce que vous imaginez.",
+    "customizeHeading": "Faites de n'importe quel style tendance le vôtre",
+    "customizeBody": "Vous en avez trouvé un qui vous plaît ? Ouvrez-le dans le customizer en direct et ajustez la hauteur et la position verticale jusqu'à ce qu'il se pose parfaitement sur le scrubber YouTube. Chaque chat retient ses propres réglages, vous pouvez donc passer d'un style tendance à l'autre sans tout refaire.",
+    "customizeCta": "Ouvrir le customizer"
+  },
+  "about": {
+    "heading": "À propos de Nyan Progress Bar",
+    "intro": "Nyan Progress Bar est une extension Chrome gratuite et open source qui remplace la ligne rouge plate de la barre de progression YouTube par un chat animé choisi à la main. Cette page raconte brièvement ce que c'est, qui la fabrique et pourquoi elle existe.",
+    "s1Heading": "Ce que c'est",
+    "s1Body": "Nyan Progress Bar est une petite extension de navigateur ciblée pour YouTube et YouTube Music. Elle fait exactement une chose : elle dessine un chat animé (ou n'importe quel GIF que vous choisissez) par-dessus le scrubber de la vidéo. Pas de menu de réglages à apprendre, pas de compte à créer, pas d'abonnement. Vous l'installez, vous choisissez un chat, et c'est tout le produit.",
+    "s1Body2": "Douze thèmes de chats sont livrés d'origine, du Nyan Cat arc-en-ciel original à un perroquet en pixel art, un chat glitch aux aberrations chromatiques, un Garfield dansant et plusieurs silhouettes minimalistes. Vous pouvez aussi téléverser n'importe quel GIF depuis votre ordinateur pour l'utiliser comme scrubber personnalisé — le fichier reste sur votre appareil et n'est jamais envoyé ailleurs.",
+    "s2Heading": "Pourquoi nous l'avons créée",
+    "s2Body": "Le projet est né d'une frustration personnelle : passer des heures chaque jour sur YouTube, regarder toujours la même barre de progression plate et se dire que ça pourrait être un petit moment de joie. Le Nyan Cat classique semblait être le premier chat évident à essayer, et dès qu'il a tourné sur une vraie vidéo YouTube, il était clair qu'il y avait là un plaisir petit mais réel.",
+    "s2Body2": "Tout depuis s'est appuyé sur une idée simple : une extension de navigateur peut être calme, ciblée et plaisante. La plupart demandent trop de permissions, affichent trop d'UI ou cherchent à monétiser l'attention. Nyan Progress Bar ne fait délibérément rien de tout cela — c'est un petit utilitaire qui ajoute un sourire à votre journée, puis s'écarte.",
+    "s3Heading": "Comment ça marche",
+    "s3Body": "Sous le capot, l'extension est une extension Chrome Manifest V3 qui ne tourne que sur youtube.com et music.youtube.com. Quand une page YouTube se charge, l'extension trouve l'élément de la barre de progression et superpose votre GIF dessus. Le GIF bouge avec la position du scrubber parce qu'il est ancré au même élément que YouTube utilise pour la tête de lecture.",
+    "s3Body2": "Votre choix de chat, la hauteur et le décalage haut sont sauvegardés localement via la Chrome Storage API sur votre propre appareil. Rien n'est envoyé à un serveur. L'extension ne fait aucune requête réseau ; elle ne lit pas votre historique de visionnage, vos recherches ou quoi que ce soit d'autre sur votre utilisation de YouTube. Si vous désinstallez l'extension, toute trace disparaît avec elle.",
+    "s4Heading": "Qui la construit",
+    "s4Body": "Nyan Progress Bar est construite et maintenue par un développeur indépendant qui y travaille sur son temps libre. Le projet est open source — les pull requests pour de nouveaux designs de chats, des traductions et des corrections sont les bienvenues, et le formulaire de contact de ce site va directement au mainteneur.",
+    "s4Body2": "Le site est traduit en dix langues (anglais, espagnol, portugais, français, allemand, polonais, ukrainien, indonésien, vietnamien et philippin) pour que des utilisateurs du monde entier puissent lire sur l'extension dans leur propre langue.",
+    "s5Heading": "Nos valeurs",
+    "s5Intro": "Quelques principes guident la façon dont nous construisons et gérons le projet :",
+    "s5Item1": "La vie privée d'abord. L'extension ne collecte et ne transmet aucune donnée — point.",
+    "s5Item2": "Sans publicité dans l'extension. Pas d'upsell, pas de chats premium, pas d'abonnement.",
+    "s5Item3": "Ouvert et transparent. Le code, les dons et la feuille de route sont tous visibles.",
+    "s5Item4": "Une petite chose bien faite. Nous ne nous étendrons jamais au blocage de pub, au saut de sponsors ou aux tweaks YouTube généraux. La barre de progression est le produit.",
+    "s6Heading": "Nous contacter",
+    "s6Pre": "Une question, une idée ou un bug à signaler ? Le moyen le plus rapide de nous joindre est via le",
+    "s6ContactLink": "formulaire de contact",
+    "s6Mid": ", ou vous pouvez nous écrire directement à"
+  },
+  "terms": {
+    "heading": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : juin 2025",
+    "intro": "Ces conditions d'utilisation (« Conditions ») régissent votre utilisation du site web de Nyan Progress Bar (le « Site ») et de l'extension Chrome Nyan Progress Bar (l'« Extension »). En utilisant le Site ou l'Extension, vous acceptez ces Conditions.",
+    "s1Heading": "1. Acceptation des conditions",
+    "s1Body": "En installant l'Extension ou en utilisant le Site, vous confirmez avoir lu, compris et accepté ces Conditions. Si vous n'êtes pas d'accord, veuillez désinstaller l'Extension et arrêter d'utiliser le Site. Nous pouvons mettre à jour ces Conditions de temps en temps ; la date « dernière mise à jour » ci-dessus reflète la révision la plus récente. Une utilisation continue après un changement signifie que vous acceptez les nouvelles Conditions.",
+    "s2Heading": "2. Description du service",
+    "s2Body": "L'Extension est un module de navigateur gratuit qui superpose un GIF animé (un « chat ») par-dessus la barre de progression de YouTube et YouTube Music. Le Site fournit des informations sur l'Extension, un personnalisateur en direct, un catalogue de thèmes de chats, des liens de support et de dons et des canaux de contact. Le Site et l'Extension sont tous deux fournis gratuitement.",
+    "s3Heading": "3. Responsabilités de l'utilisateur et usage acceptable",
+    "s3Body": "Vous acceptez d'utiliser le Site et l'Extension uniquement à des fins légales et personnelles. Vous n'essaierez pas de procéder à de l'ingénierie inverse, de modifier, de redistribuer ou de reconditionner l'Extension ou le Site au-delà de ce que la licence open source du projet autorise. Vous n'utiliserez pas le Site ou l'Extension pour harceler, nuire ou usurper l'identité d'autres personnes.",
+    "s3Body2": "Vous êtes responsable des GIFs que vous téléversez dans l'Extension. Vous reconnaissez avoir le droit légal d'utiliser tout GIF que vous téléversez et que le GIF ne contient pas de contenu illégal, contrefaisant ou autrement préjudiciable.",
+    "s4Heading": "4. Propriété intellectuelle",
+    "s4Body": "Le nom Nyan Progress Bar, le logo, les ressources de design et les thèmes de chats originaux appartiennent aux mainteneurs du projet. Les GIFs de chats inclus dans l'Extension sont soit des œuvres originales, soit du contenu du domaine public, soit utilisés sous des licences qui autorisent la redistribution. Les marques tierces référencées sur le Site (par ex. YouTube, Chrome) sont des marques de leurs propriétaires respectifs et ne sont utilisées ici qu'à des fins descriptives.",
+    "s4Body2": "Le code source de l'Extension est publié sous une licence open source — consultez le dépôt GitHub pour les conditions exactes.",
+    "s5Heading": "5. Contenu utilisateur",
+    "s5Body": "Quand vous téléversez un GIF dans l'Extension, le fichier est stocké localement dans votre propre navigateur via la Chrome Storage API. Il n'est pas téléversé sur nos serveurs et nous n'y accédons, ne le consultons et ne le traitons d'aucune façon. Vous conservez tous les droits sur les GIFs que vous téléversez.",
+    "s5Body2": "Si vous soumettez du contenu via le formulaire de contact (un message, une capture d'écran ou un retour), vous nous accordez une licence non exclusive et libre de redevance pour utiliser ce contenu dans le but de répondre à votre demande et d'améliorer l'Extension. Nous ne le partagerons pas publiquement sans votre permission.",
+    "s6Heading": "6. Avis de non-responsabilité",
+    "s6Body": "Le Site et l'Extension sont fournis « en l'état » et « selon disponibilité », sans garanties d'aucune sorte, expresses ou implicites. Nous ne garantissons pas que le Site ou l'Extension fonctionneront sans interruption, sans erreur ou seront compatibles avec toutes les versions de tous les navigateurs. YouTube peut à tout moment changer son implémentation du lecteur d'une manière qui casse l'overlay du chat ; nous ferons de notre mieux pour corriger rapidement ces problèmes, mais ne pouvons pas garantir un fonctionnement continu.",
+    "s7Heading": "7. Limitation de responsabilité",
+    "s7Body": "Dans la mesure maximale autorisée par la loi, le projet Nyan Progress Bar, ses mainteneurs et contributeurs ne sont pas responsables des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs découlant de votre utilisation (ou impossibilité d'utiliser) du Site ou de l'Extension. Votre seul recours en cas d'insatisfaction est d'arrêter d'utiliser le Site et de désinstaller l'Extension.",
+    "s8Heading": "8. Services tiers",
+    "s8Body": "Le Site renvoie vers des services tiers (par ex. le Chrome Web Store, GitHub, Ko-fi, Patreon, Donatello). Nous ne sommes pas responsables du contenu, des politiques ou des pratiques de ces services. Votre utilisation de ces services est régie par leurs propres conditions.",
+    "s9Heading": "9. Droit applicable et changements",
+    "s9Body": "Ces Conditions sont régies par les principes généraux du droit de la consommation du pays de résidence du mainteneur ; les litiges seront résolus de bonne foi, au mieux. Nous nous réservons le droit de modifier ces Conditions à tout moment. Les changements importants seront reflétés par une mise à jour de la date « dernière mise à jour ».",
+    "s10Heading": "10. Contact",
+    "s10Pre": "Des questions sur ces Conditions ? Écrivez-nous à"
+  },
+  "faq": {
+    "heading": "Foire aux questions",
+    "intro": "Réponses rapides aux questions qu'on nous pose le plus souvent. Vous ne trouvez pas ce que vous cherchez ? Le formulaire de contact est à un clic.",
+    "categoryGettingStartedHeading": "Pour commencer",
+    "categoryCustomizationHeading": "Personnalisation",
+    "categoryPrivacyHeading": "Vie privée et données",
+    "categoryTroubleshootingHeading": "Dépannage",
+    "stillStuckHeading": "Toujours une question ?",
+    "stillStuckPre": "Contactez-nous via le",
+    "stillStuckLinkText": "formulaire de contact",
+    "stillStuckPost": "— chaque message arrive directement au mainteneur et reçoit une réponse personnelle.",
+    "questions": {
+      "isFree": {
+        "q": "Nyan Progress Bar est-elle gratuite ?",
+        "a": "Oui. L'Extension est complètement gratuite, sans paliers payants, sans chats premium et sans publicité dans l'extension. Le projet est entièrement soutenu par des dons facultatifs via Ko-fi, Patreon, Donatello et d'autres — voir la page Support pour les détails."
+      },
+      "browsers": {
+        "q": "Quels navigateurs sont supportés ?",
+        "a": "L'Extension supporte officiellement Chrome 88 et versions ultérieures. Elle fonctionne aussi sur les navigateurs basés sur Chromium dont Microsoft Edge, Brave, Opera, Arc et Vivaldi. Un portage Safari est sur la feuille de route. Firefox n'est pas pris en charge actuellement."
+      },
+      "howToInstall": {
+        "q": "Comment l'installer ?",
+        "a": "Rendez-vous sur la fiche Chrome Web Store de Nyan Progress Bar et cliquez sur « Ajouter à Chrome ». Confirmez l'installation dans la boîte de dialogue et le chat apparaît immédiatement sur YouTube — pas de rechargement, pas de connexion. Pour une marche à suivre complète, consultez le guide d'installation dans la section Guides."
+      },
+      "worksOnYouTube": {
+        "q": "Fonctionne-t-elle sur YouTube et YouTube Music ?",
+        "a": "Oui — sur les deux. L'Extension s'active sur youtube.com et music.youtube.com. Elle fonctionne dans le lecteur standard, le mini-lecteur et le mode cinéma. Elle ne tourne sur aucun autre site web."
+      },
+      "uploadGif": {
+        "q": "Puis-je téléverser mon propre GIF ?",
+        "a": "Absolument. Ouvrez la popup de l'Extension, cliquez sur la tuile d'envoi dans la grille de chats et choisissez n'importe quel GIF depuis votre ordinateur. L'Extension lit le fichier localement et l'utilise comme scrubber. Le GIF n'est jamais téléversé sur un serveur."
+      },
+      "gifFormats": {
+        "q": "Quels formats de fichier sont supportés ?",
+        "a": "L'Extension supporte les fichiers .gif animés. Les images statiques et les autres formats animés (APNG, WebP, MP4) ne sont pas pris en charge. Il n'y a pas de limite stricte de taille, mais les GIFs plus petits (sous quelques centaines de kilo-octets) paraissent plus fluides sur la barre de progression."
+      },
+      "changePosition": {
+        "q": "Comment changer la taille ou la position du chat ?",
+        "a": "Ouvrez la popup, choisissez un chat et utilisez les curseurs Hauteur et Décalage haut qui apparaissent. La hauteur va de 8 px à 80 px ; le décalage haut de -50 px à +20 px. Les réglages sont sauvegardés par chat, donc chaque thème garde son propre look."
+      },
+      "catOffScreen": {
+        "q": "Pourquoi mon chat est-il décentré ou hors écran ?",
+        "a": "Différents GIFs ont différentes marges autour de l'animation, donc le décalage par défaut peut ne pas convenir parfaitement à votre GIF perso. Ouvrez la popup et ajustez le Décalage haut de quelques pixels jusqu'à ce que le chat s'aligne avec le scrubber. Si vous en faites trop, cliquez sur « Définir la position par défaut » pour réinitialiser."
+      },
+      "doesItTrack": {
+        "q": "L'Extension me suit-elle ?",
+        "a": "Non. L'Extension ne collecte, ne transmet et ne stocke aucune donnée personnelle. Elle ne lit pas votre historique, vos recherches ou toute autre activité YouTube. Les seules données enregistrées sont votre sélection de chat et les positions des curseurs — toutes deux stockées localement sur votre propre appareil."
+      },
+      "sendsDataAnywhere": {
+        "q": "Envoie-t-elle quelque chose sur internet ?",
+        "a": "Non. L'Extension ne fait aucune requête réseau. Vos GIFs envoyés et vos réglages restent sur votre appareil. Le site web lui-même utilise Google Analytics pour des statistiques de trafic anonymisées — voir la politique de confidentialité — mais l'Extension est totalement hors ligne."
+      },
+      "worksOffline": {
+        "q": "Fonctionne-t-elle hors ligne ?",
+        "a": "L'Extension elle-même fonctionne hors ligne. Les vidéos YouTube nécessitent évidemment une connexion internet pour être lues, mais l'overlay du chat n'a besoin d'aucune connexion externe propre."
+      },
+      "catNotShowing": {
+        "q": "Le chat n'apparaît pas sur YouTube. Que faire ?",
+        "a": "Rechargez d'abord l'onglet YouTube — l'Extension doit injecter l'overlay au chargement de la page. Si cela ne suffit pas, assurez-vous que l'Extension est activée en visitant chrome://extensions et en vérifiant le bouton. Si une mise à jour récente du lecteur YouTube a cassé l'overlay, signalez-le via le formulaire de contact pour que nous puissions publier un correctif."
+      },
+      "extensionDisappeared": {
+        "q": "L'icône de l'Extension a disparu de ma barre d'outils.",
+        "a": "Chrome l'a peut-être désépinglée. Cliquez sur l'icône de pièce de puzzle à côté de la barre d'adresse pour voir toutes vos extensions, puis cliquez sur l'icône épingle à côté de Nyan Progress Bar pour la remettre dans la barre."
+      },
+      "uploadFails": {
+        "q": "Mon GIF ne se téléverse pas.",
+        "a": "Assurez-vous que le fichier a une extension .gif et qu'il s'agit d'un vrai GIF animé (certains « GIFs » sur les réseaux sociaux sont en fait des vidéos MP4 mal étiquetées). Si le fichier est très grand, essayez une version plus petite — le stockage local de Chrome a des limites. Sinon, envoyez-en une copie via le formulaire de contact et nous regarderons."
+      },
+      "howToUninstall": {
+        "q": "Comment désinstaller l'Extension ?",
+        "a": "Rendez-vous sur chrome://extensions, trouvez Nyan Progress Bar et cliquez sur « Supprimer ». Tous les réglages stockés localement et les GIFs téléversés sont supprimés automatiquement. Si vous avez un instant, le court formulaire de retour de désinstallation nous aide à améliorer la prochaine version."
+      }
     }
   }
 }

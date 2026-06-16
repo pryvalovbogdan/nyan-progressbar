@@ -1,23 +1,33 @@
 import type { Dictionary } from '@/i18n';
+import Link from 'next/link';
 
 import { ScrubberGallery } from '@features/cat-selector';
 import { CustomizerPanel } from '@features/customizer';
+import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { buttonVariants } from '@shared/ui/button';
+import { GoogleAd } from '@shared/ui/google-add';
 import { Separator } from '@shared/ui/separator';
 import { ReviewsSection } from '@widgets/reviews';
 import { StatsSection } from '@widgets/stats';
 
 interface IHomeViewProps {
   dict: Dictionary;
+  lang: string;
 }
 
-export function HomeView({ dict }: IHomeViewProps) {
+export function HomeView({ dict, lang }: IHomeViewProps) {
   const h = dict.home;
 
   const features = [
     { icon: '🐱', title: h.feature1Title, desc: h.feature1Desc },
     { icon: '🎨', title: h.feature2Title, desc: h.feature2Desc },
     { icon: '🌙', title: h.feature3Title, desc: h.feature3Desc },
+  ];
+
+  const howSteps = [
+    { title: h.howStep1Title, desc: h.howStep1Desc },
+    { title: h.howStep2Title, desc: h.howStep2Desc },
+    { title: h.howStep3Title, desc: h.howStep3Desc },
   ];
 
   return (
@@ -40,6 +50,12 @@ export function HomeView({ dict }: IHomeViewProps) {
         </a>
       </section>
 
+      <section className="max-w-3xl mx-auto space-y-4 text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold">{h.introHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed text-left">{h.introBody1}</p>
+        <p className="text-muted-foreground leading-relaxed text-left">{h.introBody2}</p>
+      </section>
+
       <StatsSection
         labels={{
           heading: dict.stats.heading,
@@ -50,6 +66,8 @@ export function HomeView({ dict }: IHomeViewProps) {
           catThemes: dict.stats.catThemes,
         }}
       />
+
+      <GoogleAd slot={AD_SLOTS.homeMid} />
 
       <Separator />
 
@@ -78,6 +96,21 @@ export function HomeView({ dict }: IHomeViewProps) {
         </div>
       </section>
 
+      <section className="space-y-6">
+        <div className="space-y-1 text-center">
+          <h2 className="text-2xl font-bold">{h.howHeading}</h2>
+          <p className="text-muted-foreground text-sm">{h.howIntro}</p>
+        </div>
+        <div className="grid sm:grid-cols-3 gap-4">
+          {howSteps.map(({ title, desc }) => (
+            <div key={title} className="card p-5 space-y-2">
+              <h3 className="font-semibold">{title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <Separator />
 
       <section className="grid sm:grid-cols-3 gap-4 sm:gap-6 text-center">
@@ -90,6 +123,15 @@ export function HomeView({ dict }: IHomeViewProps) {
         ))}
       </section>
 
+      <section className="max-w-3xl mx-auto space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center">{h.useCasesHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{h.useCasesBody1}</p>
+        <p className="text-muted-foreground leading-relaxed">{h.useCasesBody2}</p>
+        <p className="text-muted-foreground leading-relaxed">{h.useCasesBody3}</p>
+      </section>
+
+      <GoogleAd slot={AD_SLOTS.homeFooter} />
+
       <ReviewsSection
         labels={{
           heading: dict.reviews.heading,
@@ -99,6 +141,24 @@ export function HomeView({ dict }: IHomeViewProps) {
           showLess: dict.reviews.showLess,
         }}
       />
+
+      <section className="max-w-2xl mx-auto text-center space-y-3 card p-6">
+        <h2 className="text-xl font-bold">{h.trustHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{h.trustBody}</p>
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+          <a
+            href={process.env.NEXT_PUBLIC_GIT_HUB_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#80deea] hover:underline"
+          >
+            {h.trustLinkGithubLabel}
+          </a>
+          <Link href={`/${lang}/support`} className="text-[#80deea] hover:underline">
+            {h.trustLinkSupportLabel}
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }

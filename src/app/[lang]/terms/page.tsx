@@ -3,7 +3,7 @@ import type { Locale } from '@/i18n';
 import { notFound } from 'next/navigation';
 
 import { generatePageMetadata } from '@shared/lib/metadata';
-import { ReviewsView } from '@views/ReviewsView';
+import { TermsView } from '@views/TermsView';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -12,16 +12,15 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
   const dict = await getDictionary(lang as Locale);
 
-  return generatePageMetadata(lang as Locale, dict, 'reviews');
+  return generatePageMetadata(lang as Locale, dict, 'terms');
 }
 
-export default async function ReviewsPage({ params }: { params: Promise<{ lang: string }> }) {
+export default async function TermsPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
 
   if (!hasLocale(lang)) notFound();
 
-  const locale = lang as Locale;
-  const dict = await getDictionary(locale);
+  const dict = await getDictionary(lang as Locale);
 
-  return <ReviewsView dict={dict} lang={lang} />;
+  return <TermsView dict={dict} />;
 }

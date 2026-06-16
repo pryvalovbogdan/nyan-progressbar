@@ -39,6 +39,18 @@
     "uninstall": {
       "title": "Ajude-nos a melhorar — Nyan Progress Bar",
       "description": "Conte-nos o que deu errado com a extensão. Anônimo ou com email — seu feedback molda a próxima versão."
+    },
+    "about": {
+      "title": "Sobre o Nyan Progress Bar — Projeto e Equipe",
+      "description": "Conheça as pessoas por trás do Nyan Progress Bar, por que construímos a extensão e como ela funciona."
+    },
+    "terms": {
+      "title": "Termos de Serviço — Nyan Progress Bar",
+      "description": "Termos que regem o uso do site Nyan Progress Bar e da extensão para Chrome."
+    },
+    "faq": {
+      "title": "Perguntas Frequentes — Nyan Progress Bar",
+      "description": "Respostas para as perguntas mais comuns sobre instalar, personalizar e resolver problemas da extensão Nyan Progress Bar para Chrome."
     }
   },
   "nav": {
@@ -74,7 +86,29 @@
     "popularCats": {
       "heading": "O kitty mais popular",
       "description": "Os gatos que os usuários mais escolhem."
-    }
+    },
+    "tipsHeading": "Dicas de personalização",
+    "tipsIntro": "Alguns ajustes pequenos podem fazer uma diferença enorme em como seu gato fica na barra de progresso do YouTube. Aqui estão os ajustes com maior impacto.",
+    "tip1Title": "Combine o gato com seus vídeos",
+    "tip1Desc": "Gatos pixel e GIFs estilo chiptune combinam perfeitamente com vídeos de gaming retro e streams de música lo-fi. O Nyan Cat clássico funciona com qualquer coisa; os gatos kawaii são divertidos e fofos. Experimente alguns — a troca é instantânea.",
+    "tip2Title": "A altura muda toda a vibe",
+    "tip2Desc": "Uma altura de 16–24 px parece sutil e desaparece no player. Aumente para 40–60 px e o gato vira o destaque. Não há resposta errada — escolha o que te faz sorrir ao usar o scrubber.",
+    "tip3Title": "Use o deslocamento superior para centralizar o gato",
+    "tip3Desc": "GIFs diferentes têm espaçamento diferente ao redor da animação, então o gato pode ficar muito acima ou abaixo por padrão. Ajuste o deslocamento alguns pixels até as patinhas do gato alinharem com a linha do scrubber do YouTube.",
+    "tip4Title": "Escolha GIFs com fundo transparente",
+    "tip4Desc": "GIFs com fundo de cor sólida vão mostrar essa cor no scrubber. Fundos transparentes se misturam de forma limpa com a interface do YouTube. A maioria das ferramentas de busca permite filtrar resultados transparentes.",
+    "useCasesHeading": "Casos de uso populares",
+    "useCasesIntro": "Pessoas diferentes encontram o gato delas de formas diferentes. Aqui estão os três padrões que mais ouvimos dos usuários.",
+    "useCase1Title": "Vídeos longos",
+    "useCase1Desc": "Aulas, podcasts, tutoriais e documentários: um gato caminhando por uma barra de 40 minutos é um pouquinho de movimento que faz vídeos longos parecerem menos estáticos. Muitos usuários escolhem um gato caminhando calmamente para isso.",
+    "useCase2Title": "Música e lo-fi",
+    "useCase2Desc": "Usuários do YouTube Music tendem a escolher gatos dançantes ou pulando — Orange Dance, Kitty Wigglez e o Nyan clássico são favoritos eternos. O movimento sincroniza naturalmente com a música.",
+    "useCase3Title": "Streaming e telas compartilhadas",
+    "useCase3Desc": "Streamers e quem compartilha o navegador em chamadas do Zoom costumam escolher um único gato marcante (Garfield, Pixel Tiger) para o scrubber virar uma peça visível de marca. Alguns até sobem um GIF próprio que combina com o canal.",
+    "faqHintHeading": "Ainda com dúvida?",
+    "faqHintPre": "A maioria das perguntas sobre instalação e personalização está respondida na",
+    "faqHintLinkText": "página de FAQ",
+    "faqHintPost": "— dá uma olhada lá primeiro."
   },
   "header": {
     "logoAlt": "Gato Nyan"
@@ -85,7 +119,10 @@
     "support": "Apoiar",
     "privacy": "Privacidade",
     "howToUse": "Guias",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "about": "Sobre",
+    "terms": "Termos",
+    "faq": "FAQ"
   },
   "cookieConsent": {
     "title": "Cookies",
@@ -125,7 +162,26 @@
     "feature2Title": "Faça upload do seu GIF",
     "feature2Desc": "Use qualquer GIF como seu scrubber personalizado.",
     "feature3Title": "Funciona em todo lugar",
-    "feature3Desc": "YouTube e YouTube Music, player padrão e mini."
+    "feature3Desc": "YouTube e YouTube Music, player padrão e mini.",
+    "introHeading": "Uma pequena melhoria para cada vídeo que você assiste",
+    "introBody1": "Nyan Progress Bar é uma extensão gratuita do Chrome que substitui a barra de progresso vermelha e plana do YouTube por um gato animado escolhido a dedo. Funciona inteiramente no seu navegador, não pede nada e dá um toque de personalidade à barra que você olha o dia inteiro. Doze gatos vêm prontos de fábrica — o Nyan Cat original com arco-íris, um papagaio em pixel, um gato glitch, um Garfield dançando e várias silhuetas suaves e minimalistas — e você pode subir qualquer GIF como seu próprio scrubber personalizado.",
+    "introBody2": "O produto inteiro é uma única pequena melhoria. Você instala a extensão, escolhe um gato e, a partir desse momento, todo vídeo do YouTube e toda música do YouTube Music ganha um mascote pequenininho seguindo o cabeçote de reprodução. Sem conta para criar, sem menu de configurações para aprender, sem nível premium. Simplesmente funciona, e uma vez que está lá, você para de notar que ele faz qualquer coisa — até que ele te faz sorrir no meio de um vídeo.",
+    "howHeading": "Como funciona",
+    "howIntro": "Três passos da instalação até um gato na sua barra do YouTube.",
+    "howStep1Title": "Instale em um clique",
+    "howStep1Desc": "Adicione o Nyan Progress Bar a partir da Chrome Web Store. A extensão tem cerca de 15 KB, é construída sobre Manifest V3 e só pede acesso a youtube.com e music.youtube.com.",
+    "howStep2Title": "Escolha um gato",
+    "howStep2Desc": "Abra o popup e toque em qualquer um dos doze gatos incluídos — ou suba seu próprio GIF. Sua escolha é salva localmente e aplicada na hora em todas as abas do YouTube abertas, sem precisar recarregar.",
+    "howStep3Title": "Ajuste a posição",
+    "howStep3Desc": "Use os sliders Altura e Deslocamento superior no popup para fazer o gato encaixar perfeitamente no scrubber. Cada gato lembra suas próprias configurações, então você pode trocar entre temas sem reajustar.",
+    "useCasesHeading": "Feito para quem vive no YouTube",
+    "useCasesBody1": "Conteúdo longo é onde o Nyan Progress Bar brilha. Aulas de quarenta minutos, documentários de noventa minutos, podcasts de três horas — um gatinho animado se movendo pelo scrubber dá um toque de vida ao cabeçote estático. A maioria dos usuários escolhe um gato caminhando calmamente para isso e esquece que a barra um dia foi uma linha plana.",
+    "useCasesBody2": "No YouTube Music, os gatos mais saltitantes brilham de verdade. Orange Cat Dance, Kitty Wigglez e o Nyan Cat original sincronizam naturalmente com o ritmo da música e fazem o player parecer menos utilitário e mais como um pequeno parquinho. Muitos usuários de música mantêm um gato dançante como companheiro permanente da playlist diária.",
+    "useCasesBody3": "Streamers e quem compartilha a tela em calls escolhem um visual com um único gato marcante — Garfield ou Pixel Tiger — para que o gato funcione como um pedacinho visível de marca pessoal. O bloco de upload de GIF personalizado também é popular aqui: coloque o mascote do seu canal ou um emote da comunidade e o scrubber vira seu.",
+    "trustHeading": "Open source, sem anúncios e financiada discretamente por usuários",
+    "trustBody": "Nyan Progress Bar é publicado como projeto open source. Não há anúncios dentro da extensão, não há nível premium, não há upsells e não há analytics que te perseguem. Hospedagem e desenvolvimento contínuo são totalmente financiados por doações opcionais de usuários que amam o produto.",
+    "trustLinkGithubLabel": "Ver o código no GitHub",
+    "trustLinkSupportLabel": "Apoiar o projeto"
   },
   "extension": {
     "heading": "Obtenha o Nyan Progress Bar",
@@ -148,7 +204,20 @@
     "questionHeading": "Tem alguma dúvida?",
     "questionPre": "Visite o",
     "questionLinkText": "centro de suporte",
-    "questionPost": "ou abra um relatório de bug."
+    "questionPost": "ou abra um relatório de bug.",
+    "whyHeading": "Por que usar o Nyan Progress Bar?",
+    "whyBody1": "A barra de progresso padrão do YouTube é uma linha vermelha plana — útil, mas fácil de ignorar. O Nyan Progress Bar substitui essa linha por um gato animado escolhido a dedo (ou qualquer GIF que você quiser) para que o scrubber vire um pedacinho de personalidade que você realmente nota. Uma pequena alegria no seu dia, em cada vídeo que assiste.",
+    "whyBody2": "É feito para quem vive no YouTube: vídeos longos e aulas, playlists de música e lo-fi no YouTube Music, notícias diárias, streams de gaming e trabalho criativo. O gato se move com o cabeçote, nunca atrapalha o vídeo e some no instante em que você desinstala.",
+    "whyBody3": "E como a extensão roda inteiramente no seu próprio navegador — sem contas, sem servidores, sem analytics — não há nada para se cadastrar e nada com que se preocupar. Você instala, esquece que está lá, e seus vídeos simplesmente parecem um pouco mais seus.",
+    "howHeading": "Como funciona",
+    "howStep1Title": "1. Instale com um clique",
+    "howStep1Desc": "Adicione o Nyan Progress Bar a partir da Chrome Web Store. A extensão tem ~15 KB, é construída com Manifest V3 e pede acesso apenas ao YouTube e YouTube Music.",
+    "howStep2Title": "2. Escolha seu gato",
+    "howStep2Desc": "Abra o popup e toque em qualquer um dos 12 gatos embutidos — ou solte seu próprio GIF. A seleção é salva localmente e sincroniza em todas as abas de YouTube abertas.",
+    "howStep3Title": "3. Ajuste a posição",
+    "howStep3Desc": "Use os sliders de altura e deslocamento superior para o gato encaixar perfeitamente no scrubber. As configurações são por gato, então cada tema lembra do próprio visual.",
+    "comparisonHeading": "O que torna diferente",
+    "comparisonBody": "Outras extensões de navegador para YouTube focam em bloqueio de anúncios, pular patrocínios ou ajustes de tema. O Nyan Progress Bar é a única feita especificamente para a barra de progresso — cada gato é ajustado à mão para a altura e movimento do scrubber do YouTube, com padrões sensatos para você não mexer nos sliders a menos que queira. O resultado é um único detalhe pequeno e polido que não briga com o resto da interface do YouTube."
   },
   "contact": {
     "heading": "Central de Suporte",
@@ -242,7 +311,27 @@
     "cryptoDesc": "Envie USDT via rede TRON (TRC-20). Escaneie o QR ou copie o endereco.",
     "cryptoNetwork": "TRC-20",
     "cryptoCopy": "Copiar endereco",
-    "cryptoCopied": "Copiado!"
+    "cryptoCopied": "Copiado!",
+    "whereHeading": "Para onde vai o seu apoio",
+    "whereIntro": "O Nyan Progress Bar é um projeto paralelo gratuito, mas não é gratuito mantê-lo. Cada contribuição — independente do tamanho — volta direto para manter a extensão viva e crescendo.",
+    "whereItem1Title": "Hospedagem e infraestrutura",
+    "whereItem1Desc": "O site, os recursos da ficha na Chrome Web Store e o pipeline de e-mail do formulário de contato custam um valor pequeno mas constante todo mês. Seu apoio mantém as luzes acesas.",
+    "whereItem2Title": "Novos gatos e funcionalidades",
+    "whereItem2Desc": "Desenhar e animar um novo gato — ou construir um novo controle — leva horas de trabalho cuidadoso. As doações pagam esse tempo para o catálogo continuar crescendo.",
+    "whereItem3Title": "Correções de bugs e atualizações do Chrome",
+    "whereItem3Desc": "As APIs de extensão do Chrome evoluem o tempo todo, e o player do YouTube ocasionalmente lança mudanças que quebram a sobreposição do scrubber. O apoio financia o trabalho de manutenção que mantém tudo funcionando.",
+    "otherWaysHeading": "Outras formas de ajudar",
+    "otherWaysIntro": "Não pode doar agora? Sem problema — há várias formas gratuitas de impulsionar o projeto.",
+    "otherWay1Title": "Deixe uma avaliação na Chrome Web Store",
+    "otherWay1Desc": "Avaliações são o maior sinal para ajudar outras pessoas a descobrir a extensão. Mesmo uma avaliação de uma linha faz uma diferença real.",
+    "otherWay2Title": "Compartilhe com um amigo",
+    "otherWay2Desc": "Conhece alguém que vive no YouTube? Mande o link. O boca a boca é a nossa maior fonte de novos usuários.",
+    "otherWay3Title": "Reporte bugs e ideias",
+    "otherWay3Desc": "Cada relato de bug e pedido de funcionalidade molda o próximo lançamento. Use o formulário de contato ou abra uma issue no GitHub — ambos vão direto para o mantenedor.",
+    "otherWay4Title": "Contribua no GitHub",
+    "otherWay4Desc": "O projeto é open source. Pull requests para correções, traduções ou novos designs de gatos são muito bem-vindos.",
+    "transparencyHeading": "Aberto e transparente",
+    "transparencyBody": "Não há níveis pagos, gatos premium ou anúncios dentro da extensão. O produto é o mesmo para todos — as doações são totalmente uma forma de dizer obrigado e manter os gatos funcionando."
   },
   "customizer": {
     "adjustPosition": "Ajustar posição",
@@ -267,7 +356,22 @@
     "rateUs": "Avaliar",
     "reviews": "avaliações",
     "showMore": "Mostrar mais",
-    "showLess": "Mostrar menos"
+    "showLess": "Mostrar menos",
+    "pageHeading": "Avaliações de usuários reais",
+    "pageIntro1": "Nyan Progress Bar mantém uma média de 4,7 estrelas em 58 avaliações na Chrome Web Store. As avaliações abaixo são uma mistura — o feedback mais recente sobre a versão lançada mais recentemente vem no topo, seguido de todas as avaliações coletadas desde a primeiríssima versão. Nada é curado ou filtrado. Avaliações negativas permanecem visíveis porque a gente aprende mais com elas do que com qualquer outra coisa.",
+    "pageIntro2": "Se você está pensando em instalar a extensão, esta página é a imagem mais honesta do produto que conseguimos dar. Se já a usa e quer deixar uma avaliação pública, a Chrome Web Store é o lugar mais útil — resultados de busca e ranking lá são fortemente influenciados pelas notas recentes, e uma simples avaliação de uma linha é a melhor forma de ajudar o projeto a alcançar outros usuários do YouTube.",
+    "themesHeading": "O que os usuários mais mencionam",
+    "themesIntro": "Em centenas de avaliações e relatos de bugs, os mesmos três temas voltam o tempo todo.",
+    "theme1Title": "Privacidade e \"sem rastreamento\"",
+    "theme1Body": "De longe, o comentário positivo mais comum é alguma versão de \"ela faz uma coisa e não tenta me rastrear.\" Usuários reparam que a extensão não pede permissões desnecessárias, não envia nada para um servidor e não tem conta ou login. Para muitos, é o fator decisivo em relação a outras extensões do YouTube.",
+    "theme2Title": "Polimento no player do YouTube",
+    "theme2Body": "Usuários frequentemente mencionam o quão bem os gatos estão ajustados ao scrubber do YouTube. Cada gato incluído tem altura e deslocamento padrão ajustados à mão, para que a sobreposição se encaixe limpa no player sem ninguém precisar mexer nos sliders. É o tipo de detalhe que leva muito tempo para ficar certo e a parte da extensão da qual mais nos orgulhamos.",
+    "theme3Title": "Upload de GIFs personalizados",
+    "theme3Body": "O bloco de upload é a funcionalidade mais citada em avaliações cinco estrelas. Usuários sobem mascotes dos seus canais, emotes de comunidade, seus próprios pets, pixel art feito por eles, ou GIFs aleatórios da internet — e ver essas animações como scrubber do YouTube se mostra uma recompensa muito maior do que a descrição sugere.",
+    "ctaHeading": "Deixe uma avaliação ou envie feedback privado",
+    "ctaBody": "Avaliações públicas na Chrome Web Store são o lugar mais útil para compartilhar uma opinião honesta — elas moldam como a extensão aparece para outros usuários nas buscas. Para relatos de bugs, ideias de funcionalidades ou qualquer coisa que você prefira não escrever em público, o formulário de contato está a um clique e cada mensagem vai direto para quem cuida do projeto.",
+    "ctaWebStoreLabel": "Deixar avaliação na Chrome Web Store",
+    "ctaContactLabel": "Enviar feedback privado"
   },
   "releaseReviews": {
     "heading": "Avaliações recentes",
@@ -588,6 +692,144 @@
       "dance": "Gatos dançantes",
       "monochrome": "Monocromáticos",
       "orange": "Esquadrão Laranja"
+    },
+    "introHeading": "O que está bombando no scrubber do YouTube agora",
+    "introBody1": "Esta página é um catálogo vivo dos estilos de cat progress bar que os usuários estão instalando mais. Ela existe porque escolher um gato é muito mais fácil quando você vê o que outras pessoas amam — os clássicos que ficam no topo há anos, os temas novos que acabaram de chegar e as coleções curadas agrupadas por vibe (kawaii, pixel, monocromático, dança e mais).",
+    "introBody2": "Cada estilo aqui está a um clique de ser seu. Toque em qualquer gato para visualizá-lo no customizador ao vivo, ou aperte instalar para colocar a extensão no Chrome e ver sua escolha em um vídeo real do YouTube. Sem cadastro, sem tier premium, e todo gato vem incluso na extensão gratuita.",
+    "rankingsHeading": "Como funcionam os rankings",
+    "rankingsBody1": "A seção Populares é ordenada pelo total de instalações ao longo da vida da extensão — esses são os gatos mais escolhidos por todos os usuários desde o lançamento. Nyan Classic, Cute Cat e Garfield trocam o top três quase toda semana, mas a cauda longa se move conforme novos temas pegam.",
+    "rankingsBody2": "Em Alta é uma visão móvel de sete dias: gatos mais escolhidos ou trocados na última semana. Novos temas costumam disparar aqui nos dias após o lançamento, então é a melhor seção para sentir o que está fresco. A seção Novos lista cada gato adicionado ao catálogo nos últimos 60 dias, na ordem de lançamento.",
+    "rankingsBody3": "As Principais Coleções agrupam gatos por estética, não por popularidade. A coleção Classic Cats reúne os originais; Pixel & Retro junta todos os temas em pixel art; Kawaii Pastels agrupa os estilos suaves e de olhos grandes; Dancing Cats são as animações que sincronizam bem com o YouTube Music; Monocromático é o conjunto minimalista; Orange Squad é exatamente o que parece.",
+    "customizeHeading": "Faça qualquer estilo em alta ser seu",
+    "customizeBody": "Achou um que curtiu? Abra no customizador ao vivo e ajuste a altura e posição vertical até ele encaixar perfeitamente no scrubber do YouTube. Cada gato lembra das próprias configurações, então você pode trocar entre estilos em alta sem refazer o trabalho.",
+    "customizeCta": "Abrir o customizador"
+  },
+  "about": {
+    "heading": "Sobre o Nyan Progress Bar",
+    "intro": "O Nyan Progress Bar é uma extensão gratuita e de código aberto para Chrome que substitui a linha vermelha plana da barra de progresso do YouTube por um gato animado escolhido a dedo. Esta página é a história curta do que ele é, quem o constrói e por que existe.",
+    "s1Heading": "O que é",
+    "s1Body": "O Nyan Progress Bar é uma extensão de navegador pequena e focada para YouTube e YouTube Music. Ela faz exatamente uma coisa: desenha um gato animado (ou qualquer GIF que você escolher) por cima do scrubber do vídeo. Não há menus de configurações para aprender, contas para criar ou assinaturas. Você instala, escolhe um gato e isso é o produto inteiro.",
+    "s1Body2": "Doze temas de gatos vêm de fábrica, do Nyan Cat arco-íris original a um papagaio em pixel art, um gato glitch com aberração cromática, um Garfield dançando e várias silhuetas minimalistas. Você também pode subir qualquer GIF do seu computador para usá-lo como seu próprio scrubber — o arquivo fica no seu dispositivo e nunca é enviado para lugar nenhum.",
+    "s2Heading": "Por que construímos",
+    "s2Body": "O projeto começou de uma frustração pessoal: passar horas todo dia no YouTube, olhando para a mesma barra de progresso plana, e pensar que ela poderia ser um pequeno momento de alegria. O Nyan Cat clássico parecia o primeiro gato óbvio para tentar, e assim que ele estava rodando em um vídeo real do YouTube ficou claro que havia ali um prazer pequeno mas significativo.",
+    "s2Body2": "Tudo desde então é guiado por uma ideia simples: uma extensão de navegador pode ser calma, focada e prazerosa. A maioria das extensões pede permissões demais, mostra superfícies de UI demais ou tenta monetizar atenção. O Nyan Progress Bar deliberadamente não faz nada disso — é uma pequena ferramenta que adiciona um sorriso ao seu dia e depois sai do caminho.",
+    "s3Heading": "Como funciona",
+    "s3Body": "Por baixo, a extensão é uma extensão Chrome Manifest V3 que roda apenas em youtube.com e music.youtube.com. Quando uma página do YouTube carrega, a extensão encontra o elemento da barra de progresso e sobrepõe seu GIF escolhido nele. O GIF se move com a posição do scrubber porque está ancorado no mesmo elemento que o YouTube usa para o cabeçote de reprodução.",
+    "s3Body2": "Sua seleção de gato, altura e deslocamento são salvos localmente pela Chrome Storage API no seu próprio dispositivo. Nada é enviado a um servidor. A extensão não faz nenhuma requisição de rede; não lê seu histórico de reprodução, suas buscas ou qualquer outra atividade no YouTube. Se você desinstalar, todo vestígio desaparece com ela.",
+    "s4Heading": "Quem constrói",
+    "s4Body": "O Nyan Progress Bar é construído e mantido por um desenvolvedor independente que trabalha nele no tempo livre. O projeto é open source — pull requests para novos designs de gatos, traduções e correções são muito bem-vindos, e o formulário de contato deste site vai direto para o mantenedor.",
+    "s4Body2": "O site está traduzido em dez idiomas (inglês, espanhol, português, francês, alemão, polonês, ucraniano, indonésio, vietnamita e filipino) para que usuários ao redor do mundo possam ler sobre a extensão no próprio idioma.",
+    "s5Heading": "Nossos valores",
+    "s5Intro": "Alguns princípios guiam como construímos e operamos o projeto:",
+    "s5Item1": "Privacidade primeiro. A extensão não coleta nem transmite dados — ponto.",
+    "s5Item2": "Sem anúncios dentro da extensão. Sem upsells, sem gatos premium, sem assinaturas.",
+    "s5Item3": "Aberto e transparente. O código, doações e roadmap estão todos à mostra.",
+    "s5Item4": "Uma coisinha bem feita. Nunca vamos expandir para bloqueio de anúncios, pular patrocínios ou ajustes gerais do YouTube. A barra de progresso é o produto.",
+    "s6Heading": "Entre em contato",
+    "s6Pre": "Tem uma dúvida, ideia ou bug para reportar? O caminho mais rápido é pelo",
+    "s6ContactLink": "formulário de contato",
+    "s6Mid": ", ou você pode escrever direto para"
+  },
+  "terms": {
+    "heading": "Termos de Serviço",
+    "lastUpdated": "Última atualização: Junho de 2025",
+    "intro": "Estes Termos de Serviço (\"Termos\") regem o uso do site Nyan Progress Bar (o \"Site\") e da extensão Chrome Nyan Progress Bar (a \"Extensão\"). Ao usar o Site ou a Extensão, você concorda com estes Termos.",
+    "s1Heading": "1. Aceitação dos Termos",
+    "s1Body": "Ao instalar a Extensão ou usar o Site, você confirma que leu, entendeu e concorda em estar sujeito a estes Termos. Se você não concorda, por favor desinstale a Extensão e pare de usar o Site. Podemos atualizar estes Termos de tempos em tempos; a data de \"última atualização\" acima reflete a revisão mais recente. O uso contínuo após uma mudança significa que você aceita os novos Termos.",
+    "s2Heading": "2. Descrição do Serviço",
+    "s2Body": "A Extensão é um complemento gratuito de navegador que sobrepõe um GIF animado (um \"gato\") em cima da barra de progresso do YouTube e YouTube Music. O Site oferece informações sobre a Extensão, um customizador ao vivo, um catálogo de temas de gatos, links de suporte e doação e canais de contato. Tanto o Site quanto a Extensão são fornecidos sem custo.",
+    "s3Heading": "3. Responsabilidades do usuário e uso aceitável",
+    "s3Body": "Você concorda em usar o Site e a Extensão apenas para fins legais e pessoais. Você não tentará realizar engenharia reversa, modificar, redistribuir ou reempacotar a Extensão ou o Site além do permitido pela licença open source do projeto. Você não usará o Site ou a Extensão para assediar, prejudicar ou se passar por outros.",
+    "s3Body2": "Você é responsável pelos GIFs que sobe para a Extensão. Você concorda que tem o direito legal de usar qualquer GIF que sobe e que o GIF não contém conteúdo ilegal, que infrinja direitos ou de outra forma prejudicial.",
+    "s4Heading": "4. Propriedade Intelectual",
+    "s4Body": "O nome Nyan Progress Bar, logotipo, recursos de design e temas originais de gatos pertencem aos mantenedores do projeto. Os GIFs de gatos inclusos na Extensão são obras originais, conteúdo de domínio público ou usados sob licenças que permitem redistribuição. Marcas de terceiros referenciadas no Site (por ex. YouTube, Chrome) são marcas registradas de seus respectivos donos e são usadas aqui apenas para fins descritivos.",
+    "s4Body2": "O código-fonte da Extensão é publicado sob uma licença open source — consulte o repositório no GitHub para os termos exatos.",
+    "s5Heading": "5. Conteúdo gerado pelo usuário",
+    "s5Body": "Quando você sobe um GIF para a Extensão, o arquivo é armazenado localmente no seu próprio navegador via Chrome Storage API. Ele não é enviado aos nossos servidores e não acessamos, visualizamos nem processamos o arquivo de forma alguma. Você mantém todos os direitos sobre os GIFs que sobe.",
+    "s5Body2": "Se você envia conteúdo pelo formulário de contato (uma mensagem, captura de tela ou feedback), você nos concede uma licença não exclusiva e livre de royalties para usar esse conteúdo com o propósito de responder ao seu pedido e melhorar a Extensão. Não vamos compartilhar publicamente sem sua permissão.",
+    "s6Heading": "6. Isenções",
+    "s6Body": "O Site e a Extensão são fornecidos \"como estão\" e \"conforme disponível\", sem garantias de nenhum tipo, expressas ou implícitas. Não garantimos que o Site ou a Extensão estarão ininterruptos, livres de erros ou compatíveis com toda versão de todo navegador. O YouTube pode a qualquer momento mudar a implementação do player de uma forma que quebre a sobreposição do gato; faremos o possível para corrigir esses problemas rapidamente mas não podemos garantir operação contínua.",
+    "s7Heading": "7. Limitação de responsabilidade",
+    "s7Body": "Na máxima extensão permitida por lei, o projeto Nyan Progress Bar, seus mantenedores e colaboradores não são responsáveis por danos indiretos, incidentais, especiais, consequentes ou punitivos resultantes do seu uso (ou impossibilidade de uso) do Site ou da Extensão. Seu único recurso se estiver insatisfeito é parar de usar o Site e desinstalar a Extensão.",
+    "s8Heading": "8. Serviços de terceiros",
+    "s8Body": "O Site faz link para serviços de terceiros (por ex. Chrome Web Store, GitHub, Ko-fi, Patreon, Donatello). Não somos responsáveis pelo conteúdo, políticas ou práticas desses serviços. Seu uso desses serviços é regido pelos termos deles.",
+    "s9Heading": "9. Lei aplicável e mudanças",
+    "s9Body": "Estes Termos são regidos por princípios gerais do direito do consumidor no país de residência do mantenedor; disputas serão resolvidas com boa-fé e melhor esforço. Reservamos o direito de mudar estes Termos a qualquer momento. Mudanças materiais serão refletidas com a atualização da data de \"última atualização\".",
+    "s10Heading": "10. Contato",
+    "s10Pre": "Dúvidas sobre estes Termos? Escreva para"
+  },
+  "faq": {
+    "heading": "Perguntas Frequentes",
+    "intro": "Respostas rápidas para as perguntas que mais recebemos. Não acha o que procura? O formulário de contato está a um clique.",
+    "categoryGettingStartedHeading": "Primeiros passos",
+    "categoryCustomizationHeading": "Personalização",
+    "categoryPrivacyHeading": "Privacidade e dados",
+    "categoryTroubleshootingHeading": "Resolução de problemas",
+    "stillStuckHeading": "Ainda com dúvida?",
+    "stillStuckPre": "Entre em contato pelo",
+    "stillStuckLinkText": "formulário de contato",
+    "stillStuckPost": "— toda mensagem vai direto para o mantenedor e recebe uma resposta pessoal.",
+    "questions": {
+      "isFree": {
+        "q": "O Nyan Progress Bar é gratuito?",
+        "a": "Sim. A Extensão é completamente gratuita, sem níveis pagos, gatos premium ou anúncios dentro da extensão. O projeto é sustentado inteiramente por doações opcionais via Ko-fi, Patreon, Donatello e outros — veja a página de Suporte para detalhes."
+      },
+      "browsers": {
+        "q": "Quais navegadores são suportados?",
+        "a": "A Extensão suporta oficialmente Chrome 88 e versões mais recentes. Também funciona em navegadores baseados em Chromium incluindo Microsoft Edge, Brave, Opera, Arc e Vivaldi. Um port para Safari está no roadmap. Firefox não é suportado no momento."
+      },
+      "howToInstall": {
+        "q": "Como instalo?",
+        "a": "Visite a página do Nyan Progress Bar na Chrome Web Store e clique em \"Usar no Chrome\". Confirme a instalação na caixa de diálogo e o gato aparece imediatamente no YouTube — sem recarregar, sem login. Para um guia completo, veja o tutorial de instalação na seção Guias."
+      },
+      "worksOnYouTube": {
+        "q": "Funciona no YouTube e YouTube Music?",
+        "a": "Sim — em ambos. A Extensão ativa em youtube.com e music.youtube.com. Funciona no player padrão, no mini player e no modo cinema. Não roda em nenhum outro site."
+      },
+      "uploadGif": {
+        "q": "Posso subir meu próprio GIF?",
+        "a": "Absolutamente. Abra o popup da Extensão, clique no bloco de upload na grade de gatos e escolha qualquer GIF do seu computador. A Extensão lê o arquivo localmente e usa como seu scrubber. O GIF nunca é enviado para um servidor."
+      },
+      "gifFormats": {
+        "q": "Que formatos de arquivo são suportados?",
+        "a": "A Extensão suporta arquivos .gif animados. Imagens estáticas e outros formatos animados (APNG, WebP, MP4) não são suportados. Não há limite estrito de tamanho, mas GIFs menores (abaixo de algumas centenas de kilobytes) tendem a parecer mais suaves na barra de progresso."
+      },
+      "changePosition": {
+        "q": "Como mudo o tamanho ou posição do gato?",
+        "a": "Abra o popup, escolha um gato e use os sliders de Altura e Deslocamento que aparecem. A altura vai de 8 px a 80 px; o deslocamento de -50 px a +20 px. Configurações são salvas por gato, então cada tema lembra o próprio visual."
+      },
+      "catOffScreen": {
+        "q": "Por que meu gato está fora do centro ou da tela?",
+        "a": "GIFs diferentes têm espaçamento diferente ao redor da animação, então o deslocamento padrão pode não combinar com seu GIF personalizado. Abra o popup e ajuste o Deslocamento alguns pixels até o gato alinhar com o scrubber. Se ajustar demais, clique em \"Definir posição padrão\" para resetar."
+      },
+      "doesItTrack": {
+        "q": "A Extensão me rastreia?",
+        "a": "Não. A Extensão não coleta, transmite ou armazena dados pessoais. Não lê seu histórico de reprodução, buscas ou qualquer outra atividade no YouTube. Os únicos dados salvos são sua seleção de gato e as posições dos sliders — ambos armazenados localmente no seu dispositivo."
+      },
+      "sendsDataAnywhere": {
+        "q": "Envia algo pela internet?",
+        "a": "Não. A Extensão não faz requisições de rede. Seus uploads de GIF e configurações ficam no seu dispositivo. O site em si usa Google Analytics para estatísticas anônimas — veja a Política de Privacidade — mas a Extensão é totalmente offline."
+      },
+      "worksOffline": {
+        "q": "Funciona offline?",
+        "a": "A própria Extensão roda offline. Vídeos do YouTube obviamente precisam de internet para tocar, mas a sobreposição do gato não exige nenhuma conexão externa própria."
+      },
+      "catNotShowing": {
+        "q": "O gato não aparece no YouTube. O que faço?",
+        "a": "Primeiro, recarregue a aba do YouTube — a Extensão precisa injetar a sobreposição no carregamento da página. Se não ajudar, confirme se a Extensão está habilitada visitando chrome://extensions e checando o switch. Se uma atualização recente do player do YouTube quebrou a sobreposição, reporte pelo formulário de contato para podermos lançar um fix."
+      },
+      "extensionDisappeared": {
+        "q": "O ícone da Extensão sumiu da minha barra de ferramentas.",
+        "a": "O Chrome pode ter desafixado. Clique no ícone do quebra-cabeça ao lado da barra de endereço para ver todas as extensões, depois clique no ícone de pin ao lado do Nyan Progress Bar para trazer de volta à barra."
+      },
+      "uploadFails": {
+        "q": "Meu GIF não sobe.",
+        "a": "Garanta que o arquivo tenha extensão .gif e seja um GIF animado real (alguns \"GIFs\" em redes sociais são na verdade vídeos MP4 com rótulo enganoso). Se o arquivo for muito grande, tente uma versão menor — o armazenamento local do Chrome tem limites. Caso contrário, envie uma cópia pelo formulário de contato e a gente verifica."
+      },
+      "howToUninstall": {
+        "q": "Como desinstalo a Extensão?",
+        "a": "Visite chrome://extensions, encontre o Nyan Progress Bar e clique em \"Remover\". Todas as configurações locais e GIFs subidos são deletados automaticamente. Se tiver um instante, o formulário rápido de feedback de desinstalação ajuda a melhorar o próximo lançamento."
+      }
     }
   }
 }
