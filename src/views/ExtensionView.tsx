@@ -1,6 +1,8 @@
 import type { Dictionary } from '@/i18n';
 
+import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { buttonVariants } from '@shared/ui/button';
+import { GoogleAd } from '@shared/ui/google-add';
 import { Separator } from '@shared/ui/separator';
 import { ChangelogSection } from '@widgets/changelog';
 
@@ -85,6 +87,8 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
           ))}
         </div>
       </section>
+
+      <GoogleAd slot={AD_SLOTS.extension} />
 
       <Separator />
 

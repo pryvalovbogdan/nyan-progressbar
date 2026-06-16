@@ -23,5 +23,5 @@ export default async function ReviewsPage({ params }: { params: Promise<{ lang: 
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
 
-  return <ReviewsView dict={dict} />;
+  return <ReviewsView dict={dict} lang={lang} />;
 }

@@ -23,7 +23,7 @@ export function GoogleAd({ slot, format = 'auto', responsive = 'true', className
     }
   }, []);
 
-  if (!clientPubId) return null;
+  if (!clientPubId || !slot) return null;
 
   return (
     <div className={`w-full overflow-hidden flex justify-center items-center my-4 ${className}`}>

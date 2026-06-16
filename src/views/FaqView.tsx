@@ -1,7 +1,10 @@
 import type { Dictionary } from '@/i18n';
 import Link from 'next/link';
+import { Fragment } from 'react';
 
+import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@shared/ui/accordion';
+import { GoogleAd } from '@shared/ui/google-add';
 
 interface IFaqViewProps {
   dict: Dictionary;
@@ -54,24 +57,27 @@ export function FaqView({ dict, lang }: IFaqViewProps) {
         <p className="text-muted-foreground max-w-xl mx-auto">{f.intro}</p>
       </header>
 
-      {CATEGORIES.map(({ headingKey, questionKeys }) => (
-        <section key={headingKey} className="space-y-4">
-          <h2 className="text-xl font-semibold">{f[headingKey] as string}</h2>
-          <Accordion>
-            {questionKeys.map(qk => {
-              const qa = f.questions[qk];
+      {CATEGORIES.map(({ headingKey, questionKeys }, idx) => (
+        <Fragment key={headingKey}>
+          <section className="space-y-4">
+            <h2 className="text-xl font-semibold">{f[headingKey] as string}</h2>
+            <Accordion>
+              {questionKeys.map(qk => {
+                const qa = f.questions[qk];
 
-              return (
-                <AccordionItem key={qk}>
-                  <AccordionTrigger>{qa.q}</AccordionTrigger>
-                  <AccordionContent>
-                    <p className="text-muted-foreground leading-relaxed">{qa.a}</p>
-                  </AccordionContent>
-                </AccordionItem>
-              );
-            })}
-          </Accordion>
-        </section>
+                return (
+                  <AccordionItem key={qk}>
+                    <AccordionTrigger>{qa.q}</AccordionTrigger>
+                    <AccordionContent>
+                      <p className="text-muted-foreground leading-relaxed">{qa.a}</p>
+                    </AccordionContent>
+                  </AccordionItem>
+                );
+              })}
+            </Accordion>
+          </section>
+          {idx === 1 && <GoogleAd slot={AD_SLOTS.faq} />}
+        </Fragment>
       ))}
 
       <section className="border-t border-border pt-8 space-y-3 text-center">

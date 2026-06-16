@@ -11,5 +11,5 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
 
   const dict = await getDictionary(lang as Locale);
 
-  return <HomeView dict={dict} />;
+  return <HomeView dict={dict} lang={lang} />;
 }

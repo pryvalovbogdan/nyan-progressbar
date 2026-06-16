@@ -41,16 +41,16 @@
       "description": "Ceritakan apa yang salah dengan ekstensi. Anonim atau dengan email — masukanmu membentuk rilis berikutnya."
     },
     "about": {
-      "title": "About Nyan Progress Bar — Project & Team",
-      "description": "Learn about the people behind Nyan Progress Bar, why we built it, and how the free Chrome extension works under the hood."
+      "title": "Tentang Nyan Progress Bar — Proyek & Tim",
+      "description": "Pelajari tentang orang-orang di balik Nyan Progress Bar, mengapa kami membuatnya, dan bagaimana ekstensi Chrome gratis ini bekerja."
     },
     "terms": {
-      "title": "Terms of Service — Nyan Progress Bar",
-      "description": "The terms that govern your use of the Nyan Progress Bar website and Chrome extension."
+      "title": "Ketentuan Layanan — Nyan Progress Bar",
+      "description": "Ketentuan yang mengatur penggunaan situs web Nyan Progress Bar dan ekstensi Chrome."
     },
     "faq": {
-      "title": "Frequently Asked Questions — Nyan Progress Bar",
-      "description": "Answers to the most common questions about installing, customizing, and troubleshooting the Nyan Progress Bar Chrome extension."
+      "title": "Pertanyaan yang Sering Diajukan — Nyan Progress Bar",
+      "description": "Jawaban atas pertanyaan paling umum tentang menginstal, menyesuaikan, dan memecahkan masalah ekstensi Chrome Nyan Progress Bar."
     }
   },
   "nav": {
@@ -87,28 +87,28 @@
       "heading": "Kitty paling populer",
       "description": "Kucing yang paling sering dipilih pengguna."
     },
-    "tipsHeading": "Customization tips",
-    "tipsIntro": "A few small adjustments can make a huge difference to how your cat sits on the YouTube progress bar. Here are the tweaks that have the biggest payoff.",
-    "tip1Title": "Match the cat to your videos",
-    "tip1Desc": "Pixel cats and chiptune-style GIFs feel right at home on retro gaming videos and lo-fi music streams. The classic Nyan Cat works on anything; the kawaii cats lean playful and cute. Try a few — switching is instant.",
-    "tip2Title": "Height changes the whole vibe",
-    "tip2Desc": "A 16–24 px height feels subtle and disappears into the player. Push it to 40–60 px and the cat becomes the centerpiece. There's no wrong answer — pick what makes you smile when you scrub.",
-    "tip3Title": "Use top offset to centre the cat",
-    "tip3Desc": "Different GIFs have different padding around the animation, so the cat may sit too high or too low by default. Nudge the top offset by a few pixels until the cat's feet line up with the YouTube scrubber line.",
-    "tip4Title": "Choose GIFs with transparent backgrounds",
-    "tip4Desc": "GIFs that include a flat coloured background will show that colour on the scrubber. Transparent-background GIFs blend cleanly with the YouTube UI. Most search tools let you filter for transparent results.",
-    "useCasesHeading": "Popular use cases",
-    "useCasesIntro": "Different people find their cat in different ways. Here are three patterns we hear from users most often.",
-    "useCase1Title": "Long-form viewing",
-    "useCase1Desc": "Lectures, podcasts, tutorials, and documentaries: a cat moving across a 40-minute progress bar is a tiny bit of motion that makes long-form videos feel less static. Many users pick a calm, walking-style cat for this.",
-    "useCase2Title": "Music and lo-fi",
-    "useCase2Desc": "YouTube Music users tend to pick dancing or bouncing cats — Orange Dance, Kitty Wigglez, and the Nyan classic are all perennial favourites. The motion syncs naturally with the music.",
-    "useCase3Title": "Streaming and shared screens",
-    "useCase3Desc": "Streamers and people who share their browser on Zoom often pick a single bold cat (Garfield, Pixel Tiger) so the scrubber is a visible piece of branding. A few even upload a custom GIF that matches their channel.",
-    "faqHintHeading": "Still stuck?",
-    "faqHintPre": "Most installation and customization questions are answered on the",
-    "faqHintLinkText": "FAQ page",
-    "faqHintPost": "— take a quick look there first."
+    "tipsHeading": "Tips penyesuaian",
+    "tipsIntro": "Beberapa penyesuaian kecil bisa membuat perbedaan besar pada bagaimana kucingmu duduk di bilah kemajuan YouTube. Berikut ini tweak dengan dampak terbesar.",
+    "tip1Title": "Cocokkan kucing dengan videomu",
+    "tip1Desc": "Kucing piksel dan GIF gaya chiptune sangat pas dengan video gaming retro dan stream musik lo-fi. Nyan Cat klasik cocok untuk apa saja; kucing kawaii cenderung ceria dan imut. Coba beberapa — pergantiannya instan.",
+    "tip2Title": "Tinggi mengubah seluruh vibe",
+    "tip2Desc": "Tinggi 16–24 px terasa halus dan menghilang di player. Naikkan ke 40–60 px dan kucing menjadi pusat perhatian. Tidak ada jawaban yang salah — pilih yang membuatmu tersenyum saat menggeser.",
+    "tip3Title": "Pakai offset atas untuk menempatkan kucing di tengah",
+    "tip3Desc": "GIF berbeda punya padding berbeda di sekitar animasi, jadi kucing mungkin duduk terlalu tinggi atau terlalu rendah secara default. Geser offset atas beberapa piksel sampai kaki kucing sejajar dengan garis scrubber YouTube.",
+    "tip4Title": "Pilih GIF dengan latar belakang transparan",
+    "tip4Desc": "GIF dengan latar belakang berwarna polos akan menampilkan warna itu pada scrubber. GIF berlatar transparan menyatu rapi dengan UI YouTube. Sebagian besar alat pencarian memungkinkan filter hasil transparan.",
+    "useCasesHeading": "Kasus penggunaan populer",
+    "useCasesIntro": "Orang yang berbeda menemukan kucingnya dengan cara yang berbeda. Berikut tiga pola yang paling sering kami dengar dari pengguna.",
+    "useCase1Title": "Menonton konten panjang",
+    "useCase1Desc": "Kuliah, podcast, tutorial, dan dokumenter: kucing yang bergerak melintasi bilah 40 menit adalah sedikit gerakan yang membuat video panjang terasa kurang statis. Banyak pengguna memilih kucing yang berjalan tenang untuk ini.",
+    "useCase2Title": "Musik dan lo-fi",
+    "useCase2Desc": "Pengguna YouTube Music biasanya memilih kucing menari atau memantul — Orange Dance, Kitty Wigglez, dan Nyan klasik adalah favorit abadi. Gerakannya menyatu alami dengan musik.",
+    "useCase3Title": "Streaming dan layar bersama",
+    "useCase3Desc": "Streamer dan orang yang berbagi browser di Zoom sering memilih satu kucing yang menonjol (Garfield, Pixel Tiger) sehingga scrubber menjadi bagian visual dari branding. Beberapa bahkan mengunggah GIF kustom yang sesuai dengan channel mereka.",
+    "faqHintHeading": "Masih bingung?",
+    "faqHintPre": "Sebagian besar pertanyaan instalasi dan penyesuaian dijawab di",
+    "faqHintLinkText": "halaman FAQ",
+    "faqHintPost": "— lihat di sana terlebih dahulu."
   },
   "header": {
     "logoAlt": "Kucing Nyan"
@@ -120,8 +120,8 @@
     "privacy": "Privasi",
     "howToUse": "Panduan",
     "cookies": "Cookie",
-    "about": "About",
-    "terms": "Terms",
+    "about": "Tentang",
+    "terms": "Ketentuan",
     "faq": "FAQ"
   },
   "cookieConsent": {
@@ -162,7 +162,26 @@
     "feature2Title": "Unggah GIF sendiri",
     "feature2Desc": "Gunakan GIF apa saja sebagai scrubber kustom Anda.",
     "feature3Title": "Berfungsi di mana saja",
-    "feature3Desc": "YouTube dan YouTube Music, pemutar standar dan mini."
+    "feature3Desc": "YouTube dan YouTube Music, pemutar standar dan mini.",
+    "introHeading": "Peningkatan kecil untuk setiap video yang kamu tonton",
+    "introBody1": "Nyan Progress Bar adalah ekstensi Chrome gratis yang mengganti progress bar merah datar YouTube dengan kucing animasi yang dipilih dengan cermat. Berjalan sepenuhnya di browser kamu, tidak meminta apa pun, dan menambahkan sedikit kepribadian pada bilah yang kamu lihat sepanjang hari. Dua belas kucing tersedia sejak awal — Nyan Cat asli dengan jejak pelangi, burung beo piksel, kucing glitch, Garfield menari, dan beberapa siluet lembut minimalis — dan kamu bisa mengunggah GIF apa pun sebagai scrubber kustommu sendiri.",
+    "introBody2": "Seluruh produk adalah satu peningkatan kecil. Kamu memasang ekstensi, memilih kucing, dan mulai saat itu setiap video YouTube dan setiap lagu YouTube Music memiliki maskot kecil yang mengikuti playhead. Tidak ada akun yang harus dibuat, tidak ada menu pengaturan untuk dipelajari, tidak ada tingkat premium. Ekstensi ini langsung bekerja, dan begitu ada di sana, kamu berhenti menyadarinya — sampai ia membuatmu tersenyum di tengah-tengah video.",
+    "howHeading": "Cara kerjanya",
+    "howIntro": "Tiga langkah dari pemasangan hingga kucing muncul di bilah YouTube-mu.",
+    "howStep1Title": "Pasang dengan satu klik",
+    "howStep1Desc": "Tambahkan Nyan Progress Bar dari Chrome Web Store. Ekstensi ini berukuran sekitar 15 KB, dibangun dengan Manifest V3, dan hanya meminta akses ke youtube.com dan music.youtube.com.",
+    "howStep2Title": "Pilih kucing",
+    "howStep2Desc": "Buka popup dan ketuk salah satu dari dua belas kucing bawaan — atau unggah GIF milikmu sendiri. Pilihanmu tersimpan secara lokal dan langsung diterapkan ke setiap tab YouTube yang terbuka, tanpa perlu memuat ulang.",
+    "howStep3Title": "Atur posisi",
+    "howStep3Desc": "Gunakan slider Tinggi dan Offset atas di popup agar kucing duduk sempurna di scrubber. Setiap kucing mengingat pengaturannya sendiri, jadi kamu bisa berganti tema tanpa menyetel ulang.",
+    "useCasesHeading": "Dibuat untuk orang-orang yang hidup di YouTube",
+    "useCasesBody1": "Menonton konten panjang adalah tempat Nyan Progress Bar bersinar. Kuliah empat puluh menit, dokumenter sembilan puluh menit, podcast tiga jam — kucing animasi kecil yang bergerak di scrubber memberi sedikit nyawa pada playhead yang statis. Sebagian besar pengguna memilih kucing berjalan yang tenang untuk ini dan lupa bahwa bilah itu pernah berupa garis datar.",
+    "useCasesBody2": "Di YouTube Music, kucing-kucing yang lebih lincah benar-benar bersinar. Orange Cat Dance, Kitty Wigglez, dan Nyan Cat asli sinkron secara alami dengan ritme lagu dan membuat pemutar musik terasa kurang fungsional dan lebih seperti taman bermain kecil. Banyak pengguna musik menjadikan satu kucing menari sebagai teman tetap playlist harian mereka.",
+    "useCasesBody3": "Streamer dan mereka yang membagikan layar di panggilan memilih tampilan satu kucing yang berani — Garfield atau Pixel Tiger — sehingga kucing menjadi bagian branding pribadi yang terlihat jelas. Fitur unggah GIF kustom juga populer di sini: unggah maskot saluranmu atau emote komunitasmu dan scrubber menjadi milikmu.",
+    "trustHeading": "Open source, bebas iklan, dan didanai diam-diam oleh pengguna",
+    "trustBody": "Nyan Progress Bar dipublikasikan sebagai proyek open source. Tidak ada iklan di dalam ekstensi, tidak ada tingkat premium, tidak ada upsell, dan tidak ada analitik yang mengikuti kamu. Hosting dan pengembangan berkelanjutan sepenuhnya didanai oleh donasi opsional dari pengguna yang mencintai produk ini.",
+    "trustLinkGithubLabel": "Lihat sumber kode di GitHub",
+    "trustLinkSupportLabel": "Dukung proyek ini"
   },
   "extension": {
     "heading": "Dapatkan Nyan Progress Bar",
@@ -186,19 +205,19 @@
     "questionPre": "Kunjungi",
     "questionLinkText": "pusat dukungan",
     "questionPost": "atau buka laporan bug.",
-    "whyHeading": "Why use Nyan Progress Bar?",
-    "whyBody1": "YouTube's default progress bar is a flat red line — useful, but easy to ignore. Nyan Progress Bar replaces that line with a hand-picked animated cat (or any GIF you choose) so the scrubber becomes a tiny piece of personality you actually notice. It's a small joy in your day, every video you watch.",
-    "whyBody2": "It's built for the people who live on YouTube: long-form videos and lectures, music and lo-fi playlists on YouTube Music, daily news, gaming streams, and creative work. The cat moves with the playhead, never gets in the way of the video, and is gone the moment you uninstall.",
-    "whyBody3": "And because the extension runs entirely in your own browser — no accounts, no servers, no analytics — there is nothing to sign up for and nothing to worry about. You install it, you forget it's there, and your videos just feel a little more yours.",
-    "howHeading": "How it works",
-    "howStep1Title": "1. Install in one click",
-    "howStep1Desc": "Add Nyan Progress Bar from the Chrome Web Store. The extension is ~15 KB, ships as Manifest V3, and asks only for access to YouTube and YouTube Music.",
-    "howStep2Title": "2. Pick your cat",
-    "howStep2Desc": "Open the popup and tap any of the 12 built-in cats — or drop in your own GIF. The selection saves locally and syncs across every YouTube tab you have open.",
-    "howStep3Title": "3. Fine-tune the position",
-    "howStep3Desc": "Use the height and top-offset sliders to make your cat sit perfectly on the scrubber. Settings are per-cat, so each theme remembers its own look.",
-    "comparisonHeading": "What makes it different",
-    "comparisonBody": "Other browser extensions for YouTube focus on ad-blocking, sponsor skipping, or theme tweaks. Nyan Progress Bar is the only one purpose-built for the progress bar — every cat is hand-tuned for the YouTube scrubber's height and motion, with sane defaults so you don't fiddle with sliders unless you want to. The result is a single small, polished detail that doesn't fight the rest of YouTube's UI."
+    "whyHeading": "Mengapa pakai Nyan Progress Bar?",
+    "whyBody1": "Bilah kemajuan default YouTube adalah garis merah datar — berguna, tetapi mudah diabaikan. Nyan Progress Bar menggantinya dengan kucing animasi yang dipilih dengan cermat (atau GIF apa pun yang kamu pilih), sehingga scrubber menjadi sepenggal kecil kepribadian yang benar-benar kamu perhatikan. Kebahagiaan kecil dalam harimu, di setiap video yang kamu tonton.",
+    "whyBody2": "Dibuat untuk orang-orang yang hidup di YouTube: video panjang dan kuliah, playlist musik dan lo-fi di YouTube Music, berita harian, stream gaming, dan kerja kreatif. Kucing bergerak mengikuti playhead, tak pernah menghalangi video, dan hilang sesaat setelah kamu menghapus ekstensi.",
+    "whyBody3": "Karena ekstensi berjalan sepenuhnya di browser kamu sendiri — tanpa akun, tanpa server, tanpa analitik — tidak ada yang perlu didaftarkan dan tidak ada yang perlu dikhawatirkan. Kamu menginstalnya, kamu lupa ia ada, dan video-videomu terasa sedikit lebih milikmu sendiri.",
+    "howHeading": "Cara kerjanya",
+    "howStep1Title": "1. Pasang sekali klik",
+    "howStep1Desc": "Tambahkan Nyan Progress Bar dari Chrome Web Store. Ekstensi ini berukuran ~15 KB, dibangun sebagai Manifest V3, dan hanya meminta akses ke YouTube dan YouTube Music.",
+    "howStep2Title": "2. Pilih kucingmu",
+    "howStep2Desc": "Buka popup dan ketuk salah satu dari 12 kucing bawaan — atau jatuhkan GIF milikmu sendiri. Pilihan tersimpan secara lokal dan tersinkronisasi di semua tab YouTube yang terbuka.",
+    "howStep3Title": "3. Atur posisi",
+    "howStep3Desc": "Gunakan slider tinggi dan offset atas agar kucingmu duduk sempurna di scrubber. Pengaturan disimpan per kucing, jadi tiap tema mengingat tampilannya sendiri.",
+    "comparisonHeading": "Apa yang membuatnya berbeda",
+    "comparisonBody": "Ekstensi browser lain untuk YouTube fokus pada pemblokir iklan, melewati sponsor, atau penyesuaian tema. Nyan Progress Bar adalah satu-satunya yang dibangun khusus untuk bilah kemajuan — setiap kucing disetel manual untuk tinggi dan gerakan scrubber YouTube, dengan default yang masuk akal sehingga kamu tidak perlu mengutak-atik slider kecuali memang mau. Hasilnya adalah satu detail kecil yang halus dan tidak bertabrakan dengan tampilan YouTube lainnya."
   },
   "contact": {
     "heading": "Pusat Dukungan",
@@ -293,26 +312,26 @@
     "cryptoNetwork": "TRC-20",
     "cryptoCopy": "Salin Alamat",
     "cryptoCopied": "Tersalin!",
-    "whereHeading": "Where your support goes",
-    "whereIntro": "Nyan Progress Bar is a free side project, but it isn't free to run. Every contribution — no matter the size — goes directly back into keeping the extension alive and growing.",
-    "whereItem1Title": "Hosting and infrastructure",
-    "whereItem1Desc": "The website, Chrome Web Store listing assets, and the contact-form email pipeline all cost a small but steady amount every month. Your support keeps the lights on.",
-    "whereItem2Title": "New cats and features",
-    "whereItem2Desc": "Designing and animating a new cat theme — or building a new customization control — takes hours of careful work. Donations pay for that time so the catalogue keeps growing.",
-    "whereItem3Title": "Bug fixes and Chrome updates",
-    "whereItem3Desc": "Chrome's extension APIs evolve constantly, and YouTube's player ships changes that occasionally break the scrubber overlay. Support funds the maintenance work that keeps everything running.",
-    "otherWaysHeading": "Other ways to help",
-    "otherWaysIntro": "Not in a position to donate? No problem — there are plenty of free ways to give the project a boost.",
-    "otherWay1Title": "Leave a Chrome Web Store review",
-    "otherWay1Desc": "Reviews are the single biggest signal that helps other people discover the extension. Even a one-line rating makes a real difference.",
-    "otherWay2Title": "Share with a friend",
-    "otherWay2Desc": "Know someone who lives on YouTube? Send them the link. Word of mouth has been our biggest source of new users.",
-    "otherWay3Title": "Report bugs and ideas",
-    "otherWay3Desc": "Every bug report and feature request shapes the next release. Use the contact form or open a GitHub issue — both go straight to the maintainer.",
-    "otherWay4Title": "Contribute on GitHub",
-    "otherWay4Desc": "The project is open source. Pull requests for bug fixes, translations, or new cat designs are very welcome.",
-    "transparencyHeading": "Open and transparent",
-    "transparencyBody": "There are no paid tiers, no premium cats, and no ads inside the extension. The product is the same for everyone — donations are entirely a way to say thanks and keep the cats running."
+    "whereHeading": "Ke mana dukunganmu mengalir",
+    "whereIntro": "Nyan Progress Bar adalah proyek sampingan gratis, tetapi tidak gratis untuk dijalankan. Setiap kontribusi — berapa pun besarnya — langsung kembali untuk menjaga ekstensi tetap hidup dan berkembang.",
+    "whereItem1Title": "Hosting dan infrastruktur",
+    "whereItem1Desc": "Situs web, materi listing Chrome Web Store, dan pipeline email formulir kontak memerlukan biaya kecil namun rutin setiap bulan. Dukunganmu membuat lampu tetap menyala.",
+    "whereItem2Title": "Kucing dan fitur baru",
+    "whereItem2Desc": "Mendesain dan menganimasikan tema kucing baru — atau membangun kontrol penyesuaian baru — memakan waktu kerja yang cermat. Donasi membayar waktu itu sehingga katalog terus bertambah.",
+    "whereItem3Title": "Perbaikan bug dan pembaruan Chrome",
+    "whereItem3Desc": "API ekstensi Chrome terus berkembang, dan player YouTube sesekali mengirim perubahan yang mematahkan overlay scrubber. Dukungan mendanai pekerjaan pemeliharaan yang menjaga semuanya tetap berjalan.",
+    "otherWaysHeading": "Cara lain untuk membantu",
+    "otherWaysIntro": "Tidak bisa berdonasi? Tidak apa-apa — banyak cara gratis untuk membantu proyek ini.",
+    "otherWay1Title": "Tinggalkan ulasan di Chrome Web Store",
+    "otherWay1Desc": "Ulasan adalah sinyal terbesar yang membantu orang lain menemukan ekstensi ini. Bahkan rating satu baris pun memberi dampak nyata.",
+    "otherWay2Title": "Bagikan ke teman",
+    "otherWay2Desc": "Kenal seseorang yang hidup di YouTube? Kirim tautannya. Mulut ke mulut adalah sumber pengguna baru terbesar kami.",
+    "otherWay3Title": "Laporkan bug dan ide",
+    "otherWay3Desc": "Setiap laporan bug dan permintaan fitur membentuk rilis berikutnya. Gunakan formulir kontak atau buka issue GitHub — keduanya langsung ke maintainer.",
+    "otherWay4Title": "Berkontribusi di GitHub",
+    "otherWay4Desc": "Proyek ini open source. Pull request untuk perbaikan bug, terjemahan, atau desain kucing baru sangat dinantikan.",
+    "transparencyHeading": "Terbuka dan transparan",
+    "transparencyBody": "Tidak ada tingkatan berbayar, tidak ada kucing premium, dan tidak ada iklan di dalam ekstensi. Produknya sama untuk semua orang — donasi sepenuhnya cara untuk berterima kasih dan menjaga kucing tetap berjalan."
   },
   "customizer": {
     "adjustPosition": "Sesuaikan posisi",
@@ -337,7 +356,22 @@
     "rateUs": "Beri nilai",
     "reviews": "ulasan",
     "showMore": "Tampilkan lebih banyak",
-    "showLess": "Tampilkan lebih sedikit"
+    "showLess": "Tampilkan lebih sedikit",
+    "pageHeading": "Ulasan dari pengguna sungguhan",
+    "pageIntro1": "Nyan Progress Bar memiliki rata-rata 4,7 bintang dari 58 ulasan di Chrome Web Store. Ulasan di bawah ini adalah campuran — masukan paling baru pada rilis terakhir muncul di bagian atas, diikuti oleh semua ulasan yang kami kumpulkan sejak versi pertama. Tidak ada yang dikurasi atau disaring. Ulasan negatif tetap terlihat karena kami belajar lebih banyak dari mereka daripada dari apa pun.",
+    "pageIntro2": "Jika kamu sedang mempertimbangkan untuk memasang ekstensi ini, halaman ini adalah gambaran paling jujur tentang produk yang bisa kami berikan. Jika kamu sudah menggunakannya dan ingin memberi ulasan publik, Chrome Web Store adalah tempat paling berguna — hasil pencarian dan peringkat di sana sangat dipengaruhi oleh rating terbaru, dan ulasan satu kalimat darimu adalah cara terbaik membantu proyek ini menjangkau pengguna YouTube lainnya.",
+    "themesHeading": "Apa yang paling sering disebut pengguna",
+    "themesIntro": "Di ratusan ulasan dan laporan bug, tiga benang merah yang sama muncul berulang-ulang.",
+    "theme1Title": "Privasi dan \"tanpa pelacakan\"",
+    "theme1Body": "Komentar positif yang paling sering muncul adalah versi dari \"ekstensi ini melakukan satu hal dan tidak mencoba melacakku.\" Pengguna menyadari bahwa ekstensi tidak meminta izin yang tidak perlu, tidak mengirim apa pun ke server, dan tidak memiliki akun atau login. Bagi banyak orang, inilah faktor penentu dibanding ekstensi YouTube lainnya.",
+    "theme2Title": "Detail rapi pada pemutar YouTube",
+    "theme2Body": "Pengguna sering menyebutkan betapa kucing-kucing tersebut sangat pas dengan scrubber YouTube. Setiap kucing bawaan memiliki tinggi dan offset default yang disetel tangan, sehingga overlay duduk rapi di pemutar tanpa siapa pun perlu menyentuh slider. Ini adalah jenis detail yang butuh waktu lama untuk diselesaikan, dan bagian dari ekstensi yang paling kami banggakan.",
+    "theme3Title": "Unggah GIF kustom",
+    "theme3Body": "Ubin unggah adalah fitur yang paling sering disebut di ulasan bintang lima. Pengguna mengunggah maskot saluran mereka, emote komunitas, hewan peliharaan mereka sendiri, pixel art buatan mereka, atau GIF acak dari internet — dan melihat animasi tersebut sebagai scrubber YouTube ternyata jauh lebih memuaskan daripada yang disampaikan oleh deskripsinya.",
+    "ctaHeading": "Tinggalkan ulasan atau kirim masukan pribadi",
+    "ctaBody": "Ulasan publik di Chrome Web Store adalah tempat paling membantu untuk berbagi opini jujur — mereka membentuk cara ekstensi muncul kepada pengguna lain di pencarian. Untuk laporan bug, ide fitur, atau apa pun yang lebih kamu sukai untuk tidak ditulis di publik, formulir kontak hanya sejauh satu klik dan setiap pesan langsung sampai ke pengelola proyek.",
+    "ctaWebStoreLabel": "Tinggalkan ulasan di Chrome Web Store",
+    "ctaContactLabel": "Kirim masukan pribadi"
   },
   "releaseReviews": {
     "heading": "Ulasan terbaru",
@@ -661,130 +695,130 @@
     }
   },
   "about": {
-    "heading": "About Nyan Progress Bar",
-    "intro": "Nyan Progress Bar is a free, open-source Chrome extension that replaces the flat red line on the YouTube progress bar with a hand-picked animated cat. This page is the short story of what it is, who builds it, and why it exists.",
-    "s1Heading": "What it is",
-    "s1Body": "Nyan Progress Bar is a small, focused browser extension for YouTube and YouTube Music. It does exactly one thing: it draws an animated cat (or any GIF you choose) on top of the video scrubber. There are no settings menus to learn, no accounts to create, and no subscriptions. You install it, you pick a cat, and that's the entire product.",
-    "s1Body2": "Twelve cat themes ship out of the box, ranging from the original rainbow Nyan Cat to a pixel parrot, a glitchy chromatic cat, a dancing Garfield, and several minimal silhouettes. You can also upload any GIF from your computer to use as your own custom scrubber — the file stays on your device and is never sent anywhere.",
-    "s2Heading": "Why we built it",
-    "s2Body": "The project started as a personal frustration: spending hours every day on YouTube, looking at the same flat progress bar, and thinking it could be a tiny moment of joy instead. The classic Nyan Cat seemed like the obvious first cat to try, and once it was running on a real YouTube video it was clear that there was a small but meaningful pleasure to it.",
-    "s2Body2": "Everything since has been driven by a simple idea: a browser extension can be calm, focused, and delightful. Most extensions ask for too many permissions, show too many UI surfaces, or try to monetize attention. Nyan Progress Bar deliberately does none of that — it's a tiny utility that adds one small smile to your day, and then it gets out of the way.",
-    "s3Heading": "How it works",
-    "s3Body": "Under the hood, the extension is a Manifest V3 Chrome extension that runs only on youtube.com and music.youtube.com. When a YouTube page loads, the extension finds the progress bar element and overlays your chosen GIF on top of it. The GIF moves with the scrubber position because it's anchored to the same element YouTube uses for the playhead.",
-    "s3Body2": "Your cat selection, height, and top-offset values are saved locally using the Chrome Storage API on your own device. Nothing is uploaded to a server. The extension does not make any network requests; it does not read your watch history, your search queries, or anything else about your YouTube usage. If you uninstall the extension, every trace of it disappears with it.",
-    "s4Heading": "Who builds it",
-    "s4Body": "Nyan Progress Bar is built and maintained by an independent developer who works on it in their spare time. The project is open source — pull requests for new cat designs, translations, and bug fixes are very welcome, and the contact form on this site goes directly to the maintainer.",
-    "s4Body2": "The site is translated into ten languages (English, Spanish, Portuguese, French, German, Polish, Ukrainian, Indonesian, Vietnamese, and Filipino) so users around the world can read about the extension in their own language.",
-    "s5Heading": "Our values",
-    "s5Intro": "A few principles guide how we build and run the project:",
-    "s5Item1": "Privacy first. The extension does not collect or transmit data — period.",
-    "s5Item2": "Ad-free inside the extension. There are no upsells, no premium cats, no subscriptions.",
-    "s5Item3": "Open and transparent. The codebase, donations, and roadmap are all out in the open.",
-    "s5Item4": "One small thing done well. We will never expand into ad-blocking, sponsorship-skipping, or general YouTube tweaks. The progress bar is the product.",
-    "s6Heading": "Get in touch",
-    "s6Pre": "Have a question, an idea, or a bug to report? The fastest way to reach us is via the",
-    "s6ContactLink": "contact form",
-    "s6Mid": ", or you can email us directly at"
+    "heading": "Tentang Nyan Progress Bar",
+    "intro": "Nyan Progress Bar adalah ekstensi Chrome gratis dan open source yang mengganti garis merah datar pada bilah kemajuan YouTube dengan kucing animasi yang dipilih dengan cermat. Halaman ini adalah cerita singkat tentang apa itu, siapa yang membangunnya, dan mengapa ekstensi ini ada.",
+    "s1Heading": "Apa itu",
+    "s1Body": "Nyan Progress Bar adalah ekstensi browser kecil dan fokus untuk YouTube dan YouTube Music. Ia melakukan satu hal: menggambar kucing animasi (atau GIF apa pun yang kamu pilih) di atas scrubber video. Tidak ada menu pengaturan untuk dipelajari, tidak ada akun untuk dibuat, dan tidak ada langganan. Kamu memasangnya, memilih kucing, dan itulah seluruh produknya.",
+    "s1Body2": "Dua belas tema kucing tersedia dari awal, mulai dari Nyan Cat pelangi asli hingga papagayo piksel, kucing glitch dengan aberasi kromatik, Garfield yang menari, dan beberapa siluet minimalis lembut. Kamu juga bisa mengunggah GIF apa pun dari komputermu untuk dipakai sebagai scrubber milikmu sendiri — file tetap di perangkatmu dan tidak pernah dikirim ke mana pun.",
+    "s2Heading": "Mengapa kami membuatnya",
+    "s2Body": "Proyek ini dimulai dari rasa kesal pribadi: menghabiskan berjam-jam setiap hari di YouTube, memandang bilah kemajuan yang sama yang datar, dan berpikir ia bisa menjadi momen kecil kebahagiaan. Nyan Cat klasik tampak seperti kucing pertama yang jelas untuk dicoba, dan begitu berjalan pada video YouTube sungguhan, jelas ada kesenangan kecil tapi berarti di sana.",
+    "s2Body2": "Semua yang sejak itu dipandu oleh satu ide sederhana: sebuah ekstensi browser bisa tenang, fokus, dan menyenangkan. Kebanyakan ekstensi meminta terlalu banyak izin, menampilkan terlalu banyak permukaan UI, atau mencoba memonetisasi perhatian. Nyan Progress Bar sengaja tidak melakukan hal-hal itu — ia utilitas kecil yang menambahkan senyum kecil ke harimu, lalu menyingkir.",
+    "s3Heading": "Cara kerjanya",
+    "s3Body": "Di balik layar, ekstensi ini adalah ekstensi Chrome Manifest V3 yang hanya berjalan di youtube.com dan music.youtube.com. Ketika halaman YouTube dimuat, ekstensi menemukan elemen bilah kemajuan dan menempatkan GIF pilihanmu di atasnya. GIF bergerak sesuai posisi scrubber karena ia ditambatkan ke elemen yang sama yang dipakai YouTube untuk playhead.",
+    "s3Body2": "Pilihan kucing, nilai tinggi, dan offset atas kamu disimpan secara lokal menggunakan Chrome Storage API di perangkatmu sendiri. Tidak ada yang diunggah ke server. Ekstensi tidak membuat permintaan jaringan apa pun; tidak membaca riwayat tontonan, kueri pencarian, atau hal lain tentang penggunaan YouTube-mu. Jika kamu menghapus ekstensi, semua jejak hilang bersamanya.",
+    "s4Heading": "Siapa yang membangun",
+    "s4Body": "Nyan Progress Bar dibangun dan dirawat oleh seorang developer independen yang mengerjakannya di waktu luang. Proyek ini open source — pull request untuk desain kucing baru, terjemahan, dan perbaikan bug sangat dinantikan, dan formulir kontak di situs ini langsung sampai ke maintainer.",
+    "s4Body2": "Situs ini diterjemahkan ke sepuluh bahasa (Inggris, Spanyol, Portugis, Prancis, Jerman, Polandia, Ukraina, Indonesia, Vietnam, dan Filipina) sehingga pengguna di seluruh dunia bisa membaca tentang ekstensi ini dalam bahasanya sendiri.",
+    "s5Heading": "Nilai-nilai kami",
+    "s5Intro": "Beberapa prinsip memandu cara kami membangun dan menjalankan proyek:",
+    "s5Item1": "Privasi nomor satu. Ekstensi tidak mengumpulkan atau mengirim data — titik.",
+    "s5Item2": "Bebas iklan di dalam ekstensi. Tidak ada upsell, kucing premium, atau langganan.",
+    "s5Item3": "Terbuka dan transparan. Basis kode, donasi, dan roadmap semuanya terlihat.",
+    "s5Item4": "Satu hal kecil yang dikerjakan dengan baik. Kami tidak akan pernah berkembang ke pemblokir iklan, melewati sponsor, atau penyesuaian YouTube umum. Bilah kemajuan adalah produknya.",
+    "s6Heading": "Hubungi kami",
+    "s6Pre": "Punya pertanyaan, ide, atau bug untuk dilaporkan? Cara tercepat menjangkau kami adalah melalui",
+    "s6ContactLink": "formulir kontak",
+    "s6Mid": ", atau kamu bisa email langsung ke"
   },
   "terms": {
-    "heading": "Terms of Service",
-    "lastUpdated": "Last updated: June 2025",
-    "intro": "These Terms of Service (\"Terms\") govern your use of the Nyan Progress Bar website (the \"Site\") and the Nyan Progress Bar Chrome extension (the \"Extension\"). By using the Site or the Extension, you agree to these Terms.",
-    "s1Heading": "1. Acceptance of Terms",
-    "s1Body": "By installing the Extension or using the Site you confirm that you have read, understood, and agree to be bound by these Terms. If you do not agree, please uninstall the Extension and stop using the Site. We may update these Terms from time to time; the \"last updated\" date above reflects the most recent revision. Continued use after a change means you accept the new Terms.",
-    "s2Heading": "2. Description of Service",
-    "s2Body": "The Extension is a free browser add-on that overlays an animated GIF (a \"cat\") on top of the YouTube and YouTube Music progress bar. The Site provides information about the Extension, a live customizer, a catalog of cat themes, support and donation links, and contact channels. Both the Site and the Extension are provided without charge.",
-    "s3Heading": "3. User Responsibilities and Acceptable Use",
-    "s3Body": "You agree to use the Site and the Extension only for lawful, personal purposes. You will not attempt to reverse engineer, modify, redistribute, or repackage the Extension or the Site beyond what is allowed by the project's open-source license. You will not use the Site or the Extension to harass, harm, or impersonate others.",
-    "s3Body2": "You are responsible for the GIFs you upload to the Extension. You agree that you have the legal right to use any GIF you upload, and that the GIF does not contain illegal, infringing, or otherwise harmful content.",
-    "s4Heading": "4. Intellectual Property",
-    "s4Body": "The Nyan Progress Bar name, logo, design assets, and original cat themes are owned by the project maintainers. The cat GIFs included in the Extension are either original works, public-domain content, or used under licenses that permit redistribution. Third-party brands referenced on the Site (e.g., YouTube, Chrome) are trademarks of their respective owners and are used here for descriptive purposes only.",
-    "s4Body2": "The Extension's source code is published under an open-source license — see the GitHub repository for the exact terms.",
-    "s5Heading": "5. User-Generated Content",
-    "s5Body": "When you upload a GIF to the Extension, the file is stored locally in your own browser via the Chrome Storage API. It is not uploaded to our servers and we do not access, view, or process it in any way. You retain all rights to the GIFs you upload.",
-    "s5Body2": "If you submit content through the contact form (a message, screenshot, or feedback), you grant us a non-exclusive, royalty-free license to use that content for the purpose of responding to your request and improving the Extension. We will not share it publicly without your permission.",
-    "s6Heading": "6. Disclaimers",
-    "s6Body": "The Site and the Extension are provided \"as is\" and \"as available\" without warranties of any kind, whether express or implied. We do not warrant that the Site or the Extension will be uninterrupted, error-free, or compatible with every version of every browser. YouTube may at any time change its player implementation in a way that breaks the cat overlay; we will do our best to fix such issues promptly but cannot guarantee continuous operation.",
-    "s7Heading": "7. Limitation of Liability",
-    "s7Body": "To the maximum extent permitted by law, the Nyan Progress Bar project, its maintainers, and contributors are not liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use of (or inability to use) the Site or the Extension. Your only remedy if you are dissatisfied is to stop using the Site and uninstall the Extension.",
-    "s8Heading": "8. Third-Party Services",
-    "s8Body": "The Site links to third-party services (e.g., the Chrome Web Store, GitHub, Ko-fi, Patreon, Donatello). We are not responsible for the content, policies, or practices of those services. Your use of those services is governed by their own terms.",
-    "s9Heading": "9. Governing Law and Changes",
-    "s9Body": "These Terms are governed by general principles of consumer law in the maintainer's country of residence; disputes will be resolved on a good-faith, best-effort basis. We reserve the right to change these Terms at any time. Material changes will be reflected by an update to the \"last updated\" date.",
-    "s10Heading": "10. Contact",
-    "s10Pre": "Questions about these Terms? Email us at"
+    "heading": "Ketentuan Layanan",
+    "lastUpdated": "Terakhir diperbarui: Juni 2025",
+    "intro": "Ketentuan Layanan ini (\"Ketentuan\") mengatur penggunaan situs web Nyan Progress Bar (\"Situs\") dan ekstensi Chrome Nyan Progress Bar (\"Ekstensi\"). Dengan menggunakan Situs atau Ekstensi, kamu menyetujui Ketentuan ini.",
+    "s1Heading": "1. Penerimaan Ketentuan",
+    "s1Body": "Dengan menginstal Ekstensi atau menggunakan Situs, kamu menyatakan telah membaca, memahami, dan menyetujui untuk terikat oleh Ketentuan ini. Jika tidak setuju, silakan hapus Ekstensi dan berhenti menggunakan Situs. Kami dapat memperbarui Ketentuan ini dari waktu ke waktu; tanggal \"terakhir diperbarui\" di atas mencerminkan revisi paling baru. Penggunaan berkelanjutan setelah perubahan berarti kamu menerima Ketentuan baru.",
+    "s2Heading": "2. Deskripsi Layanan",
+    "s2Body": "Ekstensi adalah add-on browser gratis yang menumpuk GIF animasi (\"kucing\") di atas bilah kemajuan YouTube dan YouTube Music. Situs memberikan informasi tentang Ekstensi, customizer langsung, katalog tema kucing, tautan dukungan dan donasi, serta saluran kontak. Baik Situs maupun Ekstensi disediakan tanpa biaya.",
+    "s3Heading": "3. Tanggung jawab pengguna dan penggunaan yang dapat diterima",
+    "s3Body": "Kamu setuju menggunakan Situs dan Ekstensi hanya untuk tujuan yang sah dan pribadi. Kamu tidak akan mencoba merekayasa balik, memodifikasi, mendistribusikan ulang, atau mengemas ulang Ekstensi atau Situs di luar yang diperbolehkan oleh lisensi open source proyek. Kamu tidak akan memakai Situs atau Ekstensi untuk melecehkan, menyakiti, atau menyamar sebagai orang lain.",
+    "s3Body2": "Kamu bertanggung jawab atas GIF yang kamu unggah ke Ekstensi. Kamu menyetujui bahwa kamu memiliki hak hukum untuk menggunakan setiap GIF yang kamu unggah dan GIF itu tidak mengandung konten ilegal, melanggar, atau berbahaya.",
+    "s4Heading": "4. Kekayaan Intelektual",
+    "s4Body": "Nama Nyan Progress Bar, logo, aset desain, dan tema kucing asli adalah milik para maintainer proyek. GIF kucing yang termasuk dalam Ekstensi adalah karya asli, konten domain publik, atau dipakai di bawah lisensi yang mengizinkan redistribusi. Merek pihak ketiga yang dirujuk di Situs (misalnya YouTube, Chrome) adalah merek dagang pemiliknya masing-masing dan digunakan di sini hanya untuk tujuan deskriptif.",
+    "s4Body2": "Kode sumber Ekstensi diterbitkan di bawah lisensi open source — lihat repositori GitHub untuk ketentuan persisnya.",
+    "s5Heading": "5. Konten yang dihasilkan pengguna",
+    "s5Body": "Saat kamu mengunggah GIF ke Ekstensi, file disimpan secara lokal di browsermu sendiri melalui Chrome Storage API. File tidak diunggah ke server kami dan kami tidak mengakses, melihat, atau memprosesnya dengan cara apa pun. Kamu memegang semua hak atas GIF yang kamu unggah.",
+    "s5Body2": "Jika kamu mengirim konten lewat formulir kontak (pesan, tangkapan layar, atau umpan balik), kamu memberi kami lisensi non-eksklusif dan bebas royalti untuk menggunakan konten itu untuk menanggapi permintaanmu dan meningkatkan Ekstensi. Kami tidak akan membagikannya di publik tanpa izinmu.",
+    "s6Heading": "6. Penafian",
+    "s6Body": "Situs dan Ekstensi disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia\" tanpa jaminan apa pun, baik tersurat maupun tersirat. Kami tidak menjamin Situs atau Ekstensi akan tanpa gangguan, bebas error, atau kompatibel dengan setiap versi setiap browser. YouTube setiap saat bisa mengubah implementasi player-nya sehingga overlay kucing pecah; kami akan berusaha sebaik mungkin memperbaiki masalah seperti itu tetapi tidak bisa menjamin operasi berkelanjutan.",
+    "s7Heading": "7. Batasan tanggung jawab",
+    "s7Body": "Sejauh diizinkan oleh hukum, proyek Nyan Progress Bar, maintainer, dan kontributornya tidak bertanggung jawab atas kerugian tidak langsung, insidental, khusus, konsekuensial, atau punitif yang timbul dari penggunaan (atau ketidakmampuan menggunakan) Situs atau Ekstensi. Satu-satunya pemulihan jika kamu tidak puas adalah berhenti menggunakan Situs dan menghapus Ekstensi.",
+    "s8Heading": "8. Layanan pihak ketiga",
+    "s8Body": "Situs menautkan ke layanan pihak ketiga (misalnya Chrome Web Store, GitHub, Ko-fi, Patreon, Donatello). Kami tidak bertanggung jawab atas konten, kebijakan, atau praktik layanan tersebut. Penggunaanmu atas layanan tersebut diatur oleh ketentuan masing-masing.",
+    "s9Heading": "9. Hukum yang berlaku dan perubahan",
+    "s9Body": "Ketentuan ini diatur oleh prinsip umum hukum konsumen di negara tempat tinggal maintainer; perselisihan akan diselesaikan dengan iktikad baik dan upaya terbaik. Kami berhak mengubah Ketentuan ini kapan saja. Perubahan material akan dicerminkan dengan pembaruan tanggal \"terakhir diperbarui\".",
+    "s10Heading": "10. Kontak",
+    "s10Pre": "Pertanyaan tentang Ketentuan ini? Email kami di"
   },
   "faq": {
-    "heading": "Frequently Asked Questions",
-    "intro": "Quick answers to the questions we get most often. Can't find what you're looking for? The contact form is one click away.",
-    "categoryGettingStartedHeading": "Getting started",
-    "categoryCustomizationHeading": "Customization",
-    "categoryPrivacyHeading": "Privacy & data",
-    "categoryTroubleshootingHeading": "Troubleshooting",
-    "stillStuckHeading": "Still have a question?",
-    "stillStuckPre": "Reach out via the",
-    "stillStuckLinkText": "contact form",
-    "stillStuckPost": "— every message goes straight to the maintainer and gets a personal reply.",
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "intro": "Jawaban cepat untuk pertanyaan yang paling sering kami terima. Tidak menemukan yang kamu cari? Formulir kontak hanya satu klik jauhnya.",
+    "categoryGettingStartedHeading": "Memulai",
+    "categoryCustomizationHeading": "Penyesuaian",
+    "categoryPrivacyHeading": "Privasi & data",
+    "categoryTroubleshootingHeading": "Pemecahan masalah",
+    "stillStuckHeading": "Masih punya pertanyaan?",
+    "stillStuckPre": "Hubungi kami lewat",
+    "stillStuckLinkText": "formulir kontak",
+    "stillStuckPost": "— setiap pesan langsung sampai ke maintainer dan mendapat balasan personal.",
     "questions": {
       "isFree": {
-        "q": "Is Nyan Progress Bar free?",
-        "a": "Yes. The Extension is completely free with no paid tiers, no premium cats, and no in-extension ads. The project is supported entirely by optional donations via Ko-fi, Patreon, Donatello, and others — see the Support page for details."
+        "q": "Apakah Nyan Progress Bar gratis?",
+        "a": "Ya. Ekstensi sepenuhnya gratis tanpa tingkatan berbayar, tanpa kucing premium, dan tanpa iklan dalam ekstensi. Proyek ini didukung sepenuhnya oleh donasi opsional via Ko-fi, Patreon, Donatello, dan lainnya — lihat halaman Dukungan untuk detail."
       },
       "browsers": {
-        "q": "Which browsers does it support?",
-        "a": "The Extension officially supports Chrome 88 and later. It also works on Chromium-based browsers including Microsoft Edge, Brave, Opera, Arc, and Vivaldi. A Safari port is on the roadmap. Firefox is not currently supported."
+        "q": "Browser mana yang didukung?",
+        "a": "Ekstensi resmi mendukung Chrome 88 dan yang lebih baru. Juga bekerja di browser berbasis Chromium termasuk Microsoft Edge, Brave, Opera, Arc, dan Vivaldi. Versi Safari sedang dalam roadmap. Firefox saat ini belum didukung."
       },
       "howToInstall": {
-        "q": "How do I install it?",
-        "a": "Visit the Chrome Web Store listing for Nyan Progress Bar and click \"Add to Chrome\". Confirm the install in the dialog and the cat appears on YouTube immediately — no reload, no sign-in. For a full walkthrough, see the install guide in the Guides section."
+        "q": "Bagaimana cara menginstalnya?",
+        "a": "Kunjungi listing Nyan Progress Bar di Chrome Web Store dan klik \"Tambahkan ke Chrome\". Konfirmasi instalasi di dialog dan kucing akan langsung muncul di YouTube — tanpa reload, tanpa login. Untuk panduan lengkap, lihat panduan instalasi di bagian Panduan."
       },
       "worksOnYouTube": {
-        "q": "Does it work on YouTube and YouTube Music?",
-        "a": "Yes — both. The Extension activates on youtube.com and music.youtube.com. It works in the standard player, the mini player, and the theatre mode. It does not run on any other website."
+        "q": "Apakah berfungsi di YouTube dan YouTube Music?",
+        "a": "Ya — keduanya. Ekstensi aktif di youtube.com dan music.youtube.com. Bekerja di player standar, mini player, dan mode teater. Tidak berjalan di situs web lain."
       },
       "uploadGif": {
-        "q": "Can I upload my own GIF?",
-        "a": "Absolutely. Open the Extension popup, click the upload tile in the cat grid, and pick any GIF from your computer. The Extension reads the file locally and uses it as your scrubber. The GIF is never uploaded to a server."
+        "q": "Bolehkah saya mengunggah GIF saya sendiri?",
+        "a": "Tentu saja. Buka popup Ekstensi, klik kotak unggah di grid kucing, dan pilih GIF apa pun dari komputermu. Ekstensi membaca file secara lokal dan menggunakannya sebagai scrubber. GIF tidak pernah diunggah ke server."
       },
       "gifFormats": {
-        "q": "What file formats are supported?",
-        "a": "The Extension supports animated .gif files. Static images and other animated formats (APNG, WebP, MP4) are not supported. There is no strict size limit, but smaller GIFs (under a few hundred kilobytes) tend to feel snappier on the progress bar."
+        "q": "Format file apa yang didukung?",
+        "a": "Ekstensi mendukung file .gif animasi. Gambar statis dan format animasi lain (APNG, WebP, MP4) tidak didukung. Tidak ada batas ukuran ketat, tetapi GIF lebih kecil (di bawah beberapa ratus kilobyte) terasa lebih mulus di bilah kemajuan."
       },
       "changePosition": {
-        "q": "How do I change the cat's size or position?",
-        "a": "Open the popup, pick a cat, and use the Height and Top offset sliders that appear. Height ranges from 8 px to 80 px; top offset from -50 px to +20 px. Settings are saved per-cat, so each theme remembers its own look."
+        "q": "Bagaimana cara mengubah ukuran atau posisi kucing?",
+        "a": "Buka popup, pilih seekor kucing, dan gunakan slider Tinggi dan Offset atas yang muncul. Tinggi berkisar dari 8 px sampai 80 px; offset atas dari -50 px sampai +20 px. Pengaturan disimpan per kucing, jadi setiap tema mengingat tampilannya sendiri."
       },
       "catOffScreen": {
-        "q": "Why is my cat off-centre or off-screen?",
-        "a": "Different GIFs have different padding around the animation, so the default offset may not fit your custom GIF perfectly. Open the popup and nudge the Top offset slider by a few pixels until the cat lines up with the scrubber. If you over-adjust, click \"Set default position\" to reset."
+        "q": "Kenapa kucing saya tidak berada di tengah atau keluar layar?",
+        "a": "GIF berbeda punya padding berbeda di sekitar animasi, jadi offset default mungkin tidak pas dengan GIF kustommu. Buka popup dan geser Offset atas beberapa piksel sampai kucing sejajar dengan scrubber. Jika berlebihan, klik \"Setel posisi default\" untuk mengulang."
       },
       "doesItTrack": {
-        "q": "Does the Extension track me?",
-        "a": "No. The Extension does not collect, transmit, or store any personal data. It does not read your watch history, your search queries, or any other YouTube activity. The only data saved is your cat selection and slider positions — both stored locally on your own device."
+        "q": "Apakah ekstensi melacak saya?",
+        "a": "Tidak. Ekstensi tidak mengumpulkan, mengirim, atau menyimpan data pribadi. Tidak membaca riwayat tonton, kueri pencarian, atau aktivitas YouTube lainnya. Satu-satunya data yang disimpan adalah pilihan kucing dan posisi slider — keduanya disimpan secara lokal di perangkatmu sendiri."
       },
       "sendsDataAnywhere": {
-        "q": "Does it send anything over the internet?",
-        "a": "No. The Extension makes no network requests. Your GIF uploads and settings stay on your device. The website itself uses Google Analytics for anonymised traffic statistics — see the Privacy Policy for details — but the Extension is fully offline."
+        "q": "Apakah mengirim apa pun lewat internet?",
+        "a": "Tidak. Ekstensi tidak membuat permintaan jaringan. GIF yang kamu unggah dan pengaturanmu tetap di perangkatmu. Situs web menggunakan Google Analytics untuk statistik traffic anonim — lihat Kebijakan Privasi untuk detail — tetapi Ekstensi sepenuhnya offline."
       },
       "worksOffline": {
-        "q": "Does it work offline?",
-        "a": "The Extension itself runs offline. YouTube videos obviously need an internet connection to play, but the cat overlay does not require any external connection of its own."
+        "q": "Apakah berfungsi offline?",
+        "a": "Ekstensi itu sendiri berjalan offline. Video YouTube tentu butuh koneksi internet untuk diputar, tetapi overlay kucing tidak butuh koneksi eksternal sendiri."
       },
       "catNotShowing": {
-        "q": "The cat isn't showing up on YouTube. What do I do?",
-        "a": "First, refresh the YouTube tab — the Extension needs to inject the overlay on page load. If that doesn't help, make sure the Extension is enabled by visiting chrome://extensions and checking the toggle. If a recent YouTube player update has broken the overlay, please report it via the contact form so we can ship a fix."
+        "q": "Kucing tidak muncul di YouTube. Apa yang harus saya lakukan?",
+        "a": "Pertama, refresh tab YouTube — Ekstensi perlu menyuntikkan overlay saat halaman dimuat. Jika tidak membantu, pastikan Ekstensi diaktifkan dengan mengunjungi chrome://extensions dan memeriksa toggle. Jika pembaruan terbaru YouTube mematahkan overlay, laporkan via formulir kontak agar kami bisa mengirim perbaikan."
       },
       "extensionDisappeared": {
-        "q": "The Extension icon disappeared from my toolbar.",
-        "a": "Chrome may have unpinned it. Click the puzzle-piece icon next to your address bar to see all your extensions, then click the pin icon next to Nyan Progress Bar to bring it back to the toolbar."
+        "q": "Ikon Ekstensi hilang dari toolbar saya.",
+        "a": "Chrome mungkin melepas pin-nya. Klik ikon teka-teki di samping address bar untuk melihat semua ekstensi, lalu klik ikon pin di samping Nyan Progress Bar untuk mengembalikannya ke toolbar."
       },
       "uploadFails": {
-        "q": "My GIF won't upload.",
-        "a": "Make sure the file has a .gif extension and is a true animated GIF (some \"GIFs\" on social media are actually MP4 videos with a misleading label). If the file is very large, try a smaller version — Chrome's local storage has limits. Otherwise, send a copy via the contact form and we'll take a look."
+        "q": "GIF saya tidak bisa diunggah.",
+        "a": "Pastikan file punya ekstensi .gif dan benar-benar GIF animasi (beberapa \"GIF\" di media sosial sebenarnya adalah video MP4 dengan label yang menyesatkan). Jika file sangat besar, coba versi yang lebih kecil — penyimpanan lokal Chrome memiliki batas. Jika tidak, kirim salinan via formulir kontak dan kami akan memeriksanya."
       },
       "howToUninstall": {
-        "q": "How do I uninstall the Extension?",
-        "a": "Visit chrome://extensions, find Nyan Progress Bar, and click \"Remove\". All locally stored settings and uploaded GIFs are deleted automatically. If you have a moment, the short uninstall feedback form helps us improve the next release."
+        "q": "Bagaimana cara menghapus Ekstensi?",
+        "a": "Kunjungi chrome://extensions, cari Nyan Progress Bar, dan klik \"Hapus\". Semua pengaturan lokal dan GIF yang diunggah dihapus otomatis. Jika kamu punya waktu, formulir umpan balik penghapusan yang singkat membantu kami memperbaiki rilis berikutnya."
       }
     }
   }
