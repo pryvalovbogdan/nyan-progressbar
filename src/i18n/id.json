@@ -692,7 +692,17 @@
       "dance": "Kucing menari",
       "monochrome": "Monokrom",
       "orange": "Skuad Oranye"
-    }
+    },
+    "introHeading": "Apa yang sedang naik daun di scrubber YouTube",
+    "introBody1": "Halaman ini adalah katalog hidup dari gaya cat progress bar yang paling banyak dipasang pengguna saat ini. Ia ada karena memilih kucing jauh lebih mudah ketika kamu bisa melihat apa yang disukai orang lain — para klasik yang bertahan di puncak bertahun-tahun, tema baru yang baru saja muncul, dan koleksi kurasi yang dikelompokkan berdasarkan vibe (kawaii, piksel, monokrom, tarian, dan lainnya).",
+    "introBody2": "Setiap gaya di sini hanya satu klik dari menjadi milikmu. Ketuk kucing mana saja untuk mempratinjaunya di customizer langsung, atau tekan instal untuk memasang ekstensi di Chrome dan melihat pilihanmu di video YouTube sungguhan. Tanpa pendaftaran, tanpa tingkatan premium, dan setiap kucing sudah termasuk di ekstensi gratis.",
+    "rankingsHeading": "Cara peringkat bekerja",
+    "rankingsBody1": "Bagian Populer diurutkan berdasarkan total instalasi sepanjang masa ekstensi — ini adalah kucing-kucing yang paling sering dipilih semua pengguna sejak peluncuran. Nyan Classic, Cute Cat, dan Garfield bergantian menempati tiga teratas hampir setiap minggu, tetapi ekor panjangnya bergerak seiring tema baru mendapat momentum.",
+    "rankingsBody2": "Sedang Tren adalah tampilan tujuh hari bergulir: kucing yang paling sering dipilih atau diganti dalam seminggu terakhir. Tema baru sering melonjak di sini pada hari-hari setelah dirilis, jadi ini bagian terbaik untuk merasakan apa yang sedang segar. Bagian Baru menampilkan setiap kucing yang ditambahkan ke katalog dalam 60 hari terakhir, dalam urutan rilis.",
+    "rankingsBody3": "Koleksi Teratas mengelompokkan kucing berdasarkan estetika, bukan popularitas. Koleksi Classic Cats memuat yang asli; Pixel & Retro mengumpulkan semua tema pixel art; Kawaii Pastels menyatukan gaya yang lembut dan bermata besar; Dancing Cats adalah yang beranimasi yang menyatu apik dengan YouTube Music; Monokrom adalah set minimalis; Orange Squad persis seperti namanya.",
+    "customizeHeading": "Jadikan gaya tren apa pun milikmu",
+    "customizeBody": "Menemukan yang kamu suka? Buka di customizer langsung dan setel tinggi serta posisi vertikal hingga ia duduk sempurna di scrubber YouTube. Setiap kucing mengingat pengaturannya sendiri, jadi kamu bisa berpindah antara gaya tren tanpa mengulang pekerjaan.",
+    "customizeCta": "Buka customizer"
   },
   "about": {
     "heading": "Tentang Nyan Progress Bar",

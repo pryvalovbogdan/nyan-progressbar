@@ -1,8 +1,12 @@
 import type { Dictionary } from '@/i18n';
+import Link from 'next/link';
+import { Fragment } from 'react';
 
 import { TRENDING_SECTIONS } from '@entities/trending-style';
 import { TrendingSection } from '@features/trending';
+import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { buttonVariants } from '@shared/ui/button';
+import { GoogleAd } from '@shared/ui/google-add';
 import { Separator } from '@shared/ui/separator';
 
 interface ITrendingViewProps {
@@ -20,11 +24,42 @@ export function TrendingView({ dict, lang }: ITrendingViewProps) {
         <p className="text-muted-foreground leading-relaxed text-lg max-w-2xl">{t.description}</p>
       </header>
 
-      {TRENDING_SECTIONS.map(section => (
-        <TrendingSection key={section.id} section={section} dict={dict} lang={lang} />
+      <section className="max-w-3xl space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold">{t.introHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{t.introBody1}</p>
+        <p className="text-muted-foreground leading-relaxed">{t.introBody2}</p>
+      </section>
+
+      {TRENDING_SECTIONS.map((section, idx) => (
+        <Fragment key={section.id}>
+          <TrendingSection section={section} dict={dict} lang={lang} />
+          {idx === 1 && <GoogleAd slot={AD_SLOTS.trending} />}
+        </Fragment>
       ))}
 
       <Separator />
+
+      <section className="max-w-3xl space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold">{t.rankingsHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{t.rankingsBody1}</p>
+        <p className="text-muted-foreground leading-relaxed">{t.rankingsBody2}</p>
+        <p className="text-muted-foreground leading-relaxed">{t.rankingsBody3}</p>
+      </section>
+
+      <Separator />
+
+      <section className="max-w-2xl mx-auto text-center space-y-3 card p-6">
+        <h2 className="text-xl font-bold">{t.customizeHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed">{t.customizeBody}</p>
+        <Link
+          href={`/${lang}/customizer`}
+          className={buttonVariants({
+            className: 'bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90',
+          })}
+        >
+          {t.customizeCta}
+        </Link>
+      </section>
 
       <section className="text-center space-y-4">
         <h2 className="text-2xl sm:text-3xl font-bold">{t.installHeading}</h2>

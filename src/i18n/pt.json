@@ -692,7 +692,17 @@
       "dance": "Gatos dançantes",
       "monochrome": "Monocromáticos",
       "orange": "Esquadrão Laranja"
-    }
+    },
+    "introHeading": "O que está bombando no scrubber do YouTube agora",
+    "introBody1": "Esta página é um catálogo vivo dos estilos de cat progress bar que os usuários estão instalando mais. Ela existe porque escolher um gato é muito mais fácil quando você vê o que outras pessoas amam — os clássicos que ficam no topo há anos, os temas novos que acabaram de chegar e as coleções curadas agrupadas por vibe (kawaii, pixel, monocromático, dança e mais).",
+    "introBody2": "Cada estilo aqui está a um clique de ser seu. Toque em qualquer gato para visualizá-lo no customizador ao vivo, ou aperte instalar para colocar a extensão no Chrome e ver sua escolha em um vídeo real do YouTube. Sem cadastro, sem tier premium, e todo gato vem incluso na extensão gratuita.",
+    "rankingsHeading": "Como funcionam os rankings",
+    "rankingsBody1": "A seção Populares é ordenada pelo total de instalações ao longo da vida da extensão — esses são os gatos mais escolhidos por todos os usuários desde o lançamento. Nyan Classic, Cute Cat e Garfield trocam o top três quase toda semana, mas a cauda longa se move conforme novos temas pegam.",
+    "rankingsBody2": "Em Alta é uma visão móvel de sete dias: gatos mais escolhidos ou trocados na última semana. Novos temas costumam disparar aqui nos dias após o lançamento, então é a melhor seção para sentir o que está fresco. A seção Novos lista cada gato adicionado ao catálogo nos últimos 60 dias, na ordem de lançamento.",
+    "rankingsBody3": "As Principais Coleções agrupam gatos por estética, não por popularidade. A coleção Classic Cats reúne os originais; Pixel & Retro junta todos os temas em pixel art; Kawaii Pastels agrupa os estilos suaves e de olhos grandes; Dancing Cats são as animações que sincronizam bem com o YouTube Music; Monocromático é o conjunto minimalista; Orange Squad é exatamente o que parece.",
+    "customizeHeading": "Faça qualquer estilo em alta ser seu",
+    "customizeBody": "Achou um que curtiu? Abra no customizador ao vivo e ajuste a altura e posição vertical até ele encaixar perfeitamente no scrubber do YouTube. Cada gato lembra das próprias configurações, então você pode trocar entre estilos em alta sem refazer o trabalho.",
+    "customizeCta": "Abrir o customizador"
   },
   "about": {
     "heading": "Sobre o Nyan Progress Bar",

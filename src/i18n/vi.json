@@ -692,7 +692,17 @@
       "dance": "Mèo nhảy",
       "monochrome": "Đơn sắc",
       "orange": "Đội Cam"
-    }
+    },
+    "introHeading": "Điều đang hot trên thanh trượt YouTube ngay lúc này",
+    "introBody1": "Trang này là một danh mục sống của các phong cách cat progress bar mà người dùng đang cài đặt nhiều nhất. Nó tồn tại vì việc chọn một chú mèo dễ dàng hơn nhiều khi bạn nhìn thấy những gì người khác đang yêu thích — các kinh điển ở đỉnh nhiều năm, các theme mới vừa ra mắt và các bộ sưu tập được tuyển chọn theo vibe (kawaii, pixel, đơn sắc, nhảy múa và nhiều hơn nữa).",
+    "introBody2": "Mỗi phong cách ở đây chỉ cách một cú nhấp là thành của bạn. Chạm vào bất kỳ chú mèo nào để xem trước trong customizer trực tiếp, hoặc nhấn cài đặt để thêm tiện ích vào Chrome và xem lựa chọn của bạn trên một video YouTube thực sự. Không đăng ký, không bậc cao cấp, và mọi chú mèo đều có sẵn trong tiện ích miễn phí.",
+    "rankingsHeading": "Bảng xếp hạng hoạt động ra sao",
+    "rankingsBody1": "Mục Phổ biến được sắp xếp theo tổng số lượt cài đặt trong suốt vòng đời của tiện ích — đây là những chú mèo được người dùng chọn nhiều nhất kể từ khi ra mắt. Nyan Classic, Cute Cat và Garfield thường thay nhau ở top ba mỗi tuần, nhưng phần đuôi dài dịch chuyển khi các theme mới nổi lên.",
+    "rankingsBody2": "Đang Thịnh Hành là khung nhìn cuộn bảy ngày: các chú mèo được chọn hoặc chuyển sang nhiều nhất trong tuần qua. Các theme mới thường tăng vọt ở đây trong những ngày sau khi phát hành, nên đây là mục tốt nhất để cảm nhận điều gì đang mới. Mục Mới liệt kê mọi chú mèo được thêm vào danh mục trong 60 ngày qua, theo thứ tự phát hành.",
+    "rankingsBody3": "Bộ Sưu Tập Hàng Đầu nhóm các chú mèo theo thẩm mỹ thay vì độ phổ biến. Bộ Classic Cats giữ các bản gốc; Pixel & Retro gom mọi theme pixel art; Kawaii Pastels tập hợp những phong cách mềm mại, mắt to; Dancing Cats là các hoạt hình đồng bộ ăn ý với YouTube Music; Đơn sắc là tập tối giản; Orange Squad đúng như tên gọi.",
+    "customizeHeading": "Biến mọi phong cách thịnh hành thành của bạn",
+    "customizeBody": "Tìm thấy một phong cách bạn thích? Mở trong customizer trực tiếp và tinh chỉnh chiều cao và vị trí dọc cho đến khi nó ngồi hoàn hảo trên thanh trượt YouTube. Mỗi chú mèo nhớ cài đặt riêng, nên bạn có thể chuyển đổi giữa các phong cách thịnh hành mà không phải làm lại từ đầu.",
+    "customizeCta": "Mở customizer"
   },
   "about": {
     "heading": "Về Nyan Progress Bar",

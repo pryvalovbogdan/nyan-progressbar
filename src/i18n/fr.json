@@ -692,7 +692,17 @@
       "dance": "Chats danseurs",
       "monochrome": "Monochromes",
       "orange": "Équipe Orange"
-    }
+    },
+    "introHeading": "Ce qui cartonne en ce moment sur le scrubber YouTube",
+    "introBody1": "Cette page est un catalogue vivant des styles de cat progress bar que les utilisateurs installent le plus en ce moment. Elle existe parce que choisir un chat est bien plus simple quand on voit ce que les autres adorent — les classiques restés au sommet pendant des années, les nouveaux thèmes qui viennent de débarquer et les collections curées par ambiance (kawaii, pixel, monochrome, danse et plus encore).",
+    "introBody2": "Chaque style ici est à un clic de devenir le vôtre. Touchez n'importe quel chat pour l'afficher dans le customizer en direct, ou cliquez sur installer pour ajouter l'extension à Chrome et voir votre choix sur une vraie vidéo YouTube. Pas d'inscription, pas de palier premium, et chaque chat est inclus dans l'extension gratuite.",
+    "rankingsHeading": "Comment fonctionne le classement",
+    "rankingsBody1": "La section Populaire est triée par nombre total d'installations sur toute la durée de vie de l'extension — ce sont les chats les plus choisis par tous les utilisateurs depuis le lancement. Nyan Classic, Cute Cat et Garfield se partagent le top trois la plupart des semaines, mais la longue traîne bouge au fil des thèmes qui prennent.",
+    "rankingsBody2": "Tendance maintenant est une vue glissante sur sept jours : les chats les plus choisis ou vers lesquels on a basculé la semaine passée. Les nouveaux thèmes y bondissent souvent les jours suivant leur sortie, c'est donc la meilleure section pour sentir ce qui est frais. La section Nouveaux liste tous les chats ajoutés au catalogue ces 60 derniers jours, par ordre de sortie.",
+    "rankingsBody3": "Les Meilleures Collections regroupent les chats par esthétique plutôt que par popularité. La collection Classic Cats rassemble les originaux ; Pixel & Retro réunit tous les thèmes en pixel art ; Kawaii Pastels regroupe les styles tout doux aux grands yeux ; Dancing Cats sont les animations qui se calent bien sur YouTube Music ; Monochrome est l'ensemble minimaliste ; Orange Squad est exactement ce que vous imaginez.",
+    "customizeHeading": "Faites de n'importe quel style tendance le vôtre",
+    "customizeBody": "Vous en avez trouvé un qui vous plaît ? Ouvrez-le dans le customizer en direct et ajustez la hauteur et la position verticale jusqu'à ce qu'il se pose parfaitement sur le scrubber YouTube. Chaque chat retient ses propres réglages, vous pouvez donc passer d'un style tendance à l'autre sans tout refaire.",
+    "customizeCta": "Ouvrir le customizer"
   },
   "about": {
     "heading": "À propos de Nyan Progress Bar",

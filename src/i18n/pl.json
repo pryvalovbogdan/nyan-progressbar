@@ -692,7 +692,17 @@
       "dance": "Tańczące koty",
       "monochrome": "Monochromatyczne",
       "orange": "Drużyna Rudych"
-    }
+    },
+    "introHeading": "Co teraz rządzi na pasku YouTube",
+    "introBody1": "Ta strona to żywy katalog stylów cat progress bar, które użytkownicy instalują obecnie najczęściej. Powstała dlatego, że wybór kota jest dużo łatwiejszy, kiedy można zobaczyć, co lubią inni — klasyki, które od lat pozostają na szczycie, nowe motywy, które właśnie się pojawiły, oraz kuratorskie kolekcje pogrupowane według klimatu (kawaii, piksel, monochromatyczne, taneczne i więcej).",
+    "introBody2": "Każdy styl tutaj jest o jeden klik od tego, by stać się Twoim. Stuknij dowolnego kota, aby zobaczyć go w podglądzie w edytorze na żywo, albo kliknij Zainstaluj, aby dodać rozszerzenie do Chrome i zobaczyć swój wybór na prawdziwym filmie YouTube. Bez rejestracji, bez wersji premium, a każdy kot jest dostępny w darmowym rozszerzeniu.",
+    "rankingsHeading": "Jak działają rankingi",
+    "rankingsBody1": "Sekcja Popularne jest posortowana według łącznej liczby instalacji w całym okresie życia rozszerzenia — to koty, które od premiery były wybierane najczęściej przez wszystkich użytkowników. Nyan Classic, Cute Cat i Garfield wymieniają się trzema pierwszymi miejscami przez większość tygodni, ale długi ogon przesuwa się, gdy nowe motywy zyskują popularność.",
+    "rankingsBody2": "Trendy teraz to widok kroczący z ostatnich siedmiu dni: koty, które w ciągu minionego tygodnia były najczęściej wybierane lub na które najczęściej się przełączano. Nowe motywy często mocno wybijają się tutaj w dniach po premierze, więc to najlepsza sekcja, by wyczuć, co jest świeże. Sekcja Nowe wymienia wszystkie koty dodane do katalogu w ostatnich 60 dniach, w kolejności wydania.",
+    "rankingsBody3": "Najlepsze Kolekcje grupują koty według estetyki, a nie popularności. Kolekcja Classic Cats zawiera oryginały; Pixel & Retro zbiera wszystkie pikselowe motywy; Kawaii Pastels łączy delikatne, wielkookie style; Dancing Cats to animacje, które dobrze synchronizują się z YouTube Music; Monochromatyczne to zestaw minimalistyczny; Orange Squad to dokładnie to, na co brzmi.",
+    "customizeHeading": "Uczyń każdy trendujący styl własnym",
+    "customizeBody": "Znalazłeś jeden, który Ci pasuje? Otwórz go w edytorze na żywo i dopasuj wysokość i pozycję pionową, aż idealnie usiądzie na pasku YouTube. Każdy kot pamięta własne ustawienia, więc możesz przełączać się między trendującymi stylami bez powtarzania pracy.",
+    "customizeCta": "Otwórz edytor"
   },
   "about": {
     "heading": "O Nyan Progress Bar",

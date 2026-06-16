@@ -541,6 +541,16 @@
     "installHeading": "Start using Nyan Progress Bar today",
     "installDescription": "Free Chrome extension. Pick a cat, hit install, and your YouTube progress bar gets a brand new mascot.",
     "installCta": "Add to Chrome — it's free",
+    "introHeading": "What's hot on the YouTube scrubber right now",
+    "introBody1": "This page is a living catalogue of the cat progress bar styles users are installing the most. It exists because picking a cat is a lot easier when you can see what other people are loving — the classics that have stayed at the top for years, the new themes that just landed, and the curated collections grouped by vibe (kawaii, pixel, monochrome, dance, and more).",
+    "introBody2": "Every style here is one click away from being your own. Tap any cat to preview it in the live customizer, or hit the install button to drop the extension into Chrome and see your pick on a real YouTube video. There's no sign-up, no premium tier, and every cat is included in the free extension.",
+    "rankingsHeading": "How rankings work",
+    "rankingsBody1": "The Popular section is sorted by total install count across the lifetime of the extension — these are the cats that have been picked the most across all users since launch. Nyan Classic, Cute Cat, and Garfield trade the top three spots most weeks, but the long tail moves around as new themes catch on.",
+    "rankingsBody2": "Trending Now is a rolling seven-day view: cats that have been picked or switched-to most often in the past week. New themes often surge here in the days after release, so it's the best section to watch if you want a feel for what's currently fresh. The New section lists every cat added to the catalogue in the past 60 days, in release order.",
+    "rankingsBody3": "Top Collections groups cats by aesthetic rather than popularity. The Classic Cats collection holds the originals; Pixel & Retro pulls every pixel-art theme; Kawaii Pastels gathers the soft, big-eyed styles; Dancing Cats are the animated ones that sync nicely with YouTube Music; Monochrome is the minimalist set; Orange Squad is exactly what it sounds like.",
+    "customizeHeading": "Make any trending style yours",
+    "customizeBody": "Found one you like? Open it in the live customizer and tune the height and vertical position until it sits perfectly on the YouTube scrubber. Each cat remembers its own settings, so you can switch between trending styles without redoing the work.",
+    "customizeCta": "Open the customizer",
     "sections": {
       "popular": {
         "title": "Popular Cat Progress Bars",

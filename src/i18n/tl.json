@@ -692,7 +692,17 @@
       "dance": "Mga Sumasayaw na Pusa",
       "monochrome": "Monochrome",
       "orange": "Orange Squad"
-    }
+    },
+    "introHeading": "Anong mainit ngayon sa YouTube scrubber",
+    "introBody1": "Ang pahinang ito ay isang buhay na catalogue ng cat progress bar styles na pinakamadalas i-install ng users. Umiral ito dahil mas madali ang pumili ng pusa kapag nakikita mo kung ano ang gusto ng iba — ang mga classic na nananatili sa tuktok ng mga taon, ang mga bagong tema na bagong dating, at ang curated collections na naka-grupo ayon sa vibe (kawaii, pixel, monochrome, dance, at iba pa).",
+    "introBody2": "Bawat istilo dito ay isang click lang papuntang sarili mo. I-tap ang kahit aling pusa para ma-preview sa live customizer, o pindutin ang install para ilagay ang extension sa Chrome at makita ang pinili mo sa totoong YouTube video. Walang sign-up, walang premium tier, at bawat pusa ay kasama sa libreng extension.",
+    "rankingsHeading": "Paano gumagana ang rankings",
+    "rankingsBody1": "Ang Popular section ay nakaayos ayon sa kabuuang install count sa buong buhay ng extension — ito ang mga pusang pinakamadalas piliin ng lahat ng users mula nang ilunsad. Ang Nyan Classic, Cute Cat, at Garfield ay nagpapalit-palit ng tatlong top spot karamihan ng linggo, ngunit ang long tail ay gumagalaw habang umaangat ang bagong tema.",
+    "rankingsBody2": "Ang Trending Now ay rolling seven-day view: mga pusang pinakamadalas pinili o linipatan sa nakaraang linggo. Ang mga bagong tema ay madalas tumaas dito sa mga araw matapos ang release, kaya ito ang pinakamagaling na section para maramdaman kung ano ang fresh. Ang New section ay nag-list ng bawat pusang idinagdag sa catalogue sa nakaraang 60 araw, sa pagkakasunud-sunod ng release.",
+    "rankingsBody3": "Ang Top Collections ay nag-grupo ng mga pusa ayon sa aesthetic kaysa sa popularity. Ang Classic Cats collection ay naglalaman ng mga orihinal; Pixel & Retro ay naghuhugot ng bawat pixel-art na tema; Kawaii Pastels ay nagtitipon ng malalambot at malalaking-mata na estilo; Dancing Cats ang mga animated na maayos na sync sa YouTube Music; Monochrome ang minimalist set; Orange Squad ay ganoon nga ang ibig sabihin.",
+    "customizeHeading": "Gawing sarili mo ang anumang trending na istilo",
+    "customizeBody": "May nakita ka bang gusto mo? Buksan ito sa live customizer at i-tune ang taas at vertical position hanggang sa perpektong umupo ito sa YouTube scrubber. Bawat pusa ay tinatandaan ang sariling settings, kaya pwede kang lumipat sa pagitan ng trending styles nang hindi inuulit ang trabaho.",
+    "customizeCta": "Buksan ang customizer"
   },
   "about": {
     "heading": "Tungkol sa Nyan Progress Bar",
