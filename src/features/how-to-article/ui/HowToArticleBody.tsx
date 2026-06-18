@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { HOW_TO_ARTICLE_VIDEO_IDS, getHowToArticleStepImage } from '@entities/how-to-article';
+import { Separator } from '@shared/ui/separator';
 
 import { StepImage } from './StepImage';
 import type { IHowToArticleBodyProps } from './types';
@@ -63,13 +64,14 @@ export function HowToArticleBody({ dict, lang, slug }: IHowToArticleBodyProps) {
         ))}
       </ol>
 
-      <footer className="border-t border-border pt-6">
+      <Separator />
+      <footer>
         <p className="text-sm uppercase tracking-wide text-muted-foreground mb-2">{h.nextStep}</p>
         <p className="text-muted-foreground leading-relaxed">
           {article.outroPre}{' '}
           <Link
             href={article.outroHref.startsWith('/') ? `/${lang}${article.outroHref}` : article.outroHref}
-            className="text-[#80deea] hover:underline font-medium"
+            className="link-accent font-medium"
           >
             {article.outroLink}
           </Link>

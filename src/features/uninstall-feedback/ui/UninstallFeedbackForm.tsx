@@ -1,12 +1,14 @@
 'use client';
 
-import { Check, Mail, Star, UserRound } from 'lucide-react';
+import { Check, Mail, UserRound } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';
 
 import { Button } from '@shared/ui/button';
 import { Input } from '@shared/ui/input';
 import { Label } from '@shared/ui/label';
+import { SelectableCard } from '@shared/ui/selectable-card';
+import { StarRating } from '@shared/ui/star-rating';
 import { Textarea } from '@shared/ui/textarea';
 
 import { EMPTY, REASON_KEYS } from './consts';
@@ -15,7 +17,6 @@ import type { FormState, IUninstallFeedbackFormProps, ReasonKey } from './types'
 export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
   const [form, setForm] = useState<FormState>(EMPTY);
   const [loading, setLoading] = useState(false);
-  const [hoveredRating, setHoveredRating] = useState(0);
 
   const modes = [
     {
@@ -94,44 +95,26 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
     }
   }
 
-  const activeRating = hoveredRating || form.rating;
-
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {modes.map(({ anonymous, icon: Icon, label, description }) => {
-          const isSelected = form.anonymous === anonymous;
-
-          return (
-            <button
-              key={String(anonymous)}
-              type="button"
-              onClick={() => setForm(prev => ({ ...prev, anonymous, email: anonymous ? '' : prev.email }))}
-              className={`relative text-left rounded-xl border bg-card p-4 flex flex-col gap-3 transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#80deea]/50 ${
-                isSelected
-                  ? 'border-[#80deea]/50 shadow-[0_0_0_1px_rgba(128,222,234,0.25),0_4px_24px_rgba(128,222,234,0.12)] -translate-y-0.5'
-                  : 'border-border hover:border-border/80 hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]'
-              }`}
-            >
-              <span
-                className={`absolute top-3 right-3 w-5 h-5 rounded-full flex items-center justify-center transition-all duration-200 ${
-                  isSelected ? 'bg-[#80deea] scale-100 opacity-100' : 'scale-75 opacity-0'
-                }`}
-              >
-                <Check className="w-3 h-3 text-background stroke-[3]" />
-              </span>
-
-              <span className="w-10 h-10 rounded-lg flex items-center justify-center bg-[#80deea]/10">
-                <Icon className="w-5 h-5 text-[#80deea]" />
-              </span>
-
-              <span className="space-y-1 pr-4">
-                <span className="block text-sm font-semibold text-foreground leading-tight">{label}</span>
-                <span className="block text-xs text-muted-foreground leading-relaxed">{description}</span>
-              </span>
-            </button>
-          );
-        })}
+        {modes.map(({ anonymous, icon: Icon, label, description }) => (
+          <SelectableCard
+            key={String(anonymous)}
+            selected={form.anonymous === anonymous}
+            selectedClassName="border-[#80deea]/50 shadow-[0_0_0_1px_rgba(128,222,234,0.25),0_4px_24px_rgba(128,222,234,0.12)]"
+            onClick={() => setForm(prev => ({ ...prev, anonymous, email: anonymous ? '' : prev.email }))}
+            className="flex flex-col gap-3"
+          >
+            <span className="w-10 h-10 rounded-lg flex items-center justify-center bg-[#80deea]/10">
+              <Icon className="w-5 h-5 text-[#80deea]" />
+            </span>
+            <span className="space-y-1 pr-4">
+              <span className="block text-sm font-semibold text-foreground leading-tight">{label}</span>
+              <span className="block text-xs text-muted-foreground leading-relaxed">{description}</span>
+            </span>
+          </SelectableCard>
+        ))}
       </div>
 
       {!form.anonymous && (
@@ -149,28 +132,11 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
 
       <div className="space-y-2">
         <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">{t.ratingLabel}</p>
-        <div className="flex items-center gap-1.5" onMouseLeave={() => setHoveredRating(0)}>
-          {[1, 2, 3, 4, 5].map(value => {
-            const isActive = value <= activeRating;
-
-            return (
-              <button
-                key={value}
-                type="button"
-                onClick={() => setForm(prev => ({ ...prev, rating: value }))}
-                onMouseEnter={() => setHoveredRating(value)}
-                aria-label={`${value} / 5`}
-                className="rounded-md p-1 transition-transform duration-150 hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#80deea]/50"
-              >
-                <Star
-                  className={`w-7 h-7 transition-colors ${
-                    isActive ? 'fill-[#80deea] text-[#80deea]' : 'text-muted-foreground'
-                  }`}
-                />
-              </button>
-            );
-          })}
-        </div>
+        <StarRating
+          value={form.rating}
+          onChange={value => setForm(prev => ({ ...prev, rating: value }))}
+          ariaLabel={n => `${n} / 5`}
+        />
         <p className="text-xs text-muted-foreground">{t.ratingHint}</p>
       </div>
 
@@ -228,11 +194,7 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
         />
       </div>
 
-      <Button
-        type="submit"
-        disabled={loading}
-        className="w-full bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90"
-      >
+      <Button type="submit" variant="accent" disabled={loading} className="w-full">
         {loading ? t.submitting : t.submit}
       </Button>
     </form>

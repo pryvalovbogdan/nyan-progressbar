@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 
+import { Button } from '@shared/ui/button';
+
 import { TrendingCard } from './TrendingCard';
 import { PAGINATED_PAGE_SIZE } from './consts';
 import type { IPaginatedStyleGridProps } from './types';
@@ -23,25 +25,27 @@ export function PaginatedStyleGrid({ dict, lang, styles }: IPaginatedStyleGridPr
 
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-3">
-          <button
+          <Button
             type="button"
+            variant="outline"
             onClick={() => setPage(p => Math.max(0, p - 1))}
             disabled={page === 0}
-            className="px-3 py-2 rounded-md border border-border text-sm font-medium text-foreground transition-colors hover:border-[#80deea]/40 hover:text-[#80deea] disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:border-border disabled:hover:text-foreground"
+            className="hover:border-[#80deea]/40 hover:text-[#80deea]"
           >
             ← {t.pagination.previous}
-          </button>
+          </Button>
           <span className="text-sm text-muted-foreground tabular-nums">
             {page + 1} / {totalPages}
           </span>
-          <button
+          <Button
             type="button"
+            variant="outline"
             onClick={() => setPage(p => Math.min(totalPages - 1, p + 1))}
             disabled={page >= totalPages - 1}
-            className="px-3 py-2 rounded-md border border-border text-sm font-medium text-foreground transition-colors hover:border-[#80deea]/40 hover:text-[#80deea] disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:border-border disabled:hover:text-foreground"
+            className="hover:border-[#80deea]/40 hover:text-[#80deea]"
           >
             {t.pagination.next} →
-          </button>
+          </Button>
         </div>
       )}
     </div>

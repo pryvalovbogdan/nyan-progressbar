@@ -1,6 +1,6 @@
 'use client';
 
-import { Bug, Check, ImagePlus, Lightbulb, MessageCircle, X } from 'lucide-react';
+import { Bug, ImagePlus, Lightbulb, MessageCircle, X } from 'lucide-react';
 import Image from 'next/image';
 import { useRef, useState } from 'react';
 import { toast } from 'sonner';
@@ -8,6 +8,7 @@ import { toast } from 'sonner';
 import { Button } from '@shared/ui/button';
 import { Input } from '@shared/ui/input';
 import { Label } from '@shared/ui/label';
+import { SelectableCard } from '@shared/ui/selectable-card';
 import { Textarea } from '@shared/ui/textarea';
 
 import { EMPTY, MAX_SIZE } from './consts';
@@ -173,39 +174,23 @@ export function ContactForm({ t }: IContactFormProps) {
         <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">{t.category}</p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           {categories.map(
-            ({ value, icon: Icon, label, description, iconColor, iconBg, selectedBorder, selectedShadow }) => {
-              const isSelected = form.category === value;
-
-              return (
-                <button
-                  key={value}
-                  type="button"
-                  onClick={() => setForm(prev => ({ ...prev, category: value }))}
-                  className={`relative text-left rounded-xl border bg-card p-4 flex flex-col gap-3 transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#80deea]/50 ${
-                    isSelected
-                      ? `${selectedBorder} ${selectedShadow} -translate-y-0.5`
-                      : 'border-border hover:border-border/80 hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]'
-                  }`}
-                >
-                  <span
-                    className={`absolute top-3 right-3 w-5 h-5 rounded-full flex items-center justify-center transition-all duration-200 ${
-                      isSelected ? 'bg-[#80deea] scale-100 opacity-100' : 'scale-75 opacity-0'
-                    }`}
-                  >
-                    <Check className="w-3 h-3 text-background stroke-[3]" />
-                  </span>
-
-                  <span className={`w-10 h-10 rounded-lg flex items-center justify-center ${iconBg}`}>
-                    <Icon className={`w-5 h-5 ${iconColor}`} />
-                  </span>
-
-                  <span className="space-y-1 pr-4">
-                    <span className="block text-sm font-semibold text-foreground leading-tight">{label}</span>
-                    <span className="block text-xs text-muted-foreground leading-relaxed">{description}</span>
-                  </span>
-                </button>
-              );
-            },
+            ({ value, icon: Icon, label, description, iconColor, iconBg, selectedBorder, selectedShadow }) => (
+              <SelectableCard
+                key={value}
+                selected={form.category === value}
+                selectedClassName={`${selectedBorder} ${selectedShadow}`}
+                onClick={() => setForm(prev => ({ ...prev, category: value }))}
+                className="flex flex-col gap-3"
+              >
+                <span className={`w-10 h-10 rounded-lg flex items-center justify-center ${iconBg}`}>
+                  <Icon className={`w-5 h-5 ${iconColor}`} />
+                </span>
+                <span className="space-y-1 pr-4">
+                  <span className="block text-sm font-semibold text-foreground leading-tight">{label}</span>
+                  <span className="block text-xs text-muted-foreground leading-relaxed">{description}</span>
+                </span>
+              </SelectableCard>
+            ),
           )}
         </div>
       </div>
@@ -302,11 +287,7 @@ export function ContactForm({ t }: IContactFormProps) {
         <input ref={fileInputRef} type="file" accept="image/*" className="hidden" onChange={handleInputChange} />
       </div>
 
-      <Button
-        type="submit"
-        disabled={loading}
-        className="w-full bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90"
-      >
+      <Button type="submit" variant="accent" disabled={loading} className="w-full">
         {loading ? t.submitting : t.submit}
       </Button>
     </form>

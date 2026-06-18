@@ -6,6 +6,8 @@ import { CryptoCard } from '@features/crypto-donate';
 import { trackEvent } from '@shared/lib/analytics';
 import { buttonVariants } from '@shared/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
+import { FeatureCard } from '@shared/ui/feature-card';
+import { PageContainer } from '@shared/ui/page-container';
 import { Separator } from '@shared/ui/separator';
 
 interface ISupportViewProps {
@@ -46,7 +48,7 @@ export function SupportView({ dict }: ISupportViewProps) {
   ];
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8 sm:py-16 space-y-8 sm:space-y-12">
+    <PageContainer maxWidth="4xl" space="md">
       <section className="text-center space-y-4">
         <h1 className="text-4xl font-bold">{s.heading}</h1>
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">{s.description}</p>
@@ -99,10 +101,7 @@ export function SupportView({ dict }: ISupportViewProps) {
             { title: s.whereItem2Title, desc: s.whereItem2Desc },
             { title: s.whereItem3Title, desc: s.whereItem3Desc },
           ].map(({ title, desc }) => (
-            <div key={title} className="card p-4 space-y-1">
-              <h3 className="font-semibold">{title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
-            </div>
+            <FeatureCard key={title} title={title} description={desc} />
           ))}
         </div>
       </section>
@@ -119,10 +118,7 @@ export function SupportView({ dict }: ISupportViewProps) {
             { title: s.otherWay3Title, desc: s.otherWay3Desc },
             { title: s.otherWay4Title, desc: s.otherWay4Desc },
           ].map(({ title, desc }) => (
-            <div key={title} className="card p-4 space-y-1">
-              <h3 className="font-semibold text-sm">{title}</h3>
-              <p className="text-xs text-muted-foreground leading-relaxed">{desc}</p>
-            </div>
+            <FeatureCard key={title} title={title} description={desc} density="compact" />
           ))}
         </div>
       </section>
@@ -133,6 +129,6 @@ export function SupportView({ dict }: ISupportViewProps) {
         <h2 className="text-xl font-bold">{s.transparencyHeading}</h2>
         <p className="text-muted-foreground leading-relaxed">{s.transparencyBody}</p>
       </section>
-    </div>
+    </PageContainer>
   );
 }

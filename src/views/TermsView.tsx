@@ -1,5 +1,7 @@
 import type { Dictionary } from '@/i18n';
 
+import { PageContainer } from '@shared/ui';
+
 interface ITermsViewProps {
   dict: Dictionary;
 }
@@ -9,7 +11,7 @@ export function TermsView({ dict }: ITermsViewProps) {
   const contactEmail = process.env.CONTACT_TO ?? '';
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8 sm:py-16 space-y-8">
+    <PageContainer maxWidth="3xl" space="sm">
       <header className="space-y-2">
         <h1 className="text-4xl font-bold">{t.heading}</h1>
         <p className="text-muted-foreground text-sm">{t.lastUpdated}</p>
@@ -69,12 +71,12 @@ export function TermsView({ dict }: ITermsViewProps) {
         <h2 className="text-xl font-semibold">{t.s10Heading}</h2>
         <p className="text-muted-foreground leading-relaxed">
           {t.s10Pre}{' '}
-          <a href={`mailto:${contactEmail}`} className="text-[#80deea] hover:underline">
+          <a href={`mailto:${contactEmail}`} className="link-accent">
             {contactEmail}
           </a>
           .
         </p>
       </section>
-    </div>
+    </PageContainer>
   );
 }

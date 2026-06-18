@@ -2,6 +2,7 @@ import type { Dictionary } from '@/i18n';
 
 import { HOW_TO_ARTICLE_SLUGS } from '@entities/how-to-article';
 import { HowToArticleCard } from '@features/how-to-article';
+import { PageContainer } from '@shared/ui';
 
 interface IHowToUseIndexViewProps {
   dict: Dictionary;
@@ -12,7 +13,7 @@ export function HowToUseIndexView({ dict, lang }: IHowToUseIndexViewProps) {
   const h = dict.howToUse;
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8 sm:py-16 space-y-12">
+    <PageContainer maxWidth="4xl" space="2xl">
       <header className="space-y-3">
         <h1 className="text-4xl font-bold">{h.index.heading}</h1>
         <p className="text-muted-foreground leading-relaxed text-lg">{h.index.description}</p>
@@ -23,6 +24,6 @@ export function HowToUseIndexView({ dict, lang }: IHowToUseIndexViewProps) {
           <HowToArticleCard key={slug} dict={dict} lang={lang} slug={slug} />
         ))}
       </div>
-    </div>
+    </PageContainer>
   );
 }

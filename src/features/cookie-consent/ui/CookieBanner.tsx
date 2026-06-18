@@ -43,25 +43,27 @@ export function CookieBanner({ labels, privacyHref }: ICookieBannerProps) {
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-center gap-2">
             {isPreferences && (
-              <button
-                type="button"
+              <Button
+                variant="ghost"
+                size="icon-xs"
                 onClick={() => setView('notice')}
-                className="rounded-md p-1 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
                 aria-label={labels.back}
+                className="text-muted-foreground"
               >
                 <ChevronLeft className="h-4 w-4" />
-              </button>
+              </Button>
             )}
             <h2 className="text-sm font-semibold text-foreground">{labels.title}</h2>
           </div>
-          <button
-            type="button"
+          <Button
+            variant="ghost"
+            size="icon-xs"
             onClick={rejectAll}
-            className="-mr-1 rounded-md p-1 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
             aria-label={labels.close}
+            className="-mr-1 text-muted-foreground"
           >
             <X className="h-4 w-4" />
-          </button>
+          </Button>
         </div>
 
         {isPreferences ? (
@@ -92,7 +94,7 @@ export function CookieBanner({ labels, privacyHref }: ICookieBannerProps) {
         ) : (
           <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
             {labels.description}{' '}
-            <Link href={privacyHref} className="text-[#80deea] underline-offset-4 hover:underline">
+            <Link href={privacyHref} className="link-accent underline-offset-4">
               {labels.policyLink}
             </Link>
           </p>
@@ -101,17 +103,15 @@ export function CookieBanner({ labels, privacyHref }: ICookieBannerProps) {
         <div className="mt-4 flex flex-col gap-2">
           {isPreferences ? (
             <Button
+              variant="accent"
               onClick={() => savePreferences({ analytics: draftAnalytics, marketing: draftMarketing })}
-              className="w-full bg-[#80deea] font-semibold text-background hover:bg-[#80deea]/90"
+              className="w-full"
             >
               {labels.savePreferences}
             </Button>
           ) : (
             <>
-              <Button
-                onClick={acceptAll}
-                className="w-full bg-[#80deea] font-semibold text-background hover:bg-[#80deea]/90"
-              >
+              <Button variant="accent" onClick={acceptAll} className="w-full">
                 {labels.acceptAll}
               </Button>
               <div className="grid grid-cols-2 gap-2">
