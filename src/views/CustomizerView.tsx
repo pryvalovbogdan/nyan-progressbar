@@ -1,4 +1,5 @@
 import type { Dictionary } from '@/i18n';
+import { ExtensionBanner, GifSourcesBlock, PopularCatsBlock } from '@widgets';
 import Link from 'next/link';
 
 import { ScrubberGallery } from '@features/cat-selector';
@@ -6,9 +7,6 @@ import { CustomizerPanel } from '@features/customizer';
 import { FeatureCard } from '@shared/ui/feature-card';
 import { PageContainer } from '@shared/ui/page-container';
 import { Separator } from '@shared/ui/separator';
-import { ExtensionBanner } from '@widgets/extension-banner';
-import { GifSourcesBlock } from '@widgets/gif-sources';
-import { PopularCatsBlock } from '@widgets/popular-cats';
 
 interface ICustomizerViewProps {
   dict: Dictionary;

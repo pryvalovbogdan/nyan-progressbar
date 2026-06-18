@@ -1,4 +1,5 @@
 import type { Dictionary } from '@/i18n';
+import { ReviewsSection, StatsSection } from '@widgets';
 import Link from 'next/link';
 
 import { ScrubberGallery } from '@features/cat-selector';
@@ -11,8 +12,6 @@ import { GoogleAd } from '@shared/ui/google-add';
 import { PageContainer } from '@shared/ui/page-container';
 import { SectionHeading } from '@shared/ui/section-heading';
 import { Separator } from '@shared/ui/separator';
-import { ReviewsSection } from '@widgets/reviews';
-import { StatsSection } from '@widgets/stats';
 
 interface IHomeViewProps {
   dict: Dictionary;

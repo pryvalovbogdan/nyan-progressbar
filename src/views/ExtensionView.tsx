@@ -1,4 +1,5 @@
 import type { Dictionary } from '@/i18n';
+import { ChangelogSection } from '@widgets';
 
 import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { buttonVariants } from '@shared/ui/button';
@@ -6,7 +7,6 @@ import { FeatureCard } from '@shared/ui/feature-card';
 import { GoogleAd } from '@shared/ui/google-add';
 import { PageContainer } from '@shared/ui/page-container';
 import { Separator } from '@shared/ui/separator';
-import { ChangelogSection } from '@widgets/changelog';
 
 interface IExtensionViewProps {
   dict: Dictionary;

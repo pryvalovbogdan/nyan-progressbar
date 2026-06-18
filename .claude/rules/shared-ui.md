@@ -58,8 +58,8 @@ When an existing primitive needs a new look (e.g. an accent CTA button), add a v
 ```ts
 variant: {
   // …
-  accent: 'bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90',
-},
+  accent: 'bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90'
+}
 ```
 …then:
 ```tsx

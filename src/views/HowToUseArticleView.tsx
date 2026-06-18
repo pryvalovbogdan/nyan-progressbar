@@ -1,11 +1,11 @@
 import type { Dictionary } from '@/i18n';
+import { HowToSidebar } from '@widgets';
 
 import type { HowToArticleSlug } from '@entities/how-to-article';
 import { HowToArticleBody } from '@features/how-to-article';
 import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { GoogleAd } from '@shared/ui/google-add';
 import { PageContainer } from '@shared/ui/page-container';
-import { HowToSidebar } from '@widgets/how-to-sidebar';
 
 interface IHowToUseArticleViewProps {
   dict: Dictionary;

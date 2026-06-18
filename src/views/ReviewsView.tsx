@@ -1,9 +1,8 @@
 import type { Dictionary } from '@/i18n';
+import { ReleaseReviewsSection, ReviewsSection } from '@widgets';
 import Link from 'next/link';
 
 import { CTACard, FeatureCard, PageContainer, SectionHeading, Separator } from '@shared/ui';
-import { ReleaseReviewsSection } from '@widgets/release-reviews';
-import { ReviewsSection } from '@widgets/reviews';
 
 interface IReviewsViewProps {
   dict: Dictionary;

@@ -1,4 +1,4 @@
-import type { FormState, ReasonKey } from './types';
+import type { FormState, ReasonKey } from './UninstallFeedbackForm/types';
 
 export const REASON_KEYS: ReasonKey[] = [
   'tooBuggy',

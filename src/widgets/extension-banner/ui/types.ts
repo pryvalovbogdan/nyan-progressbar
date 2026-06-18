@@ -4,7 +4,3 @@ export interface BannerLabels {
   cta: string;
   dismiss: string;
 }
-
-export interface IExtensionBannerProps {
-  labels: BannerLabels;
-}

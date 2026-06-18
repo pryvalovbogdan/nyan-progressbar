@@ -37,17 +37,6 @@
   ```
 - All other interfaces follow the same `I` prefix convention: `IStatCardProps`, `INavProps`, etc.
 
-### File organisation
-- **Features and widgets** — put all types (including Props) in `types.ts` next to the component; put module-level constants in `consts.ts` next to the component:
-  ```
-  features/my-feature/ui/
-    MyComponent.tsx   ← imports from ./types and ./consts
-    types.ts          ← IMyComponentProps + all other interfaces
-    consts.ts         ← constants used by the component(s)
-  ```
-- **Views** (`src/views/`) — Props may stay inline since views are thin compositions with a single `dict: Dictionary` prop; rename to `I{Name}ViewProps` regardless.
-- Never define a component Props interface outside `types.ts` (for features/widgets) or directly above the component (for views).
-
 ### Sub-components always go in separate files
 - Never define a named sub-component inside the same file as its parent. Every component that has its own props gets its own file.
   ```
@@ -59,6 +48,30 @@
   ```
 - Add the sub-component's props interface to the shared `types.ts` alongside the parent's.
 - This applies at every layer: features, widgets, shared/ui.
+
+### File organisation
+
+A component that has its own props interface must live in its own folder. The folder is named in **kebab-case** for `shared/ui/` primitives and **PascalCase** for widgets/features components (matching the existing filename convention). Layout:
+
+```
+{ComponentName}/
+  index.ts            ← `export { ComponentName } from './ComponentName';`
+  ComponentName.tsx   ← imports from ./types and ./consts (if needed)
+  types.ts            ← I{ComponentName}Props + interfaces used only by this component
+  consts.ts           ← module-level constants used only by this component (optional)
+```
+
+This applies at every layer — `src/shared/ui/`, `src/widgets/*/ui/`, `src/features/*/ui/`. Auto-generated Shadcn primitives in `src/shared/ui/` are exempt.
+
+Where types live:
+- **Props interface** for the component → in *its own* `types.ts` only. Never define `I{Name}Props` in another component's `types.ts`, and never inline it above the component.
+- **Slice-shared domain types** (e.g. `Review`, `ReviewsLabels`, label-bundle types passed across multiple components in a slice) → keep at the slice's `ui/types.ts` one level up. Re-export from the slice barrel when consumers outside the slice need them.
+
+Components with **zero props** can stay as flat `.tsx` files; the folder rule only triggers when a props interface exists.
+
+**Views** (`src/views/`) are exempt — they may keep `I{Name}ViewProps` inline since they are thin compositions.
+
+Because every component with props lives in its own folder, every component that has its own props is also in its own file — this supersedes the previous "sub-components always go in separate files" rule.
 
 ## Async/await
 - Always `await` promises — never fire-and-forget unless inside an event handler where you handle errors yourself
