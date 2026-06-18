@@ -1,6 +1,7 @@
 import type { Dictionary } from '@/i18n';
 
 import { ContactForm } from '@features/contact-form';
+import { PageContainer } from '@shared/ui';
 
 interface IContactViewProps {
   dict: Dictionary;
@@ -10,7 +11,7 @@ export function ContactView({ dict }: IContactViewProps) {
   const c = dict.contact;
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-8 sm:py-16 space-y-8 sm:space-y-10">
+    <PageContainer maxWidth="2xl" space="md">
       <section className="space-y-3">
         <h1 className="text-4xl font-bold">{c.heading}</h1>
         <p className="text-muted-foreground">{c.description}</p>
@@ -27,6 +28,6 @@ export function ContactView({ dict }: IContactViewProps) {
         </a>
         .
       </p>
-    </div>
+    </PageContainer>
   );
 }

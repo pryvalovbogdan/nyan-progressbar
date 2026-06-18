@@ -1,6 +1,8 @@
 import type { Dictionary } from '@/i18n';
 import Link from 'next/link';
 
+import { PageContainer } from '@shared/ui';
+
 interface IAboutViewProps {
   dict: Dictionary;
   lang: string;
@@ -29,7 +31,7 @@ export function AboutView({ dict, lang }: IAboutViewProps) {
   };
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8 sm:py-16 space-y-8">
+    <PageContainer maxWidth="3xl" space="sm">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }} />
 
       <header className="space-y-2">
@@ -77,16 +79,16 @@ export function AboutView({ dict, lang }: IAboutViewProps) {
         <h2 className="text-xl font-semibold">{a.s6Heading}</h2>
         <p className="text-muted-foreground leading-relaxed">
           {a.s6Pre}{' '}
-          <Link href={`/${lang}/contact`} className="text-[#80deea] hover:underline">
+          <Link href={`/${lang}/contact`} className="link-accent">
             {a.s6ContactLink}
           </Link>
           {a.s6Mid}{' '}
-          <a href={`mailto:${contactEmail}`} className="text-[#80deea] hover:underline">
+          <a href={`mailto:${contactEmail}`} className="link-accent">
             {contactEmail}
           </a>
           .
         </p>
       </section>
-    </div>
+    </PageContainer>
   );
 }

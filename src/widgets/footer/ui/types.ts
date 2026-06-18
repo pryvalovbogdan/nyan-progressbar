@@ -9,8 +9,3 @@ export interface FooterLabels {
   terms: string;
   faq: string;
 }
-
-export interface IFooterProps {
-  labels: FooterLabels;
-  lang: string;
-}

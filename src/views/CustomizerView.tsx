@@ -1,12 +1,12 @@
 import type { Dictionary } from '@/i18n';
+import { ExtensionBanner, GifSourcesBlock, PopularCatsBlock } from '@widgets';
 import Link from 'next/link';
 
 import { ScrubberGallery } from '@features/cat-selector';
 import { CustomizerPanel } from '@features/customizer';
+import { FeatureCard } from '@shared/ui/feature-card';
+import { PageContainer } from '@shared/ui/page-container';
 import { Separator } from '@shared/ui/separator';
-import { ExtensionBanner } from '@widgets/extension-banner';
-import { GifSourcesBlock } from '@widgets/gif-sources';
-import { PopularCatsBlock } from '@widgets/popular-cats';
 
 interface ICustomizerViewProps {
   dict: Dictionary;
@@ -17,7 +17,7 @@ export async function CustomizerView({ dict, lang }: ICustomizerViewProps) {
   const c = dict.customizerPage;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:py-16 space-y-8 sm:space-y-10">
+    <PageContainer maxWidth="6xl" space="md">
       <section className="space-y-1">
         <h1 className="text-3xl sm:text-4xl font-bold">{c.heading}</h1>
         <p className="text-muted-foreground">{c.description}</p>
@@ -81,10 +81,7 @@ export async function CustomizerView({ dict, lang }: ICustomizerViewProps) {
             { title: c.tip3Title, desc: c.tip3Desc },
             { title: c.tip4Title, desc: c.tip4Desc },
           ].map(({ title, desc }) => (
-            <div key={title} className="card p-4 space-y-1">
-              <h3 className="font-semibold text-sm">{title}</h3>
-              <p className="text-xs text-muted-foreground leading-relaxed">{desc}</p>
-            </div>
+            <FeatureCard key={title} title={title} description={desc} density="compact" />
           ))}
         </div>
       </section>
@@ -100,10 +97,7 @@ export async function CustomizerView({ dict, lang }: ICustomizerViewProps) {
             { title: c.useCase2Title, desc: c.useCase2Desc },
             { title: c.useCase3Title, desc: c.useCase3Desc },
           ].map(({ title, desc }) => (
-            <div key={title} className="card p-4 space-y-1">
-              <h3 className="font-semibold text-sm">{title}</h3>
-              <p className="text-xs text-muted-foreground leading-relaxed">{desc}</p>
-            </div>
+            <FeatureCard key={title} title={title} description={desc} density="compact" />
           ))}
         </div>
       </section>
@@ -114,12 +108,12 @@ export async function CustomizerView({ dict, lang }: ICustomizerViewProps) {
         <h2 className="text-xl font-bold">{c.faqHintHeading}</h2>
         <p className="text-muted-foreground">
           {c.faqHintPre}{' '}
-          <Link href={`/${lang}/faq`} className="text-[#80deea] hover:underline">
+          <Link href={`/${lang}/faq`} className="link-accent">
             {c.faqHintLinkText}
           </Link>{' '}
           {c.faqHintPost}
         </p>
       </section>
-    </div>
+    </PageContainer>
   );
 }

@@ -1,5 +1,7 @@
 import type { Dictionary } from '@/i18n';
 
+import { PageContainer } from '@shared/ui';
+
 interface IPrivacyViewProps {
   dict: Dictionary;
 }
@@ -8,7 +10,7 @@ export function PrivacyView({ dict }: IPrivacyViewProps) {
   const p = dict.privacy;
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8 sm:py-16 space-y-8">
+    <PageContainer maxWidth="3xl" space="sm">
       <header className="space-y-2">
         <h1 className="text-4xl font-bold">{p.heading}</h1>
         <p className="text-muted-foreground text-sm">{p.lastUpdated}</p>
@@ -25,7 +27,7 @@ export function PrivacyView({ dict }: IPrivacyViewProps) {
             href="https://tools.google.com/dlpage/gaoptout"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#80deea] hover:underline"
+            className="link-accent"
           >
             {p.s1OptOutLink}
           </a>
@@ -74,12 +76,12 @@ export function PrivacyView({ dict }: IPrivacyViewProps) {
         <h2 className="text-xl font-semibold">{p.s8Heading}</h2>
         <p className="text-muted-foreground leading-relaxed">
           {p.s8Pre}{' '}
-          <a href={`mailto:${process.env.CONTACT_TO}`} className="text-[#80deea] hover:underline">
+          <a href={`mailto:${process.env.CONTACT_TO}`} className="link-accent">
             {process.env.CONTACT_TO}
           </a>
           .
         </p>
       </section>
-    </div>
+    </PageContainer>
   );
 }

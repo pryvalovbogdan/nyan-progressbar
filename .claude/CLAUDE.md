@@ -103,3 +103,4 @@ See `.claude/agents/api-route-creator.md`
 - `.claude/rules/nextjs.md` — App Router conventions
 - `.claude/rules/state-management.md` — Zustand patterns
 - `.claude/rules/i18n.md` — i18n rules: all visible text must come from translations
+- `.claude/rules/shared-ui.md` — reuse-first policy for `shared/ui` primitives + when to promote

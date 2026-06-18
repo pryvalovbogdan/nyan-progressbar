@@ -6,7 +6,9 @@ import { TRENDING_SECTIONS } from '@entities/trending-style';
 import { TrendingSection } from '@features/trending';
 import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { buttonVariants } from '@shared/ui/button';
+import { CTACard } from '@shared/ui/cta-card';
 import { GoogleAd } from '@shared/ui/google-add';
+import { PageContainer } from '@shared/ui/page-container';
 import { Separator } from '@shared/ui/separator';
 
 interface ITrendingViewProps {
@@ -18,7 +20,7 @@ export function TrendingView({ dict, lang }: ITrendingViewProps) {
   const t = dict.trending;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:py-16 space-y-12 sm:space-y-20">
+    <PageContainer>
       <header className="space-y-3">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">{t.heading}</h1>
         <p className="text-muted-foreground leading-relaxed text-lg max-w-2xl">{t.description}</p>
@@ -48,18 +50,11 @@ export function TrendingView({ dict, lang }: ITrendingViewProps) {
 
       <Separator />
 
-      <section className="max-w-2xl mx-auto text-center space-y-3 card p-6">
-        <h2 className="text-xl font-bold">{t.customizeHeading}</h2>
-        <p className="text-muted-foreground leading-relaxed">{t.customizeBody}</p>
-        <Link
-          href={`/${lang}/customizer`}
-          className={buttonVariants({
-            className: 'bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90',
-          })}
-        >
+      <CTACard title={t.customizeHeading} body={t.customizeBody}>
+        <Link href={`/${lang}/customizer`} className={buttonVariants({ variant: 'accent' })}>
           {t.customizeCta}
         </Link>
-      </section>
+      </CTACard>
 
       <section className="text-center space-y-4">
         <h2 className="text-2xl sm:text-3xl font-bold">{t.installHeading}</h2>
@@ -68,14 +63,11 @@ export function TrendingView({ dict, lang }: ITrendingViewProps) {
           href={`https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}`}
           target="_blank"
           rel="noopener noreferrer"
-          className={buttonVariants({
-            size: 'lg',
-            className: 'bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90',
-          })}
+          className={buttonVariants({ size: 'lg', variant: 'accent' })}
         >
           {t.installCta}
         </a>
       </section>
-    </div>
+    </PageContainer>
   );
 }

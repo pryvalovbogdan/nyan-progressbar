@@ -1,10 +1,12 @@
 import type { Dictionary } from '@/i18n';
+import { ChangelogSection } from '@widgets';
 
 import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { buttonVariants } from '@shared/ui/button';
+import { FeatureCard } from '@shared/ui/feature-card';
 import { GoogleAd } from '@shared/ui/google-add';
+import { PageContainer } from '@shared/ui/page-container';
 import { Separator } from '@shared/ui/separator';
-import { ChangelogSection } from '@widgets/changelog';
 
 interface IExtensionViewProps {
   dict: Dictionary;
@@ -30,7 +32,7 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
   ];
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8 sm:py-16 space-y-10 sm:space-y-16">
+    <PageContainer maxWidth="4xl" space="xl">
       <section className="text-center space-y-4 sm:space-y-6">
         <h1 className="text-4xl font-bold">{e.heading}</h1>
         <p className="text-muted-foreground text-lg max-w-lg mx-auto">{e.description}</p>
@@ -40,7 +42,8 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
           rel="noopener noreferrer"
           className={buttonVariants({
             size: 'lg',
-            className: 'bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90 text-base px-10',
+            variant: 'accent',
+            className: 'text-base px-10',
           })}
         >
           {e.cta}
@@ -96,10 +99,7 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
         <h2 className="text-2xl font-bold text-center">{e.howHeading}</h2>
         <div className="grid sm:grid-cols-3 gap-4">
           {steps.map(({ title, desc }) => (
-            <div key={title} className="card p-5 space-y-2">
-              <h3 className="font-semibold">{title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
-            </div>
+            <FeatureCard key={title} title={title} description={desc} />
           ))}
         </div>
       </section>
@@ -123,6 +123,6 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
           {e.questionPost}
         </p>
       </section>
-    </div>
+    </PageContainer>
   );
 }

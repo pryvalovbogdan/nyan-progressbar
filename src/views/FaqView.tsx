@@ -5,6 +5,8 @@ import { Fragment } from 'react';
 import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@shared/ui/accordion';
 import { GoogleAd } from '@shared/ui/google-add';
+import { PageContainer } from '@shared/ui/page-container';
+import { Separator } from '@shared/ui/separator';
 
 interface IFaqViewProps {
   dict: Dictionary;
@@ -49,7 +51,7 @@ export function FaqView({ dict, lang }: IFaqViewProps) {
   };
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8 sm:py-16 space-y-10">
+    <PageContainer maxWidth="3xl" space="lg">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
 
       <header className="space-y-3 text-center">
@@ -80,16 +82,17 @@ export function FaqView({ dict, lang }: IFaqViewProps) {
         </Fragment>
       ))}
 
-      <section className="border-t border-border pt-8 space-y-3 text-center">
+      <Separator />
+      <section className="space-y-3 text-center">
         <h2 className="text-xl font-semibold">{f.stillStuckHeading}</h2>
         <p className="text-muted-foreground">
           {f.stillStuckPre}{' '}
-          <Link href={`/${lang}/contact`} className="text-[#80deea] hover:underline">
+          <Link href={`/${lang}/contact`} className="link-accent">
             {f.stillStuckLinkText}
           </Link>{' '}
           {f.stillStuckPost}
         </p>
       </section>
-    </div>
+    </PageContainer>
   );
 }
