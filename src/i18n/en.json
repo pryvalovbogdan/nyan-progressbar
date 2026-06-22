@@ -51,6 +51,10 @@
     "faq": {
       "title": "Frequently Asked Questions — Nyan Progress Bar",
       "description": "Answers to the most common questions about installing, customizing, and troubleshooting the Nyan Progress Bar Chrome extension."
+    },
+    "blog": {
+      "title": "Blog — Nyan Progress Bar",
+      "description": "Release notes, Nyan Cat trivia, and news from the Nyan Progress Bar team."
     }
   },
   "nav": {
@@ -61,7 +65,8 @@
     "customize": "Customize",
     "support": "Donate",
     "contact": "Contact",
-    "reviews": "Reviews"
+    "reviews": "Reviews",
+    "blog": "Blog"
   },
   "customizerPage": {
     "heading": "Cat Customizer",
@@ -829,6 +834,56 @@
       "howToUninstall": {
         "q": "How do I uninstall the Extension?",
         "a": "Visit chrome://extensions, find Nyan Progress Bar, and click \"Remove\". All locally stored settings and uploaded GIFs are deleted automatically. If you have a moment, the short uninstall feedback form helps us improve the next release."
+      }
+    }
+  },
+  "blog": {
+    "heading": "Blog",
+    "description": "Release notes, Nyan Cat trivia, and news from the Nyan Progress Bar team.",
+    "empty": "No posts in this category yet.",
+    "backToList": "← Back to all posts",
+    "readMore": "Read post",
+    "filter": {
+      "all": "All",
+      "release": "Releases",
+      "fact": "Facts",
+      "news": "News"
+    },
+    "type": {
+      "release": "Release",
+      "fact": "Fact",
+      "news": "News"
+    },
+    "posts": {
+      "now-on-edge-and-opera": {
+        "title": "Nyan Progress Bar is now on Edge and Opera",
+        "summary": "The same extension you know from Chrome is now a one-click install on Microsoft Edge and Opera. Same features, same cats, zero account.",
+        "body": [
+          "We've quietly shipped Nyan Progress Bar to the Microsoft Edge Add-ons store and the Opera Add-ons gallery. If you use either browser as your daily driver, the extension is now a single click away — no sideloading, no developer mode, no fiddling with manifests.",
+          "Both versions are built from the same source as the Chrome release. That means every cat, the live customizer, custom GIF upload, and the position sliders all work exactly the same way. Settings stay local to each browser, so you can run a different cat on Chrome and Edge if you want.",
+          "Firefox is the next target. The architecture is already MV3-compatible, but Firefox's WebExtensions API needs a few small adjustments around how we inject the overlay into the YouTube player. We're aiming for a Firefox beta later this summer.",
+          "If you've been waiting for Nyan Progress Bar to land in your browser of choice, give it a try — and if anything feels off compared to the Chrome version, please let us know via the contact form."
+        ]
+      },
+      "nyan-cat-v2-release": {
+        "title": "Nyan Progress Bar 2.0 is out",
+        "summary": "Version 2.0 ships a faster overlay, four new cat themes, custom GIF support, and a fully rebuilt customizer panel.",
+        "body": [
+          "Version 2.0 is the biggest update we've shipped since the original launch. Under the hood, the overlay rendering pipeline has been rewritten to use a single offscreen canvas — the result is roughly 40% less CPU during playback and noticeably smoother animation on long videos.",
+          "Four new cat themes ship with this release: Pixel Tiger, Kitty Wigglez, Glitch Cat, and Sleeping Fat Cat. Each one was hand-tuned for the exact dimensions of the YouTube scrubber, so they sit naturally on the bar without any extra configuration.",
+          "Custom GIF upload is also now built in. Drop any .gif file into the customizer and it becomes your scrubber cat. The file is stored locally in your browser — nothing is uploaded to a server. You can swap between built-in cats and your custom GIF any time without losing either.",
+          "Finally, the customizer panel itself has been rebuilt. Height and top-offset sliders now show a live preview as you drag, and there's a new \"Most popular\" panel showing the cats other users pick most often. The full release is rolling out on the Chrome Web Store now."
+        ]
+      },
+      "the-original-2011-nyan-cat": {
+        "title": "The original 2011 Nyan Cat, and where the meme came from",
+        "summary": "A short history of the original Nyan Cat — a Poptart-bodied pixel cat set to a Japanese vocaloid track that became one of the most-watched YouTube videos of 2011.",
+        "body": [
+          "The original Nyan Cat was posted to YouTube on April 5th, 2011, by user saraj00n. The cat itself — a pixel cat with a Poptart body trailing a rainbow — was drawn a few days earlier by Christopher Torres, who originally called it \"Pop Tart Cat\". The soundtrack was a Vocaloid song titled \"Nyanyanyanyanyanyanya!\" recorded by Japanese artist daniwellP and sung by the Vocaloid Hatsune Miku.",
+          "The two were combined into a single 3-minute looping video. Within months it had over 50 million views and a place on YouTube's all-time most-watched list — it was, for a brief period in 2011, the third most-viewed video on the platform.",
+          "The animation itself is technically very simple: a 6-frame looping GIF of the cat, scrolling stars in the background, and a static rainbow trail. It's the combination — pixel art, an absurd Vocaloid track, and a perfectly looping format — that turned it into one of the defining memes of the early 2010s.",
+          "When we set out to build a YouTube progress bar extension, the original Nyan Cat was always going to be the first cat in the lineup. It's still the default — the cat you see the first time you install the extension."
+        ]
       }
     }
   }

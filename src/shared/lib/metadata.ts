@@ -15,7 +15,8 @@ export type PageKey =
   | 'trending'
   | 'about'
   | 'terms'
-  | 'faq';
+  | 'faq'
+  | 'blog';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? '';
 
@@ -33,6 +34,7 @@ const ROUTE: Record<PageKey, string> = {
   about: '/about',
   terms: '/terms',
   faq: '/faq',
+  blog: '/blog',
 };
 
 const OG_LOCALE: Record<Locale, string> = {

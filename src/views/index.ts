@@ -12,3 +12,5 @@ export { TrendingView } from './TrendingView';
 export { AboutView } from './AboutView';
 export { TermsView } from './TermsView';
 export { FaqView } from './FaqView';
+export { BlogView } from './BlogView';
+export { BlogPostView } from './BlogPostView';

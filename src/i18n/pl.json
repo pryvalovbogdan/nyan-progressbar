@@ -51,6 +51,10 @@
     "faq": {
       "title": "Najczęstsze pytania — Nyan Progress Bar",
       "description": "Odpowiedzi na najczęściej zadawane pytania dotyczące instalacji, dostosowania i rozwiązywania problemów z rozszerzeniem Nyan Progress Bar dla Chrome."
+    },
+    "blog": {
+      "title": "Blog — Nyan Progress Bar",
+      "description": "Notatki o wydaniach, ciekawostki o Nyan Cat i wieści od zespołu Nyan Progress Bar."
     }
   },
   "nav": {
@@ -61,6 +65,7 @@
     "support": "Wesprzyj",
     "contact": "Kontakt",
     "reviews": "Recenzje",
+    "blog": "Blog",
     "howToUse": "Przewodniki"
   },
   "customizerPage": {
@@ -829,6 +834,56 @@
       "howToUninstall": {
         "q": "Jak odinstalować rozszerzenie?",
         "a": "Wejdź na chrome://extensions, znajdź Nyan Progress Bar i kliknij „Usuń\". Wszystkie lokalne ustawienia i wgrane GIF-y są usuwane automatycznie. Jeśli masz chwilę, krótki formularz opinii pomaga ulepszyć kolejne wydanie."
+      }
+    }
+  },
+  "blog": {
+    "heading": "Blog",
+    "description": "Notatki o wydaniach, ciekawostki o Nyan Cat i wieści od zespołu Nyan Progress Bar.",
+    "empty": "W tej kategorii nie ma jeszcze wpisów.",
+    "backToList": "← Wróć do wszystkich wpisów",
+    "readMore": "Czytaj wpis",
+    "filter": {
+      "all": "Wszystko",
+      "release": "Wydania",
+      "fact": "Ciekawostki",
+      "news": "Aktualności"
+    },
+    "type": {
+      "release": "Wydanie",
+      "fact": "Ciekawostka",
+      "news": "Aktualność"
+    },
+    "posts": {
+      "now-on-edge-and-opera": {
+        "title": "Nyan Progress Bar jest już w Edge i Operze",
+        "summary": "To samo rozszerzenie, które znasz z Chrome, można teraz zainstalować jednym kliknięciem w Microsoft Edge i Operze. Te same funkcje, te same koty, bez konta.",
+        "body": [
+          "Po cichu wydaliśmy Nyan Progress Bar w sklepie Microsoft Edge Add-ons i w galerii Opera Add-ons. Jeśli używasz któregoś z tych przeglądarek na co dzień, rozszerzenie jest teraz oddalone o jedno kliknięcie — bez sideloadingu, bez trybu deweloperskiego, bez grzebania w manifestach.",
+          "Obie wersje są zbudowane z tego samego źródła co wydanie pod Chrome. Oznacza to, że wszystkie koty, customizer na żywo, wgrywanie własnych GIF-ów i suwaki pozycji działają dokładnie tak samo. Ustawienia pozostają lokalne dla każdej przeglądarki, więc możesz mieć innego kota w Chrome i w Edge, jeśli chcesz.",
+          "Następny cel to Firefox. Architektura jest już zgodna z MV3, ale API WebExtensions w Firefoxie wymaga kilku drobnych poprawek w sposobie wstrzykiwania nakładki do odtwarzacza YouTube. Celujemy w betę dla Firefoxa pod koniec lata.",
+          "Jeśli czekałeś, aż Nyan Progress Bar trafi do twojej ulubionej przeglądarki — spróbuj. A jeśli coś działa inaczej niż w wersji pod Chrome, daj nam znać przez formularz kontaktowy."
+        ]
+      },
+      "nyan-cat-v2-release": {
+        "title": "Nyan Progress Bar 2.0 już dostępny",
+        "summary": "Wersja 2.0 przynosi szybszą nakładkę, cztery nowe motywy kotów, obsługę własnych GIF-ów i całkowicie przebudowany panel customizera.",
+        "body": [
+          "Wersja 2.0 to największa aktualizacja od pierwszego wydania. Pod maską potok renderowania nakładki został przepisany tak, by korzystał z jednego canvasa poza ekranem — efekt to około 40 % niższe zużycie CPU podczas odtwarzania i wyraźnie płynniejsza animacja na długich filmach.",
+          "W tej wersji pojawiają się cztery nowe motywy kotów: Pixel Tiger, Kitty Wigglez, Glitch Cat i Sleeping Fat Cat. Każdy dopasowany ręcznie do dokładnych wymiarów paska YouTube, więc siada naturalnie na pasku bez dodatkowej konfiguracji.",
+          "Wgrywanie własnych GIF-ów jest też teraz wbudowane. Upuść dowolny plik .gif do customizera i staje się twoim kotem scrubbera. Plik trzymany jest lokalnie w przeglądarce — nic nie idzie na serwer. W każdej chwili możesz przełączyć się między wbudowanymi kotami a własnym GIF-em bez utraty żadnego z nich.",
+          "Wreszcie sam panel customizera został zbudowany od nowa. Suwaki wysokości i przesunięcia w pionie pokazują podgląd na żywo podczas przeciągania, a nowy panel \"Najpopularniejsze\" pokazuje koty, które najczęściej wybierają inni użytkownicy. Pełne wydanie wdraża się teraz w Chrome Web Store."
+        ]
+      },
+      "the-original-2011-nyan-cat": {
+        "title": "Oryginalny Nyan Cat z 2011 i skąd wziął się mem",
+        "summary": "Krótka historia oryginalnego Nyan Cata — pikselowego kota z ciałem Poptarta, połączonego z japońską ścieżką vocaloid, który stał się jednym z najczęściej oglądanych filmów YouTube w 2011 roku.",
+        "body": [
+          "Oryginalny Nyan Cat trafił na YouTube 5 kwietnia 2011 roku za sprawą użytkownika saraj00n. Sam kot — pikselowy kot z ciałem Poptarta, ciągnący za sobą tęczę — został narysowany kilka dni wcześniej przez Christophera Torresa, który nazwał go pierwotnie \"Pop Tart Cat\". Ścieżką dźwiękową był utwór Vocaloid \"Nyanyanyanyanyanyanya!\" nagrany przez japońskiego artystę daniwellP i zaśpiewany przez Vocaloid Hatsune Miku.",
+          "Oba elementy połączono w jeden 3-minutowy zapętlony film. W ciągu kilku miesięcy miał już ponad 50 milionów wyświetleń i miejsce na liście wszech czasów YouTube — przez krótki moment w 2011 roku był trzecim najczęściej oglądanym filmem na platformie.",
+          "Animacja sama w sobie jest technicznie bardzo prosta: 6-klatkowy zapętlony GIF kota, przewijające się w tle gwiazdy i nieruchomy tęczowy ślad. To kombinacja — pixel art, absurdalna ścieżka Vocaloid i format idealnie zapętlony — uczyniła z niej jeden z definiujących memów początku lat 2010.",
+          "Kiedy zabieraliśmy się za rozszerzenie do paska postępu YouTube, oryginalny Nyan Cat od początku miał być pierwszym kotem na liście. I jest nadal kotem domyślnym — tym, którego widzisz przy pierwszej instalacji rozszerzenia."
+        ]
       }
     }
   }

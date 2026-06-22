@@ -7,4 +7,5 @@ export interface NavLabels {
   support: string;
   contact: string;
   reviews: string;
+  blog: string;
 }

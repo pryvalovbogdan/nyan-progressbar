@@ -51,6 +51,10 @@
     "faq": {
       "title": "Häufig gestellte Fragen — Nyan Progress Bar",
       "description": "Antworten auf die häufigsten Fragen zur Installation, Anpassung und Fehlerbehebung der Nyan Progress Bar Chrome-Erweiterung."
+    },
+    "blog": {
+      "title": "Blog — Nyan Progress Bar",
+      "description": "Versionshinweise, Nyan-Cat-Wissenswertes und Neuigkeiten vom Nyan-Progress-Bar-Team."
     }
   },
   "nav": {
@@ -61,6 +65,7 @@
     "support": "Spenden",
     "contact": "Kontakt",
     "reviews": "Bewertungen",
+    "blog": "Blog",
     "howToUse": "Anleitungen"
   },
   "customizerPage": {
@@ -829,6 +834,56 @@
       "howToUninstall": {
         "q": "Wie deinstalliere ich die Erweiterung?",
         "a": "Besuche chrome://extensions, finde Nyan Progress Bar und klicke auf „Entfernen\". Alle lokal gespeicherten Einstellungen und hochgeladenen GIFs werden automatisch gelöscht. Wenn du einen Moment hast, hilft uns das kurze Uninstall-Feedback-Formular, das nächste Release zu verbessern."
+      }
+    }
+  },
+  "blog": {
+    "heading": "Blog",
+    "description": "Versionshinweise, Nyan-Cat-Wissenswertes und Neuigkeiten vom Nyan-Progress-Bar-Team.",
+    "empty": "In dieser Kategorie gibt es noch keine Beiträge.",
+    "backToList": "← Zurück zu allen Beiträgen",
+    "readMore": "Beitrag lesen",
+    "filter": {
+      "all": "Alle",
+      "release": "Releases",
+      "fact": "Wissenswertes",
+      "news": "News"
+    },
+    "type": {
+      "release": "Release",
+      "fact": "Fakt",
+      "news": "News"
+    },
+    "posts": {
+      "now-on-edge-and-opera": {
+        "title": "Nyan Progress Bar jetzt auch für Edge und Opera",
+        "summary": "Dieselbe Erweiterung, die du aus Chrome kennst, lässt sich jetzt mit einem Klick in Microsoft Edge und Opera installieren. Gleiche Funktionen, gleiche Katzen, kein Konto nötig.",
+        "body": [
+          "Wir haben Nyan Progress Bar still und leise im Microsoft-Edge-Add-ons-Store und in der Opera-Add-ons-Galerie veröffentlicht. Wenn du einen dieser Browser im Alltag nutzt, ist die Erweiterung jetzt einen Klick entfernt — kein Sideloading, kein Entwicklermodus, kein Herumdoktern an Manifests.",
+          "Beide Versionen basieren auf derselben Quelle wie das Chrome-Release. Das heißt: alle Katzen, der Live-Customizer, das Hochladen eigener GIFs und die Positionsregler funktionieren genau gleich. Die Einstellungen bleiben jeweils lokal in jedem Browser — du kannst also in Chrome eine andere Katze fahren als in Edge.",
+          "Firefox ist das nächste Ziel. Die Architektur ist bereits MV3-kompatibel, aber Firefox's WebExtensions-API braucht ein paar kleine Anpassungen bei der Einbindung des Overlays in den YouTube-Player. Wir peilen eine Firefox-Beta für später im Sommer an.",
+          "Wenn du schon darauf gewartet hast, dass Nyan Progress Bar in deinem Lieblings-Browser ankommt, probier es aus — und wenn sich etwas im Vergleich zur Chrome-Version komisch anfühlt, schreib uns über das Kontaktformular."
+        ]
+      },
+      "nyan-cat-v2-release": {
+        "title": "Nyan Progress Bar 2.0 ist da",
+        "summary": "Version 2.0 bringt ein schnelleres Overlay, vier neue Katzen-Themes, Unterstützung für eigene GIFs und ein komplett neu gebautes Customizer-Panel.",
+        "body": [
+          "Version 2.0 ist das größte Update seit dem ursprünglichen Launch. Unter der Haube wurde die Render-Pipeline des Overlays auf einen einzelnen Offscreen-Canvas umgestellt — das Ergebnis sind rund 40 % weniger CPU-Last während der Wiedergabe und spürbar flüssigere Animationen bei langen Videos.",
+          "Vier neue Katzen-Themes sind dabei: Pixel-Tiger, Kitty Wigglez, Glitch-Katze und Schlafende Dicke Katze. Jede wurde von Hand exakt an die Maße des YouTube-Scrubbers angepasst, damit sie ohne weitere Konfiguration natürlich auf dem Balken sitzt.",
+          "Auch das Hochladen eigener GIFs ist jetzt eingebaut. Zieh eine beliebige .gif-Datei in den Customizer und schon wird sie zu deiner Scrubber-Katze. Die Datei wird lokal im Browser gespeichert — nichts wird auf einen Server geladen. Du kannst jederzeit zwischen den vorinstallierten Katzen und deinem eigenen GIF wechseln, ohne eine davon zu verlieren.",
+          "Schließlich wurde das Customizer-Panel neu gebaut. Die Regler für Höhe und Oberkante zeigen eine Live-Vorschau beim Ziehen, und es gibt ein neues \"Am beliebtesten\"-Panel, das die Katzen zeigt, die andere Nutzer am häufigsten wählen. Das volle Release rollt jetzt im Chrome Web Store aus."
+        ]
+      },
+      "the-original-2011-nyan-cat": {
+        "title": "Das Original-Nyan-Cat von 2011 und woher das Meme stammt",
+        "summary": "Eine kurze Geschichte des Original-Nyan-Cat — einer Pixel-Katze mit Pop-Tart-Körper, untermalt von einem japanischen Vocaloid-Track, die zu einem der meistgesehenen YouTube-Videos 2011 wurde.",
+        "body": [
+          "Das Original-Nyan-Cat wurde am 5. April 2011 vom Nutzer saraj00n auf YouTube hochgeladen. Die Katze selbst — eine Pixel-Katze mit einem Pop-Tart-Körper, die einen Regenbogen hinter sich herzieht — wurde wenige Tage zuvor von Christopher Torres gezeichnet, der sie ursprünglich \"Pop Tart Cat\" nannte. Der Soundtrack war ein Vocaloid-Song namens \"Nyanyanyanyanyanyanya!\" des japanischen Künstlers daniwellP, gesungen von der Vocaloid Hatsune Miku.",
+          "Beides wurde zu einem einzigen 3-minütigen Loop-Video kombiniert. Innerhalb weniger Monate hatte es über 50 Millionen Aufrufe und einen Platz auf YouTube's Liste der meistgesehenen Videos aller Zeiten — kurzzeitig war es 2011 das drittmeistgesehene Video der Plattform.",
+          "Die Animation selbst ist technisch sehr einfach: ein 6-Frame-GIF-Loop der Katze, im Hintergrund scrollende Sterne und eine statische Regenbogenspur. Die Kombination — Pixel Art, ein absurder Vocaloid-Track und ein perfekt loopendes Format — machte daraus eines der prägenden Memes der frühen 2010er-Jahre.",
+          "Als wir uns daranmachten, eine YouTube-Fortschrittsbalken-Erweiterung zu bauen, stand fest: das Original-Nyan-Cat würde die erste Katze in der Auswahl sein. Es ist auch heute noch die Standard-Katze — die, die du nach der Installation als Erstes siehst."
+        ]
       }
     }
   }

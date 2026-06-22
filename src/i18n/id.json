@@ -51,6 +51,10 @@
     "faq": {
       "title": "Pertanyaan yang Sering Diajukan — Nyan Progress Bar",
       "description": "Jawaban atas pertanyaan paling umum tentang menginstal, menyesuaikan, dan memecahkan masalah ekstensi Chrome Nyan Progress Bar."
+    },
+    "blog": {
+      "title": "Blog — Nyan Progress Bar",
+      "description": "Catatan rilis, fakta menarik tentang Nyan Cat, dan kabar terbaru dari tim Nyan Progress Bar."
     }
   },
   "nav": {
@@ -61,6 +65,7 @@
     "support": "Donasi",
     "contact": "Kontak",
     "reviews": "Ulasan",
+    "blog": "Blog",
     "howToUse": "Panduan"
   },
   "customizerPage": {
@@ -829,6 +834,56 @@
       "howToUninstall": {
         "q": "Bagaimana cara menghapus Ekstensi?",
         "a": "Kunjungi chrome://extensions, cari Nyan Progress Bar, dan klik \"Hapus\". Semua pengaturan lokal dan GIF yang diunggah dihapus otomatis. Jika kamu punya waktu, formulir umpan balik penghapusan yang singkat membantu kami memperbaiki rilis berikutnya."
+      }
+    }
+  },
+  "blog": {
+    "heading": "Blog",
+    "description": "Catatan rilis, fakta menarik tentang Nyan Cat, dan kabar terbaru dari tim Nyan Progress Bar.",
+    "empty": "Belum ada postingan di kategori ini.",
+    "backToList": "← Kembali ke semua postingan",
+    "readMore": "Baca postingan",
+    "filter": {
+      "all": "Semua",
+      "release": "Rilis",
+      "fact": "Fakta",
+      "news": "Berita"
+    },
+    "type": {
+      "release": "Rilis",
+      "fact": "Fakta",
+      "news": "Berita"
+    },
+    "posts": {
+      "now-on-edge-and-opera": {
+        "title": "Nyan Progress Bar kini tersedia di Edge dan Opera",
+        "summary": "Ekstensi yang sama yang kamu kenal di Chrome kini bisa dipasang sekali klik di Microsoft Edge dan Opera. Fitur sama, kucing sama, tanpa akun.",
+        "body": [
+          "Kami diam-diam merilis Nyan Progress Bar ke toko Microsoft Edge Add-ons dan galeri Opera Add-ons. Kalau kamu memakai salah satu browser itu sebagai harian, ekstensi ini sekarang cuma satu klik — tanpa sideloading, tanpa mode developer, tanpa otak-atik manifest.",
+          "Kedua versi dibangun dari sumber yang sama dengan rilis Chrome. Artinya semua kucing, customizer langsung, unggah GIF kustom, dan slider posisi bekerja persis sama. Pengaturan tetap lokal di tiap browser, jadi kamu bisa pakai kucing berbeda di Chrome dan di Edge kalau mau.",
+          "Firefox adalah target berikutnya. Arsitekturnya sudah kompatibel MV3, tapi API WebExtensions Firefox butuh beberapa penyesuaian kecil di cara kami menyuntikkan overlay ke player YouTube. Kami menargetkan beta Firefox akhir musim panas ini.",
+          "Kalau kamu sudah lama menunggu Nyan Progress Bar masuk ke browser pilihanmu, silakan coba — dan kalau ada yang terasa beda dibanding versi Chrome, beri tahu kami lewat formulir kontak."
+        ]
+      },
+      "nyan-cat-v2-release": {
+        "title": "Nyan Progress Bar 2.0 sudah dirilis",
+        "summary": "Versi 2.0 membawa overlay yang lebih cepat, empat tema kucing baru, dukungan unggah GIF kustom, dan panel customizer yang dibangun ulang sepenuhnya.",
+        "body": [
+          "Versi 2.0 adalah pembaruan terbesar yang pernah kami rilis sejak peluncuran pertama. Di dalam, pipeline rendering overlay ditulis ulang untuk memakai satu canvas offscreen — hasilnya sekitar 40 % beban CPU lebih sedikit saat pemutaran dan animasi yang terasa jauh lebih mulus di video panjang.",
+          "Empat tema kucing baru hadir di rilis ini: Pixel Tiger, Kitty Wigglez, Glitch Cat, dan Sleeping Fat Cat. Tiap satunya disetel manual sesuai dimensi persis scrubber YouTube, jadi mereka duduk dengan natural di bar tanpa pengaturan tambahan.",
+          "Unggah GIF kustom kini juga bawaan. Jatuhkan file .gif apa pun ke customizer dan jadi kucing scrubber-mu. File disimpan lokal di browser — tidak ada yang diunggah ke server. Kamu bisa berpindah antara kucing bawaan dan GIF kustommu kapan saja tanpa kehilangan salah satunya.",
+          "Terakhir, panel customizer sendiri sudah dibangun ulang. Slider tinggi dan offset atas kini menampilkan pratinjau langsung saat kamu menariknya, dan ada panel baru \"Paling populer\" yang menampilkan kucing yang paling sering dipilih pengguna lain. Rilis penuh sedang diluncurkan di Chrome Web Store sekarang."
+        ]
+      },
+      "the-original-2011-nyan-cat": {
+        "title": "Nyan Cat asli tahun 2011, dan asal-usul meme-nya",
+        "summary": "Sejarah singkat Nyan Cat asli — kucing piksel bertubuh Poptart yang dipadukan dengan lagu vocaloid Jepang dan jadi salah satu video YouTube paling banyak ditonton di tahun 2011.",
+        "body": [
+          "Nyan Cat asli diunggah ke YouTube pada 5 April 2011 oleh pengguna saraj00n. Kucingnya sendiri — kucing piksel bertubuh Poptart yang meninggalkan jejak pelangi — digambar beberapa hari sebelumnya oleh Christopher Torres, yang awalnya menyebutnya \"Pop Tart Cat\". Soundtrack-nya adalah lagu Vocaloid berjudul \"Nyanyanyanyanyanyanya!\" rekaman artis Jepang daniwellP dan dinyanyikan oleh Vocaloid Hatsune Miku.",
+          "Keduanya dipadukan jadi satu video loop sepanjang 3 menit. Dalam hitungan bulan video itu sudah ditonton lebih dari 50 juta kali dan masuk daftar video paling banyak ditonton sepanjang masa di YouTube — sempat, untuk waktu singkat di 2011, jadi video ketiga paling banyak ditonton di platform itu.",
+          "Animasinya sendiri secara teknis sangat sederhana: GIF loop 6 frame dari kucing, bintang yang bergulir di belakang, dan jejak pelangi statis. Kombinasinya — pixel art, lagu Vocaloid yang absurd, dan format yang loop sempurna — yang membuatnya jadi salah satu meme paling ikonik di awal 2010-an.",
+          "Saat kami memulai pengerjaan ekstensi progress bar YouTube ini, sudah jelas Nyan Cat asli akan jadi kucing pertama dalam daftar. Dan sampai sekarang masih jadi kucing default — yang kamu lihat pertama kali setelah memasang ekstensi."
+        ]
       }
     }
   }

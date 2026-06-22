@@ -51,6 +51,10 @@
     "faq": {
       "title": "Câu hỏi thường gặp — Nyan Progress Bar",
       "description": "Trả lời cho các câu hỏi phổ biến nhất về cài đặt, tùy chỉnh và khắc phục sự cố của tiện ích Nyan Progress Bar cho Chrome."
+    },
+    "blog": {
+      "title": "Blog — Nyan Progress Bar",
+      "description": "Ghi chú phát hành, sự thật thú vị về Nyan Cat và tin tức từ đội Nyan Progress Bar."
     }
   },
   "nav": {
@@ -61,6 +65,7 @@
     "support": "Ủng hộ",
     "contact": "Liên hệ",
     "reviews": "Đánh giá",
+    "blog": "Blog",
     "howToUse": "Hướng dẫn"
   },
   "customizerPage": {
@@ -829,6 +834,56 @@
       "howToUninstall": {
         "q": "Làm sao gỡ Tiện ích?",
         "a": "Truy cập chrome://extensions, tìm Nyan Progress Bar và nhấn \"Remove\". Mọi cài đặt được lưu cục bộ và GIF đã tải lên đều bị xóa tự động. Nếu có vài phút, biểu mẫu phản hồi gỡ ngắn sẽ giúp chúng tôi cải thiện bản phát hành tiếp theo."
+      }
+    }
+  },
+  "blog": {
+    "heading": "Blog",
+    "description": "Ghi chú phát hành, sự thật thú vị về Nyan Cat và tin tức từ đội Nyan Progress Bar.",
+    "empty": "Chưa có bài viết nào trong mục này.",
+    "backToList": "← Quay lại tất cả bài viết",
+    "readMore": "Đọc bài viết",
+    "filter": {
+      "all": "Tất cả",
+      "release": "Phát hành",
+      "fact": "Sự thật",
+      "news": "Tin tức"
+    },
+    "type": {
+      "release": "Phát hành",
+      "fact": "Sự thật",
+      "news": "Tin tức"
+    },
+    "posts": {
+      "now-on-edge-and-opera": {
+        "title": "Nyan Progress Bar đã có mặt trên Edge và Opera",
+        "summary": "Cùng tiện ích mà bạn đã quen trên Chrome, giờ chỉ một cú nhấp là cài được trên Microsoft Edge và Opera. Cùng tính năng, cùng các bạn mèo, không cần tài khoản.",
+        "body": [
+          "Chúng tôi đã âm thầm phát hành Nyan Progress Bar trên kho Microsoft Edge Add-ons và thư viện Opera Add-ons. Nếu bạn dùng một trong hai trình duyệt đó hằng ngày, tiện ích giờ chỉ cách một cú nhấp — không sideloading, không chế độ nhà phát triển, không phải mày mò manifest.",
+          "Cả hai phiên bản đều được xây từ cùng một mã nguồn với bản phát hành cho Chrome. Nghĩa là tất cả các bạn mèo, customizer trực tiếp, tải GIF tuỳ chỉnh và các thanh trượt vị trí đều hoạt động hệt như nhau. Cài đặt được lưu cục bộ riêng cho từng trình duyệt, nên bạn có thể chạy một bạn mèo khác trên Chrome và một bạn khác trên Edge nếu muốn.",
+          "Firefox là mục tiêu tiếp theo. Kiến trúc đã tương thích MV3 rồi, nhưng WebExtensions API của Firefox cần vài chỉnh sửa nhỏ ở cách chúng tôi chèn lớp phủ vào trình phát YouTube. Chúng tôi nhắm tới bản beta cho Firefox vào cuối hè.",
+          "Nếu bạn vẫn chờ Nyan Progress Bar đến trình duyệt mình thích, hãy thử ngay — và nếu có gì đó khác lạ so với bản Chrome, hãy báo cho chúng tôi qua biểu mẫu liên hệ."
+        ]
+      },
+      "nyan-cat-v2-release": {
+        "title": "Nyan Progress Bar 2.0 đã ra mắt",
+        "summary": "Phiên bản 2.0 mang đến lớp phủ nhanh hơn, bốn chủ đề mèo mới, hỗ trợ tải GIF tuỳ chỉnh và bảng customizer được làm lại hoàn toàn.",
+        "body": [
+          "Phiên bản 2.0 là bản cập nhật lớn nhất kể từ lần ra mắt đầu tiên. Dưới mui xe, pipeline render của lớp phủ đã được viết lại để dùng một canvas ngoài màn hình duy nhất — kết quả là CPU giảm khoảng 40 % trong khi phát và hoạt ảnh mượt hơn thấy rõ trên các video dài.",
+          "Bản này có bốn chủ đề mèo mới: Pixel Tiger, Kitty Wigglez, Glitch Cat và Sleeping Fat Cat. Mỗi bạn đều được tinh chỉnh thủ công theo đúng kích thước thanh scrubber của YouTube, nên ngồi tự nhiên trên thanh mà không cần cấu hình thêm.",
+          "Tải GIF tuỳ chỉnh cũng đã được tích hợp sẵn. Thả bất kỳ tệp .gif nào vào customizer và nó sẽ trở thành mèo scrubber của bạn. Tệp được lưu cục bộ trong trình duyệt — không có gì gửi lên server. Bạn có thể chuyển qua lại giữa các bạn mèo có sẵn và GIF tuỳ chỉnh bất cứ lúc nào mà không mất bên nào.",
+          "Cuối cùng, chính bảng customizer cũng đã được dựng lại. Thanh trượt chiều cao và độ lệch trên cùng giờ hiển thị xem trước trực tiếp khi bạn kéo, và có một bảng mới \"Phổ biến nhất\" hiển thị những bạn mèo người dùng khác chọn nhiều nhất. Bản đầy đủ đang được triển khai trên Chrome Web Store ngay lúc này."
+        ]
+      },
+      "the-original-2011-nyan-cat": {
+        "title": "Bản gốc Nyan Cat 2011 và nguồn gốc của meme",
+        "summary": "Câu chuyện ngắn về Nyan Cat gốc — một chú mèo pixel với thân Poptart trên nền nhạc vocaloid Nhật, trở thành một trong những video được xem nhiều nhất YouTube năm 2011.",
+        "body": [
+          "Nyan Cat gốc được đăng lên YouTube ngày 5 tháng 4 năm 2011 bởi người dùng saraj00n. Bản thân chú mèo — một chú mèo pixel với thân Poptart kéo theo cầu vồng — được vẽ vài ngày trước đó bởi Christopher Torres, người ban đầu gọi nó là \"Pop Tart Cat\". Bản nhạc nền là một bài Vocaloid mang tên \"Nyanyanyanyanyanyanya!\" do nghệ sĩ Nhật daniwellP thu âm và Vocaloid Hatsune Miku hát.",
+          "Cả hai được ghép vào một video lặp dài 3 phút. Chỉ vài tháng sau nó đã vượt 50 triệu lượt xem và có chỗ trong danh sách video xem nhiều nhất mọi thời đại của YouTube — trong một khoảng ngắn năm 2011, nó là video xem nhiều thứ ba trên nền tảng.",
+          "Bản thân hoạt ảnh về mặt kỹ thuật rất đơn giản: GIF lặp 6 khung của chú mèo, các ngôi sao cuộn ở nền và một đường cầu vồng tĩnh. Chính sự kết hợp — pixel art, một bản Vocaloid đầy \"kỳ cục\" và một định dạng lặp hoàn hảo — đã biến nó thành một trong những meme định hình thập niên 2010.",
+          "Khi chúng tôi bắt đầu làm tiện ích cho thanh tiến trình YouTube, Nyan Cat gốc nghiễm nhiên là chú mèo đầu tiên trong danh sách. Đến giờ nó vẫn là chú mèo mặc định — chú mèo bạn nhìn thấy lần đầu tiên ngay sau khi cài tiện ích."
+        ]
       }
     }
   }

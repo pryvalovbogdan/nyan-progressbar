@@ -1,3 +1,4 @@
+export * from './blog-post-content';
 export * from './cat-preview';
 export * from './changelog';
 export * from './extension-banner';

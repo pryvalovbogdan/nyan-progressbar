@@ -1,11 +1,13 @@
 import { locales } from '@/i18n';
 import type { MetadataRoute } from 'next';
 
+import { BLOG_POST_SLUGS } from '@entities/blog';
 import { HOW_TO_ARTICLE_SLUGS } from '@entities/how-to-article';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nyanprogressbar.com';
 
 const HOW_TO_ROUTES = HOW_TO_ARTICLE_SLUGS.map(slug => `/how-to-use/${slug}` as const);
+const BLOG_POST_ROUTES = BLOG_POST_SLUGS.map(slug => `/blog/${slug}` as const);
 
 const ROUTES = [
   '',
@@ -19,7 +21,9 @@ const ROUTES = [
   '/about',
   '/faq',
   '/terms',
+  '/blog',
   ...HOW_TO_ROUTES,
+  ...BLOG_POST_ROUTES,
 ] as const;
 
 const PRIORITY: Record<string, number> = {
@@ -34,6 +38,7 @@ const PRIORITY: Record<string, number> = {
   '/about': 0.7,
   '/faq': 0.8,
   '/terms': 0.5,
+  '/blog': 0.8,
 };
 
 const CHANGE_FREQ: Record<string, MetadataRoute.Sitemap[number]['changeFrequency']> = {
@@ -48,6 +53,7 @@ const CHANGE_FREQ: Record<string, MetadataRoute.Sitemap[number]['changeFrequency
   '/about': 'monthly',
   '/faq': 'monthly',
   '/terms': 'monthly',
+  '/blog': 'weekly',
 };
 
 const HOW_TO_DEFAULT_PRIORITY = 0.7;

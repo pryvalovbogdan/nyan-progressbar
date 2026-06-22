@@ -17,6 +17,7 @@ export function Nav({ labels, lang }: INavProps) {
     { href: `/${lang}/trending`, label: labels.trending },
     { href: `/${lang}/how-to-use`, label: labels.howToUse },
     { href: `/${lang}/customizer`, label: labels.customize },
+    { href: `/${lang}/blog`, label: labels.blog },
     { href: `/${lang}/reviews`, label: labels.reviews },
     { href: `/${lang}/support`, label: labels.support },
     { href: `/${lang}/contact`, label: labels.contact },

@@ -51,6 +51,10 @@
     "faq": {
       "title": "Preguntas Frecuentes — Nyan Progress Bar",
       "description": "Respuestas a las preguntas más comunes sobre instalación, personalización y solución de problemas de la extensión Nyan Progress Bar para Chrome."
+    },
+    "blog": {
+      "title": "Blog — Nyan Progress Bar",
+      "description": "Notas de versión, curiosidades sobre Nyan Cat y novedades del equipo de Nyan Progress Bar."
     }
   },
   "nav": {
@@ -61,6 +65,7 @@
     "support": "Donar",
     "contact": "Contacto",
     "reviews": "Reseñas",
+    "blog": "Blog",
     "howToUse": "Guías"
   },
   "customizerPage": {
@@ -829,6 +834,56 @@
       "howToUninstall": {
         "q": "¿Cómo desinstalo la Extensión?",
         "a": "Visita chrome://extensions, busca Nyan Progress Bar y haz clic en «Eliminar». Todos los ajustes almacenados localmente y los GIFs subidos se borran automáticamente. Si tienes un momento, el breve formulario de feedback de desinstalación nos ayuda a mejorar el próximo lanzamiento."
+      }
+    }
+  },
+  "blog": {
+    "heading": "Blog",
+    "description": "Notas de versión, curiosidades sobre Nyan Cat y novedades del equipo de Nyan Progress Bar.",
+    "empty": "Aún no hay publicaciones en esta categoría.",
+    "backToList": "← Volver a todas las publicaciones",
+    "readMore": "Leer publicación",
+    "filter": {
+      "all": "Todo",
+      "release": "Versiones",
+      "fact": "Curiosidades",
+      "news": "Noticias"
+    },
+    "type": {
+      "release": "Versión",
+      "fact": "Curiosidad",
+      "news": "Noticia"
+    },
+    "posts": {
+      "now-on-edge-and-opera": {
+        "title": "Nyan Progress Bar ya está en Edge y Opera",
+        "summary": "La misma extensión que conoces de Chrome ahora se instala con un solo clic en Microsoft Edge y Opera. Mismas funciones, mismos gatos, sin necesidad de cuenta.",
+        "body": [
+          "Hemos publicado discretamente Nyan Progress Bar en la tienda de Microsoft Edge Add-ons y en la galería de Opera Add-ons. Si usas alguno de esos navegadores como principal, la extensión está ahora a un solo clic — sin sideloading, sin modo desarrollador y sin tocar manifests.",
+          "Ambas versiones se compilan desde el mismo código fuente que la versión de Chrome. Eso significa que todos los gatos, el personalizador en vivo, la subida de GIFs personalizados y los controles de posición funcionan exactamente igual. La configuración queda guardada localmente en cada navegador, así que puedes tener un gato diferente en Chrome y en Edge si quieres.",
+          "Firefox es el siguiente objetivo. La arquitectura ya es compatible con MV3, pero la API de WebExtensions de Firefox necesita algunos ajustes pequeños en la forma en que inyectamos el overlay en el reproductor de YouTube. Apuntamos a una beta de Firefox para finales del verano.",
+          "Si estabas esperando que Nyan Progress Bar llegara a tu navegador favorito, pruébalo — y si algo se siente raro comparado con la versión de Chrome, cuéntanoslo por el formulario de contacto."
+        ]
+      },
+      "nyan-cat-v2-release": {
+        "title": "Nyan Progress Bar 2.0 ya está disponible",
+        "summary": "La versión 2.0 trae un overlay más rápido, cuatro nuevos temas de gato, soporte para GIFs personalizados y un panel de personalización totalmente reconstruido.",
+        "body": [
+          "La versión 2.0 es la mayor actualización que hemos lanzado desde el primer lanzamiento. Por dentro, hemos reescrito el pipeline de renderizado del overlay para usar un solo canvas fuera de pantalla — el resultado es alrededor de un 40 % menos de CPU durante la reproducción y una animación notablemente más fluida en vídeos largos.",
+          "Esta versión incluye cuatro nuevos temas de gato: Pixel Tiger, Kitty Wigglez, Glitch Cat y Sleeping Fat Cat. Cada uno ha sido ajustado a mano a las dimensiones exactas del scrubber de YouTube, así que se posan de forma natural sin configuración extra.",
+          "La subida de GIFs personalizados también está ahora integrada. Suelta cualquier archivo .gif en el personalizador y se convierte en tu gato del scrubber. El archivo se guarda localmente en el navegador — no se sube nada a ningún servidor. Puedes alternar entre los gatos integrados y tu GIF personalizado cuando quieras sin perder ninguno.",
+          "Por último, el panel del personalizador ha sido reconstruido. Los deslizadores de altura y desplazamiento superior muestran una vista previa en vivo mientras los arrastras, y hay un nuevo panel de \"Más populares\" que muestra los gatos que más eligen otros usuarios. El lanzamiento completo se está desplegando ahora en la Chrome Web Store."
+        ]
+      },
+      "the-original-2011-nyan-cat": {
+        "title": "El Nyan Cat original de 2011 y de dónde salió el meme",
+        "summary": "Una breve historia del Nyan Cat original — un gato pixelado con cuerpo de Poptart sobre una pista vocaloid japonesa que se convirtió en uno de los vídeos más vistos de YouTube en 2011.",
+        "body": [
+          "El Nyan Cat original se subió a YouTube el 5 de abril de 2011 por el usuario saraj00n. El gato en sí — un gato pixelado con cuerpo de Poptart dejando un rastro de arcoíris — fue dibujado unos días antes por Christopher Torres, que originalmente lo llamó \"Pop Tart Cat\". La banda sonora era una canción Vocaloid titulada \"Nyanyanyanyanyanyanya!\" grabada por el artista japonés daniwellP y cantada por la Vocaloid Hatsune Miku.",
+          "Los dos se combinaron en un único vídeo en bucle de 3 minutos. En cuestión de meses ya tenía más de 50 millones de visitas y un puesto en la lista de los vídeos más vistos de YouTube de todos los tiempos — durante un breve periodo en 2011 fue el tercer vídeo más visto de la plataforma.",
+          "La animación en sí es técnicamente muy simple: un GIF en bucle de 6 fotogramas del gato, estrellas desplazándose al fondo y un rastro de arcoíris estático. Es la combinación — pixel art, una pista Vocaloid absurda y un formato que cicla a la perfección — la que lo convirtió en uno de los memes que definieron principios de la década de 2010.",
+          "Cuando nos pusimos a construir una extensión para la barra de progreso de YouTube, el Nyan Cat original siempre iba a ser el primer gato del catálogo. Sigue siendo el gato por defecto — el que ves la primera vez que instalas la extensión."
+        ]
       }
     }
   }
