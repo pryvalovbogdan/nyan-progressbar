@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 
+import { cn } from '@shared/lib/utils';
+
 import { ReviewCard } from '../ReviewCard';
 import { Stars } from '../Stars';
 import { AVERAGE, DISTRIBUTION, REVIEWS, STORE_URL, TOTAL } from '../consts';
@@ -21,10 +23,7 @@ export function ReviewsSection({ labels }: IReviewsSectionProps) {
           href={STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-press inline-flex text-black items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] shrink-0 min-w-[200px]"
-          style={{
-            background: 'linear-gradient(90deg, #ff0000, #ff7700, #ffff00, #00cc44, #0066ff, #8b00ff)',
-          }}
+          className="gradient-rainbow-h btn-press inline-flex text-black items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-[1.03] hover:shadow-[0_4px_20px_rgba(128,222,234,0.35)] shrink-0 min-w-[200px]"
         >
           <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -79,12 +78,11 @@ export function ReviewsSection({ labels }: IReviewsSectionProps) {
               <div
                 key={`${review.name}-${review.date}`}
                 onClick={openReviews}
-                style={{
-                  opacity: expanded ? 1 : 0,
-                  transform: expanded ? 'translateY(0)' : 'translateY(12px)',
-                  transition: `opacity 500ms ${index * 40}ms ease, transform 500ms ${index * 40}ms ease`,
-                }}
-                className="cursor-pointer"
+                style={{ transitionDelay: `${index * 40}ms` }}
+                className={cn(
+                  'cursor-pointer transition-[opacity,transform] duration-500 ease-out',
+                  expanded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3',
+                )}
               >
                 <ReviewCard review={review} />
               </div>

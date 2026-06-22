@@ -28,27 +28,14 @@ export function ScrubberPreview({ labels, disabled = false }: IScrubberPreviewPr
           className="absolute inset-0 w-full h-full"
         />
 
-        <div
-          className="absolute bottom-0 left-0 right-0 px-3 pb-3 space-y-1 pointer-events-none"
-          style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%)' }}
-        >
+        <div className="gradient-overlay-top absolute bottom-0 left-0 right-0 px-3 pb-3 space-y-1 pointer-events-none">
           <div className="relative h-[3px] w-full bg-zinc-500/60 rounded-full">
             <div
-              className="absolute top-0 left-0 h-full rounded-full"
-              style={{
-                width: `${progress}%`,
-                background: 'linear-gradient(to right, #ff0000, #ff7700, #ffff00, #00ff00, #0000ff, #8b00ff)',
-              }}
+              className="gradient-rainbow-h absolute top-0 left-0 h-full rounded-full"
+              style={{ width: `${progress}%` }}
             />
 
-            <div
-              className="absolute"
-              style={{
-                left: `${progress}%`,
-                top: `${top}px`,
-                transform: 'translateX(-50%)',
-              }}
-            >
+            <div className="absolute -translate-x-1/2" style={{ left: `${progress}%`, top: `${top}px` }}>
               <Image
                 src={imgSrc}
                 alt="cat scrubber"
