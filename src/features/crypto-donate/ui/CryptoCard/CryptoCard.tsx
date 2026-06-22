@@ -3,6 +3,7 @@
 import { useState } from 'react';
 
 import { trackEvent } from '@shared/lib/analytics';
+import { cn } from '@shared/lib/utils';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
 
 import { QR_PATH } from '../consts';
@@ -47,8 +48,10 @@ export function CryptoCard({ title, description, networkLabel, copyLabel, copied
 
         <button
           onClick={handleCopy}
-          className="btn-press w-full flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-semibold text-black hover:brightness-90"
-          style={{ backgroundColor: copied ? '#22c55e' : '#f3ba2f' }}
+          className={cn(
+            'btn-press w-full flex items-center justify-center gap-2 px-4 py-2 rounded-md text-sm font-semibold text-black hover:brightness-90 bg-[#f3ba2f]',
+            copied && 'bg-[#22c55e]',
+          )}
         >
           {copied ? (
             <>

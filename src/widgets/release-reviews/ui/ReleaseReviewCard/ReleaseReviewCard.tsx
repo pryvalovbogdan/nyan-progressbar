@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { Stars } from '@widgets/reviews';
 import { STORE_URL } from '@widgets/reviews/ui/consts';
 
-import { RAINBOW_GRADIENT } from '../consts';
 import type { IReleaseReviewCardProps } from './types';
 
 export function ReleaseReviewCard({ review, version }: IReleaseReviewCardProps) {
@@ -12,12 +11,11 @@ export function ReleaseReviewCard({ review, version }: IReleaseReviewCardProps) 
       <article className="cursor-pointer relative flex h-full flex-col gap-3 rounded-2xl border border-border bg-card p-4 transition-all duration-300 hover:-translate-y-1 hover:border-[#80deea]/40 hover:shadow-[0_8px_24px_rgba(128,222,234,0.18)]">
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-x-0 -top-[1px] h-[2px] rounded-t-2xl mx-[7px]"
-          style={{ background: RAINBOW_GRADIENT }}
+          className="gradient-rainbow-diag pointer-events-none absolute inset-x-0 -top-[1px] h-[2px] rounded-t-2xl mx-[7px]"
         />
 
         <header className="flex items-center gap-3">
-          <div className="relative h-12 w-12 shrink-0 rounded-full p-[2px]" style={{ background: RAINBOW_GRADIENT }}>
+          <div className="gradient-rainbow-diag relative h-12 w-12 shrink-0 rounded-full p-[2px]">
             <div className="h-full w-full overflow-hidden rounded-full bg-card">
               <Image
                 src={review.avatar}

@@ -149,6 +149,26 @@
   .link-accent {
     @apply text-[#80deea] hover:underline;
   }
+
+  .gradient-overlay-top {
+    background: linear-gradient(to top, rgb(0 0 0 / 70%) 0%, transparent 100%);
+  }
+
+  .gradient-rainbow-h {
+    background: linear-gradient(90deg, #f00, #f70, #ff0, #0c4, #06f, #8b00ff);
+  }
+
+  .gradient-rainbow-diag {
+    background: linear-gradient(135deg, #f00, #f70, #ff0, #0c4, #06f, #8b00ff);
+  }
+
+  .gradient-heart {
+    background: linear-gradient(135deg, #ff6b8a, #ff8c42);
+  }
+
+  .gradient-heart-dim {
+    background: linear-gradient(135deg, #ff6b8a99, #ff8c4299);
+  }
 }
 
 @keyframes heart-float {

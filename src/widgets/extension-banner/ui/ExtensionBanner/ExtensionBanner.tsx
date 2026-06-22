@@ -26,8 +26,7 @@ export function ExtensionBanner({ labels }: IExtensionBannerProps) {
 
   return createPortal(
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/55 backdrop-blur-sm"
-      style={{ height: '100dvh' }}
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/55 backdrop-blur-sm h-dvh"
       onClick={() => setDismissed(true)}
     >
       <div

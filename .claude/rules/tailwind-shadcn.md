@@ -1,9 +1,21 @@
 # Tailwind + Shadcn/UI Rules
 
 ## Styling approach
-- Tailwind for all layout and styling — no CSS modules, no inline style objects
-- Exception: dynamic numeric values that can't be expressed as Tailwind classes (e.g. `style={{ height: `${h}px` }}`)
-- Use `cn()` from `@/lib/utils` when conditionally combining classes
+- Tailwind for all layout and styling — no CSS modules
+- Use `cn()` from `@shared/lib/utils` when conditionally combining classes
+
+### No inline `style={{...}}` on DOM elements
+
+Tailwind classes are the only way to style elements. The `style` prop is **disallowed** except in four narrow cases:
+
+1. **Dynamic numeric values driven by JS state or props** that have no compile-time analog — e.g. `style={{ height: `${h}px`, top: `${top}px` }}` when `h` comes from a Zustand store, slider, or computed layout. Use arbitrary Tailwind classes (`h-[40px]`) when the value is static.
+2. **CSS custom properties** fed at runtime to a keyframe animation or to a third-party component's theme contract (e.g. the heart-float animation in `globals.css`, the Sonner toaster). These must be cast `as React.CSSProperties` for type safety.
+3. **Runtime-derived layout transitions** where the value itself is dynamic (`gridTemplateRows: expanded ? '1fr' : '0fr'`, staggered `transitionDelay`). Conditional class toggles belong in `className` via `cn()`; only the genuinely dynamic property stays inline.
+4. **Auto-generated Shadcn primitives** in `src/shared/ui/*.tsx` — not our code to police.
+
+Everything else — gradients, static colors, `display`, conditional brand colors driven by data — must use a Tailwind class. For values that are syntactically too long for an arbitrary class (multi-stop gradients, multi-line `box-shadow`), add a named utility to `@layer components` in `src/shared/theme/globals.css` and reference it by class. For data-driven brand colors, attach a Tailwind class to the data row instead of a hex value.
+
+When in doubt: if you can write the value at the keyboard *without* a JS interpolation, it's static — use a class.
 
 ## Shadcn primitives
 - Always use Shadcn components from `@/components/ui/` for: Button, Card, Input, Textarea, Select, Label, Slider, Badge, Separator, Sonner (toast)

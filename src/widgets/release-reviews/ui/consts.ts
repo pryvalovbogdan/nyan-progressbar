@@ -54,5 +54,3 @@ export const RELEASE_REVIEWS: ReleaseReview[] = [
       'its actually just the best, cute, doesnt pose any issues, and they just added further customisation, its so good',
   },
 ];
-
-export const RAINBOW_GRADIENT = 'linear-gradient(135deg, #ff0000, #ff7700, #ffff00, #00cc44, #0066ff, #8b00ff)';

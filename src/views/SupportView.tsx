@@ -4,6 +4,7 @@ import type { Dictionary } from '@/i18n';
 
 import { CryptoCard } from '@features/crypto-donate';
 import { trackEvent } from '@shared/lib/analytics';
+import { cn } from '@shared/lib/utils';
 import { buttonVariants } from '@shared/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@shared/ui/card';
 import { FeatureCard } from '@shared/ui/feature-card';
@@ -24,7 +25,7 @@ export function SupportView({ dict }: ISupportViewProps) {
       description: s.kofiDesc,
       href: 'https://ko-fi.com/nyancustombar',
       buttonLabel: s.kofiBtn,
-      accentColor: '#ff5e5b',
+      accentClass: 'bg-[#ff5e5b]',
       platform: 'kofi',
     },
     {
@@ -33,7 +34,7 @@ export function SupportView({ dict }: ISupportViewProps) {
       description: s.patreonDesc,
       href: 'https://www.patreon.com/cw/nyancustombar?vanity=nyancustombar',
       buttonLabel: s.patreonBtn,
-      accentColor: '#ffdd00',
+      accentClass: 'bg-[#ffdd00]',
       platform: 'patreon',
     },
     {
@@ -42,7 +43,7 @@ export function SupportView({ dict }: ISupportViewProps) {
       description: s.donatelloDesc,
       href: 'https://donatello.to/nyan-progressbar',
       buttonLabel: s.donatelloBtn,
-      accentColor: '#8a53b6',
+      accentClass: 'bg-[#8a53b6]',
       platform: 'donatello',
     },
   ];
@@ -55,7 +56,7 @@ export function SupportView({ dict }: ISupportViewProps) {
       </section>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-        {tiles.map(({ icon, title, description, href, buttonLabel, accentColor, platform }) => (
+        {tiles.map(({ icon, title, description, href, buttonLabel, accentClass, platform }) => (
           <Card
             key={title}
             className="flex flex-col border-border bg-card hover:border-[#80deea]/50 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(128,222,234,0.12)]"
@@ -70,8 +71,7 @@ export function SupportView({ dict }: ISupportViewProps) {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={buttonVariants({ className: 'w-full text-background font-semibold' })}
-                style={{ backgroundColor: accentColor }}
+                className={buttonVariants({ className: cn('w-full text-background font-semibold', accentClass) })}
                 onClick={() => trackEvent('donate_click', { platform })}
               >
                 {buttonLabel}
