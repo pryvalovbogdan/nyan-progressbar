@@ -12,6 +12,7 @@ import type { IExtensionBannerProps } from './types';
 
 const EXTENSION_ID = process.env.NEXT_PUBLIC_PROD_EXTENSION_ID ?? '';
 const CWS_URL = `https://chromewebstore.google.com/detail/nyan-cat-extension/${EXTENSION_ID}`;
+const APP_STORE_URL = process.env.NEXT_PUBLIC_SAFARI_APP_STORE_URL ?? '';
 
 export function ExtensionBanner({ labels }: IExtensionBannerProps) {
   const detected = useExtensionDetected();
@@ -64,7 +65,7 @@ export function ExtensionBanner({ labels }: IExtensionBannerProps) {
           <X className="w-4 h-4" />
         </Button>
 
-        <div className="pl-3 shrink-0">
+        <div className="pl-3 shrink-0 flex flex-wrap items-center gap-2 flex-col">
           <a
             href={CWS_URL}
             target="_blank"
@@ -79,6 +80,19 @@ export function ExtensionBanner({ labels }: IExtensionBannerProps) {
               <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z" />
             </svg>
             {labels.cta}
+          </a>
+          <a
+            href={APP_STORE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={buttonVariants({
+              variant: 'accent',
+              size: 'sm',
+              className: 'gap-1.5 px-4 py-2 rounded-lg text-xs whitespace-nowrap',
+            })}
+          >
+            <Image src="/safari-icon.png" alt="" width={14} height={14} unoptimized />
+            {labels.safariCta}
           </a>
         </div>
       </div>

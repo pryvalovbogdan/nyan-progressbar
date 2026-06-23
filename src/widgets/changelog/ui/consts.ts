@@ -2,9 +2,32 @@ import type { IVersionEntry } from './types';
 
 export const VERSIONS: IVersionEntry[] = [
   {
+    version: '2.1.0',
+    date: '2026-06-23',
+    latest: true,
+    changes: [
+      { type: 'new', text: 'Safari support — install Kitty Progress Bar on macOS from the App Store' },
+      {
+        type: 'new',
+        text: 'Live preview sync between the website customizer and the installed extension via postMessage',
+      },
+      {
+        type: 'improvement',
+        text: 'Custom GIF upload validation — oversized or invalid files are caught before they reach storage',
+      },
+      { type: 'improvement', text: 'Smaller install footprint after asset compression' },
+      {
+        type: 'improvement',
+        text: 'Smarter scrubber detection — SPA navigation hook and selector health check recover from YouTube player updates',
+      },
+      { type: 'improvement', text: 'Test suite with Vitest and a CI workflow for safer releases' },
+      { type: 'perf', text: 'Debug-gated logging — verbose output stripped from production builds' },
+      { type: 'fix', text: 'Rainbow segment no longer flickers on mid-video chapter markers' },
+    ],
+  },
+  {
     version: '2.0.0',
     date: '2026-06-07',
-    latest: true,
     changes: [
       { type: 'new', text: 'Per-GIF custom styling — each cat remembers its own height and position' },
       { type: 'new', text: 'Default position reset button in the customizer' },

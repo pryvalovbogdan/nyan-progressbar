@@ -72,6 +72,7 @@
       "heading": "Розширення не встановлено",
       "description": "Встанови розширення Nyan Progress Bar для Chrome, щоб застосувати налаштування на YouTube.",
       "cta": "Додати до Chrome — безкоштовно",
+      "safariCta": "Додати в Safari — безкоштовно",
       "dismiss": "Закрити"
     },
     "installTooltip": "Спочатку встановіть розширення",
@@ -187,6 +188,7 @@
     "heading": "Отримати Nyan Progress Bar",
     "description": "Безкоштовне розширення для Chrome. Встановлюється за секунди й одразу працює на YouTube.",
     "cta": "Встановити в Chrome",
+    "safariCta": "Встановити для Safari",
     "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
     "featuresHeading": "Все включено",
     "feature1Title": "Миттєве встановлення",

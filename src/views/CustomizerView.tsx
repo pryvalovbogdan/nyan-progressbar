@@ -28,6 +28,7 @@ export async function CustomizerView({ dict, lang }: ICustomizerViewProps) {
           heading: c.banner.heading,
           description: c.banner.description,
           cta: c.banner.cta,
+          safariCta: c.banner.safariCta,
           dismiss: c.banner.dismiss,
         }}
       />

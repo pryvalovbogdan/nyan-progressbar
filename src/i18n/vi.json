@@ -72,6 +72,7 @@
       "heading": "Chưa cài tiện ích",
       "description": "Cài đặt tiện ích mở rộng Chrome Nyan Progress Bar để áp dụng tùy chỉnh của bạn trên YouTube.",
       "cta": "Thêm vào Chrome — miễn phí",
+      "safariCta": "Thêm vào Safari — miễn phí",
       "dismiss": "Đóng"
     },
     "installTooltip": "Hãy cài tiện ích trước",
@@ -187,6 +188,7 @@
     "heading": "Tải Nyan Progress Bar",
     "description": "Tiện ích Chrome miễn phí. Cài đặt trong vài giây và hoạt động ngay trên YouTube.",
     "cta": "Cài đặt trên Chrome",
+    "safariCta": "Cài đặt cho Safari",
     "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
     "featuresHeading": "Đầy đủ tính năng",
     "feature1Title": "Cài đặt tức thì",
