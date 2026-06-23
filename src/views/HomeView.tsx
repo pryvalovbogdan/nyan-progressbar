@@ -1,5 +1,6 @@
 import type { Dictionary } from '@/i18n';
 import { ReviewsSection, StatsSection } from '@widgets';
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { ScrubberGallery } from '@features/cat-selector';
@@ -20,6 +21,7 @@ interface IHomeViewProps {
 
 export function HomeView({ dict, lang }: IHomeViewProps) {
   const h = dict.home;
+  const APP_STORE_URL = process.env.NEXT_PUBLIC_SAFARI_APP_STORE_URL ?? '';
 
   const features = [
     { icon: '🐱', title: h.feature1Title, desc: h.feature1Desc },
@@ -40,18 +42,33 @@ export function HomeView({ dict, lang }: IHomeViewProps) {
           {h.headingPart1} <span className="text-[#80deea]">{h.headingAccent}</span>
         </h1>
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">{h.description}</p>
-        <a
-          href={`https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={buttonVariants({
-            size: 'lg',
-            variant: 'accent',
-            className: 'text-base px-8',
-          })}
-        >
-          {h.cta}
-        </a>
+        <div className="pl-3 shrink-0 flex flex-wrap items-center gap-2 flex-col">
+          <a
+            href={`https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={buttonVariants({
+              size: 'lg',
+              variant: 'accent',
+              className: 'text-base px-8',
+            })}
+          >
+            {h.cta}
+          </a>
+          <a
+            href={APP_STORE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={buttonVariants({
+              variant: 'accent',
+              size: 'lg',
+              className: 'rounded-lg text-base px-8',
+            })}
+          >
+            <Image src="/safari-icon.png" alt="" width={14} height={14} unoptimized />
+            {dict.customizerPage.banner.safariCta}
+          </a>
+        </div>
       </section>
 
       <section className="max-w-3xl mx-auto space-y-4 text-center">

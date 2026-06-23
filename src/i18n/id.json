@@ -72,6 +72,7 @@
       "heading": "Ekstensi belum dipasang",
       "description": "Instal ekstensi Chrome Nyan Progress Bar untuk menerapkan kustomisasi di YouTube.",
       "cta": "Tambah ke Chrome — gratis",
+      "safariCta": "Tambahkan ke Safari — gratis",
       "dismiss": "Tutup"
     },
     "installTooltip": "Pasang ekstensi terlebih dahulu",
@@ -187,6 +188,7 @@
     "heading": "Dapatkan Nyan Progress Bar",
     "description": "Ekstensi Chrome gratis. Terpasang dalam hitungan detik dan langsung berfungsi di YouTube.",
     "cta": "Pasang di Chrome",
+    "safariCta": "Pasang di Safari",
     "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
     "featuresHeading": "Sudah termasuk semua",
     "feature1Title": "Instalasi instan",

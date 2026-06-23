@@ -72,6 +72,7 @@
       "heading": "Hindi naka-install ang extension",
       "description": "I-install ang Nyan Progress Bar Chrome extension para ilapat ang iyong customization sa YouTube.",
       "cta": "Idagdag sa Chrome — libre",
+      "safariCta": "Idagdag sa Safari — libre",
       "dismiss": "Isara"
     },
     "installTooltip": "I-install muna ang extension",
@@ -187,6 +188,7 @@
     "heading": "Kunin ang Nyan Progress Bar",
     "description": "Libreng Chrome extension. Nag-i-install sa loob ng ilang segundo at gumagana agad sa YouTube.",
     "cta": "I-install sa Chrome",
+    "safariCta": "I-install sa Safari",
     "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
     "featuresHeading": "Kasama na ang lahat",
     "feature1Title": "Instant na pag-install",

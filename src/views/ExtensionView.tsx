@@ -1,5 +1,6 @@
 import type { Dictionary } from '@/i18n';
 import { ChangelogSection } from '@widgets';
+import Image from 'next/image';
 
 import { AD_SLOTS } from '@shared/lib/adsense-slots';
 import { buttonVariants } from '@shared/ui/button';
@@ -36,18 +37,33 @@ export function ExtensionView({ dict, locale }: IExtensionViewProps) {
       <section className="text-center space-y-4 sm:space-y-6">
         <h1 className="text-4xl font-bold">{e.heading}</h1>
         <p className="text-muted-foreground text-lg max-w-lg mx-auto">{e.description}</p>
-        <a
-          href={`https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={buttonVariants({
-            size: 'lg',
-            variant: 'accent',
-            className: 'text-base px-10',
-          })}
-        >
-          {e.cta}
-        </a>
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <a
+            href={`https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={buttonVariants({
+              size: 'lg',
+              variant: 'accent',
+              className: 'text-base px-8',
+            })}
+          >
+            {e.cta}
+          </a>
+          <a
+            href={process.env.NEXT_PUBLIC_SAFARI_APP_STORE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={buttonVariants({
+              size: 'lg',
+              variant: 'accent',
+              className: 'text-base px-8 gap-2',
+            })}
+          >
+            <Image src="/safari-icon.png" alt="" width={20} height={20} unoptimized />
+            {e.safariCta}
+          </a>
+        </div>
         <p className="text-xs text-muted-foreground">{e.specs}</p>
       </section>
 

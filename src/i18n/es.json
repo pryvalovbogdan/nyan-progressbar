@@ -72,6 +72,7 @@
       "heading": "Extensión no instalada",
       "description": "Instala la extensión Nyan Progress Bar para Chrome para aplicar tu personalización en YouTube.",
       "cta": "Añadir a Chrome — es gratis",
+      "safariCta": "Añadir a Safari — es gratis",
       "dismiss": "Cerrar"
     },
     "installTooltip": "Instala la extensión primero",
@@ -187,6 +188,7 @@
     "heading": "Obtén Nyan Progress Bar",
     "description": "Extensión de Chrome gratuita. Se instala en segundos y funciona de inmediato en YouTube.",
     "cta": "Instalar en Chrome",
+    "safariCta": "Instalar en Safari",
     "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
     "featuresHeading": "Todo incluido",
     "feature1Title": "Instalación instantánea",
