@@ -1,19 +1,21 @@
+export interface FileAttachment {
+  name: string;
+  data: string;
+  mimeType: string;
+}
+
 export interface ContactPayload {
   name: string;
   email: string;
   category: string;
   message: string;
-  attachment?: {
-    name: string;
-    data: string;
-    mimeType: string;
-  };
+  attachment?: FileAttachment;
+  attachments?: FileAttachment[];
   uninstall?: {
     rating: number;
     reasons: string[];
     whatWentWrong: string;
     howToImprove: string;
-    anonymous: boolean;
   };
 }
 

@@ -28,9 +28,9 @@ function renderUninstall(payload: ContactPayload) {
 
   if (!uninstall) return null;
 
-  const { rating, reasons, whatWentWrong, howToImprove, anonymous } = uninstall;
+  const { rating, reasons, whatWentWrong, howToImprove } = uninstall;
   const reasonsList = reasons.length ? reasons : ['(none selected)'];
-  const submitter = anonymous ? 'Anonymous' : email || 'Anonymous';
+  const submitter = email || '(no email)';
 
   const subject = `[uninstall] Feedback (rating: ${rating}/5)`;
 
@@ -63,8 +63,10 @@ function renderUninstall(payload: ContactPayload) {
 }
 
 export async function sendContactEmail(payload: ContactPayload) {
-  const { name, email, category, message, attachment } = payload;
+  const { name, email, category, message, attachment, attachments } = payload;
   const uninstallEmail = renderUninstall(payload);
+
+  const files = [...(attachment ? [attachment] : []), ...(attachments ?? [])];
 
   const subject = uninstallEmail ? uninstallEmail.subject : `[${category}] New message from ${name}`;
   const text = uninstallEmail
@@ -81,14 +83,10 @@ export async function sendContactEmail(payload: ContactPayload) {
     subject,
     text,
     html,
-    attachments: attachment
-      ? [
-          {
-            filename: attachment.name,
-            content: Buffer.from(attachment.data, 'base64'),
-            contentType: attachment.mimeType,
-          },
-        ]
-      : [],
+    attachments: files.map(file => ({
+      filename: file.name,
+      content: Buffer.from(file.data, 'base64'),
+      contentType: file.mimeType,
+    })),
   });
 }

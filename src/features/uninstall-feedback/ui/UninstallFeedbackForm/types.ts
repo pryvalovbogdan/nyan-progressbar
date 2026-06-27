@@ -7,10 +7,6 @@ export type ReasonKey =
   | 'other';
 
 export interface FormTranslations {
-  modeAnonymous: string;
-  modeAnonymousDesc: string;
-  modeEmail: string;
-  modeEmailDesc: string;
   email: string;
   emailPlaceholder: string;
   ratingLabel: string;
@@ -19,23 +15,43 @@ export interface FormTranslations {
   reasons: Record<ReasonKey, string>;
   whatWentWrong: string;
   whatWentWrongPlaceholder: string;
+  screenshotLabel: string;
+  screenshotOptional: string;
+  screenshotRequired: string;
+  screenshotErrorType: string;
+  screenshotErrorSize: string;
+  screenshotErrorMax: string;
+  screenshotRemove: string;
+  screenshotDrop: string;
+  screenshotAttach: string;
+  screenshotHint: string;
   howToImprove: string;
   howToImprovePlaceholder: string;
   submit: string;
   submitting: string;
   success: string;
   errorEmpty: string;
+  errorEmail: string;
+  errorScreenshot: string;
   errorGeneric: string;
   errorRateLimit: string;
 }
 
+export interface Attachment {
+  name: string;
+  data: string;
+  mimeType: string;
+  size: number;
+  preview: string;
+}
+
 export interface FormState {
-  anonymous: boolean;
   email: string;
   rating: number;
   reasons: ReasonKey[];
   whatWentWrong: string;
   howToImprove: string;
+  attachments: Attachment[];
 }
 
 export interface IUninstallFeedbackFormProps {

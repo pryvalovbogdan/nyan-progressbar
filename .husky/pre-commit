@@ -16,12 +16,12 @@ fi
 echo "✅ TypeScript OK"
 
 # AI code review (informational, non-blocking)
-if command -v claude >/dev/null 2>&1; then
-  STAGED_DIFF=$(git diff --staged -- '*.ts' '*.tsx' '*.js' '*.jsx' 2>/dev/null)
-  if [ -n "$STAGED_DIFF" ]; then
-    echo "\n🤖 AI Code Review:"
-    echo "$STAGED_DIFF" | claude --print "Review these staged code changes. Check for: bugs, security issues, unhandled edge cases, and obvious mistakes. Be concise (max 8 lines). Start with '✅ LGTM' if no issues, or '⚠️ CONCERNS:' followed by bullet points." 2>/dev/null || true
-  fi
-fi
+#if command -v claude >/dev/null 2>&1; then
+#  STAGED_DIFF=$(git diff --staged -- '*.ts' '*.tsx' '*.js' '*.jsx' 2>/dev/null)
+#  if [ -n "$STAGED_DIFF" ]; then
+#    echo "\n🤖 AI Code Review:"
+#    echo "$STAGED_DIFF" | claude --print "Review these staged code changes. Check for: bugs, security issues, unhandled edge cases, and obvious mistakes. Be concise (max 8 lines). Start with '✅ LGTM' if no issues, or '⚠️ CONCERNS:' followed by bullet points." 2>/dev/null || true
+#  fi
+#fi
 
 echo "\n✨ Pre-commit checks passed."

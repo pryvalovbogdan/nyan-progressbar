@@ -1,43 +1,109 @@
 'use client';
 
-import { Check, Mail, UserRound } from 'lucide-react';
-import { useState } from 'react';
+import { Check, ImagePlus, X } from 'lucide-react';
+import Image from 'next/image';
+import { useRef, useState } from 'react';
 import { toast } from 'sonner';
 
 import { Button } from '@shared/ui/button';
 import { Input } from '@shared/ui/input';
 import { Label } from '@shared/ui/label';
-import { SelectableCard } from '@shared/ui/selectable-card';
 import { StarRating } from '@shared/ui/star-rating';
 import { Textarea } from '@shared/ui/textarea';
 
-import { EMPTY, REASON_KEYS } from '../consts';
-import type { FormState, IUninstallFeedbackFormProps, ReasonKey } from './types';
+import { EMPTY, MAX_FILES, MAX_SIZE, REASON_KEYS } from '../consts';
+import type { Attachment, FormState, IUninstallFeedbackFormProps, ReasonKey } from './types';
+
+function formatBytes(bytes: number): string {
+  return bytes < 1024 * 1024 ? `${(bytes / 1024).toFixed(0)} KB` : `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+}
 
 export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
   const [form, setForm] = useState<FormState>(EMPTY);
   const [loading, setLoading] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const modes = [
-    {
-      anonymous: true,
-      icon: UserRound,
-      label: t.modeAnonymous,
-      description: t.modeAnonymousDesc,
-    },
-    {
-      anonymous: false,
-      icon: Mail,
-      label: t.modeEmail,
-      description: t.modeEmailDesc,
-    },
-  ];
+  const screenshotRequired = form.whatWentWrong.trim().length > 0;
 
   function toggleReason(key: ReasonKey) {
     setForm(prev => ({
       ...prev,
       reasons: prev.reasons.includes(key) ? prev.reasons.filter(r => r !== key) : [...prev.reasons, key],
     }));
+  }
+
+  function readFile(file: File) {
+    const reader = new FileReader();
+
+    reader.onload = e => {
+      const result = e.target?.result as string;
+      const [header, data] = result.split(',');
+      const mimeType = header.replace('data:', '').replace(';base64', '');
+
+      setForm(prev => {
+        if (prev.attachments.length >= MAX_FILES) return prev;
+
+        return {
+          ...prev,
+          attachments: [
+            ...prev.attachments,
+            { name: file.name, data, mimeType, size: file.size, preview: result } satisfies Attachment,
+          ],
+        };
+      });
+    };
+
+    reader.readAsDataURL(file);
+  }
+
+  function addFiles(files: File[], existingCount: number) {
+    let remaining = MAX_FILES - existingCount;
+
+    if (remaining <= 0) {
+      toast.error(t.screenshotErrorMax);
+
+      return;
+    }
+
+    for (const file of files) {
+      if (!file.type.startsWith('image/')) {
+        toast.error(t.screenshotErrorType);
+
+        continue;
+      }
+
+      if (file.size > MAX_SIZE) {
+        toast.error(t.screenshotErrorSize);
+
+        continue;
+      }
+
+      if (remaining <= 0) {
+        toast.error(t.screenshotErrorMax);
+
+        break;
+      }
+
+      readFile(file);
+      remaining -= 1;
+    }
+  }
+
+  function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
+    addFiles(Array.from(e.target.files ?? []), form.attachments.length);
+
+    e.target.value = '';
+  }
+
+  function handleDrop(e: React.DragEvent) {
+    e.preventDefault();
+    setIsDragging(false);
+    addFiles(Array.from(e.dataTransfer.files), form.attachments.length);
+  }
+
+  function removeAttachment(index: number) {
+    setForm(prev => ({ ...prev, attachments: prev.attachments.filter((_, i) => i !== index) }));
   }
 
   async function handleSubmit(e: { preventDefault(): void }) {
@@ -49,8 +115,14 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
       return;
     }
 
-    if (!form.anonymous && !form.email.includes('@')) {
-      toast.error(t.errorEmpty);
+    if (!form.email.includes('@')) {
+      toast.error(t.errorEmail);
+
+      return;
+    }
+
+    if (screenshotRequired && form.attachments.length === 0) {
+      toast.error(t.errorScreenshot);
 
       return;
     }
@@ -60,7 +132,7 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
     try {
       const body = {
         name: '',
-        email: form.anonymous ? '' : form.email,
+        email: form.email,
         category: 'uninstall',
         message: form.whatWentWrong || form.howToImprove || '(no message)',
         uninstall: {
@@ -68,8 +140,10 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
           reasons: form.reasons.map(key => t.reasons[key]),
           whatWentWrong: form.whatWentWrong,
           howToImprove: form.howToImprove,
-          anonymous: form.anonymous,
         },
+        ...(form.attachments.length > 0 && {
+          attachments: form.attachments.map(a => ({ name: a.name, data: a.data, mimeType: a.mimeType })),
+        }),
       };
 
       const res = await fetch('/api/contact', {
@@ -97,38 +171,17 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {modes.map(({ anonymous, icon: Icon, label, description }) => (
-          <SelectableCard
-            key={String(anonymous)}
-            selected={form.anonymous === anonymous}
-            selectedClassName="border-[#80deea]/50 shadow-[0_0_0_1px_rgba(128,222,234,0.25),0_4px_24px_rgba(128,222,234,0.12)]"
-            onClick={() => setForm(prev => ({ ...prev, anonymous, email: anonymous ? '' : prev.email }))}
-            className="flex flex-col gap-3"
-          >
-            <span className="w-10 h-10 rounded-lg flex items-center justify-center bg-[#80deea]/10">
-              <Icon className="w-5 h-5 text-[#80deea]" />
-            </span>
-            <span className="space-y-1 pr-4">
-              <span className="block text-sm font-semibold text-foreground leading-tight">{label}</span>
-              <span className="block text-xs text-muted-foreground leading-relaxed">{description}</span>
-            </span>
-          </SelectableCard>
-        ))}
+      <div className="space-y-1.5">
+        <Label htmlFor="email">{t.email}</Label>
+        <Input
+          id="email"
+          type="email"
+          required
+          value={form.email}
+          onChange={e => setForm(prev => ({ ...prev, email: e.target.value }))}
+          placeholder={t.emailPlaceholder}
+        />
       </div>
-
-      {!form.anonymous && (
-        <div className="space-y-1.5">
-          <Label htmlFor="email">{t.email}</Label>
-          <Input
-            id="email"
-            type="email"
-            value={form.email}
-            onChange={e => setForm(prev => ({ ...prev, email: e.target.value }))}
-            placeholder={t.emailPlaceholder}
-          />
-        </div>
-      )}
 
       <div className="space-y-2">
         <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">{t.ratingLabel}</p>
@@ -180,6 +233,90 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
           onChange={e => setForm(prev => ({ ...prev, whatWentWrong: e.target.value }))}
           placeholder={t.whatWentWrongPlaceholder}
           rows={4}
+        />
+      </div>
+
+      <div className="space-y-1.5">
+        <Label>
+          {t.screenshotLabel}{' '}
+          <span className="text-muted-foreground font-normal">
+            {form.attachments.length > 0
+              ? `${form.attachments.length}/${MAX_FILES}`
+              : screenshotRequired
+                ? t.screenshotRequired
+                : t.screenshotOptional}
+          </span>
+        </Label>
+
+        {form.attachments.length > 0 && (
+          <ul className="space-y-2">
+            {form.attachments.map((attachment, index) => (
+              <li key={`${attachment.name}-${index}`} className="flex items-center gap-3 card p-3">
+                <div className="relative w-16 h-16 rounded-lg overflow-hidden shrink-0 bg-muted">
+                  <Image src={attachment.preview} alt={attachment.name} fill className="object-cover" unoptimized />
+                </div>
+                <div className="flex-1 min-w-0 space-y-0.5">
+                  <p className="text-sm font-medium text-foreground truncate">{attachment.name}</p>
+                  <p className="text-xs text-muted-foreground">{formatBytes(attachment.size)}</p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => removeAttachment(index)}
+                  className="shrink-0 w-7 h-7 rounded-md flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
+                  aria-label={t.screenshotRemove}
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {form.attachments.length < MAX_FILES && (
+          <button
+            type="button"
+            onClick={() => fileInputRef.current?.click()}
+            onDragEnter={e => {
+              e.preventDefault();
+              setIsDragging(true);
+            }}
+            onDragOver={e => {
+              e.preventDefault();
+              setIsDragging(true);
+            }}
+            onDragLeave={() => setIsDragging(false)}
+            onDrop={handleDrop}
+            className={`w-full rounded-xl border-2 border-dashed p-6 flex flex-col items-center gap-2.5 transition-all duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#80deea]/50 ${
+              isDragging
+                ? 'border-[#80deea] bg-[#80deea]/5'
+                : 'border-border hover:border-[#80deea]/40 hover:bg-[#80deea]/5'
+            }`}
+          >
+            <span
+              className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${
+                isDragging ? 'bg-[#80deea]/15' : 'bg-muted'
+              }`}
+            >
+              <ImagePlus
+                className={`w-5 h-5 transition-colors ${isDragging ? 'text-[#80deea]' : 'text-muted-foreground'}`}
+              />
+            </span>
+            <span className="space-y-1 text-center">
+              <span className="block text-sm font-medium text-foreground">
+                {isDragging ? t.screenshotDrop : t.screenshotAttach}
+              </span>
+              <span className="block text-xs text-muted-foreground">{t.screenshotHint}</span>
+            </span>
+          </button>
+        )}
+
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="image/*"
+          multiple
+          className="hidden"
+          onChange={handleInputChange}
         />
       </div>
 
