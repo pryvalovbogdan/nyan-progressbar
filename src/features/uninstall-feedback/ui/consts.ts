@@ -10,10 +10,13 @@ export const REASON_KEYS: ReasonKey[] = [
 ];
 
 export const EMPTY: FormState = {
-  anonymous: true,
   email: '',
   rating: 0,
   reasons: [],
   whatWentWrong: '',
   howToImprove: '',
+  attachments: [],
 };
+
+export const MAX_SIZE = 5 * 1024 * 1024;
+export const MAX_FILES = 3;
