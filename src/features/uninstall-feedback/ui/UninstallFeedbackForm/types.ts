@@ -15,9 +15,9 @@ export interface FormTranslations {
   reasons: Record<ReasonKey, string>;
   whatWentWrong: string;
   whatWentWrongPlaceholder: string;
+  requiredHint: string;
   screenshotLabel: string;
   screenshotOptional: string;
-  screenshotRequired: string;
   screenshotErrorType: string;
   screenshotErrorSize: string;
   screenshotErrorMax: string;
@@ -32,6 +32,7 @@ export interface FormTranslations {
   success: string;
   errorEmpty: string;
   errorEmail: string;
+  errorWhatWentWrong: string;
   errorScreenshot: string;
   errorGeneric: string;
   errorRateLimit: string;

@@ -284,9 +284,9 @@
         },
         "whatWentWrong": "What went wrong?",
         "whatWentWrongPlaceholder": "Tell us what didn't work for you...",
+        "requiredHint": "(required)",
         "screenshotLabel": "Screenshot",
         "screenshotOptional": "(optional)",
-        "screenshotRequired": "(required when you describe an issue)",
         "screenshotErrorType": "Only image files are supported.",
         "screenshotErrorSize": "File is too large. Max size is 5 MB.",
         "screenshotErrorMax": "You can attach up to 3 screenshots.",
@@ -301,6 +301,7 @@
         "success": "Thanks for the feedback — it really helps.",
         "errorEmpty": "Please pick a rating and at least one reason.",
         "errorEmail": "Please enter a valid email address.",
+        "errorWhatWentWrong": "Please describe what went wrong.",
         "errorScreenshot": "Please attach a screenshot of what went wrong.",
         "errorGeneric": "Something went wrong. Please try again.",
         "errorRateLimit": "You've already sent feedback today. Please try again tomorrow."

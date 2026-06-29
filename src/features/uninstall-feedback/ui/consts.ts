@@ -9,6 +9,9 @@ export const REASON_KEYS: ReasonKey[] = [
   'other',
 ];
 
+// Reasons that require the user to describe the issue and attach a screenshot.
+export const DETAIL_REASONS: ReasonKey[] = ['tooBuggy', 'performance'];
+
 export const EMPTY: FormState = {
   email: '',
   rating: 0,

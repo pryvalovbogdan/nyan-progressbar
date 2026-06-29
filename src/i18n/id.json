@@ -275,9 +275,9 @@
         },
         "whatWentWrong": "Apa yang salah?",
         "whatWentWrongPlaceholder": "Ceritakan apa yang tidak berhasil untukmu...",
+        "requiredHint": "(wajib)",
         "screenshotLabel": "Tangkapan layar",
         "screenshotOptional": "(opsional)",
-        "screenshotRequired": "(wajib jika kamu menjelaskan masalah)",
         "screenshotErrorType": "Hanya file gambar yang didukung.",
         "screenshotErrorSize": "File terlalu besar. Ukuran maksimum 5 MB.",
         "screenshotErrorMax": "Kamu dapat melampirkan hingga 3 tangkapan layar.",
@@ -292,6 +292,7 @@
         "success": "Terima kasih atas masukannya — ini sangat membantu.",
         "errorEmpty": "Mohon pilih penilaian dan setidaknya satu alasan.",
         "errorEmail": "Masukkan alamat email yang valid.",
+        "errorWhatWentWrong": "Jelaskan apa yang tidak berfungsi.",
         "errorScreenshot": "Lampirkan tangkapan layar dari masalahnya.",
         "errorGeneric": "Terjadi kesalahan. Silakan coba lagi.",
         "errorRateLimit": "Kamu sudah mengirim masukan hari ini. Coba lagi besok."
