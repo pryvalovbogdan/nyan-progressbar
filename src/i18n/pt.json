@@ -275,9 +275,9 @@
         },
         "whatWentWrong": "O que deu errado?",
         "whatWentWrongPlaceholder": "Conte-nos o que não funcionou para você...",
+        "requiredHint": "(obrigatório)",
         "screenshotLabel": "Captura de tela",
         "screenshotOptional": "(opcional)",
-        "screenshotRequired": "(obrigatório quando você descreve um problema)",
         "screenshotErrorType": "Apenas arquivos de imagem são suportados.",
         "screenshotErrorSize": "Arquivo muito grande. Tamanho máximo: 5 MB.",
         "screenshotErrorMax": "Você pode anexar até 3 capturas de tela.",
@@ -292,6 +292,7 @@
         "success": "Obrigado pelo feedback — isso realmente ajuda.",
         "errorEmpty": "Por favor, escolha uma avaliação e pelo menos um motivo.",
         "errorEmail": "Insira um endereço de e-mail válido.",
+        "errorWhatWentWrong": "Descreva o que deu errado.",
         "errorScreenshot": "Anexe uma captura de tela do que deu errado.",
         "errorGeneric": "Algo deu errado. Por favor, tente novamente.",
         "errorRateLimit": "Você já enviou feedback hoje. Tente novamente amanhã."

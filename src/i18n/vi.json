@@ -275,9 +275,9 @@
         },
         "whatWentWrong": "Điều gì đã không ổn?",
         "whatWentWrongPlaceholder": "Hãy cho chúng tôi biết điều gì không hoạt động...",
+        "requiredHint": "(bắt buộc)",
         "screenshotLabel": "Ảnh chụp màn hình",
         "screenshotOptional": "(tùy chọn)",
-        "screenshotRequired": "(bắt buộc khi bạn mô tả sự cố)",
         "screenshotErrorType": "Chỉ hỗ trợ tệp hình ảnh.",
         "screenshotErrorSize": "Tệp quá lớn. Kích thước tối đa là 5 MB.",
         "screenshotErrorMax": "Bạn có thể đính kèm tối đa 3 ảnh chụp màn hình.",
@@ -292,6 +292,7 @@
         "success": "Cảm ơn bạn đã phản hồi — nó thực sự giúp ích.",
         "errorEmpty": "Vui lòng chọn đánh giá và ít nhất một lý do.",
         "errorEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+        "errorWhatWentWrong": "Vui lòng mô tả sự cố đã xảy ra.",
         "errorScreenshot": "Vui lòng đính kèm ảnh chụp màn hình về sự cố.",
         "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
         "errorRateLimit": "Hôm nay bạn đã gửi phản hồi rồi. Vui lòng thử lại vào ngày mai."

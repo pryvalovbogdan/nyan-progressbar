@@ -11,7 +11,7 @@ import { Label } from '@shared/ui/label';
 import { StarRating } from '@shared/ui/star-rating';
 import { Textarea } from '@shared/ui/textarea';
 
-import { EMPTY, MAX_FILES, MAX_SIZE, REASON_KEYS } from '../consts';
+import { DETAIL_REASONS, EMPTY, MAX_FILES, MAX_SIZE, REASON_KEYS } from '../consts';
 import type { Attachment, FormState, IUninstallFeedbackFormProps, ReasonKey } from './types';
 
 function formatBytes(bytes: number): string {
@@ -24,7 +24,8 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
   const [isDragging, setIsDragging] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const screenshotRequired = form.whatWentWrong.trim().length > 0;
+  const detailsRequired = DETAIL_REASONS.some(key => form.reasons.includes(key));
+  const screenshotRequired = detailsRequired || form.whatWentWrong.trim().length > 0;
 
   function toggleReason(key: ReasonKey) {
     setForm(prev => ({
@@ -117,6 +118,12 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
 
     if (!form.email.includes('@')) {
       toast.error(t.errorEmail);
+
+      return;
+    }
+
+    if (detailsRequired && form.whatWentWrong.trim().length === 0) {
+      toast.error(t.errorWhatWentWrong);
 
       return;
     }
@@ -226,7 +233,10 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
       </div>
 
       <div className="space-y-1.5">
-        <Label htmlFor="whatWentWrong">{t.whatWentWrong}</Label>
+        <Label htmlFor="whatWentWrong">
+          {t.whatWentWrong}
+          {detailsRequired && <span className="text-muted-foreground font-normal"> {t.requiredHint}</span>}
+        </Label>
         <Textarea
           id="whatWentWrong"
           value={form.whatWentWrong}
@@ -243,7 +253,7 @@ export function UninstallFeedbackForm({ t }: IUninstallFeedbackFormProps) {
             {form.attachments.length > 0
               ? `${form.attachments.length}/${MAX_FILES}`
               : screenshotRequired
-                ? t.screenshotRequired
+                ? t.requiredHint
                 : t.screenshotOptional}
           </span>
         </Label>

@@ -275,9 +275,9 @@
         },
         "whatWentWrong": "Ano ang naging mali?",
         "whatWentWrongPlaceholder": "Sabihin sa amin kung ano ang hindi gumana para sa iyo...",
+        "requiredHint": "(kailangan)",
         "screenshotLabel": "Screenshot",
         "screenshotOptional": "(opsyonal)",
-        "screenshotRequired": "(kailangan kapag may inilarawang isyu)",
         "screenshotErrorType": "Mga image file lamang ang sinusuportahan.",
         "screenshotErrorSize": "Masyadong malaki ang file. Maximum na laki ay 5 MB.",
         "screenshotErrorMax": "Hanggang 3 screenshot lang ang puwedeng ilakip.",
@@ -292,6 +292,7 @@
         "success": "Salamat sa feedback — talagang nakakatulong ito.",
         "errorEmpty": "Pumili ng rating at hindi bababa sa isang dahilan.",
         "errorEmail": "Maglagay ng wastong email address.",
+        "errorWhatWentWrong": "Pakilarawan kung ano ang naging problema.",
         "errorScreenshot": "Maglakip ng screenshot ng naging problema.",
         "errorGeneric": "May nangyaring mali. Subukan ulit.",
         "errorRateLimit": "Nagpadala ka na ng feedback ngayong araw. Subukan ulit bukas."

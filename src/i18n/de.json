@@ -275,9 +275,9 @@
         },
         "whatWentWrong": "Was lief schief?",
         "whatWentWrongPlaceholder": "Sag uns, was bei dir nicht funktioniert hat...",
+        "requiredHint": "(erforderlich)",
         "screenshotLabel": "Screenshot",
         "screenshotOptional": "(optional)",
-        "screenshotRequired": "(erforderlich, wenn du ein Problem beschreibst)",
         "screenshotErrorType": "Es werden nur Bilddateien unterstützt.",
         "screenshotErrorSize": "Die Datei ist zu groß. Maximale Größe: 5 MB.",
         "screenshotErrorMax": "Du kannst bis zu 3 Screenshots anhängen.",
@@ -292,6 +292,7 @@
         "success": "Danke für dein Feedback — das hilft uns sehr.",
         "errorEmpty": "Bitte wähle eine Bewertung und mindestens einen Grund.",
         "errorEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+        "errorWhatWentWrong": "Bitte beschreibe, was schiefgelaufen ist.",
         "errorScreenshot": "Bitte füge einen Screenshot des Problems hinzu.",
         "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
         "errorRateLimit": "Du hast heute bereits Feedback gesendet. Bitte versuche es morgen erneut."

@@ -275,9 +275,9 @@
         },
         "whatWentWrong": "Co poszło nie tak?",
         "whatWentWrongPlaceholder": "Powiedz nam, co u Ciebie nie zadziałało...",
+        "requiredHint": "(wymagane)",
         "screenshotLabel": "Zrzut ekranu",
         "screenshotOptional": "(opcjonalnie)",
-        "screenshotRequired": "(wymagane, gdy opisujesz problem)",
         "screenshotErrorType": "Obsługiwane są tylko pliki graficzne.",
         "screenshotErrorSize": "Plik jest za duży. Maksymalny rozmiar to 5 MB.",
         "screenshotErrorMax": "Możesz dołączyć maksymalnie 3 zrzuty ekranu.",
@@ -292,6 +292,7 @@
         "success": "Dziękujemy za opinię — to naprawdę pomaga.",
         "errorEmpty": "Wybierz ocenę i co najmniej jeden powód.",
         "errorEmail": "Podaj prawidłowy adres e-mail.",
+        "errorWhatWentWrong": "Opisz, co poszło nie tak.",
         "errorScreenshot": "Dołącz zrzut ekranu z opisem problemu.",
         "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie.",
         "errorRateLimit": "Już wysłałeś dziś opinię. Spróbuj jutro."

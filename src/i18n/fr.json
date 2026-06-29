@@ -275,9 +275,9 @@
         },
         "whatWentWrong": "Qu'est-ce qui n'a pas marché ?",
         "whatWentWrongPlaceholder": "Dis-nous ce qui n'a pas fonctionné pour toi...",
+        "requiredHint": "(obligatoire)",
         "screenshotLabel": "Capture d'écran",
         "screenshotOptional": "(facultatif)",
-        "screenshotRequired": "(obligatoire si vous décrivez un problème)",
         "screenshotErrorType": "Seuls les fichiers image sont pris en charge.",
         "screenshotErrorSize": "Fichier trop volumineux. Taille maximale : 5 Mo.",
         "screenshotErrorMax": "Vous pouvez joindre jusqu’à 3 captures d’écran.",
@@ -292,6 +292,7 @@
         "success": "Merci pour ton retour — ça nous aide vraiment.",
         "errorEmpty": "Choisis une note et au moins une raison.",
         "errorEmail": "Veuillez saisir une adresse e-mail valide.",
+        "errorWhatWentWrong": "Veuillez décrire ce qui n’a pas fonctionné.",
         "errorScreenshot": "Veuillez joindre une capture d’écran du problème.",
         "errorGeneric": "Une erreur est survenue. Réessaie.",
         "errorRateLimit": "Tu as déjà envoyé un retour aujourd'hui. Réessaie demain."
