@@ -1,5 +1,10 @@
 # CLAUDE.md — Nyan Progress Bar Website
 
+## Design Context
+- **Register:** brand (marketing + support site — design sells the extension). **Platform:** web.
+- Strategic context lives in [`PRODUCT.md`](../PRODUCT.md); visual system in `DESIGN.md`. Read them before design work.
+- Core claim every page reinforces: **cats replace the YouTube scrubber**. Personality: playful, cute, joyful — but polished, never sketchy-freeware or cold/sterile. Primary CTA "Add to Chrome"; fallback is the on-site live customizer.
+
 ## Stack
 - **Next.js 16** (App Router, `src/` layout)
 - **TypeScript** (strict)
@@ -104,3 +109,62 @@ See `.claude/agents/api-route-creator.md`
 - `.claude/rules/state-management.md` — Zustand patterns
 - `.claude/rules/i18n.md` — i18n rules: all visible text must come from translations
 - `.claude/rules/shared-ui.md` — reuse-first policy for `shared/ui` primitives + when to promote
+
+## Installed plugins
+
+Two marketplace plugins are installed. Their skills are invoked via the Skill tool (or `/name`). Prefer these workflows over ad-hoc improvisation.
+
+### superpowers (`claude-plugins-official`)
+
+Structured engineering workflows. Apply them in this order for non-trivial work:
+
+| Phase | Skill | When |
+|---|---|---|
+| Discover | `brainstorming` | Before any new feature/component/behavior change — explore intent before code. Pairs with the project's `/interview`. |
+| Plan | `writing-plans` | Once requirements are clear and the task is multi-step. |
+| Execute | `executing-plans`, `subagent-driven-development`, `dispatching-parallel-agents` | Working through a written plan; use parallel agents only for genuinely independent tasks. |
+| Build | `test-driven-development` | Writing any feature or bugfix — tests before implementation. |
+| Debug | `systematic-debugging` | Any bug, test failure, or unexpected behavior — before proposing a fix. |
+| Isolate | `using-git-worktrees` | Feature work that should not touch the current workspace. |
+| Review | `requesting-code-review`, `receiving-code-review` | Before merging; verify feedback with rigor, don't rubber-stamp. |
+| Ship | `verification-before-completion`, `finishing-a-development-branch` | Before claiming done — run the checks and show output; then decide merge/PR/cleanup. |
+
+**Rules:**
+- Do not claim work is "done", "fixed", or "passing" without `verification-before-completion` — evidence (command output) before assertions.
+- `brainstorming` and `writing-plans` come *before* touching code on anything non-trivial; this reinforces, not replaces, the project's `/interview` habit.
+- Use `test-driven-development` and `systematic-debugging` as the default path, not a fallback.
+
+### claude-mem (`thedotmack`)
+
+Persistent cross-session memory. It captures observations automatically and injects relevant memory into context; you don't manage the store by hand.
+
+| Skill | When |
+|---|---|
+| `mem-search` | Start of a task — check "did we solve this before?" / "how did we do X last time?" before re-deriving. |
+| `learn-codebase` | Priming an unfamiliar area; reads source in full. |
+| `smart-explore` | Structural/AST search instead of reading whole files. |
+| `make-plan` → `do` | claude-mem's own plan-then-execute pair (analogous to superpowers' plan/execute). Pick one plan workflow per task, don't mix. |
+
+**Rules:**
+- Run `mem-search` before large tasks to reuse prior decisions.
+- claude-mem is separate from this repo's file-based memory (`.claude/.../memory/`). Keep durable, project-specific facts in the file-based memory + `MEMORY.md` index per the memory instructions; treat claude-mem as automatic session recall, not a substitute.
+- Don't invoke `babysit`, `version-bump`, `cloud-sync`, or the report skills (`timeline-report`, `weekly-digests`, etc.) unless the user explicitly asks.
+
+### Choosing a plan workflow
+
+Three plan/execute paths now exist: the project's `/interview` + `/scaffold`, superpowers' `writing-plans` + `executing-plans`, and claude-mem's `make-plan` + `do`. Default to the project commands for FSD component/page work; reach for superpowers for broader multi-step engineering; use claude-mem's pair only when the user names it. Never run two plan workflows for the same task.
+
+## Skills are organized into bucket folders under `skills/`:
+
+- `engineering/` — daily code work
+- `productivity/` — daily non-code workflow tools
+- `misc/` — kept around but rarely used
+- `personal/` — tied to my own setup, not promoted
+- `in-progress/` — drafts not yet ready to ship
+- `deprecated/` — no longer used
+
+Every skill in `engineering/`, `productivity/`, or `misc/` must have a reference in the top-level `README.md` and an entry in `.claude-plugin/plugin.json`. Skills in `personal/`, `in-progress/`, and `deprecated/` must not appear in either.
+
+Each skill entry in the top-level `README.md` must link the skill name to its `SKILL.md`.
+
+Each bucket folder has a `README.md` that lists every skill in the bucket with a one-line description, with the skill name linked to its `SKILL.md`. Bucket `README.md`s and the top-level `README.md` group entries into **User-invoked** and **Model-invoked**.

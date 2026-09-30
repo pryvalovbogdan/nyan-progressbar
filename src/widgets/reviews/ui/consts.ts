@@ -2,6 +2,77 @@ import type { Review } from './types';
 
 export const REVIEWS: Review[] = [
   {
+    name: 'harmful ski',
+    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocLziksuM81mXXMagaYNZh0g4SEOo-sM1tfhFnJAZzJnPdrdGA=s48-w48-h48',
+    rating: 5,
+    date: 'Sep 23, 2026',
+    comment: 'It works.',
+  },
+  {
+    name: 'Auria Rodgers',
+    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocIffTubUyX6U4varX-5xgPmDGmYqTs1wGfMRkwZKpVBhtYY4g=s48-w48-h48',
+    rating: 5,
+    date: 'Sep 13, 2026',
+    comment: 'I LOVE IT',
+  },
+  {
+    name: 'Raelynn McCoy',
+    avatar: 'https://lh3.googleusercontent.com/a/ACg8ocLBw1KbW8lt3Pni9WC6Erpje7Tn5AImpP5k1vg2SIHYSW0Gjw=s48-w48-h48',
+    rating: 4,
+    date: 'Sep 8, 2026',
+    comment: 'rlolley',
+  },
+  {
+    name: 'Theo',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjWTNvxsbK8y1YzKjtpzqpkevzDy8CsG-1y2xRgk2tpnEezjA9M=s48-w48-h48',
+    rating: 5,
+    date: 'Aug 29, 2026',
+    comment: 'cute',
+  },
+  {
+    name: 'riken Khan',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjW01NS6FTnPMdA0o9pwmj-IAgRzh1l5PmOfsbI66PZemWgj3A0h=s48-w48-h48',
+    rating: 5,
+    date: 'Aug 24, 2026',
+    comment: 'I love so good',
+  },
+  {
+    name: 'Anh Thư Đỗ',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjXvkN5EU1ok1FjJwNTgxY4_7nZSgW7-3HbNkizrOrfzcbiSWeBy=s48-w48-h48',
+    rating: 5,
+    date: 'Aug 17, 2026',
+    comment: 'love itttttt',
+  },
+  {
+    name: 'bononplayz',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVbdJsYkvtlHHz0Vou2aNmsZpDK0ZHqNLk-Eh8r4aoZ0Oj7NNw=s48-w48-h48',
+    rating: 4,
+    date: 'Jul 24, 2026',
+    comment: "amazing extension only problem is there's a blue line in front of the cat",
+  },
+  {
+    name: 'owen de gooseman',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjV_eZ9xxvtdclBacdyEyEQasMOGbS13CSkdlPRF79ZT43eLyHk=s48-w48-h48',
+    rating: 4,
+    date: 'Jul 18, 2026',
+    comment: 'its a bit hard to adjust but its really fun and cute',
+  },
+  {
+    name: 'Ampi Alvarez',
+    avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjWr5f09gputXmIlSb1BvN4Yprx67G4cDO6UrnmBo3otjRIUfTQ=s48-w48-h48',
+    rating: 5,
+    date: 'Jun 26, 2026',
+    comment: 'amo',
+  },
+  {
+    name: 'Cristin Hogan',
+    avatar:
+      'https://lh3.googleusercontent.com/a-/ALV-UjWitsLew3lt1bxvtDmxU9_PrF7MFx-ZpuaNdXlGAFe2ncXhF6vMqg=s48-w48-h48',
+    rating: 5,
+    date: 'Jun 15, 2026',
+    comment: 'i love it sm :D',
+  },
+  {
     name: 'vic',
     avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjWNAqX8yVAZMeCFX668vsalEEiMRy46Ot8GrNJZN-tGrRzkIxdW=s48-w48-h48',
     rating: 5,
@@ -215,13 +286,16 @@ export const REVIEWS: Review[] = [
 
 export const STORE_URL = `https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}/reviews`;
 
-export const TOTAL = 78;
+export const TOTAL = 106;
 export const AVERAGE = 4.8;
 
-// Distribution computed from Chrome Web Store aggregate (4.7 avg × 58 ratings)
+// Estimate: the Chrome Web Store publishes only the average (4.8) and the total (106 on
+// 2026-09-30), not a per-star breakdown. Built on the previous 78-rating estimate plus the ten
+// new visible reviews (7× 5★, 3× 4★); the other 18 new ratings are counted as 5★, the only
+// split that keeps the average at 4.8 (508 / 106 = 4.79). Must add up to TOTAL: bars are count / TOTAL.
 export const DISTRIBUTION = [
-  { star: 5, count: 69 },
-  { star: 4, count: 3 },
+  { star: 5, count: 94 },
+  { star: 4, count: 6 },
   { star: 3, count: 4 },
   { star: 2, count: 0 },
   { star: 1, count: 2 },

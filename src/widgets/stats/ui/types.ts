@@ -1,5 +1,4 @@
 export interface StatsLabels {
-  heading: string;
   totalInstalls: string;
   countries: string;
   dailyUsers: string;

@@ -14,4 +14,5 @@ export const LANG_META: Record<Locale, { flag: string; label: string }> = {
   pl: { flag: '🇵🇱', label: 'Polski' },
   de: { flag: '🇩🇪', label: 'Deutsch' },
   uk: { flag: '🇺🇦', label: 'Українська' },
+  sk: { flag: '🇸🇰', label: 'Slovenčina' },
 };
