@@ -1,0 +1,846 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Nyan Progress Bar — vlastné mačacie posuvníky pre YouTube",
+      "description": "Nahraďte lištu priebehu na YouTube animovanými mačkami. 12 vstavaných posuvníkov, živý editor a podpora vlastných GIF-ov."
+    },
+    "contact": {
+      "title": "Kontakt a centrum podpory — Nyan Progress Bar",
+      "description": "Nahláste chybu, navrhnite funkciu alebo sa na niečo opýtajte. Čítame každú správu."
+    },
+    "extension": {
+      "title": "Získajte rozšírenie — Nyan Progress Bar",
+      "description": "Nainštalujte si rozšírenie Nyan Progress Bar pre Chrome a jedným kliknutím nahraďte posuvník na YouTube animovanými mačkami."
+    },
+    "support": {
+      "title": "Podporte projekt — Nyan Progress Bar",
+      "description": "Páči sa vám Nyan Progress Bar? Podporte projekt a pomôžte mu zostať bezplatný a udržiavaný."
+    },
+    "reviews": {
+      "title": "Recenzie používateľov — Nyan Progress Bar",
+      "description": "Pozrite sa, čo hovorí 106 používateľov o rozšírení Nyan Progress Bar pre Chrome. Hodnotenie 4,8 hviezdičky."
+    },
+    "customizer": {
+      "title": "Editor mačiek — Nyan Progress Bar",
+      "description": "Vyberte si mačku a dolaďte jej polohu na lište priebehu. Nainštalujte si rozšírenie a uvidíte ju naživo na YouTube."
+    },
+    "privacy": {
+      "title": "Zásady ochrany osobných údajov — Nyan Progress Bar",
+      "description": "Zistite, ako Nyan Progress Bar narába s údajmi na webe a v rozšírení pre Chrome."
+    },
+    "howToUse": {
+      "title": "Ako používať Nyan Progress Bar — návody",
+      "description": "Návody krok za krokom: nainštalujte rozšírenie, vyberte si mačku, nahrajte vlastný GIF a dolaďte jeho polohu."
+    },
+    "trending": {
+      "title": "Populárne mačacie lišty priebehu — Nyan Progress Bar",
+      "description": "Objavte najpopulárnejšie, najnovšie a najobľúbenejšie štýly mačacích líšt priebehu pre YouTube."
+    },
+    "uninstall": {
+      "title": "Pomôžte nám zlepšiť sa — Nyan Progress Bar",
+      "description": "Povedzte nám, čo s rozšírením nefungovalo. Anonymne alebo s e-mailom — vaša spätná väzba formuje ďalšiu verziu."
+    },
+    "about": {
+      "title": "O projekte Nyan Progress Bar — projekt a tím",
+      "description": "Spoznajte ľudí za Nyan Progress Bar, zistite, prečo sme ho vytvorili a ako bezplatné rozšírenie pre Chrome funguje pod kapotou."
+    },
+    "terms": {
+      "title": "Podmienky používania — Nyan Progress Bar",
+      "description": "Podmienky, ktorými sa riadi používanie webu a rozšírenia Nyan Progress Bar pre Chrome."
+    },
+    "faq": {
+      "title": "Časté otázky — Nyan Progress Bar",
+      "description": "Odpovede na najčastejšie otázky o inštalácii, prispôsobení a riešení problémov s rozšírením Nyan Progress Bar pre Chrome."
+    }
+  },
+  "nav": {
+    "home": "Domov",
+    "extension": "Rozšírenie",
+    "trending": "Populárne",
+    "howToUse": "Návody",
+    "customize": "Prispôsobiť",
+    "support": "Podporiť",
+    "contact": "Kontakt",
+    "reviews": "Recenzie"
+  },
+  "customizerPage": {
+    "heading": "Editor mačiek",
+    "description": "Vyberte si mačku a dolaďte jej polohu — potom si nainštalujte rozšírenie a uvidíte ju naživo na YouTube.",
+    "galleryHeading": "Vyberte si mačku",
+    "galleryDesc": "Kliknutím na mačku si ju pozriete na lište priebehu nižšie.",
+    "banner": {
+      "heading": "Rozšírenie nie je nainštalované",
+      "description": "Nainštalujte si rozšírenie Nyan Progress Bar pre Chrome, aby sa vaše prispôsobenie prejavilo na YouTube.",
+      "cta": "Pridať do Chromu — zadarmo",
+      "safariCta": "Pridať do Safari — zadarmo",
+      "dismiss": "Zavrieť"
+    },
+    "installTooltip": "Najprv si nainštalujte rozšírenie",
+    "gifSources": {
+      "heading": "Kde nájsť vlastné GIF-y na nahranie",
+      "description": "Prezrite si tieto populárne knižnice GIF-ov a potom nahrajte svoj obľúbený do editora vyššie.",
+      "browseCta": "Prezerať GIF-y",
+      "giphyDesc": "Najväčšia knižnica GIF-ov na svete — milióny animovaných mačiek na výber.",
+      "tenorDesc": "Vyhľadávanie GIF-ov od Googlu — rýchle, prehľadné a neustále aktualizované.",
+      "imgurDesc": "GIF-y nahrané komunitou — skvelé na pixel art a klasické mačacie animácie."
+    },
+    "popularCats": {
+      "heading": "Najobľúbenejšie mačky",
+      "description": "Mačky, ktoré si používatelia vyberajú najčastejšie."
+    },
+    "tipsHeading": "Tipy na prispôsobenie",
+    "tipsIntro": "Aj pár drobných úprav môže výrazne zmeniť, ako mačka sedí na lište priebehu YouTube. Tu sú úpravy, ktoré prinesú najviac.",
+    "tip1Title": "Prispôsobte mačku svojim videám",
+    "tip1Desc": "Pixelové mačky a GIF-y v štýle chiptune sa výborne hodia k retro herným videám a lo-fi hudobným streamom. Klasická Nyan Cat sa hodí ku všetkému; kawaii mačky sú hravé a roztomilé. Vyskúšajte ich viac — prepnutie je okamžité.",
+    "tip2Title": "Výška mení celý dojem",
+    "tip2Desc": "Výška 16–24 px pôsobí nenápadne a splynie s prehrávačom. Pri 40–60 px sa mačka stane hlavnou hviezdou. Neexistuje zlá odpoveď — vyberte si to, čo vás pri posúvaní poteší.",
+    "tip3Title": "Vycentrujte mačku pomocou odsadenia zhora",
+    "tip3Desc": "Rôzne GIF-y majú okolo animácie rôzne okraje, takže mačka môže predvolene sedieť príliš vysoko alebo nízko. Posuňte odsadenie zhora o pár pixelov, kým sa labky mačky nezarovnajú s čiarou posuvníka YouTube.",
+    "tip4Title": "Vyberajte GIF-y s priehľadným pozadím",
+    "tip4Desc": "GIF-y s jednofarebným pozadím zobrazia túto farbu aj na posuvníku. GIF-y s priehľadným pozadím čisto splynú s rozhraním YouTube. Väčšina vyhľadávačov umožňuje filtrovať priehľadné výsledky.",
+    "useCasesHeading": "Obľúbené spôsoby použitia",
+    "useCasesIntro": "Každý si svoju mačku nájde inak. Tu sú tri vzory, ktoré od používateľov počujeme najčastejšie.",
+    "useCase1Title": "Dlhé videá",
+    "useCase1Desc": "Prednášky, podcasty, návody a dokumenty: mačka, ktorá sa presúva po 40-minútovej lište priebehu, je malý pohyb, vďaka ktorému dlhé videá nepôsobia tak staticky. Mnohí používatelia si na to vyberajú pokojnú kráčajúcu mačku.",
+    "useCase2Title": "Hudba a lo-fi",
+    "useCase2Desc": "Používatelia YouTube Music si zvyčajne vyberajú tancujúce alebo poskakujúce mačky — Orange Dance, Kitty Wigglez a klasická Nyan patria medzi stálych favoritov. Pohyb sa prirodzene zladí s hudbou.",
+    "useCase3Title": "Streamovanie a zdieľaná obrazovka",
+    "useCase3Desc": "Streameri a ľudia, ktorí zdieľajú prehliadač na Zoome, si často vyberajú jednu výraznú mačku (Garfield, Pixel Tiger), aby bol posuvník viditeľnou súčasťou ich značky. Niektorí dokonca nahrajú vlastný GIF, ktorý ladí s ich kanálom.",
+    "faqHintHeading": "Stále si neviete rady?",
+    "faqHintPre": "Na väčšinu otázok o inštalácii a prispôsobení odpovedá stránka",
+    "faqHintLinkText": "Časté otázky",
+    "faqHintPost": "— pozrite sa najprv tam."
+  },
+  "header": {
+    "logoAlt": "Nyan mačka"
+  },
+  "footer": {
+    "madeWith": "Vytvorené s 🐱",
+    "github": "GitHub",
+    "support": "Podpora",
+    "howToUse": "Návody",
+    "privacy": "Súkromie",
+    "cookies": "Cookies",
+    "about": "O projekte",
+    "terms": "Podmienky",
+    "faq": "Časté otázky"
+  },
+  "cookieConsent": {
+    "title": "Cookies",
+    "description": "Cookies používame na analýzu návštevnosti a zlepšovanie webu. Vyberte, ktoré cookies povolíte — môžete to kedykoľvek zmeniť.",
+    "policyLink": "Prečítajte si naše zásady ochrany osobných údajov",
+    "acceptAll": "Prijať všetky",
+    "rejectAll": "Odmietnuť všetky",
+    "managePreferences": "Spravovať nastavenia",
+    "savePreferences": "Uložiť nastavenia",
+    "back": "Späť",
+    "close": "Zavrieť",
+    "categories": {
+      "necessary": {
+        "title": "Nevyhnutné",
+        "description": "Potrebné na fungovanie webu — ukladajú vašu voľbu témy a súhlasu. Nedajú sa vypnúť.",
+        "alwaysOn": "Vždy zapnuté"
+      },
+      "analytics": {
+        "title": "Analytické",
+        "description": "Pomáhajú nám pochopiť, ako návštevníci používajú web (zobrazené stránky, čas na stránke), prostredníctvom Google Analytics. Nezdieľajú sa žiadne osobné údaje."
+      },
+      "marketing": {
+        "title": "Marketing a personalizácia",
+        "description": "Umožňujú prispôsobený obsah a meranie kampaní prostredníctvom marketingových značiek Google. Predvolene vypnuté."
+      }
+    }
+  },
+  "home": {
+    "headingPart1": "Vaša lišta na YouTube,",
+    "headingAccent": "s mačkami",
+    "description": "Nahraďte nudný posuvník lišty priebehu na YouTube animovanými mačacími GIF-mi. 12 vstavaných mačiek, podpora vlastných GIF-ov a živý editor.",
+    "cta": "Pridať do Chromu — zadarmo",
+    "galleryHeading": "Vyberte si mačku",
+    "galleryDesc": "Kliknutím na mačku si ju pozriete na lište priebehu nižšie.",
+    "feature1Title": "12 vstavaných mačiek",
+    "feature1Desc": "Starostlivo nastavená veľkosť a poloha pre lištu YouTube.",
+    "feature2Title": "Nahrajte vlastný GIF",
+    "feature2Desc": "Použite akýkoľvek GIF ako vlastný posuvník.",
+    "feature3Title": "Funguje všade",
+    "feature3Desc": "YouTube aj YouTube Music, bežný aj mini prehrávač.",
+    "introHeading": "Malé vylepšenie pre každé video, ktoré pozeráte",
+    "introBody1": "Nyan Progress Bar je bezplatné rozšírenie pre Chrome, ktoré nahradí plochú červenú lištu priebehu na YouTube ručne vybranou animovanou mačkou. Beží celé vo vašom prehliadači, nič od vás nepýta a dodá lište, na ktorú sa pozeráte celý deň, kúsok osobnosti. Hneď po inštalácii máte k dispozícii dvanásť mačiek — pôvodnú dúhovú Nyan Cat, pixelového papagája, glitch mačku, tancujúceho Garfielda a niekoľko jemných minimalistických siluet — a ako vlastný posuvník môžete nahrať akýkoľvek GIF.",
+    "introBody2": "Celý produkt je jedno malé vylepšenie. Nainštalujete rozšírenie, vyberiete si mačku a od tej chvíle má každé video na YouTube a každá skladba na YouTube Music malého maskota, ktorý nasleduje prehrávanie. Nemusíte si vytvárať účet, učiť sa žiadne menu nastavení a neexistuje ani prémiová verzia. Jednoducho to funguje a keď to raz máte, prestanete si všímať, že to niečo robí — až kým vás to uprostred videa nepoteší.",
+    "howHeading": "Ako to funguje",
+    "howIntro": "Tri kroky od inštalácie k mačke na vašej lište YouTube.",
+    "howStep1Title": "Inštalácia jedným kliknutím",
+    "howStep1Desc": "Pridajte si Nyan Progress Bar z Internetového obchodu Chrome. Rozšírenie má približne 15 KB, je postavené na Manifest V3 a žiada len o prístup k youtube.com a music.youtube.com.",
+    "howStep2Title": "Vyberte si mačku",
+    "howStep2Desc": "Otvorte vyskakovacie okno a ťuknite na ktorúkoľvek z dvanástich vstavaných mačiek — alebo vložte vlastný GIF. Váš výber sa uloží lokálne a okamžite sa prejaví na všetkých otvorených kartách YouTube, bez opätovného načítania.",
+    "howStep3Title": "Dolaďte polohu",
+    "howStep3Desc": "Pomocou posuvníkov Výška a Odsadenie zhora vo vyskakovacom okne umiestnite mačku presne na posuvník. Každá mačka si pamätá vlastné nastavenia, takže môžete prepínať medzi témami bez opätovného nastavovania.",
+    "useCasesHeading": "Vytvorené pre ľudí, ktorí žijú na YouTube",
+    "useCasesBody1": "Nyan Progress Bar najviac vynikne pri dlhých videách. Štyridsaťminútové prednášky, deväťdesiatminútové dokumenty, trojhodinové podcasty — malá animovaná mačka, ktorá sa presúva po posuvníku, vdýchne statickému ukazovateľu prehrávania trochu života. Väčšina používateľov si na to vyberie pokojnú kráčajúcu mačku a zabudne, že lišta bola kedysi len plochá čiara.",
+    "useCasesBody2": "Na YouTube Music sa naplno prejavia živšie mačky. Orange Cat Dance, Kitty Wigglez aj pôvodná Nyan Cat sa prirodzene zladia s rytmom skladby a vďaka nim pôsobí hudobný prehrávač menej úžitkovo a viac ako malé ihrisko. Mnohí hudobní používatelia majú jednu tancujúcu mačku ako stálu spoločníčku svojho denného playlistu.",
+    "useCasesBody3": "Streameri a ľudia, ktorí zdieľajú obrazovku počas hovorov, si vyberajú výrazný vzhľad s jednou mačkou — Garfield alebo Pixel Tiger — aby mačka pôsobila ako viditeľná súčasť ich osobnej značky. Obľúbená je tu aj dlaždica na nahranie vlastného GIF-u: vložte maskota svojho kanála alebo emote komunity a posuvník bude váš.",
+    "trustHeading": "Open source, bez reklám a potichu financovaný používateľmi",
+    "trustBody": "Nyan Progress Bar je zverejnený ako open-source projekt. V rozšírení nie sú žiadne reklamy, žiadna prémiová verzia, žiadne doplnkové ponuky ani analytika, ktorá by vás sledovala. Hosting a ďalší vývoj sú financované výlučne z dobrovoľných príspevkov používateľov, ktorí si produkt obľúbili.",
+    "trustLinkGithubLabel": "Pozrieť zdrojový kód na GitHube",
+    "trustLinkSupportLabel": "Podporiť projekt"
+  },
+  "changelog": {
+    "heading": "Čo je nové",
+    "viewAll": "Celá história na GitHube",
+    "latest": "najnovšie",
+    "typeNew": "Novinka",
+    "typeFix": "Oprava",
+    "typeImprovement": "Vylepšenie",
+    "typePerf": "Výkon"
+  },
+  "extension": {
+    "heading": "Získajte Nyan Progress Bar",
+    "description": "Bezplatné rozšírenie pre Chrome. Nainštaluje sa za pár sekúnd a na YouTube funguje okamžite.",
+    "cta": "Nainštalovať do Chromu",
+    "safariCta": "Nainštalovať do Safari",
+    "specs": "Chrome 88+ · Manifest V3 · ~15 KB",
+    "featuresHeading": "Všetko v cene",
+    "feature1Title": "Okamžitá inštalácia",
+    "feature1Desc": "Jedno kliknutie v Internetovom obchode Chrome, bez potreby účtu.",
+    "feature2Title": "Žiadny zber údajov",
+    "feature2Desc": "Úplne lokálne. Vaša aktivita na YouTube zostáva súkromná.",
+    "feature3Title": "12 mačiek v cene",
+    "feature3Desc": "Prepínajte kedykoľvek vo vyskakovacom okne, bez opätovného načítania stránky.",
+    "feature4Title": "Nahranie vlastného GIF-u",
+    "feature4Desc": "Vložte akýkoľvek GIF do vyskakovacieho okna a použite ho ako posuvník.",
+    "feature5Title": "YouTube Music",
+    "feature5Desc": "Funguje aj na music.youtube.com.",
+    "feature6Title": "12 jazykov",
+    "feature6Desc": "Rozhranie je dostupné v jazykoch EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
+    "questionHeading": "Máte otázku?",
+    "questionPre": "Pozrite si",
+    "questionLinkText": "centrum podpory",
+    "questionPost": "alebo nahláste chybu.",
+    "whyHeading": "Prečo používať Nyan Progress Bar?",
+    "whyBody1": "Predvolená lišta priebehu na YouTube je plochá červená čiara — užitočná, ale ľahko prehliadnuteľná. Nyan Progress Bar túto čiaru nahradí ručne vybranou animovanou mačkou (alebo akýmkoľvek GIF-om podľa vás), takže sa posuvník stane malým kúskom osobnosti, ktorý si naozaj všimnete. Je to malá radosť vo vašom dni, pri každom videu.",
+    "whyBody2": "Je vytvorený pre ľudí, ktorí žijú na YouTube: dlhé videá a prednášky, hudba a lo-fi playlisty na YouTube Music, denné správy, herné streamy aj tvorivá práca. Mačka sa pohybuje spolu s prehrávaním, nikdy nezavadzia videu a zmizne v momente, keď rozšírenie odinštalujete.",
+    "whyBody3": "A keďže rozšírenie beží celé vo vašom vlastnom prehliadači — bez účtov, serverov a analytiky — nemusíte sa nikam registrovať ani sa ničoho obávať. Nainštalujete ho, zabudnete naň a vaše videá budú pôsobiť o kúsok viac ako vaše.",
+    "howHeading": "Ako to funguje",
+    "howStep1Title": "1. Inštalácia jedným kliknutím",
+    "howStep1Desc": "Pridajte si Nyan Progress Bar z Internetového obchodu Chrome. Rozšírenie má ~15 KB, je postavené na Manifest V3 a žiada len o prístup k YouTube a YouTube Music.",
+    "howStep2Title": "2. Vyberte si mačku",
+    "howStep2Desc": "Otvorte vyskakovacie okno a ťuknite na ktorúkoľvek z 12 vstavaných mačiek — alebo vložte vlastný GIF. Výber sa uloží lokálne a synchronizuje sa na všetkých otvorených kartách YouTube.",
+    "howStep3Title": "3. Dolaďte polohu",
+    "howStep3Desc": "Pomocou posuvníkov výšky a odsadenia zhora umiestnite mačku presne na posuvník. Nastavenia sú pre každú mačku zvlášť, takže si každá téma pamätá vlastný vzhľad.",
+    "comparisonHeading": "Čím sa líši",
+    "comparisonBody": "Iné rozšírenia prehliadača pre YouTube sa zameriavajú na blokovanie reklám, preskakovanie sponzorov alebo úpravy vzhľadu. Nyan Progress Bar je jediné vytvorené priamo pre lištu priebehu — každá mačka je ručne vyladená na výšku a pohyb posuvníka YouTube, s rozumnými predvolenými hodnotami, takže s posuvníkmi nemusíte manipulovať, ak nechcete. Výsledkom je jeden malý, vyladený detail, ktorý nebojuje so zvyškom rozhrania YouTube."
+  },
+  "contact": {
+    "heading": "Centrum podpory",
+    "description": "Našli ste chybu? Máte nápad na funkciu? Alebo len chcete pozdraviť? Vyplňte formulár a ozveme sa vám.",
+    "githubPre": "Pre rýchlejšiu pomoc môžete tiež",
+    "githubLink": "založiť issue na GitHube",
+    "form": {
+      "name": "Meno",
+      "namePlaceholder": "Vaše meno",
+      "email": "E-mail",
+      "emailPlaceholder": "vy@priklad.sk",
+      "category": "Kategória",
+      "categoryPlaceholder": "Vyberte kategóriu",
+      "categoryBug": "Nahlásenie chyby",
+      "categoryFeature": "Návrh funkcie",
+      "categoryQuestion": "Všeobecná otázka",
+      "message": "Správa",
+      "messagePlaceholder": "Opíšte svoj problém alebo otázku...",
+      "submit": "Odoslať správu",
+      "submitting": "Odosiela sa...",
+      "errorEmpty": "Vyplňte prosím všetky polia.",
+      "errorGeneric": "Niečo sa pokazilo. Skúste to prosím znova.",
+      "errorRateLimit": "Dnes ste už správu poslali. Skúste to prosím znova zajtra.",
+      "success": "Správa odoslaná! Čoskoro sa vám ozveme.",
+      "categoryBugDesc": "Niečo nefunguje? Napíšte, ako chybu zopakovať.",
+      "categoryFeatureDesc": "Máte nápad? Opíšte, na čo by ste ho použili, a zvážime ho.",
+      "categoryQuestionDesc": "Potrebujete pomoc s nastavením, inštaláciou alebo niečím iným?",
+      "screenshotLabel": "Snímka obrazovky",
+      "screenshotOptional": "(voliteľné)",
+      "screenshotErrorType": "Podporované sú len obrázkové súbory.",
+      "screenshotErrorSize": "Súbor je príliš veľký. Maximálna veľkosť je 5 MB.",
+      "screenshotRemove": "Odstrániť prílohu",
+      "screenshotDrop": "Pustite na priloženie",
+      "screenshotAttach": "Priložiť snímku obrazovky",
+      "screenshotHint": "Presuňte sem alebo kliknite · PNG, JPG, GIF, WebP · max. 5 MB"
+    },
+    "uninstall": {
+      "heading": "Mrzí nás, že odchádzate",
+      "description": "Kým odídete — povedzte nám, čo nefungovalo. Dve minúty spätnej väzby pomôžu formovať ďalšiu verziu.",
+      "form": {
+        "email": "E-mail",
+        "emailPlaceholder": "vy@priklad.sk",
+        "ratingLabel": "Celkové hodnotenie",
+        "ratingHint": "Ako by ste ohodnotili svoju skúsenosť s rozšírením?",
+        "reasonsLabel": "Čo vás viedlo k odinštalovaniu?",
+        "reasons": {
+          "tooBuggy": "Príliš veľa chýb",
+          "missingFeatures": "Chýbajúce funkcie",
+          "performance": "Problémy s výkonom",
+          "betterAlternative": "Našiel/a som lepšiu alternatívu",
+          "noLongerNeeded": "Už ho nepotrebujem",
+          "other": "Iné"
+        },
+        "whatWentWrong": "Čo sa pokazilo?",
+        "whatWentWrongPlaceholder": "Povedzte nám, čo vám nefungovalo...",
+        "requiredHint": "(povinné)",
+        "screenshotLabel": "Snímka obrazovky",
+        "screenshotOptional": "(voliteľné)",
+        "screenshotErrorType": "Podporované sú len obrázkové súbory.",
+        "screenshotErrorSize": "Súbor je príliš veľký. Maximálna veľkosť je 5 MB.",
+        "screenshotErrorMax": "Môžete priložiť najviac 3 snímky obrazovky.",
+        "screenshotRemove": "Odstrániť prílohu",
+        "screenshotDrop": "Pustite na priloženie",
+        "screenshotAttach": "Priložiť snímku obrazovky",
+        "screenshotHint": "Presuňte sem alebo kliknite · PNG, JPG, GIF, WebP · max. 5 MB",
+        "howToImprove": "Ako sa môžeme zlepšiť?",
+        "howToImprovePlaceholder": "Čo by ste radi videli v ďalšej verzii?",
+        "submit": "Odoslať spätnú väzbu",
+        "submitting": "Odosiela sa...",
+        "success": "Ďakujeme za spätnú väzbu — naozaj pomáha.",
+        "errorEmpty": "Vyberte prosím hodnotenie a aspoň jeden dôvod.",
+        "errorEmail": "Zadajte prosím platnú e-mailovú adresu.",
+        "errorWhatWentWrong": "Opíšte prosím, čo sa pokazilo.",
+        "errorScreenshot": "Priložte prosím snímku obrazovky toho, čo sa pokazilo.",
+        "errorGeneric": "Niečo sa pokazilo. Skúste to prosím znova.",
+        "errorRateLimit": "Dnes ste už spätnú väzbu poslali. Skúste to prosím znova zajtra."
+      }
+    }
+  },
+  "support": {
+    "heading": "Podporte projekt",
+    "description": "Nyan Progress Bar je bezplatný a open source. Ak sa vám páči, zvážte, či mi nekúpite kávu — pomáha to mačky nakŕmiť a rozšírenie udržiavať.",
+    "thankYou": "Ďakujeme všetkým, ktorí projekt podporili 🐱✨",
+    "kofiTitle": "Ko-Fi",
+    "kofiDesc": "Jednorazová alebo pravidelná podpora. Bez potreby účtu.",
+    "kofiBtn": "Podporiť cez Ko-Fi",
+    "patreonTitle": "Patreon",
+    "patreonDesc": "Mesačné členstvo s novinkami zo zákulisia.",
+    "patreonBtn": "Pridať sa na Patreone",
+    "bmcTitle": "Buy Me a Coffee",
+    "bmcDesc": "Jednoduchý jednorazový príspevok. Pomôže každý kúsok!",
+    "bmcBtn": "Kúpiť kávu",
+    "monoTitle": "Monobank",
+    "monoDesc": "Priamy bankový prevod cez pokladničku Monobank.",
+    "monoBtn": "Prispieť cez Monobank",
+    "donatelloTitle": "Donatello",
+    "donatelloDesc": "Platforma na streamové príspevky. Jednoduché jednorazové príspevky.",
+    "donatelloBtn": "Prispieť cez Donatello",
+    "cryptoTitle": "Kryptomeny (USDT)",
+    "cryptoDesc": "Pošlite USDT cez sieť TRON (TRC-20). Naskenujte QR kód alebo skopírujte adresu.",
+    "cryptoNetwork": "TRC-20",
+    "cryptoCopy": "Kopírovať adresu",
+    "cryptoCopied": "Skopírované!",
+    "whereHeading": "Kam ide vaša podpora",
+    "whereIntro": "Nyan Progress Bar je bezplatný vedľajší projekt, no jeho prevádzka zadarmo nie je. Každý príspevok — bez ohľadu na výšku — ide priamo na udržanie rozšírenia pri živote a na jeho rast.",
+    "whereItem1Title": "Hosting a infraštruktúra",
+    "whereItem1Desc": "Web, materiály pre Internetový obchod Chrome a e-mailová linka kontaktného formulára stoja každý mesiac malú, ale stálu sumu. Vaša podpora udržiava všetko v chode.",
+    "whereItem2Title": "Nové mačky a funkcie",
+    "whereItem2Desc": "Navrhnutie a animovanie novej mačacej témy — alebo vytvorenie nového ovládacieho prvku — si vyžaduje hodiny starostlivej práce. Príspevky platia tento čas, aby katalóg ďalej rástol.",
+    "whereItem3Title": "Opravy chýb a aktualizácie Chromu",
+    "whereItem3Desc": "Rozhrania API pre rozšírenia Chrome sa neustále vyvíjajú a prehrávač YouTube prináša zmeny, ktoré občas pokazia prekrytie posuvníka. Podpora financuje údržbu, vďaka ktorej všetko funguje.",
+    "otherWaysHeading": "Ďalšie spôsoby, ako pomôcť",
+    "otherWaysIntro": "Nemôžete prispieť? Nevadí — existuje veľa bezplatných spôsobov, ako projektu pomôcť.",
+    "otherWay1Title": "Napíšte recenziu v Internetovom obchode Chrome",
+    "otherWay1Desc": "Recenzie sú najsilnejším signálom, ktorý pomáha ďalším ľuďom rozšírenie objaviť. Aj jednoriadkové hodnotenie má skutočný význam.",
+    "otherWay2Title": "Zdieľajte s priateľom",
+    "otherWay2Desc": "Poznáte niekoho, kto žije na YouTube? Pošlite mu odkaz. Odporúčania sú naším najväčším zdrojom nových používateľov.",
+    "otherWay3Title": "Hláste chyby a nápady",
+    "otherWay3Desc": "Každé nahlásenie chyby a návrh funkcie formuje ďalšiu verziu. Použite kontaktný formulár alebo založte issue na GitHube — oboje ide priamo správcovi.",
+    "otherWay4Title": "Prispejte na GitHube",
+    "otherWay4Desc": "Projekt je open source. Pull requesty s opravami chýb, prekladmi alebo novými mačacími dizajnmi sú veľmi vítané.",
+    "transparencyHeading": "Otvorene a transparentne",
+    "transparencyBody": "Neexistujú žiadne platené verzie, prémiové mačky ani reklamy v rozšírení. Produkt je rovnaký pre všetkých — príspevky sú len spôsob, ako poďakovať a udržať mačky v behu."
+  },
+  "customizer": {
+    "adjustPosition": "Upraviť polohu",
+    "height": "Výška",
+    "topOffset": "Odsadenie zhora",
+    "uploadGif": "Nahrať GIF"
+  },
+  "preview": {
+    "label": "Živý náhľad",
+    "player": "▶ Prehrávač YouTube"
+  },
+  "stats": {
+    "heading": "V číslach",
+    "totalInstalls": "Celkový počet inštalácií",
+    "countries": "Počet krajín",
+    "dailyUsers": "Denní používatelia",
+    "activeUsers": "Aktívni používatelia",
+    "catThemes": "Mačacie témy"
+  },
+  "reviews": {
+    "heading": "Čo hovoria používatelia",
+    "rateUs": "Ohodnoťte nás",
+    "reviews": "recenzií",
+    "showMore": "Zobraziť viac",
+    "showLess": "Zobraziť menej",
+    "pageHeading": "Recenzie od skutočných používateľov",
+    "pageIntro1": "Nyan Progress Bar má v Internetovom obchode Chrome priemerné hodnotenie 4,8 hviezdičky zo 106 recenzií. Recenzie nižšie sú mix — navrchu je najčerstvejšia spätná väzba na najnovšiu verziu, za ňou nasleduje každá recenzia, ktorú sme zozbierali od úplne prvej verzie. Nič nie je vyberané ani filtrované. Negatívne recenzie zostávajú viditeľné, pretože sa z nich naučíme viac než z čohokoľvek iného.",
+    "pageIntro2": "Ak zvažujete inštaláciu rozšírenia, táto stránka je najúprimnejší obraz produktu, aký vám môžeme dať. Ak ho už používate a chceli by ste napísať verejnú recenziu, najužitočnejším miestom je Internetový obchod Chrome — výsledky vyhľadávania a poradie v obchode silno ovplyvňujú nedávne hodnotenia a jedno jednoriadkové hodnotenie od vás je najlepší spôsob, ako pomôcť projektu dostať sa k ďalším používateľom YouTube.",
+    "themesHeading": "Čo používatelia spomínajú najčastejšie",
+    "themesIntro": "V stovkách recenzií a hlásení chýb sa stále dookola objavujú tie isté tri témy.",
+    "theme1Title": "Súkromie a „žiadne sledovanie“",
+    "theme1Body": "Zďaleka najčastejším pozitívnym komentárom je nejaká verzia vety „robí jednu vec a nesnaží sa ma sledovať“. Používatelia si všímajú, že rozšírenie nežiada zbytočné povolenia, nič neposiela na server a nemá žiadny účet ani prihlasovanie. Pre mnohých ľudí je to rozhodujúci dôvod oproti iným rozšíreniam pre YouTube.",
+    "theme2Title": "Vyladenie na prehrávači YouTube",
+    "theme2Body": "Používatelia často spomínajú, ako dobre sú mačky vyladené na posuvník YouTube. Každá vstavaná mačka má ručne nastavenú predvolenú výšku a odsadenie zhora, takže prekrytie sedí na prehrávači čisto bez toho, aby sa niekto dotkol posuvníkov. Je to presne ten druh detailu, ktorý trvá dlho doladiť, a na túto časť rozšírenia sme najviac hrdí.",
+    "theme3Title": "Nahrávanie vlastných GIF-ov",
+    "theme3Body": "Dlaždica na nahrávanie je funkcia, ktorú päťhviezdičkové recenzie spomínajú najčastejšie. Používatelia nahrávajú maskotov svojich kanálov, emoty komunity, vlastných domácich miláčikov, pixel art, ktorý sami vytvorili, alebo náhodné GIF-y z internetu — a vidieť tieto animácie ako posuvník YouTube prinesie oveľa viac radosti, než napovedá popis.",
+    "ctaHeading": "Napíšte recenziu alebo pošlite súkromnú spätnú väzbu",
+    "ctaBody": "Verejné recenzie v Internetovom obchode Chrome sú najužitočnejším miestom na úprimný názor — ovplyvňujú, ako sa rozšírenie zobrazuje ďalším používateľom vo vyhľadávaní. Na hlásenia chýb, nápady na funkcie alebo čokoľvek, čo by ste radšej nepísali verejne, je tu kontaktný formulár vzdialený jedno kliknutie a každá správa ide priamo správcovi.",
+    "ctaWebStoreLabel": "Napísať recenziu v Internetovom obchode Chrome",
+    "ctaContactLabel": "Poslať súkromnú spätnú väzbu"
+  },
+  "releaseReviews": {
+    "heading": "Čerstvé recenzie",
+    "subheading": "Od používateľov najnovšej verzie"
+  },
+  "privacy": {
+    "heading": "Zásady ochrany osobných údajov",
+    "lastUpdated": "Posledná aktualizácia: jún 2025",
+    "intro": "Nyan Progress Bar („my“, „náš“ alebo „nás“) prevádzkuje web aj rozšírenie pre Chrome. Tieto Zásady ochrany osobných údajov vysvetľujú, aké informácie sa zhromažďujú, ako sa používajú a aké máte práva.",
+    "s1Heading": "1. Analytika webu",
+    "s1Body": "Web používa Google Analytics a Google Tag Manager na zhromažďovanie anonymizovaných štatistík používania (navštívené stránky, dĺžka relácie, poloha na úrovni krajiny). Prostredníctvom analytiky sa nezhromažďujú žiadne osobné identifikačné údaje. Údaje spracúva spoločnosť Google LLC podľa svojich zásad ochrany osobných údajov.",
+    "s1OptOutPre": "Zberu sa môžete vyhnúť inštaláciou",
+    "s1OptOutLink": "doplnku na odhlásenie z Google Analytics",
+    "s2Heading": "2. Rozšírenie pre Chrome",
+    "s2Body1": "Rozšírenie beží celé vo vašom prehliadači a nezhromažďuje, neprenáša ani neukladá žiadne osobné údaje na vzdialené servery. Ukladá sa len vami vybraná mačacia téma a prípadný vlastný GIF, ktorý nahráte — oboje lokálne pomocou Chrome Storage API na vašom vlastnom zariadení.",
+    "s2Body2": "Rozšírenie potrebuje prístup k youtube.com a music.youtube.com, aby mohlo vložiť mačací posuvník do prehrávača videa. Nečíta ani nezaznamenáva vašu históriu pozerania, vyhľadávacie dopyty ani žiadnu inú aktivitu na YouTube.",
+    "s3Heading": "3. Kontaktný formulár",
+    "s3Body": "Keď odošlete kontaktný formulár, vaše meno, e-mailová adresa a správa sa odošlú e-mailom do našej schránky podpory. Tieto údaje sa používajú výlučne na odpoveď na vašu požiadavku a nezdieľajú sa s tretími stranami.",
+    "s3Rights": "O vymazanie svojho podania môžete kedykoľvek požiadať e-mailom.",
+    "s4Heading": "4. Cookies",
+    "s4Body": "Web ukladá vašu voľbu témy (tmavý/svetlý režim) lokálne v prehliadači. My nenastavujeme žiadne sledovacie cookies. Google Analytics môže nastaviť vlastné cookies, ktoré sa riadia podmienkami spoločnosti Google.",
+    "s5Heading": "5. Služby tretích strán",
+    "s5Intro": "Web využíva tieto služby tretích strán:",
+    "s5Item1": "Google Analytics / Google Tag Manager — anonymizovaná analytika používania",
+    "s5Item2": "Ko-fi, Patreon, Donatello — platformy na príspevky (platia ich vlastné podmienky)",
+    "s5Body": "Rozšírenie pre Chrome nekomunikuje so žiadnou externou službou.",
+    "s6Heading": "6. Uchovávanie údajov",
+    "s6Body": "Údaje Google Analytics sa uchovávajú 14 mesiacov. Podania z kontaktného formulára sa uchovávajú tak dlho, ako je potrebné na vybavenie vašej požiadavky. Údaje rozšírenia (výber mačky, vlastný GIF) sa ukladajú lokálne a vymažú sa pri odinštalovaní rozšírenia.",
+    "s7Heading": "7. Zmeny",
+    "s7Body": "Tieto zásady sa môžu z času na čas aktualizovať. Dátum „poslednej aktualizácie“ v hornej časti stránky zodpovedá najnovšej verzii.",
+    "s8Heading": "8. Kontakt",
+    "s8Pre": "Máte otázky k týmto zásadám? Napíšte nám na"
+  },
+  "howToUse": {
+    "index": {
+      "heading": "Ako používať Nyan Progress Bar",
+      "description": "Návody krok za krokom — od inštalácie rozšírenia až po doladenie polohy mačky na posuvníku YouTube.",
+      "readMore": "Prečítať návod"
+    },
+    "sidebarHeading": "Všetky návody",
+    "moreGuides": "Ďalšie návody",
+    "nextStep": "Ďalší krok",
+    "videoLabel": "Pozrite si video postup",
+    "screenshotAlt": "Snímka obrazovky znázorňujúca",
+    "articles": {
+      "install": {
+        "title": "Ako nainštalovať Nyan Progress Bar",
+        "summary": "Pridajte rozšírenie do Chromu na tri kliknutia a mačku uvidíte na YouTube hneď.",
+        "intro": "Nyan Progress Bar je bezplatné rozšírenie pre Chrome distribuované cez Internetový obchod Chrome. Inštalácia trvá menej ako minútu a funguje v každom prehliadači založenom na Chromiu (Chrome, Edge, Brave, Opera).",
+        "steps": [
+          {
+            "heading": "Otvorte stránku rozšírenia v Internetovom obchode Chrome",
+            "body": "Navštívte stránku Nyan Progress Bar v Internetovom obchode Chrome. Dostanete sa na ňu aj kliknutím na „Nainštalovať do Chromu“ na tomto webe."
+          },
+          {
+            "heading": "Kliknite na „Pridať do prehliadača Chrome“",
+            "body": "Modré tlačidlo „Pridať do prehliadača Chrome“ je vpravo hore na stránke rozšírenia. Chrome zobrazí žiadosť o povolenia — rozšírenie žiada len o prístup k youtube.com a music.youtube.com, aby mohlo nakresliť mačku na posuvník."
+          },
+          {
+            "heading": "Potvrďte inštaláciu",
+            "body": "V potvrdzovacom okne kliknite na „Pridať rozšírenie“. Rozšírenie sa stiahne (asi 15 KB) a automaticky nainštaluje. Na paneli s nástrojmi sa zobrazí ikona Nyan."
+          },
+          {
+            "heading": "Otvorte YouTube a užívajte si",
+            "body": "Prejdite na youtube.com a spustite akékoľvek video. Mačací posuvník sa na lište priebehu zobrazí okamžite — bez opätovného načítania, bez prihlásenia, bez nastavovania. Predvolene je vybraná Nyan Cat; zmeniť ju môžete kedykoľvek vo vyskakovacom okne."
+          }
+        ],
+        "outroPre": "Chcete si ho prispôsobiť?",
+        "outroHref": "/how-to-use/choose-cat",
+        "outroLink": "Vyberte si mačaciu tému"
+      },
+      "choose-cat": {
+        "title": "Ako si vybrať mačaciu tému",
+        "summary": "Otvorte vyskakovacie okno, prezrite si mriežku mačiek a vyberte si z 12 vstavaných tém.",
+        "intro": "Rozšírenie obsahuje 12 ručne vyladených mačacích tém — od klasickej Nyan Cat cez spiacu tučnú mačku a pixelovú mačku až po niekoľko tancujúcich variantov. Prepnutie je okamžité a zachová sa aj po reštarte prehliadača.",
+        "steps": [
+          {
+            "heading": "Otvorte vyskakovacie okno rozšírenia",
+            "body": "Kliknite na ikonu Nyan na paneli s nástrojmi prehliadača. Ak ju nevidíte, kliknite na ikonu dielika skladačky a pripnite si Nyan Progress Bar pre rýchly prístup. Vyskakovacie okno sa otvorí so šírkou 280 px a mriežkou mačiek na čelnom mieste."
+          },
+          {
+            "heading": "Prezrite si mriežku mačiek",
+            "body": "Mriežka zobrazuje všetkých 12 vstavaných mačiek a dlaždicu na nahranie vlastného GIF-u. Posúvaním v mriežke uvidíte všetky možnosti. Každá dlaždica je živým náhľadom GIF-u, ktorý sa zobrazí na posuvníku."
+          },
+          {
+            "heading": "Kliknite na mačku, ktorú chcete",
+            "body": "Ťuknutím na dlaždicu mačku vyberiete. Vybraná dlaždica dostane azúrový okraj a žiaru, aby ste vedeli, ktorá je aktívna. Zmena sa okamžite prejaví na všetkých otvorených kartách YouTube — bez opätovného načítania."
+          },
+          {
+            "heading": "Skontrolujte ju na YouTube",
+            "body": "Prepnite na kartu YouTube a posuňte posuvník. Vaša nová mačka už tam je. Ak máte otvorený YouTube Music, mačka sa aktualizuje aj tam."
+          }
+        ],
+        "outroPre": "Chcete použiť GIF, ktorý v mriežke nie je?",
+        "outroHref": "/how-to-use/upload-gif",
+        "outroLink": "Nahrajte vlastný GIF"
+      },
+      "upload-gif": {
+        "title": "Ako nahrať vlastný GIF",
+        "summary": "Použite akýkoľvek animovaný GIF z internetu ako posuvník na YouTube.",
+        "intro": "Okrem 12 vstavaných mačiek môžete nahrať akýkoľvek GIF a rozšírenie ho použije ako posuvník. Súbor sa ukladá lokálne vo vašom prehliadači — nič sa nenahráva na server.",
+        "steps": [
+          {
+            "heading": "Nájdite GIF, ktorý sa vám páči",
+            "body": "Hľadajte animácie na GIPHY, Tenor alebo Imgur. Menšie GIF-y (do niekoľkých stoviek kilobajtov) pôsobia na posuvníku svižnejšie, no pevný limit veľkosti neexistuje. Uistite sa, že stiahnutý súbor má príponu .gif."
+          },
+          {
+            "heading": "Otvorte vyskakovacie okno rozšírenia",
+            "body": "Kliknite na ikonu Nyan na paneli s nástrojmi. Zobrazí sa mriežka mačiek s dlaždicou na nahrávanie vľavo hore — s prerušovaným okrajom, ikonou + a textom „Nahrať GIF“."
+          },
+          {
+            "heading": "Kliknite na dlaždicu na nahrávanie",
+            "body": "Otvorí sa systémový výber súborov filtrovaný na súbory .gif. Vyberte GIF, ktorý ste práve stiahli, a potvrďte. Rozšírenie ho načíta v prehliadači, uloží lokálne a pridá ako novú dlaždicu do mriežky."
+          },
+          {
+            "heading": "Váš GIF je teraz vaším posuvníkom",
+            "body": "Nahraný GIF sa automaticky vyberie a odošle na všetky otvorené karty YouTube. Otvorte YouTube a posuňte posuvník, aby ste ho videli v akcii. Ak chcete GIF vymeniť, znova kliknite na dlaždicu na nahrávanie — nový súbor nahradí starý."
+          }
+        ],
+        "outroPre": "GIF na posuvníku nie je vycentrovaný?",
+        "outroHref": "/how-to-use/adjust-position",
+        "outroLink": "Upravte výšku a polohu"
+      },
+      "adjust-position": {
+        "title": "Ako upraviť výšku a polohu mačky",
+        "summary": "Pomocou posuvníkov vo vyskakovacom okne dolaďte, ako mačka sedí na posuvníku.",
+        "intro": "Každá mačka (aj každý nahraný GIF) má inú vlastnú veľkosť a tvar, preto vám rozšírenie umožňuje posunúť výšku a zvislú polohu tak, aby sedela presne na lište priebehu YouTube.",
+        "steps": [
+          {
+            "heading": "Najprv vyberte mačku",
+            "body": "Otvorte vyskakovacie okno a vyberte mačku, ktorú chcete doladiť. Ovládanie „Upraviť polohu“ sa zobrazí až po výbere mačky — platí pre každú mačku zvlášť, takže si každá téma pamätá vlastné nastavenia."
+          },
+          {
+            "heading": "Použite posuvník Výška",
+            "body": "Posuvník Výška má rozsah od 8 px do 80 px. Potiahnite ho a sledujte, ako sa mačka v reálnom čase mení na každej otvorenej karte YouTube. Vyššie mačky vyzerajú skvele v hlavnom prehrávači; menšie výšky sa lepšie hodia na náhľady pri prejdení myšou."
+          },
+          {
+            "heading": "Použite posuvník Odsadenie zhora",
+            "body": "Posuvník Odsadenie zhora má rozsah od -50 px do +20 px. Záporné hodnoty posúvajú mačku nahor, kladné nadol. Použite ho na zvislé vycentrovanie mačky na čiare posuvníka — rôzne GIF-y potrebujú rôzne odsadenie podľa toho, kde má mačka nakreslené labky."
+          },
+          {
+            "heading": "V prípade potreby obnovte nastavenie",
+            "body": "Každá mačka má vopred vyladenú predvolenú hodnotu. Ak to s úpravami preženiete, kliknite na „Nastaviť predvolenú polohu“ v hlavičke ovládania a oba posuvníky sa vrátia na odporúčané hodnoty pre danú mačku. Vlastné nahrané GIF-y sa vrátia na rozumné náhradné hodnoty (výška 28 px, odsadenie zhora -13 px)."
+          }
+        ],
+        "outroPre": "Chcete si mačky pozrieť ešte pred inštaláciou?",
+        "outroHref": "/customizer",
+        "outroLink": "Vyskúšajte živý editor"
+      }
+    }
+  },
+  "trending": {
+    "heading": "Populárne mačacie lišty priebehu",
+    "description": "Objavte mačacie posuvníky, ktoré si práve teraz všetci inštalujú na YouTube — zoradené podľa popularity, novosti a témy.",
+    "cta": "Vyskúšať",
+    "seeMore": "Zobraziť viac",
+    "itemCount": "Položky: {count}",
+    "installHeading": "Začnite používať Nyan Progress Bar ešte dnes",
+    "installDescription": "Bezplatné rozšírenie pre Chrome. Vyberte si mačku, kliknite na inštalovať a vaša lišta priebehu na YouTube dostane úplne nového maskota.",
+    "installCta": "Pridať do Chromu — zadarmo",
+    "introHeading": "Čo práve letí na posuvníku YouTube",
+    "introBody1": "Táto stránka je živý katalóg štýlov mačacích líšt priebehu, ktoré si používatelia inštalujú najčastejšie. Existuje preto, lebo vybrať si mačku je oveľa jednoduchšie, keď vidíte, čo sa páči iným — klasiky, ktoré sú na vrchole už roky, nové témy, ktoré práve pribudli, aj kurátorské kolekcie zoskupené podľa nálady (kawaii, pixel, monochromatické, tanec a ďalšie).",
+    "introBody2": "Každý štýl tu je len na jedno kliknutie od toho, aby bol váš. Ťuknutím na mačku si ju pozriete v živom editore, alebo kliknite na tlačidlo inštalácie, pridajte si rozšírenie do Chromu a uvidíte svoj výber na skutočnom videu na YouTube. Bez registrácie, bez prémiovej verzie a každá mačka je súčasťou bezplatného rozšírenia.",
+    "rankingsHeading": "Ako funguje poradie",
+    "rankingsBody1": "Sekcia Populárne je zoradená podľa celkového počtu inštalácií za celú existenciu rozšírenia — sú to mačky, ktoré si od spustenia vybralo najviac používateľov. Nyan Classic, Cute Cat a Garfield sa na prvých troch miestach striedajú väčšinu týždňov, no zvyšok poradia sa mení, keď sa uchytia nové témy.",
+    "rankingsBody2": "Sekcia Práve populárne zobrazuje posledných sedem dní: mačky, ktoré si používatelia za uplynulý týždeň vybrali alebo na ne prepli najčastejšie. Nové témy tu často vyletia hore v dňoch po vydaní, takže je to najlepšia sekcia, ak chcete vedieť, čo je práve čerstvé. Sekcia Novinky obsahuje všetky mačky pridané do katalógu za posledných 60 dní v poradí vydania.",
+    "rankingsBody3": "Top kolekcie zoskupujú mačky podľa estetiky, nie podľa popularity. Kolekcia Klasické mačky obsahuje originály; Pixel a retro zahŕňa všetky pixel-artové témy; Kawaii pastely zbiera jemné štýly s veľkými očami; Tancujúce mačky sú animované mačky, ktoré sa pekne zladia s YouTube Music; Monochromatické je minimalistická sada; Oranžová partia je presne to, čo názov sľubuje.",
+    "customizeHeading": "Urobte si z ktoréhokoľvek populárneho štýlu vlastný",
+    "customizeBody": "Našli ste si obľúbený? Otvorte ho v živom editore a dolaďte výšku a zvislú polohu, kým nebude sedieť presne na posuvníku YouTube. Každá mačka si pamätá vlastné nastavenia, takže môžete prepínať medzi populárnymi štýlmi bez opakovania práce.",
+    "customizeCta": "Otvoriť editor",
+    "sections": {
+      "popular": {
+        "title": "Populárne mačacie lišty priebehu",
+        "description": "Najobľúbenejšie mačky všetkých čias podľa našich používateľov."
+      },
+      "trending": {
+        "title": "Práve populárne",
+        "description": "Čo tento týždeň naberá na obľube na YouTube."
+      },
+      "new": {
+        "title": "Nové mačacie lišty priebehu",
+        "description": "Najčerstvejšie posuvníky pridané do katalógu."
+      },
+      "collections": {
+        "title": "Top kolekcie",
+        "description": "Vybrané balíčky mačiek zoskupené podľa nálady."
+      }
+    },
+    "badges": {
+      "new": "Nové",
+      "hot": "Hit",
+      "custom": "Vlastné"
+    },
+    "pagination": {
+      "previous": "Predchádzajúce",
+      "next": "Ďalšie"
+    },
+    "tags": {
+      "nyan": "Nyan",
+      "classic": "Klasika",
+      "rainbow": "Dúha",
+      "cute": "Roztomilé",
+      "pink": "Ružová",
+      "glitch": "Glitch",
+      "pixel": "Pixel",
+      "kawaii": "Kawaii",
+      "dance": "Tanec",
+      "orange": "Oranžová",
+      "minimal": "Minimalizmus",
+      "retro": "Retro",
+      "bunny": "Zajačik",
+      "dog": "Pes",
+      "bat": "Netopier",
+      "creature": "Stvorenie",
+      "bird": "Vták",
+      "tiger": "Tiger",
+      "deer": "Jeleň",
+      "bear": "Medveď",
+      "cartoon": "Kreslené"
+    },
+    "styles": {
+      "nyan-classic": {
+        "title": "Nyan Classic",
+        "description": "Pôvodná mačka-koláčik s dúhovou stopou — okamžitá ikona na každej lište priebehu."
+      },
+      "cute-cat": {
+        "title": "Cute Cat",
+        "description": "Jemné, červenajúce sa mačiatko v ružových tónoch — sladké, ale nie prehnane."
+      },
+      "glitch-cat": {
+        "title": "Glitch Cat",
+        "description": "Pixelová mačka s efektom chromatickej aberácie pre kyberpunkový vzhľad."
+      },
+      "pixel-cat": {
+        "title": "Pixel Cat",
+        "description": "Čistý 8-bitový sprite, ktorý kráča po vašom posuvníku ako v retro plošinovke."
+      },
+      "cute-kawaii": {
+        "title": "Cute Kawaii",
+        "description": "Veľké oči, jemné pastely a plná kawaii energia na lište YouTube."
+      },
+      "gatito": {
+        "title": "Gatito",
+        "description": "Malé ryšavé mačiatko cupitajúce po posuvníku s kresleným šarmom."
+      },
+      "garfield": {
+        "title": "Garfield",
+        "description": "Oranžový pruhovaný kocúr s postojom — milovník lasagní preberá váš prehrávač videí."
+      },
+      "orange-dance": {
+        "title": "Orange Cat Dance",
+        "description": "Ryšavá mačka s tanečnými krokmi — ideálna na hudobné videá a YouTube Music."
+      },
+      "kitty-wigglez": {
+        "title": "Kitty Wigglez",
+        "description": "Vrtiaca sa mačička, ktorá sa hýbe s lištou priebehu — hravá a zvláštne hypnotická."
+      },
+      "black-cat": {
+        "title": "Black Cat",
+        "description": "Elegantná silueta pre minimalistický, náladový posuvník, ktorý dokonale sedí k tmavému režimu."
+      },
+      "white-cat": {
+        "title": "White Cat",
+        "description": "Čistá biela mačička pre jemný, minimalistický vzhľad vo svetlej aj tmavej téme."
+      },
+      "orange": {
+        "title": "Orange Tabby",
+        "description": "Priateľská ryšavá mačka, ktorá si klusá po lište — teplé tóny, ktoré vyniknú na červenej YouTube."
+      },
+      "cute-bunny": {
+        "title": "Cute Bunny",
+        "description": "Jemný poskakujúci zajačik — nahráte ho ako vlastný posuvník jedným kliknutím."
+      },
+      "japan-creature": {
+        "title": "Tiny Mochi Creature",
+        "description": "Okrúhly maskot v japonskom štýle — čistý kawaii šarm na lište YouTube."
+      },
+      "anatroll": {
+        "title": "Anatroll",
+        "description": "Poskakujúce stvorenie s postojom — hravé a nemožné prehliadnuť."
+      },
+      "pixel-dogs": {
+        "title": "Pixel Dogs",
+        "description": "Dvojica pixelových psíkov bežiacich vedľa seba — chiptunová atmosféra pre vaše videá."
+      },
+      "purple-bat": {
+        "title": "Purple Bat",
+        "description": "Malý fialový netopier poletujúci po lište — goticky roztomilý a v tmavom režime neprehliadnuteľný."
+      },
+      "cute-dog": {
+        "title": "Cute Dog",
+        "description": "Priateľský psík, ktorý si klusá po lište — milý, výrazný a pripravený nasledovať váš posuvník."
+      },
+      "parrot-pixel": {
+        "title": "Pixel Parrot",
+        "description": "Uvravený 8-bitový papagáj — tropické farby a retro pixelový šarm na každej lište priebehu."
+      },
+      "cartoon-cat": {
+        "title": "Cartoon Cat",
+        "description": "Čistá, ručne kreslená mačka — jemné obrysy a veľké výrazy ako zo sobotných ranných rozprávok."
+      },
+      "pixel-tiger": {
+        "title": "Pixel Tiger",
+        "description": "Divoký malý 8-bitový tiger, ktorý stopuje posuvník — výrazné pruhy a arkádová energia."
+      },
+      "fawn": {
+        "title": "Forest Fawn",
+        "description": "Útle srnča skáčuce po lište — tiché, minimalistické, s priehľadným pozadím."
+      },
+      "osito": {
+        "title": "Little Bear",
+        "description": "Jemný animovaný medvedík — útulný a guľatý, ideálna spoločnosť na dlhé sledovanie videí."
+      }
+    },
+    "collections": {
+      "classic": "Klasické mačky",
+      "pixel": "Pixel a retro",
+      "kawaii": "Kawaii pastely",
+      "dance": "Tancujúce mačky",
+      "monochrome": "Monochromatické",
+      "orange": "Oranžová partia"
+    }
+  },
+  "about": {
+    "heading": "O projekte Nyan Progress Bar",
+    "intro": "Nyan Progress Bar je bezplatné open-source rozšírenie pre Chrome, ktoré nahradí plochú červenú čiaru na lište priebehu YouTube ručne vybranou animovanou mačkou. Táto stránka je krátkym príbehom o tom, čo to je, kto to vytvára a prečo to existuje.",
+    "s1Heading": "Čo to je",
+    "s1Body": "Nyan Progress Bar je malé, zamerané rozšírenie prehliadača pre YouTube a YouTube Music. Robí presne jednu vec: nakreslí animovanú mačku (alebo akýkoľvek GIF podľa vás) na posuvník videa. Nemusíte sa učiť žiadne menu nastavení, vytvárať účty ani platiť predplatné. Nainštalujete ho, vyberiete si mačku a to je celý produkt.",
+    "s1Body2": "Hneď po inštalácii máte k dispozícii dvanásť mačacích tém — od pôvodnej dúhovej Nyan Cat cez pixelového papagája a glitchovú chromatickú mačku až po tancujúceho Garfielda a niekoľko minimalistických siluet. Ako vlastný posuvník môžete nahrať aj akýkoľvek GIF zo svojho počítača — súbor zostane na vašom zariadení a nikam sa neodosiela.",
+    "s2Heading": "Prečo sme ho vytvorili",
+    "s2Body": "Projekt začal z osobnej frustrácie: tráviť každý deň hodiny na YouTube, pozerať sa na tú istú plochú lištu priebehu a myslieť si, že by mohla byť malou chvíľkou radosti. Klasická Nyan Cat sa ponúkala ako prvá mačka na vyskúšanie, a keď raz bežala na skutočnom videu na YouTube, bolo jasné, že prináša malé, ale skutočné potešenie.",
+    "s2Body2": "Všetko odvtedy poháňa jednoduchá myšlienka: rozšírenie prehliadača môže byť pokojné, zamerané a príjemné. Väčšina rozšírení žiada príliš veľa povolení, zobrazuje príliš veľa prvkov rozhrania alebo sa snaží speňažiť vašu pozornosť. Nyan Progress Bar zámerne nerobí nič z toho — je to malý nástroj, ktorý vám do dňa pridá jeden malý úsmev a potom vám nezavadzia.",
+    "s3Heading": "Ako to funguje",
+    "s3Body": "Pod kapotou je to rozšírenie pre Chrome postavené na Manifest V3, ktoré beží len na youtube.com a music.youtube.com. Keď sa stránka YouTube načíta, rozšírenie nájde prvok lišty priebehu a prekryje ho vami vybraným GIF-om. GIF sa pohybuje s polohou posuvníka, pretože je ukotvený k rovnakému prvku, ktorý YouTube používa pre ukazovateľ prehrávania.",
+    "s3Body2": "Váš výber mačky, výška a odsadenie zhora sa ukladajú lokálne pomocou Chrome Storage API na vašom vlastnom zariadení. Nič sa nenahráva na server. Rozšírenie neposiela žiadne sieťové požiadavky; nečíta vašu históriu pozerania, vyhľadávacie dopyty ani nič iné o tom, ako používate YouTube. Ak rozšírenie odinštalujete, zmizne s ním každá jeho stopa.",
+    "s4Heading": "Kto ho vytvára",
+    "s4Body": "Nyan Progress Bar vytvára a udržiava nezávislý vývojár vo svojom voľnom čase. Projekt je open source — pull requesty s novými mačacími dizajnmi, prekladmi a opravami chýb sú veľmi vítané a kontaktný formulár na tomto webe ide priamo správcovi.",
+    "s4Body2": "Web je preložený do jedenástich jazykov (angličtina, španielčina, portugalčina, francúzština, nemčina, poľština, ukrajinčina, slovenčina, indonézština, vietnamčina a filipínčina), aby si používatelia z celého sveta mohli o rozšírení prečítať vo vlastnom jazyku.",
+    "s5Heading": "Naše hodnoty",
+    "s5Intro": "Pri tvorbe a prevádzke projektu sa riadime niekoľkými zásadami:",
+    "s5Item1": "Súkromie na prvom mieste. Rozšírenie nezhromažďuje ani neprenáša údaje — bodka.",
+    "s5Item2": "V rozšírení bez reklám. Žiadne doplnkové ponuky, prémiové mačky ani predplatné.",
+    "s5Item3": "Otvorene a transparentne. Kód, príspevky aj plán vývoja sú verejné.",
+    "s5Item4": "Jedna malá vec, urobená dobre. Nikdy sa nerozšírime na blokovanie reklám, preskakovanie sponzorov ani všeobecné úpravy YouTube. Lišta priebehu je produkt.",
+    "s6Heading": "Kontaktujte nás",
+    "s6Pre": "Máte otázku, nápad alebo chybu na nahlásenie? Najrýchlejšie nás zastihnete cez",
+    "s6ContactLink": "kontaktný formulár",
+    "s6Mid": ", alebo nám môžete napísať priamo na"
+  },
+  "terms": {
+    "heading": "Podmienky používania",
+    "lastUpdated": "Posledná aktualizácia: jún 2025",
+    "intro": "Tieto Podmienky používania („Podmienky“) upravujú vaše používanie webu Nyan Progress Bar („Web“) a rozšírenia Nyan Progress Bar pre Chrome („Rozšírenie“). Používaním Webu alebo Rozšírenia súhlasíte s týmito Podmienkami.",
+    "s1Heading": "1. Prijatie podmienok",
+    "s1Body": "Inštaláciou Rozšírenia alebo používaním Webu potvrdzujete, že ste si tieto Podmienky prečítali, porozumeli im a súhlasíte, že sa nimi budete riadiť. Ak nesúhlasíte, Rozšírenie odinštalujte a prestaňte Web používať. Tieto Podmienky môžeme z času na čas aktualizovať; dátum „poslednej aktualizácie“ vyššie zodpovedá najnovšej verzii. Pokračovaním v používaní po zmene prijímate nové Podmienky.",
+    "s2Heading": "2. Opis služby",
+    "s2Body": "Rozšírenie je bezplatný doplnok prehliadača, ktorý prekryje lištu priebehu YouTube a YouTube Music animovaným GIF-om („mačkou“). Web poskytuje informácie o Rozšírení, živý editor, katalóg mačacích tém, odkazy na podporu a príspevky a kontaktné kanály. Web aj Rozšírenie sú poskytované bezplatne.",
+    "s3Heading": "3. Povinnosti používateľa a prijateľné používanie",
+    "s3Body": "Súhlasíte, že budete Web a Rozšírenie používať len na zákonné, osobné účely. Nebudete sa pokúšať Rozšírenie ani Web spätne analyzovať, upravovať, ďalej šíriť ani prebaľovať nad rámec toho, čo povoľuje open-source licencia projektu. Web ani Rozšírenie nebudete používať na obťažovanie, poškodzovanie iných ani na vydávanie sa za iných.",
+    "s3Body2": "Za GIF-y, ktoré do Rozšírenia nahráte, zodpovedáte vy. Súhlasíte, že máte zákonné právo používať každý nahraný GIF a že GIF neobsahuje nezákonný, porušujúci ani inak škodlivý obsah.",
+    "s4Heading": "4. Duševné vlastníctvo",
+    "s4Body": "Názov, logo, dizajnové prvky a pôvodné mačacie témy Nyan Progress Bar vlastnia správcovia projektu. Mačacie GIF-y zahrnuté v Rozšírení sú buď pôvodné diela, voľné diela, alebo sa používajú na základe licencií, ktoré povoľujú ďalšie šírenie. Značky tretích strán uvedené na Webe (napr. YouTube, Chrome) sú ochranné známky ich príslušných vlastníkov a používajú sa tu len na opisné účely.",
+    "s4Body2": "Zdrojový kód Rozšírenia je zverejnený pod open-source licenciou — presné podmienky nájdete v repozitári na GitHube.",
+    "s5Heading": "5. Obsah vytvorený používateľmi",
+    "s5Body": "Keď do Rozšírenia nahráte GIF, súbor sa uloží lokálne vo vašom vlastnom prehliadači pomocou Chrome Storage API. Nenahráva sa na naše servery a nijako k nemu nepristupujeme, nezobrazujeme ho ani ho nespracúvame. Všetky práva k nahraným GIF-om si ponechávate.",
+    "s5Body2": "Ak prostredníctvom kontaktného formulára odošlete obsah (správu, snímku obrazovky alebo spätnú väzbu), udeľujete nám nevýhradnú bezplatnú licenciu na použitie tohto obsahu na účely odpovede na vašu požiadavku a zlepšovania Rozšírenia. Bez vášho súhlasu ho nebudeme verejne zdieľať.",
+    "s6Heading": "6. Vyhlásenia o vylúčení záruk",
+    "s6Body": "Web a Rozšírenie sa poskytujú „tak, ako sú“ a „podľa dostupnosti“ bez akýchkoľvek záruk, výslovných či implicitných. Nezaručujeme, že Web alebo Rozšírenie budú fungovať bez prerušenia, bez chýb alebo že budú kompatibilné s každou verziou každého prehliadača. YouTube môže kedykoľvek zmeniť implementáciu svojho prehrávača spôsobom, ktorý pokazí mačacie prekrytie; takéto problémy sa budeme snažiť rýchlo opraviť, no nepretržitú prevádzku zaručiť nemôžeme.",
+    "s7Heading": "7. Obmedzenie zodpovednosti",
+    "s7Body": "V maximálnom rozsahu povolenom zákonom projekt Nyan Progress Bar, jeho správcovia a prispievatelia nezodpovedajú za žiadne nepriame, náhodné, osobitné, následné ani sankčné škody vyplývajúce z vášho používania (alebo nemožnosti používania) Webu alebo Rozšírenia. Ak nie ste spokojní, vaším jediným prostriedkom nápravy je prestať Web používať a Rozšírenie odinštalovať.",
+    "s8Heading": "8. Služby tretích strán",
+    "s8Body": "Web odkazuje na služby tretích strán (napr. Internetový obchod Chrome, GitHub, Ko-fi, Patreon, Donatello). Nezodpovedáme za obsah, zásady ani postupy týchto služieb. Ich používanie sa riadi ich vlastnými podmienkami.",
+    "s9Heading": "9. Rozhodné právo a zmeny",
+    "s9Body": "Tieto Podmienky sa riadia všeobecnými zásadami spotrebiteľského práva v krajine pobytu správcu; spory sa budú riešiť v dobrej viere a podľa najlepšieho úsilia. Vyhradzujeme si právo tieto Podmienky kedykoľvek zmeniť. Podstatné zmeny sa prejavia aktualizáciou dátumu „poslednej aktualizácie“.",
+    "s10Heading": "10. Kontakt",
+    "s10Pre": "Máte otázky k týmto Podmienkam? Napíšte nám na"
+  },
+  "faq": {
+    "heading": "Časté otázky",
+    "intro": "Rýchle odpovede na otázky, ktoré dostávame najčastejšie. Nenašli ste, čo hľadáte? Kontaktný formulár je na jedno kliknutie.",
+    "categoryGettingStartedHeading": "Začíname",
+    "categoryCustomizationHeading": "Prispôsobenie",
+    "categoryPrivacyHeading": "Súkromie a údaje",
+    "categoryTroubleshootingHeading": "Riešenie problémov",
+    "stillStuckHeading": "Stále máte otázku?",
+    "stillStuckPre": "Ozvite sa cez",
+    "stillStuckLinkText": "kontaktný formulár",
+    "stillStuckPost": "— každá správa ide priamo správcovi a dostane osobnú odpoveď.",
+    "questions": {
+      "isFree": {
+        "q": "Je Nyan Progress Bar zadarmo?",
+        "a": "Áno. Rozšírenie je úplne bezplatné — bez platených verzií, prémiových mačiek a reklám v rozšírení. Projekt je podporovaný výlučne dobrovoľnými príspevkami cez Ko-fi, Patreon, Donatello a ďalšie — podrobnosti nájdete na stránke Podpora."
+      },
+      "browsers": {
+        "q": "Ktoré prehliadače sú podporované?",
+        "a": "Rozšírenie oficiálne podporuje Chrome 88 a novší. Funguje aj v prehliadačoch založených na Chromiu vrátane Microsoft Edge, Brave, Opera, Arc a Vivaldi. Verzia pre Safari je v pláne. Firefox momentálne podporovaný nie je."
+      },
+      "howToInstall": {
+        "q": "Ako ho nainštalujem?",
+        "a": "Navštívte stránku Nyan Progress Bar v Internetovom obchode Chrome a kliknite na „Pridať do prehliadača Chrome“. Potvrďte inštaláciu v dialógovom okne a mačka sa na YouTube zobrazí okamžite — bez opätovného načítania, bez prihlásenia. Kompletný postup nájdete v návode na inštaláciu v sekcii Návody."
+      },
+      "worksOnYouTube": {
+        "q": "Funguje na YouTube aj YouTube Music?",
+        "a": "Áno — na oboch. Rozšírenie sa aktivuje na youtube.com a music.youtube.com. Funguje v bežnom prehrávači, mini prehrávači aj v kinovom režime. Na žiadnom inom webe nebeží."
+      },
+      "uploadGif": {
+        "q": "Môžem nahrať vlastný GIF?",
+        "a": "Samozrejme. Otvorte vyskakovacie okno rozšírenia, kliknite na dlaždicu na nahrávanie v mriežke mačiek a vyberte ľubovoľný GIF zo svojho počítača. Rozšírenie súbor načíta lokálne a použije ho ako posuvník. GIF sa nikdy nenahráva na server."
+      },
+      "gifFormats": {
+        "q": "Aké formáty súborov sú podporované?",
+        "a": "Rozšírenie podporuje animované súbory .gif. Statické obrázky a iné animované formáty (APNG, WebP, MP4) podporované nie sú. Pevný limit veľkosti neexistuje, no menšie GIF-y (do niekoľkých stoviek kilobajtov) pôsobia na lište priebehu svižnejšie."
+      },
+      "changePosition": {
+        "q": "Ako zmením veľkosť alebo polohu mačky?",
+        "a": "Otvorte vyskakovacie okno, vyberte mačku a použite posuvníky Výška a Odsadenie zhora, ktoré sa zobrazia. Výška má rozsah od 8 px do 80 px, odsadenie zhora od -50 px do +20 px. Nastavenia sa ukladajú pre každú mačku zvlášť, takže si každá téma pamätá vlastný vzhľad."
+      },
+      "catOffScreen": {
+        "q": "Prečo moja mačka nie je vycentrovaná alebo je mimo obrazovky?",
+        "a": "Rôzne GIF-y majú okolo animácie rôzne okraje, takže predvolené odsadenie nemusí vášmu vlastnému GIF-u presne sedieť. Otvorte vyskakovacie okno a posuňte posuvník Odsadenie zhora o pár pixelov, kým sa mačka nezarovná s posuvníkom. Ak to s úpravami preženiete, kliknite na „Nastaviť predvolenú polohu“."
+      },
+      "doesItTrack": {
+        "q": "Sleduje ma rozšírenie?",
+        "a": "Nie. Rozšírenie nezhromažďuje, neprenáša ani neukladá žiadne osobné údaje. Nečíta vašu históriu pozerania, vyhľadávacie dopyty ani žiadnu inú aktivitu na YouTube. Ukladá sa len výber mačky a polohy posuvníkov — oboje lokálne na vašom vlastnom zariadení."
+      },
+      "sendsDataAnywhere": {
+        "q": "Posiela niečo cez internet?",
+        "a": "Nie. Rozšírenie neposiela žiadne sieťové požiadavky. Nahrané GIF-y aj nastavenia zostávajú na vašom zariadení. Samotný web používa Google Analytics na anonymizované štatistiky návštevnosti — podrobnosti nájdete v Zásadách ochrany osobných údajov — no rozšírenie funguje úplne offline."
+      },
+      "worksOffline": {
+        "q": "Funguje offline?",
+        "a": "Samotné rozšírenie funguje offline. Videá na YouTube samozrejme potrebujú na prehrávanie pripojenie k internetu, no mačacie prekrytie samo žiadne externé pripojenie nepotrebuje."
+      },
+      "catNotShowing": {
+        "q": "Mačka sa na YouTube nezobrazuje. Čo mám robiť?",
+        "a": "Najprv obnovte kartu YouTube — rozšírenie potrebuje vložiť prekrytie pri načítaní stránky. Ak to nepomôže, overte, že je rozšírenie zapnuté: otvorte chrome://extensions a skontrolujte prepínač. Ak prekrytie pokazila nedávna aktualizácia prehrávača YouTube, nahláste to prosím cez kontaktný formulár, aby sme mohli vydať opravu."
+      },
+      "extensionDisappeared": {
+        "q": "Ikona rozšírenia zmizla z panela s nástrojmi.",
+        "a": "Chrome ju mohol odopnúť. Kliknite na ikonu dielika skladačky vedľa panela s adresou, zobrazia sa všetky vaše rozšírenia, a potom kliknite na ikonu špendlíka vedľa Nyan Progress Bar, aby sa vrátila na panel s nástrojmi."
+      },
+      "uploadFails": {
+        "q": "Môj GIF sa nedá nahrať.",
+        "a": "Uistite sa, že súbor má príponu .gif a je to skutočný animovaný GIF (niektoré „GIF-y“ na sociálnych sieťach sú v skutočnosti videá MP4 so zavádzajúcim označením). Ak je súbor veľmi veľký, skúste menšiu verziu — lokálne úložisko Chromu má limity. Inak nám pošlite kópiu cez kontaktný formulár a pozrieme sa na to."
+      },
+      "howToUninstall": {
+        "q": "Ako rozšírenie odinštalujem?",
+        "a": "Otvorte chrome://extensions, nájdite Nyan Progress Bar a kliknite na „Odstrániť“. Všetky lokálne uložené nastavenia a nahrané GIF-y sa automaticky vymažú. Ak máte chvíľku, krátky formulár spätnej väzby pri odinštalovaní nám pomôže zlepšiť ďalšiu verziu."
+      }
+    }
+  }
+}
