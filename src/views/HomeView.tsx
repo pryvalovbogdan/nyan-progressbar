@@ -38,11 +38,11 @@ export function HomeView({ dict, lang }: IHomeViewProps) {
   return (
     <PageContainer>
       <section className="text-center space-y-5 sm:space-y-6">
-        <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
+        <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-balance">
           {h.headingPart1} <span className="text-[#80deea]">{h.headingAccent}</span>
         </h1>
-        <p className="text-muted-foreground text-lg max-w-xl mx-auto">{h.description}</p>
-        <div className="pl-3 shrink-0 flex flex-wrap items-center gap-2 flex-col">
+        <p className="text-muted-foreground text-lg max-w-xl mx-auto text-balance">{h.description}</p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
             href={`https://chromewebstore.google.com/detail/nyan-cat-extension/${process.env.NEXT_PUBLIC_PROD_EXTENSION_ID}`}
             target="_blank"
@@ -55,42 +55,23 @@ export function HomeView({ dict, lang }: IHomeViewProps) {
           >
             {h.cta}
           </a>
-          <a
-            href={APP_STORE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={buttonVariants({
-              variant: 'accent',
-              size: 'lg',
-              className: 'rounded-lg text-base px-8',
-            })}
-          >
-            <Image src="/safari-icon.png" alt="" width={14} height={14} unoptimized />
-            {dict.customizerPage.banner.safariCta}
-          </a>
+          {APP_STORE_URL ? (
+            <a
+              href={APP_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={buttonVariants({
+                variant: 'outline',
+                size: 'lg',
+                className: 'text-base px-8',
+              })}
+            >
+              <Image src="/safari-icon.png" alt="" width={14} height={14} unoptimized />
+              {dict.customizerPage.banner.safariCta}
+            </a>
+          ) : null}
         </div>
       </section>
-
-      <section className="max-w-3xl mx-auto space-y-4 text-center">
-        <h2 className="text-2xl sm:text-3xl font-bold">{h.introHeading}</h2>
-        <p className="text-muted-foreground leading-relaxed text-left">{h.introBody1}</p>
-        <p className="text-muted-foreground leading-relaxed text-left">{h.introBody2}</p>
-      </section>
-
-      <StatsSection
-        labels={{
-          heading: dict.stats.heading,
-          totalInstalls: dict.stats.totalInstalls,
-          activeUsers: dict.stats.activeUsers,
-          countries: dict.stats.countries,
-          dailyUsers: dict.stats.dailyUsers,
-          catThemes: dict.stats.catThemes,
-        }}
-      />
-
-      <GoogleAd slot={AD_SLOTS.homeMid} />
-
-      <Separator />
 
       <section className="space-y-6 sm:space-y-8">
         <SectionHeading title={h.galleryHeading} description={h.galleryDesc} />
@@ -114,6 +95,24 @@ export function HomeView({ dict, lang }: IHomeViewProps) {
         </div>
       </section>
 
+      <section className="max-w-3xl mx-auto space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center text-balance">{h.introHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed text-pretty">{h.introBody1}</p>
+        <p className="text-muted-foreground leading-relaxed text-pretty">{h.introBody2}</p>
+      </section>
+
+      <StatsSection
+        labels={{
+          totalInstalls: dict.stats.totalInstalls,
+          activeUsers: dict.stats.activeUsers,
+          countries: dict.stats.countries,
+          dailyUsers: dict.stats.dailyUsers,
+          catThemes: dict.stats.catThemes,
+        }}
+      />
+
+      <GoogleAd slot={AD_SLOTS.homeMid} />
+
       <section className="space-y-6">
         <SectionHeading title={h.howHeading} description={h.howIntro} align="center" />
         <div className="grid sm:grid-cols-3 gap-4">
@@ -132,10 +131,10 @@ export function HomeView({ dict, lang }: IHomeViewProps) {
       </section>
 
       <section className="max-w-3xl mx-auto space-y-4">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center">{h.useCasesHeading}</h2>
-        <p className="text-muted-foreground leading-relaxed">{h.useCasesBody1}</p>
-        <p className="text-muted-foreground leading-relaxed">{h.useCasesBody2}</p>
-        <p className="text-muted-foreground leading-relaxed">{h.useCasesBody3}</p>
+        <h2 className="text-2xl sm:text-3xl font-bold text-center text-balance">{h.useCasesHeading}</h2>
+        <p className="text-muted-foreground leading-relaxed text-pretty">{h.useCasesBody1}</p>
+        <p className="text-muted-foreground leading-relaxed text-pretty">{h.useCasesBody2}</p>
+        <p className="text-muted-foreground leading-relaxed text-pretty">{h.useCasesBody3}</p>
       </section>
 
       <GoogleAd slot={AD_SLOTS.homeFooter} />

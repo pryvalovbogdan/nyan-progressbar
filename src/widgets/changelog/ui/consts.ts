@@ -2,9 +2,29 @@ import type { IVersionEntry } from './types';
 
 export const VERSIONS: IVersionEntry[] = [
   {
+    version: '2.2.0',
+    date: '2026-09-30',
+    latest: true,
+    changes: [
+      {
+        type: 'new',
+        text: 'Hide rainbow and Hide night sky toggles in the popup — applied instantly to every open YouTube tab and synced across your devices',
+      },
+      { type: 'new', text: 'Slovak translation' },
+      {
+        type: 'fix',
+        text: 'Rainbow no longer goes missing on chaptered videos opened from the YouTube home page',
+      },
+      {
+        type: 'improvement',
+        text: 'Played-bar styling moved to CSS, so YouTube player updates can no longer strip it from the first chapter',
+      },
+      { type: 'perf', text: 'Duplicate page observers removed — lighter on long YouTube sessions' },
+    ],
+  },
+  {
     version: '2.1.0',
     date: '2026-06-23',
-    latest: true,
     changes: [
       { type: 'new', text: 'Safari support — install Kitty Progress Bar on macOS from the App Store' },
       {

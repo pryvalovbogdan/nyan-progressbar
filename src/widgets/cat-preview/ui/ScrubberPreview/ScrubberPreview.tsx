@@ -3,6 +3,7 @@
 import Image from 'next/image';
 
 import { useCustomizerStore } from '@features/customizer';
+import { useReducedMotion } from '@shared/hooks/useReducedMotion';
 
 import type { IScrubberPreviewProps } from './types';
 
@@ -10,8 +11,10 @@ const VIDEO_ID = 'Ufzk5xf8Rho';
 
 export function ScrubberPreview({ labels, disabled = false }: IScrubberPreviewProps) {
   const { selectedCat, customGif, height, top } = useCustomizerStore();
+  const reducedMotion = useReducedMotion();
   const imgSrc = selectedCat === '__custom__' && customGif ? customGif : `/cats/${selectedCat}`;
   const progress = 42;
+  const autoplay = reducedMotion ? 0 : 1;
 
   return (
     <div className={`card p-6 space-y-4 relative${disabled ? ' opacity-50' : ''}`}>
@@ -21,7 +24,7 @@ export function ScrubberPreview({ labels, disabled = false }: IScrubberPreviewPr
 
       <div className="rounded-lg overflow-hidden bg-black aspect-video relative">
         <iframe
-          src={`https://www.youtube.com/embed/${VIDEO_ID}?rel=0&modestbranding=1&autoplay=1&mute=1&controls=0`}
+          src={`https://www.youtube.com/embed/${VIDEO_ID}?rel=0&modestbranding=1&autoplay=${autoplay}&mute=1&controls=0`}
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

@@ -135,6 +135,21 @@
   html {
     @apply font-sans;
   }
+
+  /* Reduced-motion safety net: neutralize every CSS transition, animation, and
+     scroll-driven motion for users who ask for it. Component-level motion that
+     CSS can't reach (autoplaying video, JS count-ups) is gated via the
+     useReducedMotion hook. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 }
 
 @layer components {

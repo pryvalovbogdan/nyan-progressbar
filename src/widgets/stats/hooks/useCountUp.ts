@@ -1,10 +1,19 @@
 import { useEffect, useState } from 'react';
 
+import { useReducedMotion } from '@shared/hooks/useReducedMotion';
+
 export function useCountUp(target: number, started: boolean, duration = 1800) {
   const [count, setCount] = useState(0);
+  const reducedMotion = useReducedMotion();
 
   useEffect(() => {
     if (!started) return;
+
+    if (reducedMotion) {
+      setCount(target);
+
+      return;
+    }
 
     const startTime = performance.now();
 
@@ -21,7 +30,7 @@ export function useCountUp(target: number, started: boolean, duration = 1800) {
     };
 
     requestAnimationFrame(tick);
-  }, [started, target, duration]);
+  }, [started, target, duration, reducedMotion]);
 
   return count;
 }

@@ -46,6 +46,7 @@ const OG_LOCALE: Record<Locale, string> = {
   vi: 'vi_VN',
   id: 'id_ID',
   tl: 'tl_PH',
+  sk: 'sk_SK',
 };
 
 interface IGeneratePageMetadataOverrides {

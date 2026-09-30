@@ -2,7 +2,7 @@ import type en from './en.json';
 
 export type Dictionary = typeof en;
 
-export const locales = ['en', 'es', 'pt', 'vi', 'id', 'fr', 'tl', 'pl', 'de', 'uk'] as const;
+export const locales = ['en', 'es', 'pt', 'vi', 'id', 'fr', 'tl', 'pl', 'de', 'uk', 'sk'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
 
@@ -21,6 +21,7 @@ const loaders: Record<Locale, () => Promise<Dictionary>> = {
   pl: () => import('./pl.json').then(m => m.default),
   de: () => import('./de.json').then(m => m.default),
   uk: () => import('./uk.json').then(m => m.default),
+  sk: () => import('./sk.json').then(m => m.default),
 };
 
 export function getDictionary(locale: Locale): Promise<Dictionary> {
