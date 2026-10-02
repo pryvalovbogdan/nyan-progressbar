@@ -201,8 +201,8 @@
     "feature4Desc": "I-drag ang anumang GIF sa popup para gamitin bilang scrubber.",
     "feature5Title": "YouTube Music",
     "feature5Desc": "Gumagana rin sa music.youtube.com.",
-    "feature6Title": "11 wika",
-    "feature6Desc": "Available ang interface sa EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "feature6Title": "12 wika",
+    "feature6Desc": "Available ang interface sa EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
     "questionHeading": "May tanong ka ba?",
     "questionPre": "Bisitahin ang",
     "questionLinkText": "support center",
@@ -348,7 +348,12 @@
     "adjustPosition": "Ayusin ang posisyon",
     "height": "Taas",
     "topOffset": "Itaas na offset",
-    "uploadGif": "I-upload ang iyong GIF"
+    "uploadGif": "I-upload ang iyong GIF",
+    "sections": {
+      "kitties": "Kuting",
+      "doggies": "Tuta",
+      "buddies": "Barkada"
+    }
   },
   "preview": {
     "label": "Live Preview",
@@ -600,7 +605,12 @@
       "tiger": "Tigre",
       "deer": "Usa",
       "bear": "Oso",
-      "cartoon": "Cartoon"
+      "cartoon": "Cartoon",
+      "fox": "Soro",
+      "shark": "Pating",
+      "music": "Musika",
+      "cozy": "Maginhawa",
+      "dark": "Madilim"
     },
     "styles": {
       "nyan-classic": {
@@ -694,6 +704,62 @@
       "osito": {
         "title": "Munting Oso",
         "description": "Malambot na animated na oso — bilog at cozy, perpektong kasama sa mahabang panonood."
+      },
+      "rolling-cat": {
+        "title": "Gumugulong na Pusa",
+        "description": "Isang matabang pixel na pusa na gumugulong sa bar — bilog, malambot, at walang tigil."
+      },
+      "dancing-kitty": {
+        "title": "Sumasayaw na Kuting",
+        "description": "Isang abuhing kuting na may gintong kampanilya na nagpapakitang-gilas sa sayaw — puro party."
+      },
+      "snow-kitten": {
+        "title": "Kuting ng Niyebe",
+        "description": "Isang malambot na puting pixel na kuting na may asul na mata, nakaupo nang maayos sa bar mo."
+      },
+      "scarf-cat": {
+        "title": "Pusang may Bandana",
+        "description": "Isang inaantok na puting kuting na nakabalot sa pulang scarf — pinakamaginhawang scrubber sa malamig na gabi."
+      },
+      "night-walker": {
+        "title": "Naglalakad sa Gabi",
+        "description": "Isang makinis na itim na pusa na naglalakad sa bar — misteryoso, elegante, bagay sa dark mode."
+      },
+      "happy-cat": {
+        "title": "Masayang Pusa",
+        "description": "Isang nakangiting puting kuting na napapalibutan ng puso — instant good vibes sa kahit anong video."
+      },
+      "chubby-cat": {
+        "title": "Matabang Pusa",
+        "description": "Isang bilog na kulay-cream na pusa na kumakaway ng paa — malambot at puno ng attitude."
+      },
+      "shadow-cat": {
+        "title": "Aninong Pusa",
+        "description": "Isang madilim na silhouette ng kuting na tumatalon — tahimik, minimal, at medyo misteryoso."
+      },
+      "pixel-corgi": {
+        "title": "Pixel Corgi",
+        "description": "Isang masayang pixel corgi na tumatakbo nang nakalabas ang dila — good boy sa bawat video."
+      },
+      "puppy-love": {
+        "title": "Puppy Love",
+        "description": "Isang maliit na kulay-cream na tuta na may berdeng bandana, abot-tainga ang ngiti."
+      },
+      "running-pug": {
+        "title": "Tumatakbong Pug",
+        "description": "Isang determinadong pixel na pug na tumatakbo sa buong haba ng video mo."
+      },
+      "music-fox": {
+        "title": "Sorong Mahilig sa Musika",
+        "description": "Isang pulang soro na naka-headphones na naglalakad sa beat — bagay sa YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Ibong Bahaghari",
+        "description": "Isang makulay na maliit na ibon na pumapagaspas ng makintab nitong pakpak sa bar."
+      },
+      "ramen-shark": {
+        "title": "Ramen Pating",
+        "description": "Isang gutom na pating na humihigop ng noodles sa alon — merienda vibes sa mga video mo."
       }
     },
     "collections": {
@@ -729,7 +795,7 @@
     "s3Body2": "Ang piniling pusa, taas, at top-offset values mo ay nasi-save nang lokal gamit ang Chrome Storage API sa device mo. Walang ina-upload sa server. Hindi gumagawa ng network requests ang extension; hindi nito binabasa ang watch history mo, search queries, o anumang ibang impormasyon tungkol sa paggamit mo sa YouTube. Kapag in-uninstall mo, lahat ng bakas ay nawawala kasama nito.",
     "s4Heading": "Sino ang gumagawa",
     "s4Body": "Ang Nyan Progress Bar ay ginagawa at pinapanatili ng independent na developer na nagtatrabaho dito sa sariling oras. Open source ang proyekto — tinatanggap ang pull requests para sa bagong cat designs, translations, at bug fixes, at ang contact form sa site na ito ay direktang papunta sa maintainer.",
-    "s4Body2": "Naisalin ang site sa sampung wika (English, Spanish, Portuguese, French, German, Polish, Ukrainian, Indonesian, Vietnamese, at Filipino) para makapagbasa ang mga users sa buong mundo tungkol sa extension sa sariling wika.",
+    "s4Body2": "Naisalin ang site sa labing-isang wika (English, Spanish, Portuguese, French, German, Polish, Ukrainian, Slovak, Indonesian, Vietnamese, at Filipino) para makapagbasa ang mga users sa buong mundo tungkol sa extension sa sariling wika.",
     "s5Heading": "Ang mga pinahahalagahan namin",
     "s5Intro": "Ilang prinsipyo ang gumagabay kung paano namin ginagawa at pinapatakbo ang proyekto:",
     "s5Item1": "Privacy una. Hindi nangongolekta o nagpapadala ng data ang extension — period.",

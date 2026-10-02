@@ -201,8 +201,8 @@
     "feature4Desc": "Glisse n'importe quel GIF dans le popup pour l'utiliser comme scrubber.",
     "feature5Title": "YouTube Music",
     "feature5Desc": "Fonctionne aussi sur music.youtube.com.",
-    "feature6Title": "11 langues",
-    "feature6Desc": "Interface disponible en EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "feature6Title": "12 langues",
+    "feature6Desc": "Interface disponible en EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
     "questionHeading": "Une question ?",
     "questionPre": "Consultez le",
     "questionLinkText": "centre de support",
@@ -348,7 +348,12 @@
     "adjustPosition": "Ajuster la position",
     "height": "Hauteur",
     "topOffset": "Décalage supérieur",
-    "uploadGif": "Télécharger votre GIF"
+    "uploadGif": "Télécharger votre GIF",
+    "sections": {
+      "kitties": "Chatons",
+      "doggies": "Toutous",
+      "buddies": "Copains"
+    }
   },
   "preview": {
     "label": "Aperçu en direct",
@@ -600,7 +605,12 @@
       "tiger": "Tigre",
       "deer": "Cerf",
       "bear": "Ours",
-      "cartoon": "Cartoon"
+      "cartoon": "Cartoon",
+      "fox": "Renard",
+      "shark": "Requin",
+      "music": "Musique",
+      "cozy": "Cosy",
+      "dark": "Sombre"
     },
     "styles": {
       "nyan-classic": {
@@ -694,6 +704,62 @@
       "osito": {
         "title": "Petit Ourson",
         "description": "Un petit ourson animé tout doux — rond et cosy, compagnon parfait pour les longues sessions."
+      },
+      "rolling-cat": {
+        "title": "Chat Roulant",
+        "description": "Un chat pixel tout rond qui roule le long de la barre — moelleux et inarrêtable."
+      },
+      "dancing-kitty": {
+        "title": "Chaton Danseur",
+        "description": "Un chaton tigré gris à clochette dorée qui enchaîne ses meilleurs pas — ambiance fête garantie."
+      },
+      "snow-kitten": {
+        "title": "Chaton des Neiges",
+        "description": "Un chaton pixel blanc et duveteux aux yeux bleus, sagement assis sur ta barre."
+      },
+      "scarf-cat": {
+        "title": "Chat à Écharpe",
+        "description": "Un chaton blanc ensommeillé emmitouflé dans une écharpe rouge — la barre la plus cosy pour l’hiver."
+      },
+      "night-walker": {
+        "title": "Rôdeur de Nuit",
+        "description": "Un chat noir élégant qui flâne le long de la barre — mystérieux et taillé pour le mode sombre."
+      },
+      "happy-cat": {
+        "title": "Chat Joyeux",
+        "description": "Un chaton blanc rayonnant entouré de cœurs — la bonne humeur assurée sur chaque vidéo."
+      },
+      "chubby-cat": {
+        "title": "Chat Dodu",
+        "description": "Un chat crème tout rond qui agite la patte — doux, moelleux et plein d’attitude."
+      },
+      "shadow-cat": {
+        "title": "Chat de l’Ombre",
+        "description": "Une silhouette sombre de chaton qui bondit — discrète, minimaliste et un brin mystérieuse."
+      },
+      "pixel-corgi": {
+        "title": "Corgi Pixel",
+        "description": "Un corgi pixel tout content qui trottine langue pendante — un bon chien pour chaque vidéo."
+      },
+      "puppy-love": {
+        "title": "Amour de Chiot",
+        "description": "Un minuscule chiot crème avec un bandana vert, souriant jusqu’aux oreilles."
+      },
+      "running-pug": {
+        "title": "Carlin Coureur",
+        "description": "Un carlin pixel déterminé qui sprinte d’un bout à l’autre de ta vidéo."
+      },
+      "music-fox": {
+        "title": "Renard Mélomane",
+        "description": "Un renard roux casque sur les oreilles qui marche en rythme — parfait pour YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Oiseau Arc-en-ciel",
+        "description": "Un petit oiseau coloré qui bat de ses ailes irisées le long de la barre."
+      },
+      "ramen-shark": {
+        "title": "Requin Ramen",
+        "description": "Un requin affamé qui aspire ses nouilles dans les vagues — l’heure du goûter sur tes vidéos."
       }
     },
     "collections": {
@@ -729,7 +795,7 @@
     "s3Body2": "Votre choix de chat, la hauteur et le décalage haut sont sauvegardés localement via la Chrome Storage API sur votre propre appareil. Rien n'est envoyé à un serveur. L'extension ne fait aucune requête réseau ; elle ne lit pas votre historique de visionnage, vos recherches ou quoi que ce soit d'autre sur votre utilisation de YouTube. Si vous désinstallez l'extension, toute trace disparaît avec elle.",
     "s4Heading": "Qui la construit",
     "s4Body": "Nyan Progress Bar est construite et maintenue par un développeur indépendant qui y travaille sur son temps libre. Le projet est open source — les pull requests pour de nouveaux designs de chats, des traductions et des corrections sont les bienvenues, et le formulaire de contact de ce site va directement au mainteneur.",
-    "s4Body2": "Le site est traduit en dix langues (anglais, espagnol, portugais, français, allemand, polonais, ukrainien, indonésien, vietnamien et philippin) pour que des utilisateurs du monde entier puissent lire sur l'extension dans leur propre langue.",
+    "s4Body2": "Le site est traduit en onze langues (anglais, espagnol, portugais, français, allemand, polonais, ukrainien, slovaque, indonésien, vietnamien et philippin) pour que des utilisateurs du monde entier puissent lire sur l'extension dans leur propre langue.",
     "s5Heading": "Nos valeurs",
     "s5Intro": "Quelques principes guident la façon dont nous construisons et gérons le projet :",
     "s5Item1": "La vie privée d'abord. L'extension ne collecte et ne transmet aucune donnée — point.",

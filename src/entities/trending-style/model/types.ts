@@ -25,7 +25,21 @@ export type TrendingStyleId =
   | 'cartoon-cat'
   | 'pixel-tiger'
   | 'fawn'
-  | 'osito';
+  | 'osito'
+  | 'rolling-cat'
+  | 'dancing-kitty'
+  | 'snow-kitten'
+  | 'scarf-cat'
+  | 'night-walker'
+  | 'happy-cat'
+  | 'chubby-cat'
+  | 'shadow-cat'
+  | 'pixel-corgi'
+  | 'puppy-love'
+  | 'running-pug'
+  | 'music-fox'
+  | 'rainbow-bird'
+  | 'ramen-shark';
 
 export type TrendingTagKey =
   | 'nyan'
@@ -48,7 +62,12 @@ export type TrendingTagKey =
   | 'tiger'
   | 'deer'
   | 'bear'
-  | 'cartoon';
+  | 'cartoon'
+  | 'fox'
+  | 'shark'
+  | 'music'
+  | 'cozy'
+  | 'dark';
 
 export type TrendingCollectionId = 'classic' | 'pixel' | 'kawaii' | 'dance' | 'monochrome' | 'orange';
 

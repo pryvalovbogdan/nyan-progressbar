@@ -357,7 +357,12 @@
     "adjustPosition": "Upraviť polohu",
     "height": "Výška",
     "topOffset": "Odsadenie zhora",
-    "uploadGif": "Nahrať GIF"
+    "uploadGif": "Nahrať GIF",
+    "sections": {
+      "kitties": "Mačičky",
+      "doggies": "Psíčkovia",
+      "buddies": "Kamoši"
+    }
   },
   "preview": {
     "label": "Živý náhľad",
@@ -610,7 +615,12 @@
       "tiger": "Tiger",
       "deer": "Jeleň",
       "bear": "Medveď",
-      "cartoon": "Kreslené"
+      "cartoon": "Kreslené",
+      "fox": "Líška",
+      "shark": "Žralok",
+      "music": "Hudba",
+      "cozy": "Útulný",
+      "dark": "Tmavý"
     },
     "styles": {
       "nyan-classic": {
@@ -704,6 +714,62 @@
       "osito": {
         "title": "Little Bear",
         "description": "Jemný animovaný medvedík — útulný a guľatý, ideálna spoločnosť na dlhé sledovanie videí."
+      },
+      "rolling-cat": {
+        "title": "Kotúľajúca sa mačka",
+        "description": "Bucľatá pixelová mačka sa kotúľa po lište — guľatá, chlpatá a nezastaviteľná."
+      },
+      "dancing-kitty": {
+        "title": "Tancujúce mačiatko",
+        "description": "Sivé pásikavé mačiatko so zlatým zvončekom predvádza svoje najlepšie kroky — čistá párty."
+      },
+      "snow-kitten": {
+        "title": "Snehové mačiatko",
+        "description": "Chlpaté biele pixelové mačiatko s jasnomodrými očami pekne sedí na tvojej lište."
+      },
+      "scarf-cat": {
+        "title": "Mačka so šálom",
+        "description": "Ospalé biele mačiatko zabalené v červenom šále — najútulnejšia lišta na zimné večery."
+      },
+      "night-walker": {
+        "title": "Nočný tulák",
+        "description": "Elegantná čierna mačka sa prechádza po lište — tajomná a ako stvorená pre tmavý režim."
+      },
+      "happy-cat": {
+        "title": "Šťastná mačka",
+        "description": "Žiarivé biele mačiatko obklopené srdiečkami — okamžite dobrá nálada pri každom videu."
+      },
+      "chubby-cat": {
+        "title": "Bucľatá mačka",
+        "description": "Guľatá krémová mačka máva labkou — mäkká, roztomilá a plná sebavedomia."
+      },
+      "shadow-cat": {
+        "title": "Tieňová mačka",
+        "description": "Tmavá silueta mačiatka v skoku — tichá, minimalistická a trochu tajomná."
+      },
+      "pixel-corgi": {
+        "title": "Pixelový corgi",
+        "description": "Veselý pixelový corgi cupitá s vyplazeným jazykom — dobrý psík ku každému videu."
+      },
+      "puppy-love": {
+        "title": "Šteňacia láska",
+        "description": "Maličké krémové šteniatko so zelenou šatkou, usmiate od ucha k uchu."
+      },
+      "running-pug": {
+        "title": "Bežiaci mops",
+        "description": "Odhodlaný pixelový mops šprintuje celou dĺžkou tvojho videa."
+      },
+      "music-fox": {
+        "title": "Hudobná líška",
+        "description": "Červená líška so slúchadlami kráča do rytmu — ako stvorená pre YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Dúhový vtáčik",
+        "description": "Farebný vtáčik máva dúhovými krídlami ponad lištu."
+      },
+      "ramen-shark": {
+        "title": "Ramen žralok",
+        "description": "Hladný žralok srká rezance vo vlnách — desiatová nálada pre tvoje videá."
       }
     },
     "collections": {

@@ -210,8 +210,8 @@
     "feature4Desc": "Drop any GIF into the popup to use it as your scrubber.",
     "feature5Title": "YouTube Music",
     "feature5Desc": "Works on music.youtube.com too.",
-    "feature6Title": "11 languages",
-    "feature6Desc": "Interface available in EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "feature6Title": "12 languages",
+    "feature6Desc": "Interface available in EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
     "questionHeading": "Have a question?",
     "questionPre": "Check the",
     "questionLinkText": "support center",
@@ -357,7 +357,12 @@
     "adjustPosition": "Adjust Position",
     "height": "Height",
     "topOffset": "Top offset",
-    "uploadGif": "Upload GIF"
+    "uploadGif": "Upload GIF",
+    "sections": {
+      "kitties": "Kitties",
+      "doggies": "Doggies",
+      "buddies": "Buddies"
+    }
   },
   "preview": {
     "label": "Live Preview",
@@ -610,7 +615,12 @@
       "tiger": "Tiger",
       "deer": "Deer",
       "bear": "Bear",
-      "cartoon": "Cartoon"
+      "cartoon": "Cartoon",
+      "fox": "Fox",
+      "shark": "Shark",
+      "music": "Music",
+      "cozy": "Cozy",
+      "dark": "Dark"
     },
     "styles": {
       "nyan-classic": {
@@ -704,6 +714,62 @@
       "osito": {
         "title": "Little Bear",
         "description": "A soft animated bear — cozy and round, perfect company for long video sessions."
+      },
+      "rolling-cat": {
+        "title": "Rolling Cat",
+        "description": "A chubby pixel cat tumbling along the bar — round, fluffy and endlessly rolling."
+      },
+      "dancing-kitty": {
+        "title": "Dancing Kitty",
+        "description": "A grey tabby with a golden bell busting out its best moves — pure party energy."
+      },
+      "snow-kitten": {
+        "title": "Snow Kitten",
+        "description": "A fluffy white pixel kitten with bright blue eyes, sitting pretty on your scrubber."
+      },
+      "scarf-cat": {
+        "title": "Cozy Scarf Cat",
+        "description": "A sleepy white kitty wrapped in a red scarf — the coziest scrubber for winter binges."
+      },
+      "night-walker": {
+        "title": "Night Walker",
+        "description": "A sleek black cat strolling along the bar — moody, elegant and made for dark mode."
+      },
+      "happy-cat": {
+        "title": "Happy Cat",
+        "description": "A beaming white kitten surrounded by hearts — an instant good mood for any video."
+      },
+      "chubby-cat": {
+        "title": "Chubby Cat",
+        "description": "A round cream cat waving its paw — soft, squishy and full of attitude."
+      },
+      "shadow-cat": {
+        "title": "Shadow Cat",
+        "description": "A dark silhouette kitten leaping along — quiet, minimal and a little mysterious."
+      },
+      "pixel-corgi": {
+        "title": "Pixel Corgi",
+        "description": "A happy pixel corgi trotting along with its tongue out — a good boy for every video."
+      },
+      "puppy-love": {
+        "title": "Puppy Love",
+        "description": "A tiny cream puppy in a green bandana, smiling from ear to ear."
+      },
+      "running-pug": {
+        "title": "Running Pug",
+        "description": "A determined pixel pug sprinting the full length of your video."
+      },
+      "music-fox": {
+        "title": "Music Fox",
+        "description": "A red fox with headphones on, strolling to the beat — made for YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Rainbow Bird",
+        "description": "A colourful little bird flapping its iridescent wings across the bar."
+      },
+      "ramen-shark": {
+        "title": "Ramen Shark",
+        "description": "A hungry shark slurping noodles in the waves — snack-time energy for your videos."
       }
     },
     "collections": {
@@ -729,7 +795,7 @@
     "s3Body2": "Your cat selection, height, and top-offset values are saved locally using the Chrome Storage API on your own device. Nothing is uploaded to a server. The extension does not make any network requests; it does not read your watch history, your search queries, or anything else about your YouTube usage. If you uninstall the extension, every trace of it disappears with it.",
     "s4Heading": "Who builds it",
     "s4Body": "Nyan Progress Bar is built and maintained by an independent developer who works on it in their spare time. The project is open source — pull requests for new cat designs, translations, and bug fixes are very welcome, and the contact form on this site goes directly to the maintainer.",
-    "s4Body2": "The site is translated into ten languages (English, Spanish, Portuguese, French, German, Polish, Ukrainian, Indonesian, Vietnamese, and Filipino) so users around the world can read about the extension in their own language.",
+    "s4Body2": "The site is translated into eleven languages (English, Spanish, Portuguese, French, German, Polish, Ukrainian, Slovak, Indonesian, Vietnamese, and Filipino) so users around the world can read about the extension in their own language.",
     "s5Heading": "Our values",
     "s5Intro": "A few principles guide how we build and run the project:",
     "s5Item1": "Privacy first. The extension does not collect or transmit data — period.",

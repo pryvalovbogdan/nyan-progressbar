@@ -77,7 +77,11 @@ export function HomeView({ dict, lang }: IHomeViewProps) {
         <SectionHeading title={h.galleryHeading} description={h.galleryDesc} />
 
         <div className="grid lg:grid-cols-[1fr_340px] gap-6 sm:gap-8 items-start">
-          <ScrubberGallery uploadLabel={dict.customizer.uploadGif} isMainPage />
+          <ScrubberGallery
+            uploadLabel={dict.customizer.uploadGif}
+            sectionLabels={dict.customizer.sections}
+            isMainPage
+          />
           <div className="lg:sticky lg:top-20">
             <CustomizerPanel
               labels={{
