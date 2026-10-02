@@ -201,8 +201,8 @@
     "feature4Desc": "Kéo bất kỳ GIF nào vào popup để dùng làm scrubber.",
     "feature5Title": "YouTube Music",
     "feature5Desc": "Cũng hoạt động trên music.youtube.com.",
-    "feature6Title": "11 ngôn ngữ",
-    "feature6Desc": "Giao diện có sẵn bằng EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "feature6Title": "12 ngôn ngữ",
+    "feature6Desc": "Giao diện có sẵn bằng EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
     "questionHeading": "Có câu hỏi không?",
     "questionPre": "Xem",
     "questionLinkText": "trung tâm hỗ trợ",
@@ -348,7 +348,12 @@
     "adjustPosition": "Điều chỉnh vị trí",
     "height": "Chiều cao",
     "topOffset": "Độ lệch trên",
-    "uploadGif": "Tải lên GIF của bạn"
+    "uploadGif": "Tải lên GIF của bạn",
+    "sections": {
+      "kitties": "Mèo con",
+      "doggies": "Cún con",
+      "buddies": "Bạn nhỏ"
+    }
   },
   "preview": {
     "label": "Xem trước trực tiếp",
@@ -600,7 +605,12 @@
       "tiger": "Hổ",
       "deer": "Hươu",
       "bear": "Gấu",
-      "cartoon": "Hoạt hình"
+      "cartoon": "Hoạt hình",
+      "fox": "Cáo",
+      "shark": "Cá mập",
+      "music": "Âm nhạc",
+      "cozy": "Ấm áp",
+      "dark": "Tối"
     },
     "styles": {
       "nyan-classic": {
@@ -694,6 +704,62 @@
       "osito": {
         "title": "Gấu Nhỏ",
         "description": "Một chú gấu hoạt hình mềm mại — tròn xoe, ấm cúng, bạn đồng hành hoàn hảo cho buổi xem dài."
+      },
+      "rolling-cat": {
+        "title": "Mèo Lăn Tròn",
+        "description": "Một chú mèo pixel mũm mĩm lăn dọc thanh tiến trình — tròn trịa, mềm mại, lăn mãi không thôi."
+      },
+      "dancing-kitty": {
+        "title": "Mèo Nhảy Múa",
+        "description": "Chú mèo mướp xám đeo chuông vàng trổ tài nhảy — năng lượng tiệc tùng tràn đầy."
+      },
+      "snow-kitten": {
+        "title": "Mèo Tuyết",
+        "description": "Chú mèo pixel trắng bông xù với đôi mắt xanh biếc, ngồi ngoan trên thanh tiến trình."
+      },
+      "scarf-cat": {
+        "title": "Mèo Quàng Khăn",
+        "description": "Chú mèo trắng ngái ngủ quấn khăn đỏ — thanh tiến trình ấm áp nhất cho mùa đông."
+      },
+      "night-walker": {
+        "title": "Kẻ Dạo Đêm",
+        "description": "Chú mèo đen thanh lịch dạo bước trên thanh tiến trình — bí ẩn và hợp với chế độ tối."
+      },
+      "happy-cat": {
+        "title": "Mèo Vui Vẻ",
+        "description": "Chú mèo trắng tươi cười giữa những trái tim — niềm vui tức thì cho mọi video."
+      },
+      "chubby-cat": {
+        "title": "Mèo Mũm Mĩm",
+        "description": "Chú mèo màu kem tròn vo vẫy vẫy chân — mềm mại, đáng yêu và đầy cá tính."
+      },
+      "shadow-cat": {
+        "title": "Mèo Bóng Đêm",
+        "description": "Bóng dáng chú mèo đen nhảy vút qua — lặng lẽ, tối giản và có chút bí ẩn."
+      },
+      "pixel-corgi": {
+        "title": "Corgi Pixel",
+        "description": "Chú corgi pixel vui vẻ chạy lon ton lè lưỡi — một bé ngoan cho mọi video."
+      },
+      "puppy-love": {
+        "title": "Cún Đáng Yêu",
+        "description": "Chú cún nhỏ màu kem đeo khăn xanh, cười tít mắt."
+      },
+      "running-pug": {
+        "title": "Pug Chạy Bộ",
+        "description": "Chú pug pixel quyết tâm chạy hết chiều dài video của bạn."
+      },
+      "music-fox": {
+        "title": "Cáo Âm Nhạc",
+        "description": "Chú cáo đỏ đeo tai nghe bước đi theo nhịp — sinh ra cho YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Chim Cầu Vồng",
+        "description": "Chú chim nhỏ sặc sỡ vỗ đôi cánh óng ánh dọc thanh tiến trình."
+      },
+      "ramen-shark": {
+        "title": "Cá Mập Ramen",
+        "description": "Chú cá mập đói bụng húp mì giữa sóng — năng lượng ăn vặt cho video của bạn."
       }
     },
     "collections": {
@@ -729,7 +795,7 @@
     "s3Body2": "Lựa chọn mèo, chiều cao và giá trị độ lệch trên của bạn được lưu cục bộ bằng Chrome Storage API trên thiết bị của chính bạn. Không gì được tải lên máy chủ. Tiện ích không thực hiện yêu cầu mạng nào; nó không đọc lịch sử xem, truy vấn tìm kiếm hay bất kỳ thông tin nào khác về cách bạn dùng YouTube. Khi bạn gỡ tiện ích, mọi dấu vết biến mất cùng nó.",
     "s4Heading": "Ai xây dựng",
     "s4Body": "Nyan Progress Bar được xây dựng và duy trì bởi một nhà phát triển độc lập làm việc trên nó trong thời gian rảnh. Dự án là mã nguồn mở — pull request cho thiết kế mèo mới, bản dịch và sửa lỗi rất được hoan nghênh, và biểu mẫu liên hệ trên trang này đi thẳng tới người duy trì.",
-    "s4Body2": "Trang web được dịch sang mười ngôn ngữ (Anh, Tây Ban Nha, Bồ Đào Nha, Pháp, Đức, Ba Lan, Ukraina, Indonesia, Việt Nam và Philippines) để người dùng khắp thế giới có thể đọc về tiện ích bằng ngôn ngữ của mình.",
+    "s4Body2": "Trang web được dịch sang mười một ngôn ngữ (Anh, Tây Ban Nha, Bồ Đào Nha, Pháp, Đức, Ba Lan, Ukraina, Slovakia, Indonesia, Việt Nam và Philippines) để người dùng khắp thế giới có thể đọc về tiện ích bằng ngôn ngữ của mình.",
     "s5Heading": "Giá trị của chúng tôi",
     "s5Intro": "Một vài nguyên tắc dẫn dắt cách chúng tôi xây dựng và vận hành dự án:",
     "s5Item1": "Quyền riêng tư trước. Tiện ích không thu thập hay truyền dữ liệu — chấm hết.",

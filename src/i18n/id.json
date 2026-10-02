@@ -201,8 +201,8 @@
     "feature4Desc": "Seret GIF apa saja ke popup untuk menggunakannya sebagai scrubber.",
     "feature5Title": "YouTube Music",
     "feature5Desc": "Juga berfungsi di music.youtube.com.",
-    "feature6Title": "11 bahasa",
-    "feature6Desc": "Antarmuka tersedia dalam EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "feature6Title": "12 bahasa",
+    "feature6Desc": "Antarmuka tersedia dalam EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
     "questionHeading": "Ada pertanyaan?",
     "questionPre": "Kunjungi",
     "questionLinkText": "pusat dukungan",
@@ -348,7 +348,12 @@
     "adjustPosition": "Sesuaikan posisi",
     "height": "Tinggi",
     "topOffset": "Offset atas",
-    "uploadGif": "Unggah GIF kamu"
+    "uploadGif": "Unggah GIF kamu",
+    "sections": {
+      "kitties": "Kucing imut",
+      "doggies": "Anjing imut",
+      "buddies": "Sobat"
+    }
   },
   "preview": {
     "label": "Pratinjau langsung",
@@ -600,7 +605,12 @@
       "tiger": "Harimau",
       "deer": "Rusa",
       "bear": "Beruang",
-      "cartoon": "Kartun"
+      "cartoon": "Kartun",
+      "fox": "Rubah",
+      "shark": "Hiu",
+      "music": "Musik",
+      "cozy": "Nyaman",
+      "dark": "Gelap"
     },
     "styles": {
       "nyan-classic": {
@@ -694,6 +704,62 @@
       "osito": {
         "title": "Beruang Kecil",
         "description": "Beruang animasi lembut — bulat dan hangat, teman ideal untuk sesi nonton panjang."
+      },
+      "rolling-cat": {
+        "title": "Kucing Berguling",
+        "description": "Kucing piksel gembul berguling di sepanjang bar — bulat, empuk, dan tak berhenti."
+      },
+      "dancing-kitty": {
+        "title": "Kucing Menari",
+        "description": "Kucing belang abu-abu dengan lonceng emas memamerkan gerakan terbaiknya — energi pesta."
+      },
+      "snow-kitten": {
+        "title": "Anak Kucing Salju",
+        "description": "Anak kucing piksel putih berbulu lebat dengan mata biru cerah, duduk manis di bar-mu."
+      },
+      "scarf-cat": {
+        "title": "Kucing Berselendang",
+        "description": "Kucing putih mengantuk berbalut syal merah — scrubber paling nyaman untuk maraton musim dingin."
+      },
+      "night-walker": {
+        "title": "Pejalan Malam",
+        "description": "Kucing hitam ramping berjalan santai di sepanjang bar — misterius, elegan, cocok untuk mode gelap."
+      },
+      "happy-cat": {
+        "title": "Kucing Bahagia",
+        "description": "Anak kucing putih berseri dikelilingi hati — langsung bikin mood bagus di video apa pun."
+      },
+      "chubby-cat": {
+        "title": "Kucing Gembul",
+        "description": "Kucing krem bulat melambaikan kakinya — lembut, empuk, dan penuh gaya."
+      },
+      "shadow-cat": {
+        "title": "Kucing Bayangan",
+        "description": "Siluet gelap anak kucing yang melompat — tenang, minimalis, dan sedikit misterius."
+      },
+      "pixel-corgi": {
+        "title": "Corgi Piksel",
+        "description": "Corgi piksel ceria berlari kecil sambil menjulurkan lidah — anjing baik untuk setiap video."
+      },
+      "puppy-love": {
+        "title": "Cinta Anak Anjing",
+        "description": "Anak anjing krem mungil dengan bandana hijau, tersenyum lebar."
+      },
+      "running-pug": {
+        "title": "Pug Berlari",
+        "description": "Pug piksel penuh tekad yang berlari sepanjang videomu."
+      },
+      "music-fox": {
+        "title": "Rubah Musik",
+        "description": "Rubah merah berheadphone berjalan mengikuti irama — pas untuk YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Burung Pelangi",
+        "description": "Burung kecil berwarna-warni mengepakkan sayap berkilaunya di sepanjang bar."
+      },
+      "ramen-shark": {
+        "title": "Hiu Ramen",
+        "description": "Hiu lapar menyeruput mi di tengah ombak — vibe camilan untuk videomu."
       }
     },
     "collections": {
@@ -729,7 +795,7 @@
     "s3Body2": "Pilihan kucing, nilai tinggi, dan offset atas kamu disimpan secara lokal menggunakan Chrome Storage API di perangkatmu sendiri. Tidak ada yang diunggah ke server. Ekstensi tidak membuat permintaan jaringan apa pun; tidak membaca riwayat tontonan, kueri pencarian, atau hal lain tentang penggunaan YouTube-mu. Jika kamu menghapus ekstensi, semua jejak hilang bersamanya.",
     "s4Heading": "Siapa yang membangun",
     "s4Body": "Nyan Progress Bar dibangun dan dirawat oleh seorang developer independen yang mengerjakannya di waktu luang. Proyek ini open source — pull request untuk desain kucing baru, terjemahan, dan perbaikan bug sangat dinantikan, dan formulir kontak di situs ini langsung sampai ke maintainer.",
-    "s4Body2": "Situs ini diterjemahkan ke sepuluh bahasa (Inggris, Spanyol, Portugis, Prancis, Jerman, Polandia, Ukraina, Indonesia, Vietnam, dan Filipina) sehingga pengguna di seluruh dunia bisa membaca tentang ekstensi ini dalam bahasanya sendiri.",
+    "s4Body2": "Situs ini diterjemahkan ke sebelas bahasa (Inggris, Spanyol, Portugis, Prancis, Jerman, Polandia, Ukraina, Slovakia, Indonesia, Vietnam, dan Filipina) sehingga pengguna di seluruh dunia bisa membaca tentang ekstensi ini dalam bahasanya sendiri.",
     "s5Heading": "Nilai-nilai kami",
     "s5Intro": "Beberapa prinsip memandu cara kami membangun dan menjalankan proyek:",
     "s5Item1": "Privasi nomor satu. Ekstensi tidak mengumpulkan atau mengirim data — titik.",

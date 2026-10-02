@@ -53,9 +53,93 @@ export const TRENDING_SECTIONS: ITrendingSection[] = [
     paginated: true,
     styles: [
       {
+        id: 'rolling-cat',
+        imageSrc: '/cats/rolling-cat.gif',
+        badges: ['new'],
+        tagKeys: ['pixel', 'cute'],
+      },
+      {
+        id: 'dancing-kitty',
+        imageSrc: '/cats/cat-cats.gif',
+        badges: ['new'],
+        tagKeys: ['dance', 'cute'],
+      },
+      {
+        id: 'snow-kitten',
+        imageSrc: '/cats/cat-cute.gif',
+        badges: ['new'],
+        tagKeys: ['pixel', 'cute'],
+      },
+      {
+        id: 'scarf-cat',
+        imageSrc: '/cats/cat-in-a-scarf.gif',
+        badges: ['new'],
+        tagKeys: ['cozy', 'kawaii'],
+      },
+      {
+        id: 'night-walker',
+        imageSrc: '/cats/cat-walking.gif',
+        badges: ['new'],
+        tagKeys: ['dark', 'minimal'],
+      },
+      {
+        id: 'happy-cat',
+        imageSrc: '/cats/happy-cat.gif',
+        badges: ['new'],
+        tagKeys: ['kawaii', 'cute'],
+      },
+      {
+        id: 'chubby-cat',
+        imageSrc: '/cats/kitty-scratch.gif',
+        badges: ['new'],
+        tagKeys: ['cartoon', 'cute'],
+      },
+      {
+        id: 'shadow-cat',
+        imageSrc: '/cats/shadow-cat.gif',
+        badges: ['new'],
+        tagKeys: ['dark', 'minimal'],
+      },
+      {
+        id: 'pixel-corgi',
+        imageSrc: '/cats/pixel-corgi.gif',
+        badges: ['new'],
+        tagKeys: ['dog', 'pixel'],
+      },
+      {
+        id: 'puppy-love',
+        imageSrc: '/cats/puppy-love.gif',
+        badges: ['new'],
+        tagKeys: ['dog', 'kawaii'],
+      },
+      {
+        id: 'running-pug',
+        imageSrc: '/cats/pug-running.gif',
+        badges: ['new'],
+        tagKeys: ['dog', 'pixel', 'retro'],
+      },
+      {
+        id: 'music-fox',
+        imageSrc: '/cats/fox-music.gif',
+        badges: ['new'],
+        tagKeys: ['fox', 'music'],
+      },
+      {
+        id: 'rainbow-bird',
+        imageSrc: '/cats/rainbow-bird.gif',
+        badges: ['new'],
+        tagKeys: ['bird', 'rainbow'],
+      },
+      {
+        id: 'ramen-shark',
+        imageSrc: '/cats/ramen-shark.gif',
+        badges: ['new'],
+        tagKeys: ['shark', 'cartoon'],
+      },
+      {
         id: 'cartoon-cat',
-        imageSrc: '/trending/cute-cat-cartoon.gif',
-        badges: ['new', 'custom'],
+        imageSrc: '/cats/cute-cat-cartoon.gif',
+        badges: ['new'],
         tagKeys: ['cartoon', 'cute'],
       },
       {
@@ -66,8 +150,8 @@ export const TRENDING_SECTIONS: ITrendingSection[] = [
       },
       {
         id: 'fawn',
-        imageSrc: '/trending/fawn-run-transparent.gif',
-        badges: ['new', 'custom'],
+        imageSrc: '/cats/fawn-run.gif',
+        badges: ['new'],
         tagKeys: ['deer', 'minimal'],
       },
       {
@@ -84,8 +168,8 @@ export const TRENDING_SECTIONS: ITrendingSection[] = [
       },
       {
         id: 'purple-bat',
-        imageSrc: '/trending/purple-bat.gif',
-        badges: ['new', 'custom'],
+        imageSrc: '/cats/purple-bat.gif',
+        badges: ['new'],
         tagKeys: ['bat', 'minimal'],
       },
       {

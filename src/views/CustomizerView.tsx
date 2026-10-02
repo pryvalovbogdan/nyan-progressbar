@@ -41,7 +41,11 @@ export async function CustomizerView({ dict, lang }: ICustomizerViewProps) {
         </div>
 
         <div className="grid lg:grid-cols-[1fr_340px] gap-6 sm:gap-8 items-start">
-          <ScrubberGallery installTooltip={c.installTooltip} uploadLabel={dict.customizer.uploadGif} />
+          <ScrubberGallery
+            installTooltip={c.installTooltip}
+            uploadLabel={dict.customizer.uploadGif}
+            sectionLabels={dict.customizer.sections}
+          />
           <div className="lg:sticky lg:top-20">
             <CustomizerPanel
               labels={{

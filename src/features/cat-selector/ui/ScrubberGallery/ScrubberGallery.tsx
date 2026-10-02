@@ -1,8 +1,9 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 
-import { catsList } from '@entities/cat';
+import { catSections, catsList } from '@entities/cat';
 import { useCustomizerStore } from '@features/customizer';
 import { useExtensionDetected } from '@shared/hooks/useExtensionDetected';
 import { trackEvent } from '@shared/lib/analytics';
@@ -11,7 +12,7 @@ import { getExtensionState, sendToExtension } from '@shared/lib/extensionBridge'
 import { ScrubberCard } from '../ScrubberCard';
 import type { IScrubberGalleryProps } from './types';
 
-export function ScrubberGallery({ installTooltip, uploadLabel, isMainPage }: IScrubberGalleryProps) {
+export function ScrubberGallery({ installTooltip, uploadLabel, sectionLabels, isMainPage }: IScrubberGalleryProps) {
   const detected = useExtensionDetected();
   const disabled = !detected;
   const extensionActive = detected;
@@ -83,67 +84,98 @@ export function ScrubberGallery({ installTooltip, uploadLabel, isMainPage }: ISc
   }
 
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
-      <div className="relative">
-        <input ref={fileInputRef} type="file" accept="image/gif" className="hidden" onChange={handleFileChange} />
-        <button
-          onClick={() => !disabled && fileInputRef.current?.click()}
-          disabled={disabled}
-          className={`relative aspect-square w-full rounded-xl border-dashed border bg-card p-3 flex flex-col items-center justify-center gap-0.5 transition-all duration-200 ${
-            disabled
-              ? 'opacity-50 cursor-not-allowed border-border'
-              : 'opacity-80 hover:opacity-100 cursor-pointer hover:border-[#80deea] hover:bg-accent border-border'
-          }`}
-        >
-          <span className="text-[22px] font-bold leading-none text-[#80deea]">+</span>
-          {uploadLabel && (
-            <span className="text-[11px] tracking-[0.2px] text-foreground leading-tight text-center px-1 font-bold">
-              {uploadLabel}
-            </span>
-          )}
-        </button>
-      </div>
+    <div className="space-y-8">
+      {catSections.map((section, index) => (
+        <section key={section.id} className="space-y-3">
+          <div className="flex items-center gap-2.5">
+            <Image
+              src={`/cats/${section.icon}`}
+              alt=""
+              width={28}
+              height={28}
+              className="h-7 w-auto object-contain"
+              unoptimized
+            />
+            <h3 className="text-lg font-semibold whitespace-nowrap">{sectionLabels[section.id]}</h3>
+            <span aria-hidden="true" className="h-0.5 flex-1 rounded-full gradient-rainbow-h opacity-50" />
+          </div>
 
-      {customGif && (
-        <div className="relative">
-          <button
-            onClick={() => {
-              if (disabled) {
-                return;
-              }
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
+            {index === 0 && (
+              <>
+                <div className="relative">
+                  <input
+                    ref={fileInputRef}
+                    type="file"
+                    accept="image/gif"
+                    className="hidden"
+                    onChange={handleFileChange}
+                  />
+                  <button
+                    onClick={() => !disabled && fileInputRef.current?.click()}
+                    disabled={disabled}
+                    className={`relative aspect-square w-full rounded-xl border-dashed border bg-card p-3 flex flex-col items-center justify-center gap-0.5 transition-all duration-200 ${
+                      disabled
+                        ? 'opacity-50 cursor-not-allowed border-border'
+                        : 'opacity-80 hover:opacity-100 cursor-pointer hover:border-[#80deea] hover:bg-accent border-border'
+                    }`}
+                  >
+                    <span className="text-[22px] font-bold leading-none text-[#80deea]">+</span>
+                    {uploadLabel && (
+                      <span className="text-[11px] tracking-[0.2px] text-foreground leading-tight text-center px-1 font-bold">
+                        {uploadLabel}
+                      </span>
+                    )}
+                  </button>
+                </div>
 
-              setSelectedCat('__custom__');
-              trackEvent('cat_select', { cat_name: 'custom' });
+                {customGif && (
+                  <div className="relative">
+                    <button
+                      onClick={() => {
+                        if (disabled) {
+                          return;
+                        }
 
-              if (extensionActive) {
-                sendToExtension('SELECT_CAT', { src: '__custom__' });
-              }
-            }}
-            disabled={disabled}
-            className={`relative aspect-square w-full rounded-xl border bg-card p-3 flex items-center justify-center transition-all duration-200 ${
-              disabled
-                ? 'opacity-50 cursor-not-allowed border-border'
-                : `cursor-pointer hover:-translate-y-1 hover:border-[#80deea] hover:shadow-[0_4px_16px_rgba(128,222,234,0.2)] ${
-                    isCustomSelected
-                      ? 'border-[#80deea] shadow-[0_0_0_1px_#80deea,0_4px_16px_rgba(128,222,234,0.2)] -translate-y-0.5'
-                      : 'border-border'
-                  }`
-            }`}
-          >
-            <img src={customGif} alt="custom cat" className="object-contain w-full h-full" />
-          </button>
-        </div>
-      )}
+                        setSelectedCat('__custom__');
+                        trackEvent('cat_select', { cat_name: 'custom' });
 
-      {catsList.map(cat => (
-        <ScrubberCard
-          key={cat.src}
-          cat={cat}
-          disabled={disabled}
-          isMainPage={isMainPage}
-          tooltip={disabled ? installTooltip : undefined}
-          onSelect={extensionActive ? src => sendToExtension('SELECT_CAT', { src }) : undefined}
-        />
+                        if (extensionActive) {
+                          sendToExtension('SELECT_CAT', { src: '__custom__' });
+                        }
+                      }}
+                      disabled={disabled}
+                      className={`relative aspect-square w-full rounded-xl border bg-card p-3 flex items-center justify-center transition-all duration-200 ${
+                        disabled
+                          ? 'opacity-50 cursor-not-allowed border-border'
+                          : `cursor-pointer hover:-translate-y-1 hover:border-[#80deea] hover:shadow-[0_4px_16px_rgba(128,222,234,0.2)] ${
+                              isCustomSelected
+                                ? 'border-[#80deea] shadow-[0_0_0_1px_#80deea,0_4px_16px_rgba(128,222,234,0.2)] -translate-y-0.5'
+                                : 'border-border'
+                            }`
+                      }`}
+                    >
+                      <img src={customGif} alt="custom cat" className="object-contain w-full h-full" />
+                    </button>
+                  </div>
+                )}
+              </>
+            )}
+
+            {catsList
+              .filter(cat => cat.section === section.id)
+              .map(cat => (
+                <ScrubberCard
+                  key={cat.src}
+                  cat={cat}
+                  disabled={disabled}
+                  isMainPage={isMainPage}
+                  tooltip={disabled ? installTooltip : undefined}
+                  onSelect={extensionActive ? src => sendToExtension('SELECT_CAT', { src }) : undefined}
+                />
+              ))}
+          </div>
+        </section>
       ))}
     </div>
   );

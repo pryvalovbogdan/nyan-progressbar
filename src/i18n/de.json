@@ -201,8 +201,8 @@
     "feature4Desc": "Ziehe ein beliebiges GIF ins Popup, um es als Scrubber zu verwenden.",
     "feature5Title": "YouTube Music",
     "feature5Desc": "Funktioniert auch auf music.youtube.com.",
-    "feature6Title": "11 Sprachen",
-    "feature6Desc": "Oberfläche verfügbar in EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "feature6Title": "12 Sprachen",
+    "feature6Desc": "Oberfläche verfügbar in EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
     "questionHeading": "Hast du eine Frage?",
     "questionPre": "Besuche das",
     "questionLinkText": "Support-Center",
@@ -348,7 +348,12 @@
     "adjustPosition": "Position anpassen",
     "height": "Höhe",
     "topOffset": "Oberer Versatz",
-    "uploadGif": "GIF hochladen"
+    "uploadGif": "GIF hochladen",
+    "sections": {
+      "kitties": "Kätzchen",
+      "doggies": "Hündchen",
+      "buddies": "Kumpels"
+    }
   },
   "preview": {
     "label": "Live-Vorschau",
@@ -600,7 +605,12 @@
       "tiger": "Tiger",
       "deer": "Reh",
       "bear": "Bär",
-      "cartoon": "Cartoon"
+      "cartoon": "Cartoon",
+      "fox": "Fuchs",
+      "shark": "Hai",
+      "music": "Musik",
+      "cozy": "Gemütlich",
+      "dark": "Dunkel"
     },
     "styles": {
       "nyan-classic": {
@@ -694,6 +704,62 @@
       "osito": {
         "title": "Bärchen",
         "description": "Ein weicher animierter Bär — kugelrund und gemütlich, perfekter Begleiter für lange Sessions."
+      },
+      "rolling-cat": {
+        "title": "Rollende Katze",
+        "description": "Eine pummelige Pixel-Katze kullert über die Leiste — rund, flauschig und unaufhaltsam."
+      },
+      "dancing-kitty": {
+        "title": "Tanzendes Kätzchen",
+        "description": "Ein graues Tigerkätzchen mit goldenem Glöckchen zeigt seine besten Moves — pure Partystimmung."
+      },
+      "snow-kitten": {
+        "title": "Schneekätzchen",
+        "description": "Ein flauschiges weißes Pixel-Kätzchen mit strahlend blauen Augen sitzt brav auf deiner Leiste."
+      },
+      "scarf-cat": {
+        "title": "Kuschelkatze mit Schal",
+        "description": "Ein verschlafenes weißes Kätzchen im roten Schal — die gemütlichste Leiste für Winterabende."
+      },
+      "night-walker": {
+        "title": "Nachtwandler",
+        "description": "Eine elegante schwarze Katze schlendert über die Leiste — stimmungsvoll und wie gemacht für den Dark Mode."
+      },
+      "happy-cat": {
+        "title": "Fröhliche Katze",
+        "description": "Ein strahlendes weißes Kätzchen umgeben von Herzchen — sofort gute Laune bei jedem Video."
+      },
+      "chubby-cat": {
+        "title": "Moppelkatze",
+        "description": "Eine runde cremefarbene Katze winkt mit der Pfote — weich, knuddelig und voller Attitüde."
+      },
+      "shadow-cat": {
+        "title": "Schattenkatze",
+        "description": "Ein dunkles Silhouetten-Kätzchen springt vorbei — leise, minimal und ein bisschen geheimnisvoll."
+      },
+      "pixel-corgi": {
+        "title": "Pixel-Corgi",
+        "description": "Ein fröhlicher Pixel-Corgi trabt mit heraushängender Zunge vorbei — ein braver Hund für jedes Video."
+      },
+      "puppy-love": {
+        "title": "Welpenliebe",
+        "description": "Ein kleiner cremefarbener Welpe mit grünem Halstuch, der von Ohr zu Ohr strahlt."
+      },
+      "running-pug": {
+        "title": "Rennender Mops",
+        "description": "Ein entschlossener Pixel-Mops sprintet die ganze Länge deines Videos entlang."
+      },
+      "music-fox": {
+        "title": "Musikfuchs",
+        "description": "Ein roter Fuchs mit Kopfhörern schlendert im Takt — wie gemacht für YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Regenbogenvogel",
+        "description": "Ein bunter kleiner Vogel schlägt mit schillernden Flügeln über die Leiste."
+      },
+      "ramen-shark": {
+        "title": "Ramen-Hai",
+        "description": "Ein hungriger Hai schlürft Nudeln in den Wellen — Snack-Laune für deine Videos."
       }
     },
     "collections": {
@@ -729,7 +795,7 @@
     "s3Body2": "Deine Katzenauswahl, Höhe und Top-Offset-Werte werden lokal über die Chrome-Storage-API auf deinem eigenen Gerät gespeichert. Nichts wird auf einen Server hochgeladen. Die Erweiterung macht keine Netzwerkanfragen; sie liest deine Wiedergabeverlauf, deine Suchanfragen oder andere YouTube-Aktivitäten nicht. Wenn du die Erweiterung deinstallierst, verschwinden alle Spuren mit ihr.",
     "s4Heading": "Wer es baut",
     "s4Body": "Nyan Progress Bar wird von einem unabhängigen Entwickler gebaut und gepflegt, der in seiner Freizeit daran arbeitet. Das Projekt ist Open Source — Pull-Requests für neue Katzendesigns, Übersetzungen und Bugfixes sind sehr willkommen, und das Kontaktformular auf dieser Seite geht direkt an den Maintainer.",
-    "s4Body2": "Die Seite ist in zehn Sprachen übersetzt (Englisch, Spanisch, Portugiesisch, Französisch, Deutsch, Polnisch, Ukrainisch, Indonesisch, Vietnamesisch und Filipino), sodass Nutzer weltweit in ihrer eigenen Sprache über die Erweiterung lesen können.",
+    "s4Body2": "Die Seite ist in elf Sprachen übersetzt (Englisch, Spanisch, Portugiesisch, Französisch, Deutsch, Polnisch, Ukrainisch, Slowakisch, Indonesisch, Vietnamesisch und Filipino), sodass Nutzer weltweit in ihrer eigenen Sprache über die Erweiterung lesen können.",
     "s5Heading": "Unsere Werte",
     "s5Intro": "Ein paar Prinzipien leiten, wie wir das Projekt bauen und betreiben:",
     "s5Item1": "Privatsphäre zuerst. Die Erweiterung sammelt oder überträgt keine Daten — Punkt.",

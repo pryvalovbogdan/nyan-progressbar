@@ -201,8 +201,8 @@
     "feature4Desc": "Arraste qualquer GIF para o popup para usá-lo como scrubber.",
     "feature5Title": "YouTube Music",
     "feature5Desc": "Também funciona em music.youtube.com.",
-    "feature6Title": "11 idiomas",
-    "feature6Desc": "Interface disponível em EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "feature6Title": "12 idiomas",
+    "feature6Desc": "Interface disponível em EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
     "questionHeading": "Tem alguma dúvida?",
     "questionPre": "Visite o",
     "questionLinkText": "centro de suporte",
@@ -348,7 +348,12 @@
     "adjustPosition": "Ajustar posição",
     "height": "Altura",
     "topOffset": "Deslocamento superior",
-    "uploadGif": "Enviar seu GIF"
+    "uploadGif": "Enviar seu GIF",
+    "sections": {
+      "kitties": "Gatinhos",
+      "doggies": "Cachorrinhos",
+      "buddies": "Amiguinhos"
+    }
   },
   "preview": {
     "label": "Pré-visualização ao vivo",
@@ -600,7 +605,12 @@
       "tiger": "Tigre",
       "deer": "Cervo",
       "bear": "Urso",
-      "cartoon": "Desenho"
+      "cartoon": "Desenho",
+      "fox": "Raposa",
+      "shark": "Tubarão",
+      "music": "Música",
+      "cozy": "Aconchegante",
+      "dark": "Escuro"
     },
     "styles": {
       "nyan-classic": {
@@ -694,6 +704,62 @@
       "osito": {
         "title": "Ursinho",
         "description": "Um ursinho animado fofinho — redondo e aconchegante, companhia perfeita para sessões longas."
+      },
+      "rolling-cat": {
+        "title": "Gato Rolante",
+        "description": "Um gato pixelado e fofinho rolando pela barra — redondo, peludo e sem parar."
+      },
+      "dancing-kitty": {
+        "title": "Gatinho Dançarino",
+        "description": "Um gatinho rajado cinza com sininho dourado mostrando seus melhores passos — pura festa."
+      },
+      "snow-kitten": {
+        "title": "Gatinha da Neve",
+        "description": "Uma gatinha branca pixelada e fofa de olhos azuis, sentadinha na sua barra."
+      },
+      "scarf-cat": {
+        "title": "Gatinho de Cachecol",
+        "description": "Um gatinho branco sonolento enrolado num cachecol vermelho — a barra mais aconchegante do inverno."
+      },
+      "night-walker": {
+        "title": "Andarilho Noturno",
+        "description": "Um gato preto elegante passeando pela barra — misterioso e feito para o modo escuro."
+      },
+      "happy-cat": {
+        "title": "Gato Feliz",
+        "description": "Um gatinho branco radiante cercado de coraçõezinhos — bom humor instantâneo em qualquer vídeo."
+      },
+      "chubby-cat": {
+        "title": "Gato Gordinho",
+        "description": "Um gato creme redondinho acenando com a patinha — macio, fofo e cheio de atitude."
+      },
+      "shadow-cat": {
+        "title": "Gato Sombra",
+        "description": "Uma silhueta escura de gatinho saltitando — silenciosa, minimalista e um pouco misteriosa."
+      },
+      "pixel-corgi": {
+        "title": "Corgi Pixelado",
+        "description": "Um corgi pixelado feliz trotando com a língua de fora — um bom garoto para cada vídeo."
+      },
+      "puppy-love": {
+        "title": "Amor de Filhote",
+        "description": "Um filhotinho creme de bandana verde, sorrindo de orelha a orelha."
+      },
+      "running-pug": {
+        "title": "Pug Corredor",
+        "description": "Um pug pixelado determinado correndo do início ao fim do seu vídeo."
+      },
+      "music-fox": {
+        "title": "Raposa Musical",
+        "description": "Uma raposa vermelha de fones de ouvido caminhando no ritmo — feita para o YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Pássaro Arco-íris",
+        "description": "Um passarinho colorido batendo suas asas iridescentes pela barra."
+      },
+      "ramen-shark": {
+        "title": "Tubarão Ramen",
+        "description": "Um tubarão faminto sugando macarrão entre as ondas — clima de lanchinho para seus vídeos."
       }
     },
     "collections": {
@@ -729,7 +795,7 @@
     "s3Body2": "Sua seleção de gato, altura e deslocamento são salvos localmente pela Chrome Storage API no seu próprio dispositivo. Nada é enviado a um servidor. A extensão não faz nenhuma requisição de rede; não lê seu histórico de reprodução, suas buscas ou qualquer outra atividade no YouTube. Se você desinstalar, todo vestígio desaparece com ela.",
     "s4Heading": "Quem constrói",
     "s4Body": "O Nyan Progress Bar é construído e mantido por um desenvolvedor independente que trabalha nele no tempo livre. O projeto é open source — pull requests para novos designs de gatos, traduções e correções são muito bem-vindos, e o formulário de contato deste site vai direto para o mantenedor.",
-    "s4Body2": "O site está traduzido em dez idiomas (inglês, espanhol, português, francês, alemão, polonês, ucraniano, indonésio, vietnamita e filipino) para que usuários ao redor do mundo possam ler sobre a extensão no próprio idioma.",
+    "s4Body2": "O site está traduzido em onze idiomas (inglês, espanhol, português, francês, alemão, polonês, ucraniano, eslovaco, indonésio, vietnamita e filipino) para que usuários ao redor do mundo possam ler sobre a extensão no próprio idioma.",
     "s5Heading": "Nossos valores",
     "s5Intro": "Alguns princípios guiam como construímos e operamos o projeto:",
     "s5Item1": "Privacidade primeiro. A extensão não coleta nem transmite dados — ponto.",

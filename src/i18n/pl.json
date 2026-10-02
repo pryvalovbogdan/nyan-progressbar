@@ -201,8 +201,8 @@
     "feature4Desc": "Przeciągnij dowolny GIF do popupu, aby użyć go jako scrubbera.",
     "feature5Title": "YouTube Music",
     "feature5Desc": "Działa również na music.youtube.com.",
-    "feature6Title": "11 języków",
-    "feature6Desc": "Interfejs dostępny w EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK.",
+    "feature6Title": "12 języków",
+    "feature6Desc": "Interfejs dostępny w EN, ES, PT, VI, ID, FR, TL, TR, PL, DE, UK, SK.",
     "questionHeading": "Masz pytanie?",
     "questionPre": "Sprawdź",
     "questionLinkText": "centrum wsparcia",
@@ -348,7 +348,12 @@
     "adjustPosition": "Dostosuj pozycję",
     "height": "Wysokość",
     "topOffset": "Przesunięcie górne",
-    "uploadGif": "Prześlij swój GIF"
+    "uploadGif": "Prześlij swój GIF",
+    "sections": {
+      "kitties": "Kotki",
+      "doggies": "Pieski",
+      "buddies": "Kumple"
+    }
   },
   "preview": {
     "label": "Podgląd na żywo",
@@ -600,7 +605,12 @@
       "tiger": "Tygrys",
       "deer": "Jelonek",
       "bear": "Miś",
-      "cartoon": "Kreskówka"
+      "cartoon": "Kreskówka",
+      "fox": "Lis",
+      "shark": "Rekin",
+      "music": "Muzyka",
+      "cozy": "Przytulny",
+      "dark": "Mroczny"
     },
     "styles": {
       "nyan-classic": {
@@ -694,6 +704,62 @@
       "osito": {
         "title": "Miś",
         "description": "Miękki animowany miś — okrągły i przytulny, idealny towarzysz długich sesji."
+      },
+      "rolling-cat": {
+        "title": "Turlający Kot",
+        "description": "Pulchny pikselowy kot turla się po pasku — okrągły, puszysty i niezmordowany."
+      },
+      "dancing-kitty": {
+        "title": "Tańczący Kotek",
+        "description": "Szary pręgowany kotek ze złotym dzwoneczkiem pokazuje najlepsze ruchy — czysta imprezowa energia."
+      },
+      "snow-kitten": {
+        "title": "Śnieżny Kotek",
+        "description": "Puszysty biały pikselowy kotek o niebieskich oczach grzecznie siedzi na twoim pasku."
+      },
+      "scarf-cat": {
+        "title": "Kotek w Szaliku",
+        "description": "Zaspany biały kotek owinięty czerwonym szalikiem — najprzytulniejszy pasek na zimowe seanse."
+      },
+      "night-walker": {
+        "title": "Nocny Spacerowicz",
+        "description": "Smukły czarny kot przechadza się po pasku — nastrojowy, elegancki i stworzony do trybu ciemnego."
+      },
+      "happy-cat": {
+        "title": "Szczęśliwy Kot",
+        "description": "Promienny biały kotek w otoczeniu serduszek — natychmiastowy dobry humor przy każdym filmie."
+      },
+      "chubby-cat": {
+        "title": "Pulchny Kot",
+        "description": "Okrągły kremowy kot macha łapką — miękki, mięciutki i pełen charakteru."
+      },
+      "shadow-cat": {
+        "title": "Kot Cień",
+        "description": "Ciemna sylwetka kotka w podskokach — cicha, minimalistyczna i odrobinę tajemnicza."
+      },
+      "pixel-corgi": {
+        "title": "Pikselowy Corgi",
+        "description": "Wesoły pikselowy corgi truchta z wywieszonym językiem — grzeczny piesek do każdego filmu."
+      },
+      "puppy-love": {
+        "title": "Szczenięca Miłość",
+        "description": "Malutki kremowy szczeniak w zielonej chuście, uśmiechnięty od ucha do ucha."
+      },
+      "running-pug": {
+        "title": "Biegnący Mops",
+        "description": "Zdeterminowany pikselowy mops sprintem przemierza cały film."
+      },
+      "music-fox": {
+        "title": "Muzyczny Lis",
+        "description": "Rudy lis w słuchawkach spaceruje w rytm muzyki — stworzony do YouTube Music."
+      },
+      "rainbow-bird": {
+        "title": "Tęczowy Ptaszek",
+        "description": "Kolorowy ptaszek trzepocze opalizującymi skrzydłami nad paskiem."
+      },
+      "ramen-shark": {
+        "title": "Rekin Ramen",
+        "description": "Głodny rekin siorbie makaron wśród fal — przekąskowa energia do twoich filmów."
       }
     },
     "collections": {
@@ -729,7 +795,7 @@
     "s3Body2": "Twój wybór kota, wysokość i przesunięcie są zapisywane lokalnie za pomocą Chrome Storage API na Twoim urządzeniu. Nic nie jest wysyłane na serwer. Rozszerzenie nie wykonuje żadnych zapytań sieciowych; nie czyta historii oglądania, zapytań wyszukiwania ani niczego o Twojej aktywności na YouTube. Po odinstalowaniu wszelki ślad znika razem z nim.",
     "s4Heading": "Kto je tworzy",
     "s4Body": "Nyan Progress Bar tworzy i utrzymuje niezależny programista, który pracuje nad nim w wolnym czasie. Projekt jest open source — pull requesty z nowymi projektami kotów, tłumaczeniami i poprawkami są bardzo mile widziane, a formularz kontaktowy na tej stronie trafia bezpośrednio do opiekuna.",
-    "s4Body2": "Strona jest przetłumaczona na dziesięć języków (angielski, hiszpański, portugalski, francuski, niemiecki, polski, ukraiński, indonezyjski, wietnamski i filipiński), aby użytkownicy z całego świata mogli czytać o rozszerzeniu we własnym języku.",
+    "s4Body2": "Strona jest przetłumaczona na jedenaście języków (angielski, hiszpański, portugalski, francuski, niemiecki, polski, ukraiński, słowacki, indonezyjski, wietnamski i filipiński), aby użytkownicy z całego świata mogli czytać o rozszerzeniu we własnym języku.",
     "s5Heading": "Nasze wartości",
     "s5Intro": "Kilka zasad kieruje sposobem, w jaki rozwijamy i prowadzimy projekt:",
     "s5Item1": "Prywatność na pierwszym miejscu. Rozszerzenie nie zbiera ani nie wysyła danych — kropka.",
