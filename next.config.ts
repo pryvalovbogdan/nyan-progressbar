@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
       { pathname: '/how-to-use/**' },
       { pathname: '/cats/**' },
       { pathname: '/trending/**' },
+      { pathname: '/games/**' },
       { pathname: '/*.png' },
       { pathname: '/*.svg' },
     ],

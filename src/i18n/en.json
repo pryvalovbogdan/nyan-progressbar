@@ -18,7 +18,7 @@
     },
     "reviews": {
       "title": "User Reviews — Nyan Progress Bar",
-      "description": "See what 106 users say about the Nyan Progress Bar Chrome extension. Rated 4.8 stars."
+      "description": "See what 113 users say about the Nyan Progress Bar Chrome extension. Rated 4.7 stars."
     },
     "customizer": {
       "title": "Cat Customizer — Nyan Progress Bar",
@@ -164,6 +164,10 @@
     "feature2Desc": "Use any GIF as your custom scrubber.",
     "feature3Title": "Works everywhere",
     "feature3Desc": "YouTube and YouTube Music, standard and mini player.",
+    "gameHeading": "Love cats? Play Purrfectly Dangerous",
+    "gameDescription": "Our free pixel-art runner for iPhone. Guide a brave kitten through five worlds, unlock new cat powers and face a big boss at the end of each one.",
+    "gameCta": "View in the App Store",
+    "gameImageAlt": "Purrfectly Dangerous: two kittens in capes run through blossom, ice, haunted and fiery worlds full of bosses",
     "introHeading": "A tiny upgrade for every video you watch",
     "introBody1": "Nyan Progress Bar is a free Chrome extension that replaces YouTube's flat red progress bar with a hand-picked animated cat. It runs entirely in your browser, asks for nothing, and adds a small piece of personality to the bar you stare at all day. Twelve cats ship out of the box — the original rainbow Nyan Cat, a pixel parrot, a glitch cat, a dancing Garfield, and several soft minimal silhouettes — and you can upload any GIF you like as your own custom scrubber.",
     "introBody2": "The whole product is one tiny upgrade. You install the extension, pick a cat, and from that moment on every YouTube video and every YouTube Music track has a small mascot following the playhead. There is no account to create, no settings menu to learn, no premium tier. It just works, and once it is there you stop noticing it is doing anything — until it makes you smile in the middle of a video.",
@@ -383,7 +387,7 @@
     "showMore": "Show more",
     "showLess": "Show less",
     "pageHeading": "Reviews from real users",
-    "pageIntro1": "Nyan Progress Bar holds a 4.8-star average across 106 reviews on the Chrome Web Store. The reviews below are a mix — the freshest feedback on the most recently shipped release at the top, followed by every review we have collected since the very first version. Nothing is curated or filtered. Negative reviews stay visible because we learn more from them than from anything else.",
+    "pageIntro1": "Nyan Progress Bar holds a 4.7-star average across 113 reviews on the Chrome Web Store. The reviews below are a mix — the freshest feedback on the most recently shipped release at the top, followed by every review we have collected since the very first version. Nothing is curated or filtered. Negative reviews stay visible because we learn more from them than from anything else.",
     "pageIntro2": "If you're considering installing the extension, this page is the most honest picture of the product we can give you. If you already use it and would like to leave a public review, the Chrome Web Store is the most useful place — search results and ranking on the store are heavily influenced by recent ratings, and a single one-line rating from you is the single best way to help the project reach other YouTube users.",
     "themesHeading": "What users mention most",
     "themesIntro": "Across hundreds of reviews and bug reports, the same three threads come up over and over.",

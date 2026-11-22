@@ -2,6 +2,7 @@ export * from './cat-preview';
 export * from './changelog';
 export * from './extension-banner';
 export * from './footer';
+export * from './game-card';
 export * from './gif-sources';
 export * from './header';
 export * from './how-to-sidebar';

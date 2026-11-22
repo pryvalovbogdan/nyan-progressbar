@@ -19,6 +19,8 @@ const buttonVariants = cva(
           'bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40',
         link: 'text-primary underline-offset-4 hover:underline',
         accent: 'bg-[#80deea] text-background font-semibold hover:bg-[#80deea]/90',
+        gradient:
+          'btn-gradient border-0 inset-ring inset-ring-border bg-background transition-[color,box-shadow] duration-500 ease-out hover:text-neutral-950 hover:shadow-[0_4px_24px_rgba(128,222,234,0.3)] focus-visible:text-neutral-950 dark:inset-ring-input dark:bg-input/30',
       },
       size: {
         default: 'h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2',
