@@ -1,5 +1,5 @@
 import type { Dictionary } from '@/i18n';
-import { ReviewsSection, StatsSection } from '@widgets';
+import { GameCard, ReviewsSection, StatsSection } from '@widgets';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -98,6 +98,15 @@ export function HomeView({ dict, lang }: IHomeViewProps) {
           </div>
         </div>
       </section>
+
+      <GameCard
+        labels={{
+          heading: h.gameHeading,
+          description: h.gameDescription,
+          cta: h.gameCta,
+          imageAlt: h.gameImageAlt,
+        }}
+      />
 
       <section className="max-w-3xl mx-auto space-y-4">
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-balance">{h.introHeading}</h2>

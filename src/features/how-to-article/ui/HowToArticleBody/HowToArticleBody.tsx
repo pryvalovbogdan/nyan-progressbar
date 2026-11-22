@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { HOW_TO_ARTICLE_VIDEO_IDS, getHowToArticleStepImage } from '@entities/how-to-article';
+import { HOW_TO_ARTICLE_VIDEO_IDS, getHowToArticleStepBlur, getHowToArticleStepImage } from '@entities/how-to-article';
 import { Separator } from '@shared/ui/separator';
 
 import { StepImage } from '../StepImage';
@@ -53,11 +53,12 @@ export function HowToArticleBody({ dict, lang, slug }: IHowToArticleBodyProps) {
             <figure className="ml-[52px] overflow-hidden rounded-lg border border-border bg-card">
               <StepImage
                 src={getHowToArticleStepImage(slug, i)}
+                blur={getHowToArticleStepBlur(slug, i)}
                 alt={`${h.screenshotAlt} ${step.heading}`}
                 width={2000}
                 height={1293}
-                sizes="(min-width: 1024px) 720px, (min-width: 640px) 80vw, 100vw"
-                priority={i === 0}
+                sizes="(min-width: 1152px) 762px, (min-width: 1024px) calc(100vw - 390px), calc(100vw - 86px)"
+                preload={i === 0}
               />
             </figure>
           </li>

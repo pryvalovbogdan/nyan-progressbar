@@ -1,0 +1,35 @@
+// 16px copies of the screenshots in public/how-to-use, shown blurred until the real image loads.
+export const HOW_TO_ARTICLE_STEP_BLUR: Record<string, string> = {
+  'adjust-position-1':
+    'data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAsAA4BaJZACdAEN0bV3dlAA/tIMDD+V9B893xro4ysuciQltNKwGhUEhOUUJI+3gPhoFvp6FXFhcapoRMKNAPqs5aVuYkhpVhScHfywrQ+i7kgAAA==',
+  'adjust-position-2':
+    'data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAsAA4BaJZACdAEN5WL8oPUKAAD+0gwMP5X0Hz3fGujjKy5yJCW00rAaFIJTGpEc6BRCQq45Xd4m/SKmEQNNfn8fNFsvlh+rq+DnkmtDPBIPgAA=',
+  'adjust-position-3':
+    'data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAsAA4BaJZACdAEN5WL8oNk0AP7SDAw/lfQfPd8a6OMrLnIkJbTSsBoUglMakRzoFEJCrjlduuL7AKFtalIGvmgj0rg8BYRsAfXMk1oZ4JB8AAA=',
+  'adjust-position-4':
+    'data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQAAsAA4BaJZACdAEN5WVo65JqAAD+0gwMP5X0Hz3fGujjKy5yJCW00rAaFIJTGpEb2QAtZ5LDVsDOwXccsGNL+DiGu1d7IyXPLaj75RfI3UwA',
+  'choose-cat-1':
+    'data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsAA4BaJYwAD5DwbBw1IdAA/uAL7yh3uF8EkKlK1/iQcnrHbqT8iXymD7Fad+ONDfw04C0h0iCty7fWA1BZ1tiOcKV5r93poBYQO/YgkDgoAAA=',
+  'choose-cat-2':
+    'data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsAA4BaJZQAAvh2m5xnogAA/vMwZKE860vnlCe8eHo2ZD6r43Gzk9z6zDcJYUOPTUrO6GgAAA==',
+  'choose-cat-3':
+    'data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAsAA4BaJZQAAvmF+YJHFwNAAP7zMGShPOtQjZF6V1XqjAEZAqG7dEE02UtXyTFDKGbWsfBEAAAA',
+  'choose-cat-4':
+    'data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJZACdAEPArBcdteAAP7SDAw/lfQfPd8a6OMrLnIkJbR5f+0Q753vFafMlraHDe/fV1K7XpP0O6C4ET1rOD48OPpgxRha0qKAAA==',
+  'install-1':
+    'data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsAA4BaJYwAD45QbBw1KSAA/uAL7yh3t07Wx3/BJ/Tpl/kDzYsdp48lub0PCi1nvvl1zuI/t8QUqulV1Ss5mGwJztea/dJo6pHcd+7qrXWYAAA=',
+  'install-2':
+    'data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsAA4BaJYwAD4/QbBw1KSAA/uAL7yh3uF8DNEcuv4kHE6xwik/Elwug+sSjdriYp6g2MGJ8XGtrTRyut0tghKfe/3uU6G6zrv3VgwqOAAAA',
+  'install-3':
+    'data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAsAA4BaJZwAAuY6zfZVgAD+vJdb7/0gMyPbL2zXHdOUPLwkm/v8jO8TuMy3SR8b5VFwt8skAAAA',
+  'install-4':
+    'data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsAA4BaJYwAD5AwdDnJZOwAAP7gC+8od7hks4v3izQMNFS3ckzT9OmauQQ/DCxVmkYe+SZm3yOCvX4Zfcvcrt5V1t4Enf//j5gj935LIV9hv9TiSefc4AA=',
+  'upload-gif-1':
+    'data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsAA4BaJZwAAuit/LaFEoAA/sYH3g9gMqpgAbUAI9XJ04j7fFISJRZbrZfk1fuvSipbZCENRJi3fszy1fMsxu1NqomvO5EhROzj7cAAuAAA',
+  'upload-gif-2':
+    'data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAsAA4BaJaACdAEPArBceckAAP7SDAw/lfQfPd8a6OMrLnIkJbR5f+0Q753vFafMlraGPJyFAr31Da7Bciv977yKMdmWXI4gtQ0Ho5JrRb0jdTAAAA==',
+  'upload-gif-3':
+    'data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsAA4BaJZwAArMrL3tucAD+7ubi5uBFAD3lCtXIMsfh1tHdIjh2jEu1SJkxQvXpdxZV2104kd6ezCAAAA==',
+  'upload-gif-4':
+    'data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAsAA4BaJZACdAEN0bV3dlAA/tIMDD+V9B893xro4ysuciQltNKwGhUEhOUUJI+3gPhoFvp6FXFhcapoRMKNAPqs5aVuYkhpVhScHfywrQ+i7kgAAA==',
+};

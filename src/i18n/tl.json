@@ -18,7 +18,7 @@
     },
     "reviews": {
       "title": "Mga pagsusuri ng gumagamit — Nyan Progress Bar",
-      "description": "Tingnan kung ano ang sinasabi ng 106 na gumagamit tungkol sa Nyan Progress Bar Chrome extension. Rated 4.8 bituin."
+      "description": "Tingnan kung ano ang sinasabi ng 113 na gumagamit tungkol sa Nyan Progress Bar Chrome extension. Rated 4.7 bituin."
     },
     "customizer": {
       "title": "Cat Customizer — Nyan Progress Bar",
@@ -164,6 +164,10 @@
     "feature2Desc": "Gamitin ang anumang GIF bilang custom na scrubber.",
     "feature3Title": "Gumagana sa lahat ng dako",
     "feature3Desc": "YouTube at YouTube Music, standard at mini player.",
+    "gameHeading": "Mahilig sa pusa? Laruin ang Purrfectly Dangerous",
+    "gameDescription": "Ang aming libreng pixel art runner para sa iPhone. Gabayan ang isang matapang na kuting sa limang mundo, i-unlock ang mga bagong kapangyarihan ng pusa, at harapin ang isang malaking boss sa dulo ng bawat mundo.",
+    "gameCta": "Tingnan sa App Store",
+    "gameImageAlt": "Purrfectly Dangerous: dalawang kuting na may kapa na tumatakbo sa mga mundo ng sakura, yelo, multo at apoy na puno ng mga boss",
     "introHeading": "Maliit na upgrade para sa bawat video na pinapanood mo",
     "introBody1": "Ang Nyan Progress Bar ay isang libreng Chrome extension na pinapalitan ang flat na pulang progress bar ng YouTube ng isang hand-picked na animated na pusa. Tumatakbo ito nang buo sa iyong browser, hindi humihiling ng kahit ano, at nagdadagdag ng konting personalidad sa bar na tinitingnan mo buong araw. May labindalawang pusa na kasama agad — ang original na Nyan Cat na may rainbow, isang pixel parrot, isang glitch cat, isang sumasayaw na Garfield, at ilang malambot at minimalist na silhouette — at maaari kang mag-upload ng kahit anong GIF bilang sarili mong custom scrubber.",
     "introBody2": "Ang buong produkto ay isang maliit na upgrade. I-install mo ang extension, pumili ng pusa, at mula sa sandaling iyon ang bawat YouTube video at bawat YouTube Music track ay may maliit na mascot na sumusunod sa playhead. Walang account na gagawin, walang settings menu na pag-aaralan, walang premium tier. Gumagana lang ito, at kapag nandiyan na, hindi mo na napapansing may ginagawa ito — hanggang sa mapangiti ka nito sa gitna ng video.",
@@ -374,7 +378,7 @@
     "showMore": "Magpakita ng higit pa",
     "showLess": "Magpakita ng mas kaunti",
     "pageHeading": "Mga review mula sa totoong users",
-    "pageIntro1": "May average na 4.8 stars ang Nyan Progress Bar sa 106 reviews sa Chrome Web Store. Ang mga review sa ibaba ay halu-halo — ang pinakabagong feedback sa pinakahuling release ay nasa itaas, sinusundan ng lahat ng review na nakuha namin mula sa kauna-unahang bersyon. Walang kinukuratahan o sinasala. Nakikita pa rin ang negatibong reviews dahil mas marami kaming natututunan sa kanila kaysa sa kahit ano pa.",
+    "pageIntro1": "May average na 4.7 stars ang Nyan Progress Bar sa 113 reviews sa Chrome Web Store. Ang mga review sa ibaba ay halu-halo — ang pinakabagong feedback sa pinakahuling release ay nasa itaas, sinusundan ng lahat ng review na nakuha namin mula sa kauna-unahang bersyon. Walang kinukuratahan o sinasala. Nakikita pa rin ang negatibong reviews dahil mas marami kaming natututunan sa kanila kaysa sa kahit ano pa.",
     "pageIntro2": "Kung iniisip mong i-install ang extension, ang page na ito ang pinaka-honest na larawan ng produkto na maibibigay namin sa iyo. Kung gumagamit ka na nito at gusto mong mag-iwan ng public review, ang Chrome Web Store ang pinaka-useful na lugar — ang search results at ranking doon ay malaki ang impluwensya ng mga recent rating, at ang isang-linyang rating mula sa iyo ang pinakamabuting paraan para tulungan ang proyekto na maabot ang ibang YouTube users.",
     "themesHeading": "Ang madalas binabanggit ng users",
     "themesIntro": "Sa daan-daang reviews at bug reports, paulit-ulit na lumalabas ang parehong tatlong tema.",

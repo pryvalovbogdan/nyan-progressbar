@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 import type { IStepImageProps } from './types';
 
-export function StepImage({ src, alt, width, height, sizes, priority }: IStepImageProps) {
+export function StepImage({ src, blur, alt, width, height, sizes, preload }: IStepImageProps) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -29,7 +29,9 @@ export function StepImage({ src, alt, width, height, sizes, priority }: IStepIma
           width={width}
           height={height}
           sizes={sizes}
-          priority={priority}
+          preload={preload}
+          placeholder={blur ? 'blur' : 'empty'}
+          blurDataURL={blur}
           className="w-full h-auto"
         />
       </button>
@@ -49,7 +51,9 @@ export function StepImage({ src, alt, width, height, sizes, priority }: IStepIma
               width={width}
               height={height}
               unoptimized
-              className="max-w-[90vw] max-h-[90vh] w-auto h-auto rounded-lg object-contain shadow-2xl"
+              placeholder={blur ? 'blur' : 'empty'}
+              blurDataURL={blur}
+              className="w-[min(90vw,139.2vh)] max-w-[2000px] h-auto rounded-lg object-contain shadow-2xl"
             />
           </div>
         </div>

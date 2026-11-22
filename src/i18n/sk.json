@@ -18,7 +18,7 @@
     },
     "reviews": {
       "title": "Recenzie používateľov — Nyan Progress Bar",
-      "description": "Pozrite sa, čo hovorí 106 používateľov o rozšírení Nyan Progress Bar pre Chrome. Hodnotenie 4,8 hviezdičky."
+      "description": "Pozrite sa, čo hovorí 113 používateľov o rozšírení Nyan Progress Bar pre Chrome. Hodnotenie 4,7 hviezdičky."
     },
     "customizer": {
       "title": "Editor mačiek — Nyan Progress Bar",
@@ -164,6 +164,10 @@
     "feature2Desc": "Použite akýkoľvek GIF ako vlastný posuvník.",
     "feature3Title": "Funguje všade",
     "feature3Desc": "YouTube aj YouTube Music, bežný aj mini prehrávač.",
+    "gameHeading": "Máte radi mačky? Zahrajte si Purrfectly Dangerous",
+    "gameDescription": "Naša bezplatná pixelartová bežecká hra pre iPhone. Preveďte odvážne mačiatko piatimi svetmi, odomknite nové mačacie schopnosti a na konci každého sveta sa postavte veľkému bossovi.",
+    "gameCta": "Zobraziť v App Store",
+    "gameImageAlt": "Purrfectly Dangerous: dve mačiatka v plášťoch bežia svetmi čerešňových kvetov, ľadu, duchov a ohňa plnými bossov",
     "introHeading": "Malé vylepšenie pre každé video, ktoré pozeráte",
     "introBody1": "Nyan Progress Bar je bezplatné rozšírenie pre Chrome, ktoré nahradí plochú červenú lištu priebehu na YouTube ručne vybranou animovanou mačkou. Beží celé vo vašom prehliadači, nič od vás nepýta a dodá lište, na ktorú sa pozeráte celý deň, kúsok osobnosti. Hneď po inštalácii máte k dispozícii dvanásť mačiek — pôvodnú dúhovú Nyan Cat, pixelového papagája, glitch mačku, tancujúceho Garfielda a niekoľko jemných minimalistických siluet — a ako vlastný posuvník môžete nahrať akýkoľvek GIF.",
     "introBody2": "Celý produkt je jedno malé vylepšenie. Nainštalujete rozšírenie, vyberiete si mačku a od tej chvíle má každé video na YouTube a každá skladba na YouTube Music malého maskota, ktorý nasleduje prehrávanie. Nemusíte si vytvárať účet, učiť sa žiadne menu nastavení a neexistuje ani prémiová verzia. Jednoducho to funguje a keď to raz máte, prestanete si všímať, že to niečo robí — až kým vás to uprostred videa nepoteší.",
@@ -383,7 +387,7 @@
     "showMore": "Zobraziť viac",
     "showLess": "Zobraziť menej",
     "pageHeading": "Recenzie od skutočných používateľov",
-    "pageIntro1": "Nyan Progress Bar má v Internetovom obchode Chrome priemerné hodnotenie 4,8 hviezdičky zo 106 recenzií. Recenzie nižšie sú mix — navrchu je najčerstvejšia spätná väzba na najnovšiu verziu, za ňou nasleduje každá recenzia, ktorú sme zozbierali od úplne prvej verzie. Nič nie je vyberané ani filtrované. Negatívne recenzie zostávajú viditeľné, pretože sa z nich naučíme viac než z čohokoľvek iného.",
+    "pageIntro1": "Nyan Progress Bar má v Internetovom obchode Chrome priemerné hodnotenie 4,7 hviezdičky zo 113 recenzií. Recenzie nižšie sú mix — navrchu je najčerstvejšia spätná väzba na najnovšiu verziu, za ňou nasleduje každá recenzia, ktorú sme zozbierali od úplne prvej verzie. Nič nie je vyberané ani filtrované. Negatívne recenzie zostávajú viditeľné, pretože sa z nich naučíme viac než z čohokoľvek iného.",
     "pageIntro2": "Ak zvažujete inštaláciu rozšírenia, táto stránka je najúprimnejší obraz produktu, aký vám môžeme dať. Ak ho už používate a chceli by ste napísať verejnú recenziu, najužitočnejším miestom je Internetový obchod Chrome — výsledky vyhľadávania a poradie v obchode silno ovplyvňujú nedávne hodnotenia a jedno jednoriadkové hodnotenie od vás je najlepší spôsob, ako pomôcť projektu dostať sa k ďalším používateľom YouTube.",
     "themesHeading": "Čo používatelia spomínajú najčastejšie",
     "themesIntro": "V stovkách recenzií a hlásení chýb sa stále dookola objavujú tie isté tri témy.",

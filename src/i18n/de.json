@@ -18,7 +18,7 @@
     },
     "reviews": {
       "title": "Nutzerbewertungen — Nyan Progress Bar",
-      "description": "Sieh, was 106 Nutzer über die Nyan Progress Bar Chrome-Erweiterung sagen. Bewertet mit 4,8 Sternen."
+      "description": "Sieh, was 113 Nutzer über die Nyan Progress Bar Chrome-Erweiterung sagen. Bewertet mit 4,7 Sternen."
     },
     "customizer": {
       "title": "Katzen-Konfigurator — Nyan Progress Bar",
@@ -164,6 +164,10 @@
     "feature2Desc": "Verwende beliebige GIFs als benutzerdefinierten Scrubber.",
     "feature3Title": "Funktioniert überall",
     "feature3Desc": "YouTube und YouTube Music, Standard- und Mini-Player.",
+    "gameHeading": "Du liebst Katzen? Spiel Purrfectly Dangerous",
+    "gameDescription": "Unser kostenloser Pixel-Art-Runner fürs iPhone. Führe ein mutiges Kätzchen durch fünf Welten, schalte neue Katzenkräfte frei und stell dich am Ende jeder Welt einem großen Boss.",
+    "gameCta": "Im App Store ansehen",
+    "gameImageAlt": "Purrfectly Dangerous: Zwei Kätzchen mit Umhang rennen durch Welten voller Kirschblüten, Eis, Geister, Feuer und Bosse",
     "introHeading": "Ein kleines Upgrade für jedes Video, das du schaust",
     "introBody1": "Nyan Progress Bar ist eine kostenlose Chrome-Erweiterung, die den flachen roten Fortschrittsbalken von YouTube durch eine handverlesene animierte Katze ersetzt. Sie läuft vollständig in deinem Browser, verlangt nichts und verleiht dem Balken, auf den du den ganzen Tag schaust, ein kleines Stück Persönlichkeit. Zwölf Katzen sind direkt nach der Installation verfügbar — das Original, der Regenbogen-Nyan-Cat, ein Pixel-Papagei, eine Glitch-Cat, ein tanzender Garfield und mehrere weiche, minimalistische Silhouetten — und du kannst jedes beliebige GIF als deinen eigenen Scrubber hochladen.",
     "introBody2": "Das ganze Produkt ist ein winziges Upgrade. Du installierst die Erweiterung, wählst eine Katze und ab diesem Moment hat jedes YouTube-Video und jeder YouTube-Music-Titel ein kleines Maskottchen, das dem Abspielkopf folgt. Kein Konto zu erstellen, kein Einstellungsmenü zu lernen, keine Premium-Stufe. Es funktioniert einfach, und sobald es da ist, vergisst du, dass es überhaupt etwas tut — bis es dich mitten in einem Video zum Lächeln bringt.",
@@ -374,7 +378,7 @@
     "showMore": "Mehr anzeigen",
     "showLess": "Weniger anzeigen",
     "pageHeading": "Bewertungen von echten Nutzern",
-    "pageIntro1": "Nyan Progress Bar hat im Chrome Web Store einen Durchschnitt von 4,8 Sternen aus 106 Bewertungen. Die Bewertungen unten sind eine Mischung — das frischeste Feedback zur zuletzt veröffentlichten Version oben, gefolgt von allen Bewertungen, die wir seit der allerersten Version gesammelt haben. Nichts wird kuratiert oder gefiltert. Negative Bewertungen bleiben sichtbar, weil wir aus ihnen mehr lernen als aus allem anderen.",
+    "pageIntro1": "Nyan Progress Bar hat im Chrome Web Store einen Durchschnitt von 4,7 Sternen aus 113 Bewertungen. Die Bewertungen unten sind eine Mischung — das frischeste Feedback zur zuletzt veröffentlichten Version oben, gefolgt von allen Bewertungen, die wir seit der allerersten Version gesammelt haben. Nichts wird kuratiert oder gefiltert. Negative Bewertungen bleiben sichtbar, weil wir aus ihnen mehr lernen als aus allem anderen.",
     "pageIntro2": "Wenn du überlegst, die Erweiterung zu installieren, ist diese Seite das ehrlichste Bild, das wir vom Produkt zeichnen können. Wenn du sie bereits nutzt und eine öffentliche Bewertung hinterlassen möchtest, ist der Chrome Web Store der beste Ort — Suchergebnisse und Ranking dort werden stark von aktuellen Bewertungen beeinflusst, und eine einzelne Sternebewertung von dir ist der wirksamste Weg, dem Projekt zu helfen, andere YouTube-Nutzer zu erreichen.",
     "themesHeading": "Was Nutzer am häufigsten erwähnen",
     "themesIntro": "In hunderten Bewertungen und Fehlerberichten tauchen immer wieder dieselben drei Themen auf.",
